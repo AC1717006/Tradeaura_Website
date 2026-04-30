@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tradeaura Nebula Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+    </div>
+    
+    <div class="login-container">
+        <div class="glass-panel">
+            <div class="logo">
+                <div class="logo-icon"></div>
+                <h1>Tradeaura</h1>
+            </div>
+            <h2>Nebula Gateway</h2>
+            <p>Enter your credentials to access the Antigravity ecosystem.</p>
+            
+            <form id="loginForm">
+                <div class="input-group">
+                    <label for="email">Email ID</label>
+                    <input type="email" id="email" required placeholder="name@gym.com">
+                </div>
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" required placeholder="••••••••">
+                </div>
+                
+                <button type="submit" id="loginBtn" class="glow-on-hover">
+                    <span class="btn-text">Authenticate</span>
+                    <span class="loader hidden"></span>
+                </button>
+            </form>
+            
+            <div id="messageBox" class="message-box hidden"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
