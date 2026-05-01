@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Tradeaura Digital Solutions.">
+    <title>Tradeaura Digital Solutions | Contact Us</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        darkBase: '#0b0f19',
+                        brandBlue: '#3b82f6',
+                        brandPurple: '#8b5cf6',
+                        glassBg: 'rgba(255, 255, 255, 0.05)',
+                        glassBorder: 'rgba(255, 255, 255, 0.1)',
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        heading: ['Outfit', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="bg-darkBase text-gray-100 font-sans antialiased overflow-x-hidden flex flex-col min-h-screen">
+
+    <!-- Ambient Background -->
+    <div class="fixed top-[-10%] left-[-10%] w-96 h-96 bg-brandBlue/30 rounded-full mix-blend-screen filter blur-[100px] opacity-70 z-0"></div>
+    <div class="fixed top-[20%] right-[-5%] w-96 h-96 bg-brandPurple/30 rounded-full mix-blend-screen filter blur-[100px] opacity-70 z-0"></div>
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 transition-all duration-300 bg-black/50 backdrop-blur-md border-b border-glassBorder" id="navbar">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <div class="flex-shrink-0 flex items-center gap-2" data-aos="fade-right">
+                    <div class="w-10 h-10 rounded-lg bg-gradient-to-br from-brandBlue to-brandPurple flex items-center justify-center font-heading font-bold text-xl">
+                        TA
+                    </div>
+                    <span class="font-heading font-bold text-2xl tracking-wide">Tradeaura</span>
+                </div>
+                <div class="hidden md:block" data-aos="fade-left">
+                    <div class="ml-10 flex items-baseline space-x-6">
+                        <a href="../index.html" class="text-gray-300 hover:text-brandBlue transition-colors px-3 py-2 rounded-md text-sm font-medium">Home</a>
+                        <a href="services.html" class="text-gray-300 hover:text-brandBlue transition-colors px-3 py-2 rounded-md text-sm font-medium">Services</a>
+                        <a href="compare.html" class="text-gray-300 hover:text-brandBlue transition-colors px-3 py-2 rounded-md text-sm font-medium">Pricing</a>
+                        <a href="industries.html" class="text-gray-300 hover:text-brandBlue transition-colors px-3 py-2 rounded-md text-sm font-medium">Industries</a>
+                        <a href="about.html" class="text-gray-300 hover:text-brandBlue transition-colors px-3 py-2 rounded-md text-sm font-medium">About</a>
+                        <a href="contact.html" class="text-white px-3 py-2 rounded-md text-sm font-medium">Contact</a>
+                        <a href="join.html" target="_blank" class="bg-white/10 hover:bg-white/20 border border-white/20 backdrop-blur-md text-white px-5 py-2.5 rounded-full text-sm font-medium transition-all shadow-[0_0_15px_rgba(59,130,246,0.3)] hover:shadow-[0_0_25px_rgba(139,92,246,0.5)]">
+                            Join Now
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="flex-grow pt-32 pb-24 relative z-10 px-4">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h1 class="font-heading text-4xl md:text-6xl font-bold mb-6">Let's <span class="text-brandBlue">Connect</span></h1>
+                <p class="text-xl text-gray-400 max-w-2xl mx-auto">Have questions about automating your business? Our experts are ready to help you.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-5xl mx-auto">
+                <!-- Contact Info -->
+                <div class="glass-card p-10 rounded-3xl border border-glassBorder relative overflow-hidden" data-aos="fade-right">
+                    <div class="absolute -bottom-10 -right-10 w-40 h-40 bg-brandBlue/20 blur-2xl rounded-full pointer-events-none"></div>
+                    <h3 class="font-heading text-2xl font-bold mb-8">Get in touch</h3>
+                    
+                    <div class="space-y-6">
+                        <div class="flex items-start gap-4">
+                            <div class="w-12 h-12 rounded-full bg-brandBlue/20 flex items-center justify-center text-brandBlue flex-shrink-0">
+                                <i class="fab fa-whatsapp text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-medium text-gray-300 text-sm mb-1">WhatsApp / Call</h4>
+                                <a href="https://wa.me/919587402524" target="_blank" class="text-lg font-semibold text-white hover:text-brandBlue transition-colors">+91 95874 02524</a>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-4">
+                            <div class="w-12 h-12 rounded-full bg-brandPurple/20 flex items-center justify-center text-brandPurple flex-shrink-0">
+                                <i class="fas fa-envelope text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-medium text-gray-300 text-sm mb-1">Email</h4>
+                                <a href="mailto:helloajaychouhan@gmail.com" class="text-lg font-semibold text-white hover:text-brandPurple transition-colors">helloajaychouhan@gmail.com</a>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-4">
+                            <div class="w-12 h-12 rounded-full bg-pink-500/20 flex items-center justify-center text-pink-500 flex-shrink-0">
+                                <i class="fas fa-globe text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-medium text-gray-300 text-sm mb-1">Website</h4>
+                                <a href="https://www.auroautomation.site" target="_blank" class="text-lg font-semibold text-white hover:text-pink-500 transition-colors">www.auroautomation.site</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Registration Teaser -->
+                <div class="glass-card p-10 rounded-3xl border border-glassBorder flex flex-col justify-center text-center" data-aos="fade-left">
+                    <div class="w-20 h-20 rounded-full bg-gradient-to-r from-brandBlue to-brandPurple mx-auto flex items-center justify-center text-white text-3xl shadow-[0_0_20px_rgba(59,130,246,0.4)] mb-6">
+                        <i class="fas fa-paper-plane"></i>
+                    </div>
+                    <h3 class="font-heading text-2xl font-bold mb-4">Ready to start?</h3>
+                    <p class="text-gray-400 mb-8 leading-relaxed">Fill out our comprehensive registration form to tell us exactly what your business needs, and we'll craft the perfect automated solution for you.</p>
+                    <a href="join.html" target="_blank" class="px-8 py-4 rounded-full bg-gradient-to-r from-brandBlue to-brandPurple text-white font-semibold text-lg hover:scale-105 transition-all shadow-[0_0_20px_rgba(59,130,246,0.3)]">
+                        Open Registration Form
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="relative z-10 py-12 border-t border-glassBorder bg-black/40 backdrop-blur-md mt-auto">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row justify-between items-center gap-6">
+                <div class="text-center md:text-left">
+                    <h4 class="font-heading text-xl font-bold mb-2">Tradeaura Digital Solutions</h4>
+                    <p class="text-gray-400 text-sm">Empowering growth through smart systems.</p>
+                </div>
+                <div class="flex flex-col items-center md:items-end gap-2 text-sm text-gray-300">
+                    <p><i class="fas fa-user text-brandBlue mr-2"></i> Owned by <span class="font-semibold text-white">Ajay Chouhan</span></p>
+                    <p><i class="fas fa-envelope text-brandPurple mr-2"></i> <a href="mailto:helloajaychouhan@gmail.com" class="hover:text-white transition-colors">helloajaychouhan@gmail.com</a></p>
+                    <p><i class="fas fa-globe text-pink-500 mr-2"></i> <a href="https://www.auroautomation.site" target="_blank" class="hover:text-white transition-colors">www.auroautomation.site</a></p>
+                </div>
+            </div>
+            <div class="mt-8 pt-8 border-t border-white/10 text-center text-sm text-gray-500 flex flex-col md:flex-row justify-between items-center">
+                <p>&copy; 2026 Tradeaura Digital Solutions. All rights reserved.</p>
+                <p class="mt-2 md:mt-0">Dashboard Architecture Ready</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Sticky WhatsApp CTA -->
+    <a href="https://wa.me/919587402524" target="_blank" class="fixed bottom-6 right-6 z-50 w-14 h-14 bg-green-500 rounded-full flex items-center justify-center text-white text-3xl shadow-[0_0_20px_rgba(34,197,94,0.5)] hover:scale-110 transition-transform duration-300" aria-label="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+        <span class="absolute -top-1 -right-1 flex h-4 w-4">
+            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+            <span class="relative inline-flex rounded-full h-4 w-4 bg-green-500"></span>
+        </span>
+    </a>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="../js/script.js"></script>
+</body>
+</html>
