@@ -107,81 +107,192 @@
         </div>
     </section>
 
-    <!-- Services Section -->
-    <section id="services" class="relative z-10 py-24 px-4 bg-black/20 backdrop-blur-sm border-t border-glassBorder">
+    <!-- Stats Bar Section -->
+    <section class="relative z-10 py-12 px-4 bg-black/20 backdrop-blur-sm border-t border-b border-glassBorder">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
+                <div class="glass-card p-6 rounded-2xl border border-glassBorder" data-aos="fade-up" data-aos-delay="100">
+                    <div class="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-brandBlue to-brandPurple mb-2">50+</div>
+                    <div class="text-gray-400 font-medium">Businesses Automated</div>
+                </div>
+                <div class="glass-card p-6 rounded-2xl border border-glassBorder" data-aos="fade-up" data-aos-delay="200">
+                    <div class="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-brandBlue to-brandPurple mb-2">5+</div>
+                    <div class="text-gray-400 font-medium">Cities Covered</div>
+                </div>
+                <div class="glass-card p-6 rounded-2xl border border-glassBorder" data-aos="fade-up" data-aos-delay="300">
+                    <div class="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-brandBlue to-brandPurple mb-2">24/7</div>
+                    <div class="text-gray-400 font-medium">Support Available</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="relative z-10 py-24 px-4 bg-black/30">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="font-heading text-3xl md:text-5xl font-bold mb-4">How It <span class="text-brandBlue">Works</span></h2>
+                <p class="text-gray-400 max-w-2xl mx-auto">Three simple steps to transform your business operations.</p>
+            </div>
+            
+            <div class="flex flex-col md:flex-row justify-between items-center relative max-w-5xl mx-auto gap-12 md:gap-0">
+                <!-- Connecting Line (Desktop) -->
+                <div class="hidden md:block absolute top-1/2 left-[10%] right-[10%] h-0.5 border-t-2 border-dashed border-gray-600 -translate-y-1/2 z-0"></div>
+                
+                <!-- Step 1 -->
+                <div class="relative z-10 flex flex-col items-center text-center w-full md:w-1/3 px-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="w-20 h-20 rounded-2xl bg-brandBlue/20 flex items-center justify-center text-brandBlue text-3xl mb-6 glass-card border border-glassBorder">
+                        <i class="fas fa-clipboard-list"></i>
+                    </div>
+                    <h3 class="font-heading text-xl font-bold mb-2">Step 1: Register</h3>
+                    <p class="text-gray-400 text-sm">Tell us about your business and your core pain points.</p>
+                </div>
+                
+                <!-- Step 2 -->
+                <div class="relative z-10 flex flex-col items-center text-center w-full md:w-1/3 px-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="w-20 h-20 rounded-2xl bg-brandPurple/20 flex items-center justify-center text-brandPurple text-3xl mb-6 glass-card border border-glassBorder">
+                        <i class="fas fa-cog"></i>
+                    </div>
+                    <h3 class="font-heading text-xl font-bold mb-2">Step 2: We Build Your System</h3>
+                    <p class="text-gray-400 text-sm">Our experts create your custom automation in 3-7 days.</p>
+                </div>
+                
+                <!-- Step 3 -->
+                <div class="relative z-10 flex flex-col items-center text-center w-full md:w-1/3 px-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="w-20 h-20 rounded-2xl bg-pink-500/20 flex items-center justify-center text-pink-500 text-3xl mb-6 glass-card border border-glassBorder">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3 class="font-heading text-xl font-bold mb-2">Step 3: Go Live & Grow</h3>
+                    <p class="text-gray-400 text-sm">Launch your automated systems and scale your business.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Preview Section -->
+    <section class="relative z-10 py-24 px-4 border-t border-glassBorder bg-black/20 backdrop-blur-sm">
         <div class="max-w-7xl mx-auto">
             <div class="text-center mb-16" data-aos="fade-up">
                 <h2 class="font-heading text-3xl md:text-5xl font-bold mb-4">Our Premium <span class="text-brandPurple">Services</span></h2>
                 <p class="text-gray-400 max-w-2xl mx-auto">Dashboard-ready modules designed for the future of your business.</p>
             </div>
 
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
                 <!-- Service 1 -->
                 <div class="glass-card p-8 rounded-2xl border border-glassBorder hover:-translate-y-2 transition-transform duration-300" data-aos="fade-up" data-aos-delay="100">
                     <div class="w-14 h-14 rounded-xl bg-brandBlue/20 flex items-center justify-center mb-6 text-brandBlue text-2xl">
                         <i class="fab fa-whatsapp"></i>
                     </div>
                     <h3 class="font-heading text-2xl font-semibold mb-3">WhatsApp Automation</h3>
-                    <p class="text-gray-400 leading-relaxed">
+                    <p class="text-gray-400 leading-relaxed mb-4">
                         Engage customers 24/7 with smart chatbots, automated broadcasts, and seamless CRM integrations directly via WhatsApp.
                     </p>
+                    <ul class="space-y-2 text-sm text-gray-300">
+                        <li><i class="fas fa-check text-green-400 mr-2"></i> Auto-replies & Chatbots</li>
+                        <li><i class="fas fa-check text-green-400 mr-2"></i> Bulk Broadcast Campaigns</li>
+                    </ul>
                 </div>
 
                 <!-- Service 2 -->
-                <div class="glass-card p-8 rounded-2xl border border-glassBorder hover:-translate-y-2 transition-transform duration-300 relative overflow-hidden" data-aos="fade-up" data-aos-delay="200">
-                    <!-- Glow effect behind the card -->
-                    <div class="absolute -top-10 -right-10 w-32 h-32 bg-brandPurple/30 blur-2xl rounded-full"></div>
-                    <div class="w-14 h-14 rounded-xl bg-brandPurple/20 flex items-center justify-center mb-6 text-brandPurple text-2xl relative z-10">
-                        <i class="fas fa-code"></i>
-                    </div>
-                    <h3 class="font-heading text-2xl font-semibold mb-3 relative z-10">Custom Business Solutions</h3>
-                    <p class="text-gray-400 leading-relaxed relative z-10">
-                        Tailor-made software, dashboards, and SaaS platforms built to solve your unique operational bottlenecks.
-                    </p>
-                </div>
-
-                <!-- Service 3 -->
-                <div class="glass-card p-8 rounded-2xl border border-glassBorder hover:-translate-y-2 transition-transform duration-300" data-aos="fade-up" data-aos-delay="300">
+                <div class="glass-card p-8 rounded-2xl border border-glassBorder hover:-translate-y-2 transition-transform duration-300" data-aos="fade-up" data-aos-delay="200">
                     <div class="w-14 h-14 rounded-xl bg-pink-500/20 flex items-center justify-center mb-6 text-pink-500 text-2xl">
                         <i class="fas fa-chart-line"></i>
                     </div>
                     <h3 class="font-heading text-2xl font-semibold mb-3">Lead Management</h3>
-                    <p class="text-gray-400 leading-relaxed">
+                    <p class="text-gray-400 leading-relaxed mb-4">
                         Capture, nurture, and convert leads with our intelligent pipelines and automated follow-up systems.
                     </p>
+                    <ul class="space-y-2 text-sm text-gray-300">
+                        <li><i class="fas fa-check text-green-400 mr-2"></i> Lead Capturing Forms</li>
+                        <li><i class="fas fa-check text-green-400 mr-2"></i> Automated Follow-ups</li>
+                    </ul>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="glass-card p-8 rounded-2xl border border-glassBorder hover:-translate-y-2 transition-transform duration-300 relative overflow-hidden" data-aos="fade-up" data-aos-delay="300">
+                    <div class="absolute -top-10 -right-10 w-32 h-32 bg-brandPurple/30 blur-2xl rounded-full"></div>
+                    <div class="w-14 h-14 rounded-xl bg-brandPurple/20 flex items-center justify-center mb-6 text-brandPurple text-2xl relative z-10">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3 class="font-heading text-2xl font-semibold mb-3 relative z-10">Custom SaaS Solutions</h3>
+                    <p class="text-gray-400 leading-relaxed mb-4 relative z-10">
+                        Tailor-made software, dashboards, and SaaS platforms built to solve your unique operational bottlenecks.
+                    </p>
+                    <ul class="space-y-2 text-sm text-gray-300 relative z-10">
+                        <li><i class="fas fa-check text-green-400 mr-2"></i> Custom Dashboards</li>
+                        <li><i class="fas fa-check text-green-400 mr-2"></i> Internal Tools</li>
+                    </ul>
                 </div>
             </div>
-        </div>
-    </section>
 
-    <!-- Pricing Teaser Section -->
-    <section class="relative z-10 py-24 px-4 border-t border-glassBorder bg-black/30">
-        <div class="max-w-7xl mx-auto text-center">
-            <h2 class="font-heading text-3xl md:text-5xl font-bold mb-6">Simple, Transparent <span class="text-brandBlue">Pricing</span></h2>
-            <p class="text-gray-400 max-w-2xl mx-auto mb-12">Start automating your business today. Scale up as you grow with our flexible plans.</p>
-            <div class="flex justify-center" data-aos="fade-up">
-                <a href="pages/compare.html" class="px-8 py-4 rounded-full bg-gradient-to-r from-brandBlue to-brandPurple text-white font-semibold text-lg hover:scale-105 transition-all shadow-[0_0_20px_rgba(59,130,246,0.3)]">
-                    View All Plans
+            <div class="text-center" data-aos="fade-up" data-aos-delay="400">
+                <a href="pages/services.html" class="inline-flex items-center gap-2 px-8 py-3 rounded-full border border-brandBlue/50 text-brandBlue hover:bg-brandBlue/10 transition-colors font-medium">
+                    View All Services <i class="fas fa-arrow-right"></i>
                 </a>
             </div>
         </div>
     </section>
 
-    <!-- Testimonial Highlight -->
-    <section class="relative z-10 py-24 px-4 border-t border-glassBorder bg-black/20">
-        <div class="max-w-4xl mx-auto">
-            <div class="glass-card p-10 rounded-3xl border border-glassBorder text-center relative overflow-hidden" data-aos="fade-up">
-                <i class="fas fa-quote-left text-4xl text-brandBlue/30 absolute top-8 left-8"></i>
-                <i class="fas fa-quote-right text-4xl text-brandPurple/30 absolute bottom-8 right-8"></i>
-                <p class="text-xl md:text-2xl text-gray-300 font-light italic leading-relaxed mb-8 relative z-10">
-                    "Tradeaura Digital Solutions completely transformed how we handle client follow-ups. Their WhatsApp automation saved us countless hours every week and increased our conversions by 40%."
-                </p>
-                <div class="flex flex-col items-center justify-center relative z-10">
-                    <div class="w-16 h-16 rounded-full bg-gradient-to-r from-brandBlue to-brandPurple mb-4 flex items-center justify-center text-xl font-bold text-white">S</div>
-                    <h4 class="font-heading font-semibold text-lg">Sagar</h4>
-                    <p class="text-gray-400 text-sm">Gym Owner</p>
+    <!-- Testimonials Section -->
+    <section class="relative z-10 py-24 px-4 border-t border-glassBorder bg-black/30">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="font-heading text-3xl md:text-5xl font-bold mb-4">Client <span class="text-transparent bg-clip-text bg-gradient-to-r from-brandBlue to-brandPurple">Success</span> Stories</h2>
+                <p class="text-gray-400 max-w-2xl mx-auto">Hear what our partners have to say about working with us.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+                <!-- Testimonial 1 -->
+                <div class="glass-card p-10 rounded-3xl border border-t-brandBlue/50 border-l-brandBlue/50 border-b-glassBorder border-r-glassBorder relative overflow-hidden" data-aos="fade-up" data-aos-delay="100">
+                    <i class="fas fa-quote-left text-4xl text-brandBlue/20 absolute top-8 left-8"></i>
+                    <div class="mb-6 flex text-yellow-400 relative z-10 mt-4">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-xl text-gray-300 italic leading-relaxed mb-8 relative z-10">
+                        "Hamari leads 3x ho gayi sirf 2 mahine mein!"
+                    </p>
+                    <div class="flex items-center gap-4 relative z-10">
+                        <div class="w-12 h-12 rounded-full bg-brandBlue/20 flex items-center justify-center font-bold text-brandBlue">R</div>
+                        <div>
+                            <h4 class="font-heading font-semibold">Rahul Sharma</h4>
+                            <p class="text-gray-400 text-sm">Gym Owner, Delhi</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="glass-card p-10 rounded-3xl border border-t-brandPurple/50 border-r-brandPurple/50 border-b-glassBorder border-l-glassBorder relative overflow-hidden" data-aos="fade-up" data-aos-delay="200">
+                    <i class="fas fa-quote-left text-4xl text-brandPurple/20 absolute top-8 left-8"></i>
+                    <div class="mb-6 flex text-yellow-400 relative z-10 mt-4">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-xl text-gray-300 italic leading-relaxed mb-8 relative z-10">
+                        "WhatsApp bot ne customer support 80% reduce kar diya."
+                    </p>
+                    <div class="flex items-center gap-4 relative z-10">
+                        <div class="w-12 h-12 rounded-full bg-brandPurple/20 flex items-center justify-center font-bold text-brandPurple">P</div>
+                        <div>
+                            <h4 class="font-heading font-semibold">Priya Mehta</h4>
+                            <p class="text-gray-400 text-sm">Salon Owner, Jaipur</p>
+                        </div>
+                    </div>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <!-- CTA Banner Section -->
+    <section class="relative z-10 py-20 px-4">
+        <div class="max-w-5xl mx-auto rounded-3xl bg-gradient-to-r from-brandBlue to-brandPurple p-12 text-center shadow-[0_0_40px_rgba(59,130,246,0.4)] relative overflow-hidden" data-aos="zoom-in">
+            <!-- Decorative background elements -->
+            <div class="absolute top-0 right-0 w-64 h-64 bg-white/10 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2"></div>
+            <div class="absolute bottom-0 left-0 w-64 h-64 bg-black/10 rounded-full blur-3xl translate-y-1/2 -translate-x-1/2"></div>
+            
+            <h2 class="font-heading text-4xl md:text-5xl font-bold text-white mb-6 relative z-10">Ready to Automate Your Business?</h2>
+            <p class="text-xl text-white/90 mb-10 max-w-2xl mx-auto relative z-10">Join 50+ businesses already growing with Tradeaura.</p>
+            <a href="pages/join.html" target="_blank" class="inline-flex items-center gap-2 px-8 py-4 rounded-full bg-white text-brandBlue font-bold text-lg hover:scale-105 transition-transform shadow-xl relative z-10">
+                Join Now Free <i class="fas fa-arrow-right"></i>
+            </a>
         </div>
     </section>
 
