@@ -167,18 +167,18 @@
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div>
                         <label class="block text-sm font-medium text-gray-300 mb-2">Business Name <span class="text-red-500">*</span></label>
-                        <input type="text" required class="w-full bg-black/40 border border-glassBorder rounded-xl px-4 py-3 text-white focus:outline-none focus:border-brandBlue focus:ring-1 focus:ring-brandBlue transition-colors placeholder-gray-500" placeholder="e.g. Aura Styles">
+                        <input type="text" name="businessName" required class="w-full bg-black/40 border border-glassBorder rounded-xl px-4 py-3 text-white focus:outline-none focus:border-brandBlue focus:ring-1 focus:ring-brandBlue transition-colors placeholder-gray-500" placeholder="e.g. Aura Styles">
                     </div>
                     <div>
                         <label class="block text-sm font-medium text-gray-300 mb-2">Owner Name <span class="text-red-500">*</span></label>
-                        <input type="text" required class="w-full bg-black/40 border border-glassBorder rounded-xl px-4 py-3 text-white focus:outline-none focus:border-brandBlue focus:ring-1 focus:ring-brandBlue transition-colors placeholder-gray-500" placeholder="e.g. Ajay Chouhan">
+                        <input type="text" name="ownerName" required class="w-full bg-black/40 border border-glassBorder rounded-xl px-4 py-3 text-white focus:outline-none focus:border-brandBlue focus:ring-1 focus:ring-brandBlue transition-colors placeholder-gray-500" placeholder="e.g. Ajay Chouhan">
                     </div>
                 </div>
 
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div>
                         <label class="block text-sm font-medium text-gray-300 mb-2">Business Type <span class="text-red-500">*</span></label>
-                        <select required class="w-full bg-black/40 border border-glassBorder rounded-xl px-4 py-3 text-white focus:outline-none focus:border-brandBlue focus:ring-1 focus:ring-brandBlue transition-colors appearance-none">
+                        <select name="businessType" required class="w-full bg-black/40 border border-glassBorder rounded-xl px-4 py-3 text-white focus:outline-none focus:border-brandBlue focus:ring-1 focus:ring-brandBlue transition-colors appearance-none">
                             <option value="" disabled selected class="bg-darkBase">Select Type</option>
                             <option value="gym" class="bg-darkBase">Gym / Fitness Center</option>
                             <option value="salon" class="bg-darkBase">Salon / Spa</option>
@@ -190,11 +190,11 @@
                     <div class="grid grid-cols-2 gap-4">
                         <div>
                             <label class="block text-sm font-medium text-gray-300 mb-2">City <span class="text-red-500">*</span></label>
-                            <input type="text" required class="w-full bg-black/40 border border-glassBorder rounded-xl px-4 py-3 text-white focus:outline-none focus:border-brandBlue transition-colors placeholder-gray-500" placeholder="City">
+                            <input type="text" name="city" required class="w-full bg-black/40 border border-glassBorder rounded-xl px-4 py-3 text-white focus:outline-none focus:border-brandBlue transition-colors placeholder-gray-500" placeholder="City">
                         </div>
                         <div>
                             <label class="block text-sm font-medium text-gray-300 mb-2">State <span class="text-red-500">*</span></label>
-                            <input type="text" required class="w-full bg-black/40 border border-glassBorder rounded-xl px-4 py-3 text-white focus:outline-none focus:border-brandBlue transition-colors placeholder-gray-500" placeholder="State">
+                            <input type="text" name="state" required class="w-full bg-black/40 border border-glassBorder rounded-xl px-4 py-3 text-white focus:outline-none focus:border-brandBlue transition-colors placeholder-gray-500" placeholder="State">
                         </div>
                     </div>
                 </div>
@@ -203,11 +203,11 @@
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div>
                         <label class="block text-sm font-medium text-gray-300 mb-2">Mobile Number <span class="text-red-500">*</span></label>
-                        <input type="tel" pattern="[0-9]{10}" required title="Please enter a valid 10-digit mobile number" class="w-full bg-black/40 border border-glassBorder rounded-xl px-4 py-3 text-white focus:outline-none focus:border-brandBlue focus:ring-1 focus:ring-brandBlue transition-colors placeholder-gray-500" placeholder="10-digit mobile number">
+                        <input type="tel" name="mobile" pattern="[0-9]{10}" required title="Please enter a valid 10-digit mobile number" class="w-full bg-black/40 border border-glassBorder rounded-xl px-4 py-3 text-white focus:outline-none focus:border-brandBlue focus:ring-1 focus:ring-brandBlue transition-colors placeholder-gray-500" placeholder="10-digit mobile number">
                     </div>
                     <div>
                         <label class="block text-sm font-medium text-gray-300 mb-2">Email ID <span class="text-red-500">*</span></label>
-                        <input type="email" required class="w-full bg-black/40 border border-glassBorder rounded-xl px-4 py-3 text-white focus:outline-none focus:border-brandBlue focus:ring-1 focus:ring-brandBlue transition-colors placeholder-gray-500" placeholder="your@email.com">
+                        <input type="email" name="email" required class="w-full bg-black/40 border border-glassBorder rounded-xl px-4 py-3 text-white focus:outline-none focus:border-brandBlue focus:ring-1 focus:ring-brandBlue transition-colors placeholder-gray-500" placeholder="your@email.com">
                     </div>
                 </div>
 
@@ -216,19 +216,19 @@
                     <label class="block text-sm font-medium text-gray-300 mb-3">Pain Points (Select all that apply)</label>
                     <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 bg-black/20 p-4 rounded-xl border border-glassBorder/50">
                         <label class="flex items-center space-x-3 cursor-pointer group">
-                            <input type="checkbox" class="w-5 h-5 rounded border-glassBorder bg-black/40 text-brandBlue focus:ring-brandBlue focus:ring-offset-0">
+                            <input type="checkbox" name="painPoints" value="Leads Follow-up" class="w-5 h-5 rounded border-glassBorder bg-black/40 text-brandBlue focus:ring-brandBlue focus:ring-offset-0">
                             <span class="text-gray-400 group-hover:text-white transition-colors">Leads Follow-up</span>
                         </label>
                         <label class="flex items-center space-x-3 cursor-pointer group">
-                            <input type="checkbox" class="w-5 h-5 rounded border-glassBorder bg-black/40 text-brandBlue focus:ring-brandBlue focus:ring-offset-0">
+                            <input type="checkbox" name="painPoints" value="Payment Reminders" class="w-5 h-5 rounded border-glassBorder bg-black/40 text-brandBlue focus:ring-brandBlue focus:ring-offset-0">
                             <span class="text-gray-400 group-hover:text-white transition-colors">Payment Reminders</span>
                         </label>
                         <label class="flex items-center space-x-3 cursor-pointer group">
-                            <input type="checkbox" class="w-5 h-5 rounded border-glassBorder bg-black/40 text-brandBlue focus:ring-brandBlue focus:ring-offset-0">
+                            <input type="checkbox" name="painPoints" value="Staff Management" class="w-5 h-5 rounded border-glassBorder bg-black/40 text-brandBlue focus:ring-brandBlue focus:ring-offset-0">
                             <span class="text-gray-400 group-hover:text-white transition-colors">Staff Management</span>
                         </label>
                         <label class="flex items-center space-x-3 cursor-pointer group">
-                            <input type="checkbox" class="w-5 h-5 rounded border-glassBorder bg-black/40 text-brandBlue focus:ring-brandBlue focus:ring-offset-0">
+                            <input type="checkbox" name="painPoints" value="Automation Issues" class="w-5 h-5 rounded border-glassBorder bg-black/40 text-brandBlue focus:ring-brandBlue focus:ring-offset-0">
                             <span class="text-gray-400 group-hover:text-white transition-colors">Automation Issues</span>
                         </label>
                     </div>
@@ -237,17 +237,18 @@
                 <!-- Requirements -->
                 <div>
                     <label class="block text-sm font-medium text-gray-300 mb-2">What solution are you looking for?</label>
-                    <textarea rows="3" class="w-full bg-black/40 border border-glassBorder rounded-xl px-4 py-3 text-white focus:outline-none focus:border-brandBlue focus:ring-1 focus:ring-brandBlue transition-colors placeholder-gray-500 resize-none" placeholder="Briefly describe your requirements..."></textarea>
+                    <textarea name="requirements" rows="3" class="w-full bg-black/40 border border-glassBorder rounded-xl px-4 py-3 text-white focus:outline-none focus:border-brandBlue focus:ring-1 focus:ring-brandBlue transition-colors placeholder-gray-500 resize-none" placeholder="Briefly describe your requirements..."></textarea>
                 </div>
 
                 <!-- Consent -->
                 <label class="flex items-center space-x-3 cursor-pointer">
-                    <input type="checkbox" required class="w-5 h-5 rounded border-glassBorder bg-black/40 text-brandBlue focus:ring-brandBlue focus:ring-offset-0 mt-0.5">
+                    <input type="checkbox" name="consent" required class="w-5 h-5 rounded border-glassBorder bg-black/40 text-brandBlue focus:ring-brandBlue focus:ring-offset-0 mt-0.5">
                     <span class="text-sm text-gray-400">I agree to share my data for business purposes and consent to receive communication.</span>
                 </label>
 
-                <button type="submit" class="w-full py-4 rounded-xl bg-gradient-to-r from-brandBlue to-brandPurple text-white font-semibold text-lg hover:scale-[1.02] transition-transform shadow-[0_0_20px_rgba(59,130,246,0.3)]">
-                    Submit Registration
+                <button id="submitBtn" type="submit" class="w-full py-4 rounded-xl bg-gradient-to-r from-brandBlue to-brandPurple text-white font-semibold text-lg hover:scale-[1.02] transition-transform shadow-[0_0_20px_rgba(59,130,246,0.3)] flex items-center justify-center gap-2">
+                    <span>Submit Registration</span>
+                    <i class="fas fa-spinner fa-spin hidden" id="submitSpinner"></i>
                 </button>
             </form>
 

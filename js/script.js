@@ -35,17 +35,53 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 // Form Submission Handler
-function handleRegistration(event) {
+async function handleRegistration(event) {
     event.preventDefault();
     
-    // Hide form, show success message
     const form = document.getElementById('registrationForm');
+    const submitBtn = document.getElementById('submitBtn');
+    const submitSpinner = document.getElementById('submitSpinner');
     const successMsg = document.getElementById('successMessage');
     
-    // Add simple fade-out/fade-in using CSS classes
-    form.classList.add('hidden');
-    successMsg.classList.remove('hidden');
-    successMsg.classList.add('animate-fade-in'); // Tailwind utility if configured, or just displays
+    // Disable button and show spinner
+    submitBtn.disabled = true;
+    submitSpinner.classList.remove('hidden');
+    
+    // REPLACE THIS URL WITH YOUR GOOGLE APPS SCRIPT WEB APP URL
+    const SCRIPT_URL = 'YOUR_GOOGLE_APPS_SCRIPT_WEB_APP_URL_HERE';
+    
+    try {
+        const formData = new FormData(form);
+        
+        // Handle multiple checkboxes (Pain Points)
+        const painPoints = formData.getAll('painPoints');
+        formData.delete('painPoints');
+        formData.append('painPoints', painPoints.join(', '));
+        
+        // Optional: If you haven't deployed the Google Script yet, this will just simulate success
+        if (SCRIPT_URL === 'YOUR_GOOGLE_APPS_SCRIPT_WEB_APP_URL_HERE') {
+            await new Promise(r => setTimeout(r, 1000)); // Simulate network request
+        } else {
+            await fetch(SCRIPT_URL, {
+                method: 'POST',
+                mode: 'no-cors',
+                body: formData
+            });
+            // With no-cors, we can't read the response, so we assume success if no network error thrown
+        }
+
+        // Hide form, show success message
+        form.classList.add('hidden');
+        successMsg.classList.remove('hidden');
+        successMsg.classList.add('animate-fade-in');
+        
+    } catch (error) {
+        console.error('Error submitting form!', error);
+        alert('There was an error submitting your registration. Please try again.');
+    } finally {
+        submitBtn.disabled = false;
+        submitSpinner.classList.add('hidden');
+    }
 }
 
 function resetForm() {
