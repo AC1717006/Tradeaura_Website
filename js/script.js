@@ -33,3 +33,26 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 });
+
+// Form Submission Handler
+function handleRegistration(event) {
+    event.preventDefault();
+    
+    // Hide form, show success message
+    const form = document.getElementById('registrationForm');
+    const successMsg = document.getElementById('successMessage');
+    
+    // Add simple fade-out/fade-in using CSS classes
+    form.classList.add('hidden');
+    successMsg.classList.remove('hidden');
+    successMsg.classList.add('animate-fade-in'); // Tailwind utility if configured, or just displays
+}
+
+function resetForm() {
+    const form = document.getElementById('registrationForm');
+    const successMsg = document.getElementById('successMessage');
+    
+    form.reset();
+    successMsg.classList.add('hidden');
+    form.classList.remove('hidden');
+}

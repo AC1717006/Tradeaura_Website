@@ -87,15 +87,18 @@
             Tradeaura Digital Solutions empowers your business with cutting-edge automation, custom SaaS, and intelligent lead management to scale effortlessly.
         </p>
         
-        <div class="flex flex-col sm:flex-row gap-6 justify-center" data-aos="fade-up" data-aos-delay="400">
-            <a href="https://wa.me/919587402524" target="_blank" class="group relative px-8 py-4 rounded-full bg-gradient-to-r from-brandBlue to-brandPurple text-white font-semibold text-lg overflow-hidden transition-all hover:scale-105 shadow-[0_0_30px_rgba(59,130,246,0.5)]">
+        <div class="flex flex-col sm:flex-row gap-6 justify-center flex-wrap" data-aos="fade-up" data-aos-delay="400">
+            <a href="#registration" class="group relative px-8 py-4 rounded-full bg-gradient-to-r from-brandPurple to-pink-500 text-white font-semibold text-lg overflow-hidden transition-all hover:scale-105 shadow-[0_0_30px_rgba(139,92,246,0.5)]">
                 <div class="absolute inset-0 bg-white/20 group-hover:translate-x-full transition-transform duration-500 ease-out -skew-x-12 -ml-4"></div>
                 <span class="relative flex items-center gap-2">
-                    <i class="fab fa-whatsapp text-xl"></i> Chat on WhatsApp
+                    <i class="fas fa-rocket text-xl"></i> Join Now
                 </span>
             </a>
+            <a href="https://wa.me/919587402524" target="_blank" class="px-8 py-4 rounded-full bg-glassBg border border-glassBorder backdrop-blur-md text-white font-semibold text-lg hover:bg-white/10 transition-all hover:scale-105 flex items-center gap-2">
+                <i class="fab fa-whatsapp text-xl text-green-400"></i> WhatsApp
+            </a>
             <a href="#services" class="px-8 py-4 rounded-full bg-glassBg border border-glassBorder backdrop-blur-md text-white font-semibold text-lg hover:bg-white/10 transition-all hover:scale-105">
-                Explore Services
+                Explore
             </a>
         </div>
     </section>
@@ -143,6 +146,121 @@
                         Capture, nurture, and convert leads with our intelligent pipelines and automated follow-up systems.
                     </p>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Registration Section -->
+    <section id="registration" class="relative z-10 py-24 px-4 border-t border-glassBorder bg-black/30">
+        <div class="max-w-4xl mx-auto glass-card p-8 md:p-12 rounded-3xl border border-glassBorder relative overflow-hidden" data-aos="fade-up">
+            <!-- Glow effect -->
+            <div class="absolute -top-20 -left-20 w-64 h-64 bg-brandBlue/20 blur-3xl rounded-full pointer-events-none"></div>
+            <div class="absolute -bottom-20 -right-20 w-64 h-64 bg-brandPurple/20 blur-3xl rounded-full pointer-events-none"></div>
+            
+            <div class="text-center mb-12 relative z-10">
+                <h2 class="font-heading text-3xl md:text-5xl font-bold mb-4">Join Our <span class="text-transparent bg-clip-text bg-gradient-to-r from-brandBlue to-brandPurple">Network</span></h2>
+                <p class="text-gray-400">Register your business today and step into the future of automation.</p>
+            </div>
+            
+            <form id="registrationForm" onsubmit="handleRegistration(event)" class="space-y-6 relative z-10">
+                <!-- Business Info -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                        <label class="block text-sm font-medium text-gray-300 mb-2">Business Name <span class="text-red-500">*</span></label>
+                        <input type="text" required class="w-full bg-black/40 border border-glassBorder rounded-xl px-4 py-3 text-white focus:outline-none focus:border-brandBlue focus:ring-1 focus:ring-brandBlue transition-colors placeholder-gray-500" placeholder="e.g. Aura Styles">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-300 mb-2">Owner Name <span class="text-red-500">*</span></label>
+                        <input type="text" required class="w-full bg-black/40 border border-glassBorder rounded-xl px-4 py-3 text-white focus:outline-none focus:border-brandBlue focus:ring-1 focus:ring-brandBlue transition-colors placeholder-gray-500" placeholder="e.g. Ajay Chouhan">
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                        <label class="block text-sm font-medium text-gray-300 mb-2">Business Type <span class="text-red-500">*</span></label>
+                        <select required class="w-full bg-black/40 border border-glassBorder rounded-xl px-4 py-3 text-white focus:outline-none focus:border-brandBlue focus:ring-1 focus:ring-brandBlue transition-colors appearance-none">
+                            <option value="" disabled selected class="bg-darkBase">Select Type</option>
+                            <option value="gym" class="bg-darkBase">Gym / Fitness Center</option>
+                            <option value="salon" class="bg-darkBase">Salon / Spa</option>
+                            <option value="agency" class="bg-darkBase">Digital Agency</option>
+                            <option value="retail" class="bg-darkBase">Retail Store</option>
+                            <option value="other" class="bg-darkBase">Other</option>
+                        </select>
+                    </div>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div>
+                            <label class="block text-sm font-medium text-gray-300 mb-2">City <span class="text-red-500">*</span></label>
+                            <input type="text" required class="w-full bg-black/40 border border-glassBorder rounded-xl px-4 py-3 text-white focus:outline-none focus:border-brandBlue transition-colors placeholder-gray-500" placeholder="City">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-300 mb-2">State <span class="text-red-500">*</span></label>
+                            <input type="text" required class="w-full bg-black/40 border border-glassBorder rounded-xl px-4 py-3 text-white focus:outline-none focus:border-brandBlue transition-colors placeholder-gray-500" placeholder="State">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                        <label class="block text-sm font-medium text-gray-300 mb-2">Mobile Number <span class="text-red-500">*</span></label>
+                        <input type="tel" pattern="[0-9]{10}" required title="Please enter a valid 10-digit mobile number" class="w-full bg-black/40 border border-glassBorder rounded-xl px-4 py-3 text-white focus:outline-none focus:border-brandBlue focus:ring-1 focus:ring-brandBlue transition-colors placeholder-gray-500" placeholder="10-digit mobile number">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-300 mb-2">Email ID <span class="text-red-500">*</span></label>
+                        <input type="email" required class="w-full bg-black/40 border border-glassBorder rounded-xl px-4 py-3 text-white focus:outline-none focus:border-brandBlue focus:ring-1 focus:ring-brandBlue transition-colors placeholder-gray-500" placeholder="your@email.com">
+                    </div>
+                </div>
+
+                <!-- Pain Points -->
+                <div>
+                    <label class="block text-sm font-medium text-gray-300 mb-3">Pain Points (Select all that apply)</label>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 bg-black/20 p-4 rounded-xl border border-glassBorder/50">
+                        <label class="flex items-center space-x-3 cursor-pointer group">
+                            <input type="checkbox" class="w-5 h-5 rounded border-glassBorder bg-black/40 text-brandBlue focus:ring-brandBlue focus:ring-offset-0">
+                            <span class="text-gray-400 group-hover:text-white transition-colors">Leads Follow-up</span>
+                        </label>
+                        <label class="flex items-center space-x-3 cursor-pointer group">
+                            <input type="checkbox" class="w-5 h-5 rounded border-glassBorder bg-black/40 text-brandBlue focus:ring-brandBlue focus:ring-offset-0">
+                            <span class="text-gray-400 group-hover:text-white transition-colors">Payment Reminders</span>
+                        </label>
+                        <label class="flex items-center space-x-3 cursor-pointer group">
+                            <input type="checkbox" class="w-5 h-5 rounded border-glassBorder bg-black/40 text-brandBlue focus:ring-brandBlue focus:ring-offset-0">
+                            <span class="text-gray-400 group-hover:text-white transition-colors">Staff Management</span>
+                        </label>
+                        <label class="flex items-center space-x-3 cursor-pointer group">
+                            <input type="checkbox" class="w-5 h-5 rounded border-glassBorder bg-black/40 text-brandBlue focus:ring-brandBlue focus:ring-offset-0">
+                            <span class="text-gray-400 group-hover:text-white transition-colors">Automation Issues</span>
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Requirements -->
+                <div>
+                    <label class="block text-sm font-medium text-gray-300 mb-2">What solution are you looking for?</label>
+                    <textarea rows="3" class="w-full bg-black/40 border border-glassBorder rounded-xl px-4 py-3 text-white focus:outline-none focus:border-brandBlue focus:ring-1 focus:ring-brandBlue transition-colors placeholder-gray-500 resize-none" placeholder="Briefly describe your requirements..."></textarea>
+                </div>
+
+                <!-- Consent -->
+                <label class="flex items-center space-x-3 cursor-pointer">
+                    <input type="checkbox" required class="w-5 h-5 rounded border-glassBorder bg-black/40 text-brandBlue focus:ring-brandBlue focus:ring-offset-0 mt-0.5">
+                    <span class="text-sm text-gray-400">I agree to share my data for business purposes and consent to receive communication.</span>
+                </label>
+
+                <button type="submit" class="w-full py-4 rounded-xl bg-gradient-to-r from-brandBlue to-brandPurple text-white font-semibold text-lg hover:scale-[1.02] transition-transform shadow-[0_0_20px_rgba(59,130,246,0.3)]">
+                    Submit Registration
+                </button>
+            </form>
+
+            <!-- Success Message (Hidden by default) -->
+            <div id="successMessage" class="hidden text-center py-12 relative z-10">
+                <div class="w-20 h-20 bg-green-500/20 text-green-500 rounded-full flex items-center justify-center mx-auto mb-6 text-4xl shadow-[0_0_30px_rgba(34,197,94,0.3)]">
+                    <i class="fas fa-check"></i>
+                </div>
+                <h3 class="font-heading text-3xl font-bold mb-4">Registration Successful!</h3>
+                <p class="text-gray-400 max-w-md mx-auto">Thank you for joining Tradeaura's network. Our team will review your requirements and contact you shortly.</p>
+                <button onclick="resetForm()" class="mt-8 px-8 py-3 rounded-full bg-glassBg border border-glassBorder backdrop-blur-md text-white hover:bg-white/10 transition-colors">
+                    Register Another Business
+                </button>
             </div>
         </div>
     </section>
