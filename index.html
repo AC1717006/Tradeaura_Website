@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tradeaura Digital Solutions - Automate Your Business and Grow Faster with Smart Systems.">
+    <title>Tradeaura Digital Solutions</title>
+
+    <!-- Tailwind CSS (CDN for simple setup) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        darkBase: '#0b0f19',
+                        brandBlue: '#3b82f6',
+                        brandPurple: '#8b5cf6',
+                        glassBg: 'rgba(255, 255, 255, 0.05)',
+                        glassBorder: 'rgba(255, 255, 255, 0.1)',
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        heading: ['Outfit', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- AOS Animation CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-darkBase text-gray-100 font-sans antialiased overflow-x-hidden">
+
+    <!-- Ambient Background Gradients -->
+    <div class="fixed top-[-10%] left-[-10%] w-96 h-96 bg-brandBlue/30 rounded-full mix-blend-screen filter blur-[100px] opacity-70 z-0"></div>
+    <div class="fixed top-[20%] right-[-5%] w-96 h-96 bg-brandPurple/30 rounded-full mix-blend-screen filter blur-[100px] opacity-70 z-0"></div>
+    <div class="fixed bottom-[-10%] left-[20%] w-[30rem] h-[30rem] bg-brandBlue/20 rounded-full mix-blend-screen filter blur-[120px] opacity-60 z-0"></div>
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 transition-all duration-300" id="navbar">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <div class="flex-shrink-0 flex items-center gap-2" data-aos="fade-right">
+                    <div class="w-10 h-10 rounded-lg bg-gradient-to-br from-brandBlue to-brandPurple flex items-center justify-center font-heading font-bold text-xl">
+                        TA
+                    </div>
+                    <span class="font-heading font-bold text-2xl tracking-wide">Tradeaura</span>
+                </div>
+                <div class="hidden md:block" data-aos="fade-left">
+                    <div class="ml-10 flex items-baseline space-x-8">
+                        <a href="#home" class="hover:text-brandBlue transition-colors px-3 py-2 rounded-md text-sm font-medium">Home</a>
+                        <a href="#services" class="hover:text-brandPurple transition-colors px-3 py-2 rounded-md text-sm font-medium">Services</a>
+                        <a href="https://wa.me/919587402524" target="_blank" class="bg-white/10 hover:bg-white/20 border border-white/20 backdrop-blur-md text-white px-5 py-2.5 rounded-full text-sm font-medium transition-all shadow-[0_0_15px_rgba(59,130,246,0.3)] hover:shadow-[0_0_25px_rgba(139,92,246,0.5)]">
+                            Contact Us
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative z-10 pt-32 pb-20 lg:pt-48 lg:pb-32 flex flex-col items-center justify-center min-h-screen text-center px-4">
+        <div class="inline-block mb-6 px-4 py-1.5 rounded-full border border-brandBlue/30 bg-brandBlue/10 text-brandBlue text-sm font-medium tracking-wider uppercase" data-aos="fade-down" data-aos-delay="100">
+            Digital Transformation Agency
+        </div>
+        
+        <h1 class="font-heading text-5xl md:text-7xl font-extrabold tracking-tight mb-8 max-w-5xl leading-tight" data-aos="zoom-in" data-aos-delay="200">
+            Automate Your Business.<br>
+            <span class="text-transparent bg-clip-text bg-gradient-to-r from-brandBlue via-brandPurple to-pink-500">
+                Grow Faster
+            </span> with Smart Systems.
+        </h1>
+        
+        <p class="text-lg md:text-xl text-gray-300 mb-12 max-w-2xl mx-auto font-light leading-relaxed" data-aos="fade-up" data-aos-delay="300">
+            Tradeaura Digital Solutions empowers your business with cutting-edge automation, custom SaaS, and intelligent lead management to scale effortlessly.
+        </p>
+        
+        <div class="flex flex-col sm:flex-row gap-6 justify-center" data-aos="fade-up" data-aos-delay="400">
+            <a href="https://wa.me/919587402524" target="_blank" class="group relative px-8 py-4 rounded-full bg-gradient-to-r from-brandBlue to-brandPurple text-white font-semibold text-lg overflow-hidden transition-all hover:scale-105 shadow-[0_0_30px_rgba(59,130,246,0.5)]">
+                <div class="absolute inset-0 bg-white/20 group-hover:translate-x-full transition-transform duration-500 ease-out -skew-x-12 -ml-4"></div>
+                <span class="relative flex items-center gap-2">
+                    <i class="fab fa-whatsapp text-xl"></i> Chat on WhatsApp
+                </span>
+            </a>
+            <a href="#services" class="px-8 py-4 rounded-full bg-glassBg border border-glassBorder backdrop-blur-md text-white font-semibold text-lg hover:bg-white/10 transition-all hover:scale-105">
+                Explore Services
+            </a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="relative z-10 py-24 px-4 bg-black/20 backdrop-blur-sm border-t border-glassBorder">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="font-heading text-3xl md:text-5xl font-bold mb-4">Our Premium <span class="text-brandPurple">Services</span></h2>
+                <p class="text-gray-400 max-w-2xl mx-auto">Dashboard-ready modules designed for the future of your business.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Service 1 -->
+                <div class="glass-card p-8 rounded-2xl border border-glassBorder hover:-translate-y-2 transition-transform duration-300" data-aos="fade-up" data-aos-delay="100">
+                    <div class="w-14 h-14 rounded-xl bg-brandBlue/20 flex items-center justify-center mb-6 text-brandBlue text-2xl">
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+                    <h3 class="font-heading text-2xl font-semibold mb-3">WhatsApp Automation</h3>
+                    <p class="text-gray-400 leading-relaxed">
+                        Engage customers 24/7 with smart chatbots, automated broadcasts, and seamless CRM integrations directly via WhatsApp.
+                    </p>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="glass-card p-8 rounded-2xl border border-glassBorder hover:-translate-y-2 transition-transform duration-300 relative overflow-hidden" data-aos="fade-up" data-aos-delay="200">
+                    <!-- Glow effect behind the card -->
+                    <div class="absolute -top-10 -right-10 w-32 h-32 bg-brandPurple/30 blur-2xl rounded-full"></div>
+                    <div class="w-14 h-14 rounded-xl bg-brandPurple/20 flex items-center justify-center mb-6 text-brandPurple text-2xl relative z-10">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3 class="font-heading text-2xl font-semibold mb-3 relative z-10">Custom Business Solutions</h3>
+                    <p class="text-gray-400 leading-relaxed relative z-10">
+                        Tailor-made software, dashboards, and SaaS platforms built to solve your unique operational bottlenecks.
+                    </p>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="glass-card p-8 rounded-2xl border border-glassBorder hover:-translate-y-2 transition-transform duration-300" data-aos="fade-up" data-aos-delay="300">
+                    <div class="w-14 h-14 rounded-xl bg-pink-500/20 flex items-center justify-center mb-6 text-pink-500 text-2xl">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3 class="font-heading text-2xl font-semibold mb-3">Lead Management</h3>
+                    <p class="text-gray-400 leading-relaxed">
+                        Capture, nurture, and convert leads with our intelligent pipelines and automated follow-up systems.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="relative z-10 py-12 border-t border-glassBorder bg-black/40 backdrop-blur-md">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row justify-between items-center gap-6">
+                <div class="text-center md:text-left">
+                    <h4 class="font-heading text-xl font-bold mb-2">Tradeaura Digital Solutions</h4>
+                    <p class="text-gray-400 text-sm">Empowering growth through smart systems.</p>
+                </div>
+                <div class="flex flex-col items-center md:items-end gap-2 text-sm text-gray-300">
+                    <p><i class="fas fa-user text-brandBlue mr-2"></i> Owned by <span class="font-semibold text-white">Ajay Chouhan</span></p>
+                    <p><i class="fas fa-envelope text-brandPurple mr-2"></i> <a href="mailto:helloajaychouhan@gmail.com" class="hover:text-white transition-colors">helloajaychouhan@gmail.com</a></p>
+                    <p><i class="fas fa-globe text-pink-500 mr-2"></i> <a href="https://www.auroautomation.site" target="_blank" class="hover:text-white transition-colors">www.auroautomation.site</a></p>
+                </div>
+            </div>
+            <div class="mt-8 pt-8 border-t border-white/10 text-center text-sm text-gray-500 flex flex-col md:flex-row justify-between items-center">
+                <p>&copy; 2026 Tradeaura Digital Solutions. All rights reserved.</p>
+                <p class="mt-2 md:mt-0">Dashboard Architecture Ready</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Sticky WhatsApp CTA -->
+    <a href="https://wa.me/919587402524" target="_blank" class="fixed bottom-6 right-6 z-50 w-14 h-14 bg-green-500 rounded-full flex items-center justify-center text-white text-3xl shadow-[0_0_20px_rgba(34,197,94,0.5)] hover:scale-110 transition-transform duration-300" aria-label="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+        <span class="absolute -top-1 -right-1 flex h-4 w-4">
+            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+            <span class="relative inline-flex rounded-full h-4 w-4 bg-green-500"></span>
+        </span>
+    </a>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
