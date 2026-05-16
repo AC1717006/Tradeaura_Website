@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tradeaura Digital Solutions | Premium Services</title>
+    <meta name="title" content="Tradeaura Digital Solutions | Premium Services">
+    <meta name="description" content="Explore our premium automation services: WhatsApp bots, lead management, SaaS solutions, payment automation, and more.">
+    <meta name="keywords" content="WhatsApp automation, business solutions, SaaS, staff management, payment automation">
+    <meta property="og:title" content="Tradeaura Digital Solutions | Services">
+    <meta property="og:description" content="Explore our full suite of digital transformation services.">
+    <meta property="og:url" content="https://www.auraautomation.site/pages/services.html">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://www.auraautomation.site/assets/images/og-image.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Tradeaura Digital Solutions | Services">
+    <meta name="twitter:description" content="Explore our full suite of digital transformation services.">
+    <meta name="twitter:image" content="https://www.auraautomation.site/assets/images/og-image.png">
+    <link rel="canonical" href="https://www.auraautomation.site/pages/services.html">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        darkBase: '#0b0f19',
+                        brandBlue: '#3b82f6',
+                        brandPurple: '#8b5cf6',
+                        glassBg: 'rgba(255, 255, 255, 0.05)',
+                        glassBorder: 'rgba(255, 255, 255, 0.1)',
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        heading: ['Outfit', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="bg-darkBase text-gray-100 font-sans antialiased overflow-x-hidden flex flex-col min-h-screen">
+
+    <!-- Ambient Background -->
+    <div class="fixed top-[-10%] left-[-10%] w-96 h-96 bg-brandBlue/30 rounded-full mix-blend-screen filter blur-[100px] opacity-70 z-0"></div>
+    <div class="fixed top-[20%] right-[-5%] w-96 h-96 bg-brandPurple/30 rounded-full mix-blend-screen filter blur-[100px] opacity-70 z-0"></div>
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 transition-all duration-300 bg-black/50 backdrop-blur-md border-b border-glassBorder" id="navbar">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <div class="flex-shrink-0 flex items-center gap-2" data-aos="fade-right">
+                    <div class="w-10 h-10 rounded-lg bg-gradient-to-br from-brandBlue to-brandPurple flex items-center justify-center font-heading font-bold text-xl">
+                        TA
+                    </div>
+                    <span class="font-heading font-bold text-2xl tracking-wide">Tradeaura</span>
+                </div>
+                <div class="hidden md:block" data-aos="fade-left">
+                    <div class="ml-10 flex items-baseline space-x-6">
+                        <a href="../index.html" class="text-gray-300 hover:text-brandBlue transition-colors px-3 py-2 rounded-md text-sm font-medium">Home</a>
+                        <a href="services.html" class="text-white px-3 py-2 rounded-md text-sm font-medium">Services</a>
+                        <a href="compare.html" class="text-gray-300 hover:text-brandBlue transition-colors px-3 py-2 rounded-md text-sm font-medium">Pricing</a>
+                        <a href="industries.html" class="text-gray-300 hover:text-brandBlue transition-colors px-3 py-2 rounded-md text-sm font-medium">Industries</a>
+                        <a href="about.html" class="text-gray-300 hover:text-brandBlue transition-colors px-3 py-2 rounded-md text-sm font-medium">About</a>
+                        <a href="contact.html" class="text-gray-300 hover:text-brandBlue transition-colors px-3 py-2 rounded-md text-sm font-medium">Contact</a>
+                        <a href="join.html" target="_blank" class="bg-white/10 hover:bg-white/20 border border-white/20 backdrop-blur-md text-white px-5 py-2.5 rounded-full text-sm font-medium transition-all shadow-[0_0_15px_rgba(59,130,246,0.3)] hover:shadow-[0_0_25px_rgba(139,92,246,0.5)]">
+                            Join Now
+                        </a>
+                    </div>
+                </div>
+                <div class="md:hidden flex items-center">
+                    <button id="menuBtn" class="text-gray-300 hover:text-white focus:outline-none">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobileMenu" class="hidden md:hidden bg-black/95 backdrop-blur-xl border-b border-glassBorder shadow-2xl absolute w-full left-0 top-20">
+            <div class="px-4 pt-2 pb-6 space-y-2">
+                <a href="../index.html" class="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-white/10">Home</a>
+                <a href="services.html" class="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-white/10">Services</a>
+                <a href="compare.html" class="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-white/10">Pricing</a>
+                <a href="industries.html" class="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-white/10">Industries</a>
+                <a href="about.html" class="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-white/10">About</a>
+                <a href="contact.html" class="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-white/10">Contact</a>
+                <a href="join.html" target="_blank" class="block px-3 py-3 mt-4 text-center rounded-md text-base font-medium bg-gradient-to-r from-brandBlue to-brandPurple text-white shadow-lg">Join Now</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="flex-grow pt-32 pb-24 relative z-10 px-4">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h1 class="font-heading text-4xl md:text-6xl font-bold mb-6">Our Full Suite of <span class="text-brandBlue">Services</span></h1>
+                <p class="text-xl text-gray-400 max-w-3xl mx-auto">Everything you need to automate your operations, connect with customers, and scale your business effortlessly.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Service 1 -->
+                <div class="glass-card p-8 rounded-2xl border border-glassBorder hover:-translate-y-2 transition-transform duration-300" data-aos="fade-up" data-aos-delay="100">
+                    <div class="w-14 h-14 rounded-xl bg-brandBlue/20 flex items-center justify-center mb-6 text-brandBlue text-2xl">
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+                    <h3 class="font-heading text-2xl font-semibold mb-3">WhatsApp Automation</h3>
+                    <p class="text-gray-400 leading-relaxed mb-4">
+                        Engage customers 24/7 with smart chatbots, automated broadcasts, and seamless CRM integrations directly via WhatsApp.
+                    </p>
+                    <ul class="space-y-2 text-sm text-gray-300">
+                        <li><i class="fas fa-check text-green-400 mr-2"></i> Auto-replies & Chatbots</li>
+                        <li><i class="fas fa-check text-green-400 mr-2"></i> Bulk Broadcast Campaigns</li>
+                        <li><i class="fas fa-check text-green-400 mr-2"></i> API Integration</li>
+                    </ul>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="glass-card p-8 rounded-2xl border border-glassBorder hover:-translate-y-2 transition-transform duration-300 relative overflow-hidden" data-aos="fade-up" data-aos-delay="200">
+                    <div class="absolute -top-10 -right-10 w-32 h-32 bg-brandPurple/30 blur-2xl rounded-full"></div>
+                    <div class="w-14 h-14 rounded-xl bg-brandPurple/20 flex items-center justify-center mb-6 text-brandPurple text-2xl relative z-10">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3 class="font-heading text-2xl font-semibold mb-3 relative z-10">Custom SaaS Solutions</h3>
+                    <p class="text-gray-400 leading-relaxed mb-4 relative z-10">
+                        Tailor-made software, dashboards, and SaaS platforms built to solve your unique operational bottlenecks.
+                    </p>
+                    <ul class="space-y-2 text-sm text-gray-300 relative z-10">
+                        <li><i class="fas fa-check text-green-400 mr-2"></i> Custom Dashboards</li>
+                        <li><i class="fas fa-check text-green-400 mr-2"></i> Internal Tools</li>
+                        <li><i class="fas fa-check text-green-400 mr-2"></i> CRM Development</li>
+                    </ul>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="glass-card p-8 rounded-2xl border border-glassBorder hover:-translate-y-2 transition-transform duration-300" data-aos="fade-up" data-aos-delay="300">
+                    <div class="w-14 h-14 rounded-xl bg-pink-500/20 flex items-center justify-center mb-6 text-pink-500 text-2xl">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3 class="font-heading text-2xl font-semibold mb-3">Lead Management</h3>
+                    <p class="text-gray-400 leading-relaxed mb-4">
+                        Capture, nurture, and convert leads with our intelligent pipelines and automated follow-up systems.
+                    </p>
+                    <ul class="space-y-2 text-sm text-gray-300">
+                        <li><i class="fas fa-check text-green-400 mr-2"></i> Lead Capturing Forms</li>
+                        <li><i class="fas fa-check text-green-400 mr-2"></i> Automated Follow-ups</li>
+                        <li><i class="fas fa-check text-green-400 mr-2"></i> Conversion Tracking</li>
+                    </ul>
+                </div>
+                
+                <!-- Service 4 -->
+                <div class="glass-card p-8 rounded-2xl border border-glassBorder hover:-translate-y-2 transition-transform duration-300" data-aos="fade-up" data-aos-delay="400">
+                    <div class="w-14 h-14 rounded-xl bg-orange-500/20 flex items-center justify-center mb-6 text-orange-500 text-2xl">
+                        <i class="fas fa-users-cog"></i>
+                    </div>
+                    <h3 class="font-heading text-2xl font-semibold mb-3">Staff Management</h3>
+                    <p class="text-gray-400 leading-relaxed mb-4">
+                        Automate attendance, task assignments, and performance tracking for your entire team.
+                    </p>
+                    <ul class="space-y-2 text-sm text-gray-300">
+                        <li><i class="fas fa-check text-green-400 mr-2"></i> Digital Attendance</li>
+                        <li><i class="fas fa-check text-green-400 mr-2"></i> Payroll Integration</li>
+                        <li><i class="fas fa-check text-green-400 mr-2"></i> Shift Scheduling</li>
+                    </ul>
+                </div>
+                
+                <!-- Service 5 -->
+                <div class="glass-card p-8 rounded-2xl border border-glassBorder hover:-translate-y-2 transition-transform duration-300" data-aos="fade-up" data-aos-delay="500">
+                    <div class="w-14 h-14 rounded-xl bg-yellow-500/20 flex items-center justify-center mb-6 text-yellow-500 text-2xl">
+                        <i class="fas fa-file-invoice-dollar"></i>
+                    </div>
+                    <h3 class="font-heading text-2xl font-semibold mb-3">Payment Automation</h3>
+                    <p class="text-gray-400 leading-relaxed mb-4">
+                        Never miss a payment with automated invoicing and friendly payment reminders sent directly to clients.
+                    </p>
+                    <ul class="space-y-2 text-sm text-gray-300">
+                        <li><i class="fas fa-check text-green-400 mr-2"></i> Automated Invoices</li>
+                        <li><i class="fas fa-check text-green-400 mr-2"></i> Payment Links</li>
+                        <li><i class="fas fa-check text-green-400 mr-2"></i> Auto-Reminders</li>
+                    </ul>
+                </div>
+
+                <!-- Service 6 -->
+                <div class="glass-card p-8 rounded-2xl border border-glassBorder hover:-translate-y-2 transition-transform duration-300" data-aos="fade-up" data-aos-delay="600">
+                    <div class="w-14 h-14 rounded-xl bg-teal-500/20 flex items-center justify-center mb-6 text-teal-500 text-2xl">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3 class="font-heading text-2xl font-semibold mb-3">Business Scaling Setup</h3>
+                    <p class="text-gray-400 leading-relaxed mb-4">
+                        A complete digital overhaul. We set up your entire tech stack to prepare your business for rapid expansion.
+                    </p>
+                    <ul class="space-y-2 text-sm text-gray-300">
+                        <li><i class="fas fa-check text-green-400 mr-2"></i> Tech Stack Audit</li>
+                        <li><i class="fas fa-check text-green-400 mr-2"></i> Cloud Migration</li>
+                        <li><i class="fas fa-check text-green-400 mr-2"></i> Process Mapping</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="relative z-10 py-12 border-t border-glassBorder bg-black/40 backdrop-blur-md mt-auto">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row justify-between items-center gap-6">
+                <div class="text-center md:text-left">
+                    <h4 class="font-heading text-xl font-bold mb-2">Tradeaura Digital Solutions</h4>
+                    <p class="text-gray-400 text-sm">Empowering growth through smart systems.</p>
+                </div>
+                <div class="flex flex-col items-center md:items-end gap-2 text-sm text-gray-300">
+                    <p><i class="fas fa-user text-brandBlue mr-2"></i> Owned by <span class="font-semibold text-white">Ajay Chouhan</span></p>
+                    <p><i class="fas fa-envelope text-brandPurple mr-2"></i> <a href="mailto:helloajaychouhan@gmail.com" class="hover:text-white transition-colors">helloajaychouhan@gmail.com</a></p>
+                    <p><i class="fas fa-globe text-pink-500 mr-2"></i> <a href="https://www.auraautomation.site" target="_blank" class="hover:text-white transition-colors">www.auraautomation.site</a></p>
+                </div>
+            </div>
+            <div class="mt-8 pt-8 border-t border-white/10 text-center text-sm text-gray-500 flex flex-col md:flex-row justify-between items-center">
+                <p>&copy; 2026 Tradeaura Digital Solutions. All rights reserved.</p>
+                <p class="mt-2 md:mt-0">Dashboard Architecture Ready</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Sticky WhatsApp CTA -->
+    <a href="https://wa.me/919587402524" target="_blank" class="fixed bottom-6 right-6 z-50 w-14 h-14 bg-green-500 rounded-full flex items-center justify-center text-white text-3xl shadow-[0_0_20px_rgba(34,197,94,0.5)] hover:scale-110 transition-transform duration-300" aria-label="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+        <span class="absolute -top-1 -right-1 flex h-4 w-4">
+            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+            <span class="relative inline-flex rounded-full h-4 w-4 bg-green-500"></span>
+        </span>
+    </a>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="../js/script.js"></script>
+</body>
+</html>
