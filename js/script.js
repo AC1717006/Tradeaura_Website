@@ -105,3 +105,28 @@ function resetForm() {
     successMsg.classList.add('hidden');
     form.classList.remove('hidden');
 }
+
+/* ─────────────────────────────────────────────
+   Featured Project — Video Demo Modal
+───────────────────────────────────────────── */
+function openDemoModal() {
+    const modal = document.getElementById('demoModal');
+    if (!modal) return;
+    document.body.style.overflow = 'hidden';
+    requestAnimationFrame(() => modal.classList.add('modal-visible'));
+    const video = document.getElementById('demoVideo');
+    if (video) video.play().catch(() => {});
+}
+
+function closeDemoModal() {
+    const modal = document.getElementById('demoModal');
+    if (!modal) return;
+    modal.classList.remove('modal-visible');
+    const video = document.getElementById('demoVideo');
+    if (video) { video.pause(); video.currentTime = 0; }
+    document.body.style.overflow = '';
+}
+
+document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') closeDemoModal();
+});
