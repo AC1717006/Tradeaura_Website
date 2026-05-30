@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "abed903f1649",
+      "originalUrl": "https://www.thestreet.com/technology/google-forced-to-make-costly-ai-fix-after-companies-crashout-alphabet-gemini",
+      "originalTitle": "Google forced to make costly AI fix after companies crashout",
+      "source": "Hillary Remy",
+      "imageUrl": null,
+      "publishedDate": "2026-05-30 15:03:00 +0000",
+      "createdAt": "2026-05-30T15:17:39.385Z",
+      "title": "Google AI Fix",
+      "metaDescription": "Google AI budget fix",
+      "keywords": [
+        "AI budget",
+        "Google AI",
+        "enterprise AI",
+        "AI costs",
+        "AI fix"
+      ],
+      "summary": "Google has announced a costly AI fix after several large companies exhausted their annual AI budgets, a concern also relevant to Indian business owners who are increasingly adopting AI solutions. This move is expected to impact the Indian market as companies here also struggle with AI costs. Indian enterprises can learn from Google's response to the global AI budget crisis.",
+      "content": "<h2>Google's AI Budget Fix</h2><p>Google has been forced to make a costly AI fix after several of the world's largest companies burned through their entire annual AI budget. This is not a projection, but a reality that enterprise CIOs are facing, and Google has decided to respond publicly to address this issue.</p><p>The move is significant, especially for Indian business owners who are increasingly adopting AI solutions to stay competitive in the market. As AI adoption grows in India, companies here are also likely to face similar challenges with AI costs.</p><h2>Implications for Indian Businesses</h2><p>Indian enterprises can learn from Google's response to the global AI budget crisis. By understanding the causes of AI budget exhaustion, Indian companies can take proactive steps to optimize their AI spending and avoid similar pitfalls.</p><p>Some key takeaways for Indian businesses include: <ul><li>assessing AI costs and benefits carefully</li><li>adopting a phased approach to AI adoption</li><li>monitoring AI spending regularly</li><li>exploring cost-effective AI solutions</li><li>developing an AI strategy that aligns with business goals</li></ul></p>",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "google",
+        "business",
+        "india",
+        "tech"
+      ],
+      "readTime": 3,
+      "slug": "google-ai-fix",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "17a6e0b611cd",
+      "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1ts1sl5/how_to_finetune_an_llm_for_openended_problems_p/",
+      "originalTitle": "How to fine-tune an LLM for open-ended problems? [P]",
+      "source": "/u/TechNerd10191",
+      "imageUrl": null,
+      "publishedDate": "2026-05-30 14:42:01 +0000",
+      "createdAt": "2026-05-30T15:17:44.457Z",
+      "title": "LLM Fine-Tuning",
+      "metaDescription": "Fine-tune LLM for open-ended problems",
+      "keywords": [
+        "LLM",
+        "fine-tuning",
+        "open-ended problems",
+        "machine learning",
+        "AI"
+      ],
+      "summary": "Indian businesses can leverage large language models to solve complex problems, but fine-tuning these models for open-ended tasks requires novel approaches, as traditional methods like RLVR and SFT may not be effective, and alternative techniques must be explored to achieve success in the Indian market.",
+      "content": "<h2>Introduction to LLM Fine-Tuning</h2><p>Large language models (LLMs) have shown tremendous promise in solving complex problems, but fine-tuning these models for open-ended tasks can be challenging. In the Indian business context, where companies are increasingly adopting AI and machine learning, fine-tuning LLMs for open-ended problems can be a key differentiator. However, traditional methods like reinforcement learning from virtual rewards (RLVR) may not be sufficient, as they rely on a clear reward signal, which may not be available in open-ended problems.</p><h2>Alternative Fine-Tuning Methods</h2><p>Given the limitations of traditional methods, alternative techniques must be explored. Some possible approaches include using proxy reward functions, incorporating domain-specific knowledge, and leveraging human feedback. These methods can help fine-tune LLMs to solve open-ended problems, such as proof-only math problems, which are critical in various fields, including science, technology, engineering, and mathematics (STEM).<ul><li>Proxy reward functions: These functions can be used to approximate the true reward signal, allowing the model to learn from partial feedback.</li><li>Domain-specific knowledge: Incorporating domain-specific knowledge can help the model understand the context and nuances of the problem, leading to better performance.</li><li>Human feedback: Human feedback can be used to guide the model's learning process, providing insights into the problem and helping the model to improve its performance.</li></ul>",
+      "category": "AI & Automation",
+      "tags": [
+        "llm",
+        "ai",
+        "ml",
+        "india",
+        "business"
+      ],
+      "readTime": 3,
+      "slug": "llm-fine-tuning",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "bd72cb97a9da",
       "originalUrl": "https://assets.zerohedge.com/political/crypto-and-ai-could-be-dirty-words-2026-midterm-campaign-trail",
       "originalTitle": "Crypto And AI Could Be Dirty Words On 2026 Midterm Campaign Trail",
@@ -67,7 +133,7 @@
       "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-05-30T15:10:53.376Z",
-  "totalCount": 2,
+  "lastUpdated": "2026-05-30T15:17:44.457Z",
+  "totalCount": 4,
   "schema": "2.0"
 }
