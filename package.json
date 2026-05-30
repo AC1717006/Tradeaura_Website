@@ -1,0 +1,16 @@
+{
+  "name": "tradeaura-news-hub",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "news:refresh": "node scripts/fetch-news.js",
+    "news:generate": "node scripts/generate-pages.js",
+    "admin:action": "node scripts/admin-actions.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "axios": "^1.9.0",
+    "dotenv": "^16.4.5",
+    "rss-parser": "^3.13.0"
+  }
+}

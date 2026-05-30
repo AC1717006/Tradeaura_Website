@@ -1,691 +1,1335 @@
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tradeaura Digital Solutions | Business Automation</title>
-    <meta name="title" content="Tradeaura Digital Solutions | Business Automation">
-    <meta name="description"
-        content="Automate your business with WhatsApp bots, lead management, and custom SaaS. Trusted by 50+ businesses across India.">
-    <meta name="keywords"
-        content="business automation, WhatsApp chatbot, lead management, CRM, SaaS, Tradeaura, Ajay Chouhan">
-    <meta property="og:title" content="Tradeaura Digital Solutions">
-    <meta property="og:description" content="Grow faster with smart automation systems">
-    <meta property="og:url" content="https://www.auraautomation.site">
-    <meta property="og:type" content="website">
-    <meta property="og:image" content="https://www.auraautomation.site/assets/images/og-image.png">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Tradeaura Digital Solutions">
-    <meta name="twitter:description" content="Grow faster with smart automation systems">
-    <meta name="twitter:image" content="https://www.auraautomation.site/assets/images/og-image.png">
-    <link rel="canonical" href="https://www.auraautomation.site/">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Tailwind CSS (CDN for simple setup) -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        darkBase: '#0b0f19',
-                        brandBlue: '#3b82f6',
-                        brandPurple: '#8b5cf6',
-                        glassBg: 'rgba(255, 255, 255, 0.05)',
-                        glassBorder: 'rgba(255, 255, 255, 0.1)',
-                    },
-                    fontFamily: {
-                        sans: ['Inter', 'sans-serif'],
-                        heading: ['Outfit', 'sans-serif'],
-                    }
-                }
-            }
+  <!-- SEO -->
+  <title>Tradeaura | AI & WhatsApp Business Automation Platform — India</title>
+  <meta name="description" content="Tradeaura automates your business with WhatsApp Automation, AI Systems, CRM Setup, Lead Management & Custom SaaS solutions. Trusted by 50+ businesses. Book a free consultation.">
+  <meta name="keywords" content="business automation, WhatsApp chatbot, AI automation, CRM setup, lead management, custom SaaS, Tradeaura, business scaling, automation India">
+  <link rel="canonical" href="https://www.auraautomation.site/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.auraautomation.site/">
+  <meta property="og:title" content="Tradeaura | Business Automation Platform">
+  <meta property="og:description" content="Automate Your Business. Scale Without Limits. AI, WhatsApp, CRM & Custom SaaS Solutions.">
+  <meta property="og:image" content="https://www.auraautomation.site/assets/images/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Tradeaura | Business Automation Platform">
+  <meta name="twitter:description" content="Automate Your Business. Scale Without Limits.">
+  <meta name="twitter:image" content="https://www.auraautomation.site/assets/images/og-image.png">
+
+  <!-- Schema Markup -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Tradeaura Digital Solutions",
+    "url": "https://www.auraautomation.site",
+    "logo": "https://www.auraautomation.site/assets/images/logo.png",
+    "contactPoint": { "@type": "ContactPoint", "telephone": "+91-9587402524", "contactType": "customer service", "availableLanguage": ["English","Hindi"] },
+    "sameAs": [],
+    "description": "Tradeaura helps businesses automate operations with WhatsApp automation, AI systems, CRM setup, lead management and custom SaaS solutions."
+  }
+  </script>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            darkBase: '#0B0F19',
+            brandBlue: '#3B82F6',
+            brandPurple: '#8B5CF6',
+            brandPink: '#EC4899',
+            glassBg: 'rgba(255,255,255,0.04)',
+            glassBorder: 'rgba(255,255,255,0.1)',
+          },
+          fontFamily: {
+            sans: ['Inter','sans-serif'],
+            heading: ['Outfit','sans-serif'],
+          }
         }
-    </script>
+      }
+    }
+  </script>
 
-    <!-- Google Fonts -->
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;700;800&display=swap"
-        rel="stylesheet">
-
-    <!-- AOS Animation CSS -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
-    <!-- Font Awesome for Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/style.css">
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body class="bg-darkBase text-gray-100 font-sans antialiased overflow-x-hidden">
 
-    <!-- Ambient Background Gradients -->
-    <div
-        class="fixed top-[-10%] left-[-10%] w-96 h-96 bg-brandBlue/30 rounded-full mix-blend-screen filter blur-[100px] opacity-70 z-0">
+<!-- ════════════════════════════════════════════
+     AMBIENT BACKGROUND
+════════════════════════════════════════════ -->
+<div class="fixed inset-0 z-0 pointer-events-none grid-pattern opacity-30"></div>
+<div class="fixed top-[-15%] left-[-8%] w-[500px] h-[500px] bg-brandBlue/20 rounded-full blur-[140px] z-0 orb-blue"></div>
+<div class="fixed top-[30%] right-[-5%] w-[420px] h-[420px] bg-brandPurple/20 rounded-full blur-[130px] z-0 orb-purple"></div>
+<div class="fixed bottom-[-10%] left-[25%] w-[380px] h-[380px] bg-brandPink/10 rounded-full blur-[150px] z-0 orb-pink"></div>
+
+<!-- ════════════════════════════════════════════
+     NAVIGATION
+════════════════════════════════════════════ -->
+<nav class="fixed w-full z-50 transition-all duration-300" id="navbar">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex items-center justify-between h-20">
+
+      <!-- Logo -->
+      <a href="index.html" class="flex items-center gap-3 group" data-aos="fade-right">
+        <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-brandBlue to-brandPurple flex items-center justify-center font-heading font-black text-lg shadow-[0_0_20px_rgba(59,130,246,0.4)] group-hover:shadow-[0_0_30px_rgba(139,92,246,0.5)] transition-shadow duration-300">
+          TA
+        </div>
+        <span class="font-heading font-bold text-xl tracking-wide">Tradeaura</span>
+      </a>
+
+      <!-- Desktop Nav -->
+      <div class="hidden lg:flex items-center gap-1" data-aos="fade-down">
+        <a href="index.html" class="px-4 py-2 rounded-lg text-sm font-medium text-white bg-white/5">Home</a>
+
+        <!-- Solutions Dropdown -->
+        <div class="nav-dropdown-trigger relative">
+          <button class="px-4 py-2 rounded-lg text-sm font-medium text-gray-300 hover:text-white hover:bg-white/5 transition-all flex items-center gap-1.5">
+            Solutions <i class="fas fa-chevron-down text-xs text-gray-500"></i>
+          </button>
+          <div class="nav-dropdown absolute top-full left-1/2 -translate-x-1/2 mt-2 w-[520px] glass-card-strong border border-glassBorder rounded-2xl p-4 shadow-2xl">
+            <div class="grid grid-cols-2 gap-2">
+              <a href="pages/services/whatsapp-automation.html" class="flex items-center gap-3 p-3 rounded-xl hover:bg-white/5 transition-all group">
+                <div class="w-9 h-9 rounded-lg bg-green-500/15 flex items-center justify-center text-green-400 flex-shrink-0 group-hover:scale-110 transition-transform"><i class="fab fa-whatsapp text-sm"></i></div>
+                <div><div class="text-sm font-medium text-white">WhatsApp Automation</div><div class="text-xs text-gray-500">Chatbots & broadcasts</div></div>
+              </a>
+              <a href="pages/services/ai-automation.html" class="flex items-center gap-3 p-3 rounded-xl hover:bg-white/5 transition-all group">
+                <div class="w-9 h-9 rounded-lg bg-brandBlue/15 flex items-center justify-center text-brandBlue flex-shrink-0 group-hover:scale-110 transition-transform"><i class="fas fa-robot text-sm"></i></div>
+                <div><div class="text-sm font-medium text-white">AI Business Automation</div><div class="text-xs text-gray-500">Smart AI workflows</div></div>
+              </a>
+              <a href="pages/services/crm-setup.html" class="flex items-center gap-3 p-3 rounded-xl hover:bg-white/5 transition-all group">
+                <div class="w-9 h-9 rounded-lg bg-brandPurple/15 flex items-center justify-center text-brandPurple flex-shrink-0 group-hover:scale-110 transition-transform"><i class="fas fa-address-card text-sm"></i></div>
+                <div><div class="text-sm font-medium text-white">CRM Setup</div><div class="text-xs text-gray-500">Pipeline & contacts</div></div>
+              </a>
+              <a href="pages/services/custom-saas.html" class="flex items-center gap-3 p-3 rounded-xl hover:bg-white/5 transition-all group">
+                <div class="w-9 h-9 rounded-lg bg-brandPink/15 flex items-center justify-center text-brandPink flex-shrink-0 group-hover:scale-110 transition-transform"><i class="fas fa-code text-sm"></i></div>
+                <div><div class="text-sm font-medium text-white">Custom SaaS</div><div class="text-xs text-gray-500">Tailored platforms</div></div>
+              </a>
+              <a href="pages/services/lead-management.html" class="flex items-center gap-3 p-3 rounded-xl hover:bg-white/5 transition-all group">
+                <div class="w-9 h-9 rounded-lg bg-orange-500/15 flex items-center justify-center text-orange-400 flex-shrink-0 group-hover:scale-110 transition-transform"><i class="fas fa-funnel-dollar text-sm"></i></div>
+                <div><div class="text-sm font-medium text-white">Lead Management</div><div class="text-xs text-gray-500">Capture & convert</div></div>
+              </a>
+              <a href="pages/services/business-intelligence.html" class="flex items-center gap-3 p-3 rounded-xl hover:bg-white/5 transition-all group">
+                <div class="w-9 h-9 rounded-lg bg-teal-500/15 flex items-center justify-center text-teal-400 flex-shrink-0 group-hover:scale-110 transition-transform"><i class="fas fa-chart-bar text-sm"></i></div>
+                <div><div class="text-sm font-medium text-white">Business Intelligence</div><div class="text-xs text-gray-500">Data dashboards</div></div>
+              </a>
+            </div>
+            <div class="mt-3 pt-3 border-t border-glassBorder">
+              <a href="pages/services.html" class="flex items-center justify-center gap-2 text-sm text-brandBlue hover:text-white transition-colors font-medium">
+                View all solutions <i class="fas fa-arrow-right text-xs"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <a href="pages/services.html" class="px-4 py-2 rounded-lg text-sm font-medium text-gray-300 hover:text-white hover:bg-white/5 transition-all">Services</a>
+        <a href="pages/industries.html" class="px-4 py-2 rounded-lg text-sm font-medium text-gray-300 hover:text-white hover:bg-white/5 transition-all">Industries</a>
+        <a href="pages/about.html" class="px-4 py-2 rounded-lg text-sm font-medium text-gray-300 hover:text-white hover:bg-white/5 transition-all">About</a>
+        <a href="news/index.html" class="px-4 py-2 rounded-lg text-sm font-medium text-gray-300 hover:text-white hover:bg-white/5 transition-all flex items-center gap-1.5">
+          News <span class="w-1.5 h-1.5 rounded-full bg-green-400 animate-pulse"></span>
+        </a>
+        <a href="pages/contact.html" class="px-4 py-2 rounded-lg text-sm font-medium text-gray-300 hover:text-white hover:bg-white/5 transition-all">Contact</a>
+      </div>
+
+      <!-- CTA -->
+      <div class="hidden lg:flex items-center gap-3" data-aos="fade-left">
+        <a href="pages/contact.html" class="px-5 py-2.5 rounded-full bg-gradient-to-r from-brandBlue to-brandPurple text-white text-sm font-semibold hover:scale-105 transition-transform shadow-[0_0_20px_rgba(59,130,246,0.35)] hover:shadow-[0_0_30px_rgba(59,130,246,0.55)]">
+          Book Free Demo
+        </a>
+      </div>
+
+      <!-- Mobile Toggle -->
+      <button id="menuBtn" class="lg:hidden text-gray-300 hover:text-white focus:outline-none p-2 rounded-lg hover:bg-white/5 transition-all">
+        <i id="menuIconOpen" class="fas fa-bars text-xl"></i>
+        <i id="menuIconClose" class="fas fa-times text-xl hidden"></i>
+      </button>
     </div>
-    <div
-        class="fixed top-[20%] right-[-5%] w-96 h-96 bg-brandPurple/30 rounded-full mix-blend-screen filter blur-[100px] opacity-70 z-0">
+  </div>
+
+  <!-- Mobile Menu -->
+  <div id="mobileMenu" class="hidden lg:hidden border-t border-glassBorder bg-black/95 backdrop-blur-xl shadow-2xl">
+    <div class="px-4 pt-3 pb-6 space-y-1">
+      <a href="index.html" class="block px-4 py-3 rounded-xl text-sm font-medium text-white bg-white/5">Home</a>
+      <a href="pages/services.html" class="block px-4 py-3 rounded-xl text-sm font-medium text-gray-300 hover:text-white hover:bg-white/5 transition-all">Solutions & Services</a>
+      <a href="pages/industries.html" class="block px-4 py-3 rounded-xl text-sm font-medium text-gray-300 hover:text-white hover:bg-white/5 transition-all">Industries</a>
+      <a href="pages/about.html" class="block px-4 py-3 rounded-xl text-sm font-medium text-gray-300 hover:text-white hover:bg-white/5 transition-all">About</a>
+      <a href="news/index.html" class="block px-4 py-3 rounded-xl text-sm font-medium text-gray-300 hover:text-white hover:bg-white/5 transition-all flex items-center gap-2">
+        News <span class="w-1.5 h-1.5 rounded-full bg-green-400 animate-pulse"></span>
+      </a>
+      <a href="pages/contact.html" class="block px-4 py-3 rounded-xl text-sm font-medium text-gray-300 hover:text-white hover:bg-white/5 transition-all">Contact</a>
+      <div class="pt-2">
+        <a href="pages/contact.html" class="block text-center px-4 py-3.5 rounded-xl bg-gradient-to-r from-brandBlue to-brandPurple text-white text-sm font-semibold shadow-lg">
+          Book Free Demo
+        </a>
+      </div>
     </div>
-    <div
-        class="fixed bottom-[-10%] left-[20%] w-[30rem] h-[30rem] bg-brandBlue/20 rounded-full mix-blend-screen filter blur-[120px] opacity-60 z-0">
-    </div>
+  </div>
+</nav>
 
-    <!-- Navigation -->
-    <nav class="fixed w-full z-50 transition-all duration-300" id="navbar">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex items-center justify-between h-20">
-                <div class="flex-shrink-0 flex items-center gap-2" data-aos="fade-right">
-                    <div
-                        class="w-10 h-10 rounded-lg bg-gradient-to-br from-brandBlue to-brandPurple flex items-center justify-center font-heading font-bold text-xl">
-                        TA
-                    </div>
-                    <span class="font-heading font-bold text-2xl tracking-wide">Tradeaura</span>
-                </div>
-                <div class="hidden md:block" data-aos="fade-left">
-                    <div class="ml-10 flex items-baseline space-x-6">
-                        <a href="index.html" class="text-white px-3 py-2 rounded-md text-sm font-medium">Home</a>
-                        <a href="pages/services.html"
-                            class="text-gray-300 hover:text-brandBlue transition-colors px-3 py-2 rounded-md text-sm font-medium">Services</a>
-                        <a href="pages/compare.html"
-                            class="text-gray-300 hover:text-brandBlue transition-colors px-3 py-2 rounded-md text-sm font-medium">Pricing</a>
-                        <a href="#featured-project"
-                            class="text-gray-300 hover:text-brandBlue transition-colors px-3 py-2 rounded-md text-sm font-medium">Projects</a>
-                        <a href="pages/industries.html"
-                            class="text-gray-300 hover:text-brandBlue transition-colors px-3 py-2 rounded-md text-sm font-medium">Industries</a>
-                        <a href="pages/about.html"
-                            class="text-gray-300 hover:text-brandBlue transition-colors px-3 py-2 rounded-md text-sm font-medium">About</a>
-                        <a href="pages/contact.html"
-                            class="text-gray-300 hover:text-brandBlue transition-colors px-3 py-2 rounded-md text-sm font-medium">Contact</a>
-                        <a href="pages/join.html" target="_blank"
-                            class="bg-white/10 hover:bg-white/20 border border-white/20 backdrop-blur-md text-white px-5 py-2.5 rounded-full text-sm font-medium transition-all shadow-[0_0_15px_rgba(59,130,246,0.3)] hover:shadow-[0_0_25px_rgba(139,92,246,0.5)]">
-                            Join Now
-                        </a>
-                    </div>
-                </div>
-                <div class="md:hidden flex items-center">
-                    <button id="menuBtn" class="text-gray-300 hover:text-white focus:outline-none">
-                        <i class="fas fa-bars text-2xl"></i>
-                    </button>
-                </div>
-            </div>
-        </div>
-        <!-- Mobile Menu -->
-        <div id="mobileMenu"
-            class="hidden md:hidden bg-black/95 backdrop-blur-xl border-b border-glassBorder shadow-2xl absolute w-full left-0 top-20">
-            <div class="px-4 pt-2 pb-6 space-y-2">
-                <a href="index.html"
-                    class="block px-3 py-2 rounded-md text-base font-medium text-white hover:bg-white/10">Home</a>
-                <a href="pages/services.html"
-                    class="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-white/10">Services</a>
-                <a href="pages/compare.html"
-                    class="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-white/10">Pricing</a>
-                <a href="#featured-project"
-                    class="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-white/10">Projects</a>
-                <a href="pages/industries.html"
-                    class="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-white/10">Industries</a>
-                <a href="pages/about.html"
-                    class="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-white/10">About</a>
-                <a href="pages/contact.html"
-                    class="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-white/10">Contact</a>
-                <a href="pages/join.html" target="_blank"
-                    class="block px-3 py-3 mt-4 text-center rounded-md text-base font-medium bg-gradient-to-r from-brandBlue to-brandPurple text-white shadow-lg">Join
-                    Now</a>
-            </div>
-        </div>
-    </nav>
+<!-- ════════════════════════════════════════════
+     HERO SECTION
+════════════════════════════════════════════ -->
+<section id="home" class="relative z-10 min-h-screen flex flex-col items-center justify-center text-center px-4 pt-24 pb-16">
 
-    <!-- Hero Section -->
-    <section id="home"
-        class="relative z-10 pt-32 pb-20 lg:pt-48 lg:pb-32 flex flex-col items-center justify-center min-h-screen text-center px-4">
-        <div class="inline-block mb-6 px-4 py-1.5 rounded-full border border-brandBlue/30 bg-brandBlue/10 text-brandBlue text-sm font-medium tracking-wider uppercase"
-            data-aos="fade-down" data-aos-delay="100">
-            Digital Transformation Agency
-        </div>
+  <!-- Hero glow -->
+  <div class="hero-glow"></div>
 
-        <h1 class="font-heading text-5xl md:text-7xl font-extrabold tracking-tight mb-8 max-w-5xl leading-tight"
-            data-aos="zoom-in" data-aos-delay="200">
-            Automate Your Business.<br>
-            <span class="text-transparent bg-clip-text bg-gradient-to-r from-brandBlue via-brandPurple to-pink-500">
-                Grow Faster
-            </span> with Smart Systems.
-        </h1>
+  <!-- Badge -->
+  <div class="label-badge mb-8" data-aos="fade-down" data-aos-delay="100">
+    <span class="w-1.5 h-1.5 rounded-full bg-brandBlue animate-pulse"></span>
+    AI-Powered Business Automation Platform
+  </div>
 
-        <p class="text-lg md:text-xl text-gray-300 mb-12 max-w-2xl mx-auto font-light leading-relaxed"
-            data-aos="fade-up" data-aos-delay="300">
-            Tradeaura Digital Solutions empowers your business with cutting-edge automation, custom SaaS, and
-            intelligent lead management to scale effortlessly.
-        </p>
+  <!-- Headline -->
+  <h1 class="font-heading font-black text-5xl md:text-7xl lg:text-8xl tracking-tight mb-6 max-w-5xl leading-[1.05]" data-aos="zoom-in" data-aos-delay="150">
+    Automate Your Business.<br>
+    <span class="gradient-text-animated">Scale Without Limits.</span>
+  </h1>
 
-        <div class="flex flex-col sm:flex-row gap-6 justify-center flex-wrap" data-aos="fade-up" data-aos-delay="400">
-            <a href="pages/join.html" target="_blank"
-                class="group relative px-8 py-4 rounded-full bg-gradient-to-r from-brandPurple to-pink-500 text-white font-semibold text-lg overflow-hidden transition-all hover:scale-105 shadow-[0_0_30px_rgba(139,92,246,0.5)]">
-                <div
-                    class="absolute inset-0 bg-white/20 group-hover:translate-x-full transition-transform duration-500 ease-out -skew-x-12 -ml-4">
-                </div>
-                <span class="relative flex items-center gap-2">
-                    <i class="fas fa-rocket text-xl"></i> Join Now
-                </span>
-            </a>
-            <a href="https://wa.me/919587402524" target="_blank"
-                class="px-8 py-4 rounded-full bg-glassBg border border-glassBorder backdrop-blur-md text-white font-semibold text-lg hover:bg-white/10 transition-all hover:scale-105 flex items-center gap-2">
-                <i class="fab fa-whatsapp text-xl text-green-400"></i> WhatsApp
-            </a>
-            <a href="pages/services.html"
-                class="px-8 py-4 rounded-full bg-glassBg border border-glassBorder backdrop-blur-md text-white font-semibold text-lg hover:bg-white/10 transition-all hover:scale-105">
-                Explore Services
-            </a>
-        </div>
-    </section>
+  <!-- Sub-headline -->
+  <p class="text-lg md:text-xl text-gray-400 mb-10 max-w-2xl mx-auto font-light leading-relaxed" data-aos="fade-up" data-aos-delay="250">
+    AI Automation · WhatsApp Automation · CRM Systems · Lead Management · Dashboards & Custom SaaS Solutions — all under one roof.
+  </p>
 
-    <!-- Stats Bar Section -->
-    <section class="relative z-10 py-12 px-4 bg-black/20 backdrop-blur-sm border-t border-b border-glassBorder">
-        <div class="max-w-7xl mx-auto">
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
-                <div class="glass-card p-6 rounded-2xl border border-glassBorder" data-aos="fade-up"
-                    data-aos-delay="100">
-                    <div
-                        class="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-brandBlue to-brandPurple mb-2">
-                        50+</div>
-                    <div class="text-gray-400 font-medium">Businesses Automated</div>
-                </div>
-                <div class="glass-card p-6 rounded-2xl border border-glassBorder" data-aos="fade-up"
-                    data-aos-delay="200">
-                    <div
-                        class="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-brandBlue to-brandPurple mb-2">
-                        5+</div>
-                    <div class="text-gray-400 font-medium">Cities Covered</div>
-                </div>
-                <div class="glass-card p-6 rounded-2xl border border-glassBorder" data-aos="fade-up"
-                    data-aos-delay="300">
-                    <div
-                        class="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-brandBlue to-brandPurple mb-2">
-                        24/7</div>
-                    <div class="text-gray-400 font-medium">Support Available</div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- How It Works Section -->
-    <section class="relative z-10 py-24 px-4 bg-black/30">
-        <div class="max-w-7xl mx-auto">
-            <div class="text-center mb-16" data-aos="fade-up">
-                <h2 class="font-heading text-3xl md:text-5xl font-bold mb-4">How It <span
-                        class="text-brandBlue">Works</span></h2>
-                <p class="text-gray-400 max-w-2xl mx-auto">Three simple steps to transform your business operations.</p>
-            </div>
-
-            <div
-                class="flex flex-col md:flex-row justify-between items-center relative max-w-5xl mx-auto gap-12 md:gap-0">
-                <!-- Connecting Line (Desktop) -->
-                <div
-                    class="hidden md:block absolute top-1/2 left-[10%] right-[10%] h-0.5 border-t-2 border-dashed border-gray-600 -translate-y-1/2 z-0">
-                </div>
-
-                <!-- Step 1 -->
-                <div class="relative z-10 flex flex-col items-center text-center w-full md:w-1/3 px-4"
-                    data-aos="fade-up" data-aos-delay="100">
-                    <div
-                        class="w-20 h-20 rounded-2xl bg-brandBlue/20 flex items-center justify-center text-brandBlue text-3xl mb-6 glass-card border border-glassBorder">
-                        <i class="fas fa-clipboard-list"></i>
-                    </div>
-                    <h3 class="font-heading text-xl font-bold mb-2">Step 1: Register</h3>
-                    <p class="text-gray-400 text-sm">Tell us about your business and your core pain points.</p>
-                </div>
-
-                <!-- Step 2 -->
-                <div class="relative z-10 flex flex-col items-center text-center w-full md:w-1/3 px-4"
-                    data-aos="fade-up" data-aos-delay="200">
-                    <div
-                        class="w-20 h-20 rounded-2xl bg-brandPurple/20 flex items-center justify-center text-brandPurple text-3xl mb-6 glass-card border border-glassBorder">
-                        <i class="fas fa-cog"></i>
-                    </div>
-                    <h3 class="font-heading text-xl font-bold mb-2">Step 2: We Build Your System</h3>
-                    <p class="text-gray-400 text-sm">Our experts create your custom automation in 3-7 days.</p>
-                </div>
-
-                <!-- Step 3 -->
-                <div class="relative z-10 flex flex-col items-center text-center w-full md:w-1/3 px-4"
-                    data-aos="fade-up" data-aos-delay="300">
-                    <div
-                        class="w-20 h-20 rounded-2xl bg-pink-500/20 flex items-center justify-center text-pink-500 text-3xl mb-6 glass-card border border-glassBorder">
-                        <i class="fas fa-rocket"></i>
-                    </div>
-                    <h3 class="font-heading text-xl font-bold mb-2">Step 3: Go Live & Grow</h3>
-                    <p class="text-gray-400 text-sm">Launch your automated systems and scale your business.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Services Preview Section -->
-    <section class="relative z-10 py-24 px-4 border-t border-glassBorder bg-black/20 backdrop-blur-sm">
-        <div class="max-w-7xl mx-auto">
-            <div class="text-center mb-16" data-aos="fade-up">
-                <h2 class="font-heading text-3xl md:text-5xl font-bold mb-4">Our Premium <span
-                        class="text-brandPurple">Services</span></h2>
-                <p class="text-gray-400 max-w-2xl mx-auto">Dashboard-ready modules designed for the future of your
-                    business.</p>
-            </div>
-
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
-                <!-- Service 1 -->
-                <div class="glass-card p-8 rounded-2xl border border-glassBorder hover:-translate-y-2 transition-transform duration-300"
-                    data-aos="fade-up" data-aos-delay="100">
-                    <div
-                        class="w-14 h-14 rounded-xl bg-brandBlue/20 flex items-center justify-center mb-6 text-brandBlue text-2xl">
-                        <i class="fab fa-whatsapp"></i>
-                    </div>
-                    <h3 class="font-heading text-2xl font-semibold mb-3">WhatsApp Automation</h3>
-                    <p class="text-gray-400 leading-relaxed mb-4">
-                        Engage customers 24/7 with smart chatbots, automated broadcasts, and seamless CRM integrations
-                        directly via WhatsApp.
-                    </p>
-                    <ul class="space-y-2 text-sm text-gray-300">
-                        <li><i class="fas fa-check text-green-400 mr-2"></i> Auto-replies & Chatbots</li>
-                        <li><i class="fas fa-check text-green-400 mr-2"></i> Bulk Broadcast Campaigns</li>
-                    </ul>
-                </div>
-
-                <!-- Service 2 -->
-                <div class="glass-card p-8 rounded-2xl border border-glassBorder hover:-translate-y-2 transition-transform duration-300"
-                    data-aos="fade-up" data-aos-delay="200">
-                    <div
-                        class="w-14 h-14 rounded-xl bg-pink-500/20 flex items-center justify-center mb-6 text-pink-500 text-2xl">
-                        <i class="fas fa-chart-line"></i>
-                    </div>
-                    <h3 class="font-heading text-2xl font-semibold mb-3">Lead Management</h3>
-                    <p class="text-gray-400 leading-relaxed mb-4">
-                        Capture, nurture, and convert leads with our intelligent pipelines and automated follow-up
-                        systems.
-                    </p>
-                    <ul class="space-y-2 text-sm text-gray-300">
-                        <li><i class="fas fa-check text-green-400 mr-2"></i> Lead Capturing Forms</li>
-                        <li><i class="fas fa-check text-green-400 mr-2"></i> Automated Follow-ups</li>
-                    </ul>
-                </div>
-
-                <!-- Service 3 -->
-                <div class="glass-card p-8 rounded-2xl border border-glassBorder hover:-translate-y-2 transition-transform duration-300 relative overflow-hidden"
-                    data-aos="fade-up" data-aos-delay="300">
-                    <div class="absolute -top-10 -right-10 w-32 h-32 bg-brandPurple/30 blur-2xl rounded-full"></div>
-                    <div
-                        class="w-14 h-14 rounded-xl bg-brandPurple/20 flex items-center justify-center mb-6 text-brandPurple text-2xl relative z-10">
-                        <i class="fas fa-code"></i>
-                    </div>
-                    <h3 class="font-heading text-2xl font-semibold mb-3 relative z-10">Custom SaaS Solutions</h3>
-                    <p class="text-gray-400 leading-relaxed mb-4 relative z-10">
-                        Tailor-made software, dashboards, and SaaS platforms built to solve your unique operational
-                        bottlenecks.
-                    </p>
-                    <ul class="space-y-2 text-sm text-gray-300 relative z-10">
-                        <li><i class="fas fa-check text-green-400 mr-2"></i> Custom Dashboards</li>
-                        <li><i class="fas fa-check text-green-400 mr-2"></i> Internal Tools</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="text-center" data-aos="fade-up" data-aos-delay="400">
-                <a href="pages/services.html"
-                    class="inline-flex items-center gap-2 px-8 py-3 rounded-full border border-brandBlue/50 text-brandBlue hover:bg-brandBlue/10 transition-colors font-medium">
-                    View All Services <i class="fas fa-arrow-right"></i>
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <!-- ══════════════════════════════════════════════
-         Featured Project Section
-    ══════════════════════════════════════════════ -->
-    <section id="featured-project"
-        class="relative z-10 py-24 px-4 border-t border-glassBorder bg-black/30 overflow-hidden">
-
-        <!-- Ambient section orbs -->
-        <div class="absolute top-10 left-[-8%] w-80 h-80 bg-brandBlue/20 rounded-full blur-[110px] pointer-events-none"></div>
-        <div class="absolute bottom-10 right-[-5%] w-96 h-96 bg-brandPurple/25 rounded-full blur-[110px] pointer-events-none"></div>
-
-        <div class="max-w-7xl mx-auto relative z-10">
-
-            <!-- ── Section Label ── -->
-            <div class="text-center mb-14" data-aos="fade-up">
-                <span
-                    class="inline-flex items-center gap-2 px-4 py-1 rounded-full border border-white/10 bg-white/5 text-xs font-semibold tracking-widest uppercase text-gray-400 mb-4">
-                    <span class="w-1.5 h-1.5 rounded-full bg-brandBlue animate-pulse"></span>
-                    Case Study
-                </span>
-            </div>
-
-            <!-- ── Two-Column Layout ── -->
-            <div class="flex flex-col lg:flex-row items-center gap-14 lg:gap-16">
-
-                <!-- LEFT: Content -->
-                <div class="w-full lg:w-1/2 order-2 lg:order-1" data-aos="fade-right" data-aos-duration="800">
-
-                    <!-- Featured badge -->
-                    <div
-                        class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-brandBlue/40 bg-brandBlue/10 text-brandBlue text-xs font-bold tracking-widest uppercase mb-5">
-                        <i class="fas fa-star text-[10px]"></i> Featured Project
-                    </div>
-
-                    <!-- Heading -->
-                    <h2 class="font-heading text-4xl sm:text-5xl font-extrabold leading-tight tracking-tight mb-4">
-                        12-Week Year<br>
-                        <span
-                            class="text-transparent bg-clip-text bg-gradient-to-r from-brandBlue via-brandPurple to-pink-500">
-                            Execution System
-                        </span>
-                    </h2>
-
-                    <!-- Subheading -->
-                    <p class="text-lg sm:text-xl font-semibold text-gray-200 mb-5 leading-snug">
-                        Transform Annual Goals Into Weekly Results
-                    </p>
-
-                    <!-- Description -->
-                    <p class="text-gray-400 leading-relaxed mb-8 text-base max-w-lg">
-                        A powerful execution platform that combines <span class="text-white font-medium">Lead
-                            Metrics</span> and <span class="text-white font-medium">Lag Metrics</span> to help
-                        businesses achieve more in 12 weeks than most accomplish in 12 months.
-                    </p>
-
-                    <!-- Feature Bullets — 2-column grid -->
-                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-3 mb-10">
-                        <div class="feature-bullet">
-                            <span class="check-icon"><i class="fas fa-check"></i></span>
-                            Weekly Planning Dashboard
-                        </div>
-                        <div class="feature-bullet">
-                            <span class="check-icon"><i class="fas fa-check"></i></span>
-                            Revenue Tracking
-                        </div>
-                        <div class="feature-bullet">
-                            <span class="check-icon"><i class="fas fa-check"></i></span>
-                            Gross Profit Monitoring
-                        </div>
-                        <div class="feature-bullet">
-                            <span class="check-icon"><i class="fas fa-check"></i></span>
-                            Lead vs Lag Metrics
-                        </div>
-                        <div class="feature-bullet">
-                            <span class="check-icon"><i class="fas fa-check"></i></span>
-                            Employee Scorecards
-                        </div>
-                        <div class="feature-bullet">
-                            <span class="check-icon"><i class="fas fa-check"></i></span>
-                            Department Analytics
-                        </div>
-                        <div class="feature-bullet">
-                            <span class="check-icon"><i class="fas fa-check"></i></span>
-                            Automated PDF Reports
-                        </div>
-                        <div class="feature-bullet">
-                            <span class="check-icon"><i class="fas fa-check"></i></span>
-                            Real-Time Performance Tracking
-                        </div>
-                    </div>
-
-                    <!-- CTA Buttons -->
-                    <div class="flex flex-col sm:flex-row gap-4">
-                        <!-- View Demo button — opens video modal -->
-                        <button onclick="openDemoModal()"
-                            class="group relative px-8 py-4 rounded-full bg-gradient-to-r from-brandBlue to-brandPurple text-white font-semibold text-base overflow-hidden transition-all hover:scale-105 shadow-[0_0_28px_rgba(59,130,246,0.45)] flex items-center justify-center gap-3">
-                            <div
-                                class="absolute inset-0 bg-white/20 -skew-x-12 -translate-x-full group-hover:translate-x-full transition-transform duration-500 ease-out">
-                            </div>
-                            <i class="fas fa-play-circle text-xl relative z-10"></i>
-                            <span class="relative z-10">View Demo</span>
-                        </button>
-                        <!-- Book Consultation -->
-                        <a href="pages/contact.html"
-                            class="px-8 py-4 rounded-full border border-glassBorder bg-glassBg backdrop-blur-md text-white font-semibold text-base hover:bg-white/10 hover:scale-105 transition-all flex items-center justify-center gap-2">
-                            <i class="fas fa-calendar-alt text-brandPurple"></i>
-                            Book Consultation
-                        </a>
-                    </div>
-                </div>
-
-                <!-- RIGHT: Dashboard Preview -->
-                <div class="w-full lg:w-1/2 order-1 lg:order-2" data-aos="fade-left" data-aos-duration="800"
-                    data-aos-delay="150">
-                    <div class="dashboard-preview-wrapper relative">
-                        <!-- Outer glow layer -->
-                        <div
-                            class="absolute -inset-5 bg-gradient-to-br from-brandBlue/25 via-brandPurple/15 to-pink-500/10 rounded-3xl blur-2xl pointer-events-none">
-                        </div>
-
-                        <!-- Gradient border frame -->
-                        <div
-                            class="relative z-10 p-[2px] rounded-2xl bg-gradient-to-br from-brandBlue/60 via-brandPurple/40 to-pink-500/30">
-                            <div class="rounded-2xl overflow-hidden bg-[#0b0f19]">
-                                <!-- Fake browser chrome bar -->
-                                <div
-                                    class="flex items-center gap-2 px-4 py-3 bg-black/70 border-b border-white/[0.08]">
-                                    <span class="w-3 h-3 rounded-full bg-red-500/80 block"></span>
-                                    <span class="w-3 h-3 rounded-full bg-yellow-400/80 block"></span>
-                                    <span class="w-3 h-3 rounded-full bg-green-500/80 block"></span>
-                                    <div
-                                        class="ml-3 flex-1 h-5 rounded-full bg-white/[0.07] text-[11px] text-gray-500 flex items-center px-3 font-mono">
-                                        app.12weekexecution.com
-                                    </div>
-                                </div>
-                                <!-- Dashboard image -->
-                                <img src="assets/images/12-week-dashboard-hero.png"
-                                    alt="12-Week Year Execution System Dashboard Preview"
-                                    class="w-full object-cover block">
-                            </div>
-                        </div>
-
-                        <!-- Floating status badge — top right -->
-                        <div
-                            class="float-badge absolute -top-4 -right-3 z-20 glass-card border border-brandBlue/40 px-3.5 py-2 rounded-xl flex items-center gap-2 text-xs font-semibold text-white shadow-[0_0_20px_rgba(59,130,246,0.35)]">
-                            <i class="fas fa-arrow-trend-up text-brandBlue"></i>
-                            94% Goal Achievement
-                        </div>
-
-                        <!-- Floating status badge — bottom left -->
-                        <div
-                            class="float-badge-reverse absolute -bottom-4 -left-3 z-20 glass-card border border-green-500/30 px-3.5 py-2 rounded-xl flex items-center gap-2 text-xs font-semibold text-white shadow-[0_0_20px_rgba(34,197,94,0.25)]">
-                            <span class="w-2 h-2 rounded-full bg-green-400 animate-pulse"></span>
-                            Live Tracking Active
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- ── Metric Cards Row ── -->
-            <div class="grid grid-cols-2 lg:grid-cols-4 gap-5 mt-20">
-
-                <div class="metric-card glass-card p-6 rounded-2xl border border-glassBorder text-center group"
-                    data-aos="fade-up" data-aos-delay="100">
-                    <div
-                        class="text-4xl md:text-5xl font-extrabold font-heading text-transparent bg-clip-text bg-gradient-to-r from-brandBlue to-brandPurple mb-2 group-hover:scale-105 transition-transform duration-300">
-                        50+</div>
-                    <div class="text-gray-400 font-medium text-sm leading-tight">Businesses<br>Automated</div>
-                </div>
-
-                <div class="metric-card glass-card p-6 rounded-2xl border border-glassBorder text-center group"
-                    data-aos="fade-up" data-aos-delay="200">
-                    <div
-                        class="text-4xl md:text-5xl font-extrabold font-heading text-transparent bg-clip-text bg-gradient-to-r from-brandPurple to-pink-500 mb-2 group-hover:scale-105 transition-transform duration-300">
-                        12 Week</div>
-                    <div class="text-gray-400 font-medium text-sm leading-tight">Execution<br>Framework</div>
-                </div>
-
-                <div class="metric-card glass-card p-6 rounded-2xl border border-glassBorder text-center group"
-                    data-aos="fade-up" data-aos-delay="300">
-                    <div
-                        class="text-4xl md:text-5xl font-extrabold font-heading text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-brandBlue mb-2 group-hover:scale-105 transition-transform duration-300 leading-tight">
-                        Real<br>Time</div>
-                    <div class="text-gray-400 font-medium text-sm leading-tight mt-1">Performance<br>Tracking</div>
-                </div>
-
-                <div class="metric-card glass-card p-6 rounded-2xl border border-glassBorder text-center group"
-                    data-aos="fade-up" data-aos-delay="400">
-                    <div
-                        class="text-4xl md:text-5xl font-extrabold font-heading text-transparent bg-clip-text bg-gradient-to-r from-brandBlue to-pink-500 mb-2 group-hover:scale-105 transition-transform duration-300">
-                        100%</div>
-                    <div class="text-gray-400 font-medium text-sm leading-tight">Fully<br>Customizable</div>
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-    <!-- Video Demo Modal -->
-    <div id="demoModal"
-        class="fixed inset-0 z-[100] flex items-center justify-center p-4">
-        <!-- Backdrop -->
-        <div class="absolute inset-0 bg-black/85 backdrop-blur-sm" onclick="closeDemoModal()"></div>
-        <!-- Modal box -->
-        <div class="modal-box relative z-10 w-full max-w-5xl rounded-2xl overflow-hidden border border-glassBorder glass-card shadow-[0_0_80px_rgba(59,130,246,0.3)]">
-            <!-- Header -->
-            <div class="flex items-center justify-between px-5 py-3.5 bg-black/60 border-b border-white/[0.08]">
-                <div class="flex items-center gap-3">
-                    <div
-                        class="w-8 h-8 rounded-lg bg-gradient-to-br from-brandBlue to-brandPurple flex items-center justify-center">
-                        <i class="fas fa-play text-white text-xs"></i>
-                    </div>
-                    <span class="font-heading font-semibold text-white text-sm sm:text-base">
-                        12-Week Year Execution System &mdash; Live Demo
-                    </span>
-                </div>
-                <button onclick="closeDemoModal()"
-                    class="w-8 h-8 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center text-gray-400 hover:text-white transition-colors text-sm">
-                    <i class="fas fa-times"></i>
-                </button>
-            </div>
-            <!-- Video player -->
-            <div class="relative bg-black w-full aspect-video">
-                <video id="demoVideo" class="w-full h-full" controls controlsList="nodownload"
-                    preload="metadata">
-                    <source src="assets/videos/12-week-execution-demo.mp4" type="video/mp4">
-                    Your browser does not support HTML5 video.
-                </video>
-            </div>
-        </div>
-    </div>
-
-    <!-- Testimonials Section -->
-    <section class="relative z-10 py-24 px-4 border-t border-glassBorder bg-black/30">
-        <div class="max-w-7xl mx-auto">
-            <div class="text-center mb-16" data-aos="fade-up">
-                <h2 class="font-heading text-3xl md:text-5xl font-bold mb-4">Client <span
-                        class="text-transparent bg-clip-text bg-gradient-to-r from-brandBlue to-brandPurple">Success</span>
-                    Stories</h2>
-                <p class="text-gray-400 max-w-2xl mx-auto">Hear what our partners have to say about working with us.</p>
-            </div>
-
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
-                <!-- Testimonial 1 -->
-                <div class="glass-card p-10 rounded-3xl border border-t-brandBlue/50 border-l-brandBlue/50 border-b-glassBorder border-r-glassBorder relative overflow-hidden"
-                    data-aos="fade-up" data-aos-delay="100">
-                    <i class="fas fa-quote-left text-4xl text-brandBlue/20 absolute top-8 left-8"></i>
-                    <div class="mb-6 flex text-yellow-400 relative z-10 mt-4">
-                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                            class="fas fa-star"></i><i class="fas fa-star"></i>
-                    </div>
-                    <p class="text-xl text-gray-300 italic leading-relaxed mb-8 relative z-10">
-                        "Hamari leads 3x ho gayi sirf 2 mahine mein!"
-                    </p>
-                    <div class="flex items-center gap-4 relative z-10">
-                        <div
-                            class="w-12 h-12 rounded-full bg-brandBlue/20 flex items-center justify-center font-bold text-brandBlue">
-                            R</div>
-                        <div>
-                            <h4 class="font-heading font-semibold">Rahul Sharma</h4>
-                            <p class="text-gray-400 text-sm">Gym Owner, Delhi</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Testimonial 2 -->
-                <div class="glass-card p-10 rounded-3xl border border-t-brandPurple/50 border-r-brandPurple/50 border-b-glassBorder border-l-glassBorder relative overflow-hidden"
-                    data-aos="fade-up" data-aos-delay="200">
-                    <i class="fas fa-quote-left text-4xl text-brandPurple/20 absolute top-8 left-8"></i>
-                    <div class="mb-6 flex text-yellow-400 relative z-10 mt-4">
-                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                            class="fas fa-star"></i><i class="fas fa-star"></i>
-                    </div>
-                    <p class="text-xl text-gray-300 italic leading-relaxed mb-8 relative z-10">
-                        "WhatsApp bot ne customer support 80% reduce kar diya."
-                    </p>
-                    <div class="flex items-center gap-4 relative z-10">
-                        <div
-                            class="w-12 h-12 rounded-full bg-brandPurple/20 flex items-center justify-center font-bold text-brandPurple">
-                            P</div>
-                        <div>
-                            <h4 class="font-heading font-semibold">Priya Mehta</h4>
-                            <p class="text-gray-400 text-sm">Salon Owner, Jaipur</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- CTA Banner Section -->
-    <section class="relative z-10 py-20 px-4">
-        <div class="max-w-5xl mx-auto rounded-3xl bg-gradient-to-r from-brandBlue to-brandPurple p-12 text-center shadow-[0_0_40px_rgba(59,130,246,0.4)] relative overflow-hidden"
-            data-aos="zoom-in">
-            <!-- Decorative background elements -->
-            <div
-                class="absolute top-0 right-0 w-64 h-64 bg-white/10 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2">
-            </div>
-            <div
-                class="absolute bottom-0 left-0 w-64 h-64 bg-black/10 rounded-full blur-3xl translate-y-1/2 -translate-x-1/2">
-            </div>
-
-            <h2 class="font-heading text-4xl md:text-5xl font-bold text-white mb-6 relative z-10">Ready to Automate Your
-                Business?</h2>
-            <p class="text-xl text-white/90 mb-10 max-w-2xl mx-auto relative z-10">Join 50+ businesses already growing
-                with Tradeaura.</p>
-            <a href="pages/join.html" target="_blank"
-                class="inline-flex items-center gap-2 px-8 py-4 rounded-full bg-white text-brandBlue font-bold text-lg hover:scale-105 transition-transform shadow-xl relative z-10">
-                Join Now Free <i class="fas fa-arrow-right"></i>
-            </a>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="relative z-10 py-12 border-t border-glassBorder bg-black/40 backdrop-blur-md">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex flex-col md:flex-row justify-between items-center gap-6">
-                <div class="text-center md:text-left">
-                    <h4 class="font-heading text-xl font-bold mb-2">Tradeaura Digital Solutions</h4>
-                    <p class="text-gray-400 text-sm">Empowering growth through smart systems.</p>
-                </div>
-                <div class="flex flex-col items-center md:items-end gap-2 text-sm text-gray-300">
-                    <p><i class="fas fa-user text-brandBlue mr-2"></i> Owned by <span
-                            class="font-semibold text-white">Ajay Chouhan</span></p>
-                    <p><i class="fas fa-envelope text-brandPurple mr-2"></i> <a href="mailto:helloajaychouhan@gmail.com"
-                            class="hover:text-white transition-colors">helloajaychouhan@gmail.com</a></p>
-                    <p><i class="fas fa-globe text-pink-500 mr-2"></i> <a href="https://www.auraautomation.site"
-                            target="_blank" class="hover:text-white transition-colors">www.auraautomation.site</a></p>
-                </div>
-            </div>
-            <div
-                class="mt-8 pt-8 border-t border-white/10 text-center text-sm text-gray-500 flex flex-col md:flex-row justify-between items-center">
-                <p>&copy; 2026 Tradeaura Digital Solutions. All rights reserved.</p>
-                <p class="mt-2 md:mt-0">Dashboard Architecture Ready</p>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Sticky WhatsApp CTA -->
-    <a href="https://wa.me/919587402524" target="_blank"
-        class="fixed bottom-6 right-6 z-50 w-14 h-14 bg-green-500 rounded-full flex items-center justify-center text-white text-3xl shadow-[0_0_20px_rgba(34,197,94,0.5)] hover:scale-110 transition-transform duration-300"
-        aria-label="Chat on WhatsApp">
-        <i class="fab fa-whatsapp"></i>
-        <span class="absolute -top-1 -right-1 flex h-4 w-4">
-            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
-            <span class="relative inline-flex rounded-full h-4 w-4 bg-green-500"></span>
-        </span>
+  <!-- CTAs -->
+  <div class="flex flex-col sm:flex-row gap-4 justify-center mb-16" data-aos="fade-up" data-aos-delay="350">
+    <a href="pages/contact.html"
+       class="btn-primary inline-flex items-center gap-2 px-8 py-4 rounded-full text-white font-semibold text-base">
+      <i class="fas fa-calendar-alt"></i> Book Free Consultation
     </a>
+    <a href="pages/services.html"
+       class="btn-ghost inline-flex items-center gap-2 px-8 py-4 rounded-full text-white font-semibold text-base">
+      View Solutions <i class="fas fa-arrow-right text-sm"></i>
+    </a>
+    <a href="https://wa.me/919587402524" target="_blank" rel="noopener"
+       class="btn-ghost inline-flex items-center gap-2 px-8 py-4 rounded-full text-white font-semibold text-base">
+      <i class="fab fa-whatsapp text-green-400"></i> Chat on WhatsApp
+    </a>
+  </div>
 
-    <!-- Scripts -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="js/script.js"></script>
+  <!-- Social Proof Strip -->
+  <div class="flex flex-wrap items-center justify-center gap-6 text-sm text-gray-500" data-aos="fade-up" data-aos-delay="450">
+    <span class="flex items-center gap-1.5"><i class="fas fa-check-circle text-green-400"></i> No Setup Fees</span>
+    <span class="w-px h-4 bg-gray-700"></span>
+    <span class="flex items-center gap-1.5"><i class="fas fa-check-circle text-green-400"></i> 3-7 Day Delivery</span>
+    <span class="w-px h-4 bg-gray-700"></span>
+    <span class="flex items-center gap-1.5"><i class="fas fa-check-circle text-green-400"></i> 24/7 Support</span>
+    <span class="w-px h-4 bg-gray-700"></span>
+    <span class="flex items-center gap-1.5"><i class="fas fa-check-circle text-green-400"></i> 50+ Businesses Served</span>
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════════
+     TRUST STATS SECTION
+════════════════════════════════════════════ -->
+<section class="relative z-10 py-16 px-4 border-y border-glassBorder bg-black/30 backdrop-blur-sm">
+  <div class="max-w-7xl mx-auto">
+    <div class="grid grid-cols-2 lg:grid-cols-4 gap-6">
+
+      <div class="stat-card glass-card p-8 rounded-2xl border border-glassBorder text-center" data-aos="fade-up" data-aos-delay="100">
+        <div class="text-4xl md:text-5xl font-black font-heading gradient-text-blue-purple mb-2"
+             data-count="50" data-suffix="+" data-duration="1800">0+</div>
+        <div class="text-gray-400 font-medium text-sm">Clients Served</div>
+        <div class="text-xs text-gray-600 mt-1">Across India</div>
+      </div>
+
+      <div class="stat-card glass-card p-8 rounded-2xl border border-glassBorder text-center" data-aos="fade-up" data-aos-delay="200">
+        <div class="text-4xl md:text-5xl font-black font-heading gradient-text-blue-purple mb-2"
+             data-count="120" data-suffix="+" data-duration="2000">0+</div>
+        <div class="text-gray-400 font-medium text-sm">Projects Completed</div>
+        <div class="text-xs text-gray-600 mt-1">Automation systems</div>
+      </div>
+
+      <div class="stat-card glass-card p-8 rounded-2xl border border-glassBorder text-center" data-aos="fade-up" data-aos-delay="300">
+        <div class="text-4xl md:text-5xl font-black font-heading gradient-text-blue-purple mb-2">&lt; 2hr</div>
+        <div class="text-gray-400 font-medium text-sm">Response Time</div>
+        <div class="text-xs text-gray-600 mt-1">Average reply speed</div>
+      </div>
+
+      <div class="stat-card glass-card p-8 rounded-2xl border border-glassBorder text-center" data-aos="fade-up" data-aos-delay="400">
+        <div class="text-4xl md:text-5xl font-black font-heading gradient-text-blue-purple mb-2"
+             data-count="10000" data-suffix="+" data-duration="2200">0+</div>
+        <div class="text-gray-400 font-medium text-sm">Automation Hours Saved</div>
+        <div class="text-xs text-gray-600 mt-1">For our clients</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════════
+     INTERACTIVE SOLUTIONS EXPLORER
+════════════════════════════════════════════ -->
+<section class="relative z-10 py-24 px-4">
+  <div class="max-w-7xl mx-auto">
+
+    <!-- Heading -->
+    <div class="text-center mb-16" data-aos="fade-up">
+      <div class="label-badge mb-6 mx-auto w-fit">Our Solutions</div>
+      <h2 class="font-heading font-bold text-4xl md:text-6xl mb-4">
+        Everything Your Business Needs<br>
+        <span class="gradient-text">To Grow Faster</span>
+      </h2>
+      <p class="text-gray-400 max-w-2xl mx-auto text-lg">Click any solution to explore features, use cases, and how it transforms your operations.</p>
+    </div>
+
+    <!-- Solutions Grid -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+
+      <!-- WhatsApp Automation -->
+      <a href="pages/services/whatsapp-automation.html"
+         class="solution-card glass-card border border-glassBorder p-7 rounded-2xl relative"
+         style="--card-color-start: rgba(34,197,94,0.1); --card-color-end: rgba(59,130,246,0.08);"
+         data-aos="fade-up" data-aos-delay="50">
+        <div class="card-icon w-14 h-14 rounded-xl bg-green-500/15 border border-green-500/20 flex items-center justify-center text-green-400 text-2xl mb-5 icon-glow-green">
+          <i class="fab fa-whatsapp"></i>
+        </div>
+        <h3 class="font-heading font-bold text-lg mb-2 text-white">WhatsApp Automation</h3>
+        <p class="text-gray-500 text-sm leading-relaxed mb-4">Smart chatbots, broadcast campaigns & CRM integration via WhatsApp.</p>
+        <div class="card-arrow flex items-center gap-1 text-xs text-brandBlue font-semibold">
+          Explore <i class="fas fa-arrow-right text-xs"></i>
+        </div>
+      </a>
+
+      <!-- AI Automation -->
+      <a href="pages/services/ai-automation.html"
+         class="solution-card glass-card border border-glassBorder p-7 rounded-2xl relative"
+         style="--card-color-start: rgba(59,130,246,0.1); --card-color-end: rgba(139,92,246,0.08);"
+         data-aos="fade-up" data-aos-delay="100">
+        <div class="card-icon w-14 h-14 rounded-xl bg-brandBlue/15 border border-brandBlue/20 flex items-center justify-center text-brandBlue text-2xl mb-5 icon-glow-blue">
+          <i class="fas fa-robot"></i>
+        </div>
+        <h3 class="font-heading font-bold text-lg mb-2 text-white">AI Business Automation</h3>
+        <p class="text-gray-500 text-sm leading-relaxed mb-4">AI-driven workflows that eliminate repetitive tasks and grow intelligently.</p>
+        <div class="card-arrow flex items-center gap-1 text-xs text-brandBlue font-semibold">
+          Explore <i class="fas fa-arrow-right text-xs"></i>
+        </div>
+      </a>
+
+      <!-- CRM Setup -->
+      <a href="pages/services/crm-setup.html"
+         class="solution-card glass-card border border-glassBorder p-7 rounded-2xl relative"
+         style="--card-color-start: rgba(139,92,246,0.1); --card-color-end: rgba(236,72,153,0.08);"
+         data-aos="fade-up" data-aos-delay="150">
+        <div class="card-icon w-14 h-14 rounded-xl bg-brandPurple/15 border border-brandPurple/20 flex items-center justify-center text-brandPurple text-2xl mb-5 icon-glow-purple">
+          <i class="fas fa-address-card"></i>
+        </div>
+        <h3 class="font-heading font-bold text-lg mb-2 text-white">CRM Setup</h3>
+        <p class="text-gray-500 text-sm leading-relaxed mb-4">Full CRM configuration with pipelines, automations and analytics dashboards.</p>
+        <div class="card-arrow flex items-center gap-1 text-xs text-brandBlue font-semibold">
+          Explore <i class="fas fa-arrow-right text-xs"></i>
+        </div>
+      </a>
+
+      <!-- Custom SaaS -->
+      <a href="pages/services/custom-saas.html"
+         class="solution-card glass-card border border-glassBorder p-7 rounded-2xl relative"
+         style="--card-color-start: rgba(236,72,153,0.1); --card-color-end: rgba(139,92,246,0.08);"
+         data-aos="fade-up" data-aos-delay="200">
+        <div class="card-icon w-14 h-14 rounded-xl bg-brandPink/15 border border-brandPink/20 flex items-center justify-center text-brandPink text-2xl mb-5 icon-glow-pink">
+          <i class="fas fa-code"></i>
+        </div>
+        <h3 class="font-heading font-bold text-lg mb-2 text-white">Custom SaaS Solutions</h3>
+        <p class="text-gray-500 text-sm leading-relaxed mb-4">Tailor-made platforms, dashboards, and internal tools built for you.</p>
+        <div class="card-arrow flex items-center gap-1 text-xs text-brandBlue font-semibold">
+          Explore <i class="fas fa-arrow-right text-xs"></i>
+        </div>
+      </a>
+
+      <!-- Lead Management -->
+      <a href="pages/services/lead-management.html"
+         class="solution-card glass-card border border-glassBorder p-7 rounded-2xl relative"
+         style="--card-color-start: rgba(249,115,22,0.1); --card-color-end: rgba(234,179,8,0.08);"
+         data-aos="fade-up" data-aos-delay="250">
+        <div class="card-icon w-14 h-14 rounded-xl bg-orange-500/15 border border-orange-500/20 flex items-center justify-center text-orange-400 text-2xl mb-5 icon-glow-orange">
+          <i class="fas fa-funnel-dollar"></i>
+        </div>
+        <h3 class="font-heading font-bold text-lg mb-2 text-white">Lead Management</h3>
+        <p class="text-gray-500 text-sm leading-relaxed mb-4">Capture, score, nurture, and convert leads with automated follow-up sequences.</p>
+        <div class="card-arrow flex items-center gap-1 text-xs text-brandBlue font-semibold">
+          Explore <i class="fas fa-arrow-right text-xs"></i>
+        </div>
+      </a>
+
+      <!-- Process Automation -->
+      <a href="pages/services/process-automation.html"
+         class="solution-card glass-card border border-glassBorder p-7 rounded-2xl relative"
+         style="--card-color-start: rgba(6,182,212,0.1); --card-color-end: rgba(59,130,246,0.08);"
+         data-aos="fade-up" data-aos-delay="300">
+        <div class="card-icon w-14 h-14 rounded-xl bg-cyan-500/15 border border-cyan-500/20 flex items-center justify-center text-cyan-400 text-2xl mb-5">
+          <i class="fas fa-cogs"></i>
+        </div>
+        <h3 class="font-heading font-bold text-lg mb-2 text-white">Process Automation</h3>
+        <p class="text-gray-500 text-sm leading-relaxed mb-4">Automate invoicing, payments, onboarding, and operational workflows end-to-end.</p>
+        <div class="card-arrow flex items-center gap-1 text-xs text-brandBlue font-semibold">
+          Explore <i class="fas fa-arrow-right text-xs"></i>
+        </div>
+      </a>
+
+      <!-- Business Intelligence -->
+      <a href="pages/services/business-intelligence.html"
+         class="solution-card glass-card border border-glassBorder p-7 rounded-2xl relative"
+         style="--card-color-start: rgba(20,184,166,0.1); --card-color-end: rgba(59,130,246,0.08);"
+         data-aos="fade-up" data-aos-delay="350">
+        <div class="card-icon w-14 h-14 rounded-xl bg-teal-500/15 border border-teal-500/20 flex items-center justify-center text-teal-400 text-2xl mb-5 icon-glow-teal">
+          <i class="fas fa-chart-bar"></i>
+        </div>
+        <h3 class="font-heading font-bold text-lg mb-2 text-white">Business Intelligence</h3>
+        <p class="text-gray-500 text-sm leading-relaxed mb-4">Real-time dashboards, KPI tracking, and data-driven decision-making tools.</p>
+        <div class="card-arrow flex items-center gap-1 text-xs text-brandBlue font-semibold">
+          Explore <i class="fas fa-arrow-right text-xs"></i>
+        </div>
+      </a>
+
+      <!-- Business Scaling Setup -->
+      <a href="pages/services/business-scaling.html"
+         class="solution-card glass-card border border-glassBorder p-7 rounded-2xl relative"
+         style="--card-color-start: rgba(168,85,247,0.1); --card-color-end: rgba(236,72,153,0.08);"
+         data-aos="fade-up" data-aos-delay="400">
+        <div class="card-icon w-14 h-14 rounded-xl bg-violet-500/15 border border-violet-500/20 flex items-center justify-center text-violet-400 text-2xl mb-5">
+          <i class="fas fa-rocket"></i>
+        </div>
+        <h3 class="font-heading font-bold text-lg mb-2 text-white">Business Scaling Setup</h3>
+        <p class="text-gray-500 text-sm leading-relaxed mb-4">Complete tech-stack setup and digital overhaul to prepare you for rapid growth.</p>
+        <div class="card-arrow flex items-center gap-1 text-xs text-brandBlue font-semibold">
+          Explore <i class="fas fa-arrow-right text-xs"></i>
+        </div>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════════
+     DASHBOARD PREVIEW SECTION
+════════════════════════════════════════════ -->
+<section class="relative z-10 py-24 px-4 border-t border-glassBorder bg-black/20">
+  <div class="max-w-7xl mx-auto">
+
+    <div class="text-center mb-12" data-aos="fade-up">
+      <div class="label-badge mb-6 mx-auto w-fit label-badge-purple">Live Platform Preview</div>
+      <h2 class="font-heading font-bold text-4xl md:text-6xl mb-4">
+        See Your Business<br>
+        <span class="gradient-text">Data Come Alive</span>
+      </h2>
+      <p class="text-gray-400 max-w-2xl mx-auto text-lg">Realistic dashboard previews of what you get — from lead tracking to revenue analytics.</p>
+    </div>
+
+    <!-- Tab Navigation -->
+    <div class="flex flex-wrap gap-2 justify-center mb-8" data-aos="fade-up" data-aos-delay="100">
+      <button class="dashboard-tab-btn active" data-dashboard-tab data-target="leads">
+        <i class="fas fa-users mr-1.5"></i> Lead Tracking
+      </button>
+      <button class="dashboard-tab-btn" data-dashboard-tab data-target="whatsapp">
+        <i class="fab fa-whatsapp mr-1.5"></i> WhatsApp Analytics
+      </button>
+      <button class="dashboard-tab-btn" data-dashboard-tab data-target="revenue">
+        <i class="fas fa-chart-line mr-1.5"></i> Revenue Dashboard
+      </button>
+      <button class="dashboard-tab-btn" data-dashboard-tab data-target="crm">
+        <i class="fas fa-columns mr-1.5"></i> CRM Pipeline
+      </button>
+      <button class="dashboard-tab-btn" data-dashboard-tab data-target="team">
+        <i class="fas fa-user-check mr-1.5"></i> Team Performance
+      </button>
+    </div>
+
+    <!-- Dashboard Panels -->
+    <div data-aos="fade-up" data-aos-delay="200">
+
+      <!-- LEAD TRACKING -->
+      <div class="dashboard-panel active" data-dashboard-panel="leads">
+        <div class="mock-dashboard p-0 rounded-2xl overflow-hidden border border-glassBorder shadow-[0_0_60px_rgba(59,130,246,0.15)]">
+          <div class="mock-topbar">
+            <span class="mock-dot bg-red-500/70"></span>
+            <span class="mock-dot bg-yellow-400/70"></span>
+            <span class="mock-dot bg-green-500/70"></span>
+            <div class="ml-3 text-xs text-gray-500 font-mono">Tradeaura CRM — Lead Dashboard</div>
+            <div class="ml-auto flex items-center gap-2">
+              <span class="px-2 py-0.5 rounded text-xs bg-green-500/15 text-green-400 border border-green-500/20">● Live</span>
+            </div>
+          </div>
+          <div class="p-5 grid grid-cols-1 lg:grid-cols-3 gap-5">
+            <!-- KPI cards -->
+            <div class="col-span-1 grid grid-cols-2 gap-3">
+              <div class="glass-card border border-glassBorder rounded-xl p-4">
+                <div class="text-xs text-gray-500 mb-1">Total Leads</div>
+                <div class="text-2xl font-bold text-white font-heading">1,248</div>
+                <div class="text-xs text-green-400 mt-1">↑ 23% this month</div>
+              </div>
+              <div class="glass-card border border-glassBorder rounded-xl p-4">
+                <div class="text-xs text-gray-500 mb-1">Converted</div>
+                <div class="text-2xl font-bold text-brandBlue font-heading">312</div>
+                <div class="text-xs text-green-400 mt-1">↑ 18% vs last</div>
+              </div>
+              <div class="glass-card border border-glassBorder rounded-xl p-4">
+                <div class="text-xs text-gray-500 mb-1">Conv. Rate</div>
+                <div class="text-2xl font-bold text-brandPurple font-heading">25%</div>
+                <div class="text-xs text-gray-400 mt-1">Industry avg 12%</div>
+              </div>
+              <div class="glass-card border border-glassBorder rounded-xl p-4">
+                <div class="text-xs text-gray-500 mb-1">In Pipeline</div>
+                <div class="text-2xl font-bold text-brandPink font-heading">936</div>
+                <div class="text-xs text-yellow-400 mt-1">Needs follow-up</div>
+              </div>
+              <!-- Funnel -->
+              <div class="col-span-2 glass-card border border-glassBorder rounded-xl p-4">
+                <div class="text-xs text-gray-500 mb-3">Lead Funnel</div>
+                <div class="space-y-2">
+                  <div>
+                    <div class="flex justify-between text-xs mb-1"><span class="text-gray-400">New</span><span class="text-white">1,248</span></div>
+                    <div class="progress-track"><div class="progress-fill" data-width="100%" style="background:linear-gradient(90deg,#3B82F6,#8B5CF6)"></div></div>
+                  </div>
+                  <div>
+                    <div class="flex justify-between text-xs mb-1"><span class="text-gray-400">Contacted</span><span class="text-white">892</span></div>
+                    <div class="progress-track"><div class="progress-fill" data-width="71%" style="background:linear-gradient(90deg,#8B5CF6,#EC4899)"></div></div>
+                  </div>
+                  <div>
+                    <div class="flex justify-between text-xs mb-1"><span class="text-gray-400">Qualified</span><span class="text-white">542</span></div>
+                    <div class="progress-track"><div class="progress-fill" data-width="43%" style="background:linear-gradient(90deg,#EC4899,#F97316)"></div></div>
+                  </div>
+                  <div>
+                    <div class="flex justify-between text-xs mb-1"><span class="text-gray-400">Closed Won</span><span class="text-white">312</span></div>
+                    <div class="progress-track"><div class="progress-fill" data-width="25%" style="background:linear-gradient(90deg,#22c55e,#16a34a)"></div></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Chart area -->
+            <div class="col-span-2 space-y-4">
+              <div class="glass-card border border-glassBorder rounded-xl p-4 h-40">
+                <div class="flex items-center justify-between mb-3">
+                  <div class="text-xs text-gray-500">Lead Volume — Last 12 Weeks</div>
+                  <div class="text-xs text-brandBlue">↑ 34% growth</div>
+                </div>
+                <div class="mock-sparkline h-24">
+                  <div class="mock-sparkline-bar" style="height:45%"></div>
+                  <div class="mock-sparkline-bar" style="height:55%"></div>
+                  <div class="mock-sparkline-bar" style="height:40%"></div>
+                  <div class="mock-sparkline-bar" style="height:65%"></div>
+                  <div class="mock-sparkline-bar" style="height:75%"></div>
+                  <div class="mock-sparkline-bar" style="height:60%"></div>
+                  <div class="mock-sparkline-bar" style="height:80%"></div>
+                  <div class="mock-sparkline-bar" style="height:70%"></div>
+                  <div class="mock-sparkline-bar" style="height:90%"></div>
+                  <div class="mock-sparkline-bar" style="height:85%"></div>
+                  <div class="mock-sparkline-bar" style="height:95%"></div>
+                  <div class="mock-sparkline-bar" style="height:100%; background:linear-gradient(to top,#22c55e,#16a34a)"></div>
+                </div>
+              </div>
+              <!-- Recent Leads Table -->
+              <div class="glass-card border border-glassBorder rounded-xl overflow-hidden">
+                <div class="px-4 py-3 border-b border-glassBorder text-xs text-gray-500 flex items-center justify-between">
+                  <span>Recent Leads</span><span class="text-brandBlue cursor-pointer hover:underline">View all →</span>
+                </div>
+                <div class="divide-y divide-glassBorder">
+                  <div class="px-4 py-2.5 flex items-center gap-3 text-xs">
+                    <div class="w-6 h-6 rounded-full bg-brandBlue/20 flex items-center justify-center text-brandBlue font-bold text-[10px]">R</div>
+                    <span class="text-gray-200 flex-1">Rajesh Patel</span>
+                    <span class="text-gray-500">Auto Dealer</span>
+                    <span class="px-2 py-0.5 rounded-full bg-yellow-500/15 text-yellow-400 border border-yellow-500/20 text-[10px]">Qualified</span>
+                  </div>
+                  <div class="px-4 py-2.5 flex items-center gap-3 text-xs">
+                    <div class="w-6 h-6 rounded-full bg-brandPurple/20 flex items-center justify-center text-brandPurple font-bold text-[10px]">S</div>
+                    <span class="text-gray-200 flex-1">Sunita Agarwal</span>
+                    <span class="text-gray-500">Healthcare</span>
+                    <span class="px-2 py-0.5 rounded-full bg-green-500/15 text-green-400 border border-green-500/20 text-[10px]">Closed Won</span>
+                  </div>
+                  <div class="px-4 py-2.5 flex items-center gap-3 text-xs">
+                    <div class="w-6 h-6 rounded-full bg-brandPink/20 flex items-center justify-center text-brandPink font-bold text-[10px]">M</div>
+                    <span class="text-gray-200 flex-1">Manish Kumar</span>
+                    <span class="text-gray-500">Real Estate</span>
+                    <span class="px-2 py-0.5 rounded-full bg-blue-500/15 text-blue-400 border border-blue-500/20 text-[10px]">New</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- WHATSAPP ANALYTICS -->
+      <div class="dashboard-panel" data-dashboard-panel="whatsapp">
+        <div class="mock-dashboard p-0 rounded-2xl overflow-hidden border border-glassBorder shadow-[0_0_60px_rgba(34,197,94,0.1)]">
+          <div class="mock-topbar">
+            <span class="mock-dot bg-red-500/70"></span>
+            <span class="mock-dot bg-yellow-400/70"></span>
+            <span class="mock-dot bg-green-500/70"></span>
+            <div class="ml-3 text-xs text-gray-500 font-mono">Tradeaura — WhatsApp Analytics</div>
+            <div class="ml-auto"><span class="px-2 py-0.5 rounded text-xs bg-green-500/15 text-green-400 border border-green-500/20">● Bot Active</span></div>
+          </div>
+          <div class="p-5 grid grid-cols-1 lg:grid-cols-4 gap-4">
+            <div class="glass-card border border-glassBorder rounded-xl p-4 text-center">
+              <div class="text-xs text-gray-500 mb-1">Messages Sent</div>
+              <div class="text-3xl font-bold text-green-400 font-heading">48.2K</div>
+              <div class="text-xs text-green-400 mt-1">This month</div>
+            </div>
+            <div class="glass-card border border-glassBorder rounded-xl p-4 text-center">
+              <div class="text-xs text-gray-500 mb-1">Open Rate</div>
+              <div class="text-3xl font-bold text-brandBlue font-heading">94.3%</div>
+              <div class="text-xs text-gray-400 mt-1">vs Email 22%</div>
+            </div>
+            <div class="glass-card border border-glassBorder rounded-xl p-4 text-center">
+              <div class="text-xs text-gray-500 mb-1">Bot Sessions</div>
+              <div class="text-3xl font-bold text-brandPurple font-heading">12.8K</div>
+              <div class="text-xs text-green-400 mt-1">↑ 41% MoM</div>
+            </div>
+            <div class="glass-card border border-glassBorder rounded-xl p-4 text-center">
+              <div class="text-xs text-gray-500 mb-1">Resp. Time</div>
+              <div class="text-3xl font-bold text-brandPink font-heading">1.2s</div>
+              <div class="text-xs text-gray-400 mt-1">Avg auto-reply</div>
+            </div>
+            <div class="lg:col-span-2 glass-card border border-glassBorder rounded-xl p-4">
+              <div class="text-xs text-gray-500 mb-3">Message Volume (Daily)</div>
+              <div class="mock-sparkline h-20">
+                <div class="mock-sparkline-bar" style="height:50%; background:linear-gradient(to top,rgba(34,197,94,0.6),rgba(34,197,94,0.3))"></div>
+                <div class="mock-sparkline-bar" style="height:70%; background:linear-gradient(to top,rgba(34,197,94,0.6),rgba(34,197,94,0.3))"></div>
+                <div class="mock-sparkline-bar" style="height:60%; background:linear-gradient(to top,rgba(34,197,94,0.6),rgba(34,197,94,0.3))"></div>
+                <div class="mock-sparkline-bar" style="height:85%; background:linear-gradient(to top,rgba(34,197,94,0.6),rgba(34,197,94,0.3))"></div>
+                <div class="mock-sparkline-bar" style="height:75%; background:linear-gradient(to top,rgba(34,197,94,0.6),rgba(34,197,94,0.3))"></div>
+                <div class="mock-sparkline-bar" style="height:90%; background:linear-gradient(to top,rgba(34,197,94,0.7),rgba(59,130,246,0.3))"></div>
+                <div class="mock-sparkline-bar" style="height:100%; background:linear-gradient(to top,rgba(34,197,94,0.8),rgba(59,130,246,0.4))"></div>
+              </div>
+            </div>
+            <div class="lg:col-span-2 glass-card border border-glassBorder rounded-xl p-4">
+              <div class="text-xs text-gray-500 mb-3">Bot Conversation Types</div>
+              <div class="space-y-3">
+                <div>
+                  <div class="flex justify-between text-xs mb-1"><span class="text-gray-400">Lead Qualification</span><span class="text-green-400">38%</span></div>
+                  <div class="progress-track"><div class="progress-fill" data-width="38%" style="background:#22c55e"></div></div>
+                </div>
+                <div>
+                  <div class="flex justify-between text-xs mb-1"><span class="text-gray-400">Support Queries</span><span class="text-brandBlue">29%</span></div>
+                  <div class="progress-track"><div class="progress-fill" data-width="29%" style="background:#3B82F6"></div></div>
+                </div>
+                <div>
+                  <div class="flex justify-between text-xs mb-1"><span class="text-gray-400">Appointment Booking</span><span class="text-brandPurple">21%</span></div>
+                  <div class="progress-track"><div class="progress-fill" data-width="21%" style="background:#8B5CF6"></div></div>
+                </div>
+                <div>
+                  <div class="flex justify-between text-xs mb-1"><span class="text-gray-400">Payment Reminders</span><span class="text-brandPink">12%</span></div>
+                  <div class="progress-track"><div class="progress-fill" data-width="12%" style="background:#EC4899"></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- REVENUE DASHBOARD -->
+      <div class="dashboard-panel" data-dashboard-panel="revenue">
+        <div class="mock-dashboard p-0 rounded-2xl overflow-hidden border border-glassBorder shadow-[0_0_60px_rgba(139,92,246,0.15)]">
+          <div class="mock-topbar">
+            <span class="mock-dot bg-red-500/70"></span>
+            <span class="mock-dot bg-yellow-400/70"></span>
+            <span class="mock-dot bg-green-500/70"></span>
+            <div class="ml-3 text-xs text-gray-500 font-mono">Tradeaura — Revenue Intelligence</div>
+          </div>
+          <div class="p-5 grid grid-cols-1 lg:grid-cols-3 gap-4">
+            <div class="glass-card border border-glassBorder rounded-xl p-5">
+              <div class="text-xs text-gray-500 mb-1">Monthly Revenue</div>
+              <div class="text-3xl font-bold text-white font-heading">₹18.4L</div>
+              <div class="text-xs text-green-400 mt-1">↑ 34% vs last month</div>
+              <div class="mt-4 mock-sparkline h-16">
+                <div class="mock-sparkline-bar" style="height:40%"></div>
+                <div class="mock-sparkline-bar" style="height:55%"></div>
+                <div class="mock-sparkline-bar" style="height:60%"></div>
+                <div class="mock-sparkline-bar" style="height:70%"></div>
+                <div class="mock-sparkline-bar" style="height:85%"></div>
+                <div class="mock-sparkline-bar" style="height:75%"></div>
+                <div class="mock-sparkline-bar" style="height:100%; background:linear-gradient(to top,#8B5CF6,#3B82F6)"></div>
+              </div>
+            </div>
+            <div class="glass-card border border-glassBorder rounded-xl p-5">
+              <div class="text-xs text-gray-500 mb-3">Revenue by Source</div>
+              <div class="space-y-3">
+                <div class="flex items-center gap-3">
+                  <div class="w-2.5 h-2.5 rounded-full bg-brandBlue flex-shrink-0"></div>
+                  <div class="flex-1 text-xs text-gray-300">WhatsApp Leads</div>
+                  <div class="text-xs text-white font-semibold">42%</div>
+                </div>
+                <div class="flex items-center gap-3">
+                  <div class="w-2.5 h-2.5 rounded-full bg-brandPurple flex-shrink-0"></div>
+                  <div class="flex-1 text-xs text-gray-300">CRM Pipeline</div>
+                  <div class="text-xs text-white font-semibold">31%</div>
+                </div>
+                <div class="flex items-center gap-3">
+                  <div class="w-2.5 h-2.5 rounded-full bg-brandPink flex-shrink-0"></div>
+                  <div class="flex-1 text-xs text-gray-300">Referrals</div>
+                  <div class="text-xs text-white font-semibold">18%</div>
+                </div>
+                <div class="flex items-center gap-3">
+                  <div class="w-2.5 h-2.5 rounded-full bg-orange-400 flex-shrink-0"></div>
+                  <div class="flex-1 text-xs text-gray-300">Direct Inquiries</div>
+                  <div class="text-xs text-white font-semibold">9%</div>
+                </div>
+              </div>
+            </div>
+            <div class="space-y-3">
+              <div class="glass-card border border-glassBorder rounded-xl p-4">
+                <div class="text-xs text-gray-500 mb-1">Gross Profit</div>
+                <div class="text-2xl font-bold text-green-400 font-heading">₹11.2L</div>
+                <div class="text-xs text-gray-400 mt-0.5">61% margin</div>
+              </div>
+              <div class="glass-card border border-glassBorder rounded-xl p-4">
+                <div class="text-xs text-gray-500 mb-1">Avg Deal Value</div>
+                <div class="text-2xl font-bold text-brandBlue font-heading">₹58K</div>
+                <div class="text-xs text-green-400 mt-0.5">↑ 12% vs Q3</div>
+              </div>
+              <div class="glass-card border border-glassBorder rounded-xl p-4">
+                <div class="text-xs text-gray-500 mb-1">YTD Target</div>
+                <div class="text-2xl font-bold text-brandPurple font-heading">78%</div>
+                <div class="progress-track mt-2"><div class="progress-fill" data-width="78%" style="background:linear-gradient(90deg,#8B5CF6,#EC4899)"></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CRM PIPELINE -->
+      <div class="dashboard-panel" data-dashboard-panel="crm">
+        <div class="mock-dashboard p-0 rounded-2xl overflow-hidden border border-glassBorder shadow-[0_0_60px_rgba(236,72,153,0.1)]">
+          <div class="mock-topbar">
+            <span class="mock-dot bg-red-500/70"></span>
+            <span class="mock-dot bg-yellow-400/70"></span>
+            <span class="mock-dot bg-green-500/70"></span>
+            <div class="ml-3 text-xs text-gray-500 font-mono">Tradeaura CRM — Pipeline Board</div>
+            <div class="ml-auto text-xs text-gray-500">Total: ₹4.2Cr pipeline</div>
+          </div>
+          <div class="p-5 flex gap-3 overflow-x-auto pb-2">
+            <div class="pipeline-col min-w-[160px]">
+              <div class="text-xs text-gray-500 mb-2 flex items-center justify-between">
+                <span>New Leads</span><span class="px-1.5 py-0.5 rounded bg-brandBlue/15 text-brandBlue text-[10px]">24</span>
+              </div>
+              <div class="pipeline-card border-l-2 border-brandBlue"><div class="text-xs text-gray-300">Rajesh Patel</div><div class="text-[10px] text-gray-500">Auto Dealer • ₹2.4L</div></div>
+              <div class="pipeline-card border-l-2 border-brandBlue"><div class="text-xs text-gray-300">Neha Singh</div><div class="text-[10px] text-gray-500">Clinic Owner • ₹1.8L</div></div>
+              <div class="pipeline-card border-l-2 border-brandBlue"><div class="text-xs text-gray-300">Amit Verma</div><div class="text-[10px] text-gray-500">Real Estate • ₹5.2L</div></div>
+            </div>
+            <div class="pipeline-col min-w-[160px]">
+              <div class="text-xs text-gray-500 mb-2 flex items-center justify-between">
+                <span>In Discussion</span><span class="px-1.5 py-0.5 rounded bg-yellow-500/15 text-yellow-400 text-[10px]">18</span>
+              </div>
+              <div class="pipeline-card border-l-2 border-yellow-400"><div class="text-xs text-gray-300">Priya Mehta</div><div class="text-[10px] text-gray-500">Salon Chain • ₹3.6L</div></div>
+              <div class="pipeline-card border-l-2 border-yellow-400"><div class="text-xs text-gray-300">Vikram Shah</div><div class="text-[10px] text-gray-500">EdTech • ₹7.8L</div></div>
+            </div>
+            <div class="pipeline-col min-w-[160px]">
+              <div class="text-xs text-gray-500 mb-2 flex items-center justify-between">
+                <span>Proposal Sent</span><span class="px-1.5 py-0.5 rounded bg-brandPurple/15 text-brandPurple text-[10px]">12</span>
+              </div>
+              <div class="pipeline-card border-l-2 border-brandPurple"><div class="text-xs text-gray-300">Sunita Agarwal</div><div class="text-[10px] text-gray-500">Hospital • ₹12L</div></div>
+              <div class="pipeline-card border-l-2 border-brandPurple"><div class="text-xs text-gray-300">Rahul Gupta</div><div class="text-[10px] text-gray-500">Startup • ₹4.5L</div></div>
+            </div>
+            <div class="pipeline-col min-w-[160px]">
+              <div class="text-xs text-gray-500 mb-2 flex items-center justify-between">
+                <span>Negotiation</span><span class="px-1.5 py-0.5 rounded bg-orange-500/15 text-orange-400 text-[10px]">7</span>
+              </div>
+              <div class="pipeline-card border-l-2 border-orange-400"><div class="text-xs text-gray-300">Ravi Traders</div><div class="text-[10px] text-gray-500">Distribution • ₹9L</div></div>
+            </div>
+            <div class="pipeline-col min-w-[160px]">
+              <div class="text-xs text-gray-500 mb-2 flex items-center justify-between">
+                <span>Closed Won</span><span class="px-1.5 py-0.5 rounded bg-green-500/15 text-green-400 text-[10px]">31</span>
+              </div>
+              <div class="pipeline-card border-l-2 border-green-400"><div class="text-xs text-gray-300">AutoPilot Cars</div><div class="text-[10px] text-gray-500">Dealership • ₹18L</div></div>
+              <div class="pipeline-card border-l-2 border-green-400"><div class="text-xs text-gray-300">MedCare Clinic</div><div class="text-[10px] text-gray-500">Healthcare • ₹8.4L</div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- TEAM PERFORMANCE -->
+      <div class="dashboard-panel" data-dashboard-panel="team">
+        <div class="mock-dashboard p-0 rounded-2xl overflow-hidden border border-glassBorder shadow-[0_0_60px_rgba(59,130,246,0.12)]">
+          <div class="mock-topbar">
+            <span class="mock-dot bg-red-500/70"></span>
+            <span class="mock-dot bg-yellow-400/70"></span>
+            <span class="mock-dot bg-green-500/70"></span>
+            <div class="ml-3 text-xs text-gray-500 font-mono">Tradeaura — Employee Performance</div>
+          </div>
+          <div class="p-5 grid grid-cols-1 lg:grid-cols-3 gap-4">
+            <div class="lg:col-span-2 glass-card border border-glassBorder rounded-xl overflow-hidden">
+              <div class="px-4 py-3 border-b border-glassBorder text-xs text-gray-500">Team Leaderboard — This Quarter</div>
+              <div class="divide-y divide-glassBorder">
+                <div class="px-4 py-3 flex items-center gap-3">
+                  <div class="text-sm font-bold text-yellow-400 w-5">#1</div>
+                  <div class="w-8 h-8 rounded-full bg-brandBlue/20 flex items-center justify-center text-brandBlue text-xs font-bold">AK</div>
+                  <div class="flex-1"><div class="text-xs text-gray-200">Arun Kumar</div><div class="text-[10px] text-gray-500">Sales Manager</div></div>
+                  <div class="text-right"><div class="text-xs text-green-400 font-bold">98.2</div><div class="text-[10px] text-gray-500">score</div></div>
+                </div>
+                <div class="px-4 py-3 flex items-center gap-3">
+                  <div class="text-sm font-bold text-gray-300 w-5">#2</div>
+                  <div class="w-8 h-8 rounded-full bg-brandPurple/20 flex items-center justify-center text-brandPurple text-xs font-bold">PS</div>
+                  <div class="flex-1"><div class="text-xs text-gray-200">Pooja Sharma</div><div class="text-[10px] text-gray-500">Account Executive</div></div>
+                  <div class="text-right"><div class="text-xs text-brandBlue font-bold">94.7</div><div class="text-[10px] text-gray-500">score</div></div>
+                </div>
+                <div class="px-4 py-3 flex items-center gap-3">
+                  <div class="text-sm font-bold text-gray-500 w-5">#3</div>
+                  <div class="w-8 h-8 rounded-full bg-brandPink/20 flex items-center justify-center text-brandPink text-xs font-bold">RV</div>
+                  <div class="flex-1"><div class="text-xs text-gray-200">Rahul Verma</div><div class="text-[10px] text-gray-500">BDR</div></div>
+                  <div class="text-right"><div class="text-xs text-brandPurple font-bold">89.4</div><div class="text-[10px] text-gray-500">score</div></div>
+                </div>
+              </div>
+            </div>
+            <div class="space-y-3">
+              <div class="glass-card border border-glassBorder rounded-xl p-4">
+                <div class="text-xs text-gray-500 mb-2">Task Completion</div>
+                <div class="text-2xl font-bold text-green-400 font-heading">87%</div>
+                <div class="progress-track mt-2"><div class="progress-fill" data-width="87%" style="background:#22c55e"></div></div>
+              </div>
+              <div class="glass-card border border-glassBorder rounded-xl p-4">
+                <div class="text-xs text-gray-500 mb-2">Attendance Rate</div>
+                <div class="text-2xl font-bold text-brandBlue font-heading">96%</div>
+                <div class="progress-track mt-2"><div class="progress-fill" data-width="96%"></div></div>
+              </div>
+              <div class="glass-card border border-glassBorder rounded-xl p-4">
+                <div class="text-xs text-gray-500 mb-2">Avg Response (hrs)</div>
+                <div class="text-2xl font-bold text-brandPurple font-heading">1.8</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- /panels -->
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════════
+     HOW IT WORKS
+════════════════════════════════════════════ -->
+<section class="relative z-10 py-24 px-4">
+  <div class="max-w-7xl mx-auto">
+    <div class="text-center mb-16" data-aos="fade-up">
+      <div class="label-badge mb-6 mx-auto w-fit">Simple Process</div>
+      <h2 class="font-heading font-bold text-4xl md:text-6xl mb-4">
+        From Discovery to<br><span class="gradient-text">Launch in Days</span>
+      </h2>
+      <p class="text-gray-400 max-w-xl mx-auto">We handle everything — you just share your goals and watch your business transform.</p>
+    </div>
+
+    <div class="relative max-w-5xl mx-auto">
+      <!-- Desktop connecting line -->
+      <div class="hidden md:flex absolute top-12 left-[10%] right-[10%] items-center z-0">
+        <div class="step-connector flex-1"></div>
+        <div class="step-connector flex-1"></div>
+        <div class="step-connector flex-1"></div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-8 relative z-10">
+
+        <div class="flex flex-col items-center text-center" data-aos="fade-up" data-aos-delay="100">
+          <div class="w-24 h-24 rounded-2xl bg-brandBlue/15 border border-brandBlue/25 flex items-center justify-center text-brandBlue text-3xl mb-5 glass-card icon-glow-blue relative">
+            <i class="fas fa-comments"></i>
+            <div class="absolute -top-2 -right-2 w-6 h-6 rounded-full bg-brandBlue flex items-center justify-center text-white text-xs font-bold">1</div>
+          </div>
+          <h3 class="font-heading text-lg font-bold mb-2">Discovery Call</h3>
+          <p class="text-gray-500 text-sm">Tell us your pain points, goals, and business model in a free 30-min call.</p>
+        </div>
+
+        <div class="flex flex-col items-center text-center" data-aos="fade-up" data-aos-delay="200">
+          <div class="w-24 h-24 rounded-2xl bg-brandPurple/15 border border-brandPurple/25 flex items-center justify-center text-brandPurple text-3xl mb-5 glass-card icon-glow-purple relative">
+            <i class="fas fa-drafting-compass"></i>
+            <div class="absolute -top-2 -right-2 w-6 h-6 rounded-full bg-brandPurple flex items-center justify-center text-white text-xs font-bold">2</div>
+          </div>
+          <h3 class="font-heading text-lg font-bold mb-2">Custom Blueprint</h3>
+          <p class="text-gray-500 text-sm">We design your full automation architecture and present a detailed roadmap.</p>
+        </div>
+
+        <div class="flex flex-col items-center text-center" data-aos="fade-up" data-aos-delay="300">
+          <div class="w-24 h-24 rounded-2xl bg-brandPink/15 border border-brandPink/25 flex items-center justify-center text-brandPink text-3xl mb-5 glass-card icon-glow-pink relative">
+            <i class="fas fa-cog fa-spin" style="animation-duration:4s"></i>
+            <div class="absolute -top-2 -right-2 w-6 h-6 rounded-full bg-brandPink flex items-center justify-center text-white text-xs font-bold">3</div>
+          </div>
+          <h3 class="font-heading text-lg font-bold mb-2">We Build It</h3>
+          <p class="text-gray-500 text-sm">Our team builds, tests, and configures your entire system in 3–7 days.</p>
+        </div>
+
+        <div class="flex flex-col items-center text-center" data-aos="fade-up" data-aos-delay="400">
+          <div class="w-24 h-24 rounded-2xl bg-green-500/15 border border-green-500/25 flex items-center justify-center text-green-400 text-3xl mb-5 glass-card icon-glow-green relative">
+            <i class="fas fa-rocket"></i>
+            <div class="absolute -top-2 -right-2 w-6 h-6 rounded-full bg-green-500 flex items-center justify-center text-white text-xs font-bold">4</div>
+          </div>
+          <h3 class="font-heading text-lg font-bold mb-2">Go Live & Scale</h3>
+          <p class="text-gray-500 text-sm">Launch with training, onboarding support, and ongoing 24/7 monitoring.</p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="text-center mt-14" data-aos="fade-up" data-aos-delay="500">
+      <a href="pages/contact.html"
+         class="btn-primary inline-flex items-center gap-2 px-8 py-4 rounded-full text-white font-semibold">
+        <i class="fas fa-calendar-check"></i> Start Your Journey Today
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════════
+     FEATURED PROJECT — 12-WEEK EXECUTION SYSTEM
+════════════════════════════════════════════ -->
+<section id="featured-project" class="relative z-10 py-24 px-4 border-t border-glassBorder bg-black/30 overflow-hidden">
+  <div class="absolute top-10 left-[-8%] w-80 h-80 bg-brandBlue/20 rounded-full blur-[110px] pointer-events-none"></div>
+  <div class="absolute bottom-10 right-[-5%] w-96 h-96 bg-brandPurple/25 rounded-full blur-[110px] pointer-events-none"></div>
+
+  <div class="max-w-7xl mx-auto relative z-10">
+    <div class="text-center mb-14" data-aos="fade-up">
+      <span class="label-badge mx-auto w-fit">
+        <span class="w-1.5 h-1.5 rounded-full bg-brandBlue animate-pulse"></span> Case Study
+      </span>
+    </div>
+
+    <div class="flex flex-col lg:flex-row items-center gap-14">
+      <!-- Left content -->
+      <div class="w-full lg:w-1/2 order-2 lg:order-1" data-aos="fade-right" data-aos-duration="800">
+        <div class="label-badge mb-5 w-fit">
+          <i class="fas fa-star text-[10px]"></i> Featured Project
+        </div>
+        <h2 class="font-heading text-4xl sm:text-5xl font-extrabold leading-tight tracking-tight mb-4">
+          12-Week Year<br>
+          <span class="gradient-text-animated">Execution System</span>
+        </h2>
+        <p class="text-lg sm:text-xl font-semibold text-gray-200 mb-5">Transform Annual Goals Into Weekly Results</p>
+        <p class="text-gray-400 leading-relaxed mb-8 max-w-lg">
+          A powerful execution platform combining <span class="text-white font-medium">Lead Metrics</span> and <span class="text-white font-medium">Lag Metrics</span> to help businesses achieve more in 12 weeks than most accomplish in 12 months.
+        </p>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-3 mb-10">
+          <div class="feature-bullet"><span class="check-icon"><i class="fas fa-check"></i></span> Weekly Planning Dashboard</div>
+          <div class="feature-bullet"><span class="check-icon"><i class="fas fa-check"></i></span> Revenue Tracking</div>
+          <div class="feature-bullet"><span class="check-icon"><i class="fas fa-check"></i></span> Gross Profit Monitoring</div>
+          <div class="feature-bullet"><span class="check-icon"><i class="fas fa-check"></i></span> Lead vs Lag Metrics</div>
+          <div class="feature-bullet"><span class="check-icon"><i class="fas fa-check"></i></span> Employee Scorecards</div>
+          <div class="feature-bullet"><span class="check-icon"><i class="fas fa-check"></i></span> Department Analytics</div>
+          <div class="feature-bullet"><span class="check-icon"><i class="fas fa-check"></i></span> Automated PDF Reports</div>
+          <div class="feature-bullet"><span class="check-icon"><i class="fas fa-check"></i></span> Real-Time Performance</div>
+        </div>
+        <div class="flex flex-col sm:flex-row gap-4">
+          <button onclick="openDemoModal()"
+            class="btn-primary group inline-flex items-center justify-center gap-3 px-8 py-4 rounded-full text-white font-semibold">
+            <i class="fas fa-play-circle text-xl"></i> View Demo
+          </button>
+          <a href="pages/contact.html"
+             class="btn-ghost inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full text-white font-semibold">
+            <i class="fas fa-calendar-alt text-brandPurple"></i> Book Consultation
+          </a>
+        </div>
+      </div>
+
+      <!-- Right: Dashboard -->
+      <div class="w-full lg:w-1/2 order-1 lg:order-2" data-aos="fade-left" data-aos-duration="800" data-aos-delay="150">
+        <div class="dashboard-preview-wrapper relative">
+          <div class="absolute -inset-6 bg-gradient-to-br from-brandBlue/20 via-brandPurple/12 to-brandPink/8 rounded-3xl blur-2xl pointer-events-none"></div>
+          <div class="relative z-10 p-[2px] rounded-2xl bg-gradient-to-br from-brandBlue/60 via-brandPurple/40 to-brandPink/30">
+            <div class="rounded-2xl overflow-hidden bg-[#0b0f19]">
+              <div class="flex items-center gap-2 px-4 py-3 bg-black/70 border-b border-white/[0.08]">
+                <span class="w-3 h-3 rounded-full bg-red-500/80"></span>
+                <span class="w-3 h-3 rounded-full bg-yellow-400/80"></span>
+                <span class="w-3 h-3 rounded-full bg-green-500/80"></span>
+                <div class="ml-3 flex-1 h-5 rounded-full bg-white/[0.07] text-[11px] text-gray-500 flex items-center px-3 font-mono">
+                  app.12weekexecution.com
+                </div>
+              </div>
+              <img src="assets/images/12-week-dashboard-hero.png"
+                   alt="12-Week Year Execution System Dashboard"
+                   class="w-full object-cover block">
+            </div>
+          </div>
+          <div class="float-badge absolute -top-4 -right-3 z-20 glass-card border border-brandBlue/40 px-3.5 py-2 rounded-xl flex items-center gap-2 text-xs font-semibold text-white shadow-[0_0_20px_rgba(59,130,246,0.35)]">
+            <i class="fas fa-arrow-trend-up text-brandBlue"></i> 94% Goal Achievement
+          </div>
+          <div class="float-badge-reverse absolute -bottom-4 -left-3 z-20 glass-card border border-green-500/30 px-3.5 py-2 rounded-xl flex items-center gap-2 text-xs font-semibold text-white shadow-[0_0_20px_rgba(34,197,94,0.25)]">
+            <span class="w-2 h-2 rounded-full bg-green-400 animate-pulse"></span> Live Tracking Active
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Metric Cards -->
+    <div class="grid grid-cols-2 lg:grid-cols-4 gap-5 mt-20">
+      <div class="metric-card glass-card p-6 rounded-2xl border border-glassBorder text-center group" data-aos="fade-up" data-aos-delay="100">
+        <div class="text-4xl md:text-5xl font-extrabold font-heading gradient-text-blue-purple mb-2 group-hover:scale-105 transition-transform">50+</div>
+        <div class="text-gray-400 text-sm">Businesses<br>Automated</div>
+      </div>
+      <div class="metric-card glass-card p-6 rounded-2xl border border-glassBorder text-center group" data-aos="fade-up" data-aos-delay="200">
+        <div class="text-4xl md:text-5xl font-extrabold font-heading gradient-text mb-2 group-hover:scale-105 transition-transform">12 Wk</div>
+        <div class="text-gray-400 text-sm">Execution<br>Framework</div>
+      </div>
+      <div class="metric-card glass-card p-6 rounded-2xl border border-glassBorder text-center group" data-aos="fade-up" data-aos-delay="300">
+        <div class="text-4xl md:text-5xl font-extrabold font-heading gradient-text-blue-purple mb-2 group-hover:scale-105 transition-transform leading-tight">Real<br>Time</div>
+        <div class="text-gray-400 text-sm mt-1">Performance<br>Tracking</div>
+      </div>
+      <div class="metric-card glass-card p-6 rounded-2xl border border-glassBorder text-center group" data-aos="fade-up" data-aos-delay="400">
+        <div class="text-4xl md:text-5xl font-extrabold font-heading gradient-text mb-2 group-hover:scale-105 transition-transform">100%</div>
+        <div class="text-gray-400 text-sm">Fully<br>Customizable</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════════
+     INDUSTRIES WE SERVE
+════════════════════════════════════════════ -->
+<section class="relative z-10 py-24 px-4 border-t border-glassBorder">
+  <div class="max-w-7xl mx-auto">
+    <div class="text-center mb-16" data-aos="fade-up">
+      <div class="label-badge mb-6 mx-auto w-fit">Industries</div>
+      <h2 class="font-heading font-bold text-4xl md:text-6xl mb-4">
+        Built for Every<br><span class="gradient-text">Business Type</span>
+      </h2>
+      <p class="text-gray-400 max-w-xl mx-auto">Tradeaura delivers industry-specific automation solutions tailored to your sector's unique challenges.</p>
+    </div>
+
+    <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-4">
+
+      <a href="pages/industries.html" class="industry-card glass-card border border-glassBorder p-5 rounded-2xl text-center group cursor-pointer" data-aos="fade-up" data-aos-delay="50">
+        <div class="w-12 h-12 rounded-xl bg-brandBlue/15 flex items-center justify-center text-brandBlue text-xl mx-auto mb-3 group-hover:scale-110 transition-transform"><i class="fas fa-store"></i></div>
+        <div class="text-sm font-semibold text-gray-300 group-hover:text-white transition-colors">Small Business</div>
+      </a>
+
+      <a href="pages/industries.html" class="industry-card glass-card border border-glassBorder p-5 rounded-2xl text-center group cursor-pointer" data-aos="fade-up" data-aos-delay="100">
+        <div class="w-12 h-12 rounded-xl bg-orange-500/15 flex items-center justify-center text-orange-400 text-xl mx-auto mb-3 group-hover:scale-110 transition-transform"><i class="fas fa-car"></i></div>
+        <div class="text-sm font-semibold text-gray-300 group-hover:text-white transition-colors">Auto Dealers</div>
+      </a>
+
+      <a href="pages/industries.html" class="industry-card glass-card border border-glassBorder p-5 rounded-2xl text-center group cursor-pointer" data-aos="fade-up" data-aos-delay="150">
+        <div class="w-12 h-12 rounded-xl bg-brandPurple/15 flex items-center justify-center text-brandPurple text-xl mx-auto mb-3 group-hover:scale-110 transition-transform"><i class="fas fa-building"></i></div>
+        <div class="text-sm font-semibold text-gray-300 group-hover:text-white transition-colors">Real Estate</div>
+      </a>
+
+      <a href="pages/industries.html" class="industry-card glass-card border border-glassBorder p-5 rounded-2xl text-center group cursor-pointer" data-aos="fade-up" data-aos-delay="200">
+        <div class="w-12 h-12 rounded-xl bg-green-500/15 flex items-center justify-center text-green-400 text-xl mx-auto mb-3 group-hover:scale-110 transition-transform"><i class="fas fa-heartbeat"></i></div>
+        <div class="text-sm font-semibold text-gray-300 group-hover:text-white transition-colors">Healthcare</div>
+      </a>
+
+      <a href="pages/industries.html" class="industry-card glass-card border border-glassBorder p-5 rounded-2xl text-center group cursor-pointer" data-aos="fade-up" data-aos-delay="250">
+        <div class="w-12 h-12 rounded-xl bg-yellow-500/15 flex items-center justify-center text-yellow-400 text-xl mx-auto mb-3 group-hover:scale-110 transition-transform"><i class="fas fa-graduation-cap"></i></div>
+        <div class="text-sm font-semibold text-gray-300 group-hover:text-white transition-colors">Education</div>
+      </a>
+
+      <a href="pages/industries.html" class="industry-card glass-card border border-glassBorder p-5 rounded-2xl text-center group cursor-pointer" data-aos="fade-up" data-aos-delay="300">
+        <div class="w-12 h-12 rounded-xl bg-teal-500/15 flex items-center justify-center text-teal-400 text-xl mx-auto mb-3 group-hover:scale-110 transition-transform"><i class="fas fa-concierge-bell"></i></div>
+        <div class="text-sm font-semibold text-gray-300 group-hover:text-white transition-colors">Services</div>
+      </a>
+
+      <a href="pages/industries.html" class="industry-card glass-card border border-glassBorder p-5 rounded-2xl text-center group cursor-pointer" data-aos="fade-up" data-aos-delay="350">
+        <div class="w-12 h-12 rounded-xl bg-brandPink/15 flex items-center justify-center text-brandPink text-xl mx-auto mb-3 group-hover:scale-110 transition-transform"><i class="fas fa-lightbulb"></i></div>
+        <div class="text-sm font-semibold text-gray-300 group-hover:text-white transition-colors">Startups</div>
+      </a>
+
+    </div>
+
+    <div class="text-center mt-10" data-aos="fade-up" data-aos-delay="400">
+      <a href="pages/industries.html" class="btn-outline-blue inline-flex items-center gap-2 px-6 py-3 rounded-full font-medium text-sm">
+        Explore Industry Solutions <i class="fas fa-arrow-right text-xs"></i>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════════
+     TESTIMONIALS
+════════════════════════════════════════════ -->
+<section class="relative z-10 py-24 px-4 border-t border-glassBorder bg-black/20">
+  <div class="max-w-7xl mx-auto">
+    <div class="text-center mb-16" data-aos="fade-up">
+      <div class="label-badge mb-6 mx-auto w-fit">Client Stories</div>
+      <h2 class="font-heading font-bold text-4xl md:text-6xl mb-4">
+        Real Results,<br><span class="gradient-text">Real Businesses</span>
+      </h2>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+
+      <div class="testimonial-card glass-card p-8 rounded-3xl border border-glassBorder relative overflow-hidden" data-aos="fade-up" data-aos-delay="100">
+        <div class="absolute top-0 left-0 w-full h-0.5 bg-gradient-to-r from-brandBlue to-brandPurple"></div>
+        <i class="fas fa-quote-left text-3xl text-brandBlue/20 absolute top-6 right-6"></i>
+        <div class="flex mb-4">
+          <i class="fas fa-star text-yellow-400 text-sm"></i><i class="fas fa-star text-yellow-400 text-sm"></i><i class="fas fa-star text-yellow-400 text-sm"></i><i class="fas fa-star text-yellow-400 text-sm"></i><i class="fas fa-star text-yellow-400 text-sm"></i>
+        </div>
+        <p class="text-gray-300 italic leading-relaxed mb-6">"Hamari leads 3x ho gayi sirf 2 mahine mein! WhatsApp bot se ab hum 24/7 customer ko handle karte hain bina kisi staff ke."</p>
+        <div class="flex items-center gap-3">
+          <div class="w-10 h-10 rounded-full bg-brandBlue/20 flex items-center justify-center font-bold text-brandBlue">R</div>
+          <div>
+            <div class="font-semibold text-white text-sm">Rahul Sharma</div>
+            <div class="text-gray-500 text-xs">Gym Owner, Delhi</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-card glass-card p-8 rounded-3xl border border-glassBorder relative overflow-hidden" data-aos="fade-up" data-aos-delay="200">
+        <div class="absolute top-0 left-0 w-full h-0.5 bg-gradient-to-r from-brandPurple to-brandPink"></div>
+        <i class="fas fa-quote-left text-3xl text-brandPurple/20 absolute top-6 right-6"></i>
+        <div class="flex mb-4">
+          <i class="fas fa-star text-yellow-400 text-sm"></i><i class="fas fa-star text-yellow-400 text-sm"></i><i class="fas fa-star text-yellow-400 text-sm"></i><i class="fas fa-star text-yellow-400 text-sm"></i><i class="fas fa-star text-yellow-400 text-sm"></i>
+        </div>
+        <p class="text-gray-300 italic leading-relaxed mb-6">"WhatsApp bot ne customer support 80% reduce kar diya. Ab mera team sirf high-value clients par focus karta hai. Game changer!"</p>
+        <div class="flex items-center gap-3">
+          <div class="w-10 h-10 rounded-full bg-brandPurple/20 flex items-center justify-center font-bold text-brandPurple">P</div>
+          <div>
+            <div class="font-semibold text-white text-sm">Priya Mehta</div>
+            <div class="text-gray-500 text-xs">Salon Owner, Jaipur</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-card glass-card p-8 rounded-3xl border border-glassBorder relative overflow-hidden" data-aos="fade-up" data-aos-delay="300">
+        <div class="absolute top-0 left-0 w-full h-0.5 bg-gradient-to-r from-brandPink to-orange-400"></div>
+        <i class="fas fa-quote-left text-3xl text-brandPink/20 absolute top-6 right-6"></i>
+        <div class="flex mb-4">
+          <i class="fas fa-star text-yellow-400 text-sm"></i><i class="fas fa-star text-yellow-400 text-sm"></i><i class="fas fa-star text-yellow-400 text-sm"></i><i class="fas fa-star text-yellow-400 text-sm"></i><i class="fas fa-star text-yellow-400 text-sm"></i>
+        </div>
+        <p class="text-gray-300 italic leading-relaxed mb-6">"CRM setup se humara conversion rate 40% badha. Lead follow-up ab automatic hoti hai. Tradeaura ne hamari dealership transform kar di."</p>
+        <div class="flex items-center gap-3">
+          <div class="w-10 h-10 rounded-full bg-brandPink/20 flex items-center justify-center font-bold text-brandPink">A</div>
+          <div>
+            <div class="font-semibold text-white text-sm">Amit Sharma</div>
+            <div class="text-gray-500 text-xs">Auto Dealer, Jaipur</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════════
+     LATEST INDUSTRY INSIGHTS (AUTO-GENERATED)
+════════════════════════════════════════════ -->
+<!-- TRADEAURA_NEWS_SECTION_START -->
+<section class="relative z-10 py-24 px-4">
+  <div class="max-w-7xl mx-auto">
+    <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-12" data-aos="fade-up">
+      <div>
+        <div class="label-badge mb-4 w-fit">
+          <span class="w-1.5 h-1.5 rounded-full bg-green-400 animate-pulse"></span>
+          Live Updates · Every 6 Hours
+        </div>
+        <h2 class="font-heading font-bold text-4xl md:text-5xl">
+          Latest Industry<br><span class="gradient-text">Insights</span>
+        </h2>
+      </div>
+      <a href="news/index.html" class="btn-ghost inline-flex items-center gap-2 px-6 py-3 rounded-full text-white font-medium text-sm flex-shrink-0">
+        View All Insights <i class="fas fa-arrow-right text-xs"></i>
+      </a>
+    </div>
+    <div class="text-center py-16 glass-card border border-glassBorder rounded-2xl" data-aos="fade-up">
+      <div class="w-16 h-16 rounded-2xl bg-gradient-to-br from-brandBlue to-brandPurple flex items-center justify-center mx-auto mb-5">
+        <i class="fas fa-newspaper text-white text-2xl"></i>
+      </div>
+      <h3 class="font-heading font-bold text-xl text-white mb-3">Industry Insights Loading...</h3>
+      <p class="text-gray-400 text-sm mb-6 max-w-md mx-auto">AI-curated news on automation, AI, CRM & SaaS will appear here automatically after the first news refresh.</p>
+      <a href="news/index.html" class="btn-primary inline-flex items-center gap-2 px-6 py-3 rounded-full text-white font-semibold text-sm">
+        <i class="fas fa-newspaper"></i> Explore News Hub
+      </a>
+    </div>
+  </div>
+</section>
+<!-- TRADEAURA_NEWS_SECTION_END -->
+
+<!-- ════════════════════════════════════════════
+     CTA BANNER
+════════════════════════════════════════════ -->
+<section class="relative z-10 py-24 px-4">
+  <div class="max-w-5xl mx-auto" data-aos="zoom-in">
+    <div class="relative overflow-hidden rounded-3xl p-12 md:p-16 text-center">
+      <!-- Gradient background -->
+      <div class="absolute inset-0 bg-gradient-to-br from-brandBlue via-brandPurple to-brandPink opacity-90 rounded-3xl"></div>
+      <!-- Decorative orbs -->
+      <div class="absolute top-0 right-0 w-64 h-64 bg-white/10 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2"></div>
+      <div class="absolute bottom-0 left-0 w-64 h-64 bg-black/15 rounded-full blur-3xl translate-y-1/2 -translate-x-1/2"></div>
+      <!-- Grid overlay -->
+      <div class="absolute inset-0 grid-pattern opacity-20 rounded-3xl"></div>
+
+      <div class="relative z-10">
+        <h2 class="font-heading text-4xl md:text-6xl font-black text-white mb-4 tracking-tight">
+          Ready to Automate<br>Your Business?
+        </h2>
+        <p class="text-xl text-white/80 mb-10 max-w-2xl mx-auto">
+          Join 50+ businesses already growing with Tradeaura. Start with a free consultation — no commitment required.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a href="pages/contact.html"
+             class="inline-flex items-center gap-2 px-8 py-4 rounded-full bg-white text-brandBlue font-bold text-base hover:scale-105 transition-transform shadow-2xl">
+            <i class="fas fa-calendar-alt"></i> Book Free Consultation
+          </a>
+          <a href="https://wa.me/919587402524" target="_blank" rel="noopener"
+             class="inline-flex items-center gap-2 px-8 py-4 rounded-full bg-white/10 border border-white/20 text-white font-semibold text-base hover:bg-white/20 transition-all hover:scale-105">
+            <i class="fab fa-whatsapp"></i> Chat on WhatsApp
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════════
+     FOOTER
+════════════════════════════════════════════ -->
+<footer class="relative z-10 border-t border-glassBorder bg-black/50 backdrop-blur-xl">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
+
+      <!-- Brand -->
+      <div class="lg:col-span-1">
+        <div class="flex items-center gap-3 mb-4">
+          <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-brandBlue to-brandPurple flex items-center justify-center font-heading font-black text-lg">TA</div>
+          <span class="font-heading font-bold text-xl">Tradeaura</span>
+        </div>
+        <p class="text-gray-500 text-sm leading-relaxed mb-5">Automate Your Business. Grow Faster With Smart Systems.</p>
+        <div class="flex gap-3">
+          <a href="https://wa.me/919587402524" target="_blank" class="w-9 h-9 rounded-lg bg-green-500/15 border border-green-500/20 flex items-center justify-center text-green-400 hover:bg-green-500/25 transition-colors">
+            <i class="fab fa-whatsapp text-sm"></i>
+          </a>
+          <a href="mailto:helloajaychouhan@gmail.com" class="w-9 h-9 rounded-lg bg-brandBlue/15 border border-brandBlue/20 flex items-center justify-center text-brandBlue hover:bg-brandBlue/25 transition-colors">
+            <i class="fas fa-envelope text-sm"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Solutions -->
+      <div>
+        <h4 class="font-heading font-semibold text-white mb-4">Solutions</h4>
+        <ul class="space-y-2 text-sm">
+          <li><a href="pages/services/whatsapp-automation.html" class="text-gray-500 hover:text-white transition-colors">WhatsApp Automation</a></li>
+          <li><a href="pages/services/ai-automation.html" class="text-gray-500 hover:text-white transition-colors">AI Business Automation</a></li>
+          <li><a href="pages/services/crm-setup.html" class="text-gray-500 hover:text-white transition-colors">CRM Setup</a></li>
+          <li><a href="pages/services/custom-saas.html" class="text-gray-500 hover:text-white transition-colors">Custom SaaS Solutions</a></li>
+          <li><a href="pages/services/lead-management.html" class="text-gray-500 hover:text-white transition-colors">Lead Management</a></li>
+          <li><a href="pages/services/business-intelligence.html" class="text-gray-500 hover:text-white transition-colors">Business Intelligence</a></li>
+        </ul>
+      </div>
+
+      <!-- Company -->
+      <div>
+        <h4 class="font-heading font-semibold text-white mb-4">Company</h4>
+        <ul class="space-y-2 text-sm">
+          <li><a href="pages/about.html" class="text-gray-500 hover:text-white transition-colors">About Us</a></li>
+          <li><a href="pages/industries.html" class="text-gray-500 hover:text-white transition-colors">Industries</a></li>
+          <li><a href="pages/compare.html" class="text-gray-500 hover:text-white transition-colors">Pricing</a></li>
+          <li><a href="pages/contact.html" class="text-gray-500 hover:text-white transition-colors">Contact</a></li>
+          <li><a href="pages/join.html" class="text-gray-500 hover:text-white transition-colors">Get Started</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact -->
+      <div>
+        <h4 class="font-heading font-semibold text-white mb-4">Get In Touch</h4>
+        <div class="space-y-3 text-sm">
+          <div class="flex items-start gap-2">
+            <i class="fas fa-user text-brandBlue mt-0.5 flex-shrink-0"></i>
+            <span class="text-gray-400">Owned by <span class="text-white font-medium">Ajay Chouhan</span></span>
+          </div>
+          <div class="flex items-start gap-2">
+            <i class="fas fa-envelope text-brandPurple mt-0.5 flex-shrink-0"></i>
+            <a href="mailto:helloajaychouhan@gmail.com" class="text-gray-400 hover:text-white transition-colors">helloajaychouhan@gmail.com</a>
+          </div>
+          <div class="flex items-start gap-2">
+            <i class="fab fa-whatsapp text-green-400 mt-0.5 flex-shrink-0"></i>
+            <a href="https://wa.me/919587402524" target="_blank" class="text-gray-400 hover:text-white transition-colors">+91 95874 02524</a>
+          </div>
+          <div class="flex items-start gap-2">
+            <i class="fas fa-globe text-brandPink mt-0.5 flex-shrink-0"></i>
+            <a href="https://www.auraautomation.site" target="_blank" class="text-gray-400 hover:text-white transition-colors">www.auraautomation.site</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="pt-8 border-t border-glassBorder flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-gray-600">
+      <p>&copy; 2026 Tradeaura Digital Solutions. All rights reserved.</p>
+      <div class="flex gap-6">
+        <a href="#" class="hover:text-gray-400 transition-colors">Privacy Policy</a>
+        <a href="#" class="hover:text-gray-400 transition-colors">Terms of Service</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- ════════════════════════════════════════════
+     VIDEO DEMO MODAL
+════════════════════════════════════════════ -->
+<div id="demoModal" class="fixed inset-0 z-[100] flex items-center justify-center p-4">
+  <div class="absolute inset-0 bg-black/85 backdrop-blur-sm" onclick="closeDemoModal()"></div>
+  <div class="modal-box relative z-10 w-full max-w-5xl rounded-2xl overflow-hidden border border-glassBorder glass-card shadow-[0_0_80px_rgba(59,130,246,0.3)]">
+    <div class="flex items-center justify-between px-5 py-3.5 bg-black/60 border-b border-white/[0.08]">
+      <div class="flex items-center gap-3">
+        <div class="w-8 h-8 rounded-lg bg-gradient-to-br from-brandBlue to-brandPurple flex items-center justify-center">
+          <i class="fas fa-play text-white text-xs"></i>
+        </div>
+        <span class="font-heading font-semibold text-white text-sm">12-Week Year Execution System &mdash; Live Demo</span>
+      </div>
+      <button onclick="closeDemoModal()" class="w-8 h-8 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center text-gray-400 hover:text-white transition-colors">
+        <i class="fas fa-times"></i>
+      </button>
+    </div>
+    <div class="relative bg-black w-full aspect-video">
+      <video id="demoVideo" class="w-full h-full" controls controlsList="nodownload" preload="metadata">
+        <source src="assets/videos/12-week-execution-demo.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+      </video>
+    </div>
+  </div>
+</div>
+
+<!-- ════════════════════════════════════════════
+     FLOATING CTA
+════════════════════════════════════════════ -->
+<div id="floatingCta" class="floating-cta">
+  <a href="pages/contact.html"
+     class="btn-primary inline-flex items-center gap-2 px-5 py-3 rounded-full text-white text-sm font-semibold shadow-xl whitespace-nowrap">
+    <i class="fas fa-calendar-alt"></i> Book Free Demo
+  </a>
+</div>
+
+<!-- WhatsApp FAB -->
+<a href="https://wa.me/919587402524" target="_blank" rel="noopener"
+   class="whatsapp-fab fixed bottom-6 right-6 z-50 w-14 h-14 bg-green-500 rounded-full flex items-center justify-center text-white text-3xl shadow-[0_0_20px_rgba(34,197,94,0.5)] hover:scale-110 transition-transform duration-300"
+   aria-label="Chat on WhatsApp">
+  <i class="fab fa-whatsapp"></i>
+  <span class="absolute -top-1 -right-1 flex h-4 w-4">
+    <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+    <span class="relative inline-flex rounded-full h-4 w-4 bg-green-500"></span>
+  </span>
+</a>
+
+<!-- Exit Intent -->
+<div id="exitIntent" class="fixed inset-0 z-[110] flex items-center justify-center p-4">
+  <div class="absolute inset-0 bg-black/80 backdrop-blur-sm"></div>
+  <div class="relative z-10 max-w-md w-full glass-card-strong border border-glassBorder rounded-3xl p-8 text-center shadow-2xl">
+    <button id="exitIntentClose" class="absolute top-4 right-4 w-8 h-8 rounded-full bg-white/10 flex items-center justify-center text-gray-400 hover:text-white text-sm"><i class="fas fa-times"></i></button>
+    <div class="w-16 h-16 rounded-2xl bg-gradient-to-br from-brandBlue to-brandPurple flex items-center justify-center text-2xl mx-auto mb-4">
+      <i class="fas fa-gift text-white"></i>
+    </div>
+    <h3 class="font-heading font-bold text-2xl text-white mb-2">Wait! Free Strategy Session</h3>
+    <p class="text-gray-400 text-sm mb-6">Before you go — get a free 30-minute automation audit for your business. No obligation, pure value.</p>
+    <div class="flex flex-col gap-3">
+      <a href="pages/contact.html" class="btn-primary inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full text-white font-semibold text-sm" onclick="document.getElementById('exitIntent').classList.remove('active')">
+        <i class="fas fa-calendar-alt"></i> Book Free Session
+      </a>
+      <a href="https://wa.me/919587402524" target="_blank" class="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-green-500/15 border border-green-500/30 text-green-400 font-semibold text-sm hover:bg-green-500/25 transition-colors" onclick="document.getElementById('exitIntent').classList.remove('active')">
+        <i class="fab fa-whatsapp"></i> Chat on WhatsApp
+      </a>
+    </div>
+  </div>
+</div>
+
+<!-- Scripts -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="js/script.js"></script>
 </body>
-
 </html>

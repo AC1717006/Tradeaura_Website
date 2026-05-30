@@ -1,0 +1,68 @@
+name: News Hub — Admin Actions
+
+on:
+  workflow_dispatch:
+    inputs:
+      action:
+        description: 'Action to perform'
+        required: true
+        type: choice
+        options:
+          - delete
+          - feature
+          - unfeature
+          - regenerate
+          - disable-auto
+          - enable-auto
+      article_id:
+        description: 'Article ID (required for delete/feature/unfeature/regenerate)'
+        required: false
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  admin-action:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 1
+
+      - name: Setup Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci --production
+
+      - name: Run admin action
+        env:
+          ACTION:      ${{ github.event.inputs.action }}
+          ARTICLE_ID:  ${{ github.event.inputs.article_id }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: node scripts/admin-actions.js
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          git diff --quiet && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit changes
+        if: steps.check_changes.outputs.changed == 'true'
+        run: |
+          git config user.name  "TradeAura Admin Bot"
+          git config user.email "bot@auraautomation.site"
+          git add -A
+          git commit -m "admin(${{ github.event.inputs.action }}): article ${{ github.event.inputs.article_id || 'system' }}"
+          git push
+
+      - name: Summary
+        run: echo "✅ Action '${{ github.event.inputs.action }}' completed successfully."

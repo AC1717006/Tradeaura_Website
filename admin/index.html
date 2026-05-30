@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>News Hub Admin | Tradeaura</title>
+  <meta name="robots" content="noindex, nofollow">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            darkBase:'#0B0F19', brandBlue:'#3B82F6', brandPurple:'#8B5CF6',
+            brandPink:'#EC4899', glassBg:'rgba(255,255,255,0.04)', glassBorder:'rgba(255,255,255,0.1)'
+          },
+          fontFamily: { sans:['Inter','sans-serif'], heading:['Outfit','sans-serif'] }
+        }
+      }
+    }
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    .admin-card { background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.08); }
+    .status-dot { width:8px; height:8px; border-radius:50%; }
+    .toast { position:fixed; bottom:24px; right:24px; z-index:9999; padding:12px 20px; border-radius:12px; font-size:14px; font-weight:500; transition:all 0.3s; transform:translateY(80px); opacity:0; }
+    .toast.show { transform:translateY(0); opacity:1; }
+    .toast.success { background: rgba(34,197,94,0.2); border: 1px solid rgba(34,197,94,0.3); color: #4ade80; }
+    .toast.error   { background: rgba(239,68,68,0.2);  border: 1px solid rgba(239,68,68,0.3);  color: #f87171; }
+    .toast.info    { background: rgba(59,130,246,0.2); border: 1px solid rgba(59,130,246,0.3); color: #93c5fd; }
+    .article-row:hover { background: rgba(255,255,255,0.03); }
+    .spin { animation: spin 1s linear infinite; }
+    @keyframes spin { from { transform:rotate(0deg); } to { transform:rotate(360deg); } }
+  </style>
+</head>
+
+<body class="bg-darkBase text-gray-100 font-sans antialiased min-h-screen">
+
+<div class="fixed inset-0 z-0 pointer-events-none grid-pattern opacity-10"></div>
+
+<!-- LOGIN OVERLAY -->
+<div id="loginOverlay" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-darkBase">
+  <div class="w-full max-w-sm">
+    <div class="text-center mb-8">
+      <div class="w-16 h-16 rounded-2xl bg-gradient-to-br from-brandBlue to-brandPurple flex items-center justify-center mx-auto mb-4">
+        <i class="fas fa-shield-alt text-white text-2xl"></i>
+      </div>
+      <h1 class="font-heading font-black text-3xl text-white">Admin Panel</h1>
+      <p class="text-gray-500 text-sm mt-1">Tradeaura News Hub</p>
+    </div>
+    <div class="admin-card rounded-2xl p-8 space-y-5">
+      <div>
+        <label class="block text-xs font-medium text-gray-400 mb-2">Admin Password</label>
+        <input type="password" id="pwdInput" placeholder="Enter admin password"
+          class="w-full bg-white/5 border border-glassBorder rounded-xl px-4 py-3 text-white text-sm placeholder-gray-600 focus:outline-none focus:border-brandBlue/50 transition-colors"
+          onkeydown="if(event.key==='Enter') tryLogin()">
+      </div>
+      <div>
+        <label class="block text-xs font-medium text-gray-400 mb-2">GitHub Personal Access Token</label>
+        <input type="password" id="patInput" placeholder="ghp_xxxxxxxxxxxx"
+          class="w-full bg-white/5 border border-glassBorder rounded-xl px-4 py-3 text-white text-sm placeholder-gray-600 focus:outline-none focus:border-brandBlue/50 transition-colors"
+          onkeydown="if(event.key==='Enter') tryLogin()">
+        <p class="text-xs text-gray-600 mt-1.5">Needs <code class="text-gray-500">repo</code> + <code class="text-gray-500">workflow</code> scopes. Stored locally in your browser.</p>
+      </div>
+      <div>
+        <label class="block text-xs font-medium text-gray-400 mb-2">GitHub Repository (owner/repo)</label>
+        <input type="text" id="repoInput" placeholder="yourusername/your-repo"
+          class="w-full bg-white/5 border border-glassBorder rounded-xl px-4 py-3 text-white text-sm placeholder-gray-600 focus:outline-none focus:border-brandBlue/50 transition-colors">
+      </div>
+      <button onclick="tryLogin()"
+        class="w-full py-3 rounded-xl bg-gradient-to-r from-brandBlue to-brandPurple text-white font-semibold hover:scale-[1.02] transition-transform text-sm">
+        Access Admin Panel
+      </button>
+      <p id="loginError" class="text-red-400 text-xs text-center hidden">Incorrect password. Try again.</p>
+    </div>
+    <p class="text-center text-xs text-gray-600 mt-4">
+      <a href="../index.html" class="hover:text-gray-400 transition-colors"><i class="fas fa-arrow-left mr-1"></i>Back to website</a>
+    </p>
+  </div>
+</div>
+
+<!-- MAIN ADMIN PANEL -->
+<div id="adminPanel" class="hidden relative z-10">
+
+  <!-- Header -->
+  <header class="border-b border-glassBorder bg-black/50 backdrop-blur-xl sticky top-0 z-40">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <div class="w-9 h-9 rounded-xl bg-gradient-to-br from-brandBlue to-brandPurple flex items-center justify-center font-heading font-black text-sm">TA</div>
+        <div>
+          <span class="font-heading font-bold text-base">Tradeaura</span>
+          <span class="text-gray-500 text-xs ml-2">News Admin</span>
+        </div>
+      </div>
+      <div class="flex items-center gap-3">
+        <div class="flex items-center gap-2 text-xs text-gray-500">
+          <span id="statusDot" class="status-dot bg-green-400"></span>
+          <span id="statusText">Connected</span>
+        </div>
+        <button onclick="logout()" class="px-3 py-1.5 rounded-lg text-xs text-gray-400 hover:text-white hover:bg-white/5 transition-all">
+          <i class="fas fa-sign-out-alt mr-1"></i>Logout
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+
+    <!-- Stats Row -->
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+      <div class="admin-card rounded-2xl p-5">
+        <p class="text-xs text-gray-500 mb-1">Total Articles</p>
+        <p class="font-heading font-bold text-2xl text-white" id="statTotal">—</p>
+      </div>
+      <div class="admin-card rounded-2xl p-5">
+        <p class="text-xs text-gray-500 mb-1">Featured</p>
+        <p class="font-heading font-bold text-2xl text-brandBlue" id="statFeatured">—</p>
+      </div>
+      <div class="admin-card rounded-2xl p-5">
+        <p class="text-xs text-gray-500 mb-1">Categories</p>
+        <p class="font-heading font-bold text-2xl text-brandPurple" id="statCats">—</p>
+      </div>
+      <div class="admin-card rounded-2xl p-5">
+        <p class="text-xs text-gray-500 mb-1">Last Updated</p>
+        <p class="font-heading font-bold text-sm text-white" id="statUpdated">—</p>
+      </div>
+    </div>
+
+    <!-- Action Bar -->
+    <div class="flex flex-wrap items-center gap-3 mb-6">
+      <button onclick="triggerRefresh()"
+        class="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-gradient-to-r from-brandBlue to-brandPurple text-white text-sm font-semibold hover:scale-105 transition-transform shadow-[0_0_20px_rgba(59,130,246,0.3)]">
+        <i class="fas fa-sync-alt" id="refreshIcon"></i> Manual Refresh
+      </button>
+      <button onclick="loadArticles()"
+        class="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl border border-glassBorder text-gray-300 hover:text-white hover:border-white/20 text-sm font-medium transition-all">
+        <i class="fas fa-redo-alt"></i> Reload Data
+      </button>
+      <div class="flex-1 min-w-[200px]">
+        <input type="text" id="searchInput" placeholder="Search articles..." oninput="filterArticles()"
+          class="w-full bg-white/5 border border-glassBorder rounded-xl px-4 py-2.5 text-white text-sm placeholder-gray-600 focus:outline-none focus:border-brandBlue/50 transition-colors">
+      </div>
+      <div id="autoPublishToggle" class="flex items-center gap-2">
+        <span class="text-xs text-gray-500">Auto-Publish:</span>
+        <button onclick="toggleAutoPublish()" id="autoPublishBtn"
+          class="px-3 py-1.5 rounded-lg text-xs font-medium border transition-all">
+          — Loading —
+        </button>
+      </div>
+    </div>
+
+    <!-- Category Filter Pills -->
+    <div class="flex flex-wrap gap-2 mb-6" id="catFilters"></div>
+
+    <!-- Articles Table -->
+    <div class="admin-card rounded-2xl overflow-hidden">
+      <div class="px-5 py-4 border-b border-glassBorder flex items-center justify-between">
+        <h2 class="font-heading font-semibold text-white text-sm">Articles</h2>
+        <span class="text-xs text-gray-500" id="articleCount">Loading...</span>
+      </div>
+      <div id="articlesContainer" class="divide-y divide-glassBorder">
+        <div class="p-12 text-center text-gray-500 text-sm">
+          <i class="fas fa-spinner spin text-2xl mb-3 block text-brandBlue"></i>
+          Loading articles...
+        </div>
+      </div>
+    </div>
+
+    <p class="text-center text-xs text-gray-600 mt-8">
+      <a href="../news/index.html" target="_blank" class="hover:text-gray-400 transition-colors">
+        <i class="fas fa-external-link-alt mr-1"></i>View public News Hub
+      </a>
+      &nbsp;·&nbsp;
+      <a href="../index.html" class="hover:text-gray-400 transition-colors">
+        <i class="fas fa-home mr-1"></i>Back to website
+      </a>
+    </p>
+  </div>
+</div>
+
+<!-- CONFIRM MODAL -->
+<div id="confirmModal" class="fixed inset-0 z-[100] flex items-center justify-center p-4 hidden">
+  <div class="absolute inset-0 bg-black/70 backdrop-blur-sm" onclick="closeConfirm()"></div>
+  <div class="relative z-10 admin-card rounded-2xl p-8 max-w-sm w-full text-center">
+    <div class="w-14 h-14 rounded-xl bg-red-500/15 flex items-center justify-center mx-auto mb-4">
+      <i class="fas fa-exclamation-triangle text-red-400 text-xl"></i>
+    </div>
+    <h3 class="font-heading font-bold text-lg text-white mb-2" id="confirmTitle">Confirm Action</h3>
+    <p class="text-gray-400 text-sm mb-6" id="confirmMsg">Are you sure?</p>
+    <div class="flex gap-3">
+      <button onclick="closeConfirm()" class="flex-1 py-2.5 rounded-xl border border-glassBorder text-gray-300 hover:text-white text-sm font-medium transition-all">Cancel</button>
+      <button id="confirmBtn" class="flex-1 py-2.5 rounded-xl bg-red-500/20 border border-red-500/30 text-red-400 hover:bg-red-500/30 text-sm font-semibold transition-all">Delete</button>
+    </div>
+  </div>
+</div>
+
+<!-- TOAST -->
+<div id="toast" class="toast"></div>
+
+<script>
+// ── Constants ──────────────────────────────────────────────────────────────
+const ADMIN_PASSWORD = 'tradeaura2026'; // Change this!
+let   PAT, REPO, articles = [], activeCat = 'all', confirmCallback = null;
+
+const CAT_COLORS = {
+  'AI & Automation':'#3B82F6','WhatsApp Business':'#22C55E','CRM & Sales':'#8B5CF6',
+  'SaaS & Software':'#06B6D4','Meta & Advertising':'#EC4899','Google & Marketing':'#F59E0B',
+  'MarTech':'#14B8A6','Business Tools':'#F97316','Digital Transformation':'#6366F1'
+};
+
+// ── Auth ──────────────────────────────────────────────────────────────────
+function tryLogin() {
+  const pwd  = document.getElementById('pwdInput').value;
+  const pat  = document.getElementById('patInput').value.trim();
+  const repo = document.getElementById('repoInput').value.trim();
+
+  if (pwd !== ADMIN_PASSWORD) {
+    document.getElementById('loginError').classList.remove('hidden');
+    return;
+  }
+  if (!pat || !repo) { showToast('Enter GitHub PAT and repository.', 'error'); return; }
+
+  PAT  = pat;
+  REPO = repo;
+  localStorage.setItem('ta_pat', pat);
+  localStorage.setItem('ta_repo', repo);
+
+  document.getElementById('loginOverlay').classList.add('hidden');
+  document.getElementById('adminPanel').classList.remove('hidden');
+  loadArticles();
+  checkAutoPublish();
+}
+
+function logout() {
+  document.getElementById('adminPanel').classList.add('hidden');
+  document.getElementById('loginOverlay').classList.remove('hidden');
+  document.getElementById('pwdInput').value = '';
+  articles = [];
+}
+
+// ── Load Articles ─────────────────────────────────────────────────────────
+async function loadArticles() {
+  const el = document.getElementById('articlesContainer');
+  el.innerHTML = '<div class="p-12 text-center text-gray-500 text-sm"><i class="fas fa-spinner spin text-2xl mb-3 block text-brandBlue"></i>Loading articles...</div>';
+
+  try {
+    const url = `/data/news.json?_t=${Date.now()}`;
+    const res = await fetch(url);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const db = await res.json();
+    articles = db.articles || [];
+
+    updateStats(db);
+    renderCatFilters();
+    renderArticles();
+    showToast(`Loaded ${articles.length} articles`, 'success');
+  } catch (e) {
+    el.innerHTML = `<div class="p-12 text-center text-red-400 text-sm"><i class="fas fa-exclamation-circle text-2xl mb-3 block"></i>Failed to load articles: ${e.message}<br><span class="text-gray-500 text-xs mt-2 block">Make sure you are viewing this page from the live website.</span></div>`;
+  }
+}
+
+function updateStats(db) {
+  document.getElementById('statTotal').textContent    = db.totalCount || db.articles.length;
+  document.getElementById('statFeatured').textContent = db.articles.filter(a => a.featured).length;
+  document.getElementById('statCats').textContent     = [...new Set(db.articles.map(a => a.category))].length;
+  const lu = db.lastUpdated ? new Date(db.lastUpdated).toLocaleString('en-IN', { month:'short', day:'numeric', hour:'2-digit', minute:'2-digit' }) : 'Never';
+  document.getElementById('statUpdated').textContent  = lu;
+}
+
+function renderCatFilters() {
+  const cats    = ['All', ...new Set(articles.map(a => a.category).filter(Boolean))];
+  const el      = document.getElementById('catFilters');
+  el.innerHTML  = cats.map(cat => {
+    const key   = cat === 'All' ? 'all' : cat;
+    const color = cat === 'All' ? '#3B82F6' : (CAT_COLORS[cat] || '#3B82F6');
+    const active= activeCat === key;
+    return `<button onclick="setActiveCat('${escJS(key)}')" data-ckey="${escJS(key)}"
+      class="px-3 py-1.5 rounded-full text-xs font-medium border transition-all"
+      style="${active ? `border-color:${color};background:${color}20;color:${color}` : 'border-color:rgba(255,255,255,0.1);color:#9CA3AF'}">
+      ${cat}
+    </button>`;
+  }).join('');
+}
+
+function setActiveCat(cat) {
+  activeCat = cat;
+  renderCatFilters();
+  renderArticles();
+}
+
+function filterArticles() {
+  renderArticles();
+}
+
+function renderArticles() {
+  const search = document.getElementById('searchInput')?.value.toLowerCase() || '';
+  const filtered = articles.filter(a => {
+    const catMatch = activeCat === 'all' || a.category === activeCat;
+    const searchMatch = !search || (a.seoTitle || a.title || '').toLowerCase().includes(search)
+                               || (a.category || '').toLowerCase().includes(search)
+                               || (a.source || '').toLowerCase().includes(search);
+    return catMatch && searchMatch;
+  });
+
+  document.getElementById('articleCount').textContent = `${filtered.length} of ${articles.length} articles`;
+
+  if (filtered.length === 0) {
+    document.getElementById('articlesContainer').innerHTML =
+      '<div class="p-12 text-center text-gray-500 text-sm"><i class="fas fa-search text-2xl mb-3 block opacity-30"></i>No articles found</div>';
+    return;
+  }
+
+  document.getElementById('articlesContainer').innerHTML = filtered.map(a => {
+    const color = CAT_COLORS[a.category] || '#3B82F6';
+    const date  = a.publishedDate ? new Date(a.publishedDate).toLocaleDateString('en-IN', { month:'short', day:'numeric', year:'numeric' }) : '';
+    return `
+<div class="article-row px-5 py-4 flex flex-col sm:flex-row sm:items-center gap-4 transition-all">
+  <div class="flex-1 min-w-0">
+    <div class="flex flex-wrap items-center gap-2 mb-1">
+      <span class="px-2 py-0.5 rounded-full text-[10px] font-semibold" style="background:${color}20;border:1px solid ${color}40;color:${color}">${escHtml(a.category)}</span>
+      ${a.featured ? '<span class="px-2 py-0.5 rounded-full text-[10px] font-bold bg-brandBlue/20 border border-brandBlue/30 text-brandBlue">⭐ Featured</span>' : ''}
+      <span class="text-[10px] text-gray-600">${escHtml(date)} · ${escHtml(a.source)}</span>
+    </div>
+    <p class="text-sm font-medium text-white line-clamp-1">${escHtml(a.seoTitle || a.title)}</p>
+    <p class="text-xs text-gray-500 line-clamp-1 mt-0.5">${escHtml(a.summary?.substring(0, 100))}...</p>
+  </div>
+  <div class="flex flex-wrap items-center gap-2 flex-shrink-0">
+    <a href="/news/${escHtml(a.slug)}.html" target="_blank"
+      class="px-3 py-1.5 rounded-lg text-xs border border-glassBorder text-gray-400 hover:text-white hover:border-white/20 transition-all">
+      <i class="fas fa-external-link-alt text-[10px] mr-1"></i>View
+    </a>
+    <button onclick="featureArticle('${escJS(a.id)}', ${a.featured})"
+      class="px-3 py-1.5 rounded-lg text-xs border transition-all ${a.featured ? 'border-brandBlue/30 bg-brandBlue/10 text-brandBlue' : 'border-glassBorder text-gray-400 hover:text-white hover:border-white/20'}">
+      <i class="fas fa-star text-[10px] mr-1"></i>${a.featured ? 'Unfeature' : 'Feature'}
+    </button>
+    <button onclick="regenerateArticle('${escJS(a.id)}')"
+      class="px-3 py-1.5 rounded-lg text-xs border border-brandPurple/30 bg-brandPurple/10 text-brandPurple hover:bg-brandPurple/20 transition-all">
+      <i class="fas fa-magic text-[10px] mr-1"></i>Regenerate AI
+    </button>
+    <button onclick="confirmDelete('${escJS(a.id)}', '${escJS(a.seoTitle || a.title)}')"
+      class="px-3 py-1.5 rounded-lg text-xs border border-red-500/30 bg-red-500/10 text-red-400 hover:bg-red-500/20 transition-all">
+      <i class="fas fa-trash text-[10px] mr-1"></i>Delete
+    </button>
+  </div>
+</div>`;
+  }).join('');
+}
+
+// ── GitHub Actions Triggers ───────────────────────────────────────────────
+async function triggerWorkflow(inputs) {
+  if (!PAT || !REPO) { showToast('Not authenticated', 'error'); return false; }
+
+  const [owner, repo] = REPO.split('/');
+  const res = await fetch(`https://api.github.com/repos/${owner}/${repo}/actions/workflows/news-admin.yml/dispatches`, {
+    method: 'POST',
+    headers: {
+      'Authorization': `Bearer ${PAT}`,
+      'Accept': 'application/vnd.github+json',
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify({ ref: 'main', inputs }),
+  });
+
+  if (res.status === 204) return true;
+  const err = await res.json().catch(() => ({}));
+  throw new Error(err.message || `HTTP ${res.status}`);
+}
+
+async function triggerRefresh() {
+  const icon = document.getElementById('refreshIcon');
+  icon.classList.add('spin');
+  showToast('Triggering manual refresh...', 'info');
+
+  try {
+    const [owner, repo] = REPO.split('/');
+    const res = await fetch(`https://api.github.com/repos/${owner}/${repo}/actions/workflows/news-refresh.yml/dispatches`, {
+      method: 'POST',
+      headers: {
+        'Authorization': `Bearer ${PAT}`,
+        'Accept': 'application/vnd.github+json',
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ ref: 'main' }),
+    });
+
+    if (res.status === 204) {
+      showToast('✓ News refresh triggered! Check GitHub Actions for progress.', 'success');
+    } else {
+      throw new Error(`HTTP ${res.status}`);
+    }
+  } catch (e) {
+    showToast(`Failed to trigger refresh: ${e.message}`, 'error');
+  } finally {
+    setTimeout(() => icon.classList.remove('spin'), 2000);
+  }
+}
+
+async function featureArticle(id, currentlyFeatured) {
+  const action = currentlyFeatured ? 'unfeature' : 'feature';
+  showToast(`${action === 'feature' ? 'Featuring' : 'Unfeaturing'} article...`, 'info');
+  try {
+    await triggerWorkflow({ action, article_id: id });
+    showToast(`✓ Article ${action}d! Pages will update in ~1 min.`, 'success');
+  } catch (e) {
+    showToast(`Failed: ${e.message}`, 'error');
+  }
+}
+
+async function regenerateArticle(id) {
+  showToast('Triggering AI regeneration...', 'info');
+  try {
+    await triggerWorkflow({ action: 'regenerate', article_id: id });
+    showToast('✓ AI regeneration triggered! Takes ~2 min.', 'success');
+  } catch (e) {
+    showToast(`Failed: ${e.message}`, 'error');
+  }
+}
+
+function confirmDelete(id, title) {
+  document.getElementById('confirmTitle').textContent = 'Delete Article?';
+  document.getElementById('confirmMsg').textContent   = `"${title.substring(0, 60)}..." — this cannot be undone.`;
+  document.getElementById('confirmBtn').textContent   = 'Yes, Delete';
+  confirmCallback = () => deleteArticle(id);
+  document.getElementById('confirmModal').classList.remove('hidden');
+}
+
+async function deleteArticle(id) {
+  closeConfirm();
+  showToast('Deleting article...', 'info');
+  try {
+    await triggerWorkflow({ action: 'delete', article_id: id });
+    showToast('✓ Article scheduled for deletion. Pages update in ~1 min.', 'success');
+  } catch (e) {
+    showToast(`Failed: ${e.message}`, 'error');
+  }
+}
+
+async function checkAutoPublish() {
+  try {
+    const res = await fetch('/data/auto-publish-disabled');
+    const btn = document.getElementById('autoPublishBtn');
+    if (res.ok) {
+      btn.textContent = 'Disabled';
+      btn.style = 'border-color:rgba(239,68,68,0.3);background:rgba(239,68,68,0.1);color:#f87171';
+    } else {
+      btn.textContent = 'Enabled';
+      btn.style = 'border-color:rgba(34,197,94,0.3);background:rgba(34,197,94,0.1);color:#4ade80';
+    }
+  } catch { /* ignore */ }
+}
+
+async function toggleAutoPublish() {
+  const btn  = document.getElementById('autoPublishBtn');
+  const isOff = btn.textContent.trim() === 'Disabled';
+  try {
+    await triggerWorkflow({ action: isOff ? 'enable-auto' : 'disable-auto', article_id: '' });
+    showToast(`✓ Auto-publish ${isOff ? 'enabled' : 'disabled'}`, 'success');
+    setTimeout(checkAutoPublish, 3000);
+  } catch (e) {
+    showToast(`Failed: ${e.message}`, 'error');
+  }
+}
+
+function closeConfirm() {
+  document.getElementById('confirmModal').classList.add('hidden');
+  confirmCallback = null;
+}
+
+document.getElementById('confirmBtn').addEventListener('click', () => {
+  if (confirmCallback) confirmCallback();
+});
+
+// ── Utilities ─────────────────────────────────────────────────────────────
+function showToast(msg, type = 'info') {
+  const el = document.getElementById('toast');
+  el.textContent = msg;
+  el.className   = `toast ${type} show`;
+  clearTimeout(el._timer);
+  el._timer = setTimeout(() => el.classList.remove('show'), 4000);
+}
+
+function escHtml(str = '') {
+  return String(str).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+function escJS(str = '') {
+  return String(str).replace(/\\/g,'\\\\').replace(/'/g,"\\'").replace(/"/g,'\\"');
+}
+
+// ── Init ──────────────────────────────────────────────────────────────────
+window.addEventListener('load', () => {
+  const savedPat  = localStorage.getItem('ta_pat');
+  const savedRepo = localStorage.getItem('ta_repo');
+  if (savedPat)  document.getElementById('patInput').value  = savedPat;
+  if (savedRepo) document.getElementById('repoInput').value = savedRepo;
+});
+</script>
+</body>
+</html>

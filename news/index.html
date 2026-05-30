@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Industry Insights & News | Tradeaura</title>
+  <meta name="description" content="AI-curated industry news on automation, AI, WhatsApp Business, CRM & SaaS. Business insights updated every 6 hours for Indian SMBs.">
+  <link rel="canonical" href="https://www.auraautomation.site/news/index.html">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.auraautomation.site/news/index.html">
+  <meta property="og:title" content="Industry Insights Hub | Tradeaura">
+  <meta property="og:description" content="AI-powered business automation insights — updated every 6 hours.">
+  <meta property="og:image" content="https://www.auraautomation.site/assets/images/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            darkBase:'#0B0F19', brandBlue:'#3B82F6', brandPurple:'#8B5CF6',
+            brandPink:'#EC4899', glassBg:'rgba(255,255,255,0.04)', glassBorder:'rgba(255,255,255,0.1)'
+          },
+          fontFamily: { sans:['Inter','sans-serif'], heading:['Outfit','sans-serif'] }
+        }
+      }
+    }
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body class="bg-darkBase text-gray-100 font-sans antialiased overflow-x-hidden">
+
+<div class="fixed inset-0 z-0 pointer-events-none grid-pattern opacity-20"></div>
+<div class="fixed top-[-10%] left-[-5%] w-96 h-96 bg-brandBlue/20 rounded-full blur-[130px] z-0 orb-blue"></div>
+<div class="fixed top-[40%] right-[-5%] w-80 h-80 bg-brandPurple/20 rounded-full blur-[120px] z-0 orb-purple"></div>
+<div class="fixed bottom-[-5%] left-[30%] w-72 h-72 bg-brandPink/10 rounded-full blur-[140px] z-0 orb-pink"></div>
+
+<!-- NAV -->
+<nav class="fixed w-full z-50 bg-black/50 backdrop-blur-xl border-b border-glassBorder transition-all duration-300" id="navbar">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex items-center justify-between h-20">
+      <a href="../index.html" class="flex items-center gap-3 group">
+        <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-brandBlue to-brandPurple flex items-center justify-center font-heading font-black text-lg shadow-[0_0_20px_rgba(59,130,246,0.4)] group-hover:shadow-[0_0_30px_rgba(139,92,246,0.5)] transition-shadow">TA</div>
+        <span class="font-heading font-bold text-xl tracking-wide">Tradeaura</span>
+      </a>
+      <div class="hidden lg:flex items-center gap-1">
+        <a href="../index.html" class="px-4 py-2 rounded-lg text-sm font-medium text-gray-300 hover:text-white hover:bg-white/5 transition-all">Home</a>
+        <a href="../pages/services.html" class="px-4 py-2 rounded-lg text-sm font-medium text-gray-300 hover:text-white hover:bg-white/5 transition-all">Services</a>
+        <a href="../pages/industries.html" class="px-4 py-2 rounded-lg text-sm font-medium text-gray-300 hover:text-white hover:bg-white/5 transition-all">Industries</a>
+        <a href="index.html" class="px-4 py-2 rounded-lg text-sm font-medium text-white bg-white/5 transition-all">News</a>
+        <a href="../pages/about.html" class="px-4 py-2 rounded-lg text-sm font-medium text-gray-300 hover:text-white hover:bg-white/5 transition-all">About</a>
+        <a href="../pages/contact.html" class="px-4 py-2 rounded-lg text-sm font-medium text-gray-300 hover:text-white hover:bg-white/5 transition-all">Contact</a>
+      </div>
+      <a href="../pages/contact.html" class="hidden lg:inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-gradient-to-r from-brandBlue to-brandPurple text-white text-sm font-semibold hover:scale-105 transition-transform shadow-[0_0_20px_rgba(59,130,246,0.35)]">
+        Book Free Demo
+      </a>
+      <button id="menuBtn" class="lg:hidden text-gray-300 hover:text-white p-2 rounded-lg hover:bg-white/5">
+        <i id="menuIconOpen" class="fas fa-bars text-xl"></i>
+        <i id="menuIconClose" class="fas fa-times text-xl hidden"></i>
+      </button>
+    </div>
+  </div>
+  <div id="mobileMenu" class="hidden lg:hidden border-t border-glassBorder bg-black/95 backdrop-blur-xl">
+    <div class="px-4 pt-3 pb-6 space-y-1">
+      <a href="../index.html" class="block px-4 py-3 rounded-xl text-sm text-gray-300 hover:text-white hover:bg-white/5 transition-all">Home</a>
+      <a href="../pages/services.html" class="block px-4 py-3 rounded-xl text-sm text-gray-300 hover:text-white hover:bg-white/5 transition-all">Services</a>
+      <a href="index.html" class="block px-4 py-3 rounded-xl text-sm text-white bg-white/5">News & Insights</a>
+      <a href="../pages/about.html" class="block px-4 py-3 rounded-xl text-sm text-gray-300 hover:text-white hover:bg-white/5 transition-all">About</a>
+      <a href="../pages/contact.html" class="block px-4 py-3 rounded-xl text-sm text-gray-300 hover:text-white hover:bg-white/5 transition-all">Contact</a>
+      <a href="../pages/contact.html" class="block text-center px-4 py-3.5 mt-2 rounded-xl bg-gradient-to-r from-brandBlue to-brandPurple text-white text-sm font-semibold">Book Free Demo</a>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="relative z-10 pt-36 pb-16 px-4 text-center">
+  <div class="max-w-4xl mx-auto">
+    <div class="label-badge mb-6 mx-auto w-fit" data-aos="fade-down">
+      <span class="w-1.5 h-1.5 rounded-full bg-green-400 animate-pulse"></span>
+      Live · Updated Every 6 Hours
+    </div>
+    <h1 class="font-heading font-black text-5xl md:text-7xl tracking-tight mb-6" data-aos="zoom-in" data-aos-delay="100">
+      Industry<br><span class="gradient-text-animated">Insights Hub</span>
+    </h1>
+    <p class="text-lg text-gray-400 max-w-2xl mx-auto" data-aos="fade-up" data-aos-delay="200">
+      AI-powered analysis of the latest news in automation, AI, SaaS, CRM & marketing technology — curated for business owners ready to scale.
+    </p>
+  </div>
+</section>
+
+<!-- LOADING STATE (shown until articles load) -->
+<section class="relative z-10 px-4 pb-24 min-h-[60vh] flex items-center justify-center">
+  <div class="text-center" data-aos="fade-up">
+    <div class="w-20 h-20 rounded-2xl bg-gradient-to-br from-brandBlue to-brandPurple flex items-center justify-center mx-auto mb-6">
+      <i class="fas fa-newspaper text-white text-3xl"></i>
+    </div>
+    <h2 class="font-heading font-bold text-2xl text-white mb-4">Articles Loading...</h2>
+    <p class="text-gray-400 text-sm max-w-md mb-8">
+      Our AI is busy fetching and analyzing the latest industry news. New articles are published every 6 hours.
+    </p>
+    <div class="flex flex-wrap gap-3 justify-center">
+      <a href="../index.html" class="btn-ghost inline-flex items-center gap-2 px-6 py-3 rounded-full text-white font-medium text-sm">
+        <i class="fas fa-home text-xs"></i> Back to Home
+      </a>
+      <a href="../pages/contact.html" class="btn-primary inline-flex items-center gap-2 px-6 py-3 rounded-full text-white font-semibold text-sm">
+        <i class="fas fa-calendar-alt text-xs"></i> Book Free Consultation
+      </a>
+    </div>
+    <p class="text-xs text-gray-600 mt-8">
+      <i class="fas fa-info-circle mr-1"></i>
+      If you're an admin, trigger a manual refresh from the
+      <a href="../admin/index.html" class="text-brandBlue hover:underline">Admin Panel</a>.
+    </p>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="relative z-10 border-t border-glassBorder bg-black/50 backdrop-blur-xl">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+      <div>
+        <a href="../index.html" class="flex items-center gap-3 mb-4">
+          <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-brandBlue to-brandPurple flex items-center justify-center font-heading font-black text-lg">TA</div>
+          <span class="font-heading font-bold text-xl">Tradeaura</span>
+        </a>
+        <p class="text-gray-500 text-sm leading-relaxed">AI & business automation agency helping Indian SMBs scale faster with smart workflows.</p>
+      </div>
+      <div>
+        <h4 class="font-heading font-semibold text-white mb-4">Quick Links</h4>
+        <ul class="space-y-2 text-sm">
+          <li><a href="../pages/services.html" class="text-gray-500 hover:text-white transition-colors">Services</a></li>
+          <li><a href="index.html" class="text-gray-500 hover:text-white transition-colors">Industry News</a></li>
+          <li><a href="../pages/about.html" class="text-gray-500 hover:text-white transition-colors">About</a></li>
+          <li><a href="../pages/contact.html" class="text-gray-500 hover:text-white transition-colors">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="font-heading font-semibold text-white mb-4">Get In Touch</h4>
+        <div class="space-y-2 text-sm">
+          <div class="flex items-center gap-2"><i class="fab fa-whatsapp text-green-400"></i><a href="https://wa.me/919587402524" class="text-gray-500 hover:text-white transition-colors">+91 95874 02524</a></div>
+          <div class="flex items-center gap-2"><i class="fas fa-envelope text-brandBlue"></i><a href="mailto:helloajaychouhan@gmail.com" class="text-gray-500 hover:text-white transition-colors">helloajaychouhan@gmail.com</a></div>
+        </div>
+      </div>
+    </div>
+    <div class="pt-6 border-t border-glassBorder flex flex-col md:flex-row items-center justify-between gap-3 text-sm text-gray-600">
+      <p>&copy; 2026 Tradeaura Digital Solutions. All rights reserved.</p>
+      <div class="flex gap-4">
+        <a href="#" class="hover:text-gray-400 transition-colors">Privacy Policy</a>
+        <a href="#" class="hover:text-gray-400 transition-colors">Terms of Service</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<a href="https://wa.me/919587402524" target="_blank" rel="noopener"
+   class="whatsapp-fab fixed bottom-6 right-6 z-50 w-14 h-14 bg-green-500 rounded-full flex items-center justify-center text-white text-3xl shadow-[0_0_20px_rgba(34,197,94,0.5)] hover:scale-110 transition-transform duration-300">
+  <i class="fab fa-whatsapp"></i>
+</a>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="../js/script.js"></script>
+</body>
+</html>
