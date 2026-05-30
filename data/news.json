@@ -1,6 +1,73 @@
 {
-  "articles": [],
-  "lastUpdated": null,
-  "totalCount": 0,
+  "articles": [
+    {
+      "id": "bd72cb97a9da",
+      "originalUrl": "https://assets.zerohedge.com/political/crypto-and-ai-could-be-dirty-words-2026-midterm-campaign-trail",
+      "originalTitle": "Crypto And AI Could Be Dirty Words On 2026 Midterm Campaign Trail",
+      "source": "Tyler Durden",
+      "imageUrl": null,
+      "publishedDate": "2026-05-30 14:30:00 +0000",
+      "createdAt": "2026-05-30T15:10:48.098Z",
+      "title": "AI and Crypto",
+      "metaDescription": "AI and crypto in 2026",
+      "keywords": [
+        "artificial intelligence",
+        "cryptocurrency",
+        "indian market",
+        "business trends",
+        "technology"
+      ],
+      "summary": "The Indian business landscape is witnessing a significant shift in attitudes towards AI and crypto, with potential implications for the 2026 midterms. As the Indian market continues to evolve, business owners must stay informed about the latest trends and developments. The intersection of AI and crypto is likely to be a key area of focus in the coming years.",
+      "content": "<h2>Introduction</h2><p>The Indian business landscape is becoming increasingly intertwined with emerging technologies like artificial intelligence (AI) and cryptocurrency (crypto). As the 2026 midterms approach, it is essential for business owners and decision-makers to understand the potential implications of these technologies on the Indian market.</p><h2>AI and Crypto in India</h2><p>The Indian market has been relatively open to the adoption of AI and crypto, with many businesses exploring their potential applications. However, as with any new technology, there are also concerns about their impact on the economy and society. The Reserve Bank of India (RBI) has been closely monitoring the development of crypto in the country, and the Securities and Exchange Board of India (SEBI) has been working to regulate the industry.</p><h2>Key Trends and Developments</h2><p>Some of the key trends and developments in the AI and crypto space in India include:<ul><li>Increasing adoption of AI in industries like healthcare and finance</li><li>Growing interest in crypto and blockchain technology</li><li>Government initiatives to regulate and support the development of these technologies</li><li> Rising concerns about the environmental impact of crypto mining</li><li>Expanding opportunities for Indian businesses to participate in the global AI and crypto ecosystem</li></ul></p>",
+      "category": "AI & Automation",
+      "tags": [
+        "tech",
+        "business",
+        "india",
+        "ai",
+        "crypto"
+      ],
+      "readTime": 3,
+      "slug": "ai-and-crypto",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "1091c10f9199",
+      "originalUrl": "https://techcrunch.com/2026/05/30/the-groupthink-boom-what-three-top-vcs-really-think-about-the-ai-frenzy/",
+      "originalTitle": "The groupthink boom: what three top VCs really think about the AI frenzy | TechCrunch",
+      "source": "Connie Loizos",
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/05/SVC-Athens-2.jpg?w=800",
+      "publishedDate": "2026-05-30 14:49:27 +0000",
+      "createdAt": "2026-05-30T15:10:53.376Z",
+      "title": "AI Frenzy",
+      "metaDescription": "AI investment trends",
+      "keywords": [
+        "AI",
+        "venture capital",
+        "investment",
+        "technology",
+        "innovation"
+      ],
+      "summary": "The current AI frenzy has led to a surge in investments, with top VCs weighing in on the trend, and Indian businesses can leverage this to drive innovation, as the RBI and SEBI watch the Indian market closely. This investment boom can benefit Indian startups and entrepreneurs, especially those in the technology sector. Indian business owners can capitalize on this trend to stay ahead in the market.",
+      "content": "<h2>Introduction to AI Frenzy</h2><p>The current AI frenzy has led to a surge in investments, with top VCs weighing in on the trend. In India, this trend can be particularly beneficial for startups and entrepreneurs, especially those in the technology sector. As the RBI and SEBI watch the Indian market closely, businesses can leverage this trend to drive innovation and growth.</p><h2>VC Insights</h2><p>Top VCs have shared their thoughts on the AI frenzy, with some expressing concerns about the rapid pace of investments. They note that the current trend may lead to a surge in seed term sheets, but also caution that this may not be sustainable in the long term. For Indian businesses, this means being cautious and strategic in their investment approaches.</p><h2>Implications for Indian Businesses</h2><p>Indian businesses can capitalize on the AI frenzy by focusing on innovation and strategic investments. This can involve partnering with startups, investing in AI research and development, and exploring new business models. By doing so, Indian businesses can stay ahead in the market and drive growth. Some key considerations for Indian businesses include:</p><ul><li>Staying up-to-date with the latest AI trends and technologies</li><li>Developing strategic investment approaches</li><li>Partnering with startups and research institutions</li><li>Exploring new business models and revenue streams</li><li>Focusing on innovation and R&D</li></ul>",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "tech",
+        "invest",
+        "innov",
+        "trend"
+      ],
+      "readTime": 3,
+      "slug": "ai-frenzy",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    }
+  ],
+  "lastUpdated": "2026-05-30T15:10:53.376Z",
+  "totalCount": 2,
   "schema": "2.0"
 }
