@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "43040fb4dd0c",
+      "originalUrl": "https://www.bloomberg.com/news/videos/2026-05-31/philippines-seeks-closer-ties-with-china-s-adversaries-video",
+      "originalTitle": "Philippines Seeks Closer Ties With China's Adversaries",
+      "source": "www.bloomberg.com",
+      "imageUrl": null,
+      "publishedDate": "2026-05-31 02:35:30 +0000",
+      "createdAt": "2026-05-31T04:09:25.399Z",
+      "title": "Asia Pacific Ties",
+      "metaDescription": "Asia Pacific military ties",
+      "keywords": [
+        "asia pacific",
+        "military ties",
+        "philippines",
+        "china",
+        "geopolitics"
+      ],
+      "summary": "The Philippines is seeking closer ties with China's adversaries, which may have implications for Indian businesses operating in the region. This development is part of a broader trend of shifting alliances in the Asia Pacific. Indian companies should monitor these changes to assess potential risks and opportunities.",
+      "content": "<h2>Introduction to Asia Pacific Ties</h2><p>The Philippines is strengthening its military relationships with a network of US allies, according to Philippine Defense Secretary Gilberto Teodoro. This move is seen as a response to China's growing influence in the region. In an interview with Bloomberg, Teodoro emphasized the importance of cooperation on military deterrence.</p><h2>Implications for Indian Businesses</h2><p>As the Asia Pacific region continues to evolve, Indian businesses operating in the area should be aware of the potential implications of these shifting alliances. The deepening ties between the Philippines and US allies may impact trade relationships, investment opportunities, and regional security. Indian companies should assess their exposure to these changes and develop strategies to mitigate potential risks.</p><h2>Key Considerations</h2><p>Some key considerations for Indian businesses include:</p><ul><li>Monitoring developments in the Asia Pacific region and assessing potential impacts on their operations</li><li>Reviewing trade agreements and investment opportunities in the region</li><li>Developing strategies to manage risks associated with shifting alliances</li><li>Engaging with local partners and stakeholders to stay informed about regional dynamics</li><li>Staying up-to-date with the latest news and analysis on the region</li></ul>",
+      "category": "Business Tools",
+      "tags": [
+        "asia",
+        "pacific",
+        "ties",
+        "business",
+        "news"
+      ],
+      "readTime": 3,
+      "slug": "asia-pacific-ties",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "1d30fee2f69d",
+      "originalUrl": "https://www.thestar.com.my/tech/tech-news/2026/05/31/ai-powered-shopping-now-driving-more-sales-than-traditional-searches",
+      "originalTitle": "AI-powered shopping now driving more sales than traditional searches",
+      "source": "www.thestar.com.my",
+      "imageUrl": "https://apicms.thestar.com.my/uploads/images/2026/05/30/3934712.jpeg",
+      "publishedDate": "2026-05-31 03:00:00 +0000",
+      "createdAt": "2026-05-31T04:09:30.175Z",
+      "title": "AI Shopping",
+      "metaDescription": "AI-powered shopping drives sales",
+      "keywords": [
+        "AI shopping",
+        "e-commerce",
+        "online sales",
+        "artificial intelligence",
+        "digital retail"
+      ],
+      "summary": "AI-powered shopping is revolutionizing the retail industry, with sales driven by AI exceeding those from traditional online searches, a trend that may soon be observed in the Indian market as well. Indian business owners and startup founders can leverage this technology to enhance customer experience and increase sales. The Indian e-commerce market is expected to grow significantly, and AI-powered shopping can play a crucial role in this growth.",
+      "content": "<h2>Introduction to AI-Powered Shopping</h2><p>Shopping with the help of AI is now leading to more sales than those via traditional online searches, according to recent figures. This trend is expected to influence the Indian e-commerce market, which is growing rapidly. Indian business owners and startup founders can benefit from AI-powered shopping by providing personalized product recommendations, streamlining the shopping process, and enhancing customer experience.</p><h2>Benefits of AI-Powered Shopping</h2><p>AI-powered shopping offers several benefits, including personalized product recommendations, streamlined shopping processes, and enhanced customer experience. Some of the key benefits include:</p><ul><li>Personalized product recommendations based on customer preferences and behavior</li><li>Streamlined shopping processes, reducing the time and effort required to make a purchase</li><li>Enhanced customer experience, leading to increased customer satisfaction and loyalty</li></ul><p>Indian businesses can leverage these benefits to stay competitive in the market and drive sales. With the help of AI, businesses can analyze customer data, identify patterns, and make informed decisions to improve their marketing strategies and customer engagement.</p>",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "sales",
+        "ecommerce",
+        "retail",
+        "tech"
+      ],
+      "readTime": 3,
+      "slug": "ai-shopping",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "443db78390a7",
       "originalUrl": "https://www.nasdaq.com/articles/1-ai-stock-could-turn-500-month-1-million",
       "originalTitle": "1 AI Stock That Could Turn $500 per Month Into $1 Million",
@@ -199,7 +265,7 @@
       "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-05-30T19:21:49.969Z",
-  "totalCount": 6,
+  "lastUpdated": "2026-05-31T04:09:30.175Z",
+  "totalCount": 8,
   "schema": "2.0"
 }
