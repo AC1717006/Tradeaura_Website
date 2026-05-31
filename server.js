@@ -1,81 +1,160 @@
 /**
- * server.js — Tradeaura Backend Server
+ * server.js — Tradeaura Local Development Server
  *
- * Serves the static site and the /api/market endpoint.
- * Yahoo Finance data requires no API keys.
+ * Serves the entire static site + the /api/market endpoint in one process.
+ * For production, the API runs as a Vercel serverless function (api/market.js).
  *
- * Usage:  node server.js
- *
- * Env vars (.env):
- *   PORT            — HTTP port (default: 3001)
- *   ALLOWED_ORIGINS — comma-separated CORS origins (production only)
- *                     e.g. "https://tradeaura.com"
- *   NODE_ENV        — set to "production" on your live server
+ * Run locally:
+ *   npm start               → http://localhost:3001
+ *   http://localhost:3001/api/market  → live JSON
  */
 
 'use strict';
 
-// ── Windows / corporate-proxy SSL fix ────────────────────────────────────
-// Yahoo Finance (and npm) use certificates that some Windows CA stores
-// can't verify.  This is safe on a private backend server; in production
-// the cloud environment will have a proper CA chain and this is a no-op.
+// ── Windows / corporate-proxy TLS fix ────────────────────────────────────
+// Yahoo Finance's certificate can't be verified by some Windows CA stores.
+// In production (Linux cloud server) this env var is unset, so it's a no-op.
 if (process.env.NODE_ENV !== 'production') {
   process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
 }
 
 require('dotenv').config();
 
-const express = require('express');
-const path    = require('path');
+const express      = require('express');
+const path         = require('path');
+const { default: YahooFinance } = require('yahoo-finance2');
 
 const PORT = parseInt(process.env.PORT || '3001', 10);
 
-const ALLOWED_ORIGINS = process.env.ALLOWED_ORIGINS
-  ? process.env.ALLOWED_ORIGINS.split(',').map(o => o.trim())
-  : [];
+// ── Yahoo Finance client ──────────────────────────────────────────────────
+const yf = new YahooFinance({ suppressNotices: ['yahooSurvey'] });
 
-const IS_PRODUCTION = process.env.NODE_ENV === 'production';
+// ── Symbols ───────────────────────────────────────────────────────────────
+const SYMBOLS = [
+  { yahoo: '^NSEI',        label: 'NIFTY 50',   type: 'index'  },
+  { yahoo: '^NSEBANK',     label: 'BANK NIFTY', type: 'index'  },
+  { yahoo: 'RELIANCE.NS',  label: 'RELIANCE',   type: 'equity' },
+  { yahoo: 'TCS.NS',       label: 'TCS',        type: 'equity' },
+  { yahoo: 'INFY.NS',      label: 'INFY',       type: 'equity' },
+  { yahoo: 'HDFCBANK.NS',  label: 'HDFCBANK',   type: 'equity' },
+  { yahoo: 'ICICIBANK.NS', label: 'ICICIBANK',  type: 'equity' },
+];
 
-// ── App ────────────────────────────────────────────────────────────────────
+// ── In-memory cache ───────────────────────────────────────────────────────
+const CACHE_TTL_MS = 60 * 1000; // 60 seconds
+
+let cache = {
+  data:      null,   // Array of stock objects
+  updatedAt: null,   // ISO timestamp of last successful fetch
+  fetchedAt: 0,      // epoch ms — used for TTL check
+};
+
+// ── Core fetch ────────────────────────────────────────────────────────────
+async function fetchFromYahoo() {
+  const results = await Promise.allSettled(
+    SYMBOLS.map(s => yf.quote(s.yahoo, {}, { validateResult: false }))
+  );
+
+  return results.reduce((acc, result, i) => {
+    if (result.status !== 'fulfilled') {
+      console.warn(`[Market] ${SYMBOLS[i].yahoo} failed:`, result.reason?.message);
+      return acc;
+    }
+    const q = result.value;
+    if (!q || q.regularMarketPrice == null) return acc;
+
+    acc.push({
+      symbol:        SYMBOLS[i].label,
+      type:          SYMBOLS[i].type,
+      price:         parseFloat(q.regularMarketPrice.toFixed(2)),
+      change:        parseFloat((q.regularMarketChange        ?? 0).toFixed(2)),
+      changePercent: parseFloat((q.regularMarketChangePercent ?? 0).toFixed(4)),
+    });
+    return acc;
+  }, []);
+}
+
+// ── Cache refresh ─────────────────────────────────────────────────────────
+async function refreshCache() {
+  try {
+    const data = await fetchFromYahoo();
+    if (data.length > 0) {
+      cache = { data, updatedAt: new Date().toISOString(), fetchedAt: Date.now() };
+      console.log(`[Market] ${data.length} symbols cached — ${cache.updatedAt}`);
+    }
+  } catch (err) {
+    console.error('[Market] Refresh failed:', err.message);
+  }
+}
+
+// ── Express app ───────────────────────────────────────────────────────────
 const app = express();
 
-// CORS — allow the static frontend to reach /api/market
-app.use((req, res, next) => {
-  const origin = req.headers.origin || '';
-  if (!IS_PRODUCTION || ALLOWED_ORIGINS.includes(origin)) {
-    res.setHeader('Access-Control-Allow-Origin', IS_PRODUCTION ? origin : '*');
-  }
+// CORS — allow any origin so the ticker works when site is on S3
+app.use((_req, res, next) => {
+  res.setHeader('Access-Control-Allow-Origin',  '*');
   res.setHeader('Access-Control-Allow-Methods', 'GET, OPTIONS');
-  res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
-  if (req.method === 'OPTIONS') return res.sendStatus(204);
+  if (_req.method === 'OPTIONS') return res.sendStatus(204);
   next();
 });
 
-// Serve the static Tradeaura site (HTML, CSS, JS, assets)
+// Serve static Tradeaura site (HTML, CSS, JS, assets)
 app.use(express.static(path.join(__dirname)));
 
-// ── Routes ─────────────────────────────────────────────────────────────────
+// ══ GET /api/market ═══════════════════════════════════════════════════════
+app.get('/api/market', async (req, res) => {
+  try {
+    // Return cached data if still within TTL
+    if (cache.data && (Date.now() - cache.fetchedAt) < CACHE_TTL_MS) {
+      res.set('Cache-Control', `public, max-age=${CACHE_TTL_MS / 1000}`);
+      return res.json({ updatedAt: cache.updatedAt, data: cache.data });
+    }
 
-// Live market data — Yahoo Finance, 60 s server-side cache, no API keys
-app.use('/api/market', require('./server/routes/market'));
+    // Cache stale — fetch fresh data
+    await refreshCache();
 
-// Health / uptime check
+    if (!cache.data || cache.data.length === 0) {
+      return res.status(503).json({
+        error: 'Market data temporarily unavailable.',
+        updatedAt: null,
+        data: [],
+      });
+    }
+
+    res.set('Cache-Control', `public, max-age=${CACHE_TTL_MS / 1000}`);
+    return res.json({ updatedAt: cache.updatedAt, data: cache.data });
+
+  } catch (err) {
+    console.error('[Market] API error:', err.message);
+    return res.status(503).json({
+      error: 'Market data temporarily unavailable.',
+      updatedAt: null,
+      data: [],
+    });
+  }
+});
+
+// Health check
 app.get('/health', (_req, res) => {
-  res.json({ status: 'ok', time: new Date().toISOString() });
+  res.json({
+    status:    'ok',
+    cached:    !!cache.data,
+    symbols:   cache.data?.length ?? 0,
+    updatedAt: cache.updatedAt,
+  });
 });
 
-// ── Start ──────────────────────────────────────────────────────────────────
-app.listen(PORT, () => {
-  console.log('');
-  console.log('  ╔══════════════════════════════════════════════════╗');
-  console.log('  ║      Tradeaura Market Server  ·  Ready           ║');
-  console.log('  ╠══════════════════════════════════════════════════╣');
-  console.log(`  ║  Site    →  http://localhost:${PORT}               ║`);
-  console.log(`  ║  Market  →  http://localhost:${PORT}/api/market    ║`);
-  console.log(`  ║  Health  →  http://localhost:${PORT}/health        ║`);
-  console.log('  ╚══════════════════════════════════════════════════╝');
-  console.log('');
+// ── Start ─────────────────────────────────────────────────────────────────
+app.listen(PORT, async () => {
+  console.log(`\n[Server] http://localhost:${PORT}`);
+  console.log(`[Server] API  → http://localhost:${PORT}/api/market\n`);
+
+  // Pre-warm cache so the very first page load has data
+  await refreshCache();
+
+  // Keep cache warm with a background interval
+  setInterval(refreshCache, CACHE_TTL_MS);
 });
 
-process.on('SIGTERM', () => { console.log('[Server] Shutting down…'); process.exit(0); });
-process.on('SIGINT',  () => { console.log('[Server] Shutting down…'); process.exit(0); });
+process.on('SIGTERM', () => { console.log('[Server] Stopping…'); process.exit(0); });
+process.on('SIGINT',  () => { console.log('[Server] Stopping…'); process.exit(0); });

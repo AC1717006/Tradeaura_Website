@@ -1,15 +1,23 @@
 /**
  * stockTicker.js — Tradeaura Live Market Ticker
  *
- * Polls /api/market every 60 seconds (matching server cache TTL),
- * renders the scrolling price bar, and handles errors gracefully.
- * No API keys or WebSocket — all data comes through the backend proxy.
+ * Polls /api/market (via the backend proxy) every 60 seconds and
+ * renders a scrolling price bar.
+ *
+ * API URL resolution order:
+ *  1. data-api attribute on the #stockTicker element
+ *     e.g.  <div id="stockTicker" data-api="https://your-api.vercel.app">
+ *  2. Same origin as the page (works when site is served by node server.js)
+ *  3. Falls back to the local dev server at localhost:3001
  */
+
+/* global fetch */
 
 const StockTicker = (() => {
   // ── Config ───────────────────────────────────────────────────────────────
-  const API_URL    = '/api/market';
-  const REFRESH_MS = 60 * 1000;   // match server-side cache TTL
+  const REFRESH_MS   = 60 * 1000;
+  const API_PATH     = '/api/market';
+  const LOCAL_DEV    = 'http://localhost:3001';
 
   // ── State ─────────────────────────────────────────────────────────────────
   let trackEl      = null;
@@ -17,23 +25,47 @@ const StockTicker = (() => {
   let statusEl     = null;
   let statusTextEl = null;
   let refreshTimer = null;
-  let lastData     = [];          // keep last successful fetch to survive errors
+  let lastData     = [];
+  let apiBase      = '';
+
+  // ── URL Resolution ────────────────────────────────────────────────────────
+
+  /**
+   * Decide which base URL to call for /api/market.
+   *  - Prefer explicit data-api attribute on #stockTicker (set in HTML for prod)
+   *  - If the page is being served by node server.js, same origin works fine
+   *  - If the page is on S3 / file:// and no data-api is set, fall back to localhost
+   */
+  function resolveApiBase(tickerEl) {
+    // 1. Explicit override in HTML
+    const override = tickerEl?.dataset?.api?.trim();
+    if (override) return override.replace(/\/$/, '');
+
+    // 2. Page served by the Node server — relative call works
+    const proto = window.location.protocol;
+    const host  = window.location.hostname;
+    if (proto === 'http:' || proto === 'https:') {
+      // Avoid pointing to S3 domains (amazonaws.com) or CloudFront
+      const isS3 = host.includes('amazonaws') || host.includes('s3-website') || host.includes('cloudfront');
+      if (!isS3) return '';   // empty string → relative /api/market
+    }
+
+    // 3. Fallback: local dev server
+    console.info('[StockTicker] No API host configured — trying localhost:3001');
+    return LOCAL_DEV;
+  }
 
   // ── Formatters ────────────────────────────────────────────────────────────
 
-  /** Indian locale price with ₹ prefix for equities. */
   function fmtPrice(price, type) {
-    if (price == null) return '—';
-    const n = parseFloat(price);
-    if (isNaN(n)) return '—';
-    const str = n.toLocaleString('en-IN', {
+    if (price == null || isNaN(price)) return '—';
+    const str = parseFloat(price).toLocaleString('en-IN', {
       minimumFractionDigits: 2,
       maximumFractionDigits: 2,
     });
     return type === 'equity' ? `₹${str}` : str;
   }
 
-  /** Change number + percentage with directional arrow. Returns { text, cls }. */
   function fmtChange(change, pct) {
     const ch = parseFloat(change);
     const p  = parseFloat(pct);
@@ -47,7 +79,7 @@ const StockTicker = (() => {
     return { text: `${arrow} ${sign}${Math.abs(ch).toFixed(2)}${pctStr}`, cls };
   }
 
-  // ── DOM Builders ──────────────────────────────────────────────────────────
+  // ── DOM ───────────────────────────────────────────────────────────────────
 
   function buildItem(stock) {
     const price          = fmtPrice(stock.price, stock.type);
@@ -61,26 +93,19 @@ const StockTicker = (() => {
     </div>`;
   }
 
-  /**
-   * Render all items into the track.
-   * Items are duplicated so the CSS animation loops seamlessly.
-   */
   function renderTrack(stocks) {
     if (!trackEl) return;
     const html = stocks.map(buildItem).join('');
-    trackEl.innerHTML = html + html;         // duplicate for seamless infinite loop
+    trackEl.innerHTML = html + html;   // duplicate for seamless infinite loop
 
-    // Dynamically adjust animation speed so 1 item set takes ~constant time
     requestAnimationFrame(() => {
       const halfWidth = trackEl.scrollWidth / 2;
-      const speed     = 90;                  // px / second
+      const speed     = 90;            // px/s — tweak to taste
       const duration  = Math.max(15, halfWidth / speed);
-      trackEl.style.animationDuration    = `${duration}s`;
-      trackEl.style.animationPlayState   = 'running';
+      trackEl.style.animationDuration  = `${duration}s`;
+      trackEl.style.animationPlayState = 'running';
     });
   }
-
-  // ── Status & State Indicators ─────────────────────────────────────────────
 
   function showLoading() {
     if (!trackEl) return;
@@ -106,38 +131,33 @@ const StockTicker = (() => {
 
   function setStatus(msg) {
     if (!statusEl || !statusTextEl) return;
-    if (msg) {
-      statusTextEl.textContent = msg;
-      statusEl.style.display   = 'flex';
-    } else {
-      statusEl.style.display   = 'none';
-    }
+    statusTextEl.textContent = msg || '';
+    statusEl.style.display   = msg ? 'flex' : 'none';
   }
 
-  // ── Data Fetch ────────────────────────────────────────────────────────────
+  // ── Fetch ─────────────────────────────────────────────────────────────────
 
   async function fetchAndRender() {
+    const url = `${apiBase}${API_PATH}`;
     try {
-      const res = await fetch(API_URL, { cache: 'no-store' });
+      const res = await fetch(url, { cache: 'no-store' });
 
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      if (!res.ok) throw new Error(`HTTP ${res.status} from ${url}`);
 
       const json = await res.json();
-
-      if (!json.data || json.data.length === 0) {
-        throw new Error('Empty response');
-      }
+      if (!json.data || json.data.length === 0) throw new Error('Empty data array');
 
       lastData = json.data;
       renderTrack(lastData);
       setStatus(null);
+
     } catch (err) {
       console.warn('[StockTicker] Fetch failed:', err.message);
 
       if (lastData.length > 0) {
-        // Keep displaying stale data — just show a subtle status note
+        // Keep showing stale data, show a brief transient notice
         setStatus('Refreshing…');
-        setTimeout(() => setStatus(null), 5000);
+        setTimeout(() => setStatus(null), 4000);
       } else {
         showError('Market data temporarily unavailable');
       }
@@ -165,23 +185,21 @@ const StockTicker = (() => {
 
   function init() {
     const tickerEl = document.getElementById('stockTicker');
-    if (!tickerEl) return;   // ticker bar not present on this page
+    if (!tickerEl) return;
 
     trackEl      = document.getElementById('tickerTrack');
     timeEl       = document.getElementById('tickerTime');
     statusEl     = document.getElementById('tickerStatus');
     statusTextEl = document.getElementById('tickerStatusText');
+    apiBase      = resolveApiBase(tickerEl);
 
     showLoading();
     startClock();
-
-    // First fetch immediately
     fetchAndRender();
 
-    // Recurring refresh every 60 s
     refreshTimer = setInterval(fetchAndRender, REFRESH_MS);
 
-    // Pause animation on touch to let users read
+    // Pause scroll on touch so users can read
     if (trackEl) {
       trackEl.addEventListener('touchstart', () => {
         trackEl.style.animationPlayState = 'paused';
@@ -192,17 +210,12 @@ const StockTicker = (() => {
     }
   }
 
-  // ── Public ────────────────────────────────────────────────────────────────
   return {
     init,
-    destroy() {
-      clearInterval(refreshTimer);
-      refreshTimer = null;
-    },
+    destroy() { clearInterval(refreshTimer); },
   };
 })();
 
-// Auto-boot when DOM is ready
 if (document.readyState === 'loading') {
   document.addEventListener('DOMContentLoaded', () => StockTicker.init());
 } else {
