@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "54f1e06679ed",
+      "originalUrl": "https://www.thestreet.com/investing/stocks/bofa-resets-mongodb-stock-price-target-after-earnings",
+      "originalTitle": "BofA resets MongoDB stock price target after earnings",
+      "source": "Thomas Richmond; Dana Sullivan Kilroy",
+      "imageUrl": "https://www.thestreet.com/.image/NDA6MDAwMDAwMDAzMDU5NjQ2/untitled.png?profile=share16-9",
+      "publishedDate": "2026-05-31 13:17:00 +0000",
+      "createdAt": "2026-05-31T13:51:29.754Z",
+      "title": "MongoDB Stock",
+      "metaDescription": "MongoDB stock price target reset",
+      "keywords": [
+        "MongoDB",
+        "stock price",
+        "Bank of America",
+        "earnings report",
+        "market trends"
+      ],
+      "summary": "Bank of America has reset the stock price target for MongoDB after the company's recent earnings report, which may impact Indian businesses invested in the technology sector. This development is relevant to the Indian market as many domestic companies are adopting cloud-based database solutions. The reset target reflects the company's growing influence in the global market.",
+      "content": "<h2>MongoDB Stock Price Target Reset</h2><p>Bank of America has reset the stock price target for MongoDB after the company's recent earnings report. This decision comes after MongoDB's stock rose 33% in the past month, indicating a significant increase in investor confidence. The reset target is a response to the company's strong performance and growing demand for its cloud-based database solutions.</p><h2>Implications for Indian Businesses</h2><p>As Indian companies continue to adopt cloud-based technologies, the growth of MongoDB is likely to have a positive impact on the domestic market. Many Indian businesses are already using MongoDB's database solutions, and the company's expanding influence in the global market may lead to increased investment and partnership opportunities. The reset stock price target may also encourage Indian investors to consider investing in MongoDB, given its potential for long-term growth.</p><h2>Key Takeaways</h2><ul><li>MongoDB's stock price target has been reset by Bank of America after the company's recent earnings report.</li><li>The reset target reflects the company's growing influence in the global market and its potential for long-term growth.</li><li>Indian businesses may benefit from MongoDB's growth, as many domestic companies are adopting cloud-based database solutions.</li><li>The reset stock price target may encourage Indian investors to consider investing in MongoDB.</li><li>The company's expanding influence in the global market may lead to increased investment and partnership opportunities for Indian businesses.</li></ul>",
+      "category": "SaaS & Software",
+      "tags": [
+        "market",
+        "tech",
+        "business",
+        "invest",
+        "cloud"
+      ],
+      "readTime": 3,
+      "slug": "mongodb-stock",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "2231f25e7d2b",
+      "originalUrl": "https://www.androidauthority.com/best-android-apps-missing-from-play-store-3672062/",
+      "originalTitle": "These are the 5 best Android apps I use that aren’t on the Play Store",
+      "source": "Pankil Shah",
+      "imageUrl": "https://www.androidauthority.com/wp-content/uploads/2026/05/Samsung-phone-on-an-orange-pillow-showing-a-list-of-apps-scaled.jpg",
+      "publishedDate": "2026-05-31 13:00:48 +0000",
+      "createdAt": "2026-05-31T13:51:34.463Z",
+      "title": "Android Apps",
+      "metaDescription": "Best Android apps not on Play Store",
+      "keywords": [
+        "Android apps",
+        "open-source",
+        "Play Store",
+        "Indian market",
+        "mobile apps"
+      ],
+      "summary": "Indian business owners can leverage alternative Android apps to streamline their operations, despite not being available on the Play Store. These open-source apps offer unique features and functionalities. By exploring these options, businesses can enhance their mobile presence.",
+      "content": "<h2>Introduction to Alternative Android Apps</h2><p>As Indian businesses continue to adapt to the evolving mobile landscape, they often rely on Android apps to drive their operations. However, some of the most useful Android apps are not available on the Play Store. In this article, we will explore some of the best Android apps that can benefit Indian businesses, despite not being listed on the Play Store.</p><h2>Benefits of Open-Source Apps</h2><p>Open-source apps offer a range of benefits, including customization options, community-driven development, and enhanced security. For Indian businesses, these apps can provide a cost-effective solution for managing their mobile presence. Some of the key advantages of open-source apps include: <ul><li>Customization options to tailor the app to specific business needs</li><li>Community-driven development for continuous improvement</li><li>Enhanced security features to protect business data</li><li>Cost-effective solution for managing mobile operations</li><li>Flexibility to integrate with existing systems</li></ul></p>",
+      "category": "SaaS & Software",
+      "tags": [
+        "apps",
+        "android",
+        "mobile",
+        "opensource",
+        "business"
+      ],
+      "readTime": 3,
+      "slug": "android-apps",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "a5d0baf6a46b",
       "originalUrl": "https://www.investing.com/news/world-news/analysisthe-great-indopacific-hedge--deeper-defence-ties-as-us-doubts-grow-and-china-ascends-4717825",
       "originalTitle": "Analysis-The great Indo-Pacific hedge - deeper defence ties as US doubts grow and China ascends By Reuters",
@@ -331,7 +397,7 @@
       "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-05-31T08:51:19.719Z",
-  "totalCount": 10,
+  "lastUpdated": "2026-05-31T13:51:34.463Z",
+  "totalCount": 12,
   "schema": "2.0"
 }
