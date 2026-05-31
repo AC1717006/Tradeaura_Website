@@ -2,6 +2,8 @@
   "name": "tradeaura-news-hub",
   "version": "1.0.0",
   "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
     "news:refresh": "node scripts/fetch-news.js",
     "news:generate": "node scripts/generate-pages.js",
     "admin:action": "node scripts/admin-actions.js"
@@ -10,6 +12,9 @@
     "@google/generative-ai": "^0.21.0",
     "axios": "^1.9.0",
     "dotenv": "^16.6.1",
-    "rss-parser": "^3.13.0"
+    "express": "^4.22.2",
+    "rss-parser": "^3.13.0",
+    "ws": "^8.21.0",
+    "yahoo-finance2": "^3.15.2"
   }
 }
