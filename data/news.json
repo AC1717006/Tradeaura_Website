@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "a5d0baf6a46b",
+      "originalUrl": "https://www.investing.com/news/world-news/analysisthe-great-indopacific-hedge--deeper-defence-ties-as-us-doubts-grow-and-china-ascends-4717825",
+      "originalTitle": "Analysis-The great Indo-Pacific hedge - deeper defence ties as US doubts grow and China ascends By Reuters",
+      "source": "www.investing.com",
+      "imageUrl": "https://i-invdn-com.investing.com/news/https://i-invdn-com.investing.com/trkd-images/LYNXMPEM4U035_L.jpg",
+      "publishedDate": "2026-05-31 08:06:50 +0000",
+      "createdAt": "2026-05-31T08:51:14.882Z",
+      "title": "Indo-Pacific Hedge",
+      "metaDescription": "Indo-Pacific hedge and defence ties",
+      "keywords": [
+        "Indo-Pacific",
+        "defence ties",
+        "US doubts",
+        "China ascends",
+        "geopolitics"
+      ],
+      "summary": "The Indo-Pacific region is witnessing deeper defence ties amid growing US doubts and China's ascendancy, which may impact Indian businesses and startups. Indian business owners and startup founders must navigate this complex geopolitical landscape. The RBI and SEBI are also closely monitoring the situation.",
+      "content": "<h2>Introduction to Indo-Pacific Hedge</h2><p>The Indo-Pacific region is experiencing a significant shift in its geopolitical landscape, with deeper defence ties being formed amid growing doubts about the US's role in the region and China's increasing influence. This has significant implications for Indian businesses, startups, and the overall Indian market.</p><h2>Impact on Indian Businesses</h2><p>Indian business owners and startup founders must be aware of these developments and navigate this complex landscape to ensure their businesses remain competitive. The Reserve Bank of India (RBI) and the Securities and Exchange Board of India (SEBI) are also closely monitoring the situation to mitigate any potential risks.</p><h2>Key Considerations</h2><p>Some key considerations for Indian businesses include:<ul><li>Understanding the evolving geopolitical landscape and its impact on trade and commerce</li><li>Developing strategies to mitigate potential risks and capitalize on emerging opportunities</li><li>Engaging with policymakers and regulators to ensure their interests are represented</li><li>Building partnerships and collaborations with other businesses and organizations to enhance competitiveness</li><li>Staying informed about the latest developments and trends in the Indo-Pacific region</li></ul></p>",
+      "category": "MarTech",
+      "tags": [
+        "india",
+        "business",
+        "market",
+        "rbi",
+        "geopolitics"
+      ],
+      "readTime": 3,
+      "slug": "indo-pacific-hedge",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "c797e5b8acd3",
+      "originalUrl": "https://www.reddit.com/r/androiddev/comments/1tspp4q/heads_up_to_every_android_developer_especially/",
+      "originalTitle": "🚨 Heads up to every Android developer — especially indie devs and students.",
+      "source": "/u/Dotdev_Prem7",
+      "imageUrl": null,
+      "publishedDate": "2026-05-31 08:38:21 +0000",
+      "createdAt": "2026-05-31T08:51:19.719Z",
+      "title": "Android Dev Update",
+      "metaDescription": "Android app registration",
+      "keywords": [
+        "android",
+        "google",
+        "app registration",
+        "india tech",
+        "mobile development"
+      ],
+      "summary": "Google's new policy requires Android app developers to register with verified identity, affecting the Indian mobile development market. This change impacts all Android apps, including those installed outside the Play Store. Indian developers must adapt to this new requirement.",
+      "content": "<h2>Android App Registration Mandatory</h2><p>Starting September 2026, Google is introducing a new policy for Android app developers. Every developer will be required to register centrally with a verified identity before their app can be installed on any certified Android device. This policy applies to all Android apps, including those installed from the Play Store and sideloaded APKs.</p><p>In the Indian context, this policy change may have significant implications for mobile app developers. Many Indian businesses and startups rely on Android apps to reach their customers, and this new requirement may add an extra layer of complexity to the development process.</p><h2>Key Implications</h2><p>The new policy has several key implications for Indian developers:</p><ul><li>Verified identity registration is mandatory for all Android app developers</li><li>All apps, including sideloaded APKs, are subject to this policy</li><li>Developers must register centrally before their app can be installed on certified Android devices</li><li>This policy change may impact the Indian mobile development market and ecosystem</li><li>Indian developers must adapt to this new requirement to ensure their apps remain accessible to users</li></ul>",
+      "category": "Google & Marketing",
+      "tags": [
+        "android",
+        "tech",
+        "google",
+        "apps",
+        "india"
+      ],
+      "readTime": 3,
+      "slug": "android-dev-update",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "43040fb4dd0c",
       "originalUrl": "https://www.bloomberg.com/news/videos/2026-05-31/philippines-seeks-closer-ties-with-china-s-adversaries-video",
       "originalTitle": "Philippines Seeks Closer Ties With China's Adversaries",
@@ -265,7 +331,7 @@
       "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-05-31T04:09:30.175Z",
-  "totalCount": 8,
+  "lastUpdated": "2026-05-31T08:51:19.719Z",
+  "totalCount": 10,
   "schema": "2.0"
 }
