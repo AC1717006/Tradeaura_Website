@@ -68,6 +68,8 @@
   <link rel="stylesheet" href="css/style.css">
   <!-- Live Stock Ticker -->
   <link rel="stylesheet" href="css/stockTicker.css">
+  <!-- Instagram Feed -->
+  <link rel="stylesheet" href="css/instagramFeed.css">
 </head>
 
 <body class="bg-darkBase text-gray-100 font-sans antialiased overflow-x-hidden">
@@ -186,8 +188,9 @@
 <!-- ════════════════════════════════════════════
      LIVE STOCK TICKER
 ════════════════════════════════════════════ -->
+<!-- PRODUCTION: change data-api to your Vercel URL, e.g. https://tradeaura.vercel.app -->
 <div id="stockTicker" class="stock-ticker-bar" role="marquee" aria-label="Live NSE/BSE market data"
-     data-api="">
+     data-api="https://tradeaura.vercel.app">
 
   <!-- LIVE label badge -->
   <div class="ticker-badge">
@@ -1468,6 +1471,70 @@ function hFilter(cat) {
 </script>
 
 <!-- ════════════════════════════════════════════
+     INSTAGRAM FEED SECTION
+════════════════════════════════════════════ -->
+<section class="ig-section"
+         id="instagram"
+         data-aos="fade-up">
+
+  <!-- Root element — data-api is read by instagramFeed.js for production URL -->
+  <div id="igFeedRoot"
+       data-api="https://tradeaura.vercel.app">
+
+    <!-- Section header -->
+    <div class="ig-section-header">
+      <div class="ig-section-eyebrow">
+        <i class="fab fa-instagram"></i>
+        <span>Instagram</span>
+      </div>
+      <h2 class="ig-section-title">
+        Follow Us on<br>
+        <span>@tradeauradigitalsolutions</span>
+      </h2>
+    </div>
+
+    <!-- Two-column layout: sticky profile sidebar + post grid -->
+    <div class="ig-layout">
+
+      <!-- Left: sticky profile card (filled by instagramFeed.js) -->
+      <div class="ig-sidebar">
+        <div id="igProfileArea">
+          <!-- Skeleton shown immediately; replaced on API response -->
+          <div class="ig-profile-card">
+            <div class="ig-avatar-skeleton" style="margin:0 auto 16px;"></div>
+            <div style="height:16px;border-radius:8px;background:rgba(255,255,255,0.06);margin-bottom:8px;width:60%;margin-left:auto;margin-right:auto;"></div>
+            <div style="height:11px;border-radius:6px;background:rgba(255,255,255,0.04);margin-bottom:20px;width:40%;margin-left:auto;margin-right:auto;"></div>
+            <div style="height:44px;border-radius:14px;background:rgba(228,64,95,0.18);"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: tab bar + post grid (filled by instagramFeed.js) -->
+      <div class="ig-grid-wrap">
+
+        <!-- Filter tabs -->
+        <div class="ig-tabs">
+          <button class="ig-tab-btn active" data-tab="all">All</button>
+          <button class="ig-tab-btn" data-tab="posts">Posts</button>
+          <button class="ig-tab-btn" data-tab="reels">Reels</button>
+        </div>
+
+        <!-- Post grid — skeletons shown until JS replaces them -->
+        <div class="ig-grid" id="igGrid">
+          <div class="ig-post-skeleton"></div>
+          <div class="ig-post-skeleton" style="animation-delay:.15s"></div>
+          <div class="ig-post-skeleton" style="animation-delay:.30s"></div>
+          <div class="ig-post-skeleton" style="animation-delay:.10s"></div>
+          <div class="ig-post-skeleton" style="animation-delay:.25s"></div>
+          <div class="ig-post-skeleton" style="animation-delay:.40s"></div>
+        </div>
+
+      </div><!-- /ig-grid-wrap -->
+    </div><!-- /ig-layout -->
+  </div><!-- /igFeedRoot -->
+</section>
+
+<!-- ════════════════════════════════════════════
      CTA BANNER
 ════════════════════════════════════════════ -->
 <section class="relative z-10 py-24 px-4">
@@ -1660,5 +1727,7 @@ function hFilter(cat) {
 <script src="js/script.js"></script>
 <!-- Live Stock Ticker -->
 <script src="js/stockTicker.js"></script>
+<!-- Instagram Feed -->
+<script src="js/instagramFeed.js"></script>
 </body>
 </html>

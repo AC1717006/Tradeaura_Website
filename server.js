@@ -134,6 +134,20 @@ app.get('/api/market', async (req, res) => {
   }
 });
 
+// ══ GET /api/instagram ════════════════════════════════════════════════════
+// Proxies to the same serverless function logic for local dev parity.
+// Requires INSTAGRAM_ACCESS_TOKEN + INSTAGRAM_USER_ID in .env
+app.get('/api/instagram', async (req, res) => {
+  try {
+    // Dynamically require the Vercel handler so its module-level cache works
+    const handler = require('./api/instagram');
+    await handler(req, res);
+  } catch (err) {
+    console.error('[Instagram] Route error:', err.message);
+    res.status(503).json({ error: 'Instagram feed temporarily unavailable.' });
+  }
+});
+
 // Health check
 app.get('/health', (_req, res) => {
   res.json({
@@ -147,7 +161,9 @@ app.get('/health', (_req, res) => {
 // ── Start ─────────────────────────────────────────────────────────────────
 app.listen(PORT, async () => {
   console.log(`\n[Server] http://localhost:${PORT}`);
-  console.log(`[Server] API  → http://localhost:${PORT}/api/market\n`);
+  console.log(`[Server] Market    → http://localhost:${PORT}/api/market`);
+  console.log(`[Server] Instagram → http://localhost:${PORT}/api/instagram`);
+  console.log(`[Server] Health    → http://localhost:${PORT}/health\n`);
 
   // Pre-warm cache so the very first page load has data
   await refreshCache();

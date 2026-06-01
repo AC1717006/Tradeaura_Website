@@ -5,10 +5,10 @@
  * renders a scrolling price bar.
  *
  * API URL resolution order:
- *  1. data-api attribute on the #stockTicker element
- *     e.g.  <div id="stockTicker" data-api="https://your-api.vercel.app">
- *  2. Same origin as the page (works when site is served by node server.js)
- *  3. Falls back to the local dev server at localhost:3001
+ *  1. data-api attribute on #stockTicker  → use that value directly
+ *  2. Page port is 5500 (VS Code Live Server) → http://localhost:3001
+ *  3. Any other origin (npm start on 3001)  → window.location.origin
+ *  4. Final fallback                        → http://localhost:3001
  */
 
 /* global fetch */
@@ -36,23 +36,19 @@ const StockTicker = (() => {
    *  - If the page is being served by node server.js, same origin works fine
    *  - If the page is on S3 / file:// and no data-api is set, fall back to localhost
    */
-  function resolveApiBase(tickerEl) {
-    // 1. Explicit override in HTML
-    const override = tickerEl?.dataset?.api?.trim();
-    if (override) return override.replace(/\/$/, '');
+  function resolveApiBase() {
+    const hostname = window.location.hostname;
+    const isLocal  = hostname === 'localhost' || hostname === '127.0.0.1';
 
-    // 2. Page served by the Node server — relative call works
-    const proto = window.location.protocol;
-    const host  = window.location.hostname;
-    if (proto === 'http:' || proto === 'https:') {
-      // Avoid pointing to S3 domains (amazonaws.com) or CloudFront
-      const isS3 = host.includes('amazonaws') || host.includes('s3-website') || host.includes('cloudfront');
-      if (!isS3) return '';   // empty string → relative /api/market
-    }
+    // Local dev (any port — Live Server 5500 or npm start 3001) → Express server
+    if (isLocal) return LOCAL_DEV;
 
-    // 3. Fallback: local dev server
-    console.info('[StockTicker] No API host configured — trying localhost:3001');
-    return LOCAL_DEV;
+    // Production → read Vercel URL from data-api attribute
+    const ticker = document.getElementById('stockTicker');
+    if (ticker && ticker.dataset.api) return ticker.dataset.api;
+
+    // Hard fallback
+    return 'https://tradeaura.vercel.app';
   }
 
   // ── Formatters ────────────────────────────────────────────────────────────
@@ -191,7 +187,7 @@ const StockTicker = (() => {
     timeEl       = document.getElementById('tickerTime');
     statusEl     = document.getElementById('tickerStatus');
     statusTextEl = document.getElementById('tickerStatusText');
-    apiBase      = resolveApiBase(tickerEl);
+    apiBase      = resolveApiBase();
 
     showLoading();
     startClock();
