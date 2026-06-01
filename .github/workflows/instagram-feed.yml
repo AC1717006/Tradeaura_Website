@@ -1,0 +1,60 @@
+name: Instagram Feed — Auto Refresh
+
+# Runs every hour and whenever manually triggered.
+# On success it commits instagram-feed.json to main, which
+# automatically triggers deploy.yml → AWS S3 sync.
+
+on:
+  schedule:
+    - cron: '0 * * * *'   # Every hour at :00 UTC
+  workflow_dispatch:       # Manual trigger from GitHub Actions UI
+
+permissions:
+  contents: write          # Required to commit instagram-feed.json
+
+jobs:
+  refresh-instagram-feed:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 1
+
+      - name: Setup Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci --omit=dev
+
+      - name: Fetch Instagram feed
+        env:
+          INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
+          INSTAGRAM_USER_ID:      ${{ secrets.INSTAGRAM_USER_ID }}
+        run: node scripts/fetch-instagram.js
+
+      - name: Detect changes
+        id: changes
+        run: |
+          git diff --quiet instagram-feed.json \
+            && echo "changed=false" >> $GITHUB_OUTPUT \
+            || echo "changed=true"  >> $GITHUB_OUTPUT
+
+      - name: Commit updated feed
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name  "TradeAura Instagram Bot"
+          git config user.email "bot@auraautomation.site"
+          git add instagram-feed.json
+          git commit -m "chore(instagram): auto-refresh feed [$(date -u '+%Y-%m-%d %H:%M UTC')]"
+          git push
+
+      - name: No changes
+        if: steps.changes.outputs.changed == 'false'
+        run: echo "ℹ️  instagram-feed.json unchanged — skipping commit."
