@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "7a8f5bd4e587",
+      "originalUrl": "https://techcrunch.com/2026/06/01/nvidia-chases-200b-cpu-market-with-ai-agent-pcs-from-microsoft-dell-and-hp/",
+      "originalTitle": "Nvidia chases $200B CPU market with AI agent PCs from Microsoft, Dell, and HP | TechCrunch",
+      "source": "Julie Bort",
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/03/GettyImages-2205761886.jpg?resize=1200,828",
+      "publishedDate": "2026-06-01 21:35:00 +0000",
+      "createdAt": "2026-06-01T21:37:09.903Z",
+      "title": "Nvidia AI Agents",
+      "metaDescription": "Nvidia AI agents in CPU market",
+      "keywords": [
+        "Nvidia",
+        "AI Agents",
+        "CPU Market",
+        "Artificial Intelligence",
+        "Microsoft"
+      ],
+      "summary": "Nvidia is making a significant move in the CPU market with the introduction of AI agent PCs from major manufacturers like Microsoft, Dell, and HP, which could have a substantial impact on the Indian business landscape. This development has the potential to bring AI technology to the masses, making it more accessible and useful for various industries. Indian businesses can leverage this technology to enhance their operations and stay competitive.",
+      "content": "<h2>Nvidia's Move into the CPU Market</h2><p>Nvidia is making a significant move in the CPU market with the introduction of AI agent PCs from major manufacturers like Microsoft, Dell, and HP. This development has the potential to bring AI technology to the masses, making it more accessible and useful for various industries. The Indian market, in particular, can benefit from this technology, as it can help businesses enhance their operations and stay competitive.</p><h2>Benefits for Indian Businesses</h2><p>Indian businesses can leverage Nvidia's AI agents to automate various tasks, improve efficiency, and reduce costs. The technology can also help businesses make data-driven decisions, enhance customer experience, and improve overall performance. With the increasing demand for AI technology in the Indian market, Nvidia's move is expected to have a substantial impact on the industry.</p><h2>Key Features and Partnerships</h2><p>Nvidia's AI agent PCs will be powered by Microsoft, Dell, and HP, making it a significant partnership in the tech industry. The PCs will come with advanced AI capabilities, allowing users to perform various tasks with ease. The key features of the AI agent PCs include:<ul><li>Advanced AI capabilities</li><li>Automated task management</li><li>Improved efficiency and productivity</li><li>Enhanced customer experience</li><li>Data-driven decision making</li></ul></p>",
+      "category": "AI & Automation",
+      "tags": [
+        "tech",
+        "ai",
+        "nvidia",
+        "cpu",
+        "market"
+      ],
+      "readTime": 3,
+      "slug": "nvidia-ai-agents",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "b2043e0e473e",
+      "originalUrl": "https://www.wsj.com/tech/ai/google-seeks-to-raise-80-billion-for-ai-infrastructure-05a379be",
+      "originalTitle": "Google Seeks to Raise $80 Billion for AI Infrastructure",
+      "source": "Katherine Blunt",
+      "imageUrl": null,
+      "publishedDate": "2026-06-01 21:14:00 +0000",
+      "createdAt": "2026-06-01T21:37:14.920Z",
+      "title": "Google AI Funding",
+      "metaDescription": "Google raises $80 billion for AI",
+      "keywords": [
+        "Google",
+        "AI",
+        "Infrastructure",
+        "Funding",
+        "Investment"
+      ],
+      "summary": "Google plans to raise $80 billion for its AI infrastructure, with $10 billion coming from Berkshire Hathaway, a move that may impact the Indian market as global tech giants invest heavily in AI, Indian businesses may need to adapt to stay competitive, the deal is part of Google's larger plan to expand its AI capabilities",
+      "content": "<h2>Google's AI Ambitions</h2><p>Google has announced plans to raise $80 billion for its AI infrastructure, with a significant portion of the funding coming from Berkshire Hathaway. The company has reached an agreement to sell $10 billion of stock to Berkshire Hathaway as part of the plan. This move is expected to further solidify Google's position in the AI market and may have implications for Indian businesses.</p><h2>Implications for Indian Businesses</h2><p>As global tech giants like Google invest heavily in AI, Indian businesses may need to adapt to stay competitive. The Indian market is increasingly becoming a key player in the global tech landscape, with the RBI and SEBI playing a crucial role in shaping the country's technology landscape. Indian companies will need to consider how they can leverage AI to improve their operations and stay ahead of the curve.</p><h2>Key Takeaways</h2><ul><li>Google plans to raise $80 billion for its AI infrastructure</li><li>$10 billion of funding will come from Berkshire Hathaway</li><li>The move may impact the Indian market as global tech giants invest in AI</li><li>Indian businesses may need to adapt to stay competitive</li><li>The deal is part of Google's larger plan to expand its AI capabilities</li></ul>",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "funding",
+        "google",
+        "infrastructure",
+        "investment"
+      ],
+      "readTime": 3,
+      "slug": "google-ai-funding",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "8c9ae4ee472b",
       "originalUrl": "https://news.alphastreet.com/adobe-adbe-has-an-ai-first-arr-engine-the-software-multiple-debate-misses/",
       "originalTitle": "Adobe (ADBE) Has an AI-First ARR Engine the Software-Multiple Debate Misses",
@@ -661,7 +727,7 @@
       "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-06-01T17:47:30.697Z",
-  "totalCount": 20,
+  "lastUpdated": "2026-06-01T21:37:14.920Z",
+  "totalCount": 22,
   "schema": "2.0"
 }
