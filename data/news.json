@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "2314687768c3",
+      "originalUrl": "https://www.business-standard.com/markets/news/stock-market-live-june-1-nse-bse-sensex-today-nifty-gift-nifty-us-iran-deal-brent-crude-ipo-q4-results-126060100093_1.html",
+      "originalTitle": "Stock Market LIVE: Sensex rises 200 pts, Nifty near 23,600; IT, metal, oil & gas stocks shine",
+      "source": "Business Standard; SI Reporter",
+      "imageUrl": "https://bsmedia.business-standard.com/_media/bs/img/article/2025-09/10/thumb/featurecrop/1200X628/1757479033-9917.jpg",
+      "publishedDate": "2026-06-01 03:57:21 +0000",
+      "createdAt": "2026-06-01T04:23:49.764Z",
+      "title": "Market Update",
+      "metaDescription": "Indian stock market updates",
+      "keywords": [
+        "stock market",
+        "Sensex",
+        "Nifty",
+        "Indian economy",
+        "market trends"
+      ],
+      "summary": "The Indian stock market is witnessing a positive trend with Sensex rising over 200 points, and Nifty nearing 23,600. This uptrend is primarily driven by the performance of IT, metal, and oil & gas stocks. Indian business owners should stay updated on these market trends to make informed decisions.",
+      "content": "<h2>Indian Stock Market Trends</h2><p>The Indian stock market is experiencing a significant surge, with the Sensex rising over 200 points and the Nifty approaching 23,600. This growth is largely attributed to the impressive performance of IT, metal, and oil & gas stocks. In the broader markets, the Nifty MidCap witnessed a decline of 0.28 per cent, while the Nifty SmallCap saw a rise of 0.27 per cent.</p><p>Indian businesses, particularly those in the IT and manufacturing sectors, are likely to be impacted by these market trends. As the Indian economy continues to evolve, it is essential for business owners to stay informed about market developments and adjust their strategies accordingly.</p><h2>Key Sectors Driving Growth</h2><ul><li>IT stocks: The IT sector is experiencing significant growth, driven by increased demand for digital services and solutions.</li><li>Metal stocks: The metal sector is also witnessing a surge, driven by rising demand and favorable global market conditions.</li><li>Oil & gas stocks: The oil & gas sector is experiencing growth, driven by rising energy demand and stable global prices.</li></ul>",
+      "category": "Business Tools",
+      "tags": [
+        "market",
+        "stocks",
+        "economy",
+        "india",
+        "business"
+      ],
+      "readTime": 3,
+      "slug": "market-update",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "1d2011c85011",
+      "originalUrl": "https://www.nextbigfuture.com/2026/05/will-the-us-golden-dome-be-golden-for-10-30b-per-year-for-spacex.html",
+      "originalTitle": "Will the US Golden Dome Be Golden for $10-30B Per Year for SpaceX ? | NextBigFuture.com",
+      "source": "Brian Wang",
+      "imageUrl": "https://nextbigfuture.s3.amazonaws.com/uploads/2026/05/Screenshot-2026-05-31-at-8.59.29-PM.jpg",
+      "publishedDate": "2026-06-01 04:00:37 +0000",
+      "createdAt": "2026-06-01T04:23:54.698Z",
+      "title": "SpaceX Funding",
+      "metaDescription": "SpaceX funding plans",
+      "keywords": [
+        "SpaceX",
+        "funding",
+        "investment",
+        "technology",
+        "innovation"
+      ],
+      "summary": "The US Golden Dome project may bring significant funding to SpaceX, with potential annual investments ranging from $10-30 billion. This development can have implications for the Indian technology sector, particularly in areas of innovation and investment. Indian business owners should be aware of global trends in technology funding.",
+      "content": "<h2>Introduction to SpaceX Funding</h2><p>The US Golden Dome project has been estimated to have a near-term price tag of approximately $185 billion, with 60% of this amount potentially allocated to SpaceX. This significant investment can have a substantial impact on the technology sector, both globally and in India.</p><h2>Implications for Indian Business</h2><p>As Indian business owners and startup founders, it is essential to be aware of global trends in technology funding. The potential annual investments in SpaceX, ranging from $10-30 billion, can indicate a shift in the global technology landscape. This shift can bring new opportunities for innovation and investment in the Indian market.</p><h2>Key Points to Consider</h2><p>Some key points to consider include:</p><ul><li>Potential annual investments in SpaceX: $10-30 billion</li><li>Near-term price tag for the US Golden Dome project: $185 billion</li><li>Percentage of the price tag allocated to SpaceX: 60%</li><li>Implications for the Indian technology sector: innovation and investment opportunities</li><li>Global trends in technology funding: shift in the technology landscape</li></ul>",
+      "category": "AI & Automation",
+      "tags": [
+        "tech",
+        "funding",
+        "space",
+        "india",
+        "business"
+      ],
+      "readTime": 3,
+      "slug": "spacex-funding",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "44929b600d44",
       "originalUrl": "https://www.forexfactory.com/news/1401047-stablecoin-demand-may-soon-fade-boes-greene-says",
       "originalTitle": "Stablecoin demand may soon fade, BoE's Greene says",
@@ -463,7 +529,7 @@
       "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-05-31T19:21:54.240Z",
-  "totalCount": 14,
+  "lastUpdated": "2026-06-01T04:23:54.698Z",
+  "totalCount": 16,
   "schema": "2.0"
 }
