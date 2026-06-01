@@ -1,8 +1,8 @@
 name: Instagram Feed — Auto Refresh
 
 # Runs every hour and whenever manually triggered.
-# On success it commits instagram-feed.json to main, which
-# automatically triggers deploy.yml → AWS S3 sync.
+# On success, commits instagram-feed.json to main, which triggers
+# deploy.yml → AWS S3 sync automatically (push to main event).
 
 on:
   schedule:
@@ -18,27 +18,72 @@ jobs:
     timeout-minutes: 10
 
     steps:
+      # ── 1. Checkout ──────────────────────────────────────────────────────
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 1
 
+      # ── 2. Node.js setup ─────────────────────────────────────────────────
       - name: Setup Node.js 20
         uses: actions/setup-node@v4
         with:
           node-version: '20'
           cache: 'npm'
 
+      # ── 3. Install dependencies ───────────────────────────────────────────
       - name: Install dependencies
         run: npm ci --omit=dev
 
+      # ── 4. Validate secrets are present before fetching ───────────────────
+      - name: Validate secrets
+        env:
+          INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
+          INSTAGRAM_USER_ID:      ${{ secrets.INSTAGRAM_USER_ID }}
+        run: |
+          if [ -z "$INSTAGRAM_ACCESS_TOKEN" ]; then
+            echo "::error::INSTAGRAM_ACCESS_TOKEN secret is not set."
+            exit 1
+          fi
+          if [ -z "$INSTAGRAM_USER_ID" ]; then
+            echo "::error::INSTAGRAM_USER_ID secret is not set."
+            exit 1
+          fi
+          echo "✓ Token loaded (${#INSTAGRAM_ACCESS_TOKEN} chars)"
+          echo "✓ User ID: $INSTAGRAM_USER_ID"
+
+      # ── 5. Fetch Instagram feed ───────────────────────────────────────────
+      #    Script exits 1 on any error — step fails, commit is skipped.
       - name: Fetch Instagram feed
         env:
           INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
           INSTAGRAM_USER_ID:      ${{ secrets.INSTAGRAM_USER_ID }}
         run: node scripts/fetch-instagram.js
 
+      # ── 6. Verify the JSON is valid and non-empty ─────────────────────────
+      - name: Verify instagram-feed.json
+        run: |
+          if [ ! -f instagram-feed.json ]; then
+            echo "::error::instagram-feed.json was not created."
+            exit 1
+          fi
+
+          MEDIA_COUNT=$(node -e "
+            const f = require('./instagram-feed.json');
+            process.stdout.write(String(f.media ? f.media.length : 0));
+          ")
+
+          echo "Media items in JSON: $MEDIA_COUNT"
+
+          if [ "$MEDIA_COUNT" -eq "0" ]; then
+            echo "::error::instagram-feed.json has 0 media items. Refusing to commit empty feed."
+            exit 1
+          fi
+
+          echo "✓ instagram-feed.json is valid with $MEDIA_COUNT posts"
+
+      # ── 7. Detect whether the JSON actually changed ───────────────────────
       - name: Detect changes
         id: changes
         run: |
@@ -46,6 +91,7 @@ jobs:
             && echo "changed=false" >> $GITHUB_OUTPUT \
             || echo "changed=true"  >> $GITHUB_OUTPUT
 
+      # ── 8. Commit and push if changed ─────────────────────────────────────
       - name: Commit updated feed
         if: steps.changes.outputs.changed == 'true'
         run: |
@@ -54,7 +100,9 @@ jobs:
           git add instagram-feed.json
           git commit -m "chore(instagram): auto-refresh feed [$(date -u '+%Y-%m-%d %H:%M UTC')]"
           git push
+          echo "✓ instagram-feed.json committed and pushed → deploy.yml will sync to S3"
 
-      - name: No changes
+      # ── 9. No-op if feed is unchanged ─────────────────────────────────────
+      - name: No changes detected
         if: steps.changes.outputs.changed == 'false'
         run: echo "ℹ️  instagram-feed.json unchanged — skipping commit."
