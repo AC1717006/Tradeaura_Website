@@ -1,0 +1,387 @@
+/* ══════════════════════════════════════════════════════════════════
+   weatherWidget.css — TradeAura Live Weather Widget
+   Glassmorphism dark theme · matches blue/purple brand · responsive
+   Prefix: ww- (avoids conflicts with all existing classes)
+══════════════════════════════════════════════════════════════════ */
+
+/* ── Root container — fixed bottom-left ──────────────────────────────────── */
+.ww-root {
+  position: fixed;
+  bottom: 24px;
+  left: 24px;
+  z-index: 45;                  /* above page content, below WhatsApp FAB (z-50) */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  font-family: 'Inter', sans-serif;
+}
+
+/* ── Expandable card ─────────────────────────────────────────────────────── */
+.ww-card {
+  position: relative;
+  width: 252px;
+  background: rgba(7, 11, 20, 0.92);
+  backdrop-filter: blur(28px);
+  -webkit-backdrop-filter: blur(28px);
+  border: 1px solid rgba(59, 130, 246, 0.18);
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow:
+    0 16px 60px rgba(0, 0, 0, 0.6),
+    0 4px 20px rgba(0, 0, 0, 0.3),
+    inset 0 1px 0 rgba(255, 255, 255, 0.04);
+
+  /* Closed state — slide down + fade out */
+  transform: translateY(10px);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition:
+    transform 0.28s cubic-bezier(0.34, 1.56, 0.64, 1),
+    opacity   0.22s ease,
+    visibility 0s linear 0.22s;
+}
+
+/* Top brand-gradient accent line */
+.ww-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 20px;
+  right: 20px;
+  height: 1px;
+  background: linear-gradient(90deg,
+    transparent,
+    rgba(59, 130, 246, 0.55) 40%,
+    rgba(139, 92, 246, 0.55) 60%,
+    transparent);
+  border-radius: 0 0 1px 1px;
+}
+
+/* Open state */
+.ww-card--open {
+  transform: translateY(0);
+  opacity: 1;
+  visibility: visible;
+  pointer-events: all;
+  transition:
+    transform 0.28s cubic-bezier(0.34, 1.56, 0.64, 1),
+    opacity   0.22s ease,
+    visibility 0s linear 0s;
+}
+
+/* ── Loading state (inside card) ─────────────────────────────────────────── */
+.ww-state-loading {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 4px 0;
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 12px;
+}
+
+.ww-spinner {
+  flex-shrink: 0;
+  width: 18px;
+  height: 18px;
+  border: 2px solid rgba(59, 130, 246, 0.2);
+  border-top-color: #3B82F6;
+  border-radius: 50%;
+  animation: wwSpin 0.85s linear infinite;
+}
+
+/* ── Content state ───────────────────────────────────────────────────────── */
+
+/* Location row */
+.ww-location {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  padding-bottom: 14px;
+  margin-bottom: 14px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.ww-pin {
+  font-size: 13px;
+  line-height: 1.5;
+  flex-shrink: 0;
+}
+
+.ww-city {
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffff;
+  line-height: 1.3;
+  letter-spacing: 0.1px;
+}
+
+.ww-region {
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.38);
+  margin-top: 2px;
+  line-height: 1.4;
+}
+
+/* Main row: icon + temp + condition */
+.ww-main {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 14px;
+}
+
+.ww-icon {
+  font-size: 42px;
+  line-height: 1;
+  flex-shrink: 0;
+  filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.4));
+  animation: wwFloat 4s ease-in-out infinite;
+}
+
+.ww-temp {
+  font-size: 38px;
+  font-weight: 700;
+  color: #ffffff;
+  font-variant-numeric: tabular-nums;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+.ww-condition {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.50);
+  font-weight: 500;
+  margin-top: 3px;
+  letter-spacing: 0.2px;
+}
+
+/* Details row: humidity + wind */
+.ww-details {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  padding-top: 12px;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.ww-detail {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.ww-detail b {
+  color: rgba(255, 255, 255, 0.85);
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Updated timestamp */
+.ww-updated {
+  margin-top: 10px;
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.20);
+  text-align: right;
+  letter-spacing: 0.2px;
+}
+
+/* ── Error state ─────────────────────────────────────────────────────────── */
+.ww-state-error {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 6px 0;
+  text-align: center;
+  font-size: 13px;
+  color: rgba(248, 113, 113, 0.85);
+}
+
+.ww-retry {
+  font-size: 11px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  color: #3B82F6;
+  background: transparent;
+  border: 1px solid rgba(59, 130, 246, 0.35);
+  border-radius: 99px;
+  padding: 5px 16px;
+  cursor: pointer;
+  transition: background 0.2s, border-color 0.2s;
+}
+
+.ww-retry:hover {
+  background: rgba(59, 130, 246, 0.12);
+  border-color: rgba(59, 130, 246, 0.6);
+}
+
+/* ── Collapsed pill ──────────────────────────────────────────────────────── */
+.ww-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 9px 14px 9px 13px;
+  border-radius: 99px;
+  background: rgba(7, 11, 20, 0.88);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(59, 130, 246, 0.22);
+  color: #ffffff;
+  cursor: pointer;
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  white-space: nowrap;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.45);
+  transition:
+    transform   0.2s ease,
+    border-color 0.2s ease,
+    box-shadow  0.2s ease;
+  max-width: 210px;
+  overflow: hidden;
+  /* Reset default button styles */
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+.ww-pill:hover {
+  transform: translateY(-2px);
+  border-color: rgba(59, 130, 246, 0.5);
+  box-shadow:
+    0 6px 30px rgba(59, 130, 246, 0.18),
+    0 4px 24px rgba(0, 0, 0, 0.45);
+}
+
+.ww-pill.ww-pill--active {
+  border-color: rgba(59, 130, 246, 0.5);
+  box-shadow:
+    0 0 0 1px rgba(59, 130, 246, 0.15),
+    0 4px 24px rgba(0, 0, 0, 0.45);
+}
+
+/* Loading dots (inside pill, shown while fetching) */
+.ww-dots {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.ww-dots span {
+  display: block;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: rgba(59, 130, 246, 0.75);
+  animation: wwDot 1.3s ease-in-out infinite;
+}
+
+.ww-dots span:nth-child(2) { animation-delay: 0.16s; }
+.ww-dots span:nth-child(3) { animation-delay: 0.32s; }
+
+/* Pill data row */
+.ww-pill-data {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.ww-pill-temp {
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  font-size: 13px;
+}
+
+.ww-pill-sep {
+  color: rgba(255, 255, 255, 0.25);
+  font-size: 11px;
+}
+
+.ww-pill-city {
+  color: rgba(255, 255, 255, 0.62);
+  font-size: 12px;
+  max-width: 85px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* Chevron arrow */
+.ww-chevron {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.35);
+  transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1), color 0.2s;
+  line-height: 1;
+  margin-left: 1px;
+}
+
+.ww-chevron--up {
+  transform: rotate(-90deg);
+  color: rgba(59, 130, 246, 0.7);
+}
+
+/* ── Keyframe animations ─────────────────────────────────────────────────── */
+
+@keyframes wwSpin {
+  to { transform: rotate(360deg); }
+}
+
+@keyframes wwDot {
+  0%, 80%, 100% { transform: scale(0.55); opacity: 0.45; }
+  40%           { transform: scale(1);    opacity: 1;    }
+}
+
+/* Subtle floating animation for the weather icon */
+@keyframes wwFloat {
+  0%, 100% { transform: translateY(0);    }
+  50%       { transform: translateY(-3px); }
+}
+
+/* ── Responsive: tablet ──────────────────────────────────────────────────── */
+@media (max-width: 1024px) {
+  .ww-root {
+    bottom: 20px;
+    left: 20px;
+  }
+}
+
+/* ── Responsive: mobile ──────────────────────────────────────────────────── */
+@media (max-width: 640px) {
+  .ww-root {
+    bottom: 16px;
+    left: 16px;
+  }
+
+  .ww-card {
+    width: min(252px, calc(100vw - 32px));
+  }
+
+  /* Hide city name in pill on small screens — keep it compact */
+  .ww-pill-city,
+  .ww-pill-sep {
+    display: none;
+  }
+
+  .ww-pill {
+    padding: 8px 12px;
+    font-size: 12px;
+    max-width: 120px;
+  }
+
+  .ww-icon { font-size: 34px; }
+  .ww-temp { font-size: 30px; }
+}
+
+/* ── Reduced motion ──────────────────────────────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  .ww-card,
+  .ww-pill,
+  .ww-chevron,
+  .ww-icon { transition: none; animation: none; }
+  .ww-spinner { animation: none; border-top-color: #3B82F6; opacity: 0.8; }
+  .ww-dots span { animation: none; opacity: 0.6; }
+}

@@ -577,3 +577,55 @@
 
   /* ig-layout stacks vertically on mobile already (via instagramFeed.css) */
 }
+
+
+/* ═══════════════════════════════════════════
+   6. FIXED HEADER STACK — overlap fix
+   Login bar (36px) → Ticker (44px) → Navbar (80px)
+   Total fixed height = 160px
+   Correct selectors confirmed from index.html:
+     Login bar : <div id="loginBar">
+     Ticker    : <div id="stockTicker">  (top also set in stockTicker.css)
+     Navbar    : <nav id="navbar">
+     Hero      : <section id="hero">
+═══════════════════════════════════════════ */
+
+/* 1 — Login bar: topmost, 36px, z:60 */
+#loginBar {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  height: 36px !important;
+  z-index: 60 !important;
+}
+
+/* 2 — Stock ticker: sits immediately below login bar */
+#stockTicker {
+  top: 36px !important;   /* 36px login bar height */
+  z-index: 48 !important;
+}
+
+/* 3 — Navbar: below login bar (36) + ticker (44) = 80px */
+nav#navbar {
+  top: 80px !important;
+  z-index: 50 !important;
+}
+
+/* 4 — Hero: padding clears all three fixed headers (36+44+80 = 160px) */
+#hero {
+  padding-top: 160px !important;
+}
+
+/* ── Mobile: same offsets, ticker/navbar heights unchanged ── */
+@media (max-width: 768px) {
+  #stockTicker {
+    top: 36px !important;
+  }
+  nav#navbar {
+    top: 80px !important;
+  }
+  #hero {
+    padding-top: 160px !important;
+  }
+}
