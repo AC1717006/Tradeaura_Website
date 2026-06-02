@@ -579,6 +579,277 @@
 }
 
 
+/* ═══════════════════════════════════════════════════════════════
+   SECTION 7 — MOBILE RESPONSIVE AUDIT & FIX
+   Breakpoints: 768px · 480px · 375px · 320px
+   Desktop layout (≥1024px) is NOT touched by any rule below.
+═══════════════════════════════════════════════════════════════ */
+
+/* ── Global: guarantee no horizontal overflow on any viewport ─ */
+html {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
+/* Prevent fixed-width children from breaking layout */
+* { max-width: 100vw; }
+img, video, iframe { max-width: 100%; height: auto; }
+
+
+/* ══════════════════════════════════
+   768px — Tablet / Large mobile
+══════════════════════════════════ */
+@media (max-width: 768px) {
+
+  /* ── Fixed header bar ── */
+  #loginBar { padding: 0 16px !important; gap: 8px !important; }
+
+  /* ── HERO: fix double padding-top ──────────────────────────────
+     The <section id="hero"> already has padding-top:160px (inline).
+     The inner content div also has padding:160px 24px 80px (inline).
+     That stacks to 320px+ of empty space at the top on mobile.
+     Override the inner div's top padding to just 20px. */
+  #hero > div[style*="max-width:1200px"] {
+    flex-direction: column   !important;
+    align-items:   flex-start !important;
+    padding:       20px 16px 48px !important;  /* was: 160px 24px 80px */
+    gap:           24px !important;
+  }
+
+  /* Hero left column: full width */
+  #hero div[style*="max-width:55%"] {
+    max-width: 100% !important;
+    width:     100% !important;
+    min-width: 0   !important;
+  }
+
+  /* Hero news panel: hide on ≤768px (too narrow alongside text) */
+  #heroNewsCard { display: none !important; }
+
+  /* Hero subtitle: let it breathe to full width */
+  #heroSub { max-width: 100% !important; }
+
+  /* ── Dashboard tabs: scroll instead of wrap/overflow ── */
+  div:has(> .dashboard-tab-btn) {
+    flex-wrap: nowrap          !important;
+    overflow-x: auto           !important;
+    justify-content: flex-start !important;
+    padding-bottom: 6px        !important;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+  div:has(> .dashboard-tab-btn)::-webkit-scrollbar { display: none; }
+  .dashboard-tab-btn {
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  /* ── Section padding: py-24 (96px) → 48px on mobile ── */
+  section.py-24 { padding-top: 48px !important; padding-bottom: 48px !important; }
+  section.py-16 { padding-top: 32px !important; padding-bottom: 32px !important; }
+
+  /* ── Stat cards: p-8 (32px) is too large at small sizes ── */
+  .stat-card { padding: 18px 14px !important; }
+  .stat-card .text-4xl,
+  .stat-card .text-5xl { font-size: 2rem !important; }
+
+  /* ── Section heading scale ── */
+  section h2.text-4xl   { font-size: 1.875rem !important; }   /* 30px */
+  section h2.md\:text-6xl { font-size: 1.875rem !important; }
+
+  /* ── How It Works: step connector already hidden by .hidden.md:flex ── */
+  .step-connector { display: none !important; }
+
+  /* ── CRM Pipeline columns: ensure min-width so they can scroll ── */
+  .pipeline-col { min-width: 135px; flex-shrink: 0; }
+
+  /* ── Mock dashboard: allow horizontal scroll ── */
+  .mock-dashboard { overflow-x: auto; }
+
+  /* ── Instagram strip ── */
+  .ig-section {
+    padding-top: 40px    !important;
+    padding-bottom: 40px !important;
+  }
+
+  /* ── Footer ── */
+  footer .py-16 { padding-top: 40px    !important; padding-bottom: 40px !important; }
+  footer .gap-10 { gap: 24px !important; }
+  footer .mb-12  { margin-bottom: 28px !important; }
+
+  /* ── Floating CTA & FABs: prevent overlap ── */
+  .floating-cta { right: 16px !important; bottom: 88px !important; }
+
+  /* ── Overflow guard on hero ── */
+  #hero { overflow-x: hidden !important; }
+
+  /* ── Featured project ── */
+  #featured-project { padding-top: 48px !important; padding-bottom: 48px !important; }
+
+  /* ── News section: tighten ── */
+  section[class*="TRADEAURA"] { padding-top: 40px; padding-bottom: 40px; }
+
+}
+
+
+/* ══════════════════════════════════
+   480px — Standard large phones
+══════════════════════════════════ */
+@media (max-width: 480px) {
+
+  /* ── Login bar: compress padding ── */
+  #loginBar { padding: 0 12px !important; gap: 6px !important; }
+
+  /* ── Hero: even more compact ── */
+  #hero > div[style*="max-width:1200px"] {
+    padding: 16px 14px 36px !important;
+    gap:     18px !important;
+  }
+
+  /* ── Hero CTA buttons: stack vertically, full width ── */
+  #hero div[style*="gap:16px"] {
+    flex-direction: column  !important;
+    align-items:   stretch  !important;
+    gap:           10px     !important;
+  }
+  #hero a[style*="border-radius:10px"] {
+    justify-content: center !important;
+    width:           100%   !important;
+    padding:         13px 18px !important;
+    min-height:      44px      !important;  /* touch target */
+  }
+
+  /* ── Stat cards: smaller number & padding ── */
+  .stat-card                { padding: 14px 10px !important; }
+  .stat-card .text-4xl,
+  .stat-card .text-5xl      { font-size: 1.625rem !important; }
+
+  /* ── Section headings ── */
+  section h2.text-4xl,
+  section h2.md\:text-6xl   { font-size: 1.625rem !important; line-height: 1.25 !important; }
+
+  /* ── Section padding ── */
+  section.py-24 { padding-top: 36px !important; padding-bottom: 36px !important; }
+
+  /* ── Instagram posts ── */
+  #igGrid .ig-post,
+  #igGrid .ig-post-skeleton {
+    flex:      0 0 152px !important;
+    min-width: 152px     !important;
+    height:    152px     !important;
+  }
+
+  /* ── Solution cards: reduce inner padding ── */
+  .solution-card.glass-card { padding: 18px !important; }
+
+  /* ── Footer grid: tighter gap ── */
+  footer .gap-10 { gap: 18px !important; }
+  footer .py-16  {
+    padding-top: 32px    !important;
+    padding-bottom: 32px !important;
+  }
+
+  /* ── Featured project stat grid ── */
+  #featured-project .grid.grid-cols-2 .glass-card {
+    padding: 16px !important;
+  }
+
+  /* ── How It Works: step icons fit ── */
+  .w-24.h-24 { width: 72px !important; height: 72px !important; }
+
+  /* ── Dashboard tab-btn text ── */
+  .dashboard-tab-btn { font-size: 0.75rem !important; padding: 8px 12px !important; }
+
+}
+
+
+/* ══════════════════════════════════
+   375px — iPhone SE / standard
+══════════════════════════════════ */
+@media (max-width: 375px) {
+
+  /* ── Hero text ── */
+  #heroTitle  { font-size: 26px !important; line-height: 1.15 !important; }
+  #heroSub    { font-size: 15px !important; }
+  #heroBadge  { font-size: 11px !important; padding: 5px 12px !important; }
+
+  /* ── Section titles ── */
+  section h2.text-4xl,
+  section h2.md\:text-6xl { font-size: 1.5rem !important; }
+
+  /* ── Stat cards grid: ensure 2-col works on 375px ── */
+  .stat-card { padding: 12px 8px !important; }
+  .stat-card .text-4xl,
+  .stat-card .text-5xl { font-size: 1.5rem !important; }
+
+  /* ── Dashboard tab text ── */
+  .dashboard-tab-btn { font-size: 0.7rem !important; padding: 7px 10px !important; }
+
+  /* ── Login bar ── */
+  #loginBar { padding: 0 10px !important; }
+  #loginBar button { padding: 4px 12px !important; font-size: 11px !important; }
+
+  /* ── Solution cards ── */
+  .solution-card.glass-card { padding: 14px !important; }
+
+  /* ── Floating widgets: no overlap ── */
+  .floating-cta  { right: 12px !important; bottom: 84px !important; }
+  .whatsapp-fab  { bottom: 12px !important; right: 12px !important; }
+
+  /* ── Footer ── */
+  footer .gap-10 { gap: 16px !important; }
+
+}
+
+
+/* ══════════════════════════════════
+   320px — Smallest supported
+══════════════════════════════════ */
+@media (max-width: 320px) {
+
+  /* ── Hero ── */
+  #heroTitle { font-size: 22px !important; }
+  #heroSub   { font-size: 13px !important; }
+  #heroBadge { font-size: 10px !important; padding: 4px 10px !important; }
+  #hero a[style*="border-radius:10px"] { padding: 12px 14px !important; font-size: 13px !important; }
+
+  /* ── Section padding: minimal ── */
+  section.py-24 { padding-top: 28px !important; padding-bottom: 28px !important; }
+  .px-4         { padding-left: 12px !important; padding-right: 12px !important; }
+
+  /* ── Stat cards ── */
+  .stat-card            { padding: 10px 6px !important; }
+  .stat-card .text-4xl,
+  .stat-card .text-5xl  { font-size: 1.25rem !important; }
+
+  /* ── Instagram posts: smallest ── */
+  #igGrid .ig-post,
+  #igGrid .ig-post-skeleton {
+    flex:      0 0 128px !important;
+    min-width: 128px     !important;
+    height:    128px     !important;
+  }
+
+  /* ── Login bar buttons ── */
+  #loginBar button { padding: 3px 10px !important; font-size: 10px !important; }
+  #loginBar { gap: 4px !important; padding: 0 8px !important; }
+
+  /* ── Section headings ── */
+  section h2 { font-size: 1.375rem !important; }
+
+  /* ── Footer: ultra compact ── */
+  footer .py-16  { padding-top: 24px    !important; padding-bottom: 24px !important; }
+  footer .gap-10 { gap: 14px !important; }
+
+  /* ── How It Works icons: smaller ── */
+  .w-24.h-24 { width: 60px !important; height: 60px !important; }
+
+  /* ── Solution card: 1 column force ── */
+  .grid.grid-cols-1.sm\:grid-cols-2 { grid-template-columns: 1fr !important; }
+
+}
+
+
 /* ═══════════════════════════════════════════
    6. FIXED HEADER STACK — overlap fix
    Login bar (36px) → Ticker (44px) → Navbar (80px)
