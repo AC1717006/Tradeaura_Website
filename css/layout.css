@@ -1,0 +1,579 @@
+/* ══════════════════════════════════════════════════════════════════
+   layout.css — TradeAura Homepage Layout
+   New structural elements: Login Bar · Hero Slider · Instagram Strip
+   Theme tokens (never changed): #0B0F19 · #3B82F6 · #8B5CF6 · #EC4899
+══════════════════════════════════════════════════════════════════ */
+
+/* ═══════════════════════════════════════════
+   1. LOGIN BAR — topmost fixed element
+   z-56 · height 36px · top 0
+═══════════════════════════════════════════ */
+
+.login-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 56;
+  height: 36px;
+  background: rgba(7, 11, 20, 0.97);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+  display: flex;
+  align-items: center;
+}
+
+.login-bar-inner {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.login-bar-welcome {
+  font-family: 'Inter', sans-serif;
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.35);
+  letter-spacing: 0.3px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.login-bar-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.btn-lb-login {
+  font-family: 'Inter', sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.65);
+  padding: 4px 14px;
+  border-radius: 99px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.04);
+  text-decoration: none;
+  transition: color 0.2s, border-color 0.2s, background 0.2s;
+  line-height: 1;
+}
+
+.btn-lb-login:hover {
+  color: #fff;
+  border-color: rgba(59, 130, 246, 0.4);
+  background: rgba(59, 130, 246, 0.08);
+}
+
+.btn-lb-signup {
+  font-family: 'Inter', sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  color: #fff;
+  padding: 4px 14px;
+  border-radius: 99px;
+  border: none;
+  background: linear-gradient(135deg, #3B82F6, #8B5CF6);
+  text-decoration: none;
+  transition: opacity 0.2s, transform 0.2s;
+  line-height: 1;
+}
+
+.btn-lb-signup:hover {
+  opacity: 0.88;
+  transform: translateY(-1px);
+}
+
+@media (max-width: 640px) {
+  .login-bar-welcome { display: none; }
+  .login-bar-inner   { justify-content: flex-end; }
+}
+
+
+/* ═══════════════════════════════════════════
+   2. NAVBAR POSITION OVERRIDE
+   Navbar sits below: login(36) + ticker(44) = top: 80px
+═══════════════════════════════════════════ */
+
+#navbar {
+  top: 80px !important;
+}
+
+
+/* ═══════════════════════════════════════════
+   3. HERO SECTION — full-screen slider
+═══════════════════════════════════════════ */
+
+.hero-section {
+  position: relative;
+  min-height: 100vh;
+  overflow: hidden;
+  /* Push content below all three fixed headers: 36+44+80 = 160px */
+  padding-top: 160px;
+  padding-bottom: 64px;
+  display: flex;
+  align-items: center;
+}
+
+/* ── Background slide layers ── */
+.hs-bg-wrap {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.hs-bg {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+
+.hs-bg.active { opacity: 1; }
+
+/* Dark overlay over all slides */
+.hs-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: rgba(11, 15, 25, 0.68);
+}
+
+/* Grid pattern overlay */
+.hs-grid {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  background-image:
+    linear-gradient(rgba(59,130,246,0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(59,130,246,0.03) 1px, transparent 1px);
+  background-size: 60px 60px;
+  pointer-events: none;
+}
+
+/* ── Two-column content area ── */
+.hs-body {
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 40px;
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  gap: 48px;
+  align-items: center;
+}
+
+/* ── Left side: slide content ── */
+.hs-left {
+  position: relative;
+  min-height: 320px; /* prevent collapse during content switch */
+}
+
+.hs-slide-content {
+  display: none;
+  animation: hsFadeUp 0.55s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.hs-slide-content.active {
+  display: block;
+}
+
+@keyframes hsFadeUp {
+  from { opacity: 0; transform: translateY(16px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* Badge pill */
+.hs-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 16px;
+  border-radius: 99px;
+  background: rgba(59, 130, 246, 0.1);
+  border: 1px solid rgba(59, 130, 246, 0.28);
+  color: #60A5FA;
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+
+/* Headline */
+.hs-h1 {
+  font-family: 'Outfit', sans-serif;
+  font-size: clamp(36px, 4.5vw, 56px);
+  font-weight: 800;
+  color: #ffffff;
+  line-height: 1.08;
+  letter-spacing: -0.02em;
+  margin-bottom: 20px;
+}
+
+.hs-h1 .hs-grad {
+  background: linear-gradient(135deg, #60A5FA, #A78BFA, #F472B6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Subtitle */
+.hs-sub {
+  font-family: 'Inter', sans-serif;
+  font-size: 17px;
+  color: rgba(255, 255, 255, 0.58);
+  line-height: 1.65;
+  margin-bottom: 36px;
+  max-width: 480px;
+}
+
+/* CTAs row */
+.hs-ctas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  align-items: center;
+}
+
+.hs-btn-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 14px 28px;
+  border-radius: 99px;
+  background: linear-gradient(135deg, #3B82F6, #8B5CF6);
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 4px 20px rgba(59, 130, 246, 0.4);
+  white-space: nowrap;
+}
+
+.hs-btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 30px rgba(59, 130, 246, 0.5);
+}
+
+.hs-btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 13px 26px;
+  border-radius: 99px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: rgba(255, 255, 255, 0.8);
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+  white-space: nowrap;
+  backdrop-filter: blur(8px);
+}
+
+.hs-btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.3);
+  color: #fff;
+}
+
+/* ── Right side: news panel ── */
+.hs-news-panel {
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow:
+    0 8px 40px rgba(0, 0, 0, 0.35),
+    inset 0 1px 0 rgba(255, 255, 255, 0.05);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Brand accent top line */
+.hs-news-panel::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 20px; right: 20px;
+  height: 1px;
+  background: linear-gradient(90deg,
+    transparent,
+    rgba(59, 130, 246, 0.5) 40%,
+    rgba(139, 92, 246, 0.5) 60%,
+    transparent);
+}
+
+.hs-news-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 14px;
+}
+
+.hs-news-title-text {
+  font-family: 'Inter', sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  color: #60A5FA;
+}
+
+.hs-news-live {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-family: 'Inter', sans-serif;
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.hs-news-live-dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #10B981;
+  animation: hsLivePulse 1.8s ease-in-out infinite;
+}
+
+@keyframes hsLivePulse {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0.3; }
+}
+
+/* News items container */
+#hsNewsItems {
+  transition: opacity 0.3s ease;
+}
+
+.hs-news-item {
+  display: block;
+  padding: 11px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  text-decoration: none;
+  transition: background 0.2s;
+  border-radius: 8px;
+  padding-left: 8px;
+  margin-left: -8px;
+  padding-right: 8px;
+}
+
+.hs-news-item:last-child { border-bottom: none; }
+
+.hs-news-item:hover { background: rgba(255, 255, 255, 0.03); }
+
+.hs-news-tag {
+  display: inline-block;
+  font-family: 'Inter', sans-serif;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  padding: 2px 8px;
+  border-radius: 99px;
+  border: 1px solid;
+  margin-bottom: 5px;
+}
+
+.hs-news-headline {
+  font-family: 'Inter', sans-serif;
+  font-size: 12.5px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.82);
+  line-height: 1.45;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  margin-bottom: 4px;
+}
+
+.hs-news-meta {
+  font-family: 'Inter', sans-serif;
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.28);
+}
+
+.hs-news-footer {
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.hs-news-footer a {
+  font-family: 'Inter', sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  color: #60A5FA;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  transition: gap 0.2s;
+}
+
+.hs-news-footer a:hover { gap: 8px; }
+
+/* ── Slide navigation dots ── */
+.hs-dots {
+  position: absolute;
+  bottom: 32px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 20;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.hs-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 99px;
+  background: rgba(255, 255, 255, 0.25);
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  transition: width 0.3s ease, background 0.3s ease;
+}
+
+.hs-dot.active {
+  width: 22px;
+  background: #3B82F6;
+}
+
+
+/* ═══════════════════════════════════════════
+   4. INSTAGRAM — horizontal scrolling strip
+   Overrides instagramFeed.css grid → flex row
+═══════════════════════════════════════════ */
+
+/* Strip wrapper — hides overflow for seamless loop */
+.ig-strip-outer {
+  overflow: hidden;
+  border-radius: 16px;
+  position: relative;
+  /* Fade edges for nice "infinite" look */
+}
+
+.ig-strip-outer::before,
+.ig-strip-outer::after {
+  content: '';
+  position: absolute;
+  top: 0; bottom: 0;
+  width: 40px;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.ig-strip-outer::before {
+  left: 0;
+  background: linear-gradient(to right, rgba(11,15,25,0.9), transparent);
+}
+
+.ig-strip-outer::after {
+  right: 0;
+  background: linear-gradient(to left, rgba(11,15,25,0.9), transparent);
+}
+
+/* Override the grid to horizontal flex */
+.ig-strip-outer .ig-grid {
+  display: flex !important;
+  flex-direction: row !important;
+  gap: 12px !important;
+  flex-wrap: nowrap !important;
+  grid-template-columns: unset !important;
+  animation: igStrip 24s linear infinite;
+  will-change: transform;
+  padding: 4px 2px;
+}
+
+.ig-strip-outer .ig-grid:hover {
+  animation-play-state: paused;
+}
+
+.ig-strip-outer .ig-post,
+.ig-strip-outer .ig-post-skeleton {
+  flex: 0 0 185px !important;
+  width: 185px !important;
+  height: 185px !important;
+  border-radius: 14px !important;
+}
+
+@keyframes igStrip {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+
+/* Tab bar stays as-is, just above the strip */
+.ig-strip-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  flex: 1;
+  min-width: 0;
+}
+
+
+/* ═══════════════════════════════════════════
+   5. RESPONSIVE BREAKPOINTS
+═══════════════════════════════════════════ */
+
+/* Tablet */
+@media (max-width: 1100px) {
+  .hs-body {
+    grid-template-columns: 1fr;
+    padding: 0 32px;
+  }
+
+  .hs-news-panel { display: none; }  /* hidden on tablet/mobile */
+
+  .hs-h1 { font-size: clamp(32px, 5vw, 48px); }
+}
+
+/* Mobile */
+@media (max-width: 640px) {
+  .hero-section {
+    padding-top: 152px;  /* login(36) + ticker(38) + navbar(78) ≈ adjusted */
+    padding-bottom: 80px;
+    align-items: flex-start;
+  }
+
+  .hs-body { padding: 0 20px; }
+
+  .hs-h1 { font-size: 30px; }
+
+  .hs-sub { font-size: 15px; }
+
+  .hs-ctas { flex-direction: column; align-items: flex-start; }
+
+  .hs-btn-primary,
+  .hs-btn-secondary { width: 100%; justify-content: center; }
+
+  .hs-dots { bottom: 20px; }
+
+  /* Instagram strip on mobile */
+  .ig-strip-outer .ig-post,
+  .ig-strip-outer .ig-post-skeleton {
+    flex: 0 0 148px !important;
+    width: 148px !important;
+    height: 148px !important;
+  }
+
+  /* ig-layout stacks vertically on mobile already (via instagramFeed.css) */
+}

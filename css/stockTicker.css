@@ -6,7 +6,7 @@
 /* ── Bar Container ───────────────────────────────────────────────────────── */
 .stock-ticker-bar {
   position: fixed;
-  top: 80px;                          /* flush below h-20 navbar           */
+  top: 36px;                          /* below login bar (36px) · above navbar (80px) */
   left: 0;
   right: 0;
   z-index: 48;                        /* below navbar z-50, above content   */
@@ -288,7 +288,7 @@
 }
 
 @media (max-width: 768px) {
-  .stock-ticker-bar { height: 38px; top: 80px; }
+  .stock-ticker-bar { height: 38px; top: 36px; }
 
   .ticker-badge {
     padding: 0 10px;
@@ -305,7 +305,7 @@
 }
 
 @media (max-width: 480px) {
-  .stock-ticker-bar { height: 34px; top: 80px; }
+  .stock-ticker-bar { height: 34px; top: 36px; }
 
   .ticker-badge { padding: 0 8px; font-size: 8px; letter-spacing: 1px; }
 
