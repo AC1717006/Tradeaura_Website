@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "162796f41c78",
+      "originalUrl": "https://seekingalpha.com/article/4910880-intuit-undervalued-and-an-ai-leader",
+      "originalTitle": "Intuit: Undervalued And An AI Leader (NASDAQ:INTU)",
+      "source": "Dividend Power",
+      "imageUrl": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/458695167/image_458695167.jpg?io=getty-c-w1536",
+      "publishedDate": "2026-06-02 10:25:22 +0000",
+      "createdAt": "2026-06-02T10:42:49.109Z",
+      "title": "Intuit AI",
+      "metaDescription": "Intuit stock undervalued",
+      "keywords": [
+        "Intuit",
+        "AI",
+        "stock",
+        "undervalued",
+        "growth"
+      ],
+      "summary": "Intuit's strong growth drivers and high dividend yield make it an attractive investment opportunity for Indian business owners. The company's AI leadership is a key factor in its success. Indian investors can consider Intuit as a potential addition to their portfolio.",
+      "content": "<h2>Introduction to Intuit</h2><p>Intuit is a well-established company with a strong presence in the financial technology sector. Its stock has been performing well, with a decade-high dividend yield and strong growth drivers. The company's focus on artificial intelligence (AI) has been a key factor in its success, making it an attractive investment opportunity for Indian business owners and investors.</p><h2>Growth Drivers</h2><p>Intuit's growth drivers include its cloud-based accounting and tax preparation software, which are widely used by small businesses and individuals in India and other countries. The company's AI-powered tools and platforms have also been gaining traction, providing a competitive edge in the market. Some of the key features of Intuit's AI-powered tools include:</p><ul><li>Automated data entry and processing</li><li>Personalized financial insights and recommendations</li><li>Enhanced security and compliance</li></ul><p>These features have made Intuit's products more attractive to Indian businesses, which are increasingly adopting digital technologies to improve their operations and competitiveness.</p>",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "stock",
+        "intuit",
+        "growth",
+        "invest"
+      ],
+      "readTime": 3,
+      "slug": "intuit-ai",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "e3f857f34895",
+      "originalUrl": "https://www.bloomberg.com/news/newsletters/2026-06-02/how-ai-is-transforming-billing-hiring-and-legal-work-at-top-law-firms",
+      "originalTitle": "Law’s Billable Hour Is Being Shredded by AI",
+      "source": "www.bloomberg.com",
+      "imageUrl": null,
+      "publishedDate": "2026-06-02 10:31:10 +0000",
+      "createdAt": "2026-06-02T10:42:54.264Z",
+      "title": "AI Disrupts Law",
+      "metaDescription": "AI transforms law firms",
+      "keywords": [
+        "AI",
+        "law firms",
+        "legal technology",
+        "billing",
+        "automation"
+      ],
+      "summary": "AI is transforming the legal industry in India, changing the way law firms bill clients, hire talent, and deliver legal services. Indian law firms are adopting AI to stay competitive and improve efficiency. This shift is expected to have a significant impact on the Indian legal market.",
+      "content": "<h2>Introduction of AI in Law Firms</h2><p>Artificial intelligence (AI) is revolutionizing the legal industry in India, disrupting traditional law firm billing, hiring, and legal products. With the increasing adoption of AI, law firms are rethinking their business models and strategies to stay competitive. The use of AI is enabling law firms to automate routine tasks, improve efficiency, and provide more accurate and reliable legal services.</p><h2>Impact on Billing and Hiring</h2><p>The introduction of AI is changing the way law firms bill clients. Traditional billable hours are being replaced by more flexible and transparent pricing models. AI is also transforming the hiring process, with law firms using AI-powered tools to screen and select candidates. This shift is expected to have a significant impact on the Indian legal job market.</p><h2>Future of Law Firms in India</h2><p>As AI continues to evolve, Indian law firms will need to adapt and innovate to stay ahead of the curve. This may involve investing in AI-powered tools, training lawyers and staff on AI and machine learning, and developing new legal products and services that leverage AI. By embracing AI, Indian law firms can improve efficiency, reduce costs, and provide better services to clients.</p><h2>Key Takeaways</h2><ul><li>AI is transforming the legal industry in India</li><li>Law firms are adopting AI to improve efficiency and reduce costs</li><li>AI is changing the way law firms bill clients and hire talent</li><li>Indian law firms need to adapt and innovate to stay competitive</li><li>AI will have a significant impact on the Indian legal market</li></ul>",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "law",
+        "firms",
+        "india",
+        "tech"
+      ],
+      "readTime": 3,
+      "slug": "ai-disrupts-law",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "9c1c32241d33",
       "originalUrl": "https://www.investing.com/news/stock-market-news/nvidia-ceo-says-co-can-meet-ai-chip-demand-despite-ongoing-supply-constraints-reuters-93CH-4720817",
       "originalTitle": "Nvidia CEO says co can meet AI chip demand despite ongoing supply constraints- Reuters By Investing.com",
@@ -793,7 +859,7 @@
       "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-06-02T04:16:58.011Z",
-  "totalCount": 24,
+  "lastUpdated": "2026-06-02T10:42:54.264Z",
+  "totalCount": 26,
   "schema": "2.0"
 }
