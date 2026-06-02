@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "9c1c32241d33",
+      "originalUrl": "https://www.investing.com/news/stock-market-news/nvidia-ceo-says-co-can-meet-ai-chip-demand-despite-ongoing-supply-constraints-reuters-93CH-4720817",
+      "originalTitle": "Nvidia CEO says co can meet AI chip demand despite ongoing supply constraints- Reuters By Investing.com",
+      "source": "www.investing.com",
+      "imageUrl": "https://i-invdn-com.investing.com/news/moved_LYNXMPEL620W9_L.jpg",
+      "publishedDate": "2026-06-02 03:36:57 +0000",
+      "createdAt": "2026-06-02T04:16:53.111Z",
+      "title": "Nvidia Meets AI Demand",
+      "metaDescription": "Nvidia meets AI chip demand",
+      "keywords": [
+        "Nvidia",
+        "AI Chips",
+        "Supply Constraints",
+        "Indian Market",
+        "Technology"
+      ],
+      "summary": "Nvidia's CEO has expressed confidence in meeting the growing demand for AI chips in India despite ongoing supply constraints. This development is crucial for Indian businesses and startups that rely on AI technology. The Indian market is expected to benefit from Nvidia's commitment to meeting AI chip demand.",
+      "content": "<h2>Nvidia's Commitment to AI Chip Demand</h2><p>Nvidia's CEO has stated that the company can meet the increasing demand for AI chips, despite the ongoing supply constraints. This announcement is significant for the Indian market, where AI technology is being increasingly adopted by businesses and startups.</p><p>The Indian market is expected to drive the growth of AI technology in the coming years, with the RBI and SEBI playing a crucial role in regulating and promoting the use of AI in various industries. Nvidia's commitment to meeting AI chip demand is a positive development for Indian businesses and startups that rely on AI technology.</p><h2>Key Takeaways</h2><ul><li>Nvidia can meet the growing demand for AI chips</li><li>Ongoing supply constraints will not impact Nvidia's ability to meet demand</li><li>The Indian market is expected to drive the growth of AI technology</li><li>Indian businesses and startups will benefit from Nvidia's commitment to meeting AI chip demand</li><li>The RBI and SEBI will play a crucial role in regulating and promoting the use of AI in India</ul>",
+      "category": "AI & Automation",
+      "tags": [
+        "tech",
+        "ai",
+        "nvidia",
+        "chips",
+        "india"
+      ],
+      "readTime": 3,
+      "slug": "nvidia-meets-ai-demand",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "e6691430d402",
+      "originalUrl": "https://www.techinasia.com/indias-raise-financial-unicorn-120m-series",
+      "originalTitle": "MUFG plans $250m fund for India startups",
+      "source": "Aiko Gao Ishida",
+      "imageUrl": null,
+      "publishedDate": "2026-06-02 04:08:34 +0000",
+      "createdAt": "2026-06-02T04:16:58.010Z",
+      "title": "India Startup Fund",
+      "metaDescription": "MUFG $250m fund",
+      "keywords": [
+        "startups",
+        "funding",
+        "investment",
+        "India",
+        "MUFG"
+      ],
+      "summary": "Mitsubishi UFJ Financial Group plans to invest $250 million in Indian startups, targeting early- and growth-stage companies. This move is expected to boost the Indian startup ecosystem. The investment will focus on innovative and scalable businesses.",
+      "content": "<h2>Investment Plans</h2><p>Mitsubishi UFJ Financial Group (MUFG) has announced plans to invest $250 million in Indian startups. The investment is expected to target early- and growth-stage startups, with a focus on innovative and scalable businesses.</p><p>The Indian startup ecosystem has been growing rapidly, with many companies showing significant potential for growth. This investment is expected to provide a boost to the ecosystem, enabling startups to scale up their operations and expand their reach.</p><h2>Investment Strategy</h2><p>Most investments are expected to target early- and growth-stage startups, with a focus on companies that have a strong potential for growth. The investment strategy will involve identifying and investing in startups that have innovative business models and scalable operations.</p><p>The investment is expected to be made over a period of time, with the exact timeline and details of the investment strategy yet to be announced. However, it is clear that MUFG is committed to supporting the growth of the Indian startup ecosystem.</p>",
+      "category": "Business Tools",
+      "tags": [
+        "funding",
+        "startups",
+        "india",
+        "business",
+        "investment"
+      ],
+      "readTime": 3,
+      "slug": "india-startup-fund",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "7a8f5bd4e587",
       "originalUrl": "https://techcrunch.com/2026/06/01/nvidia-chases-200b-cpu-market-with-ai-agent-pcs-from-microsoft-dell-and-hp/",
       "originalTitle": "Nvidia chases $200B CPU market with AI agent PCs from Microsoft, Dell, and HP | TechCrunch",
@@ -727,7 +793,7 @@
       "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-06-01T21:37:14.920Z",
-  "totalCount": 22,
+  "lastUpdated": "2026-06-02T04:16:58.011Z",
+  "totalCount": 24,
   "schema": "2.0"
 }

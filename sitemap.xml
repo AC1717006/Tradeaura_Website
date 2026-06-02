@@ -8,7 +8,7 @@
   </url>
   <url>
     <loc>https://www.auraautomation.site/news/index.html</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-06-02</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
@@ -40,6 +40,16 @@
     <loc>https://www.auraautomation.site/pages/join.html</loc>
     <lastmod>2026-05-01</lastmod>
     <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.auraautomation.site/news/nvidia-meets-ai-demand.html</loc>
+    <lastmod>2026-06-02</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.auraautomation.site/news/india-startup-fund.html</loc>
+    <lastmod>2026-06-02</lastmod>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.auraautomation.site/news/nvidia-ai-agents.html</loc>
