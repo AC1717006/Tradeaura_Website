@@ -1,23 +1,27 @@
 /**
  * stockTicker.js — Tradeaura Live Market Ticker
  *
- * Polls /api/market (via the backend proxy) every 60 seconds and
- * renders a scrolling price bar.
+ * Production: Cloudflare Worker (Yahoo Finance, no token needed)
+ * Local dev:  Node.js server /api/market (localhost:3001)
  *
- * API URL resolution order:
- *  1. data-api attribute on #stockTicker  → use that value directly
- *  2. Page port is 5500 (VS Code Live Server) → http://localhost:3001
- *  3. Any other origin (npm start on 3001)  → window.location.origin
- *  4. Final fallback                        → http://localhost:3001
+ * Symbols (from Worker): SENSEX · NIFTY 50 · BANK NIFTY · MIDCAP 50
+ *                        GOLD · SILVER · CRUDE OIL · COPPER
+ *
+ * URL resolution order:
+ *  1. localhost → http://localhost:3001/api/market
+ *  2. data-api attribute on #stockTicker (set in HTML for production)
+ *  3. Fallback → WORKER_URL constant below
  */
 
 /* global fetch */
 
+const WORKER_URL = 'https://market-ticker.tradeaura.workers.dev';
+
 const StockTicker = (() => {
   // ── Config ───────────────────────────────────────────────────────────────
-  const REFRESH_MS   = 60 * 1000;
-  const API_PATH     = '/api/market';
-  const LOCAL_DEV    = 'http://localhost:3001';
+  const REFRESH_MS = 30 * 1000;   // 30s — matches Cloudflare Worker cache TTL
+  const API_PATH   = '/api/market';
+  const LOCAL_DEV  = 'http://localhost:3001';
 
   // ── State ─────────────────────────────────────────────────────────────────
   let trackEl      = null;
@@ -29,57 +33,59 @@ const StockTicker = (() => {
   let apiBase      = '';
 
   // ── URL Resolution ────────────────────────────────────────────────────────
-
-  /**
-   * Decide which base URL to call for /api/market.
-   *  - Prefer explicit data-api attribute on #stockTicker (set in HTML for prod)
-   *  - If the page is being served by node server.js, same origin works fine
-   *  - If the page is on S3 / file:// and no data-api is set, fall back to localhost
-   */
   function resolveApiBase() {
     const hostname = window.location.hostname;
     const isLocal  = hostname === 'localhost' || hostname === '127.0.0.1';
 
-    // Local dev (any port — Live Server 5500 or npm start 3001) → Express server
+    // Local dev → Express proxy
     if (isLocal) return LOCAL_DEV;
 
-    // Production → read Vercel URL from data-api attribute
+    // Production → read Cloudflare Worker URL from data-api attribute
     const ticker = document.getElementById('stockTicker');
     if (ticker && ticker.dataset.api) return ticker.dataset.api;
 
-    // Hard fallback
-    return 'https://tradeaura.vercel.app';
+    return WORKER_URL;
   }
 
   // ── Formatters ────────────────────────────────────────────────────────────
 
-  function fmtPrice(price, type) {
+  function getCurrencySymbol(type, currency) {
+    if (type === 'index')     return '';
+    if (type === 'commodity') return (currency === 'INR') ? '₹' : '$';
+    return '₹';
+  }
+
+  function fmtPrice(price, type, currency) {
     if (price == null || isNaN(price)) return '—';
-    const str = parseFloat(price).toLocaleString('en-IN', {
+    const locale = (type === 'index' || currency === 'INR') ? 'en-IN' : 'en-US';
+    const str = parseFloat(price).toLocaleString(locale, {
       minimumFractionDigits: 2,
       maximumFractionDigits: 2,
     });
-    return type === 'equity' ? `₹${str}` : str;
+    return getCurrencySymbol(type, currency) + str;
   }
 
-  function fmtChange(change, pct) {
+  function fmtChange(change, pct, type, currency) {
     const ch = parseFloat(change);
     const p  = parseFloat(pct);
     if (isNaN(ch)) return { text: '—', cls: 'neutral' };
 
-    const arrow  = ch >= 0 ? '▲' : '▼';
-    const sign   = ch >= 0 ? '+' : '';
-    const cls    = ch > 0 ? 'positive' : ch < 0 ? 'negative' : 'neutral';
-    const pctStr = !isNaN(p) ? ` (${sign}${p.toFixed(2)}%)` : '';
+    const locale  = (type === 'index' || currency === 'INR') ? 'en-IN' : 'en-US';
+    const arrow   = ch >= 0 ? '▲' : '▼';
+    const sign    = ch >= 0 ? '+' : '';
+    const cls     = ch > 0 ? 'positive' : ch < 0 ? 'negative' : 'neutral';
+    const absStr  = Math.abs(ch).toLocaleString(locale, { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+    const cur     = getCurrencySymbol(type, currency);
+    const pctStr  = !isNaN(p) ? ` (${sign}${p.toFixed(2)}%)` : '';
 
-    return { text: `${arrow} ${sign}${Math.abs(ch).toFixed(2)}${pctStr}`, cls };
+    return { text: `${arrow} ${cur}${absStr}${pctStr}`, cls };
   }
 
   // ── DOM ───────────────────────────────────────────────────────────────────
 
   function buildItem(stock) {
-    const price          = fmtPrice(stock.price, stock.type);
-    const { text, cls } = fmtChange(stock.change, stock.changePercent);
+    const price          = fmtPrice(stock.price, stock.type, stock.currency);
+    const { text, cls } = fmtChange(stock.change, stock.changePercent, stock.type, stock.currency);
 
     return `<div class="ticker-item" data-symbol="${stock.symbol}">
       <span class="ticker-dot"></span>
@@ -96,7 +102,7 @@ const StockTicker = (() => {
 
     requestAnimationFrame(() => {
       const halfWidth = trackEl.scrollWidth / 2;
-      const speed     = 90;            // px/s — tweak to taste
+      const speed     = 90;            // px/s
       const duration  = Math.max(15, halfWidth / speed);
       trackEl.style.animationDuration  = `${duration}s`;
       trackEl.style.animationPlayState = 'running';
@@ -133,8 +139,15 @@ const StockTicker = (() => {
 
   // ── Fetch ─────────────────────────────────────────────────────────────────
 
+  function buildApiUrl() {
+    // Worker returns data directly; Node proxy adds /api/market path
+    const base = apiBase;
+    const isWorker = base.includes('workers.dev') || base.includes('cloudflare');
+    return isWorker ? base : `${base}${API_PATH}`;
+  }
+
   async function fetchAndRender() {
-    const url = `${apiBase}${API_PATH}`;
+    const url = buildApiUrl();
     try {
       const res = await fetch(url, { cache: 'no-store' });
 
@@ -151,7 +164,6 @@ const StockTicker = (() => {
       console.warn('[StockTicker] Fetch failed:', err.message);
 
       if (lastData.length > 0) {
-        // Keep showing stale data, show a brief transient notice
         setStatus('Refreshing…');
         setTimeout(() => setStatus(null), 4000);
       } else {

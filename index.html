@@ -74,6 +74,8 @@
   <link rel="stylesheet" href="css/weatherWidget.css">
   <!-- Layout & Mobile Responsive -->
   <link rel="stylesheet" href="css/layout.css">
+  <!-- Algo Trading Status Widget -->
+  <link rel="stylesheet" href="css/algoStatus.css">
 
   <!-- Firebase SDK (compat) — auth only; analytics omitted to prevent API-key conflicts -->
   <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
@@ -176,7 +178,7 @@
 <!-- PRODUCTION: change data-api to your Vercel URL, e.g. https://tradeaura.vercel.app -->
 <div id="stockTicker" class="stock-ticker-bar" role="marquee" aria-label="Live NSE/BSE market data"
      style="position:fixed;top:36px;left:0;right:0;z-index:48;"
-     data-api="https://tradeaura.vercel.app">
+     data-api="https://market-ticker.tradeaura.workers.dev">
 
   <!-- LIVE label badge -->
   <div class="ticker-badge">
@@ -304,6 +306,10 @@
         </div>
 
         <a href="pages/about.html" class="px-4 py-2 rounded-lg text-sm font-medium text-gray-300 hover:text-white hover:bg-white/5 transition-all">About</a>
+        <!-- Algo Trading Dashboard link -->
+        <a href="pages/algo-dashboard.html" class="px-4 py-2 rounded-lg text-sm font-medium text-gray-300 hover:text-white hover:bg-white/5 transition-all flex items-center gap-1.5">
+          <i class="fas fa-chart-line text-xs text-brandBlue"></i> Trading
+        </a>
         <a href="news/index.html" class="px-4 py-2 rounded-lg text-sm font-medium text-gray-300 hover:text-white hover:bg-white/5 transition-all flex items-center gap-1.5">
           News <span class="w-1.5 h-1.5 rounded-full bg-green-400 animate-pulse"></span>
         </a>
@@ -2428,6 +2434,13 @@ function switchTab(btn, panelId) {
     #btnLogout      { padding: 0 8px  !important; font-size: 10px !important; }
   }
 </style>
+
+<!-- ════════════════════════════════════════════
+     ALGO TRADING STATUS WIDGET
+     Shown only when Python agent is running (auto-hides if offline)
+════════════════════════════════════════════ -->
+<div id="algoStatusWidget" style="display:none;" aria-label="Algo trading status"></div>
+<script src="js/algoStatus.js"></script>
 
 </body>
 </html>
