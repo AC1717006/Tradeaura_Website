@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "8a04c6e2c82e",
+      "originalUrl": "https://www.business-standard.com/economy/news/cabinet-clears-9-585-crore-scheme-for-cleaner-trucks-buses-in-ncr-126060301396_1.html",
+      "originalTitle": "Cabinet clears ₹9,585-crore scheme for cleaner trucks, buses in NCR",
+      "source": "Business Standard; Dhruvaksh Saha",
+      "imageUrl": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-05/24/thumb/fitandfill/1200X628/1779645133-4516.jpg",
+      "publishedDate": "2026-06-03 16:31:42 +0000",
+      "createdAt": "2026-06-03T16:55:48.727Z",
+      "title": "Cleaner Trucks",
+      "metaDescription": "Government scheme for cleaner trucks and buses",
+      "keywords": [
+        "cleaner trucks",
+        "government scheme",
+        "electric vehicles",
+        "transportation",
+        "sustainability"
+      ],
+      "summary": "The Indian government has cleared a scheme to promote cleaner trucks and buses, which is expected to have a positive impact on the environment and the transportation sector. This move is likely to benefit Indian business owners in the logistics and transportation industry. The scheme aims to reduce pollution in the NCR region.",
+      "content": "<h2>Introduction of Cleaner Trucks and Buses</h2><p>The Indian government has cleared a ₹9,585-crore scheme to promote the use of cleaner trucks and buses in the National Capital Region (NCR). This scheme is expected to have a significant impact on the environment and the transportation sector in India. The government's move is likely to benefit Indian business owners in the logistics and transportation industry, who will be able to upgrade their fleets to cleaner and more efficient vehicles.</p><h2>Benefits for Indian Businesses</h2><p>The scheme will provide financial incentives to transporters who switch to cleaner trucks and buses, which will help to reduce pollution in the NCR region. This will not only benefit the environment but also improve the overall quality of life for people living in the region. Indian businesses in the transportation sector will also benefit from the scheme, as they will be able to reduce their operating costs and improve their efficiency.</p><h2>Key Features of the Scheme</h2><p>The scheme will provide financial support to transporters who purchase cleaner trucks and buses, and will also provide incentives for the scrapping of old and polluting vehicles. The scheme will be implemented in phases, with the first phase focusing on the NCR region. The government expects that the scheme will lead to a significant reduction in pollution in the region, and will also help to improve the overall air quality.</p><ul><li>The scheme will provide ₹9,585 crore in funding for the promotion of cleaner trucks and buses.</li><li>The scheme will be implemented in phases, with the first phase focusing on the NCR region.</li><li>The scheme will provide financial incentives to transporters who switch to cleaner trucks and buses.</li><li>The scheme will also provide incentives for the scrapping of old and polluting vehicles.</li><li>The scheme is expected to lead to a significant reduction in pollution in the NCR region.</li></ul>",
+      "category": "Business Tools",
+      "tags": [
+        "india",
+        "business",
+        "transport",
+        "environment",
+        "government"
+      ],
+      "readTime": 3,
+      "slug": "cleaner-trucks",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "75963495a8d1",
+      "originalUrl": "https://www.technologyreview.com/2026/06/03/1138350/virtual-power-plants-data-centers/",
+      "originalTitle": "How virtual power plants could provide energy for data centers",
+      "source": "Casey Crownhart",
+      "imageUrl": "https://wp.technologyreview.com/wp-content/uploads/2026/06/GettyImages-1330540704.jpg?resize=1200,600",
+      "publishedDate": "2026-06-03 16:51:38 +0000",
+      "createdAt": "2026-06-03T16:55:53.705Z",
+      "title": "Virtual Power Plants",
+      "metaDescription": "Virtual power plants for data centers",
+      "keywords": [
+        "virtual power plants",
+        "data centers",
+        "energy management",
+        "grid flexibility",
+        "sustainable energy"
+      ],
+      "summary": "Indian businesses can learn from Google's deal with Voltus to utilize virtual power plants for efficient energy management, a concept that can be applied to the Indian market, promoting sustainable energy solutions. This partnership can inspire Indian companies to explore similar arrangements, considering the country's growing focus on renewable energy. By leveraging virtual power plants, Indian data centers can reduce their carbon footprint and optimize energy consumption.",
+      "content": "<h2>Introduction to Virtual Power Plants</h2><p>Virtual power plants are decentralized energy systems that combine multiple energy sources to provide a reliable and efficient supply of electricity. In the context of Indian businesses, virtual power plants can play a crucial role in reducing energy costs and promoting sustainable practices. A recent deal between Google and Voltus has highlighted the potential of virtual power plants in providing energy for data centers.</p><h2>Benefits of Virtual Power Plants</h2><p>The partnership between Google and Voltus demonstrates the benefits of virtual power plants in managing energy demand and reducing strain on the grid. By leveraging flexibility on the grid, virtual power plants can optimize energy distribution and provide a stable supply of electricity to data centers. This approach can be particularly useful in India, where energy demand is increasing rapidly.</p><h2>Applicability to Indian Market</h2><p>Indian businesses can draw inspiration from Google's deal with Voltus to explore similar arrangements for their data centers. By adopting virtual power plants, Indian companies can reduce their carbon footprint, optimize energy consumption, and promote sustainable energy solutions. As the Indian market continues to grow, the importance of efficient energy management will only increase, making virtual power plants an attractive option for businesses looking to reduce their environmental impact.</p>",
+      "category": "AI & Automation",
+      "tags": [
+        "energy",
+        "sustainability",
+        "data",
+        "business",
+        "tech"
+      ],
+      "readTime": 3,
+      "slug": "virtual-power-plants",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "3c17db02cdfa",
       "originalUrl": "https://cryptonews.com/news/taptools-shuts-down-cardano-analytics/",
       "originalTitle": "Cardano's Most Important Analytics Platform Is Shutting Down",
@@ -1123,7 +1189,7 @@
       "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-06-03T11:06:29.277Z",
-  "totalCount": 34,
+  "lastUpdated": "2026-06-03T16:55:53.705Z",
+  "totalCount": 36,
   "schema": "2.0"
 }
