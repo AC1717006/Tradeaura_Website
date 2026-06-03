@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "4db386685588",
+      "originalUrl": "https://www.thestar.com.my/tech/tech-news/2026/06/03/039climate-hoax039tech-companies-hiding-the-real-impact-of-ai-ngos-say",
+      "originalTitle": "'Climate hoax': Tech companies hiding the real impact of AI, NGOs say",
+      "source": "www.thestar.com.my",
+      "imageUrl": "https://apicms.thestar.com.my/uploads/images/2026/06/03/3940113.jpeg",
+      "publishedDate": "2026-06-03 04:00:00 +0000",
+      "createdAt": "2026-06-03T04:26:37.463Z",
+      "title": "AI Impact",
+      "metaDescription": "AI environmental impact",
+      "keywords": [
+        "artificial intelligence",
+        "environmental impact",
+        "sustainability",
+        "tech companies",
+        "climate change"
+      ],
+      "summary": "Indian businesses must consider the environmental effects of adopting AI solutions, as NGOs accuse major AI companies of downplaying their ecological footprint. This issue is crucial for India's growing tech industry, where sustainability is becoming a key concern. Indian companies must prioritize environmentally responsible AI practices to mitigate potential risks.",
+      "content": "<h2>Environmental Concerns in AI Adoption</h2><p>As India's tech industry continues to grow, the environmental impact of artificial intelligence (AI) has become a pressing concern. Environmental groups and non-governmental organisations (NGOs) are accusing major AI companies of glossing over the real impact of their services on the environment. This has led to accusations of a 'climate hoax', with NGOs claiming that these companies are not being transparent about the ecological footprint of their AI-powered services.</p><p>The issue is particularly relevant for Indian businesses, as the country's growing tech industry is increasingly adopting AI solutions. However, the environmental effects of these solutions must be carefully considered to avoid potential risks. Indian companies must prioritize sustainability and environmentally responsible AI practices to mitigate these risks and ensure long-term growth.</p><h2>Key Considerations for Indian Businesses</h2><p>Indian businesses must consider the following factors when adopting AI solutions: <ul><li>Energy consumption: AI systems require significant amounts of energy to operate, which can contribute to greenhouse gas emissions.</li><li>E-waste generation: The rapid obsolescence of AI hardware can lead to significant e-waste generation.</li><li>Resource usage: AI systems often require large amounts of data and computational resources, which can strain local infrastructure.</li><li>Supply chain impact: The production and disposal of AI-related hardware can have significant environmental impacts throughout the supply chain.</li><li>Transparency and accountability: Indian businesses must demand transparency and accountability from AI companies regarding their environmental impact.</li></ul></p>",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "sustainability",
+        "tech",
+        "india",
+        "environment"
+      ],
+      "readTime": 3,
+      "slug": "ai-impact",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "e1575e91d609",
+      "originalUrl": "https://news.mit.edu/2026/mit-researchers-teach-ai-models-to-interpret-charts-0603",
+      "originalTitle": "MIT researchers teach AI models to interpret charts",
+      "source": "Adam Zewe | MIT News",
+      "imageUrl": "https://news.mit.edu/sites/default/files/images/202606/MIT-ChartNet-01-press.jpg",
+      "publishedDate": "2026-06-03 04:00:00 +0000",
+      "createdAt": "2026-06-03T04:26:42.240Z",
+      "title": "AI Models Interpret Charts",
+      "metaDescription": "AI models learn chart interpretation",
+      "keywords": [
+        "AI models",
+        "chart interpretation",
+        "data extraction",
+        "generative AI",
+        "synthetic dataset"
+      ],
+      "summary": "MIT researchers have developed a novel approach to teach AI models to interpret charts, which can be useful for Indian businesses to analyze market trends and make data-driven decisions. This technology can be applied to various industries in India, improving the accuracy of data extraction and analysis. By leveraging this technology, Indian companies can gain a competitive edge in the market.",
+      "content": "<h2>Introduction to Chart Interpretation</h2><p>Researchers at MIT have made a significant breakthrough in teaching AI models to interpret charts, a crucial skill for businesses to make informed decisions. They used a novel data generation pipeline to build ChartNet, a large synthetic dataset of chart images paired with corresponding information. This training dataset was used to improve the performance of generative AI models at challenging tasks like data extraction and chart reconstruction.</p><h2>Applications in Indian Market</h2><p>The ability of AI models to interpret charts can have numerous applications in the Indian market. Indian businesses can use this technology to analyze market trends, track the performance of their competitors, and make data-driven decisions. This can be particularly useful for startups and enterprise decision-makers who need to stay ahead of the curve in a rapidly changing market.</p><h2>Benefits of Chart Interpretation</h2><p>The benefits of chart interpretation are numerous. It can help Indian businesses to <ul><li>identify trends and patterns in market data</li><li>make accurate predictions about future market trends</li><li>optimize their business strategies based on data-driven insights</li><li>improve their competitiveness in the market</li><li>increase their revenue and profitability</li></ul></p>",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "models",
+        "charts",
+        "data",
+        "analysis"
+      ],
+      "readTime": 3,
+      "slug": "ai-models-interpret-charts",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "a744d98d1372",
       "originalUrl": "https://www.forexfactory.com/news/1401574-kevin-warsh-names-two-conservatvie-policy-veterans-as",
       "originalTitle": "Kevin Warsh names two conservatvie policy veterans as interim advisers, Paul Winfree and Daniel Heil, to support policy analysis - WSJ",
@@ -991,7 +1057,7 @@
       "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-06-02T20:53:50.244Z",
-  "totalCount": 30,
+  "lastUpdated": "2026-06-03T04:26:42.240Z",
+  "totalCount": 32,
   "schema": "2.0"
 }
