@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "40a3dbca97f9",
+      "originalUrl": "https://www.channelnewsasia.com/business/meta-repeatedly-pushes-back-new-ai-model-release-developers-wsj-says-6161366",
+      "originalTitle": "Meta repeatedly pushes back new AI model release for developers, WSJ says",
+      "source": "CNA",
+      "imageUrl": "https://dam.mediacorp.sg/image/upload/s--rEhXIrH9--/c_fill,g_auto,h_676,w_1200/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/v1/one-cms/core/2026-06-04T035509Z_2_LYNXMPEM5304M_RTROPTP_3_META-PLATFORMS-MESSAGING-WHATSAPP.JPG?itok=z8yPv5GP",
+      "publishedDate": "2026-06-04 03:55:09 +0000",
+      "createdAt": "2026-06-04T04:21:27.633Z",
+      "title": "Meta AI Model Delay",
+      "metaDescription": "Meta delays AI model release",
+      "keywords": [
+        "Meta",
+        "AI Model",
+        "Developers",
+        "Technology",
+        "Innovation"
+      ],
+      "summary": "Meta has delayed the release of its new AI model, Muse Spark, to developers, with no scheduled launch date. This move may impact Indian businesses that rely on AI technology. The delay may also affect the Indian market's adoption of AI solutions.",
+      "content": "<h2>Meta Delays AI Model Release</h2><p>Meta has repeatedly pushed back plans to release its new Muse Spark AI model API to developers, and as of Tuesday, had no scheduled launch date, according to reports. A Meta spokesperson stated that the company is already testing the model with a small group of developers.</p><p>The delay in releasing the AI model may have implications for Indian businesses that are looking to leverage AI technology to drive innovation and growth. The Indian market is increasingly adopting AI solutions, and the delay may impact the pace of this adoption.</p><h2>Potential Impact on Indian Businesses</h2><p>Indian businesses that are planning to use Meta's AI model may need to revisit their strategies and timelines. The delay may also provide an opportunity for other players in the Indian market to develop and release their own AI models.</p><ul><li>Delayed release of AI model</li><li>Impact on Indian businesses</li><li>Opportunity for other players in the Indian market</li></ul>",
+      "category": "AI & Automation",
+      "tags": [
+        "meta",
+        "ai",
+        "tech",
+        "innovation",
+        "business"
+      ],
+      "readTime": 3,
+      "slug": "meta-ai-model-delay",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "a47bd4b4791a",
+      "originalUrl": "https://www.techinasia.com/cisco-reportedly-in-talks-to-buy-israeli-cybersecurity-firm-for-2b",
+      "originalTitle": "NetApp, Cisco roll out AI and ransomware response tools",
+      "source": "Minh Le",
+      "imageUrl": null,
+      "publishedDate": "2026-06-04 03:54:40 +0000",
+      "createdAt": "2026-06-04T04:21:32.633Z",
+      "title": "AI Tools",
+      "metaDescription": "AI and ransomware response tools",
+      "keywords": [
+        "AI",
+        "Ransomware",
+        "NetApp",
+        "Cisco",
+        "Infrastructure"
+      ],
+      "summary": "NetApp and Cisco have introduced new AI and ransomware response tools, enhancing the FlexPod converged infrastructure platform, which may interest Indian businesses looking to bolster their cybersecurity and infrastructure capabilities. The Indian market is seeing increased adoption of such technologies. Indian business owners can benefit from these advancements in AI and cybersecurity.",
+      "content": "<h2>Introduction to AI and Ransomware Response Tools</h2><p>NetApp and Cisco have rolled out new AI and ransomware response tools, aimed at enhancing the security and efficiency of their FlexPod converged infrastructure platform. This platform combines compute, storage, networking, and management, providing a comprehensive solution for businesses. The introduction of these tools is particularly relevant in the Indian context, where businesses are increasingly looking to adopt advanced technologies to stay competitive.</p><h2>Key Features and Benefits</h2><p>The new AI and ransomware response tools offer a range of features, including advanced threat detection, automated response, and predictive analytics. These features can help Indian businesses to better protect themselves against cyber threats and improve their overall cybersecurity posture. Additionally, the use of AI can help to streamline operations and improve efficiency, leading to cost savings and increased productivity.</p><h2>Implications for Indian Businesses</h2><p>The introduction of these new tools has significant implications for Indian businesses, particularly those in the startup and enterprise sectors. As the Indian market continues to evolve and grow, the need for advanced cybersecurity and infrastructure solutions will only increase. By adopting these new tools, Indian businesses can stay ahead of the curve and position themselves for success in an increasingly competitive market.</p>",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "tech",
+        "business",
+        "security",
+        "infrastructure"
+      ],
+      "readTime": 3,
+      "slug": "ai-tools",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "4061c9f98179",
       "originalUrl": "https://www.keloland.com/news/national-world-news/ap-spacexs-ipo-is-set-to-be-the-biggest-ever-and-could-make-elon-musk-a-trillionaire/",
       "originalTitle": "SpaceX's IPO is set to be the biggest ever and could make Elon Musk a trillionaire",
@@ -1255,7 +1321,7 @@
       "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-06-03T21:19:23.955Z",
-  "totalCount": 38,
+  "lastUpdated": "2026-06-04T04:21:32.634Z",
+  "totalCount": 40,
   "schema": "2.0"
 }
