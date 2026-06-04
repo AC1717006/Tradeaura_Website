@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "3a41250cfa66",
+      "originalUrl": "https://www.benzinga.com/markets/tech/26/06/53016072/broadcom-apollo-and-blackstone-are-quietly-building-an-ai-infrastructure-giant",
+      "originalTitle": "Broadcom, Apollo Build Massive AI Infrastructure Play - Apollo Global Management (NYSE:APO), Broadcom (NA",
+      "source": "Surbhi Jain",
+      "imageUrl": "https://cdn.benzinga.com/cdn-cgi/image/width=1200,height=800,fit=crop/files/images/story/2026/06/04/Broadcom-Sign-And-Logo-In-Green-Landscap_5.jpeg",
+      "publishedDate": "2026-06-04 20:00:03 +0000",
+      "createdAt": "2026-06-04T20:09:51.455Z",
+      "title": "AI Infrastructure",
+      "metaDescription": "AI infrastructure play",
+      "keywords": [
+        "AI",
+        "infrastructure",
+        "Broadcom",
+        "Apollo",
+        "compute"
+      ],
+      "summary": "Broadcom and Apollo are partnering to deploy AI compute capacity, which may impact Indian businesses. The Indian market is expected to benefit from this massive AI infrastructure play. Indian business owners should take note of this development.",
+      "content": "<h2>Introduction to AI Infrastructure</h2><p>Broadcom, Apollo, and Blackstone are partnering to deploy over 20 gigawatts of AI compute capacity through 2028. This massive AI infrastructure play is expected to have a significant impact on the global market, including India. As Indian businesses continue to grow and expand, they will require more advanced AI infrastructure to remain competitive.</p><h2>Benefits for Indian Businesses</h2><p>The deployment of AI compute capacity by Broadcom and Apollo is likely to benefit Indian businesses in several ways. It will provide them with access to advanced AI infrastructure, enabling them to improve their operations and decision-making. Additionally, it will create new opportunities for Indian businesses to innovate and expand into new areas.</p><h2>Key Takeaways</h2><ul><li>Broadcom and Apollo are partnering to deploy AI compute capacity</li><li>The deployment is expected to have a significant impact on the Indian market</li><li>Indian businesses will benefit from access to advanced AI infrastructure</li><li>The partnership will create new opportunities for innovation and expansion</li><li>Indian business owners should take note of this development and plan accordingly</ul>",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "tech",
+        "business",
+        "india",
+        "infrastructure"
+      ],
+      "readTime": 3,
+      "slug": "ai-infrastructure",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "48e0a18c8e5c",
+      "originalUrl": "https://thenewstack.io/google-gemma-local-ai/",
+      "originalTitle": "Google Gemma 4 12B nearly matches 26B benchmarks — and runs on your laptop",
+      "source": "Meredith Shubel",
+      "imageUrl": "https://cdn.thenewstack.io/media/2026/06/a51e3ff3-barsrsind-gtkgtdjwyxq-unsplash-scaled.jpg",
+      "publishedDate": "2026-06-04 19:30:19 +0000",
+      "createdAt": "2026-06-04T20:09:56.310Z",
+      "title": "Gemma 4 12B",
+      "metaDescription": "Google Gemma 4 12B AI model",
+      "keywords": [
+        "AI model",
+        "Gemma 4 12B",
+        "local AI",
+        "consumer-grade laptops",
+        "native audio support"
+      ],
+      "summary": "Google's Gemma 4 12B AI model brings high performance to standard laptops, making it accessible to Indian businesses and startups. This model can run locally on 16GB laptops, providing native audio support. Indian entrepreneurs can leverage this technology to enhance their operations.",
+      "content": "<h2>Introduction to Gemma 4 12B</h2><p>Google has introduced the Gemma 4 12B AI model, which can run locally on standard, consumer-grade laptops with 16GB memory. This model brings high performance to laptops, making it an attractive option for Indian businesses and startups.</p><h2>Key Features</h2><p>The Gemma 4 12B model has native audio support and can nearly match the benchmarks of larger models. This makes it an ideal choice for Indian companies looking to leverage AI technology without requiring significant infrastructure investments.</p><h2>Benefits for Indian Businesses</h2><p>With the Gemma 4 12B model, Indian entrepreneurs can enhance their operations and improve efficiency. The model's ability to run locally on laptops also reduces dependence on cloud infrastructure, making it a cost-effective solution.</p><ul><li>High performance on standard laptops</li><li>Native audio support</li><li>Cost-effective solution</li><li>Reduced dependence on cloud infrastructure</li><li>Accessible to Indian businesses and startups</li></ul>",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "laptops",
+        "business",
+        "startups",
+        "technology"
+      ],
+      "readTime": 3,
+      "slug": "gemma-4-12b",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "13a76ac6b5c7",
       "originalUrl": "https://seekingalpha.com/article/4912020-alphabet-inc-googl-discusses-ai-driven-growth-infrastructure-investment-and-strategic-focus",
       "originalTitle": "Alphabet Inc. (GOOGL) Discusses AI-Driven Growth, Infrastructure Investment, and Strategic Focus Areas - Slideshow (NASDAQ:GOOGL) 2026-06-04",
@@ -1453,7 +1519,7 @@
       "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-06-04T15:23:15.451Z",
-  "totalCount": 44,
+  "lastUpdated": "2026-06-04T20:09:56.310Z",
+  "totalCount": 46,
   "schema": "2.0"
 }
