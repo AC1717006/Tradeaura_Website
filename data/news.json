@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "09d1e0efe9ed",
+      "originalUrl": "https://seekingalpha.com/article/4912483-genius-group-limited-gns-discusses-ai-treasury-strategy-and-execution-of-phase-1-slideshow",
+      "originalTitle": "Genius Group Limited (GNS) Discusses AI Treasury Strategy and Execution of Phase 1 - Slideshow (NYSE:GNS) 2026-06-05",
+      "source": "SA Transcripts",
+      "imageUrl": "https://static.seekingalpha.com/assets/og_image_1200-29b2bfe1a595477db6826bd2126c63ac2091efb7ec76347a8e7f81ba17e3de6c.png",
+      "publishedDate": "2026-06-05 19:31:36 +0000",
+      "createdAt": "2026-06-05T19:59:26.693Z",
+      "title": "AI Treasury",
+      "metaDescription": "Genius Group AI treasury strategy",
+      "keywords": [
+        "AI",
+        "treasury",
+        "strategy",
+        "execution",
+        "Genius Group"
+      ],
+      "summary": "Genius Group Limited discusses its AI treasury strategy, focusing on Phase 1 execution, which can provide valuable insights for Indian businesses looking to leverage AI in their financial management. The Indian market can learn from Genius Group's approach to AI adoption. Indian companies can explore similar strategies to optimize their treasury operations.",
+      "content": "<h2>Introduction to AI Treasury</h2><p>Genius Group Limited has recently discussed its AI treasury strategy, highlighting the execution of Phase 1. This approach can serve as a model for Indian businesses seeking to enhance their financial management using artificial intelligence.</p><h2>Key Aspects of AI Treasury</h2><p>The strategy involves leveraging AI to optimize treasury operations, including cash management, risk management, and investment decisions. Indian companies can benefit from adopting similar strategies to streamline their financial processes and improve efficiency.</p><h2>Execution and Next Steps</h2><p>Genius Group's execution of Phase 1 is a crucial step in implementing its AI treasury strategy. Indian businesses can learn from this experience and apply it to their own operations, potentially leading to improved financial performance and competitiveness in the Indian market.</p><ul><li>AI adoption in treasury operations</li><li>Streamlining financial processes</li><li>Improving efficiency and competitiveness</li></ul>",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "finance",
+        "treasury",
+        "strategy",
+        "management"
+      ],
+      "readTime": 3,
+      "slug": "ai-treasury",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "a97d6bc16891",
+      "originalUrl": "https://vulners.com/ibm/6382C605A9A5D284BC4D74D1563308401925DEE9EFFF1C59B1C4187E870AEC40",
+      "originalTitle": "Security Bulletin: The following vulnerabilities that can affect IBM Storage Scale Management GUI, Cloudkit or HDFS layer are now fixed in 5.2.3.7 and 6.0.1.0 or higher",
+      "source": "vulners.com",
+      "imageUrl": null,
+      "publishedDate": "2026-06-05 19:36:46 +0000",
+      "createdAt": "2026-06-05T19:59:31.708Z",
+      "title": "IBM Storage Fix",
+      "metaDescription": "IBM storage vulnerabilities fixed",
+      "keywords": [
+        "IBM Storage",
+        "Security Vulnerabilities",
+        "Cloudkit",
+        "HDFS",
+        "Cybersecurity"
+      ],
+      "summary": "Indian businesses using IBM Storage Scale Management GUI, Cloudkit, or HDFS layer can now breathe a sigh of relief as the recent security vulnerabilities have been fixed in the latest updates. The fixes are available in versions 5.2.3.7 and 6.0.1.0 or higher, ensuring the security of data storage and management. This update is crucial for Indian companies to protect their sensitive data from potential cyber threats.",
+      "content": "<h2>Security Updates for IBM Storage</h2><p>Indian businesses using IBM Storage Scale Management GUI, Cloudkit, or HDFS layer can now update their systems to fix recent security vulnerabilities. The vulnerabilities, including CVE-2026-26996, CVE-2026-27903, CVE-2026-27904, CVE-2026-2739, CVE-2026-24051, and CVE-2025-33042, have been addressed in the latest updates. These updates are available in versions 5.2.3.7 and 6.0.1.0 or higher.</p><p>To ensure the security of their data storage and management, Indian companies should update their systems to the latest version. This is particularly important for companies that handle sensitive data and are required to comply with Indian regulatory requirements.</p><h2>Key Vulnerabilities Fixed</h2><ul><li>CVE-2026-26996: IBM Storage Scale Management GUI vulnerability</li><li>CVE-2026-27903: Cloudkit vulnerability used to provision Storage Scale in supported cloud providers</li><li>CVE-2026-27904: HDFS layer vulnerability for Hadoop deployments</li><li>CVE-2026-2739: IBM Storage Scale Management GUI vulnerability</li><li>CVE-2025-33042: HDFS layer vulnerability for Hadoop deployments</li></ul>",
+      "category": "SaaS & Software",
+      "tags": [
+        "security",
+        "storage",
+        "ibm",
+        "cloud",
+        "vulnerabilities"
+      ],
+      "readTime": 3,
+      "slug": "ibm-storage-fix",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "148113fd537a",
       "originalUrl": "https://www.forexfactory.com/news/1402214-trump-with-great-jobs-report-stocks-should-go",
       "originalTitle": "Trump: With great Jobs Report, stocks should go up, not down. That’s the way it was for 200 years. Growth does not mean inflation!",
@@ -1717,7 +1783,7 @@
       "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-06-05T14:57:55.228Z",
-  "totalCount": 52,
+  "lastUpdated": "2026-06-05T19:59:31.708Z",
+  "totalCount": 54,
   "schema": "2.0"
 }
