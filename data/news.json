@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "148113fd537a",
+      "originalUrl": "https://www.forexfactory.com/news/1402214-trump-with-great-jobs-report-stocks-should-go",
+      "originalTitle": "Trump: With great Jobs Report, stocks should go up, not down. That’s the way it was for 200 years. Growth does not mean inflation!",
+      "source": "www.forexfactory.com",
+      "imageUrl": "https://www.forexfactory.com/news/1402214-trump-with-great-jobs-report-stocks-should-go/image",
+      "publishedDate": "2026-06-05 14:34:08 +0000",
+      "createdAt": "2026-06-05T14:57:50.125Z",
+      "title": "Jobs Report Impact",
+      "metaDescription": "Stocks and jobs report",
+      "keywords": [
+        "stock market",
+        "jobs report",
+        "inflation",
+        "economic growth",
+        "business"
+      ],
+      "summary": "A strong jobs report can positively impact the stock market, contributing to economic growth without necessarily leading to inflation, a concept relevant to the Indian market as well. This relationship can influence business decisions and investment strategies in India. Understanding this dynamic is crucial for Indian business owners and investors.",
+      "content": "<h2>Understanding the Jobs Report</h2><p>The recent statement highlights the traditional expectation that a strong jobs report should lead to an increase in stock prices, as it indicates economic growth. This perspective suggests that growth does not inherently mean inflation, a concept that can apply to economies like India's, where managing inflation while promoting growth is a key challenge.</p><p>In the context of the Indian market, the relationship between jobs reports, stock market performance, and inflation is complex. The Reserve Bank of India (RBI) closely monitors these indicators to make informed monetary policy decisions. For Indian business owners and startup founders, understanding these dynamics is essential for making strategic decisions about investments and expansions.</p><h2>Implications for Indian Businesses</h2><p>The implications of a strong jobs report on the stock market can vary, but it generally signals a healthy economy. For businesses in India, this could mean increased consumer spending, higher demand for products and services, and a more favorable environment for investment and growth. However, managing inflationary pressures remains critical to sustaining long-term economic stability and business success.</p><ul><li>Strong jobs reports can lead to increased consumer confidence and spending.</li><li>A growing economy can attract more investments, both domestic and foreign.</li><li>Businesses must be prepared to manage potential inflationary pressures.</li><li>Monetary policy decisions by the RBI can significantly impact the business environment.</li><li>Understanding these economic indicators is key to making informed business decisions in India.</li></ul>",
+      "category": "Business Tools",
+      "tags": [
+        "market",
+        "economy",
+        "business",
+        "growth",
+        "invest"
+      ],
+      "readTime": 3,
+      "slug": "jobs-report-impact",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "31467a71da0f",
+      "originalUrl": "https://interestingengineering.com/innovation/laser-whisk-tougher-metal-alloys-reactors",
+      "originalTitle": "New laser mixing method helps 3D printers create tougher metal alloys",
+      "source": "Sujita Sinha",
+      "imageUrl": "https://cms.interestingengineering.com/wp-content/uploads/2026/06/IE-Photo-35.jpg",
+      "publishedDate": "2026-06-05 14:49:20 +0000",
+      "createdAt": "2026-06-05T14:57:55.228Z",
+      "title": "Laser Mixing",
+      "metaDescription": "laser mixing for metal alloys",
+      "keywords": [
+        "3D printing",
+        "metal alloys",
+        "laser technology",
+        "manufacturing",
+        "innovation"
+      ],
+      "summary": "A new laser stirring technique developed by NIST researchers can help 3D printers create tougher metal alloys, which can be beneficial for Indian manufacturers. This technology can improve the production of high-entropy metal alloys in India. Indian businesses can leverage this innovation to enhance their manufacturing capabilities.",
+      "content": "<h2>Introduction to Laser Mixing</h2><p>A new laser stirring technique developed by NIST researchers can help 3D printers create tougher metal alloys. This innovation can be beneficial for Indian manufacturers, as it can improve the production of high-entropy metal alloys in India. The technique involves using a laser to mix metal powders, creating a stronger and more durable alloy.</p><h2>Benefits for Indian Businesses</h2><p>Indian businesses can leverage this innovation to enhance their manufacturing capabilities. The use of laser mixing can lead to the production of high-quality metal alloys, which can be used in various industries such as aerospace, automotive, and construction. This can help Indian companies to compete globally and increase their market share.</p><h2>Future Prospects</h2><p>The development of this laser stirring technique is a significant step forward in the field of 3D printing and metal alloy production. As the technology continues to evolve, we can expect to see more advancements in the production of high-entropy metal alloys. This can lead to the creation of new products and applications, which can benefit various industries in India.</p><ul><li>Improved manufacturing capabilities</li><li>Increased production of high-quality metal alloys</li><li>Enhanced competitiveness in the global market</li><li>Creation of new products and applications</li><li>Increased adoption of 3D printing technology in India</ul>",
+      "category": "SaaS & Software",
+      "tags": [
+        "tech",
+        "india",
+        "business",
+        "innovation",
+        "manufacturing"
+      ],
+      "readTime": 3,
+      "slug": "laser-mixing",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "68f854d868d1",
       "originalUrl": "https://www.wsj.com/business/meet-the-spacex-employees-who-are-about-to-become-overnight-millionaires-1a1a1370",
       "originalTitle": "Meet the SpaceX Employees Who Are About to Become Overnight Millionaires",
@@ -1651,7 +1717,7 @@
       "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-06-05T09:57:51.649Z",
-  "totalCount": 50,
+  "lastUpdated": "2026-06-05T14:57:55.228Z",
+  "totalCount": 52,
   "schema": "2.0"
 }
