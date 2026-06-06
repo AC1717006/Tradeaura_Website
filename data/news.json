@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "8e3aa9d975ad",
+      "originalUrl": "https://www.business-standard.com/economy/news/domestic-lpg-price-raised-by-rs-29-per-cylinder-first-hike-in-months-126060600948_1.html",
+      "originalTitle": "Domestic LPG price hiked by ₹29 per cylinder, second rise in 3 months",
+      "source": "Business Standard; BS Web Team",
+      "imageUrl": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-03/26/thumb/fitandfill/1200X628/1774520518-6067.jpg",
+      "publishedDate": "2026-06-06 18:20:13 +0000",
+      "createdAt": "2026-06-06T19:28:13.322Z",
+      "title": "LPG Price Hike",
+      "metaDescription": "LPG price hike in India",
+      "keywords": [
+        "LPG price",
+        "India",
+        "inflation",
+        "energy costs",
+        "business expenses"
+      ],
+      "summary": "The recent LPG price hike in India is the second rise in three months, increasing the cost of a 14.2-kg cylinder by ₹29. This change may impact Indian business owners, particularly those in the food and hospitality sectors. The new price will be ₹942 per cylinder in Delhi, effective June 7.",
+      "content": "<h2>LPG Price Hike in India</h2><p>The price of a 14.2-kg LPG cylinder in Delhi will rise to ₹942 from ₹913 with effect from June 7. This is the second increase in LPG prices in three months, and it may have significant implications for Indian businesses, especially those in the food and hospitality sectors.</p><p>The hike in LPG prices can be attributed to various factors, including global market trends and inflation. As the Indian economy continues to grow, businesses must adapt to changing market conditions and find ways to mitigate the impact of rising energy costs.</p><h2>Impact on Indian Businesses</h2><p>Indian business owners, particularly those in the food and hospitality sectors, may need to reassess their budgets and pricing strategies in light of the LPG price hike. Some potential strategies for managing the impact of rising energy costs include:</p><ul><li>Renegotiating contracts with suppliers</li><li>Exploring alternative energy sources</li><li>Implementing energy-efficient practices</li><li>Adjusting pricing to reflect increased costs</li><li>Seeking support from government initiatives or incentives</li></ul>",
+      "category": "Business Tools",
+      "tags": [
+        "india",
+        "lpg",
+        "price",
+        "hike",
+        "business"
+      ],
+      "readTime": 3,
+      "slug": "lpg-price-hike",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "5049fbfd93cd",
+      "originalUrl": "https://businessday.ng/technology/article/waspan-rejects-fccpcs-foreign-entity-claim/",
+      "originalTitle": "WASPAN rejects FCCPC's foreign entity claim - Businessday NG",
+      "source": "Folake Balogun",
+      "imageUrl": "https://cdn.businessday.ng/2015/01/Global-Broadband.png",
+      "publishedDate": "2026-06-06 19:02:20 +0000",
+      "createdAt": "2026-06-06T19:28:18.669Z",
+      "title": "Regulatory Claims",
+      "metaDescription": "Regulatory claims in business",
+      "keywords": [
+        "regulation",
+        "compliance",
+        "business",
+        "entity",
+        "claims"
+      ],
+      "summary": "Indian business owners should be aware of regulatory claims and their impact on business operations. Regulatory bodies play a crucial role in shaping the Indian market. Compliance with regulatory requirements is essential for business success.",
+      "content": "<h2>Regulatory Environment</h2><p>In the Indian business context, regulatory bodies such as the Reserve Bank of India (RBI) and the Securities and Exchange Board of India (SEBI) play a vital role in shaping the market. Recently, a similar situation arose in Nigeria, where the Wireless Application Service Providers Association of Nigeria (WASPAN) rejected claims by the Federal Competition and Consumer Protection Commission (FCCPC) that it is a foreign entity. This incident highlights the importance of regulatory compliance and the need for businesses to be aware of their regulatory obligations.</p><h2>Compliance and Claims</h2><p>Indian businesses must ensure compliance with regulatory requirements to avoid any potential claims or penalties. This includes understanding the regulations and guidelines set by regulatory bodies and implementing them in their business operations. <ul><li>Understand regulatory requirements</li><li>Implement regulatory compliance</li><li>Avoid potential claims and penalties</li><li>Maintain transparency in business operations</li><li>Stay updated with regulatory changes</li></ul></p>",
+      "category": "Business Tools",
+      "tags": [
+        "claims",
+        "regulation",
+        "compliance",
+        "business",
+        "entity"
+      ],
+      "readTime": 3,
+      "slug": "regulatory-claims",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "1ab2672a89e5",
       "originalUrl": "https://www.hindustantimes.com/india-news/rbi-keeps-rates-steady-takes-steps-to-attract-foreign-capital-101780710182682.html",
       "originalTitle": "RBI keeps rates steady, takes steps to attract foreign capital",
@@ -1981,7 +2047,7 @@
       "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-06-06T13:51:07.307Z",
-  "totalCount": 60,
+  "lastUpdated": "2026-06-06T19:28:18.669Z",
+  "totalCount": 62,
   "schema": "2.0"
 }
