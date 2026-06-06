@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "1ab2672a89e5",
+      "originalUrl": "https://www.hindustantimes.com/india-news/rbi-keeps-rates-steady-takes-steps-to-attract-foreign-capital-101780710182682.html",
+      "originalTitle": "RBI keeps rates steady, takes steps to attract foreign capital",
+      "source": "Hindustan Times",
+      "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/06/06/1600x900/logo/PTI06-05-2026-000103A-0_1780710220988_1780710230510_995a6950-619a-47a6-868b-5276b8102f69.jpg",
+      "publishedDate": "2026-06-06 01:46:28",
+      "createdAt": "2026-06-06T13:51:02.559Z",
+      "title": "RBI Keeps Rates",
+      "metaDescription": "RBI keeps rates steady to attract foreign capital",
+      "keywords": [
+        "RBI",
+        "foreign capital",
+        "Indian economy",
+        "monetary policy",
+        "interest rates"
+      ],
+      "summary": "The Reserve Bank of India has kept interest rates steady while taking steps to attract foreign capital, aiming to balance growth and inflation in the Indian market. This move is expected to have a positive impact on the Indian economy. The decision is also influenced by the ongoing war in West Asia, which has disrupted the growth-inflation balance.",
+      "content": "<h2>RBI's Monetary Policy Decision</h2><p>The Reserve Bank of India (RBI) has decided to keep interest rates steady, citing the need to balance growth and inflation in the Indian economy. This decision is aimed at attracting foreign capital and promoting economic growth. The RBI has also taken steps to improve liquidity and reduce volatility in the financial markets.</p><h2>Impact on Indian Economy</h2><p>The RBI's decision is expected to have a positive impact on the Indian economy, as it will help to attract foreign investment and promote economic growth. The move is also expected to help reduce inflation and stabilize the currency. However, the ongoing war in West Asia poses a significant risk to the Indian economy, and the RBI will need to closely monitor the situation and take appropriate actions to mitigate its impact.</p><h2>Key Takeaways</h2><ul><li>The RBI has kept interest rates steady to balance growth and inflation.</li><li>The RBI has taken steps to attract foreign capital and promote economic growth.</li><li>The decision is expected to have a positive impact on the Indian economy.</li><li>The ongoing war in West Asia poses a significant risk to the Indian economy.</li><li>The RBI will need to closely monitor the situation and take appropriate actions to mitigate its impact.</li></ul>",
+      "category": "Business Tools",
+      "tags": [
+        "rbi",
+        "economy",
+        "finance",
+        "india",
+        "business"
+      ],
+      "readTime": 3,
+      "slug": "rbi-keeps-rates",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "0998edba1de4",
+      "originalUrl": "https://www.business-standard.com/technology/tech-news/spacex-lands-major-ai-deal-with-google-after-anthropic-win-ahead-of-ipo-126060600081_1.html",
+      "originalTitle": "SpaceX lands major AI deal with Google after Anthropic win ahead of IPO",
+      "source": "Business Standard",
+      "imageUrl": "https://bsmedia.business-standard.com/_media/bs/img/article/default/1260606/thumb-126060600081.jpg",
+      "publishedDate": "2026-06-06 01:47:25",
+      "createdAt": "2026-06-06T13:51:07.307Z",
+      "title": "AI Deal",
+      "metaDescription": "SpaceX AI deal",
+      "keywords": [
+        "SpaceX",
+        "AI",
+        "Google",
+        "IPO",
+        "Anthropic"
+      ],
+      "summary": "SpaceX has landed a major AI deal with Google, strengthening its AI capabilities ahead of its IPO. This partnership brings another high-profile customer to SpaceX, after its win with Anthropic. The deal is expected to boost SpaceX's valuation in the Indian market and beyond.",
+      "content": "<h2>SpaceX and Google Partnership</h2><p>SpaceX has secured a significant AI deal with Google, marking a major milestone for the company as it prepares for its initial public offering (IPO). This partnership is expected to strengthen SpaceX's AI narrative and boost its valuation, which is projected to reach $75 billion.</p><p>The deal comes on the heels of SpaceX's win with Anthropic, another high-profile customer. This string of successes is likely to reinforce SpaceX's position in the market and attract more investors as it moves forward with its IPO plans.</p><h2>Implications for Indian Businesses</h2><p>While the deal is primarily focused on the global market, it may have implications for Indian businesses, particularly those in the technology and AI sectors. As India continues to grow as a hub for tech innovation, partnerships like the one between SpaceX and Google may inspire similar collaborations in the Indian market.</p><ul><li>Increased investment in AI research and development</li><li>More partnerships between Indian startups and global tech giants</li><li>Growing demand for AI-based solutions in the Indian market</li></ul>",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "space",
+        "tech",
+        "google",
+        "ipo"
+      ],
+      "readTime": 3,
+      "slug": "ai-deal",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "44bde407ca64",
       "originalUrl": "https://www.forexfactory.com/news/1402272-us-inflation-likely-to-hit-a-three-year-high",
       "originalTitle": "US Inflation likely to hit a three-year high in May",
@@ -1915,7 +1981,7 @@
       "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-06-06T08:37:57.749Z",
-  "totalCount": 58,
+  "lastUpdated": "2026-06-06T13:51:07.307Z",
+  "totalCount": 60,
   "schema": "2.0"
 }
