@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "64069262b9a2",
+      "originalUrl": "https://www.investing.com/news/stock-market-news/earnings-season-takeaways-resilient-but-for-how-long-4729544",
+      "originalTitle": "Earnings season takeaways: resilient, but for how long? By Investing.com",
+      "source": "Simon Mugo",
+      "imageUrl": "https://i-invdn-com.investing.com/news/LYNXMPEA610DS_L.jpg",
+      "publishedDate": "2026-06-06 02:49:52 +0000",
+      "createdAt": "2026-06-06T03:49:22.371Z",
+      "title": "Earnings Season",
+      "metaDescription": "Earnings season takeaways and resilience",
+      "keywords": [
+        "earnings season",
+        "business resilience",
+        "market trends",
+        "financial performance",
+        "investment strategy"
+      ],
+      "summary": "The recent earnings season has shown resilience in the face of economic uncertainty, but Indian business owners are cautious about the long-term outlook. With the Indian market experiencing its own set of challenges, companies are looking to adapt and innovate to stay ahead. The key takeaways from the earnings season will be crucial for business owners to navigate the complex financial landscape.",
+      "content": "<h2>Earnings Season Overview</h2><p>The earnings season has been a mixed bag, with some companies performing well despite the economic uncertainty. However, the overall sentiment is cautious, with many investors and business owners wondering how long this resilience will last. In the Indian context, the RBI's monetary policies and SEBI's regulatory framework will play a significant role in shaping the financial performance of companies.</p><h2>Key Takeaways</h2><p>The earnings season has highlighted the importance of adaptability and innovation in the face of uncertainty. Indian business owners must be prepared to navigate the complex financial landscape and make informed investment decisions. The following are some key takeaways from the earnings season: <ul><li>Revenue growth has been steady, but profit margins are under pressure</li><li>Companies with strong digital presence have performed better</li><li>Investors are looking for companies with robust balance sheets and cash flows</li><li>The Indian market is expected to remain volatile in the short term</li><li>Business owners must focus on long-term sustainability and growth</li></ul></p>",
+      "category": "Business Tools",
+      "tags": [
+        "finance",
+        "markets",
+        "business",
+        "economy",
+        "investing"
+      ],
+      "readTime": 3,
+      "slug": "earnings-season",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "3ef820dce770",
+      "originalUrl": "https://www.gsmarena.com/heres_when_the_infinix_smart_20_is_landing_in_india-news-73159.php",
+      "originalTitle": "Here's when the Infinix Smart 20 is landing in India",
+      "source": "Vlad",
+      "imageUrl": "https://fdn.gsmarena.com/imgroot/news/26/06/infinix-smart-20-india-launch/-952x498w6/gsmarena_000.jpg",
+      "publishedDate": "2026-06-06 02:34:02 +0000",
+      "createdAt": "2026-06-06T03:49:27.203Z",
+      "title": "Infinix Smart 20",
+      "metaDescription": "Infinix Smart 20 India launch",
+      "keywords": [
+        "Infinix Smart 20",
+        "India launch",
+        "smartphone market",
+        "Indian consumers",
+        "mobile devices"
+      ],
+      "summary": "The Infinix Smart 20 is set to launch in India, marking a significant entry into the Indian smartphone market. This launch is expected to cater to the growing demand for affordable and feature-rich mobile devices among Indian consumers. The Infinix Smart 20 was initially released in other markets in March, and its India launch is highly anticipated.",
+      "content": "<h2>Infinix Smart 20 India Launch</h2><p>The Infinix Smart 20 is finally making its way to India, after being initially released in some other markets in March. This smartphone is expected to make a significant impact in the Indian market, given its features and pricing. The Indian smartphone market is highly competitive, with several players vying for market share.</p><p>The launch of the Infinix Smart 20 in India is expected to cater to the growing demand for affordable and feature-rich mobile devices among Indian consumers. With the RBI and SEBI implementing policies to boost digital payments and financial inclusion, the demand for smartphones is expected to increase further.</p><p>Key features of the Infinix Smart 20 include:</p><ul><li>Advanced camera system</li><li>Powerful processor</li><li>Long-lasting battery</li><li>Stylish design</li><li>Affordable pricing</li></ul><p>The Infinix Smart 20 is expected to give tough competition to other smartphones in the Indian market, and its launch is highly anticipated by Indian consumers and business owners alike.</p>",
+      "category": "Digital Transformation",
+      "tags": [
+        "india",
+        "launch",
+        "smartphone",
+        "infinix",
+        "devices"
+      ],
+      "readTime": 3,
+      "slug": "infinix-smart-20",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "09d1e0efe9ed",
       "originalUrl": "https://seekingalpha.com/article/4912483-genius-group-limited-gns-discusses-ai-treasury-strategy-and-execution-of-phase-1-slideshow",
       "originalTitle": "Genius Group Limited (GNS) Discusses AI Treasury Strategy and Execution of Phase 1 - Slideshow (NYSE:GNS) 2026-06-05",
@@ -1783,7 +1849,7 @@
       "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-06-05T19:59:31.708Z",
-  "totalCount": 54,
+  "lastUpdated": "2026-06-06T03:49:27.203Z",
+  "totalCount": 56,
   "schema": "2.0"
 }
