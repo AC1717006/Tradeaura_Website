@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "0e1e33659484",
+      "originalUrl": "https://assets.zerohedge.com/markets/emerging-market-crisis-oil-poor-asia",
+      "originalTitle": "An Emerging Market Crisis In Oil-Poor Asia?",
+      "source": "Tyler Durden",
+      "imageUrl": null,
+      "publishedDate": "2026-06-07 03:20:00 +0000",
+      "createdAt": "2026-06-07T04:14:50.638Z",
+      "title": "Oil Crisis",
+      "metaDescription": "Oil crisis in Asia",
+      "keywords": [
+        "oil crisis",
+        "Asian market",
+        "energy shortage",
+        "economic impact",
+        "India"
+      ],
+      "summary": "The emerging oil crisis in oil-poor Asia may have significant implications for Indian businesses, particularly those reliant on energy imports. As the situation unfolds, Indian companies must be prepared to adapt to potential disruptions in the supply chain. The crisis may also present opportunities for Indian businesses to diversify their energy sources and invest in renewable energy.",
+      "content": "<h2>Introduction</h2><p>The oil crisis in oil-poor Asia is a growing concern for businesses and economies in the region. With many countries in South and East Asia heavily reliant on oil imports, the crisis has the potential to cause significant disruptions to supply chains and economic activity.</p><h2>Impact on Indian Businesses</h2><p>For Indian businesses, the oil crisis may have significant implications, particularly those in industries such as manufacturing and transportation. As the cost of energy increases, companies may need to adjust their pricing and operational strategies to remain competitive. Additionally, the crisis may also present opportunities for Indian businesses to diversify their energy sources and invest in renewable energy.</p><h2>Key Considerations</h2><p>Indian businesses should consider the following key factors when navigating the oil crisis: <ul><li>Energy costs and pricing strategies</li><li>Supply chain disruptions and management</li><li>Investment opportunities in renewable energy</li><li>Risk management and mitigation strategies</li><li>Government policies and regulations</li></ul></p>",
+      "category": "Business Tools",
+      "tags": [
+        "asia",
+        "crisis",
+        "energy",
+        "market",
+        "oil"
+      ],
+      "readTime": 3,
+      "slug": "oil-crisis",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "12e7c18362b6",
+      "originalUrl": "https://www.thestar.com.my/tech/tech-news/2026/06/07/how-1-tech-company-created-13-new-types-of-jobs-because-of-ai",
+      "originalTitle": "How 1 tech company created 13 new types of jobs because of AI",
+      "source": "Kalley Huang",
+      "imageUrl": "https://apicms.thestar.com.my/uploads/images/2026/06/06/3946158.jpg",
+      "publishedDate": "2026-06-07 04:00:00 +0000",
+      "createdAt": "2026-06-07T04:14:55.321Z",
+      "title": "AI Jobs Boom",
+      "metaDescription": "AI creates new jobs",
+      "keywords": [
+        "AI",
+        "job creation",
+        "automation",
+        "technology",
+        "innovation"
+      ],
+      "summary": "The integration of Artificial Intelligence is leading to the creation of new job roles in the Indian market, with companies hiring AI architects and AI solutions managers. This trend is expected to continue as more businesses adopt AI technologies. Indian companies can learn from global examples to stay ahead in the curve.",
+      "content": "<h2>Introduction to AI-Driven Job Creation</h2><p>The adoption of Artificial Intelligence (AI) is transforming the job market in India, with the creation of new roles and positions. A recent example from a Silicon Valley software maker, Box, highlights how AI can lead to an increase in employment opportunities. The company expects to hire more employees, including AI architects, AI solutions managers, and other AI-related positions.</p><h2>New Job Roles</h2><p>Some of the new job roles created due to AI include:</p><ul><li>AI architects</li><li>AI solutions managers</li><li>AI data analysts</li><li>AI ethicists</li><li>AI trainers</li></ul><p>These roles are a testament to the fact that AI is not replacing human workers, but rather creating new opportunities for them. As the Indian market continues to grow and adopt AI technologies, we can expect to see a similar trend in job creation.</p>",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "jobs",
+        "tech",
+        "india",
+        "business"
+      ],
+      "readTime": 3,
+      "slug": "ai-jobs-boom",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "8e3aa9d975ad",
       "originalUrl": "https://www.business-standard.com/economy/news/domestic-lpg-price-raised-by-rs-29-per-cylinder-first-hike-in-months-126060600948_1.html",
       "originalTitle": "Domestic LPG price hiked by ₹29 per cylinder, second rise in 3 months",
@@ -2047,7 +2113,7 @@
       "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-06-06T19:28:18.669Z",
-  "totalCount": 62,
+  "lastUpdated": "2026-06-07T04:14:55.322Z",
+  "totalCount": 64,
   "schema": "2.0"
 }
