@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "4577c9f62ba0",
+      "originalUrl": "https://www.businessinsider.com/us-ai-data-center-power-electricity-use-consumption-2026-6",
+      "originalTitle": "The AI boom is gobbling up power faster than ever",
+      "source": "Hannah Beckler",
+      "imageUrl": "https://i.insider.com/6a21e1112e5a80cfe05039b9?width=1200&format=jpeg",
+      "publishedDate": "2026-06-07 09:00:01 +0000",
+      "createdAt": "2026-06-07T09:18:40.141Z",
+      "title": "AI Power Surge",
+      "metaDescription": "AI data centers' electricity use",
+      "keywords": [
+        "AI",
+        "data centers",
+        "electricity consumption",
+        "sustainability",
+        "technology"
+      ],
+      "summary": "The rapid growth of AI is driving up electricity consumption in data centers, which could have significant implications for Indian businesses and the environment. As India continues to invest in digital infrastructure, it is essential to consider the energy efficiency of data centers. Indian companies must prioritize sustainability to mitigate the environmental impact of AI adoption.",
+      "content": "<h2>Introduction to AI Power Consumption</h2><p>The increasing demand for artificial intelligence (AI) is leading to a significant surge in power consumption by data centers. According to recent reports, if all data centers permitted through 2025 come online, they will use more electricity than any US state, except Texas. This trend is likely to have a ripple effect on the Indian market, where businesses are rapidly adopting AI technologies.</p><h2>Implications for Indian Businesses</h2><p>As Indian companies continue to invest in AI, they must consider the environmental implications of their actions. The Indian government, along with regulatory bodies like the RBI and SEBI, can play a crucial role in promoting sustainable practices in the tech industry. By prioritizing energy efficiency and adopting renewable energy sources, Indian businesses can reduce their carbon footprint and contribute to a more sustainable future.</p><h2>Key Considerations</h2><p>Some key considerations for Indian businesses include:<ul><li>Investing in energy-efficient data center infrastructure</li><li>Exploring renewable energy sources, such as solar and wind power</li><li>Implementing sustainable practices in AI development and deployment</li><li>Collaborating with regulatory bodies to promote sustainability in the tech industry</li><li>Developing strategies to mitigate the environmental impact of AI adoption</li></ul></p>",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "sustainability",
+        "technology",
+        "business",
+        "india"
+      ],
+      "readTime": 3,
+      "slug": "ai-power-surge",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "6eb988408947",
+      "originalUrl": "https://aitoolsclub.com/10-best-ai-tools-to-run-a-business-solo-in-2026-create-automate/",
+      "originalTitle": "10 Best AI Tools to Run a Business Solo in 2026 (Create & Automate)",
+      "source": "Asma",
+      "imageUrl": null,
+      "publishedDate": "2026-06-07 08:03:46 +0000",
+      "createdAt": "2026-06-07T09:18:44.911Z",
+      "title": "AI Tools",
+      "metaDescription": "Best AI tools for solo business",
+      "keywords": [
+        "AI Tools",
+        "Business Automation",
+        "Solo Entrepreneurs",
+        "Artificial Intelligence",
+        "Business Productivity"
+      ],
+      "summary": "Indian business owners can leverage AI tools to streamline operations and increase efficiency, allowing solo entrepreneurs to compete in the Indian market. With the right tools, businesses can automate tasks and focus on growth. The Indian market is ripe for AI adoption, with the RBI and SEBI encouraging digital transformation.",
+      "content": "<h2>Introduction to AI Tools</h2><p>Running a business with a small team or by yourself in India no longer means doing less. The right AI tools can let one person research like an entire team, create content, and automate tasks. In this article, we will explore the best AI tools to help solo entrepreneurs in India succeed.</p><h2>Top AI Tools for Solo Business</h2><p>Some of the top AI tools for solo business include those that help with research, content creation, and automation. These tools can help Indian business owners save time and increase productivity, allowing them to focus on growth and expansion.</p><h2>Benefits of AI Tools</h2><p>The benefits of using AI tools for solo business in India are numerous. They can help with tasks such as data analysis, customer service, and marketing, allowing business owners to focus on high-level strategy and decision-making. Additionally, AI tools can help solo entrepreneurs in India compete with larger businesses, by providing them with the same level of technology and automation.</p><ul><li>Increased productivity</li><li>Improved efficiency</li><li>Enhanced customer service</li><li>Better decision-making</li><li>Increased competitiveness</li></ul>",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "tools",
+        "business",
+        "automation",
+        "productivity"
+      ],
+      "readTime": 3,
+      "slug": "ai-tools-2",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "0e1e33659484",
       "originalUrl": "https://assets.zerohedge.com/markets/emerging-market-crisis-oil-poor-asia",
       "originalTitle": "An Emerging Market Crisis In Oil-Poor Asia?",
@@ -2113,7 +2179,7 @@
       "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-06-07T04:14:55.322Z",
-  "totalCount": 64,
+  "lastUpdated": "2026-06-07T09:18:44.911Z",
+  "totalCount": 66,
   "schema": "2.0"
 }
