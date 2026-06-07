@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "e1d4ab005629",
+      "originalUrl": "https://www.business-standard.com/companies/news/rajesh-exports-may-get-dropped-from-pli-scheme-final-decision-in-days-126060700488_1.html",
+      "originalTitle": "Rajesh Exports may get dropped from PLI scheme, final decision in days",
+      "source": "Business Standard; Press Trust",
+      "imageUrl": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-06/04/thumb/fitandfill/1200X628/1780565730-5852.jpg",
+      "publishedDate": "2026-06-07 13:23:13 +0000",
+      "createdAt": "2026-06-07T14:00:58.022Z",
+      "title": "PLI Scheme Update",
+      "metaDescription": "Rajesh Exports PLI scheme removal",
+      "keywords": [
+        "PLI scheme",
+        "Rajesh Exports",
+        "SEBI order",
+        "Indian market",
+        "financial irregularities"
+      ],
+      "summary": "Rajesh Exports may be removed from the PLI scheme due to alleged financial irregularities, the Heavy Industries Ministry is set to make a final decision in the coming days, affecting the Indian business landscape. The decision comes after SEBI's interim order. This development may have implications for Indian businesses and the overall market.",
+      "content": "<h2>Rajesh Exports Removal from PLI Scheme</h2><p>The Heavy Industries Ministry may remove Rajesh Exports from the ACC battery PLI scheme after SEBI's interim order alleging large-scale financial irregularities. This decision is expected to be made in the coming days, and it may have significant implications for the Indian market. The PLI scheme is designed to promote domestic manufacturing and investment in key sectors.</p><p>The removal of Rajesh Exports from the PLI scheme could have far-reaching consequences, including potential losses for investors and a negative impact on the company's reputation. The Indian business community will be closely watching the developments in this case, as it may set a precedent for future enforcement actions.</p><h2>Implications for Indian Businesses</h2><p>The case highlights the importance of compliance with regulatory requirements and the need for transparency in financial dealings. Indian businesses must ensure that they are adhering to all relevant laws and regulations to avoid similar situations. The Ministry's decision will be closely watched, and it may lead to increased scrutiny of other companies participating in the PLI scheme.</p><ul><li>Companies participating in the PLI scheme must ensure compliance with all regulatory requirements.</li><li>Transparency in financial dealings is crucial to avoid allegations of irregularities.</li><li>The Ministry's decision may have implications for the overall Indian market.</li><li>Investors must be cautious when investing in companies participating in the PLI scheme.</li><li>Regulatory enforcement actions can have significant consequences for businesses.</li></ul>",
+      "category": "Business Tools",
+      "tags": [
+        "pli",
+        "scheme",
+        "india",
+        "business",
+        "regulation"
+      ],
+      "readTime": 3,
+      "slug": "pli-scheme-update",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "93bc68b78e58",
+      "originalUrl": "https://phys.org/news/2026-06-terahertz-biophotonics-path-applications-biological.html",
+      "originalTitle": "Terahertz biophotonics: Understanding the path towards practical applications for biological imaging",
+      "source": "phys.org",
+      "imageUrl": null,
+      "publishedDate": "2026-06-07 13:40:01 +0000",
+      "createdAt": "2026-06-07T14:01:02.787Z",
+      "title": "Biophotonics Tech",
+      "metaDescription": "biophotonics tech",
+      "keywords": [
+        "biophotonics",
+        "terahertz",
+        "biological imaging",
+        "light-based technologies",
+        "biological systems"
+      ],
+      "summary": "Indian businesses can leverage biophotonics technology for innovative applications, particularly in the field of biological imaging. This technology has the potential to transform various industries, including healthcare and research. As the Indian market continues to grow, companies can explore biophotonics for cutting-edge solutions.",
+      "content": "<h2>Introduction to Biophotonics</h2><p>Biophotonics is a multidisciplinary field that involves the development and application of light-based technologies to study, monitor, and treat biological systems. The ability to directly image cells and molecules has led to many fundamental discoveries in the past century.</p><h2>Terahertz Biophotonics</h2><p>More recently, the terahertz frequency range has gained attention for its potential in biological imaging. This range offers several advantages, including high resolution and non-invasive imaging. Indian companies can explore the applications of terahertz biophotonics in various fields, including healthcare and pharmaceuticals.</p><h2>Practical Applications</h2><p>The practical applications of biophotonics are vast, with potential uses in disease diagnosis, treatment, and research. Indian businesses can leverage this technology to develop innovative solutions for the Indian market. Some potential applications include:</p><ul><li>Biological imaging for disease diagnosis</li><li>Non-invasive treatment options</li><li>Pharmaceutical research and development</li><li>Personalized medicine</li><li>Regenerative medicine</li></ul>",
+      "category": "AI & Automation",
+      "tags": [
+        "tech",
+        "health",
+        "research",
+        "innovation",
+        "biotech"
+      ],
+      "readTime": 3,
+      "slug": "biophotonics-tech",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "4577c9f62ba0",
       "originalUrl": "https://www.businessinsider.com/us-ai-data-center-power-electricity-use-consumption-2026-6",
       "originalTitle": "The AI boom is gobbling up power faster than ever",
@@ -2179,7 +2245,7 @@
       "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-06-07T09:18:44.911Z",
-  "totalCount": 66,
+  "lastUpdated": "2026-06-07T14:01:02.787Z",
+  "totalCount": 68,
   "schema": "2.0"
 }
