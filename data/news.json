@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "2409632133c8",
+      "originalUrl": "https://news.alphastreet.com/gamehaus-holdings-releases-q3-2026-financial-results/",
+      "originalTitle": "Gamehaus Holdings Releases Q3 2026 Financial Results",
+      "source": "AlphaStreet Newsdesk",
+      "imageUrl": "https://cdn.news.alphastreet.com/wp-content/uploads/2026/06/08054537/GMHS-breaking_news_flash-chart-1024x538.png",
+      "publishedDate": "2026-06-08 10:48:32 +0000",
+      "createdAt": "2026-06-08T11:03:00.469Z",
+      "title": "Gamehaus Q3 Results",
+      "metaDescription": "Gamehaus Holdings Q3 financial results",
+      "keywords": [
+        "Gamehaus Holdings",
+        "Q3 financial results",
+        "Indian market trends",
+        "financial performance",
+        "business growth"
+      ],
+      "summary": "Gamehaus Holdings has released its Q3 2026 financial results, providing insights into its financial performance and business growth. This development can impact Indian business owners and startup founders who are looking to invest or partner with the company. The results can also influence Indian market trends and the overall financial landscape.",
+      "content": "<h2>Gamehaus Holdings Q3 Financial Results Overview</h2><p>Gamehaus Holdings Inc. has released its Q3 2026 financial results, showcasing its financial performance and business growth. The company's financial results can have implications for the Indian market, particularly for business owners and startup founders who are interested in investing or partnering with the company.</p><h2>Key Highlights</h2><p>The financial results highlight the company's revenue, expenses, and profitability. The results can be used to gauge the company's financial health and make informed decisions about investments or partnerships. For Indian business owners and startup founders, it is essential to stay updated on the financial performance of companies like Gamehaus Holdings to make informed decisions.</p><h2>Indian Market Implications</h2><p>The Q3 financial results of Gamehaus Holdings can have implications for the Indian market, particularly in terms of investment and partnership opportunities. Indian business owners and startup founders can use the financial results to assess the company's potential for growth and make informed decisions about investments or partnerships. Additionally, the results can influence the overall financial landscape of the Indian market, making it essential for business owners and startup founders to stay updated on the latest developments.</p>",
+      "category": "Business Tools",
+      "tags": [
+        "finance",
+        "market",
+        "business",
+        "growth",
+        "invest"
+      ],
+      "readTime": 3,
+      "slug": "gamehaus-q3-results",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "92fdd717ad3d",
+      "originalUrl": "https://www.nature.com/articles/d41586-026-01818-9",
+      "originalTitle": "AI is taking on antibiotic resistance — here’s how",
+      "source": "Madhusoodanan; Jyoti",
+      "imageUrl": "https://media.nature.com/lw1200/magazine-assets/d41586-026-01818-9/d41586-026-01818-9_52511302.jpg",
+      "publishedDate": "2026-06-08 10:55:08 +0000",
+      "createdAt": "2026-06-08T11:03:05.378Z",
+      "title": "AI Fights Resistance",
+      "metaDescription": "AI in antibiotic research",
+      "keywords": [
+        "AI",
+        "antibiotic resistance",
+        "artificial intelligence",
+        "healthcare",
+        "innovation"
+      ],
+      "summary": "Indian healthcare sector can benefit from AI-powered antibiotic research, speeding up discovery of new antibiotics and addressing growing concerns. This technology can help India combat antibiotic resistance. AI tools can aid in streamlining the process.",
+      "content": "<h2>Introduction to AI in Antibiotic Research</h2><p>Artificial intelligence is being increasingly used to speed up the process of discovering new antibiotics, which can have a significant impact on the Indian healthcare sector. The use of AI tools can help streamline the process of identifying potential antibiotics, reducing the time and cost associated with traditional methods.</p><h2>Benefits of AI in Antibiotic Research</h2><p>The use of AI in antibiotic research can have numerous benefits, including the ability to analyze large amounts of data quickly and accurately. This can help identify patterns and connections that may not be immediately apparent to human researchers. Additionally, AI can help identify potential antibiotics that may have been overlooked by traditional methods.</p><h2>Applications in India</h2><p>In the Indian context, the use of AI in antibiotic research can be particularly beneficial. India has a large and growing population, and the country is facing significant challenges in terms of antibiotic resistance. The use of AI can help Indian researchers to identify new antibiotics and develop more effective treatments for diseases.</p><ul><li>Improved accuracy and speed in antibiotic discovery</li><li>Reduced costs associated with traditional research methods</li><li>Increased potential for identifying new antibiotics</li><li>Enhanced ability to analyze large amounts of data</li><li>Improved collaboration between researchers and healthcare professionals</li></ul>",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "health",
+        "tech",
+        "india",
+        "research"
+      ],
+      "readTime": 3,
+      "slug": "ai-fights-resistance",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "b1aa95bb0ac3",
       "originalUrl": "https://www.businesstimes.com.sg/companies-markets/telcos-media-tech/sell-tech-stocks-buying-opportunity-nvidia-ceo-says",
       "originalTitle": "Sell-off in tech stocks is a buying opportunity, Nvidia CEO says",
@@ -2377,7 +2443,7 @@
       "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-06-08T04:19:31.919Z",
-  "totalCount": 72,
+  "lastUpdated": "2026-06-08T11:03:05.378Z",
+  "totalCount": 74,
   "schema": "2.0"
 }
