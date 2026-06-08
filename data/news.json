@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "af573d13f311",
+      "originalUrl": "https://seekingalpha.com/news/4601468-beyond-big-tech-ai-adoption-spreads-across-nearly-every-sector?feed_item_type=news",
+      "originalTitle": "Beyond big tech: AI adoption spreads across nearly every sector",
+      "source": "seekingalpha.com",
+      "imageUrl": null,
+      "publishedDate": "2026-06-08 15:40:37 +0000",
+      "createdAt": "2026-06-08T15:58:28.057Z",
+      "title": "AI Adoption",
+      "metaDescription": "AI adoption in India",
+      "keywords": [
+        "AI adoption",
+        "Indian market",
+        "business automation",
+        "digital transformation",
+        "artificial intelligence"
+      ],
+      "summary": "AI adoption is spreading across various sectors in India, enabling businesses to automate processes and improve efficiency. Indian companies are leveraging AI to gain a competitive edge in the market. This trend is expected to continue, driven by the growing demand for digital transformation.",
+      "content": "<h2>AI Adoption in India</h2><p>Artificial intelligence (AI) is no longer limited to the big tech companies in India. Its adoption is spreading across nearly every sector, including healthcare, finance, and manufacturing. This shift is driven by the increasing availability of AI technologies and the growing need for businesses to automate processes and improve efficiency.</p><p>In India, companies are leveraging AI to gain a competitive edge in the market. For instance, AI-powered chatbots are being used to enhance customer service, while machine learning algorithms are being used to analyze large datasets and gain valuable insights. The Reserve Bank of India (RBI) and the Securities and Exchange Board of India (SEBI) are also exploring the use of AI to improve regulatory compliance and risk management.</p><h2>Benefits of AI Adoption</h2><p>The benefits of AI adoption are numerous. Some of the key advantages include:</p><ul><li>Improved efficiency and productivity</li><li>Enhanced customer experience</li><li>Better decision-making</li><li>Increased competitiveness</li><li>Cost savings</li></ul><p>As AI adoption continues to spread across various sectors in India, it is expected to have a significant impact on the economy. The Indian government is also taking steps to promote AI adoption, including investing in AI research and development and providing incentives for companies to adopt AI technologies.</p>",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "india",
+        "business",
+        "tech",
+        "automation"
+      ],
+      "readTime": 3,
+      "slug": "ai-adoption",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "ea298430fcd4",
+      "originalUrl": "https://in.mashable.com/tech/110651/oneplus-ultra-cheap-smartphone-series-budget-phone-lineup-2026-strategy-shift",
+      "originalTitle": "OnePlus Plans Ultra Cheap Smartphone Series To Challenge Budget Android Market In 2026",
+      "source": "Omair Pall",
+      "imageUrl": "https://sm.mashable.com/mashable_in/seo/1/105769/105769_zr3p.jpg",
+      "publishedDate": "2026-06-08 15:31:03 +0000",
+      "createdAt": "2026-06-08T15:58:33.053Z",
+      "title": "OnePlus Budget Phones",
+      "metaDescription": "OnePlus budget smartphone series",
+      "keywords": [
+        "OnePlus",
+        "budget smartphones",
+        "Android market",
+        "smartphone series",
+        "entry-level market"
+      ],
+      "summary": "OnePlus is developing an ultra-budget smartphone series to compete in the affordable Android segment globally, which may impact the Indian market. This move signals a strategy shift for the brand. Indian business owners should be aware of the changing smartphone landscape.",
+      "content": "<h2>OnePlus' New Strategy</h2><p>OnePlus is reportedly developing a new ultra-budget smartphone series aimed at the entry-level market. The move signals a major strategy shift as the brand looks to compete more aggressively in the affordable Android segment globally.</p><p>The Indian market, being a significant contributor to the global smartphone sales, may see a substantial impact from this move. With the entry-level market being highly competitive, OnePlus' new series may challenge existing players and change the dynamics of the market.</p><h2>Key Features</h2><p>Although the exact features of the new series are not known, it is expected to be priced very competitively. Some of the key features that may be included are:</p><ul><li>Affordable price point</li><li>Basic camera capabilities</li><li>Entry-level processor</li><li>Long battery life</li><li>Latest Android operating system</li></ul><p>Indian business owners, especially those in the smartphone industry, should be aware of the changing landscape and the potential impact of OnePlus' new series on their business.</p>",
+      "category": "Business Tools",
+      "tags": [
+        "india",
+        "tech",
+        "phones",
+        "business",
+        "market"
+      ],
+      "readTime": 3,
+      "slug": "oneplus-budget-phones",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "2409632133c8",
       "originalUrl": "https://news.alphastreet.com/gamehaus-holdings-releases-q3-2026-financial-results/",
       "originalTitle": "Gamehaus Holdings Releases Q3 2026 Financial Results",
@@ -2443,7 +2509,7 @@
       "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-06-08T11:03:05.378Z",
-  "totalCount": 74,
+  "lastUpdated": "2026-06-08T15:58:33.053Z",
+  "totalCount": 76,
   "schema": "2.0"
 }
