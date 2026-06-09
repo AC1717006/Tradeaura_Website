@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "e7c99968d142",
+      "originalUrl": "https://www.businesskorea.co.kr/news/articleView.html?idxno=270902",
+      "originalTitle": "[Industry Focus] Beyond Memory: Inside Jensen Huang’s Five-Day Seoul Blitz and the New Architecture of Global AI",
+      "source": "Jack H. Park",
+      "imageUrl": "https://www.businesskorea.co.kr/news/thumbnail/202606/270902_278002_1157_v150.jpg",
+      "publishedDate": "2026-06-09 03:32:47 +0000",
+      "createdAt": "2026-06-09T03:51:35.927Z",
+      "title": "AI Trends",
+      "metaDescription": "Global AI trends",
+      "keywords": [
+        "AI",
+        "global market",
+        "tech giants",
+        "innovation",
+        "investment"
+      ],
+      "summary": "Indian business owners can learn from global AI trends and innovations, particularly in countries like South Korea, to stay competitive in the market. The country's tech giants are shaping the future of AI, and understanding their strategies can help Indian businesses make informed decisions. As the Indian market continues to grow, embracing AI and innovation will be crucial for success.",
+      "content": "<h2>Global AI Landscape</h2><p>The global AI landscape is evolving rapidly, with countries like South Korea playing a significant role in shaping its future. Recently, Jensen Huang, a prominent figure in the tech industry, visited Seoul for a five-day blitz, highlighting the city's importance in the global AI ecosystem. This visit underscores the growing importance of AI in the global market and its potential impact on Indian businesses.</p><h2>Indian Business Context</h2><p>As Indian businesses continue to grow and expand, they must stay informed about the latest global trends and innovations in AI. By understanding the strategies and investments of global tech giants, Indian companies can make informed decisions about their own AI adoption and development. The Indian market is becoming increasingly competitive, and embracing AI will be crucial for businesses to stay ahead of the curve.</p><h2>Key Takeaways</h2><p>Some key takeaways for Indian business owners include the need to invest in AI research and development, build strategic partnerships with global tech giants, and develop a robust AI adoption strategy. By doing so, Indian businesses can leverage the power of AI to drive growth, improve efficiency, and enhance customer experience.</p><ul><li>Invest in AI research and development</li><li>Build strategic partnerships with global tech giants</li><li>Develop a robust AI adoption strategy</li><li>Stay informed about the latest global AI trends and innovations</li><li>Embrace AI to drive growth and improve efficiency</li></ul>",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "tech",
+        "innovation",
+        "business",
+        "growth"
+      ],
+      "readTime": 3,
+      "slug": "ai-trends",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "2a003335e625",
+      "originalUrl": "https://techgenyz.com/nvidia-sk-hynix-ai-memory-partnership/",
+      "originalTitle": "NVIDIA SK hynix Partnership Reveals 5 Exciting AI Plans",
+      "source": "Techgenyz",
+      "imageUrl": "https://techgenyz.com/wp-content/uploads/2026/06/nvidia-and-sk-hynix-1024x576.webp",
+      "publishedDate": "2026-06-08 15:49:05",
+      "createdAt": "2026-06-09T03:51:40.898Z",
+      "title": "NVIDIA SK hynix AI Partnership",
+      "metaDescription": "NVIDIA SK hynix AI partnership for next-gen memory",
+      "keywords": [
+        "AI infrastructure",
+        "NVIDIA",
+        "SK hynix",
+        "memory solutions",
+        "AI computing"
+      ],
+      "summary": "NVIDIA and SK hynix have entered a multiyear partnership to develop next-generation memory solutions for AI, which can impact Indian businesses leveraging AI technology. This partnership aims to strengthen the semiconductor industry's relationship amidst surging demand for AI computing. Indian companies can benefit from this collaboration by adopting advanced AI solutions.",
+      "content": "<h2>NVIDIA SK hynix Partnership Overview</h2><p>The AI infrastructure race has gained momentum with the announcement of the NVIDIA SK hynix partnership. This multiyear technology partnership focuses on developing next-generation memory solutions for AI factories, catering to the increasing demand for AI computing worldwide.</p><p>In the Indian context, this partnership can have significant implications for businesses that rely heavily on AI technology. With the growing demand for AI-powered solutions in the Indian market, this collaboration can provide opportunities for Indian companies to adopt advanced AI infrastructure.</p><h2>Key Highlights of the Partnership</h2><p>The partnership between NVIDIA and SK hynix aims to:</p><ul><li>Develop next-generation memory solutions for AI factories</li><li>Strengthen the semiconductor industry's relationship</li><li>Cater to the surging demand for AI computing worldwide</li><li>Provide opportunities for Indian businesses to adopt advanced AI solutions</li><li>Impact the Indian market by providing cutting-edge AI infrastructure</li></ul>",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "nvidia",
+        "skhynix",
+        "partnership",
+        "infrastructure"
+      ],
+      "readTime": 3,
+      "slug": "nvidia-sk-hynix-ai-partnership",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "3b847308eac4",
       "originalUrl": "https://seekingalpha.com/news/4601560-sa-analyst-warns-tech-rebound-may-be-short-lived-as-yields-rise?feed_item_type=news",
       "originalTitle": "SA analyst warns tech rebound may be short-lived as yields rise",
@@ -2575,7 +2641,7 @@
       "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-06-08T20:22:51.571Z",
-  "totalCount": 78,
+  "lastUpdated": "2026-06-09T03:51:40.899Z",
+  "totalCount": 80,
   "schema": "2.0"
 }
