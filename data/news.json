@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "1b256bf3d08c",
+      "originalUrl": "https://www.investing.com/news/stock-market-news/437-these-aipicked-hardware-stocks-are-fueling-the-ai-supercycle-4732221",
+      "originalTitle": "+43.7%, these AI-picked hardware stocks are fueling the AI super-cycle By Investing.com",
+      "source": "Mark Garro",
+      "imageUrl": "https://i-invdn-com.investing.com/news/SP500StandardandPoors500Index_800x533_L_1657544297.jpg",
+      "publishedDate": "2026-06-09 09:21:46 +0000",
+      "createdAt": "2026-06-09T09:52:39.838Z",
+      "title": "AI Stocks Rise",
+      "metaDescription": "AI stocks fuel super-cycle",
+      "keywords": [
+        "AI",
+        "hardware",
+        "stocks",
+        "India",
+        "investing"
+      ],
+      "summary": "The AI super-cycle is driving growth in hardware stocks, with some AI-picked stocks rising over 43.7%. This trend is relevant to Indian business owners and investors looking to capitalize on the growing demand for AI technology. As the Indian market continues to evolve, understanding the impact of AI on hardware stocks can inform investment decisions.",
+      "content": "<h2>Introduction to AI Super-Cycle</h2><p>The AI super-cycle is a trend that is driving growth in various sectors, including hardware stocks. With the increasing demand for AI technology, some AI-picked hardware stocks have seen a significant rise of over 43.7%. This growth is not limited to any particular region and is a global phenomenon, with the Indian market also being impacted.</p><h2>Impact on Indian Market</h2><p>In the Indian context, the growth of AI-powered hardware stocks can have significant implications for businesses and investors. As the Indian market continues to evolve, understanding the impact of AI on hardware stocks can inform investment decisions and help businesses stay ahead of the curve. The Reserve Bank of India (RBI) and the Securities and Exchange Board of India (SEBI) also play a crucial role in regulating and overseeing the Indian market, including the growth of AI-powered stocks.</p><h2>Key Takeaways</h2><p>Some key points to consider when looking at AI-picked hardware stocks include: <ul><li>Understanding the underlying technology and trends driving growth</li><li>Assessing the potential risks and challenges associated with investing in AI-powered stocks</li><li>Staying informed about regulatory developments and their impact on the Indian market</li><li>Considering the potential for long-term growth and returns on investment</li><li>Diversifying investment portfolios to minimize risk</li></ul></p>",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "stocks",
+        "india",
+        "investing",
+        "hardware"
+      ],
+      "readTime": 3,
+      "slug": "ai-stocks-rise",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "b7277a55c6f9",
+      "originalUrl": "https://pokde.net/system/software/ai/apple-ai-framework-xcode-27",
+      "originalTitle": "Apple Introduces New AI Frameworks and Xcode 27 with Agentic Coding at WWDC26",
+      "source": "Super Daddy",
+      "imageUrl": "https://cdn.pokde.net/wp-content/uploads/2026/06/09171535/applexcode27cover.jpg",
+      "publishedDate": "2026-06-09 09:38:10 +0000",
+      "createdAt": "2026-06-09T09:52:44.778Z",
+      "title": "Apple AI Update",
+      "metaDescription": "Apple introduces new AI frameworks",
+      "keywords": [
+        "AI",
+        "Apple",
+        "Xcode",
+        "Agentic",
+        "Swift"
+      ],
+      "summary": "Apple's new AI frameworks and Xcode 27 with agentic coding are set to revolutionize the Indian tech industry, with potential applications in various sectors. Indian businesses can leverage these advancements to enhance their operations and customer experiences. The update also includes Core AI, updated Foundation Models, and Swift 6.4.",
+      "content": "<h2>Introduction to Apple's New AI Frameworks</h2><p>Apple has introduced new AI frameworks and Xcode 27 with agentic coding, supported by Anthropic, Google, and OpenAI agents. This update is expected to have a significant impact on the Indian tech industry, with potential applications in areas such as customer service, data analysis, and process automation.</p><h2>Key Features of Xcode 27</h2><p>Xcode 27 includes several key features, such as agentic coding, which enables developers to create more intelligent and interactive applications. The update also includes Core AI, updated Foundation Models, and Swift 6.4, which provide developers with more tools and resources to create innovative AI-powered solutions.</p><h2>Implications for Indian Businesses</h2><p>Indian businesses can leverage these advancements to enhance their operations and customer experiences. For example, companies can use AI-powered chatbots to provide 24/7 customer support, or use data analytics to gain insights into customer behavior and preferences. The update also provides opportunities for Indian developers to create innovative AI-powered solutions for the global market.</p><ul><li>Core AI: provides developers with a range of AI-powered tools and resources</li><li>Updated Foundation Models: enable developers to create more accurate and efficient AI models</li><li>Swift 6.4: provides developers with a more powerful and flexible programming language</li><li>Agentic coding: enables developers to create more intelligent and interactive applications</li><li>Xcode 27: provides developers with a range of tools and resources to create innovative AI-powered solutions</li></ul>",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "apple",
+        "xcode",
+        "agentic",
+        "swift"
+      ],
+      "readTime": 3,
+      "slug": "apple-ai-update",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "e7c99968d142",
       "originalUrl": "https://www.businesskorea.co.kr/news/articleView.html?idxno=270902",
       "originalTitle": "[Industry Focus] Beyond Memory: Inside Jensen Huang’s Five-Day Seoul Blitz and the New Architecture of Global AI",
@@ -2641,7 +2707,7 @@
       "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-06-09T03:51:40.899Z",
-  "totalCount": 80,
+  "lastUpdated": "2026-06-09T09:52:44.778Z",
+  "totalCount": 82,
   "schema": "2.0"
 }
