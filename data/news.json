@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "7ea9961549af",
+      "originalUrl": "https://seekingalpha.com/article/4913934-meta-markets-perception-on-ai-capex-seems-misplaced",
+      "originalTitle": "Meta: The Market's Perception On AI CapEx Seems Misplaced (NASDAQ:META)",
+      "source": "Dilantha De Silva",
+      "imageUrl": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1359528534/image_1359528534.jpg?io=getty-c-w1536",
+      "publishedDate": "2026-06-10 20:16:58 +0000",
+      "createdAt": "2026-06-10T20:34:51.144Z",
+      "title": "Meta AI",
+      "metaDescription": "Meta AI investment",
+      "keywords": [
+        "Meta",
+        "AI",
+        "Investment",
+        "Technology",
+        "Innovation"
+      ],
+      "summary": "Meta's AI investments have sparked skepticism among investors, but the company's long-term strategy may prove beneficial. Indian business owners can learn from Meta's approach to innovation. The company's focus on AI can lead to new opportunities in the Indian market.",
+      "content": "<h2>Introduction to Meta's AI Strategy</h2><p>Meta, the parent company of Facebook and Instagram, has been investing heavily in artificial intelligence (AI). However, the company's AI capital expenditures (CapEx) have sparked skepticism among investors, who question the lack of a direct revenue path. Despite this, Meta remains committed to its AI strategy, which it believes will drive long-term growth and innovation.</p><h2>Understanding the Indian Context</h2><p>In the Indian context, companies like Meta can provide valuable lessons for business owners and startup founders. As the Indian market continues to grow and evolve, companies must innovate and adapt to stay ahead of the competition. Meta's focus on AI can serve as a model for Indian businesses looking to leverage technology to drive growth.</p><h2>Key Takeaways for Indian Business Owners</h2><p>Indian business owners can learn from Meta's approach to innovation and investment in AI. Some key takeaways include:</p><ul><li>Embracing a long-term strategy, even if it means short-term sacrifices</li><li>Investing in emerging technologies like AI to drive growth and innovation</li><li>Focusing on customer experience and engagement to build brand loyalty</li><li>Staying adaptable and willing to pivot in response to changing market conditions</li><li>Building a strong team with the skills and expertise needed to drive innovation</li></ul>",
+      "category": "MarTech",
+      "tags": [
+        "meta",
+        "ai",
+        "tech",
+        "innovation",
+        "business"
+      ],
+      "readTime": 3,
+      "slug": "meta-ai",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "21fbcbbeb5cb",
+      "originalUrl": "https://gizmodo.com/microsoft-exec-responds-to-graduates-booing-ai-with-compelling-argument-nuh-uh-2000770103",
+      "originalTitle": "Microsoft Exec Responds to Graduates Booing AI with Compelling Argument: 'Nuh Uh'",
+      "source": "AJ Dellinger",
+      "imageUrl": "https://gizmodo.com/app/uploads/2024/05/6cb21a1348288dc7390593a9f8ffbd89.jpg",
+      "publishedDate": "2026-06-10 20:05:30 +0000",
+      "createdAt": "2026-06-10T20:34:56.016Z",
+      "title": "AI Future",
+      "metaDescription": "AI in business",
+      "keywords": [
+        "AI",
+        "automation",
+        "business",
+        "technology",
+        "future"
+      ],
+      "summary": "A Microsoft executive responded to graduates booing AI, highlighting its potential benefits for Indian businesses. The executive argued that AI can augment human capabilities, leading to increased productivity and efficiency. This perspective is relevant for Indian business owners and startup founders looking to leverage AI in their operations.",
+      "content": "<h2>Introduction to AI in Business</h2><p>A recent incident involving a Microsoft executive and graduating students has sparked a debate about the role of Artificial Intelligence (AI) in the future of work. The executive's response to the students' negative reaction to AI has highlighted the potential benefits of AI for businesses in India.</p><h2>Benefits of AI</h2><p>According to the executive, AI can augment human capabilities, leading to increased productivity and efficiency. This can be particularly beneficial for Indian businesses, where labor costs are relatively high. By automating routine tasks, businesses can free up resources to focus on higher-value activities.</p><h2>Indian Business Context</h2><p>In the Indian market, AI can help businesses to improve customer service, enhance supply chain management, and optimize operations. Additionally, AI can help Indian companies to compete with global players, by providing them with access to advanced technologies and tools.</p><h2>Key Takeaways</h2><ul><li>AI can augment human capabilities, leading to increased productivity and efficiency</li><li>AI can help Indian businesses to improve customer service and enhance supply chain management</li><li>AI can provide Indian companies with access to advanced technologies and tools, enabling them to compete with global players</li><li>Indian businesses can leverage AI to optimize operations and reduce costs</li><li>AI is a key technology for the future of work, and Indian businesses should consider its potential benefits</li></ul>",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "tech",
+        "business",
+        "india",
+        "future"
+      ],
+      "readTime": 3,
+      "slug": "ai-future",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "544ebf77bb93",
       "originalUrl": "https://seekingalpha.com/news/4602258-there-will-be-clear-winners-and-losers-in-software-as-it-reshapes-the-industry-ares?feed_item_type=news",
       "originalTitle": "There will be clear winners and losers in software as it reshapes the industry – Ares",
@@ -2971,7 +3037,7 @@
       "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-06-10T15:43:16.728Z",
-  "totalCount": 90,
+  "lastUpdated": "2026-06-10T20:34:56.016Z",
+  "totalCount": 92,
   "schema": "2.0"
 }
