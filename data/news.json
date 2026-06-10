@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "3cd837f0d8ec",
+      "originalUrl": "https://www.covaipost.com/coimbatore/tata-aig-introduces-medicare-reserve-a-flexible-super-top-up-plan-with-coverage-up-to-5-crore/",
+      "originalTitle": "TATA AIG introduces MediCare Reserve, a flexible Super Top-up plan with coverage up to ₹5 crore",
+      "source": "Covaipost",
+      "imageUrl": "https://www.covaipost.com/wp-content/uploads/2026/06/MediCare-Reserve-150x150.jpg",
+      "publishedDate": "2026-06-09 16:01:38",
+      "createdAt": "2026-06-10T04:02:27.386Z",
+      "title": "TATA AIG MediCare",
+      "metaDescription": "TATA AIG introduces health insurance plan",
+      "keywords": [
+        "health insurance",
+        "TATA AIG",
+        "MediCare Reserve",
+        "Super Top-up plan",
+        "general insurance"
+      ],
+      "summary": "TATA AIG General Insurance Company has launched MediCare Reserve, a flexible Super Top-up health insurance plan with coverage up to ₹5 crore, designed to help Indian customers strengthen their health coverage. The plan features a unique 'Waiver of Aggregate Deductible' benefit, allowing eligible policyholders to transition to a comprehensive health insurance policy after five consecutive policy years. This innovation is set to impact the Indian health insurance market.",
+      "content": "<h2>Introduction of MediCare Reserve</h2><p>TATA AIG General Insurance Company, one of India’s leading general insurance providers, has launched MediCare Reserve, an innovative health insurance solution designed to help customers strengthen their health coverage as their needs evolve. Built on a Super Top-up structure, the plan features a unique ‘Waiver of Aggregate Deductible’ benefit that allows eligible policyholders to transition to a comprehensive health insurance policy after five consecutive policy years, without undergoing fresh underwriting.</p><p>The aggregate deductible options range from ₹3 lakh to ₹50 lakh. This plan is set to provide Indian customers with flexible health insurance options, allowing them to adapt to changing healthcare needs.</p><h2>Key Features of MediCare Reserve</h2><p>The key features of the plan include:</p><ul><li>Coverage up to ₹5 crore</li><li>Super Top-up structure</li><li>Waiver of Aggregate Deductible benefit</li><li>Aggregate deductible options from ₹3 lakh to ₹50 lakh</li></ul><p>With the introduction of MediCare Reserve, TATA AIG aims to provide Indian customers with a flexible and comprehensive health insurance solution, addressing the evolving healthcare needs in the country.</p>",
+      "category": "Business Tools",
+      "tags": [
+        "health",
+        "insurance",
+        "tata",
+        "aig",
+        "medicare"
+      ],
+      "readTime": 3,
+      "slug": "tata-aig-medicare",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "e78d7e77a9c7",
+      "originalUrl": "https://www.hindustantimes.com/india-news/online-consumers-lose-over-rs-25-000-cr-to-online-traps-despite-norms-survey-101781020853288.html",
+      "originalTitle": "Online consumers lose over ₹25,000 cr to online traps despite norms: Survey",
+      "source": "Hindustan Times",
+      "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/06/09/1600x900/logo/The-findings-come-over-two-years-after-the-Central_1781020846867.jpg",
+      "publishedDate": "2026-06-09 16:00:52",
+      "createdAt": "2026-06-10T04:02:32.336Z",
+      "title": "Online Traps Cost",
+      "metaDescription": "online consumers lose money",
+      "keywords": [
+        "online traps",
+        "consumer protection",
+        "digital transactions",
+        "compliance",
+        "enforcement"
+      ],
+      "summary": "Indian online consumers have lost over ₹25,000 cr to online traps despite existing norms, a recent survey reveals, highlighting the need for improved compliance and enforcement in the Indian market. This issue affects businesses and startups operating in India, emphasizing the importance of robust consumer protection measures. The survey's findings have significant implications for the Indian business community, particularly in the context of digital transactions and online consumer safety.",
+      "content": "<h2>Online Traps: A Growing Concern</h2><p>A recent survey has found that online consumers in India have lost a staggering amount of over ₹25,000 cr to online traps, despite the presence of norms aimed at protecting them. This significant loss underscores the need for improved compliance and enforcement in the Indian market, particularly in the context of digital transactions.</p><p>The survey's findings are a cause for concern, as they suggest that dark patterns are becoming increasingly embedded in everyday online transactions. This can have severe consequences for online consumers, including financial losses and compromised personal data.</p><h2>Implications for Indian Businesses</h2><p>The issue of online traps has significant implications for businesses and startups operating in India. It highlights the importance of robust consumer protection measures, including transparent and secure online transactions. Indian businesses must prioritize consumer safety and take proactive steps to prevent online traps and protect their customers' interests.</p><p>To address this issue, Indian businesses can take several steps, including:</p><ul><li>Implementing robust security measures to prevent online traps</li><li>Providing transparent and clear information about online transactions</li><li>Ensuring compliance with existing norms and regulations</li><li>Educating consumers about online safety and security best practices</li><li>Collaborating with regulatory bodies to improve enforcement and compliance</li></ul>",
+      "category": "Digital Transformation",
+      "tags": [
+        "online",
+        "security",
+        "compliance",
+        "consumers",
+        "safety"
+      ],
+      "readTime": 3,
+      "slug": "online-traps-cost",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "66aaac39cba3",
       "originalUrl": "https://www.latestly.com/agency-news/business-news-rbi-exempts-fresh-fcnrb-deposits-from-crr-slr-norms-till-september-30-to-boost-foreign-currency-inflows-7465763.html",
       "originalTitle": "Business News | RBI Exempts Fresh FCNR(B) Deposits from CRR, SLR Norms Till September 30 to Boost Foreign Currency Inflows",
@@ -2773,7 +2839,7 @@
       "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-06-09T20:11:22.847Z",
-  "totalCount": 84,
+  "lastUpdated": "2026-06-10T04:02:32.336Z",
+  "totalCount": 86,
   "schema": "2.0"
 }
