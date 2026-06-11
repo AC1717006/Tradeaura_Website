@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "10e0b4a5a655",
+      "originalUrl": "https://www.bloomberg.com/news/newsletters/2026-06-11/wall-street-s-worries-are-all-about-ai",
+      "originalTitle": "Wall Street’s Worries Are All About AI",
+      "source": "www.bloomberg.com",
+      "imageUrl": null,
+      "publishedDate": "2026-06-11 10:27:44 +0000",
+      "createdAt": "2026-06-11T10:42:35.583Z",
+      "title": "AI Concerns",
+      "metaDescription": "AI impact on markets",
+      "keywords": [
+        "AI",
+        "market trends",
+        "business automation",
+        "investments",
+        "technology"
+      ],
+      "summary": "Indian business owners are taking note of global market trends, particularly the growing concerns around AI. As the Indian market continues to evolve, understanding AI's impact on investments and business automation is crucial. This knowledge can help Indian companies make informed decisions and stay competitive.",
+      "content": "<h2>Global Market Trends</h2><p>Recent reports from global markets, including those from prominent financial institutions, highlight the growing concerns around Artificial Intelligence (AI) and its potential impact on various sectors. The Indian business landscape, being closely tied to global market trends, is also taking note of these developments.</p><h2>Understanding AI's Impact</h2><p>As AI continues to evolve and permeate various aspects of business, Indian companies must understand its implications on investments, operations, and overall strategy. This includes considering the potential benefits of AI, such as enhanced efficiency and decision-making, as well as the potential risks, including job displacement and market volatility.</p><h2>Key Considerations for Indian Businesses</h2><p>Indian business owners and decision-makers should consider the following key points when evaluating AI's impact on their operations: <ul><li>Assessing the potential for AI-driven automation in their industry</li><li>Evaluating the potential risks and benefits of AI adoption</li><li>Developing strategies to mitigate potential negative impacts</li><li>Staying informed about the latest developments in AI and its applications</li><li>Collaborating with stakeholders to develop industry-wide standards and best practices</li></ul></p>",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "market",
+        "trends",
+        "business",
+        "tech"
+      ],
+      "readTime": 3,
+      "slug": "ai-concerns",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "4fbca9380c76",
+      "originalUrl": "https://timesofindia.indiatimes.com/science/meet-pemba-the-first-humanoid-to-climb-to-20341-feet-on-a-volcano-in-ecuador-in-extreme-field-conditions/articleshow/131655836.cms",
+      "originalTitle": "Meet Pemba: The first humanoid to climb to 20,341 feet on a volcano in Ecuador in extreme field conditions",
+      "source": "TOI Science Desk",
+      "imageUrl": "https://static.toiimg.com/thumb/msid-131655942,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+      "publishedDate": "2026-06-11 10:16:12 +0000",
+      "createdAt": "2026-06-11T10:42:40.579Z",
+      "title": "Humanoid Tech",
+      "metaDescription": "Humanoid robot Pemba",
+      "keywords": [
+        "humanoid robot",
+        "artificial intelligence",
+        "robotic technology",
+        "automation",
+        "innovation"
+      ],
+      "summary": "A humanoid robot named Pemba has achieved a remarkable feat by climbing a 6,200-metre volcano in Ecuador, demonstrating its capabilities in extreme field conditions, which can inspire Indian business owners to explore innovative automation solutions, while the Reserve Bank of India and the Securities and Exchange Board of India monitor technological advancements in the Indian market.",
+      "content": "<h2>Introduction to Humanoid Robots</h2><p>The ascent of a 6,200-metre volcano by a walking humanoid machine sounds, at first, like one of those lab demonstrations that never quite leaves controlled conditions. Yet this time it did. A humanoid robot named Pemba has achieved a remarkable feat by climbing a 6,200-metre volcano in Ecuador, demonstrating its capabilities in extreme field conditions.</p><h2>Implications for Indian Businesses</h2><p>Indian business owners and startup founders can draw inspiration from Pemba's achievement, exploring innovative automation solutions to enhance their operations and stay competitive in the Indian market. As the Indian economy continues to grow, the adoption of robotic technology and artificial intelligence can play a crucial role in driving efficiency and productivity.</p><h2>Key Takeaways</h2><ul><li>Humanoid robots can operate in extreme field conditions</li><li>Indian businesses can benefit from innovative automation solutions</li><li>Robotic technology and artificial intelligence can drive efficiency and productivity</li><li>The Indian market is poised for growth with the adoption of new technologies</li><li>Business owners and startup founders must stay informed about the latest technological advancements</li></ul>",
+      "category": "AI & Automation",
+      "tags": [
+        "robots",
+        "ai",
+        "tech",
+        "innovation",
+        "automation"
+      ],
+      "readTime": 3,
+      "slug": "humanoid-tech",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "5c84dec6974f",
       "originalUrl": "https://www.businesskorea.co.kr/news/articleView.html?idxno=271085",
       "originalTitle": "Government Pledges $6 Billion For Middle East Projects",
@@ -3103,7 +3169,7 @@
       "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-06-11T04:15:55.448Z",
-  "totalCount": 94,
+  "lastUpdated": "2026-06-11T10:42:40.579Z",
+  "totalCount": 96,
   "schema": "2.0"
 }
