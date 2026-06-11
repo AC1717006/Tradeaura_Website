@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "b4ec36a6370d",
+      "originalUrl": "https://www.forexfactory.com/news/1403146-ecb-officials-see-next-rate-hike-possible-as",
+      "originalTitle": "ECB officials see next rate hike possible as soon as July",
+      "source": "www.forexfactory.com",
+      "imageUrl": "https://www.forexfactory.com/news/1403146-ecb-officials-see-next-rate-hike-possible-as/image",
+      "publishedDate": "2026-06-11 15:41:52 +0000",
+      "createdAt": "2026-06-11T16:08:24.345Z",
+      "title": "Rate Hike",
+      "metaDescription": "ECB rate hike impact",
+      "keywords": [
+        "rate hike",
+        "economic growth",
+        "monetary policy",
+        "interest rates",
+        "global market"
+      ],
+      "summary": "The European Central Bank's potential rate hike in July may impact global markets, including India's, and Indian business owners should be aware of the potential effects on economic growth and monetary policy. This move could influence interest rates and investment decisions in the Indian market. Indian businesses may need to reassess their financial strategies in response to the ECB's decision.",
+      "content": "<h2>Global Economic Implications</h2><p>The European Central Bank's (ECB) officials have indicated that the next rate hike could occur as early as July, sparking discussions about the potential impact on global markets, including India. This decision may influence interest rates, economic growth, and investment decisions in the Indian market.</p><p>Indian business owners and startup founders should be aware of the potential effects of the ECB's rate hike on the Indian economy. A rate hike could lead to increased borrowing costs, affecting businesses that rely heavily on loans and credit. On the other hand, it could also attract foreign investment, potentially benefiting Indian businesses.</p><h2>Monetary Policy and Interest Rates</h2><p>The Reserve Bank of India (RBI) and the Securities and Exchange Board of India (SEBI) closely monitor global economic trends, including the ECB's monetary policy decisions. Indian businesses should consider the potential implications of the ECB's rate hike on India's monetary policy and interest rates.</p><p>Some key points to consider include:<ul><li>Increased borrowing costs for Indian businesses</li><li>Potential attraction of foreign investment</li><li>Impact on India's economic growth and monetary policy</li><li>Influence on interest rates and investment decisions</li><li>Need for Indian businesses to reassess their financial strategies</li></ul></p>",
+      "category": "MarTech",
+      "tags": [
+        "economy",
+        "business",
+        "finance",
+        "market",
+        "growth"
+      ],
+      "readTime": 3,
+      "slug": "rate-hike",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "53094f217676",
+      "originalUrl": "https://wccftech.com/aws-graviton5-cpus-now-available-purpose-built-for-ai-192-cores-ddr5-8800-pcie-gen6/",
+      "originalTitle": "AWS Graviton5 CPUs Now Available: Purpose-Built For AI With 25% Performance Uplift, 192 Cores, DDR5-8800 & PCIe Gen6 Support",
+      "source": "Hassan Mujtaba",
+      "imageUrl": "https://cdn.wccftech.com/wp-content/uploads/2026/06/Amazon-AWS-Graviton5-CPUs-_2-1920x1080.jpg",
+      "publishedDate": "2026-06-11 15:50:48 +0000",
+      "createdAt": "2026-06-11T16:08:29.302Z",
+      "title": "AWS Graviton5",
+      "metaDescription": "AWS Graviton5 CPU for AI",
+      "keywords": [
+        "AWS Graviton5",
+        "AI CPU",
+        "Cloud Computing",
+        "Artificial Intelligence",
+        "Server Processors"
+      ],
+      "summary": "Amazon's AWS Graviton5 CPU is now available for AI workloads, offering a 25% performance uplift and improved efficiency. This development can benefit Indian businesses leveraging cloud computing for AI applications. The AWS Graviton5 is designed to support demanding AI workloads, making it an attractive option for Indian enterprises.",
+      "content": "<h2>Introduction to AWS Graviton5</h2><p>Amazon has announced the general availability of its AWS Graviton5 CPU, purpose-built for artificial intelligence (AI) workloads. The AWS Graviton5 is designed to provide a 25% performance uplift and improved efficiency compared to its predecessor, making it an attractive option for Indian businesses looking to leverage AI in their operations.</p><h2>Key Features of AWS Graviton5</h2><p>The AWS Graviton5 features 192 cores, DDR5-8800 memory, and PCIe Gen6 support, making it suitable for demanding AI applications. These features enable Indian enterprises to run complex AI workloads, such as machine learning and deep learning, with improved performance and reduced latency.</p><h2>Benefits for Indian Businesses</h2><p>Indian businesses can benefit from the AWS Graviton5 in several ways. The improved performance and efficiency of the CPU can help reduce costs and increase productivity, allowing Indian enterprises to stay competitive in the global market. Additionally, the AWS Graviton5 can support a wide range of AI applications, from natural language processing to computer vision, making it a versatile solution for Indian businesses.</p><ul><li>Improved performance and efficiency</li><li>Support for demanding AI workloads</li><li>Reduced costs and increased productivity</li><li>Versatile solution for various AI applications</li><li>Competitive advantage in the global market</li></ul>",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "cloud",
+        "cpu",
+        "aws",
+        "tech"
+      ],
+      "readTime": 3,
+      "slug": "aws-graviton5",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "10e0b4a5a655",
       "originalUrl": "https://www.bloomberg.com/news/newsletters/2026-06-11/wall-street-s-worries-are-all-about-ai",
       "originalTitle": "Wall Street’s Worries Are All About AI",
@@ -3169,7 +3235,7 @@
       "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-06-11T10:42:40.579Z",
-  "totalCount": 96,
+  "lastUpdated": "2026-06-11T16:08:29.302Z",
+  "totalCount": 98,
   "schema": "2.0"
 }
