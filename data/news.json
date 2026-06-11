@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "928b515f1c1f",
+      "originalUrl": "https://thenextweb.com/news/companies-train-millions-workers-products-never-stop-shipping",
+      "originalTitle": "How companies train millions of workers when their products never stop shipping",
+      "source": "Panayiotis Vitakis",
+      "imageUrl": "https://media.thenextweb.com/2026/06/companies-train-millions-workers-products-never-stop-shipping.avif",
+      "publishedDate": "2026-06-11 20:14:59 +0000",
+      "createdAt": "2026-06-11T20:26:40.221Z",
+      "title": "AI Training",
+      "metaDescription": "AI in corporate learning",
+      "keywords": [
+        "AI",
+        "Corporate Learning",
+        "L&D",
+        "Training",
+        "Automation"
+      ],
+      "summary": "Indian businesses can leverage AI-generated video to enhance corporate learning programs, addressing the persistent skills gap. This approach can significantly reduce production time, as seen in ServiceNow's experience. By adopting AI-native L&D, companies can efficiently train their workforce.",
+      "content": "<h2>Introduction to AI-Generated Video</h2><p>Indian businesses are constantly looking for ways to improve their corporate learning programs, especially with the rapid pace of technological advancements. ServiceNow, a leading company, has successfully rebuilt its corporate learning program around AI-generated video, resulting in a tenfold reduction in production time. This innovative approach has been made possible by companies like Synthesia, which provides AI-native learning and development (L&D) solutions.</p><h2>Closing the Skills Gap</h2><p>According to Synthesia's SVP, the skills gap persists due to the inability of traditional L&D methods to keep pace with the changing needs of the workforce. AI-native L&D closes this gap by providing personalized, interactive, and engaging learning experiences. With AI-generated video, companies can create high-quality training content quickly and efficiently, addressing the needs of their diverse workforce.</p><h2>Benefits for Indian Businesses</h2><p>Indian businesses can benefit from adopting AI-generated video in their corporate learning programs. The Indian market is highly competitive, and companies need to ensure that their workforce is equipped with the latest skills to stay ahead. By leveraging AI-native L&D, Indian businesses can reduce production time, improve knowledge retention, and enhance overall employee performance. Some of the key benefits include: <ul><li>Personalized learning experiences</li><li>Increased efficiency in content creation</li><li>Improved knowledge retention</li><li>Enhanced employee engagement</li><li>Better ROI on training investments</li></ul></p>",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "learning",
+        "training",
+        "automation",
+        "industry"
+      ],
+      "readTime": 3,
+      "slug": "ai-training",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "c0201c8285e4",
+      "originalUrl": "https://thenextweb.com/news/bluesky-group-chats-communities-strategy",
+      "originalTitle": "Bluesky launches group chats and pivots to communities as growth stalls at 44.8 million users",
+      "source": "Cristian Dina",
+      "imageUrl": "https://media.thenextweb.com/2026/06/bluesky-group-chats-communities-strategy.avif",
+      "publishedDate": "2026-06-11 20:15:17 +0000",
+      "createdAt": "2026-06-11T20:26:45.608Z",
+      "title": "Bluesky Shifts Focus",
+      "metaDescription": "Bluesky launches group chats",
+      "keywords": [
+        "Bluesky",
+        "group chats",
+        "communities",
+        "social media",
+        "growth strategy"
+      ],
+      "summary": "Bluesky's pivot to communities and group chats may offer lessons for Indian businesses looking to expand their online presence, as user growth slows globally, and companies like X shut down their own communities, Indian entrepreneurs can learn from these shifts in the social media landscape, the Indian market is witnessing a surge in demand for community-building platforms, and Bluesky's strategy may inspire local businesses to explore similar models",
+      "content": "<h2>Introduction to Bluesky's New Strategy</h2><p>Bluesky, a social media platform, has introduced group chats for up to 50 people and is building Reddit-style communities, as its user growth slows down to 44.8 million users, this pivot may be seen as a strategic move to revitalize growth and offer more engaging features to its users, in the context of the Indian market, this shift can be seen as an opportunity for local businesses to explore community-building platforms and social media strategies that cater to the Indian audience.</p><h2>Implications for Indian Businesses</h2><p>As the Indian market continues to grow and evolve, businesses can learn from Bluesky's strategy and adapt it to their own needs, by focusing on community-building and offering engaging features, Indian companies can expand their online presence and reach a wider audience, the Reserve Bank of India's and the Securities and Exchange Board of India's regulations on digital platforms can also impact the growth of social media companies in India, and businesses must be aware of these regulations when developing their online strategies.</p><h2>Key Takeaways</h2><ul><li>Bluesky's pivot to communities and group chats may inspire Indian businesses to explore similar models</li><li>The Indian market is witnessing a surge in demand for community-building platforms</li><li>Businesses must be aware of the regulatory environment in India when developing their online strategies</li><li>Community-building and engaging features can help Indian companies expand their online presence</li><li>Bluesky's strategy may offer lessons for Indian businesses looking to revitalize their growth and offer more engaging features to their users</li></ul>",
+      "category": "Digital Transformation",
+      "tags": [
+        "india",
+        "business",
+        "growth",
+        "strategy",
+        "social"
+      ],
+      "readTime": 3,
+      "slug": "bluesky-shifts-focus",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "b4ec36a6370d",
       "originalUrl": "https://www.forexfactory.com/news/1403146-ecb-officials-see-next-rate-hike-possible-as",
       "originalTitle": "ECB officials see next rate hike possible as soon as July",
@@ -3235,7 +3301,7 @@
       "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-06-11T16:08:29.302Z",
-  "totalCount": 98,
+  "lastUpdated": "2026-06-11T20:26:45.609Z",
+  "totalCount": 100,
   "schema": "2.0"
 }
