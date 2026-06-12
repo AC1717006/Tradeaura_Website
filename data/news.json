@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "d5757607c797",
+      "originalUrl": "https://www.thestreet.com/investing/stocks/intc-intel-stock-price-target-bank-of-america-june-2026",
+      "originalTitle": "Bank of America makes major reset to Intel stock price target",
+      "source": "Moz Farooque",
+      "imageUrl": null,
+      "publishedDate": "2026-06-12 15:03:00 +0000",
+      "createdAt": "2026-06-12T15:22:25.171Z",
+      "title": "Intel Stock Reset",
+      "metaDescription": "Intel stock price target reset",
+      "keywords": [
+        "Intel",
+        "stock price",
+        "Bank of America",
+        "Nvidia",
+        "investing"
+      ],
+      "summary": "Bank of America has revised Intel's stock price target, which may impact the Indian market's perception of the company. This move could have implications for Indian businesses and investors. Intel faces competition from Nvidia, affecting its stock performance.",
+      "content": "<h2>Intel Stock Price Target Revision</h2><p>Bank of America has made a significant revision to Intel's stock price target, which could potentially alter the company's stock performance. This move may have implications for the Indian market, as investors and businesses assess the company's prospects. Intel still faces intense competition from Nvidia, which has been a major factor in its stock performance.</p><p>In the Indian context, this development may be relevant for businesses and investors who are looking to diversify their portfolios or invest in the technology sector. The revision of Intel's stock price target by Bank of America may be seen as a positive sign, but it is essential to consider the competitive landscape and the company's overall performance.</p><h2>Key Considerations</h2><p>When evaluating Intel's stock, Indian businesses and investors should consider the following factors:</p><ul><li>Competition from Nvidia and other players in the technology sector</li><li>Intel's ability to innovate and adapt to changing market trends</li><li>The company's financial performance and growth prospects</li><li>The impact of global market trends on the Indian economy</li><li>The role of regulatory bodies, such as the RBI and SEBI, in shaping the Indian market</li></ul>",
+      "category": "Business Tools",
+      "tags": [
+        "investing",
+        "stocks",
+        "tech",
+        "finance",
+        "market"
+      ],
+      "readTime": 3,
+      "slug": "intel-stock-reset",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "032cd15db41b",
+      "originalUrl": "https://www.androidheadlines.com/2026/06/leaker-says-touchscreen-macbook-100-confirmed.html",
+      "originalTitle": "Leaker Says Touchscreen MacBook Is '100% Confirmed,' and Nobody Is Surprised",
+      "source": "Tyler Lee",
+      "imageUrl": "https://www.androidheadlines.com/wp-content/uploads/2026/03/apple-macbook-pro-m5-series-chip-3.jpg",
+      "publishedDate": "2026-06-12 15:06:55 +0000",
+      "createdAt": "2026-06-12T15:22:30.418Z",
+      "title": "Touchscreen MacBook",
+      "metaDescription": "Touchscreen MacBook confirmed",
+      "keywords": [
+        "MacBook",
+        "Touchscreen",
+        "OLED",
+        "M6 chip",
+        "Laptop"
+      ],
+      "summary": "A leaker has confirmed the upcoming release of a touchscreen MacBook, potentially impacting the Indian laptop market. The new device is expected to feature an OLED display and M6 chip. This development may influence Indian business owners' and startup founders' technology purchasing decisions.",
+      "content": "<h2>Introduction of Touchscreen MacBook</h2><p>A recent leak has confirmed the release of a touchscreen MacBook, which is expected to arrive in late 2026 or early 2027. According to the leaker, the new device will feature an OLED display and be powered by the M6 chip. This news may have significant implications for the Indian market, where laptops are widely used by businesses and individuals alike.</p><h2>Features and Specifications</h2><p>The upcoming touchscreen MacBook is expected to boast an OLED display, providing vibrant colors and improved contrast. The device will be powered by the M6 chip, which is likely to deliver enhanced performance and efficiency. Other features of the device have not been disclosed, but it is expected to run on the latest operating system.</p><h2>Potential Impact on Indian Market</h2><p>The introduction of the touchscreen MacBook may influence the purchasing decisions of Indian business owners and startup founders. As the device is expected to offer advanced features and improved performance, it may become a popular choice among professionals and individuals who require a reliable and efficient laptop. However, the pricing of the device will be a crucial factor in determining its adoption in the Indian market.</p><ul><li>Expected release date: late 2026 or early 2027</li><li>Features: OLED display, M6 chip</li><li>Potential impact: enhanced performance, improved efficiency</li><li>Target audience: Indian business owners, startup founders, professionals</li><li>Pricing: to be determined</li></ul>",
+      "category": "SaaS & Software",
+      "tags": [
+        "laptop",
+        "tech",
+        "gadget",
+        "device",
+        "computer"
+      ],
+      "readTime": 3,
+      "slug": "touchscreen-macbook",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "27f65d5d0041",
       "originalUrl": "https://seekingalpha.com/news/4602855-openai-anthropic-and-google-executives-to-attend-g7-summit?feed_item_type=news",
       "originalTitle": "OpenAI, Anthropic, and Google executives to attend G7 summit",
@@ -3433,7 +3499,7 @@
       "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-06-12T10:19:23.243Z",
-  "totalCount": 104,
+  "lastUpdated": "2026-06-12T15:22:30.418Z",
+  "totalCount": 106,
   "schema": "2.0"
 }
