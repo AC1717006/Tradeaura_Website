@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "27f65d5d0041",
+      "originalUrl": "https://seekingalpha.com/news/4602855-openai-anthropic-and-google-executives-to-attend-g7-summit?feed_item_type=news",
+      "originalTitle": "OpenAI, Anthropic, and Google executives to attend G7 summit",
+      "source": "seekingalpha.com",
+      "imageUrl": null,
+      "publishedDate": "2026-06-12 09:41:14 +0000",
+      "createdAt": "2026-06-12T10:19:17.951Z",
+      "title": "AI Execs Meet",
+      "metaDescription": "AI executives attend G7 summit",
+      "keywords": [
+        "AI",
+        "G7 Summit",
+        "OpenAI",
+        "Anthropic",
+        "Google"
+      ],
+      "summary": "Executives from OpenAI, Anthropic, and Google are set to attend the G7 summit, marking a significant intersection of technology and global policy, with potential implications for the Indian market. The meeting highlights the growing importance of AI in shaping the future of business and governance. Indian business owners should take note of the emerging trends in AI and its applications.",
+      "content": "<h2>Introduction to AI and G7 Summit</h2><p>The G7 summit is a prestigious gathering of global leaders, and this year, it will feature executives from prominent AI companies, including OpenAI, Anthropic, and Google. This meeting underscores the increasing relevance of artificial intelligence in shaping the future of business, governance, and society.</p><h2>Implications for Indian Business</h2><p>As India continues to grow as a significant player in the global economy, it is essential for Indian business owners and startup founders to stay informed about the latest developments in AI and their potential applications. The Indian market, with its vast consumer base and growing digital landscape, presents a unique opportunity for AI-driven innovation.</p><h2>Key Takeaways</h2><p>Some key points to consider include:</p><ul><li>The growing importance of AI in shaping business and governance</li><li>The potential applications of AI in the Indian market</li><li>The need for Indian business owners to stay informed about the latest AI trends and developments</li><li>The role of regulatory bodies in shaping the AI landscape in India</li><li>The potential for AI to drive innovation and growth in the Indian economy</li></ul>",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "business",
+        "india",
+        "tech",
+        "g7"
+      ],
+      "readTime": 3,
+      "slug": "ai-execs-meet",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "862d0eaf1145",
+      "originalUrl": "https://www.thestar.com.my/tech/tech-news/2026/06/12/exclusive-us-bank-regulators-ramp-up-scrutiny-of-ai-use-at-financial-companies",
+      "originalTitle": "Exclusive-U.S. bank regulators ramp up scrutiny of AI use at financial companies",
+      "source": "Nupur Anand",
+      "imageUrl": "https://apicms.thestar.com.my/uploads/images/2026/06/12/3955484.jpg",
+      "publishedDate": "2026-06-12 09:55:00 +0000",
+      "createdAt": "2026-06-12T10:19:23.243Z",
+      "title": "AI Regulation",
+      "metaDescription": "AI use in finance",
+      "keywords": [
+        "artificial intelligence",
+        "banking regulations",
+        "financial technology",
+        "data governance",
+        "risk management"
+      ],
+      "summary": "Indian financial companies using AI must be aware of global regulatory trends, as US banking regulators increase scrutiny of AI deployment, focusing on data access and governance controls, to ensure responsible AI use in the Indian market. This development may influence RBI and SEBI guidelines. Indian businesses should prioritize data governance and risk management when implementing AI solutions.",
+      "content": "<h2>Introduction to AI Regulation</h2><p>US banking regulators are increasing scrutiny of artificial intelligence use in the financial industry, with a focus on data access, governance controls, and risks posed by third-party vendors. This trend may have implications for Indian financial companies, particularly in light of the Reserve Bank of India's (RBI) efforts to promote digital transformation and the Securities and Exchange Board of India's (SEBI) guidelines on technology use in the financial sector.</p><h2>Key Areas of Scrutiny</h2><p>The regulators are pressing firms on several key areas, including data quality, model risk management, and vendor oversight. Indian companies can learn from these global regulatory trends to ensure responsible AI use and mitigate potential risks. By prioritizing data governance, model explainability, and transparency, Indian businesses can build trust with their customers and stakeholders.</p><h2>Implications for Indian Businesses</h2><p>As the Indian market continues to adopt AI and machine learning solutions, it is essential for businesses to be aware of the regulatory landscape and take proactive steps to address potential concerns. This includes implementing robust data governance frameworks, conducting regular model audits, and ensuring compliance with relevant regulations. By doing so, Indian companies can harness the benefits of AI while minimizing the risks and maintaining the trust of their customers and stakeholders.</p><ul><li>Implement robust data governance frameworks</li><li>Conduct regular model audits</li><li>Ensure compliance with relevant regulations</li><li>Prioritize model explainability and transparency</li><li>Build trust with customers and stakeholders</li></ul>",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "finance",
+        "regulation",
+        "technology",
+        "risk"
+      ],
+      "readTime": 4,
+      "slug": "ai-regulation",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "d8d2ac77ec3c",
       "originalUrl": "https://www.businesstimes.com.sg/companies-markets/banking-finance/futu-founder-brother-leaf-humbled-china-broker-crackdown",
       "originalTitle": "Futu founder ‘Brother Leaf’ humbled by China broker crackdown",
@@ -3367,7 +3433,7 @@
       "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-06-12T04:17:56.782Z",
-  "totalCount": 102,
+  "lastUpdated": "2026-06-12T10:19:23.243Z",
+  "totalCount": 104,
   "schema": "2.0"
 }
