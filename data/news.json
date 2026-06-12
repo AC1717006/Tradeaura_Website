@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "d8d2ac77ec3c",
+      "originalUrl": "https://www.businesstimes.com.sg/companies-markets/banking-finance/futu-founder-brother-leaf-humbled-china-broker-crackdown",
+      "originalTitle": "Futu founder ‘Brother Leaf’ humbled by China broker crackdown",
+      "source": "The Business Times",
+      "imageUrl": "https://cassette.sphdigital.com.sg/image/businesstimes/3f7967de659c1fc55d0ab0829bdb49326ffdcfcc642e615fec047d52c5cd97e9?w=1920&f=webp",
+      "publishedDate": "2026-06-12 03:51:04 +0000",
+      "createdAt": "2026-06-12T04:17:51.942Z",
+      "title": "Broker Crackdown",
+      "metaDescription": "China broker crackdown impact",
+      "keywords": [
+        "brokerage",
+        "fintech",
+        "regulation",
+        "trading",
+        "market"
+      ],
+      "summary": "The founder of Futu, a Chinese online brokerage firm, remains optimistic despite a crackdown by Chinese regulators, expecting income from overseas operations to offset the impact. This development highlights the importance of regulatory compliance for Indian fintech companies expanding globally. Indian business owners should be aware of such regulatory challenges when venturing into international markets.",
+      "content": "<h2>Regulatory Challenges in Fintech</h2><p>The Chinese government's crackdown on brokerage firms has led to increased scrutiny of online trading platforms. Futu, a prominent Chinese online brokerage firm, has been affected by this regulatory action. However, its founder, 'Brother Leaf', remains confident that the company's overseas operations, including its Hong Kong and US-based brand Moomoo, will help mitigate the impact of the crackdown.</p><p>In the Indian context, this development serves as a reminder of the importance of regulatory compliance for fintech companies. The Reserve Bank of India (RBI) and the Securities and Exchange Board of India (SEBI) play crucial roles in regulating the Indian fintech industry. Indian business owners and startup founders should be aware of these regulatory requirements when expanding their operations domestically or internationally.</p><h2>Key Takeaways</h2><ul><li>Regulatory compliance is essential for fintech companies</li><li>Indian fintech companies should be aware of RBI and SEBI regulations</li><li>International expansion requires understanding of local regulatory frameworks</li><li>Diversification of operations can help mitigate regulatory risks</li><li>Indian business owners should monitor global regulatory developments to stay ahead</li></ul>",
+      "category": "Business Tools",
+      "tags": [
+        "fintech",
+        "regulation",
+        "trading",
+        "market",
+        "compliance"
+      ],
+      "readTime": 3,
+      "slug": "broker-crackdown",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "60061f9f235e",
+      "originalUrl": "https://www.techinasia.com/ibm-invests-israeli-genai-app-design-startup-anima",
+      "originalTitle": "IBM, ServiceNow extend partnership with new AI tools",
+      "source": "Aiko Gao Ishida",
+      "imageUrl": null,
+      "publishedDate": "2026-06-12 03:06:17 +0000",
+      "createdAt": "2026-06-12T04:17:56.782Z",
+      "title": "IBM, ServiceNow AI Tools",
+      "metaDescription": "IBM, ServiceNow extend partnership with AI tools",
+      "keywords": [
+        "IBM",
+        "ServiceNow",
+        "AI Tools",
+        "IT Operations",
+        "Data Governance"
+      ],
+      "summary": "IBM and ServiceNow are expanding their partnership to offer joint solutions for Indian businesses, focusing on application modernization, data governance, and IT operations. This collaboration aims to help Indian companies streamline their operations and improve efficiency. The new AI-powered tools will enable businesses to make data-driven decisions and enhance their overall performance.",
+      "content": "<h2>Partnership Expansion</h2><p>IBM and ServiceNow have announced the extension of their partnership, introducing new AI-powered tools for Indian businesses. The joint offerings will cater to the needs of application modernization, data governance, and IT operations, enabling companies to optimize their processes and improve productivity.</p><h2>Key Areas of Focus</h2><p>The partnership will focus on three primary areas: application modernization, data governance, and IT operations. The new AI tools will help Indian businesses to modernize their applications, ensure data compliance, and streamline their IT operations.</p><h2>Benefits for Indian Businesses</h2><p>The collaboration between IBM and ServiceNow is expected to bring significant benefits to Indian businesses. The AI-powered tools will enable companies to make data-driven decisions, enhance their operational efficiency, and improve their overall performance. The partnership will also provide Indian businesses with access to a wide range of expertise and resources, helping them to stay competitive in the market.</p><ul><li>Improved operational efficiency</li><li>Enhanced data governance</li><li>Streamlined IT operations</li><li>Access to expertise and resources</li><li>Competitive advantage in the market</li></ul>",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "partnership",
+        "india",
+        "business",
+        "technology"
+      ],
+      "readTime": 3,
+      "slug": "ibm-servicenow-ai-tools",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "928b515f1c1f",
       "originalUrl": "https://thenextweb.com/news/companies-train-millions-workers-products-never-stop-shipping",
       "originalTitle": "How companies train millions of workers when their products never stop shipping",
@@ -3301,7 +3367,7 @@
       "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-06-11T20:26:45.609Z",
-  "totalCount": 100,
+  "lastUpdated": "2026-06-12T04:17:56.782Z",
+  "totalCount": 102,
   "schema": "2.0"
 }
