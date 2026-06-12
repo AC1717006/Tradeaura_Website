@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "14fba4820cae",
+      "originalUrl": "https://www.infoworld.com/article/4184648/openai-buys-ona-to-help-rein-in-ai-agents.html",
+      "originalTitle": "OpenAI buys Ona to help rein in AI agents",
+      "source": "Evan Schuman",
+      "imageUrl": "https://www.infoworld.com/wp-content/uploads/2026/06/4184648-0-23131900-1781294487-shutterstock_2253221991.jpg?quality=50&strip=all&w=1024",
+      "publishedDate": "2026-06-12 20:01:11 +0000",
+      "createdAt": "2026-06-12T20:15:04.709Z",
+      "title": "AI Acquisition",
+      "metaDescription": "OpenAI buys Ona for AI control",
+      "keywords": [
+        "OpenAI",
+        "AI Agents",
+        "Acquisition",
+        "Ona",
+        "Codex"
+      ],
+      "summary": "OpenAI's acquisition of Ona is set to provide users with self-hosted sandboxes, allowing for greater control over AI tool execution. This move is expected to have implications for Indian businesses looking to leverage AI technology. As the Indian market continues to grow, companies will need to navigate the complexities of AI adoption.",
+      "content": "<h2>Introduction to OpenAI's Acquisition</h2><p>OpenAI has announced the acquisition of Ona, a move aimed at providing Codex users with self-hosted sandboxes. This development is expected to have significant implications for the Indian business landscape, as companies increasingly look to harness the power of AI technology.</p><h2>Implications for Indian Businesses</h2><p>The acquisition will enable users to move tool execution into infrastructure that they control, allowing for greater flexibility and security. This is particularly relevant in the Indian context, where businesses are looking to leverage AI to drive growth and innovation. As the Indian market continues to evolve, companies will need to navigate the complexities of AI adoption, including issues related to data privacy and security.</p><h2>Key Benefits of the Acquisition</h2><p>The acquisition is expected to provide several key benefits, including:<ul><li>Greater control over AI tool execution</li><li>Improved security and flexibility</li><li>Enhanced ability to navigate AI adoption</li><li>Increased innovation and growth</li><li>Better navigation of data privacy and security issues</li></ul></p>",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "automation",
+        "business",
+        "technology",
+        "innovation"
+      ],
+      "readTime": 3,
+      "slug": "ai-acquisition",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "5c23cdf07486",
+      "originalUrl": "https://www.reddit.com/r/reinforcementlearning/comments/1u458ai/book_suggestions_for_learning_artificial/",
+      "originalTitle": "Book suggestions for learning Artificial intelligence for Robotics.",
+      "source": "/u/Lumpy-Cucumber-5895",
+      "imageUrl": null,
+      "publishedDate": "2026-06-12 19:32:25 +0000",
+      "createdAt": "2026-06-12T20:15:09.711Z",
+      "title": "AI Robotics",
+      "metaDescription": "Learn AI for robotics",
+      "keywords": [
+        "artificial intelligence",
+        "robotics",
+        "machine learning",
+        "automation",
+        "innovation"
+      ],
+      "summary": "Indian businesses can leverage artificial intelligence to enhance robotics and automation, driving innovation and growth in the market. With the right resources, startup founders and enterprise decision-makers can explore AI applications in robotics. This can lead to increased efficiency and competitiveness in the Indian industry.",
+      "content": "<h2>Introduction to AI Robotics</h2><p>Artificial intelligence (AI) is transforming the field of robotics, enabling machines to learn, adapt, and interact with their environment. For Indian businesses looking to explore AI applications in robotics, it is essential to have a solid understanding of the underlying concepts and technologies.</p><h2>Key Concepts</h2><p>To get started with AI robotics, one needs to understand machine learning, computer vision, and sensor integration. These concepts form the foundation of AI-powered robotics and are crucial for developing intelligent machines that can perform complex tasks.</p><h2>Learning Resources</h2><p>There are several resources available for learning AI robotics, including online courses, tutorials, and books. Some popular books on the subject include those that focus on machine learning, deep learning, and robotics engineering. By leveraging these resources, Indian businesses can develop the expertise needed to drive innovation and growth in the field of AI robotics.</p><h2>Applications in India</h2><p>The applications of AI robotics in India are vast and diverse, ranging from industrial automation to healthcare and transportation. By adopting AI-powered robotics, Indian businesses can improve efficiency, reduce costs, and enhance customer experience. As the Indian market continues to evolve, the demand for AI robotics is expected to increase, driving growth and innovation in the industry.</p>",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "robotics",
+        "machine",
+        "learning",
+        "innovation"
+      ],
+      "readTime": 3,
+      "slug": "ai-robotics",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "d5757607c797",
       "originalUrl": "https://www.thestreet.com/investing/stocks/intc-intel-stock-price-target-bank-of-america-june-2026",
       "originalTitle": "Bank of America makes major reset to Intel stock price target",
@@ -3499,7 +3565,7 @@
       "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-06-12T15:22:30.418Z",
-  "totalCount": 106,
+  "lastUpdated": "2026-06-12T20:15:09.712Z",
+  "totalCount": 108,
   "schema": "2.0"
 }
