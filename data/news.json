@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "e8c32e8a0ef4",
+      "originalUrl": "https://www.business-standard.com/technology/tech-news/anthropic-halts-foreign-access-to-advanced-ai-models-on-us-govt-s-directive-126061300110_1.html",
+      "originalTitle": "Anthropic halts foreign access to advanced AI models on US govt's directive",
+      "source": "Business Standard; Reuters",
+      "imageUrl": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-05/13/thumb/fitandfill/1200X628/1778651877-338.JPG",
+      "publishedDate": "2026-06-13 03:48:12 +0000",
+      "createdAt": "2026-06-13T04:06:01.783Z",
+      "title": "AI Access Halted",
+      "metaDescription": "US directive affects AI models",
+      "keywords": [
+        "AI models",
+        "US government",
+        "Anthropic",
+        "foreign access",
+        "compliance"
+      ],
+      "summary": "The US government has issued a directive to Anthropic, resulting in the halt of foreign access to advanced AI models, which may impact Indian businesses relying on these models. This move is expected to have significant implications for the global AI landscape. Indian companies may need to explore alternative AI solutions to maintain competitiveness.",
+      "content": "<h2>US Government Directive Impacts AI Access</h2><p>The US government has recently issued a directive to Anthropic, a leading AI development company, to halt foreign access to its advanced AI models, including Fable 5 and Mythos 5. This move is aimed at ensuring compliance with US regulations and has resulted in the abrupt disabling of these models for all foreign customers.</p><p>The decision is expected to have far-reaching implications for Indian businesses that rely on these AI models for various applications, such as data analysis, customer service, and process automation. Indian companies may need to explore alternative AI solutions to maintain their competitiveness in the global market.</p><h2>Key Considerations for Indian Businesses</h2><p>Indian businesses should consider the following factors in response to this development:</p><ul><li>Alternative AI solutions: Explore alternative AI models and solutions that can meet their business needs.</li><li>Compliance: Ensure compliance with relevant Indian regulations, such as those related to data privacy and security.</li><li>Partnerships: Collaborate with other companies to develop indigenous AI solutions that can reduce dependence on foreign models.</li><li>Investment: Invest in AI research and development to create innovative solutions that can drive business growth.</li><li>Risk management: Develop strategies to mitigate the risks associated with the halt of foreign access to advanced AI models.</li></ul>",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "usa",
+        "models",
+        "access",
+        "compliance"
+      ],
+      "readTime": 3,
+      "slug": "ai-access-halted",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "9f514e51b0b6",
+      "originalUrl": "https://www.techinasia.com/meta-drops-5-report-sell-stock-ai",
+      "originalTitle": "Zuckerberg admits mistakes in Meta’s AI reshuffle",
+      "source": "Grace Priscilla Teo",
+      "imageUrl": null,
+      "publishedDate": "2026-06-13 03:07:17 +0000",
+      "createdAt": "2026-06-13T04:06:06.648Z",
+      "title": "Meta AI",
+      "metaDescription": "Meta AI updates",
+      "keywords": [
+        "Meta AI",
+        "AI Reshuffle",
+        "Tech Updates",
+        "Business Automation",
+        "Digital Transformation"
+      ],
+      "summary": "Mark Zuckerberg has acknowledged mistakes in Meta's AI reshuffle, with plans to increase annual capital spending and host a July hackathon, which may impact Indian businesses and startup founders, Meta's AI strategy is crucial for the Indian market as the company expands its presence in the country.",
+      "content": "<h2>Meta's AI Strategy</h2><p>Mark Zuckerberg has admitted to making mistakes in Meta's AI reshuffle, a move that is expected to have significant implications for the company's future growth and development. As part of its efforts to revamp its AI capabilities, Meta plans to host a hackathon in July and increase its annual capital spending to up to $145 billion.</p><p>The move is seen as a major shift in Meta's strategy, as the company seeks to expand its presence in the Indian market and other emerging economies. With the Indian government's focus on digital transformation and the growing demand for AI-powered solutions, Meta's AI strategy is crucial for the Indian market.</p><h2>Implications for Indian Businesses</h2><p>The implications of Meta's AI reshuffle for Indian businesses are significant, as the company's expanded presence in the country is expected to create new opportunities for startups and enterprise decision-makers. Some key areas of focus for Indian businesses include:</p><ul><li>AI-powered customer engagement</li><li>Digital transformation</li><li>Business automation</li><li>Data analytics</li><li>Cloud computing</li></ul>",
+      "category": "Digital Transformation",
+      "tags": [
+        "tech",
+        "ai",
+        "meta",
+        "business",
+        "digital"
+      ],
+      "readTime": 3,
+      "slug": "meta-ai-2",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "14fba4820cae",
       "originalUrl": "https://www.infoworld.com/article/4184648/openai-buys-ona-to-help-rein-in-ai-agents.html",
       "originalTitle": "OpenAI buys Ona to help rein in AI agents",
@@ -3565,7 +3631,7 @@
       "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-06-12T20:15:09.712Z",
-  "totalCount": 108,
+  "lastUpdated": "2026-06-13T04:06:06.648Z",
+  "totalCount": 110,
   "schema": "2.0"
 }
