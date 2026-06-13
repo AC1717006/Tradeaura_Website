@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "33728537227b",
+      "originalUrl": "https://www.forexfactory.com/news/1403476-gold-xauusd-holds-near-4219-as-fed-iran",
+      "originalTitle": "Gold (XAU/USD) Holds Near $4,219 as Fed, Iran Talks and Oil Risks Drive Market Mood",
+      "source": "www.forexfactory.com",
+      "imageUrl": "https://www.forexfactory.com/news/1403476-gold-xauusd-holds-near-4219-as-fed-iran/image",
+      "publishedDate": "2026-06-13 19:00:34 +0000",
+      "createdAt": "2026-06-13T19:41:28.619Z",
+      "title": "Gold Price",
+      "metaDescription": "Gold price trends",
+      "keywords": [
+        "gold price",
+        "market trends",
+        "safe haven assets",
+        "commodity market",
+        "investment"
+      ],
+      "summary": "Gold prices have been holding near $4,219 amidst global market fluctuations, with a potential US-Iran truce deal impacting market sentiment and safe-haven assets. Indian business owners should consider the implications of global market trends on their investment strategies. The RBI's monetary policies also play a role in shaping India's commodity market.",
+      "content": "<h2>Market Trends</h2><p>Gold prices have maintained their upward trend, but the gains are modest and potentially short-lived due to a possible truce deal between the US and Iran, which is improving market sentiment and negatively impacting safe-haven assets like gold.</p><p>In the Indian context, the commodity market is influenced by global trends, as well as domestic policies, such as those set by the RBI. Indian business owners and investors should stay informed about these developments to make informed decisions.</p><h2>Key Factors</h2><p>The following factors are driving the market mood:</p><ul><li>Global market sentiment</li><li>Possible US-Iran truce deal</li><li>Oil price risks</li><li>Monetary policies</li><li>Commodity market trends</li></ul>",
+      "category": "Business Tools",
+      "tags": [
+        "market",
+        "trends",
+        "gold",
+        "investment",
+        "commodity"
+      ],
+      "readTime": 3,
+      "slug": "gold-price",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "6577d2d761fa",
+      "originalUrl": "https://www.digitaltrends.com/computing/google-search-can-now-monitor-the-web-for-updates-on-the-things-you-care-about/",
+      "originalTitle": "Google Search can now monitor the web for updates on things you care about",
+      "source": "Sudhanshu Kumar Mangalam",
+      "imageUrl": "https://www.digitaltrends.com/tachyon/2026/05/Google-Search-information-agents-featured.jpg?resize=1200%2C630",
+      "publishedDate": "2026-06-13 19:19:45 +0000",
+      "createdAt": "2026-06-13T19:41:33.327Z",
+      "title": "Google Updates",
+      "metaDescription": "Google Search updates",
+      "keywords": [
+        "google search",
+        "ai mode",
+        "web monitoring",
+        "search agents",
+        "digital trends"
+      ],
+      "summary": "Google's new AI Mode allows users to create Search agents that track the web for updates on specific topics, potentially benefiting Indian businesses by providing them with real-time information to inform their decisions. This feature can be particularly useful for startup founders and enterprise decision-makers in India who need to stay up-to-date on the latest market trends. By leveraging this technology, Indian businesses can gain a competitive edge in the market.",
+      "content": "<h2>Introduction to Google AI Mode</h2><p>Google has introduced a new feature in its Search engine that enables users to create Search agents that monitor the web for updates on specific topics. This feature, part of Google's AI Mode, allows users to stay informed about the latest developments in their areas of interest. The Search agents run in the background, tracking the web for changes and sending updates to the user when something new is found.</p><h2>Benefits for Indian Businesses</h2><p>The new Google Search feature can be particularly useful for Indian businesses, especially startup founders and enterprise decision-makers. By creating Search agents that track the web for updates on specific topics, Indian businesses can stay informed about the latest market trends and make informed decisions. This can help them gain a competitive edge in the market and stay ahead of their competitors.</p><h2>How it Works</h2><p>To use this feature, users need to create a Search agent that specifies the topic they want to track. The Search agent will then run in the background, monitoring the web for updates on that topic. When something new is found, the user will receive an update, allowing them to stay informed about the latest developments in their area of interest. This feature can be used to track news, market trends, and other topics that are relevant to Indian businesses.</p>",
+      "category": "Google & Marketing",
+      "tags": [
+        "google",
+        "search",
+        "ai",
+        "trends",
+        "updates"
+      ],
+      "readTime": 3,
+      "slug": "google-updates",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "15d67d1463ed",
       "originalUrl": "https://www.reddit.com/r/ValueInvesting/comments/1u4rmqp/pls_can_we_talk_about_expected_market_reaction_on/",
       "originalTitle": "Pls can we talk about expected market reaction on US Fable 5 ban?",
@@ -3763,7 +3829,7 @@
       "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-06-13T14:06:49.399Z",
-  "totalCount": 114,
+  "lastUpdated": "2026-06-13T19:41:33.327Z",
+  "totalCount": 116,
   "schema": "2.0"
 }
