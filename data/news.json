@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "15d67d1463ed",
+      "originalUrl": "https://www.reddit.com/r/ValueInvesting/comments/1u4rmqp/pls_can_we_talk_about_expected_market_reaction_on/",
+      "originalTitle": "Pls can we talk about expected market reaction on US Fable 5 ban?",
+      "source": "/u/newmeintoibanking",
+      "imageUrl": null,
+      "publishedDate": "2026-06-13 13:56:01 +0000",
+      "createdAt": "2026-06-13T14:06:44.411Z",
+      "title": "US Fable 5 Ban Impact",
+      "metaDescription": "US ban impact on market",
+      "keywords": [
+        "market reaction",
+        "supply chain",
+        "anthropic",
+        "amazon",
+        "alphabet"
+      ],
+      "summary": "The US Fable 5 ban is expected to have a significant impact on the global market, with several players at risk of slowdown, including those in the Indian market who have ties with US-based companies. The ban may lead to a circular loop of effects on the supply chain ecosystem. Indian business owners should be aware of the potential risks and opportunities arising from this ban.",
+      "content": "<h2>Understanding the US Fable 5 Ban</h2><p>The US Fable 5 ban has sent shockwaves across the global market, with several players at risk of slowdown. From the whole supply chain ecosystem, companies like Anthropic, Amazon, Alphabet, and Microsoft are likely to be affected. The circular loop of effects on the supply chain ecosystem suggests that these companies have got direct skin in the game.</p><h2>Potential Risks and Opportunities</h2><p>Despite the ban, some companies may find opportunities to restore global access and mitigate the risks. The Indian market, with its growing ties with US-based companies, should be aware of the potential risks and opportunities arising from this ban. <ul><li>Companies with direct ties to US-based companies may face slowdown</li><li>Supply chain ecosystem may be affected</li><li>Opportunities for companies to restore global access</li><li>Risks of market volatility and uncertainty</li><li>Potential for Indian companies to capitalize on the situation</li></ul></p>",
+      "category": "MarTech",
+      "tags": [
+        "market",
+        "ban",
+        "risk",
+        "opportunities",
+        "supplychain"
+      ],
+      "readTime": 3,
+      "slug": "us-fable-5-ban-impact",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "cd246bbd3813",
+      "originalUrl": "https://www.coindesk.com/markets/2026/06/13/saylor-to-musk-thanks-to-you-25-of-mag8-firms-now-hold-bitcoin",
+      "originalTitle": "Saylor to Musk: Thanks to you, 25% of 'Mag8' firms now hold bitcoin",
+      "source": "Omkar Godbole",
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/0339788ec6da49e65916e89c4bf0f137635275cd-720x406.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+      "publishedDate": "2026-06-13 13:05:40 +0000",
+      "createdAt": "2026-06-13T14:06:49.399Z",
+      "title": "Bitcoin Adoption",
+      "metaDescription": "25% of Mag8 firms hold bitcoin",
+      "keywords": [
+        "bitcoin",
+        "cryptocurrency",
+        "investment",
+        "elon musk",
+        "michael saylor"
+      ],
+      "summary": "Michael Saylor congratulated Elon Musk on SpaceX's Nasdaq debut, noting 25% of Mag8 firms now hold bitcoin, a trend that may influence Indian businesses to consider cryptocurrency investments. This development may have implications for the Indian market, particularly in terms of RBI regulations. Indian business owners may need to assess the potential benefits and risks of investing in bitcoin.",
+      "content": "<h2>Bitcoin Adoption on the Rise</h2><p>Michael Saylor, chairman of MicroStrategy, recently congratulated Elon Musk on SpaceX's historic Nasdaq debut, coining the term 'Mag8' to refer to a group of prominent companies. Saylor noted that 25% of these Mag8 firms now hold bitcoin on their balance sheets, a significant increase in cryptocurrency adoption. This trend may have implications for Indian businesses, particularly in terms of investment strategies and potential regulatory considerations.</p><h2>Implications for Indian Businesses</h2><p>As the Indian market continues to evolve, business owners may need to assess the potential benefits and risks of investing in bitcoin. With the Reserve Bank of India (RBI) playing a crucial role in regulating cryptocurrency transactions, Indian companies must stay informed about the latest developments and guidelines. Some key considerations for Indian businesses include:</p><ul><li>Understanding the regulatory landscape and potential risks associated with cryptocurrency investments</li><li>Evaluating the potential benefits of diversifying investment portfolios with bitcoin</li><li>Assessing the impact of cryptocurrency adoption on business operations and financial management</li><li>Staying up-to-date with the latest trends and developments in the global cryptocurrency market</li><li>Developing strategies to mitigate potential risks and capitalize on opportunities in the cryptocurrency space</li></ul>",
+      "category": "MarTech",
+      "tags": [
+        "bitcoin",
+        "business",
+        "invest",
+        "tech",
+        "market"
+      ],
+      "readTime": 3,
+      "slug": "bitcoin-adoption",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "73f49b65548b",
       "originalUrl": "https://www.benzinga.com/markets/equities/26/06/53183317/jim-cramer-says-spacexs-mega-debut-could-unleash-a-wave-of-ai-deals-in-the-week-ahead",
       "originalTitle": "Jim Cramer Says SpaceX's Mega Debut Could Unleash A Wave Of AI Deals In The Week Ahead - Accenture (NYSE:",
@@ -3697,7 +3763,7 @@
       "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-06-13T09:21:20.938Z",
-  "totalCount": 112,
+  "lastUpdated": "2026-06-13T14:06:49.399Z",
+  "totalCount": 114,
   "schema": "2.0"
 }
