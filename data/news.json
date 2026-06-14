@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "0853cc3de433",
+      "originalUrl": "https://www.investing.com/news/stock-market-news/eu-commission-looking-at-practical-consequences-of-anthropic-decision-spokesperson-says-4741090",
+      "originalTitle": "EU Commission looking at practical consequences of Anthropic decision, spokesperson says By Reuters",
+      "source": "www.investing.com",
+      "imageUrl": "https://i-invdn-com.investing.com/news/https://i-invdn-com.investing.com/trkd-images/LYNXMPEM5D0DQ_L.jpg",
+      "publishedDate": "2026-06-14 13:48:27 +0000",
+      "createdAt": "2026-06-14T14:10:49.794Z",
+      "title": "EU Commission Review",
+      "metaDescription": "EU Commission reviews Anthropic decision",
+      "keywords": [
+        "EU Commission",
+        "Anthropic",
+        "Decision",
+        "Regulation",
+        "Compliance"
+      ],
+      "summary": "The EU Commission is examining the practical consequences of the Anthropic decision, which may have implications for Indian businesses operating in the European market. This review may lead to new regulations or compliance requirements. Indian companies should monitor the situation closely to adapt to potential changes.",
+      "content": "<h2>EU Commission Review of Anthropic Decision</h2><p>The European Union Commission is currently reviewing the practical consequences of the Anthropic decision, according to a spokesperson. This decision may have significant implications for businesses operating in the European market, including Indian companies with a presence in the region.</p><p>The EU Commission's review is focused on understanding the potential impact of the Anthropic decision on the market and identifying any necessary regulatory responses. This may involve assessing the decision's effects on competition, consumer protection, and other areas of concern.</p><h2>Potential Implications for Indian Businesses</h2><p>Indian businesses operating in the European market should be aware of the potential implications of the EU Commission's review. Depending on the outcome, Indian companies may need to adapt to new regulations or compliance requirements, which could affect their operations and bottom line.</p><ul><li>Monitoring regulatory developments in the EU</li><li>Assessing potential risks and opportunities</li><li>Developing strategies to comply with new regulations</li></ul>",
+      "category": "MarTech",
+      "tags": [
+        "eu",
+        "news",
+        "business",
+        "regulation",
+        "compliance"
+      ],
+      "readTime": 3,
+      "slug": "eu-commission-review",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "0e743fbee516",
+      "originalUrl": "https://www.digitaltrends.com/computing/apple-intelligence-2-0-what-the-new-ai-features-actually-mean/",
+      "originalTitle": "Apple Intelligence 2.0: What the New AI Features Actually Mean",
+      "source": "Paulo Vargas",
+      "imageUrl": "https://www.digitaltrends.com/tachyon/2026/06/siri-ai.jpeg?resize=1200%2C630",
+      "publishedDate": "2026-06-14 13:55:05 +0000",
+      "createdAt": "2026-06-14T14:10:54.717Z",
+      "title": "AI Features",
+      "metaDescription": "Apple AI features",
+      "keywords": [
+        "Artificial Intelligence",
+        "Apple Intelligence",
+        "AI Technology",
+        "Indian Market",
+        "Digital Transformation"
+      ],
+      "summary": "Apple's new AI features aim to make AI feel native to the iPhone, which can impact Indian businesses and consumers who use Apple devices. This development can also influence the Indian market's approach to AI adoption. Indian business owners should be aware of these advancements to stay competitive.",
+      "content": "<h2>Introduction to Apple Intelligence 2.0</h2><p>Apple Intelligence 2.0 is Apple’s attempt to make AI feel native to the iPhone, with Siri as the visible test, Gemini as the quiet twist, and app plumbing underneath. This new AI feature can potentially change the way Indian consumers interact with their Apple devices, and Indian businesses should take note of this development.</p><h2>Implications for Indian Businesses</h2><p>As Apple continues to push the boundaries of AI technology, Indian businesses should consider how these advancements can be leveraged to improve their operations and customer experiences. With the growing demand for digital transformation in the Indian market, Apple's AI features can be a key factor in driving this change.</p><h2>Key Features of Apple Intelligence 2.0</h2><p>Some of the key features of Apple Intelligence 2.0 include:<ul><li>Improved Siri capabilities</li><li>Enhanced app integration</li><li>Advanced machine learning algorithms</li></ul>These features can enable Indian businesses to develop more sophisticated and personalized customer experiences, ultimately driving growth and competitiveness in the Indian market.</p>",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "apple",
+        "business",
+        "india",
+        "tech"
+      ],
+      "readTime": 3,
+      "slug": "ai-features",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "cbd9d7fb6c6d",
       "originalUrl": "https://www.business-standard.com/industry/news/vaishnaw-expects-more-firms-to-start-production-of-memory-chips-in-india-126061400295_1.html",
       "originalTitle": "Vaishnaw expects more firms to start production of memory chips in India",
@@ -3961,7 +4027,7 @@
       "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-06-14T09:40:24.645Z",
-  "totalCount": 120,
+  "lastUpdated": "2026-06-14T14:10:54.717Z",
+  "totalCount": 122,
   "schema": "2.0"
 }
