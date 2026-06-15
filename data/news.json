@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "57613b2cd10b",
+      "originalUrl": "https://www.bloomberg.com/news/articles/2026-06-15/kalshi-builds-ai-agent-to-stress-test-prediction-market-bets",
+      "originalTitle": "Kalshi Builds AI Agent to Stress-Test Prediction Market Bets",
+      "source": "www.bloomberg.com",
+      "imageUrl": null,
+      "publishedDate": "2026-06-15 12:00:31 +0000",
+      "createdAt": "2026-06-15T12:22:32.589Z",
+      "title": "AI Agent for Markets",
+      "metaDescription": "AI agent for market bets",
+      "keywords": [
+        "AI",
+        "prediction markets",
+        "machine learning",
+        "market analysis",
+        "automation"
+      ],
+      "summary": "Kalshi Inc. has developed an AI agent to stress-test prediction market bets, which can be a useful tool for Indian businesses looking to analyze market trends. This technology can help Indian companies make more informed decisions. The use of AI in market analysis is becoming increasingly prevalent in the Indian market.",
+      "content": "<h2>Introduction to AI-Powered Market Analysis</h2><p>Kalshi Inc. has developed its own AI agent to help deal with internal processes, including the wording of its prediction market contracts. This AI agent can be used to stress-test prediction market bets, allowing companies to make more informed decisions. The use of AI in market analysis is becoming increasingly important for businesses in India, as it can help them stay ahead of the competition.</p><h2>Benefits of AI-Powered Market Analysis</h2><p>The AI agent developed by Kalshi Inc. can be used to analyze large amounts of data, identify trends, and make predictions about future market movements. This can be particularly useful for Indian businesses looking to expand their operations or launch new products. Some of the key benefits of AI-powered market analysis include: <ul><li>Improved accuracy</li><li>Increased efficiency</li><li>Enhanced decision-making</li><li>Better risk management</li><li>Increased competitiveness</li></ul></p>",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "markets",
+        "business",
+        "india",
+        "tech"
+      ],
+      "readTime": 3,
+      "slug": "ai-agent-for-markets",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "4753b7c7887e",
+      "originalUrl": "https://news.alphastreet.com/crowdstrike-is-building-a-security-platform-story-bigger-than-endpoint-growth/",
+      "originalTitle": "CrowdStrike Is Building a Security Platform Story Bigger Than Endpoint Growth",
+      "source": "Newsdesk",
+      "imageUrl": "https://cdn.news.alphastreet.com/wp-content/uploads/2026/05/29110548/market-news-1536x864-5-1024x576.jpg",
+      "publishedDate": "2026-06-15 11:53:44 +0000",
+      "createdAt": "2026-06-15T12:22:37.401Z",
+      "title": "CrowdStrike Expands",
+      "metaDescription": "CrowdStrike builds security platform",
+      "keywords": [
+        "CrowdStrike",
+        "security platform",
+        "endpoint security",
+        "cybersecurity",
+        "cloud security"
+      ],
+      "summary": "CrowdStrike is expanding its security platform beyond endpoint security, offering a comprehensive solution for businesses. This move is relevant to the Indian market as companies increasingly adopt cloud-based services. Indian business owners can benefit from CrowdStrike's advanced security features.",
+      "content": "<h2>CrowdStrike's Growing Security Platform</h2><p>CrowdStrike is still widely recognized as a leader in endpoint security, but the company's economics are shifting towards a more comprehensive security platform. The latest reported developments indicate that CrowdStrike is building a security platform story that goes beyond endpoint growth. This expansion is driven by the increasing demand for cloud-based security solutions.</p><p>In the Indian market, companies are rapidly adopting cloud-based services, making security a top priority. CrowdStrike's advanced security features, including threat intelligence and incident response, can help Indian businesses protect themselves from cyber threats. The company's security platform is designed to provide real-time protection and detection, giving businesses the ability to respond quickly to security incidents.</p><h2>Key Features of CrowdStrike's Security Platform</h2><p>The CrowdStrike security platform offers a range of features, including:</p><ul><li>Cloud-based security solutions</li><li>Threat intelligence and incident response</li><li>Real-time protection and detection</li><li>Advanced analytics and reporting</li><li>Integration with existing security systems</li></ul><p>These features make CrowdStrike's security platform an attractive solution for Indian businesses looking to enhance their security posture.</p>",
+      "category": "SaaS & Software",
+      "tags": [
+        "cloud",
+        "security",
+        "platform",
+        "solutions",
+        "cyber"
+      ],
+      "readTime": 3,
+      "slug": "crowdstrike-expands",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "e80efde00558",
       "originalUrl": "https://www.bloomberg.com/news/videos/2026-06-15/lubrizol-aims-to-double-india-rev-over-next-5-years-video",
       "originalTitle": "Lubrizol Aims to Double India Rev. Over Next 5 Years",
@@ -4159,7 +4225,7 @@
       "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-06-15T04:47:05.982Z",
-  "totalCount": 126,
+  "lastUpdated": "2026-06-15T12:22:37.401Z",
+  "totalCount": 128,
   "schema": "2.0"
 }
