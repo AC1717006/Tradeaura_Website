@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "1d5cda24eb5a",
+      "originalUrl": "https://www.wsj.com/tech/judge-dismisses-elon-musks-xai-trade-secret-lawsuit-against-openai-f637c52e",
+      "originalTitle": "Judge Dismisses Elon Musk’s xAI Trade-Secret Lawsuit Against OpenAI",
+      "source": "Alyssa Lukpat",
+      "imageUrl": null,
+      "publishedDate": "2026-06-15 20:47:00 +0000",
+      "createdAt": "2026-06-15T20:58:34.315Z",
+      "title": "AI Lawsuit Dismissed",
+      "metaDescription": "AI trade secret lawsuit dismissed",
+      "keywords": [
+        "AI",
+        "trade secrets",
+        "Elon Musk",
+        "OpenAI",
+        "xAI"
+      ],
+      "summary": "A US judge has dismissed a lawsuit filed by Elon Musk's xAI against OpenAI, alleging trade secret theft. This development has implications for Indian businesses operating in the AI space. Indian companies must navigate complex trade secret laws to protect their intellectual property.",
+      "content": "<h2>Background of the Lawsuit</h2><p>A US judge has dismissed a lawsuit filed by Elon Musk's xAI against OpenAI, alleging that OpenAI poached an xAI engineer who worked on a company chatbot. The suit claimed that the engineer took trade secrets related to the chatbot with them to OpenAI. However, the judge ruled that xAI failed to provide sufficient evidence to support its claims.</p><h2>Implications for Indian Businesses</h2><p>The dismissal of this lawsuit has significant implications for Indian businesses operating in the AI space. As the Indian market continues to grow and evolve, companies must navigate complex trade secret laws to protect their intellectual property. Indian businesses must ensure that they have robust measures in place to safeguard their trade secrets and prevent theft.</p><h2>Key Takeaways</h2><p>Key takeaways from this development include:</p><ul><li>Indian companies must prioritize trade secret protection</li><li>Robust measures must be in place to prevent trade secret theft</li><li>Companies must navigate complex trade secret laws to protect their intellectual property</li><li>Indian businesses must be aware of the risks of trade secret theft in the AI space</li><li>Companies must take proactive steps to safeguard their trade secrets</li></ul>",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "india",
+        "business",
+        "law",
+        "tech"
+      ],
+      "readTime": 3,
+      "slug": "ai-lawsuit-dismissed",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "49e2ed4d6a7b",
+      "originalUrl": "https://wccftech.com/xbox-studios-negotiate-buyout-to-avoid-closure-compulsion-double-fine-ninja-theory/",
+      "originalTitle": "Compulsion, Double-Fine, Ninja Theory, and \"Several Other Studios\" at Xbox Reportedly up for Potential Closure",
+      "source": "David Carcasole",
+      "imageUrl": "https://cdn.wccftech.com/wp-content/uploads/2026/04/Xbox-Logo-1920x1080.jpg",
+      "publishedDate": "2026-06-15 20:38:00 +0000",
+      "createdAt": "2026-06-15T20:58:39.808Z",
+      "title": "Xbox Studios Face Closure",
+      "metaDescription": "Xbox studios negotiate buyout",
+      "keywords": [
+        "Xbox",
+        "gaming",
+        "studios",
+        "closure",
+        "buyout"
+      ],
+      "summary": "Indian gaming industry may be impacted by potential closure of Xbox studios, including Compulsion, Double-Fine, and Ninja Theory, as they negotiate a buyout to avoid shutdown, with possible implications for the Indian market and gamers, although no direct link to India is reported, the global gaming industry may still feel the effects",
+      "content": "<h2>Xbox Studios Negotiate Buyout</h2><p>A recent report claims that several Xbox studios, including Compulsion, Double-Fine, and Ninja Theory, are attempting to negotiate a buyout to avoid potential closure. This news may have implications for the global gaming industry, and although there is no direct connection to India, the country's growing gaming market may still be affected. The Indian gaming industry has been expanding rapidly, with many domestic and international players investing in the sector.</p><h2>Potential Impact on Indian Gaming Industry</h2><p>While the potential closure of Xbox studios may not have a direct impact on India, it could still influence the global gaming industry, which in turn may affect Indian gamers and the local gaming market. The Indian gaming industry is regulated by various government agencies, but the impact of global events on the sector is still significant. Indian business owners and startup founders in the gaming industry should be aware of these global developments and their potential implications.</p><h2>Key Points</h2><ul><li>Xbox studios, including Compulsion, Double-Fine, and Ninja Theory, are negotiating a buyout to avoid closure</li><li>The potential closure may have implications for the global gaming industry</li><li>India's growing gaming market may be indirectly affected by global events in the gaming industry</li><li>Indian business owners and startup founders in the gaming industry should be aware of global developments</li><li>The Indian gaming industry is regulated by various government agencies, but global events can still have an impact</li></ul>",
+      "category": "Business Tools",
+      "tags": [
+        "gaming",
+        "india",
+        "business",
+        "tech",
+        "news"
+      ],
+      "readTime": 3,
+      "slug": "xbox-studios-face-closure",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "57613b2cd10b",
       "originalUrl": "https://www.bloomberg.com/news/articles/2026-06-15/kalshi-builds-ai-agent-to-stress-test-prediction-market-bets",
       "originalTitle": "Kalshi Builds AI Agent to Stress-Test Prediction Market Bets",
@@ -4225,7 +4291,7 @@
       "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-06-15T12:22:37.401Z",
-  "totalCount": 128,
+  "lastUpdated": "2026-06-15T20:58:39.808Z",
+  "totalCount": 130,
   "schema": "2.0"
 }
