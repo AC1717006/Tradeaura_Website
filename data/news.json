@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "5cb90a07b498",
+      "originalUrl": "https://www.investing.com/news/economic-indicators/is-the-boes-hawkish-stance-here-to-stay-4744341",
+      "originalTitle": "Is the BoE’s hawkish stance here to stay? By Investing.com",
+      "source": "Maria Ponnezhath",
+      "imageUrl": "https://i-invdn-com.investing.com/news/world_news_2_69x52._800x533_L_1419494365.jpg",
+      "publishedDate": "2026-06-16 10:54:09 +0000",
+      "createdAt": "2026-06-16T11:18:00.674Z",
+      "title": "Bank Rate Trends",
+      "metaDescription": "Bank rate trends and impacts",
+      "keywords": [
+        "bank rates",
+        "interest rates",
+        "monetary policy",
+        "economy",
+        "inflation"
+      ],
+      "summary": "The Bank of England's recent hawkish stance may influence global economic trends, including India's, as the Reserve Bank of India monitors international monetary policies to inform its own decisions on interest rates and inflation control. Indian business owners should be aware of these trends to make informed decisions. The RBI's actions can significantly impact the Indian market and economy.",
+      "content": "<h2>Introduction to Bank Rate Trends</h2><p>The Bank of England's recent hawkish stance has sparked discussions about its potential long-term implications on the global economy, including India. As the Reserve Bank of India (RBI) closely monitors international monetary policies, it is essential for Indian business owners to understand these trends and their potential effects on the Indian market.</p><h2>Understanding the RBI's Role</h2><p>The RBI plays a crucial role in controlling inflation and maintaining economic stability in India. By analyzing global monetary policies, including the Bank of England's decisions, the RBI can make informed decisions about interest rates and other economic measures. This, in turn, can impact the Indian market and economy, influencing business decisions and investments.</p><h2>Key Considerations for Indian Business Owners</h2><p>Indian business owners should consider the following factors when evaluating the impact of global bank rate trends on their operations:<ul><li>Interest rates and borrowing costs</li><li>Inflation control and price stability</li><li>Global economic trends and trade policies</li><li>Investment opportunities and risks</li><li>Regulatory compliance and adherence to RBI guidelines</li></ul></p>",
+      "category": "Business Tools",
+      "tags": [
+        "economy",
+        "business",
+        "finance",
+        "market",
+        "trends"
+      ],
+      "readTime": 3,
+      "slug": "bank-rate-trends",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "d1dce0487b63",
+      "originalUrl": "https://thenextweb.com/news/1password-acquires-apono-ai-agent-access-governance",
+      "originalTitle": "1Password buys Apono to govern AI-agent access",
+      "source": "Cristian Dina",
+      "imageUrl": "https://media.thenextweb.com/2026/06/Apono-founders.avif",
+      "publishedDate": "2026-06-16 11:05:17 +0000",
+      "createdAt": "2026-06-16T11:18:05.624Z",
+      "title": "1Password Acquires Apono",
+      "metaDescription": "1Password buys Apono for AI access governance",
+      "keywords": [
+        "1Password",
+        "Apono",
+        "AI Governance",
+        "Access Management",
+        "Cybersecurity"
+      ],
+      "summary": "1Password's acquisition of Apono enhances its access management capabilities, enabling Indian businesses to better govern AI-agent access within their systems. This move highlights the growing importance of AI governance in the Indian market. Indian companies can leverage this technology to strengthen their cybersecurity",
+      "content": "<h2>Enhancing Access Management with AI Governance</h2><p>1Password has acquired Israeli startup Apono, reportedly for $250m to $300m, to govern what humans, machines and AI agents can access inside company systems. This strategic move is expected to enhance 1Password's capabilities in access management, providing Indian businesses with a more comprehensive solution to manage and govern access within their systems.</p><p>The acquisition of Apono by 1Password underscores the growing need for AI governance in the Indian market. As Indian companies increasingly adopt AI and machine learning technologies, the need to govern and manage access to sensitive data and systems becomes more critical. With this acquisition, 1Password is well-positioned to provide Indian businesses with the tools and technologies they need to strengthen their cybersecurity and access management capabilities.</p><h2>Key Benefits for Indian Businesses</h2><p>Indian companies can expect several key benefits from 1Password's acquisition of Apono, including:</p><ul><li>Enhanced access management capabilities</li><li>Improved AI governance and oversight</li><li>Strengthened cybersecurity and data protection</li><li>Increased compliance with regulatory requirements</li><li>Better management of human, machine, and AI agent access</li></ul>",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "security",
+        "governance",
+        "access",
+        "management"
+      ],
+      "readTime": 3,
+      "slug": "1password-acquires-apono",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "a0e6da59acba",
       "originalUrl": "https://seekingalpha.com/news/4603850-gavin-newsom-claims-trumps-doj-is-investigating-him-and-his-wife?feed_item_type=news",
       "originalTitle": "Gavin Newsom claims Trump's DOJ is investigating him and his wife",
@@ -4357,7 +4423,7 @@
       "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-06-16T04:44:13.119Z",
-  "totalCount": 132,
+  "lastUpdated": "2026-06-16T11:18:05.624Z",
+  "totalCount": 134,
   "schema": "2.0"
 }
