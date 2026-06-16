@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "a0e6da59acba",
+      "originalUrl": "https://seekingalpha.com/news/4603850-gavin-newsom-claims-trumps-doj-is-investigating-him-and-his-wife?feed_item_type=news",
+      "originalTitle": "Gavin Newsom claims Trump's DOJ is investigating him and his wife",
+      "source": "seekingalpha.com",
+      "imageUrl": null,
+      "publishedDate": "2026-06-16 04:33:27 +0000",
+      "createdAt": "2026-06-16T04:44:08.135Z",
+      "title": "US Politics",
+      "metaDescription": "US investigation news",
+      "keywords": [
+        "investigation",
+        "US",
+        "politics",
+        "DOJ",
+        "Newsom"
+      ],
+      "summary": "Gavin Newsom, the Governor of California, has claimed that the US Department of Justice is investigating him and his wife, although this news does not directly impact the Indian market. Indian business owners may be interested in understanding the implications of political instability on global markets. The RBI and SEBI regulate Indian markets, which are not directly affected by this investigation.",
+      "content": "<h2>Introduction to the Investigation</h2><p>Gavin Newsom, the Governor of California, has claimed that the US Department of Justice is investigating him and his wife. This news has been making headlines in the US, but its impact on the Indian market is minimal. The Indian market is regulated by the RBI and SEBI, which ensures that Indian businesses are protected from external factors.</p><h2>Implications for Indian Business Owners</h2><p>Although the investigation does not directly impact Indian businesses, it is essential for Indian business owners to understand the implications of political instability on global markets. Political uncertainty can lead to market volatility, which can affect Indian businesses that operate globally. <ul><li>Market volatility can impact export-oriented businesses</li><li>Political instability can affect foreign investment in India</li><li>Indian businesses must be prepared to adapt to changing global market conditions</li></ul></p><h2>Conclusion</h2><p>In conclusion, while the investigation into Gavin Newsom and his wife does not directly impact the Indian market, it is crucial for Indian business owners to stay informed about global political developments. By understanding the implications of political instability, Indian businesses can prepare themselves for any potential challenges and opportunities that may arise.</p>",
+      "category": "Business Tools",
+      "tags": [
+        "news",
+        "usa",
+        "politics",
+        "business",
+        "market"
+      ],
+      "readTime": 3,
+      "slug": "us-politics",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "d1b13d0b8547",
+      "originalUrl": "https://www.thestar.com.my/tech/tech-news/2026/06/16/openai-spending-hit-34-billion-last-year-ahead-of-planned-ipo-ft-reports",
+      "originalTitle": "OpenAI spending hit $34 billion last year ahead of planned IPO, FT reports",
+      "source": "www.thestar.com.my",
+      "imageUrl": "https://apicms.thestar.com.my/uploads/images/2026/06/16/3960847.jpg",
+      "publishedDate": "2026-06-16 04:11:00 +0000",
+      "createdAt": "2026-06-16T04:44:13.118Z",
+      "title": "AI Spending",
+      "metaDescription": "OpenAI spending $34 billion",
+      "keywords": [
+        "OpenAI",
+        "AI Market",
+        "IPO",
+        "Artificial Intelligence",
+        "Investment"
+      ],
+      "summary": "OpenAI's massive spending of $34 billion last year indicates a significant shift in the AI market, with potential implications for Indian businesses looking to invest in AI technology. As the Indian market continues to grow, companies may need to consider AI adoption to stay competitive. This development may also impact RBI and SEBI regulations in the future.",
+      "content": "<h2>OpenAI's Massive Spending</h2><p>OpenAI spent $34 billion last year to dominate the booming AI market ahead of its planned IPO, the Financial Times reported on Monday. This significant investment highlights the company's aggressive strategy to lead the AI industry.</p><p>The spending is a clear indication of OpenAI's commitment to advancing AI technology and expanding its market share. As the Indian market continues to grow, businesses may need to consider adopting AI solutions to stay competitive and leverage the potential of this technology.</p><h2>Implications for Indian Businesses</h2><p>Indian companies, particularly those in the technology and finance sectors, may need to reassess their investment strategies in light of OpenAI's massive spending. The development may also have implications for RBI and SEBI regulations, as the Indian government continues to monitor the growth of the AI market.</p><p>Some key points to consider include: <ul><li>Investing in AI technology to stay competitive</li><li>Monitoring RBI and SEBI regulations for potential changes</li><li>Assessing the potential impact of OpenAI's spending on the Indian market</li><li>Considering partnerships or collaborations with AI companies</li><li>Developing strategies to leverage AI for business growth</li></ul></p>",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "business",
+        "investment",
+        "technology",
+        "market"
+      ],
+      "readTime": 3,
+      "slug": "ai-spending",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "1d5cda24eb5a",
       "originalUrl": "https://www.wsj.com/tech/judge-dismisses-elon-musks-xai-trade-secret-lawsuit-against-openai-f637c52e",
       "originalTitle": "Judge Dismisses Elon Musk’s xAI Trade-Secret Lawsuit Against OpenAI",
@@ -4291,7 +4357,7 @@
       "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-06-15T20:58:39.808Z",
-  "totalCount": 130,
+  "lastUpdated": "2026-06-16T04:44:13.119Z",
+  "totalCount": 132,
   "schema": "2.0"
 }
