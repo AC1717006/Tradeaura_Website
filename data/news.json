@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "65e27a73de4c",
+      "originalUrl": "https://www.keloland.com/news/national-world-news/ap-trump-has-nothing-but-praise-for-modi-at-g7-after-tensions-over-us-military-strike-trade/",
+      "originalTitle": "Trump has nothing but praise for Modi at G7 after tensions over US military strike, trade",
+      "source": "COLLIN BINKLEY and AAMER MADHANI, Associated Press",
+      "imageUrl": null,
+      "publishedDate": "2026-06-17 19:54:00 +0000",
+      "createdAt": "2026-06-17T20:17:12.980Z",
+      "title": "Trump Praises Modi",
+      "metaDescription": "Trump praises Modi at G7",
+      "keywords": [
+        "India",
+        "US",
+        "Trade",
+        "Modi",
+        "Trump"
+      ],
+      "summary": "US President Donald Trump praises Indian Prime Minister Narendra Modi at the G7 summit, despite trade tensions between the two countries. This development may have implications for Indian businesses and trade relations. The move is seen as an attempt to strengthen ties between the two nations.",
+      "content": "<h2>US-India Relations</h2><p>US President Donald Trump recently praised Indian Prime Minister Narendra Modi at the G7 summit in France, describing him as a loyal friend. This move comes despite ongoing trade tensions and other issues between the two countries. The relationship between the US and India is crucial for Indian businesses, particularly in the context of trade and commerce.</p><h2>Implications for Indian Businesses</h2><p>The development may have significant implications for Indian businesses, especially those involved in international trade. A stronger US-India relationship could lead to increased trade opportunities and investments. However, it is essential for Indian businesses to be aware of the ongoing trade tensions and their potential impact on the Indian market.</p><h2>Key Takeaways</h2><ul><li>US President Donald Trump praises Indian Prime Minister Narendra Modi at the G7 summit</li><li>Ongoing trade tensions between the US and India may impact Indian businesses</li><li>A stronger US-India relationship could lead to increased trade opportunities and investments</li><li>Indian businesses must be aware of the potential implications of US-India trade relations</li><li>The development may have significant implications for the Indian market and economy</li></ul>",
+      "category": "Business Tools",
+      "tags": [
+        "india",
+        "us",
+        "trade",
+        "politics",
+        "economy"
+      ],
+      "readTime": 3,
+      "slug": "trump-praises-modi",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "7fa45f8a1357",
+      "originalUrl": "https://techcrunch.com/2026/06/17/ftc-lawsuit-reveals-how-subscription-scam-networks-evade-app-store-enforcement/",
+      "originalTitle": "FTC lawsuit reveals how subscription scam networks evade app store enforcement | TechCrunch",
+      "source": "Sarah Perez",
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2024/01/app-store-2024-v3.jpg?resize=1200,675",
+      "publishedDate": "2026-06-17 19:46:16 +0000",
+      "createdAt": "2026-06-17T20:17:18.053Z",
+      "title": "App Scams",
+      "metaDescription": "subscription scam networks evade app store",
+      "keywords": [
+        "subscription scams",
+        "app store enforcement",
+        "FTC lawsuit",
+        "consumer complaints",
+        "payment infrastructure"
+      ],
+      "summary": "A recent FTC lawsuit has revealed how subscription scam networks evade app store enforcement, creating a challenge for Indian businesses to protect their customers. This issue is relevant to the Indian market as it highlights the need for robust payment infrastructure and consumer protection. Indian business owners must be aware of these scams to safeguard their customers' interests.",
+      "content": "<h2>Introduction to App Scams</h2><p>A new FTC lawsuit has shed light on the sophisticated methods used by subscription scam networks to evade app store enforcement. These scam operators allegedly use shell companies and complex payment infrastructure to stay active on app stores, despite numerous consumer complaints. This issue is particularly relevant in the Indian context, where the growth of the digital economy has led to an increase in online transactions and payments.</p><h2>Implications for Indian Businesses</h2><p>Indian business owners and startup founders must be aware of these scams to protect their customers and maintain trust in the digital economy. The Reserve Bank of India (RBI) and the Securities and Exchange Board of India (SEBI) have been working to regulate and monitor online payments and transactions. However, the complexity of these scam networks highlights the need for continued vigilance and cooperation between regulators, businesses, and consumers.</p><h2>Key Takeaways</h2><ul><li>Subscription scam networks use shell companies and payment infrastructure to evade app store enforcement</li><li>Indian businesses must be aware of these scams to protect their customers</li><li>Regulators such as the RBI and SEBI play a crucial role in monitoring and regulating online payments and transactions</li><li>Consumer education and awareness are essential in preventing these scams</li><li>Indian businesses must prioritize consumer protection and trust to maintain a competitive edge in the digital economy</li></ul>",
+      "category": "Digital Transformation",
+      "tags": [
+        "scams",
+        "payments",
+        "regulation",
+        "consumers",
+        "trust"
+      ],
+      "readTime": 3,
+      "slug": "app-scams",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "5ca74ccd317b",
       "originalUrl": "https://www.benzinga.com/markets/equities/26/06/53254039/jp-morgans-david-kelly-says-its-a-great-economy-for-stocks-amid-ai-led-bull-market-despite-inflation-risks",
       "originalTitle": "JP Morgan's David Kelly Says It's 'A Great Economy For Stocks' Amid AI-Led Bull Market Despite Inflation",
@@ -4753,7 +4819,7 @@
       "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-06-17T15:41:02.480Z",
-  "totalCount": 144,
+  "lastUpdated": "2026-06-17T20:17:18.054Z",
+  "totalCount": 146,
   "schema": "2.0"
 }
