@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "ec154c8827d5",
+      "originalUrl": "https://economictimes.indiatimes.com/markets/forex/forex-news/rupee-closes-flat-at-94-52-vs-usd-as-oil-led-rally-faces-off-against-dollar-demand-fed-verdict-looms/articleshow/131796362.cms",
+      "originalTitle": "Rupee closes flat at 94.52 vs USD as oil-led rally faces off against dollar demand; Fed verdict looms",
+      "source": "SECTIONS Rupee closes flat; Fed verdict looms Reuters",
+      "imageUrl": "https://img.etimg.com/thumb/msid-131796362,width-1200,height-630,imgsize-33218,overlay-etmarkets/articleshow.jpg",
+      "publishedDate": "2026-06-17 10:43:49 +0000",
+      "createdAt": "2026-06-17T11:02:52.917Z",
+      "title": "Rupee Flat",
+      "metaDescription": "Rupee closes flat vs USD",
+      "keywords": [
+        "rupee",
+        "usd",
+        "oil prices",
+        "federal reserve",
+        "forex"
+      ],
+      "summary": "The Indian rupee closed almost flat against the US dollar due to increased corporate and importer demand for dollars. A significant drop in oil prices had initially boosted the rupee. The market is now focused on the US Federal Reserve's policy decision.",
+      "content": "<h2>Rupee Closes Flat Against USD</h2><p>The Indian rupee closed almost flat against the US dollar on Wednesday, with earlier gains erased as corporate and importer demand for dollars increased. A significant drop in oil prices had initially boosted the rupee, but the rally was short-lived.</p><p>Market focus now shifts to the US Federal Reserve's policy decision, which is expected to have an impact on the Indian market. The Reserve Bank of India (RBI) has been closely monitoring the situation, and any changes in the US Federal Reserve's policy could affect the rupee's value.</p><h2>Key Factors Affecting the Rupee</h2><p>The following factors are expected to affect the rupee's value in the coming days:</p><ul><li>Oil prices: Any further drop in oil prices could boost the rupee.</li><li>US Federal Reserve's policy decision: The decision is expected to have a significant impact on the Indian market.</li><li>Corporate and importer demand for dollars: Increased demand for dollars could weaken the rupee.</li><li>SEBI's regulations: The Securities and Exchange Board of India (SEBI) has been taking steps to regulate the forex market, which could affect the rupee's value.</li><li>Global market trends: Any changes in global market trends could also affect the rupee's value.</ul>",
+      "category": "Business Tools",
+      "tags": [
+        "rupee",
+        "usd",
+        "forex",
+        "market",
+        "economy"
+      ],
+      "readTime": 3,
+      "slug": "rupee-flat",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "01888564bf0b",
+      "originalUrl": "https://www.techradar.com/pro/why-most-ai-projects-dont-deliver-roi-and-how-to-fix-it",
+      "originalTitle": "Why most AI projects don’t deliver ROI and how to fix it",
+      "source": "Ciaran Cosgrave",
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/PAztEScphfxGJfYno5NjrL-2560-80.jpg",
+      "publishedDate": "2026-06-17 10:25:53 +0000",
+      "createdAt": "2026-06-17T11:02:58.089Z",
+      "title": "AI Projects ROI",
+      "metaDescription": "AI projects ROI in India",
+      "keywords": [
+        "AI",
+        "ROI",
+        "India",
+        "Automation",
+        "Technology"
+      ],
+      "summary": "Most AI projects in India fail to deliver return on investment due to half-hearted approaches, but with a strategic mindset, businesses can unlock the true potential of AI and achieve significant ROI. Indian companies can learn from global best practices to implement AI effectively. By doing so, they can stay competitive in the Indian market and improve their bottom line.",
+      "content": "<h2>Introduction to AI ROI in India</h2><p>Many Indian businesses have embarked on AI projects, but a significant number of them fail to deliver the expected return on investment (ROI). According to various studies, the primary reason for this is the half-hearted approach taken by companies. To achieve significant ROI from AI projects, Indian businesses need to adopt a strategic mindset and invest in the right technology and talent.</p><h2>Common Mistakes in AI Implementation</h2><p>Some of the common mistakes made by Indian companies when implementing AI include inadequate data quality, insufficient training data, and lack of clear goals. To overcome these challenges, businesses need to focus on building a strong data foundation, developing a clear understanding of their goals, and investing in the right talent and technology.</p><h2>Best Practices for AI Implementation</h2><p>To achieve significant ROI from AI projects, Indian businesses can follow best practices such as starting small, focusing on high-impact areas, and continuously monitoring and evaluating their AI systems. By doing so, they can unlock the true potential of AI and stay competitive in the Indian market.</p><ul><li>Start small and scale up gradually</li><li>Focus on high-impact areas such as customer service and supply chain management</li><li>Continuously monitor and evaluate AI systems</li><li>Invest in the right talent and technology</li><li>Develop a clear understanding of goals and objectives</li></ul>",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "tech",
+        "india",
+        "business",
+        "roi"
+      ],
+      "readTime": 3,
+      "slug": "ai-projects-roi",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "8a0a4197cfd2",
       "originalUrl": "https://www.fool.com.au/2026/06/17/weve-just-seen-the-future-of-retail-many-arent-ready/",
       "originalTitle": "We've just seen the future of retail. Many aren't ready",
@@ -4621,7 +4687,7 @@
       "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-06-17T04:24:35.493Z",
-  "totalCount": 140,
+  "lastUpdated": "2026-06-17T11:02:58.090Z",
+  "totalCount": 142,
   "schema": "2.0"
 }
