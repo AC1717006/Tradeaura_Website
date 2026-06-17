@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "8a0a4197cfd2",
+      "originalUrl": "https://www.fool.com.au/2026/06/17/weve-just-seen-the-future-of-retail-many-arent-ready/",
+      "originalTitle": "We've just seen the future of retail. Many aren't ready",
+      "source": "Www Facebook Com; Scottphillipsmoney; Scott Phillips",
+      "imageUrl": "https://www.fool.com.au/wp-content/uploads/2020/08/Motley-Fool-AMP-SD-Logo.png",
+      "publishedDate": "2026-06-17 04:08:49 +0000",
+      "createdAt": "2026-06-17T04:24:30.351Z",
+      "title": "Retail Future",
+      "metaDescription": "future of retail",
+      "keywords": [
+        "retail",
+        "future",
+        "business",
+        "technology",
+        "automation"
+      ],
+      "summary": "The future of retail has arrived, and many Indian businesses are not prepared to adapt to the changing landscape, with technology and automation being key drivers of this shift, as per recent trends in the Indian market. Indian business owners must be ready to evolve to stay competitive. The Reserve Bank of India's recent initiatives to promote digital payments will also play a crucial role in shaping the future of retail in India.",
+      "content": "<h2>The Future of Retail in India</h2><p>The retail industry in India is undergoing a significant transformation, driven by technological advancements and changing consumer behavior. The rise of e-commerce, digital payments, and automated systems is redefining the way businesses operate and interact with customers. As the Indian market continues to evolve, it is essential for business owners to adapt to these changes to remain competitive.</p><h2>Key Trends Shaping the Future of Retail</h2><p>Some of the key trends that are shaping the future of retail in India include:<ul><li>Increased adoption of digital payments</li><li>Growing demand for online shopping</li><li>Use of automation and artificial intelligence to enhance customer experience</li><li>Personalization and data-driven marketing</li><li>Sustainability and social responsibility</li></ul></p><p>As the retail landscape in India continues to change, businesses must be prepared to innovate and adapt to stay ahead of the curve. This may involve investing in new technologies, developing new business models, and fostering a culture of innovation and experimentation.</p>",
+      "category": "Digital Transformation",
+      "tags": [
+        "business",
+        "technology",
+        "india",
+        "retail",
+        "future"
+      ],
+      "readTime": 3,
+      "slug": "retail-future",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "08016baa8376",
+      "originalUrl": "https://www.thestar.com.my/tech/tech-news/2026/06/17/google-rolls-out-android-17-major-ai-features-to-follow-this-summer",
+      "originalTitle": "Google rolls out Android 17; major AI features to follow this summer",
+      "source": "Chris Welch",
+      "imageUrl": "https://apicms.thestar.com.my/uploads/images/2026/06/17/3962521.jpg",
+      "publishedDate": "2026-06-17 04:00:00 +0000",
+      "createdAt": "2026-06-17T04:24:35.493Z",
+      "title": "Android 17",
+      "metaDescription": "Android 17 update",
+      "keywords": [
+        "Android 17",
+        "AI features",
+        "Google update",
+        "mobile operating system",
+        "artificial intelligence"
+      ],
+      "summary": "Google has begun rolling out Android 17, the latest major update to its popular mobile operating system, with significant AI features to be introduced in the coming months, which may impact the Indian mobile market. Indian business owners and startup founders can expect enhanced user experiences and potential new opportunities for innovation. The update is likely to influence the Indian market, given the widespread use of Android devices in the country.",
+      "content": "<h2>Introduction of Android 17</h2><p>Google has started rolling out Android 17, the latest major update to its popular mobile operating system. Although some of its key artificial intelligence features will not be available for a few more months, the update is expected to bring significant improvements to the user experience.</p><h2>AI Features and Indian Market</h2><p>The upcoming AI features in Android 17 are likely to have an impact on the Indian mobile market, given the large number of Android users in the country. Indian business owners and startup founders can expect enhanced user experiences and potential new opportunities for innovation. The Reserve Bank of India and the Securities and Exchange Board of India may also be interested in the update's implications for mobile payments and digital transactions.</p><h2>Key Features and Implications</h2><p>Some of the key features of Android 17 include improved performance, enhanced security, and new AI-powered capabilities. These features may lead to increased adoption of Android devices in India, driving growth in the mobile market. Indian enterprises can leverage the update to develop new apps and services, taking advantage of the latest technologies and innovations.</p><ul><li>Improved performance and battery life</li><li>Enhanced security features and data protection</li><li>New AI-powered capabilities and features</li><li>Increased adoption of Android devices in India</li><li>Opportunities for innovation and growth in the mobile market</li></ul>",
+      "category": "AI & Automation",
+      "tags": [
+        "android",
+        "google",
+        "ai",
+        "mobile",
+        "update"
+      ],
+      "readTime": 3,
+      "slug": "android-17",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "46846d0bcc1d",
       "originalUrl": "https://gizmodo.com/openai-is-growing-fast-so-are-its-losses-2000772616",
       "originalTitle": "OpenAI Is Growing Fast. Its Losses Are Growing Faster",
@@ -4555,7 +4621,7 @@
       "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-06-16T20:56:03.777Z",
-  "totalCount": 138,
+  "lastUpdated": "2026-06-17T04:24:35.493Z",
+  "totalCount": 140,
   "schema": "2.0"
 }
