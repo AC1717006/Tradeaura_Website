@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "f03af31fd496",
+      "originalUrl": "https://seekingalpha.com/news/4604674-am-markets-need-to-know-feds-hawkish-tilt-us-iran-deal-signed-and-more?feed_item_type=news",
+      "originalTitle": "AM Markets Need to Know: Fed's hawkish tilt, U.S.-Iran deal signed, and more",
+      "source": "seekingalpha.com",
+      "imageUrl": null,
+      "publishedDate": "2026-06-18 10:16:58 +0000",
+      "createdAt": "2026-06-18T10:25:07.329Z",
+      "title": "Global Market Update",
+      "metaDescription": "Global market news",
+      "keywords": [
+        "market update",
+        "global news",
+        "business trends",
+        "economic trends",
+        "financial news"
+      ],
+      "summary": "The recent hawkish tilt by the US Federal Reserve and the signing of the U.S.-Iran deal are expected to have significant implications for the global market, which may also impact Indian businesses. Indian business owners should stay informed about these developments to make informed decisions. The Indian market may experience fluctuations due to these global events.",
+      "content": "<h2>Global Market Trends</h2><p>The US Federal Reserve's recent hawkish tilt has sent shockwaves through the global market, with many investors and businesses bracing for the potential impact. The signing of the U.S.-Iran deal is also a significant development that may have far-reaching consequences for the global economy.</p><h2>Implications for Indian Businesses</h2><p>Indian business owners and startup founders should be aware of these global trends and their potential impact on the Indian market. The Reserve Bank of India (RBI) and the Securities and Exchange Board of India (SEBI) may also respond to these developments, which could affect Indian businesses.</p><ul><li>Market volatility: The global market trends may lead to increased volatility in the Indian market, which could impact business operations and investment decisions.</li><li>Economic trends: The economic implications of the U.S.-Iran deal and the Fed's hawkish tilt may influence India's economic growth and development.</li><li>Business opportunities: The changing global landscape may also present new business opportunities for Indian companies, particularly in the export sector.</li></ul>",
+      "category": "Business Tools",
+      "tags": [
+        "market",
+        "trends",
+        "news",
+        "business",
+        "economy"
+      ],
+      "readTime": 3,
+      "slug": "global-market-update",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "7d012d3e11a3",
+      "originalUrl": "https://www.zdnet.com/article/how-to-turn-android-phone-into-streaming-stick-roku-fire-tv/",
+      "originalTitle": "How to turn your old Android phone into a streaming stick for free - in 6 easy steps",
+      "source": "Elyse Betters Picaro",
+      "imageUrl": "https://www.zdnet.com/a/img/resize/05cc80fad4686d3403f2d80a0464e64099a99c1c/2026/06/17/f6c7c91a-fd9f-4487-8ab1-045125c9b7e9/2.jpg?auto=webp&fit=crop&height=675&width=1200",
+      "publishedDate": "2026-06-18 10:00:45 +0000",
+      "createdAt": "2026-06-18T10:25:12.353Z",
+      "title": "Android Stream",
+      "metaDescription": "Turn old Android into streaming device",
+      "keywords": [
+        "android",
+        "streaming",
+        "device",
+        "smartphone",
+        "repurpose"
+      ],
+      "summary": "Indian businesses can repurpose old Android devices as streaming sticks, reducing electronic waste and promoting sustainability. This approach can be useful for offices and waiting areas, providing entertainment options while minimizing costs. By leveraging existing devices, businesses can optimize their resources and improve operational efficiency.",
+      "content": "<h2>Introduction to Android Streaming</h2><p>As the Indian market continues to grow, businesses are looking for innovative ways to reduce costs and promote sustainability. One approach is to repurpose old Android devices as streaming sticks, eliminating the need for new hardware purchases. This can be particularly useful for offices, waiting areas, and other public spaces where entertainment options are desired.</p><h2>Steps to Convert Android Phone</h2><p>To convert an old Android phone into a streaming stick, follow these steps: <ul><li>Download and install streaming apps such as Netflix, Amazon Prime, or Hotstar</li><li>Connect the Android phone to a TV using an HDMI cable or Chromecast</li><li>Configure the phone's settings to enable streaming</li><li>Test the streaming functionality to ensure smooth playback</li><li>Mount the phone near the TV for a convenient viewing experience</li><li>Regularly update the phone's software to ensure security and compatibility</li></ul></p><h2>Benefits for Indian Businesses</h2><p>By repurposing old Android devices as streaming sticks, Indian businesses can reduce electronic waste, minimize costs, and promote sustainability. This approach can also help businesses optimize their resources, improve operational efficiency, and enhance customer experience.</p>",
+      "category": "Business Tools",
+      "tags": [
+        "android",
+        "streaming",
+        "device",
+        "sustainability",
+        "repurpose"
+      ],
+      "readTime": 3,
+      "slug": "android-stream",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "25e084662f21",
       "originalUrl": "https://arxiv.org/abs/2606.18288v1",
       "originalTitle": "A Knowledge Theory of Capital:The Value of Natural and Artificial Intelligence",
@@ -4885,7 +4951,7 @@
       "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-06-18T04:17:42.105Z",
-  "totalCount": 148,
+  "lastUpdated": "2026-06-18T10:25:12.353Z",
+  "totalCount": 150,
   "schema": "2.0"
 }
