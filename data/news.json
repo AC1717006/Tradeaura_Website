@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "40cad2a68c49",
+      "originalUrl": "https://www.benzinga.com/markets/private-markets/26/06/53291817/anthropic-fetch-claude-operates-robots-faster-than-humans",
+      "originalTitle": "Anthropic Makes 'Fetch' Happen As New Claude Models Beat Human Teams on Robotics Planning Tasks",
+      "source": "Caroline Ryan",
+      "imageUrl": "https://cdn.benzinga.com/cdn-cgi/image/width=1200,height=800,fit=crop/files/images/story/2026/06/18/The-Claude-App-Icon-Is-Visible-On-An-Iph.jpeg",
+      "publishedDate": "2026-06-18 20:09:17 +0000",
+      "createdAt": "2026-06-18T20:29:30.278Z",
+      "title": "AI Robots",
+      "metaDescription": "AI robots outperform humans",
+      "keywords": [
+        "AI",
+        "robots",
+        "automation",
+        "technology",
+        "innovation"
+      ],
+      "summary": "Anthropic's newer Claude models have outperformed human teams on robotics planning tasks, showcasing the potential of AI in Indian industries. This development can lead to increased efficiency and productivity in various sectors. Indian business owners can leverage such advancements to stay competitive in the market.",
+      "content": "<h2>Introduction to AI Robotics</h2><p>Anthropic has made significant strides in the field of AI robotics with its 'Project Fetch' test. The company's newer Claude models have been found to outperform human teams on robotics planning tasks, demonstrating the vast potential of AI in various industries.</p><h2>Implications for Indian Businesses</h2><p>The development of AI robots that can outperform humans has significant implications for Indian businesses. With the ability to automate tasks and increase efficiency, Indian companies can stay competitive in the global market. The Indian market, with its growing demand for innovative solutions, can benefit greatly from such advancements.</p><h2>Key Takeaways</h2><ul><li>AI robots can outperform humans on certain tasks</li><li>Indian businesses can leverage AI to increase efficiency and productivity</li><li>The development of AI robots can lead to increased competitiveness in the Indian market</li><li>AI has the potential to transform various sectors in India</li><li>Indian business owners should stay updated on the latest AI developments to stay ahead</li></ul>",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "robots",
+        "tech",
+        "innovation",
+        "business"
+      ],
+      "readTime": 3,
+      "slug": "ai-robots",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "2c6f27363263",
+      "originalUrl": "https://www.androidauthority.com/nothing-launches-community-review-program-3679144/",
+      "originalTitle": "Nothing's community review program could get you early access to its latest products",
+      "source": "Ryan McNeal",
+      "imageUrl": "https://www.androidauthority.com/wp-content/uploads/2022/07/nothing-phone-1-logo-1-scaled.jpeg",
+      "publishedDate": "2026-06-18 20:24:39 +0000",
+      "createdAt": "2026-06-18T20:29:35.236Z",
+      "title": "Nothing's Review Program",
+      "metaDescription": "Early access to Nothing's products",
+      "keywords": [
+        "Nothing",
+        "Community Review",
+        "Early Access",
+        "Product Launch",
+        "Technology"
+      ],
+      "summary": "Nothing's community review program offers Indian tech enthusiasts early access to its latest products, potentially influencing the Indian market. This program can be a strategic move to gain customer insights and build a loyal community. Indian business owners can learn from this approach to engage with their customers.",
+      "content": "<h2>Nothing's Community Review Program</h2><p>Nothing, a technology company, has launched a community review program that provides its fans with early access to its latest products. This program is an opportunity for Indian tech enthusiasts to experience new products before they are available in the Indian market. By joining the program, participants can share their feedback and opinions, helping Nothing to refine its products.</p><p>The community review program is a strategic move by Nothing to build a loyal community and gain valuable customer insights. This approach can be beneficial for Indian business owners, especially in the technology sector, to engage with their customers and improve their products and services. Indian startups and enterprises can learn from this example to create their own community review programs and foster a loyal customer base.</p><h2>Benefits of Community Review Programs</h2><p>Community review programs can offer several benefits to Indian businesses, including:</p><ul><li>Valuable customer feedback and insights</li><li>Improved product development and refinement</li><li>Increased customer engagement and loyalty</li><li>Enhanced brand reputation and awareness</li><li>Competitive advantage in the Indian market</li></ul>",
+      "category": "AI & Automation",
+      "tags": [
+        "tech",
+        "india",
+        "business",
+        "startups",
+        "products"
+      ],
+      "readTime": 3,
+      "slug": "nothings-review-program",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "92703b721506",
       "originalUrl": "https://www.benzinga.com/m-a/26/06/53280958/robo-ai-to-acquire-qc-capital-in-60-million-all-stock-deal",
       "originalTitle": "Why Is Robo.ai Stock Gaining Thursday? - Robo.ai (NASDAQ:AIIO)",
@@ -5017,7 +5083,7 @@
       "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-06-18T15:32:50.878Z",
-  "totalCount": 152,
+  "lastUpdated": "2026-06-18T20:29:35.236Z",
+  "totalCount": 154,
   "schema": "2.0"
 }
