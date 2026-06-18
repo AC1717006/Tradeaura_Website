@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "25e084662f21",
+      "originalUrl": "https://arxiv.org/abs/2606.18288v1",
+      "originalTitle": "A Knowledge Theory of Capital:The Value of Natural and Artificial Intelligence",
+      "source": "Gardiner; Jeffrey",
+      "imageUrl": "/static/browse/0.3.4/images/arxiv-logo-fb.png",
+      "publishedDate": "2026-06-18 04:00:00 +0000",
+      "createdAt": "2026-06-18T04:17:37.076Z",
+      "title": "Capital Value",
+      "metaDescription": "Knowledge theory of capital",
+      "keywords": [
+        "capital theory",
+        "artificial intelligence",
+        "natural intelligence",
+        "productivity",
+        "economics"
+      ],
+      "summary": "A knowledge theory of capital is crucial for Indian businesses to understand the value of natural and artificial intelligence in driving productivity, as India's economy increasingly relies on software and data-driven industries. This theory can help Indian entrepreneurs and decision-makers optimize their investment strategies. By recognizing the importance of intangible assets, Indian businesses can stay competitive in the global market.",
+      "content": "<h2>Introduction to Knowledge Theory of Capital</h2><p>The concept of a knowledge theory of capital is becoming increasingly relevant in today's economy, where software, data, and artificial intelligence play a vital role in driving productivity. As India's economy continues to grow and evolve, it is essential for businesses to understand the value of natural and artificial intelligence in driving growth and innovation.</p><h2>Key Components of Knowledge Theory of Capital</h2><p>The knowledge theory of capital comprises various components, including expertise, routines, and public epistemic infrastructure. These components are critical in creating a competitive edge for Indian businesses, enabling them to innovate and adapt to changing market conditions. By recognizing the importance of these intangible assets, Indian businesses can optimize their investment strategies and stay ahead of the curve.</p><h2>Implications for Indian Businesses</h2><p>The knowledge theory of capital has significant implications for Indian businesses, particularly in terms of investment and resource allocation. By understanding the value of natural and artificial intelligence, Indian businesses can make informed decisions about where to invest and how to allocate resources. This can help drive growth, innovation, and competitiveness in the Indian market.</p><ul><li>Investing in artificial intelligence and data analytics</li><li>Developing expertise and routines</li><li>Building public epistemic infrastructure</li><li>Optimizing resource allocation</li><li>Staying competitive in the global market</li></ul>",
+      "category": "AI & Automation",
+      "tags": [
+        "economy",
+        "business",
+        "ai",
+        "growth",
+        "innovation"
+      ],
+      "readTime": 3,
+      "slug": "capital-value",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "148abbf8a306",
+      "originalUrl": "https://hackmag.com/news/tg-india",
+      "originalTitle": "Pavel Durov Criticizes Temporary Telegram Ban in India",
+      "source": "HackMag",
+      "imageUrl": "https://hackmag.com/wp-content/uploads/2026/06/24120_thumbnail.webp",
+      "publishedDate": "2026-06-18 04:00:00 +0000",
+      "createdAt": "2026-06-18T04:17:42.105Z",
+      "title": "Telegram Ban",
+      "metaDescription": "Telegram ban in India",
+      "keywords": [
+        "Telegram",
+        "India",
+        "Ban",
+        "Technology",
+        "Cybersecurity"
+      ],
+      "summary": "Telegram founder Pavel Durov has criticized the temporary ban of Telegram in India, citing concerns over freedom of speech and user privacy. This move may impact Indian businesses that rely on Telegram for communication. The Indian government's decision may also raise questions about the country's approach to regulating social media platforms.",
+      "content": "<h2>Telegram Ban in India</h2><p>Telegram founder Pavel Durov has criticized the temporary ban of Telegram in India, citing concerns over freedom of speech and user privacy. The ban, which was recently lifted, has sparked a debate about the Indian government's approach to regulating social media platforms.</p><p>The temporary ban may have significant implications for Indian businesses that rely on Telegram for communication and customer engagement. Many Indian companies use Telegram to connect with their customers, provide customer support, and share updates about their products and services.</p><h2>Impact on Indian Businesses</h2><p>The ban may also impact the Indian economy, as it may discourage foreign investment and hinder the growth of the Indian technology sector. The Indian government's decision to ban Telegram may be seen as a restrictive measure that could stifle innovation and limit the ability of Indian businesses to compete in the global market.</p><p>The following are some key points to consider:</p><ul><li>The temporary ban of Telegram in India may violate the principles of freedom of speech and user privacy.</li><li>Indian businesses that rely on Telegram for communication and customer engagement may be negatively impacted.</li><li>The ban may discourage foreign investment and hinder the growth of the Indian technology sector.</li><li>The Indian government's decision may raise questions about the country's approach to regulating social media platforms.</li><li>The ban may have significant implications for the Indian economy and the country's ability to compete in the global market.</li></ul>",
+      "category": "Digital Transformation",
+      "tags": [
+        "tech",
+        "india",
+        "business",
+        "telegram",
+        "ban"
+      ],
+      "readTime": 3,
+      "slug": "telegram-ban",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "65e27a73de4c",
       "originalUrl": "https://www.keloland.com/news/national-world-news/ap-trump-has-nothing-but-praise-for-modi-at-g7-after-tensions-over-us-military-strike-trade/",
       "originalTitle": "Trump has nothing but praise for Modi at G7 after tensions over US military strike, trade",
@@ -4819,7 +4885,7 @@
       "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-06-17T20:17:18.054Z",
-  "totalCount": 146,
+  "lastUpdated": "2026-06-18T04:17:42.105Z",
+  "totalCount": 148,
   "schema": "2.0"
 }
