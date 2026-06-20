@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "5eb6041972b8",
+      "originalUrl": "https://economictimes.indiatimes.com/markets/ipos/fpos/nse-ipo-nithin-kamath-explains-why-india-has-few-businesses-like-this-cash-generating-machine/articleshow/131872720.cms",
+      "originalTitle": "NSE IPO: Nithin Kamath explains why India has few businesses like this ‘cash generating machine’",
+      "source": "Veer Sharma",
+      "imageUrl": "https://img.etimg.com/thumb/msid-131872715,width-1200,height-630,imgsize-34543,overlay-etmarkets/articleshow.jpg",
+      "publishedDate": "2026-06-20 08:18:26 +0000",
+      "createdAt": "2026-06-20T09:21:32.462Z",
+      "title": "NSE IPO",
+      "metaDescription": "NSE IPO and cash generation",
+      "keywords": [
+        "NSE IPO",
+        "cash generation",
+        "Indian market",
+        "profit distribution",
+        "business growth"
+      ],
+      "summary": "Nithin Kamath describes NSE as a cash generation and distribution machine, earning over Rs 10,300 crore in profit in FY26. This highlights the potential for Indian businesses to create significant value. The Indian market has few businesses like NSE, making it a unique example of a cash-generating machine.",
+      "content": "<h2>NSE IPO: A Cash Generation Machine</h2><p>In a recent post, Nithin Kamath explained why India has few businesses like the National Stock Exchange (NSE), describing it as a 'cash generation and distribution machine'. The exchange earned more than Rs 10,300 crore in profit in FY26 and distributed about Rs 8,660 crore as dividends, translating into a payout ratio of 84%.</p><h2>Indian Business Context</h2><p>The NSE's financial performance is a significant example of a business generating substantial cash in the Indian market. This is particularly relevant in the context of the Indian economy, where businesses are constantly looking for ways to create value and drive growth. The NSE's ability to distribute a significant portion of its profits as dividends highlights the potential for Indian businesses to create significant value for their shareholders.</p><h2>Key Takeaways</h2><ul><li>The NSE earned over Rs 10,300 crore in profit in FY26</li><li>The exchange distributed about Rs 8,660 crore as dividends</li><li>The payout ratio was 84%</li><li>The NSE is a unique example of a cash-generating machine in the Indian market</li><li>Indian businesses can learn from the NSE's financial performance and strive to create similar value</ul>",
+      "category": "Business Tools",
+      "tags": [
+        "india",
+        "business",
+        "growth",
+        "finance",
+        "market"
+      ],
+      "readTime": 3,
+      "slug": "nse-ipo",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "af10e6c10894",
+      "originalUrl": "https://www.infoq.com/news/2026/06/bedrock-fable-5-data-sharing/",
+      "originalTitle": "Claude Fable 5 on Bedrock Requires Sharing Inference Data with Anthropic",
+      "source": "Steef-Jan Wiggers",
+      "imageUrl": "https://res.infoq.com/news/2026/06/bedrock-fable-5-data-sharing/en/card_header_image/generatedCard-1781687554996.jpg",
+      "publishedDate": "2026-06-20 09:03:00 +0000",
+      "createdAt": "2026-06-20T09:21:37.233Z",
+      "title": "Data Sharing",
+      "metaDescription": "Data sharing with Anthropic",
+      "keywords": [
+        "data sharing",
+        "Anthropic",
+        "AWS",
+        "Bedrock",
+        "inference data"
+      ],
+      "summary": "Indian businesses using Claude Fable 5 on Amazon Bedrock must share inference data with Anthropic, a significant change from previous models that kept data within the AWS boundary. This development has implications for data privacy and security in the Indian market. Indian companies must carefully consider data sharing requirements when adopting new technologies.",
+      "content": "<h2>Data Sharing Requirements</h2><p>Using Claude Fable 5 or Mythos 5 on Amazon Bedrock requires opting into provider_data_share, sending prompts and outputs to Anthropic for 30-day retention with human review. This is a significant change from previous Bedrock models, which kept inference data inside the AWS boundary. The move has raised questions about data privacy and security, particularly in the Indian market where data protection regulations are becoming increasingly stringent.</p><h2.Implications for Indian Businesses</h2><p>Indian businesses must carefully consider the data sharing requirements when adopting new technologies. The sharing of inference data with Anthropic may have implications for companies that handle sensitive customer information. To mitigate potential risks, Indian companies should ensure that they have robust data protection policies in place and that they are complying with relevant regulations.</p><p>Key considerations for Indian businesses include:<ul><li>Understanding the terms and conditions of data sharing with Anthropic</li><li>Ensuring compliance with Indian data protection regulations</li><li>Implementing robust data protection policies</li><li>Conducting regular security audits</li><li>Providing transparency to customers about data sharing practices</li></ul></p>",
+      "category": "AI & Automation",
+      "tags": [
+        "data",
+        "security",
+        "aws",
+        "anthropic",
+        "bedrock"
+      ],
+      "readTime": 3,
+      "slug": "data-sharing",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "bf895a6799a7",
       "originalUrl": "https://www.businesstimes.com.sg/companies-markets/telcos-media-tech/abu-dhabis-mgx-weighs-multi-billion-deal-singapore-based-data-centre-operator-dayone-sources",
       "originalTitle": "Abu Dhabi’s MGX weighs multi-billion deal for Singapore-based data centre operator DayOne: sources",
@@ -5413,7 +5479,7 @@
       "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-06-20T03:59:56.486Z",
-  "totalCount": 164,
+  "lastUpdated": "2026-06-20T09:21:37.233Z",
+  "totalCount": 166,
   "schema": "2.0"
 }
