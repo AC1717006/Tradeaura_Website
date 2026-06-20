@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "e2b7ff40daaa",
+      "originalUrl": "https://seekingalpha.com/article/4916473-xntk-technology-dashboard-for-june?source=feed_all_articles",
+      "originalTitle": "XNTK: Technology Dashboard For June",
+      "source": "seekingalpha.com",
+      "imageUrl": null,
+      "publishedDate": "2026-06-20 13:53:45 +0000",
+      "createdAt": "2026-06-20T14:10:27.223Z",
+      "title": "Tech Dashboard",
+      "metaDescription": "Technology dashboard for business",
+      "keywords": [
+        "technology",
+        "dashboard",
+        "business",
+        "innovation",
+        "growth"
+      ],
+      "summary": "The technology dashboard is a crucial tool for Indian business owners to stay ahead in the competitive market, with the Reserve Bank of India and Securities and Exchange Board of India playing a vital role in regulating the industry. It provides valuable insights into market trends and helps in making informed decisions. By leveraging technology, businesses can drive innovation and growth.",
+      "content": "<h2>Introduction to Technology Dashboard</h2><p>The technology dashboard is a comprehensive tool that provides a snapshot of the current market trends and technologies. It helps Indian business owners and startup founders to stay updated on the latest developments and make informed decisions. With the Indian market becoming increasingly competitive, it is essential for businesses to leverage technology to drive growth and innovation.</p><h2>Key Features of Technology Dashboard</h2><p>The technology dashboard offers a range of features, including real-time data analytics, market research, and competitor analysis. It also provides insights into the latest technologies and trends, such as artificial intelligence, blockchain, and the Internet of Things. By using these features, businesses can identify new opportunities and stay ahead of the competition.</p><h2>Benefits for Indian Businesses</h2><p>The technology dashboard offers several benefits for Indian businesses, including improved decision-making, increased efficiency, and enhanced competitiveness. It also helps businesses to identify potential risks and opportunities, allowing them to develop strategies to mitigate or capitalize on them. By using the technology dashboard, Indian businesses can drive growth, innovation, and success in the competitive market.</p>",
+      "category": "Digital Transformation",
+      "tags": [
+        "tech",
+        "business",
+        "growth",
+        "innovation",
+        "market"
+      ],
+      "readTime": 3,
+      "slug": "tech-dashboard",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "e4ce5679e267",
+      "originalUrl": "https://www.fosbury.ai/",
+      "originalTitle": "We run your ads. You get customers.",
+      "source": "www.fosbury.ai",
+      "imageUrl": null,
+      "publishedDate": "2026-06-20 13:48:11 +0000",
+      "createdAt": "2026-06-20T14:10:32.085Z",
+      "title": "Ad Automation",
+      "metaDescription": "Automate ad spending",
+      "keywords": [
+        "ad automation",
+        "digital marketing",
+        "customer acquisition",
+        "artificial intelligence",
+        "advertising technology"
+      ],
+      "summary": "Indian businesses can leverage ad automation to optimize their digital marketing efforts and improve customer acquisition, with solutions like Fosbury.ai offering AI-driven ad spending management. This technology helps allocate budgets effectively, ensuring maximum returns on investment. By adopting such solutions, Indian companies can stay competitive in the market.",
+      "content": "<h2>Introduction to Ad Automation</h2><p>Indian businesses are constantly looking for ways to optimize their digital marketing efforts and improve customer acquisition. One effective way to achieve this is by leveraging ad automation technology. Solutions like Fosbury.ai offer AI-driven ad spending management, which helps allocate budgets effectively and ensures maximum returns on investment.</p><h2>How Ad Automation Works</h2><p>Ad automation platforms use artificial intelligence to analyze ad performance and adjust spending accordingly. This means that businesses can plug in their website, set a budget, and let the automation platform do the rest. The platform will continuously monitor ad performance and allocate the budget to the ads that are generating the most signups.</p><h2>Benefits for Indian Businesses</h2><p>By adopting ad automation technology, Indian businesses can stay competitive in the market and improve their customer acquisition efforts. Some of the key benefits include:<ul><li>Improved ad performance</li><li>Increased efficiency</li><li>Enhanced customer engagement</li><li>Better return on investment</li><li>Competitive advantage</li></ul></p>",
+      "category": "MarTech",
+      "tags": [
+        "ads",
+        "marketing",
+        "tech",
+        "business",
+        "automation"
+      ],
+      "readTime": 3,
+      "slug": "ad-automation",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "5eb6041972b8",
       "originalUrl": "https://economictimes.indiatimes.com/markets/ipos/fpos/nse-ipo-nithin-kamath-explains-why-india-has-few-businesses-like-this-cash-generating-machine/articleshow/131872720.cms",
       "originalTitle": "NSE IPO: Nithin Kamath explains why India has few businesses like this ‘cash generating machine’",
@@ -5479,7 +5545,7 @@
       "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-06-20T09:21:37.233Z",
-  "totalCount": 166,
+  "lastUpdated": "2026-06-20T14:10:32.085Z",
+  "totalCount": 168,
   "schema": "2.0"
 }
