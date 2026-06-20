@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "bf895a6799a7",
+      "originalUrl": "https://www.businesstimes.com.sg/companies-markets/telcos-media-tech/abu-dhabis-mgx-weighs-multi-billion-deal-singapore-based-data-centre-operator-dayone-sources",
+      "originalTitle": "Abu Dhabi’s MGX weighs multi-billion deal for Singapore-based data centre operator DayOne: sources",
+      "source": "The Business Times",
+      "imageUrl": "https://cassette.sphdigital.com.sg/image/businesstimes/ffedeb0576e822f1669ac7ee5f0852ce8cbac937ccae23ff7b157b556403a896?w=1920&f=webp",
+      "publishedDate": "2026-06-20 02:45:08 +0000",
+      "createdAt": "2026-06-20T03:59:51.602Z",
+      "title": "Data Centre Deal",
+      "metaDescription": "Multi-billion deal for data centre operator",
+      "keywords": [
+        "data centre",
+        "investment",
+        "technology",
+        "business",
+        "deal"
+      ],
+      "summary": "A multi-billion dollar deal is being considered for a Singapore-based data centre operator, which may have implications for Indian businesses looking to expand their technology infrastructure. The deal highlights the growing importance of data centres in the global economy. Indian companies may need to reassess their data storage and management strategies in light of this development.",
+      "content": "<h2>Data Centre Operator Deal</h2><p>A multi-billion dollar deal is being considered for a Singapore-based data centre operator, according to sources. The deal, if successful, would be one of the largest investments in the data centre industry. The company, DayOne, has been a major player in the Asian data centre market, providing services to some of the largest technology companies in the region.</p><p>The potential deal has significant implications for Indian businesses, particularly those in the technology and e-commerce sectors. As the Indian economy continues to grow, the demand for data storage and management services is expected to increase. Indian companies may need to reassess their data storage and management strategies in light of this development.</p><h2>Key Considerations</h2><p>Some key considerations for Indian businesses include:</p><ul><li>Investing in data centre infrastructure to support growing demand</li><li>Partnering with international companies to access new technologies and markets</li><li>Developing strategies to manage and store large amounts of data</li><li>Ensuring compliance with Indian regulations and laws related to data storage and management</li><li>Staying ahead of the competition in the rapidly evolving technology landscape</li></ul>",
+      "category": "Business Tools",
+      "tags": [
+        "data",
+        "centre",
+        "deal",
+        "business",
+        "tech"
+      ],
+      "readTime": 3,
+      "slug": "data-centre-deal",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "736e38c6f5b3",
+      "originalUrl": "https://www.scmp.com/tech/article/3357603/tiny-capacitor-huge-demand-ai-frenzy-driving-mlcc-prices-higher",
+      "originalTitle": "Tiny capacitor, huge demand: the AI frenzy driving MLCC prices higher",
+      "source": "Iris Deng",
+      "imageUrl": null,
+      "publishedDate": "2026-06-20 03:00:08 +0000",
+      "createdAt": "2026-06-20T03:59:56.486Z",
+      "title": "AI Demand",
+      "metaDescription": "AI drives MLCC prices",
+      "keywords": [
+        "AI",
+        "MLCC",
+        "electronics",
+        "components",
+        "demand"
+      ],
+      "summary": "The increasing demand for artificial intelligence is driving up prices of multilayer ceramic capacitors, a key component in electronics. Indian businesses may face challenges in sourcing these components. This trend is expected to continue as AI adoption grows.",
+      "content": "<h2>Introduction to MLCCs</h2><p>The multilayer ceramic capacitor (MLCC) is a crucial component in the production of electronic devices, including those used in India. Despite its small size, the MLCC plays a significant role in the functioning of these devices. Recently, the global demand for MLCCs has increased, driven by the growing need for artificial intelligence (AI) and machine learning (ML) technologies.</p><h2>Impact on Indian Businesses</h2><p>Indian businesses, particularly those in the electronics and technology sectors, may be affected by the rising prices of MLCCs. As the demand for AI and ML technologies continues to grow, the shortage of MLCCs could lead to increased costs and production delays. This, in turn, could impact the competitiveness of Indian businesses in the global market.</p><h2>Key Factors Driving Demand</h2><p>Several factors are driving the demand for MLCCs, including:<ul><li>Increasing adoption of AI and ML technologies</li><li>Growing demand for electronic devices, such as smartphones and laptops</li><li>Expansion of industries, such as automotive and healthcare, which rely on electronic components</li><li>Limited production capacity of MLCC manufacturers</li><li>Supply chain disruptions and logistics challenges</li></ul></p>",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "tech",
+        "electronics",
+        "components",
+        "demand"
+      ],
+      "readTime": 3,
+      "slug": "ai-demand",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "b942700d8947",
       "originalUrl": "https://thenextweb.com/news/amazon-drops-artificial-sam-altman-openai-film-guadagnino",
       "originalTitle": "Amazon has dropped its nearly finished Sam Altman film, four months after investing $50B in OpenAI",
@@ -5347,7 +5413,7 @@
       "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-06-19T19:53:20.703Z",
-  "totalCount": 162,
+  "lastUpdated": "2026-06-20T03:59:56.486Z",
+  "totalCount": 164,
   "schema": "2.0"
 }
