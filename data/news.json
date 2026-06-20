@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "98c8f258ede4",
+      "originalUrl": "https://www.nasdaq.com/articles/my-favorite-nuclear-energy-stock-capitalize-ai-power-boom",
+      "originalTitle": "This is My Favorite Nuclear Energy Stock to Capitalize on the AI Power Boom",
+      "source": "The Motley Fool",
+      "imageUrl": "https://www.nasdaq.com/sites/acquia.prod/files/2019-05/0902-Q19%20Total%20Markets%20photos%20and%20gif_CC8.jpg",
+      "publishedDate": "2026-06-20 18:35:00 +0000",
+      "createdAt": "2026-06-20T19:41:48.629Z",
+      "title": "Nuclear Energy",
+      "metaDescription": "Nuclear energy stocks",
+      "keywords": [
+        "nuclear energy",
+        "energy stocks",
+        "ai power",
+        "indian market",
+        "sustainable energy"
+      ],
+      "summary": "Indian business owners can capitalize on the AI power boom by investing in nuclear energy stocks, which are being driven by innovations in technology. Companies like Oklo and NuScale Power are pushing nuclear power technology in a new direction. This presents an opportunity for Indian investors to diversify their portfolios and contribute to sustainable energy solutions.",
+      "content": "<h2>Nuclear Energy and AI Power Boom</h2><p>The intersection of nuclear energy and AI is creating new opportunities for investors in the Indian market. With the increasing focus on sustainable energy solutions, nuclear energy is emerging as a viable option. Companies like Oklo and NuScale Power are at the forefront of this innovation, developing new technologies that are changing the face of the industry.</p><h2>Investment Opportunities</h2><p>Indian business owners and startup founders can capitalize on this trend by investing in nuclear energy stocks. This not only provides an opportunity for financial returns but also contributes to the development of sustainable energy solutions. As the Indian market continues to grow and evolve, it is likely that nuclear energy will play an increasingly important role.</p><h2>Key Players</h2><p>Some of the key players in the nuclear energy sector include Oklo and NuScale Power. These companies are pushing the boundaries of nuclear power technology and driving innovation in the industry. By investing in these companies, Indian investors can gain exposure to the latest technologies and trends in the sector.</p><ul><li>Oklo: Developing new nuclear power technologies</li><li>NuScale Power: Advancing small modular reactor designs</li></ul>",
+      "category": "Business Tools",
+      "tags": [
+        "energy",
+        "stocks",
+        "nuclear",
+        "sustainable",
+        "investing"
+      ],
+      "readTime": 3,
+      "slug": "nuclear-energy",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "d0caf012f8bd",
+      "originalUrl": "https://www.bgr.com/2195013/google-messages-smart-replies-tap-to-send/",
+      "originalTitle": "Google Messages Just Solved The Biggest Problem With Smart Replies",
+      "source": "staff@bgr.com (Gaurav Shukla)",
+      "imageUrl": null,
+      "publishedDate": "2026-06-20 18:47:00 +0000",
+      "createdAt": "2026-06-20T19:41:53.544Z",
+      "title": "Google Messages",
+      "metaDescription": "Google Messages improves Smart Replies",
+      "keywords": [
+        "Google Messages",
+        "Smart Replies",
+        "Android",
+        "Messaging",
+        "Innovation"
+      ],
+      "summary": "Google Messages has enhanced its Smart Replies feature, allowing users to quickly respond to texts with a single tap, which can be beneficial for Indian business owners who rely on efficient communication. This improvement can streamline messaging processes, especially in the Indian market where Android devices are widely used. The enhanced Smart Replies feature can help Indian businesses save time and increase productivity.",
+      "content": "<h2>Enhanced Smart Replies in Google Messages</h2><p>Google Messages has recently improved its Smart Replies feature, making it easier for users to quickly respond to certain texts. With this update, users can now tap to send smart replies, streamlining the messaging process. This feature is particularly useful for Indian business owners who rely on efficient communication to stay connected with clients and colleagues.</p><h2>Benefits for Indian Businesses</h2><p>The enhanced Smart Replies feature can help Indian businesses save time and increase productivity. By providing suggested responses to common messages, Google Messages can help reduce the time spent on responding to routine queries, allowing businesses to focus on more critical tasks. Additionally, the feature can help improve customer service by enabling businesses to respond quickly to customer inquiries.</p><h2>Key Features</h2><p>The updated Smart Replies feature in Google Messages includes:<ul><li>Tap to send smart replies</li><li>Streamlined messaging process</li><li>Improved customer service</li><li>Increased productivity</li><li>Enhanced user experience</li></ul></p>",
+      "category": "MarTech",
+      "tags": [
+        "messaging",
+        "android",
+        "innovation",
+        "productivity",
+        "google"
+      ],
+      "readTime": 3,
+      "slug": "google-messages",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "e2b7ff40daaa",
       "originalUrl": "https://seekingalpha.com/article/4916473-xntk-technology-dashboard-for-june?source=feed_all_articles",
       "originalTitle": "XNTK: Technology Dashboard For June",
@@ -5545,7 +5611,7 @@
       "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-06-20T14:10:32.085Z",
-  "totalCount": 168,
+  "lastUpdated": "2026-06-20T19:41:53.545Z",
+  "totalCount": 170,
   "schema": "2.0"
 }
