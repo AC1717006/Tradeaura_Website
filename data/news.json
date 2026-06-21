@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "aed836f19a2c",
+      "originalUrl": "https://www.thestreet.com/technology/morgan-housel-thinks-investors-are-missing-something-about-ai",
+      "originalTitle": "Morgan Housel thinks investors are missing something about AI",
+      "source": "Hillary Remy",
+      "imageUrl": null,
+      "publishedDate": "2026-06-21 13:47:00 +0000",
+      "createdAt": "2026-06-21T14:18:07.772Z",
+      "title": "AI Insights",
+      "metaDescription": "Morgan Housel on AI",
+      "keywords": [
+        "AI",
+        "investing",
+        "behavior",
+        "valuation",
+        "bubble"
+      ],
+      "summary": "Morgan Housel highlights the importance of understanding human behavior in AI investing, a crucial aspect for Indian business owners and investors to consider in the Indian market. His insights can help investors make informed decisions. Housel's perspective is relevant to the Indian business context, where understanding consumer behavior is key to success.",
+      "content": "<h2>Morgan Housel's AI Insights</h2><p>Morgan Housel, a renowned author who has sold 12 million books, recently shared his thoughts on AI and its implications for investors. Instead of focusing on valuations or the possibility of a bubble, Housel emphasized the importance of understanding human behavior in AI investing.</p><p>According to Housel, investors often overlook the people behind AI, which is a critical aspect of investing in this space. He believes that understanding human behavior and decision-making is more crucial than analyzing valuations or market trends.</p><h2>Key Takeaways</h2><p>Housel's insights can be applied to the Indian market, where understanding consumer behavior is essential for business success. Indian business owners and investors can benefit from his perspective, which highlights the need to consider human behavior when making investment decisions.</p><ul><li>Understand human behavior in AI investing</li><li>Consider the people behind AI</li><li>Analyze decision-making processes</li><li>Look beyond valuations and market trends</li><li>Apply Housel's insights to the Indian market</ul>",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "investing",
+        "business",
+        "india",
+        "tech"
+      ],
+      "readTime": 3,
+      "slug": "ai-insights",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "25c1bfa5b4d4",
+      "originalUrl": "https://www.cnbc.com/2026/06/21/do-space-based-ai-data-centers-make-economic-sense.html",
+      "originalTitle": "No one wants AI data centers on Earth. Do they make sense in space?",
+      "source": "Bob Woods",
+      "imageUrl": "https://image.cnbcfm.com/api/v1/image/108321449-1781295480618-IMG_9692.jpg?v=1781295701&w=1920&h=1080",
+      "publishedDate": "2026-06-21 13:33:34 +0000",
+      "createdAt": "2026-06-21T14:18:12.805Z",
+      "title": "AI Data Centers",
+      "metaDescription": "AI data centers in space",
+      "keywords": [
+        "AI",
+        "data centers",
+        "space technology",
+        "Indian market",
+        "digital transformation"
+      ],
+      "summary": "As Indian businesses increasingly adopt AI, the concept of space-based AI data centers is gaining attention. With the Indian government promoting digital transformation, the feasibility of such centers is being questioned. SpaceX's initiative to launch orbital AI data centers may have implications for the Indian market.",
+      "content": "<h2>Introduction to Space-Based AI Data Centers</h2><p>Elon Musk's SpaceX is exploring the possibility of launching AI data centers in space, a concept that has garnered significant attention in recent times. As the Indian market continues to grow and adopt new technologies, the idea of space-based data centers is being considered as a potential solution to the growing demand for data storage and processing.</p><h2>Challenges and Opportunities</h2><p>The public's reluctance to have AI data centers on Earth due to concerns over privacy, security, and environmental impact has led to the consideration of alternative locations, such as space. However, the economic viability of such a venture is still questionable. The Indian government's initiatives to promote digital transformation and the growing demand for data-driven services may create opportunities for space-based AI data centers.</p><h2>Implications for Indian Businesses</h2><p>As Indian businesses increasingly rely on AI and data analytics, the need for secure, efficient, and scalable data storage and processing solutions is becoming more pressing. Space-based AI data centers may offer a unique solution to these challenges, but the feasibility and cost-effectiveness of such a solution need to be carefully evaluated. Indian businesses must consider the potential benefits and drawbacks of investing in space-based AI data centers and weigh their options carefully.</p>",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "space",
+        "data",
+        "india",
+        "tech"
+      ],
+      "readTime": 3,
+      "slug": "ai-data-centers-2",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "1448cbb2573e",
       "originalUrl": "https://www.investing.com/news/economy-news/india-seeks-tariff-advantage-before-implementing-us-trade-deal-4751661",
       "originalTitle": "India seeks tariff advantage before implementing U.S. trade deal By Investing.com",
@@ -5743,7 +5809,7 @@
       "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-06-21T09:54:56.636Z",
-  "totalCount": 174,
+  "lastUpdated": "2026-06-21T14:18:12.805Z",
+  "totalCount": 176,
   "schema": "2.0"
 }
