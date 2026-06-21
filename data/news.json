@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "1448cbb2573e",
+      "originalUrl": "https://www.investing.com/news/economy-news/india-seeks-tariff-advantage-before-implementing-us-trade-deal-4751661",
+      "originalTitle": "India seeks tariff advantage before implementing U.S. trade deal By Investing.com",
+      "source": "Simon Mugo",
+      "imageUrl": "https://i-invdn-com.investing.com/news/moved_LYNXMPELA3145_L.jpg",
+      "publishedDate": "2026-06-21 09:10:14 +0000",
+      "createdAt": "2026-06-21T09:54:51.190Z",
+      "title": "India Seeks Tariff Advantage",
+      "metaDescription": "India trade deal tariff advantage",
+      "keywords": [
+        "trade deal",
+        "tariff advantage",
+        "India US trade",
+        "Indian market",
+        "tariff rates"
+      ],
+      "summary": "India is seeking a tariff advantage before implementing a trade deal with the US, aiming to boost its exports and economy. This move is crucial for Indian business owners and startup founders who rely on international trade. The Indian government is negotiating with the US to secure favorable tariff rates.",
+      "content": "<h2>India's Trade Deal Strategy</h2><p>India is seeking a tariff advantage before implementing a trade deal with the US, aiming to boost its exports and economy. This move is crucial for Indian business owners and startup founders who rely on international trade. The Indian government is negotiating with the US to secure favorable tariff rates, which would give Indian products a competitive edge in the global market.</p><h2>Key Considerations</h2><p>The Indian government is considering various factors, including the impact of the trade deal on the Indian market and the potential benefits for Indian businesses. The government is also consulting with stakeholders, including industry leaders and trade experts, to ensure that the trade deal is beneficial for the country.</p><h2>Implications for Indian Businesses</h2><p>The trade deal is expected to have significant implications for Indian businesses, particularly those that export goods to the US. A favorable tariff rate would increase the competitiveness of Indian products, making them more attractive to US consumers. On the other hand, a unfavorable tariff rate could harm Indian exports and negatively impact the economy.</p><ul><li>Increased competitiveness for Indian products</li><li>Potential increase in Indian exports</li><li>Boost to the Indian economy</li><li>Job creation opportunities</li><li>Growth prospects for Indian businesses</li></ul>",
+      "category": "Business Tools",
+      "tags": [
+        "trade",
+        "india",
+        "economy",
+        "business",
+        "exports"
+      ],
+      "readTime": 3,
+      "slug": "india-seeks-tariff-advantage",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "b37019165e27",
+      "originalUrl": "https://www.wired.com/story/a-critical-deadline-is-approaching-for-windows-and-linux-security/",
+      "originalTitle": "A Critical Deadline Is Approaching for Windows and Linux Security",
+      "source": "Dan Goodin; Ars Technica",
+      "imageUrl": "https://media.wired.com/photos/6a342b0819ec74e5dcd4e6ca/191:100/w_1280,c_limit/GettyImages-1091064696.jpg",
+      "publishedDate": "2026-06-21 09:00:00 +0000",
+      "createdAt": "2026-06-21T09:54:56.635Z",
+      "title": "Security Deadline",
+      "metaDescription": "Windows and Linux security deadline",
+      "keywords": [
+        "security",
+        "linux",
+        "windows",
+        "cryptographic keys",
+        "expiration"
+      ],
+      "summary": "Indian businesses must be aware of the impending expiration of cryptographic keys that secure Windows and Linux systems, potentially impacting their operations. This deadline may require urgent action to ensure continued security. Indian companies should prioritize this issue to avoid any disruptions.",
+      "content": "<h2>Impending Security Deadline for Windows and Linux</h2><p>As the Indian market continues to grow and rely on technology, the security of computer systems is of utmost importance. A critical deadline is approaching for Windows and Linux security, with the cryptographic keys that secure the boot sequence of these systems starting to expire on June 24. This means that Indian businesses using these systems must take immediate action to ensure their security is not compromised.</p><p>The expiration of these cryptographic keys may have significant implications for Indian companies, particularly those in the financial and e-commerce sectors, where security is paramount. To mitigate any potential risks, Indian businesses should review their systems and take necessary steps to update their security protocols.</p><h2>Key Considerations for Indian Businesses</h2><p>Indian companies must consider the following factors to ensure they are prepared for the impending deadline:</p><ul><li>Reviewing their current security infrastructure to identify potential vulnerabilities</li><li>Updating their systems to ensure they have the latest security patches and protocols</li><li>Developing a contingency plan in case of any security breaches or disruptions</li><li>Collaborating with IT experts to ensure a smooth transition to new security protocols</li><li>Staying informed about any updates or changes to security regulations in the Indian market</li></ul>",
+      "category": "AI & Automation",
+      "tags": [
+        "linux",
+        "security",
+        "windows",
+        "tech",
+        "india"
+      ],
+      "readTime": 3,
+      "slug": "security-deadline",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "778f394014af",
       "originalUrl": "https://economictimes.indiatimes.com/markets/bonds/the-yoga-of-asset-allocation-why-stability-matters-more-than-ever/articleshow/131885820.cms",
       "originalTitle": "The yoga of asset allocation: Why stability matters more than ever",
@@ -5677,7 +5743,7 @@
       "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-06-21T04:41:26.694Z",
-  "totalCount": 172,
+  "lastUpdated": "2026-06-21T09:54:56.636Z",
+  "totalCount": 174,
   "schema": "2.0"
 }
