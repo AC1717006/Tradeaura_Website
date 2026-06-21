@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "778f394014af",
+      "originalUrl": "https://economictimes.indiatimes.com/markets/bonds/the-yoga-of-asset-allocation-why-stability-matters-more-than-ever/articleshow/131885820.cms",
+      "originalTitle": "The yoga of asset allocation: Why stability matters more than ever",
+      "source": "Vineet Agrawal",
+      "imageUrl": "https://img.etimg.com/thumb/msid-131885822,width-1200,height-630,imgsize-121722,overlay-etmarkets/articleshow.jpg",
+      "publishedDate": "2026-06-21 04:02:11 +0000",
+      "createdAt": "2026-06-21T04:41:21.406Z",
+      "title": "Asset Allocation",
+      "metaDescription": "Stability in asset allocation",
+      "keywords": [
+        "asset allocation",
+        "bonds",
+        "investments",
+        "stability",
+        "wealth creation"
+      ],
+      "summary": "Indian investors can benefit from a balanced asset allocation strategy, including bonds, to mitigate market volatility and ensure long-term wealth creation. This approach is crucial in today's unpredictable markets. By adopting a stable asset allocation strategy, investors can reduce risk and increase potential returns.",
+      "content": "<h2>Introduction to Asset Allocation</h2><p>In today's volatile markets, investors need stability more than ever. Drawing parallels from yoga's emphasis on balance, asset allocation is crucial for mitigating sharp market movements and ensuring long-term wealth creation. While equities offer growth, bonds provide a stabilizing force, reducing the overall risk of a portfolio.</p><h2>Importance of Bonds</h2><p>Bonds are a vital component of a balanced asset allocation strategy. They offer a relatively stable source of returns, helping to offset the volatility of equities. In the Indian market, bonds can be particularly attractive, given the Reserve Bank of India's (RBI) efforts to promote bond market development.</p><h2>Benefits of Asset Allocation</h2><p>A well-diversified portfolio, including a mix of equities and bonds, can help investors achieve their long-term financial goals. The benefits of asset allocation include reduced risk, increased potential returns, and a more stable portfolio. By adopting a balanced approach, investors can navigate India's complex and ever-changing market landscape with confidence.</p><h2>Conclusion</h2><p>In conclusion, asset allocation is a critical component of a successful investment strategy. By including bonds and other asset classes, investors can create a balanced portfolio, reducing risk and increasing potential returns. As the Indian market continues to evolve, a stable and diversified approach to asset allocation will be essential for achieving long-term wealth creation.</p><h2>Key Takeaways</h2><ul><li>Asset allocation is crucial for mitigating market volatility</li><li>Bonds provide a stabilizing force in a portfolio</li><li>A well-diversified portfolio can help investors achieve their long-term financial goals</li><li>Asset allocation can help reduce risk and increase potential returns</li><li>A balanced approach is essential for navigating India's complex market landscape</li></ul>",
+      "category": "Business Tools",
+      "tags": [
+        "finance",
+        "investing",
+        "bonds",
+        "markets",
+        "wealth"
+      ],
+      "readTime": 3,
+      "slug": "asset-allocation",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "91bebbaf41e7",
+      "originalUrl": "https://www.techinasia.com/meta-reliance-develop-aienabled-data-center-india",
+      "originalTitle": "Meta AI glasses pilot in India faces privacy questions",
+      "source": "Aiko Gao Ishida",
+      "imageUrl": null,
+      "publishedDate": "2026-06-21 04:04:11 +0000",
+      "createdAt": "2026-06-21T04:41:26.694Z",
+      "title": "Meta AI Glasses",
+      "metaDescription": "Meta AI glasses raise privacy concerns",
+      "keywords": [
+        "Meta AI",
+        "Data Privacy",
+        "Indian Market",
+        "AI Technology",
+        "Wearable Devices"
+      ],
+      "summary": "Meta's AI glasses pilot in India has sparked privacy concerns due to always-on wearable cameras and overseas data processing, which may raise issues under India's data law. Indian businesses must be aware of these concerns to ensure compliance. The pilot highlights the need for robust data protection measures in India.",
+      "content": "<h2>Introduction to Meta AI Glasses</h2><p>Meta's AI glasses pilot in India has raised significant privacy concerns among experts. The always-on wearable cameras and overseas data processing have sparked worries about compliance with India's data law. As Indian businesses explore the potential of AI technology, they must also prioritize data protection and privacy.</p><h2>Privacy Concerns and Indian Data Law</h2><p>Privacy lawyers have warned that the Meta AI glasses pilot could raise issues under India's data law. The law requires companies to ensure the secure processing of sensitive personal data. Indian businesses must be aware of these requirements to avoid any potential legal issues. The use of wearable devices and AI technology must be balanced with robust data protection measures.</p><h2>Implications for Indian Businesses</h2><p>The Meta AI glasses pilot has significant implications for Indian businesses. As they adopt AI technology and wearable devices, they must prioritize data privacy and protection. This includes ensuring compliance with India's data law and implementing robust security measures to protect sensitive personal data. By doing so, Indian businesses can harness the potential of AI technology while maintaining the trust of their customers.</p>",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "tech",
+        "data",
+        "privacy",
+        "india"
+      ],
+      "readTime": 3,
+      "slug": "meta-ai-glasses",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "98c8f258ede4",
       "originalUrl": "https://www.nasdaq.com/articles/my-favorite-nuclear-energy-stock-capitalize-ai-power-boom",
       "originalTitle": "This is My Favorite Nuclear Energy Stock to Capitalize on the AI Power Boom",
@@ -5611,7 +5677,7 @@
       "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-06-20T19:41:53.545Z",
-  "totalCount": 170,
+  "lastUpdated": "2026-06-21T04:41:26.694Z",
+  "totalCount": 172,
   "schema": "2.0"
 }
