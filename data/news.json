@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "e417a4081ae7",
+      "originalUrl": "https://www.business-standard.com/economy/news/world-bank-approves-1-5-bn-loan-to-support-india-s-reforms-job-creation-126062200818_1.html",
+      "originalTitle": "World Bank approves $1.5 bn loan to support India's reforms, job creation",
+      "source": "Business Standard; Press Trust",
+      "imageUrl": "https://bsmedia.business-standard.com/_media/bs/img/article/2024-08/28/thumb/fitandfill/1200X628/1724827866-0819.jpg",
+      "publishedDate": "2026-06-22 11:58:53 +0000",
+      "createdAt": "2026-06-22T12:10:55.843Z",
+      "title": "India Loan Approved",
+      "metaDescription": "World Bank loan for India reforms",
+      "keywords": [
+        "World Bank",
+        "India Reforms",
+        "Job Creation",
+        "Economic Growth",
+        "Loan Approval"
+      ],
+      "summary": "The World Bank has approved a $1.5 billion loan to support India's reforms and job creation efforts, building on recent tax simplification and trade integration initiatives. This move is expected to improve the business environment in India. The programme aims to boost economic growth and create new opportunities for Indian businesses.",
+      "content": "<h2>World Bank Support for India</h2><p>The World Bank has approved a $1.5 billion loan to support India's reforms and job creation efforts. This programme builds on reforms undertaken in recent years, including tax simplification, trade integration, regulatory changes, and measures to improve the business environment.</p><p>The loan is expected to have a positive impact on the Indian economy, contributing to economic growth and creating new opportunities for Indian businesses. The programme will focus on supporting initiatives that promote job creation, improve the ease of doing business, and enhance the overall competitiveness of the Indian market.</p><h2>Key Aspects of the Programme</h2><p>The programme will include measures to:</p><ul><li>Enhance the business environment through regulatory reforms</li><li>Support small and medium-sized enterprises (SMEs)</li><li>Promote trade integration and investment</li><li>Improve the tax system and reduce compliance burdens</li><li>Encourage private sector participation in key sectors</li></ul><p>Overall, the World Bank's approval of the $1.5 billion loan is a significant development for India, supporting the country's efforts to drive economic growth, create jobs, and improve the business environment.</p>",
+      "category": "Business Tools",
+      "tags": [
+        "india",
+        "economy",
+        "business",
+        "growth",
+        "loan"
+      ],
+      "readTime": 3,
+      "slug": "india-loan-approved",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "c931cd2572e3",
+      "originalUrl": "https://www.androidheadlines.com/2026/06/oneplus-n6-specs-are-coming-together-fast-and-the-latest-details-look-promising.html",
+      "originalTitle": "OnePlus N6 Specs Are Coming Together Fast — and the Latest Details Look Promising",
+      "source": "Kristijan Lucic",
+      "imageUrl": "https://www.androidheadlines.com/wp-content/uploads/2026/06/OnePlus-N6-image-2.jpg",
+      "publishedDate": "2026-06-22 11:54:23 +0000",
+      "createdAt": "2026-06-22T12:11:00.932Z",
+      "title": "OnePlus N6",
+      "metaDescription": "OnePlus N6 specs",
+      "keywords": [
+        "OnePlus N6",
+        "smartphone",
+        "technology",
+        "Indian market",
+        "mobile"
+      ],
+      "summary": "The OnePlus N6 is set to enter the Indian market with promising specs, including its charging details and processor. This could impact Indian business owners who rely on smartphones for their operations. The latest details suggest a competitive offering in the Indian smartphone space.",
+      "content": "<h2>Introduction to OnePlus N6</h2><p>The OnePlus N6 has been generating buzz in the technology circles, and its specs are coming together fast. The latest details reveal the phone's charging capabilities and processor, which look promising for the Indian market.</p><h2>Key Features</h2><p>The phone's specs include a powerful processor and fast charging, making it an attractive option for Indian consumers. The Indian market is highly competitive, and the OnePlus N6 will need to stand out from the crowd to gain traction.</p><h2>Implications for Indian Business</h2><p>For Indian business owners, the OnePlus N6 could be a viable option for their mobile needs. With its promising specs and competitive pricing, it could be an attractive choice for startups and enterprises alike. As the Indian market continues to grow, the demand for high-quality smartphones will only increase.</p><ul><li>Powerful processor</li><li>Fast charging capabilities</li><li>Competitive pricing</li><li>Attractive design</li><li>Indian market availability</li></ul>",
+      "category": "Technology",
+      "tags": [
+        "tech",
+        "mobile",
+        "india",
+        "phone",
+        "gadgets"
+      ],
+      "readTime": 3,
+      "slug": "oneplus-n6",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "300a75bbac3a",
       "originalUrl": "https://www.businesskorea.co.kr/news/articleView.html?idxno=271738",
       "originalTitle": "Doosan Robotics Unveils AI Palletizing at Automate 2026",
@@ -5941,7 +6007,7 @@
       "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-06-22T04:47:02.562Z",
-  "totalCount": 180,
+  "lastUpdated": "2026-06-22T12:11:00.932Z",
+  "totalCount": 182,
   "schema": "2.0"
 }
