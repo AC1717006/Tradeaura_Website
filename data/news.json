@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "300a75bbac3a",
+      "originalUrl": "https://www.businesskorea.co.kr/news/articleView.html?idxno=271738",
+      "originalTitle": "Doosan Robotics Unveils AI Palletizing at Automate 2026",
+      "source": "Kim Eun-jin",
+      "imageUrl": "https://www.businesskorea.co.kr/news/thumbnail/202606/271738_278915_427_v150.jpg",
+      "publishedDate": "2026-06-22 04:31:14 +0000",
+      "createdAt": "2026-06-22T04:46:57.139Z",
+      "title": "AI Palletizing",
+      "metaDescription": "AI palletizing solution",
+      "keywords": [
+        "AI",
+        "palletizing",
+        "automation",
+        "robotics",
+        "technology"
+      ],
+      "summary": "Doosan Robotics introduces AI palletizing solution, a technology that can benefit Indian manufacturing and logistics sectors, enhancing efficiency and productivity in the Indian market. This innovation can also align with the RBI's and SEBI's initiatives to promote automation and technology adoption in India. The Indian business context is ripe for such advancements, given the growing demand for automation and robotics",
+      "content": "<h2>Introduction to AI Palletizing</h2><p>Doosan Robotics will unveil its artificial intelligence (AI) palletizing solution at North America’s largest automation exhibition, showcasing a technology that can transform the manufacturing and logistics sectors. This solution has the potential to benefit Indian businesses by increasing efficiency and productivity in their operations.</p><h2>Benefits for Indian Businesses</h2><p>The AI palletizing solution can be a game-changer for Indian companies, particularly those in the manufacturing and logistics sectors. With the Indian government's focus on promoting automation and technology adoption, this innovation can help businesses stay competitive in the global market. Some of the key benefits of AI palletizing include: <ul><li>Increased efficiency and productivity</li><li>Improved accuracy and reduced errors</li><li>Enhanced customer satisfaction</li><li>Cost savings and reduced labor costs</li><li>Scalability and flexibility</li></ul></p>",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "tech",
+        "india",
+        "business",
+        "automation"
+      ],
+      "readTime": 3,
+      "slug": "ai-palletizing",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "68fa4052fc08",
+      "originalUrl": "https://www.bloomberg.com/news/articles/2026-06-22/tencent-tests-ai-assistant-for-its-super-app-wechat-in-china",
+      "originalTitle": "Tencent Tests AI Assistant for Its Super App WeChat in China",
+      "source": "www.bloomberg.com",
+      "imageUrl": null,
+      "publishedDate": "2026-06-22 04:12:18 +0000",
+      "createdAt": "2026-06-22T04:47:02.562Z",
+      "title": "AI Assistant",
+      "metaDescription": "AI assistant for business",
+      "keywords": [
+        "AI Assistant",
+        "Artificial Intelligence",
+        "Business Automation",
+        "Digital Transformation",
+        "Tech Innovation"
+      ],
+      "summary": "Indian businesses can learn from Tencent's AI assistant testing for its super app, as the technology has the potential to enhance customer experience and operational efficiency. The AI race is heating up globally, and Indian companies must stay updated to remain competitive. This development can inspire Indian entrepreneurs to explore AI-powered solutions for their own businesses.",
+      "content": "<h2>Introduction to AI Assistants</h2><p>As the artificial intelligence landscape continues to evolve, companies like Tencent are investing heavily in AI-powered technologies to stay ahead in the market. Recently, Tencent started testing a new AI assistant for its super app, WeChat, in China. This move is part of the company's efforts to catch up with its peers in the country's rapidly growing AI sector.</p><h2>Potential Impact on Indian Businesses</h2><p>Although this development is specific to the Chinese market, it holds valuable lessons for Indian businesses. The integration of AI assistants can significantly enhance customer experience, streamline operations, and provide valuable insights for data-driven decision-making. Indian companies, especially those in the startup and enterprise sectors, can explore similar AI-powered solutions to gain a competitive edge in the Indian market.</p><h2>Key Considerations</h2><p>When considering the adoption of AI assistants, Indian businesses should focus on the following aspects:</p><ul><li>Understanding the target audience and their preferences</li><li>Developing a user-friendly interface for seamless interaction</li><li>Ensuring data privacy and security</li><li>Continuously monitoring and updating the AI system to improve its accuracy and efficiency</li><li>Collaborating with AI experts and developers to create customized solutions</li></ul>",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "tech",
+        "business",
+        "innovation",
+        "automation"
+      ],
+      "readTime": 3,
+      "slug": "ai-assistant",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "5e9331867318",
       "originalUrl": "https://seekingalpha.com/article/4916566-blackrock-emerging-markets-fund-q1-2026-commentary?source=feed_all_articles",
       "originalTitle": "BlackRock Emerging Markets Fund Q1 2026 Commentary",
@@ -5875,7 +5941,7 @@
       "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-06-21T19:47:38.323Z",
-  "totalCount": 178,
+  "lastUpdated": "2026-06-22T04:47:02.562Z",
+  "totalCount": 180,
   "schema": "2.0"
 }
