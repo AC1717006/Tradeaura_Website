@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "d5fdaa187f58",
+      "originalUrl": "https://diginomica.com/how-do-you-measure-gen-ai-value-guess-what-its-not-about-adoption-rates-according-three-major-users",
+      "originalTitle": "How do you measure gen AI value? Guess what, it’s not about adoption rates, according to three major users",
+      "source": "Madeline Bennett",
+      "imageUrl": "https://diginomica.com/sites/default/files/images/2026-06/Screenshot%202026-06-02%20at%2020.55.39.png",
+      "publishedDate": "2026-06-23 09:34:00 +0000",
+      "createdAt": "2026-06-23T09:47:27.575Z",
+      "title": "Gen AI Value",
+      "metaDescription": "Measuring gen AI value",
+      "keywords": [
+        "Artificial Intelligence",
+        "AI Adoption",
+        "Business Value",
+        "Digital Transformation",
+        "AI Metrics"
+      ],
+      "summary": "Indian businesses can learn from global leaders like Starling Bank, Booking.com, and Deutsche Bank on measuring the value of general artificial intelligence. These companies emphasize that adoption rates are not the primary metric for evaluating AI's impact. Instead, they focus on key performance indicators that demonstrate AI's contribution to their bottom line.",
+      "content": "<h2>Measuring Gen AI Value</h2><p>As Indian businesses increasingly invest in artificial intelligence, they need to understand how to measure its value. According to Starling Bank, Booking.com, and Deutsche Bank, adoption rates are not the primary metric for evaluating AI's impact. These companies have opened up their AI playbooks, revealing that they focus on key performance indicators that demonstrate AI's contribution to their bottom line.</p><h2>Evaluating AI's Impact</h2><p>Indian companies can learn from these global leaders by adopting a similar approach. This involves identifying the specific business problems that AI can solve and measuring its effectiveness in addressing these challenges. By doing so, Indian businesses can unlock the full potential of AI and drive growth in the Indian market.</p><h2>Key Takeaways</h2><ul><li>Adoption rates are not the primary metric for evaluating AI's impact</li><li>Focus on key performance indicators that demonstrate AI's contribution to the bottom line</li><li>Identify specific business problems that AI can solve</li><li>Measure AI's effectiveness in addressing these challenges</li><li>Unlock the full potential of AI to drive growth in the Indian market</li></ul>",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "business",
+        "digital",
+        "india",
+        "tech"
+      ],
+      "readTime": 3,
+      "slug": "gen-ai-value",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "fe86ca09b6d0",
+      "originalUrl": "https://www.infosecurity-magazine.com/news/scattered-spider-teens-convicted/",
+      "originalTitle": "Scattered Spider Teens Convicted of TfL Cyber-Attack",
+      "source": "Phil Muncaster",
+      "imageUrl": "https://assets.infosecurity-magazine.com/webpage/og/151c4c7b-eb89-4709-af5b-5baf9401327e.jpg",
+      "publishedDate": "2026-06-23 09:29:00 +0000",
+      "createdAt": "2026-06-23T09:47:32.410Z",
+      "title": "Cyber Attack",
+      "metaDescription": "Cyber attack guilty plea",
+      "keywords": [
+        "cyber attack",
+        "data security",
+        "hacking",
+        "transport system",
+        "cybercrime"
+      ],
+      "summary": "Two British teens have pleaded guilty to hacking Transport for London, highlighting the importance of robust cybersecurity measures for Indian businesses to protect against similar threats. This incident serves as a reminder for Indian companies to prioritize data security and invest in robust protection systems. Indian business owners must ensure their systems are secure to prevent such attacks.",
+      "content": "<h2>Cyber Attack on Transport System</h2><p>A recent cyber attack on Transport for London has raised concerns about the vulnerability of critical infrastructure to hacking. Two young British men have pleaded guilty to the crime, which was part of a larger plot by a group known as Scattered Spider. This incident highlights the need for Indian businesses to invest in robust cybersecurity measures to protect against similar threats.</p><h2>Importance of Cybersecurity</h2><p>Indian companies, especially those in the transportation and infrastructure sectors, must prioritize data security to prevent cyber attacks. This can be achieved by implementing robust protection systems, conducting regular security audits, and training employees on cybersecurity best practices. Some key measures include: <ul><li>Implementing firewalls and intrusion detection systems</li><li>Conducting regular security audits and penetration testing</li><li>Training employees on cybersecurity best practices</li><li>Investing in incident response planning</li><li>Collaborating with cybersecurity experts</li></ul></p>",
+      "category": "MarTech",
+      "tags": [
+        "tech",
+        "security",
+        "crime",
+        "london",
+        "hacking"
+      ],
+      "readTime": 3,
+      "slug": "cyber-attack",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "03f96fa543d1",
       "originalUrl": "https://economictimes.indiatimes.com/markets/ipos/fpos/beyond-jio-ipo-5-triggers-mukesh-ambani-has-lined-up-to-revive-reliance-shares-for-44-lakh-investors/articleshow/131923718.cms",
       "originalTitle": "Beyond Jio IPO: 5 triggers Mukesh Ambani has lined up to revive Reliance shares for 44 lakh investors",
@@ -6139,7 +6205,7 @@
       "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-06-23T03:52:08.396Z",
-  "totalCount": 186,
+  "lastUpdated": "2026-06-23T09:47:32.410Z",
+  "totalCount": 188,
   "schema": "2.0"
 }
