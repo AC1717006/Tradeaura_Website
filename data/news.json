@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "b9205efaf0ed",
+      "originalUrl": "https://news.alphastreet.com/iron-mountain-irm-has-a-storage-cash-flow-and-data-center-expansion-story-bigger-than-a-paper-records-reit-label/",
+      "originalTitle": "Iron Mountain (IRM) Has a Storage-Cash-Flow and Data-Center Expansion Story Bigger Than a Paper-Records REIT Label",
+      "source": "Newsdesk",
+      "imageUrl": "https://cdn.news.alphastreet.com/wp-content/uploads/2026/03/03072345/market-news-1024x576.jpg",
+      "publishedDate": "2026-06-23 19:45:57 +0000",
+      "createdAt": "2026-06-23T20:09:51.303Z",
+      "title": "Iron Mountain",
+      "metaDescription": "Iron Mountain storage cash flow",
+      "keywords": [
+        "storage",
+        "cash flow",
+        "data center",
+        "expansion",
+        "REIT"
+      ],
+      "summary": "Iron Mountain is expanding its storage and data center capabilities, offering a unique investment opportunity. This growth story has implications for Indian businesses looking to invest in the global market. Iron Mountain's recurring storage revenue model provides a stable cash flow stream.",
+      "content": "<h2>Introduction to Iron Mountain</h2><p>Iron Mountain is often viewed as a legacy paper-records REIT with limited growth potential. However, its recent filings reveal a more complex and interesting structure, with a focus on recurring storage and data center expansion.</p><h2>Growth Story</h2><p>The company's expansion into the data center market is a key driver of growth, with a strong potential for increased cash flow. This is particularly relevant for Indian businesses looking to invest in the global market, as a stable cash flow stream can provide a unique investment opportunity.</p><h2>Indian Business Context</h2><p>While Iron Mountain's growth story may not be directly related to the Indian market, its implications for global investment opportunities are significant. Indian businesses looking to expand their investment portfolios may find Iron Mountain's recurring storage revenue model appealing, given its potential for stable cash flow.</p><h2>Key Highlights</h2><ul><li>Recurring storage revenue model</li><li>Data center expansion</li><li>Stable cash flow stream</li><li>Global investment opportunity</li><li>Growth potential</li></ul>",
+      "category": "Business Tools",
+      "tags": [
+        "reit",
+        "storage",
+        "data",
+        "cash",
+        "growth"
+      ],
+      "readTime": 3,
+      "slug": "iron-mountain",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "ac04f67b48f8",
+      "originalUrl": "https://businessday.ng/technology/article/localised-solutions-reliable-infrastructure-needed-to-drive-africas-digital-future/",
+      "originalTitle": "Localised solutions, reliable infrastructure needed to drive Africa’s digital future - Businessday NG",
+      "source": "Folake Balogun",
+      "imageUrl": "https://cdn.businessday.ng/wp-content/uploads/2026/05/Patching-the-old-leaks-in-the-digital-age-Reimagining-Africas-path-to-sustainable-economic-development-and-the-future-of-work.png",
+      "publishedDate": "2026-06-23 19:56:50 +0000",
+      "createdAt": "2026-06-23T20:09:56.232Z",
+      "title": "Digital Future",
+      "metaDescription": "Driving digital future with AI",
+      "keywords": [
+        "digital future",
+        "artificial intelligence",
+        "infrastructure",
+        "innovation",
+        "technology"
+      ],
+      "summary": "Indian businesses can learn from Africa's focus on localized AI solutions and reliable infrastructure to drive their own digital transformation. A strong emphasis on inclusive innovation is crucial for India's digital growth. By adopting similar strategies, Indian companies can stay competitive in the market.",
+      "content": "<h2>Introduction to Digital Transformation</h2><p>As India continues to grow in the digital landscape, it is essential to focus on localized solutions and reliable infrastructure. A stronger emphasis on Artificial Intelligence (AI) and inclusive innovation can drive the country's digital future. Indian businesses must prioritize the development of locally relevant AI solutions to cater to the unique needs of the Indian market.</p><h2>Key Drivers of Digital Growth</h2><p>Some of the key drivers of digital growth in India include: <ul><li>Investment in reliable infrastructure</li><li>Development of localized AI solutions</li><li>Inclusive innovation</li><li>Government support and regulations</li><li>Adoption of emerging technologies</li></ul></p><p>By focusing on these key drivers, Indian businesses can stay ahead of the curve and drive the country's digital transformation. The Reserve Bank of India (RBI) and the Securities and Exchange Board of India (SEBI) play a crucial role in regulating and supporting the growth of the digital economy in India.</p>",
+      "category": "Digital Transformation",
+      "tags": [
+        "ai",
+        "tech",
+        "infra",
+        "innov",
+        "digit"
+      ],
+      "readTime": 3,
+      "slug": "digital-future",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "454eed4cf40d",
       "originalUrl": "https://www.benzinga.com/crypto/26/06/60045107/solana-etfs-are-turning-6-staking-yield-into-a-superpower",
       "originalTitle": "Solana ETFs Are Turning 6% Staking Yield Into A Superpower - iShares Ethereum Trust ETF (NASDAQ:ETHA), Gr",
@@ -6271,7 +6337,7 @@
       "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-06-23T14:55:40.469Z",
-  "totalCount": 190,
+  "lastUpdated": "2026-06-23T20:09:56.232Z",
+  "totalCount": 192,
   "schema": "2.0"
 }
