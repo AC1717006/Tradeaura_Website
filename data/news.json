@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "8e541c8a3084",
+      "originalUrl": "https://www.businessinsider.com/south-korea-kospi-stock-market-today-tech-semiconductor-chip-stocks-2026-6",
+      "originalTitle": "South Korea's Kospi bounces back after chip and tech market rout",
+      "source": "htan@insider.com (Huileng Tan)",
+      "imageUrl": null,
+      "publishedDate": "2026-06-24 03:08:23 +0000",
+      "createdAt": "2026-06-24T03:53:23.423Z",
+      "title": "Tech Stocks Rebound",
+      "metaDescription": "Tech stocks bounce back",
+      "keywords": [
+        "tech stocks",
+        "semiconductor",
+        "artificial intelligence",
+        "market trends",
+        "investment"
+      ],
+      "summary": "The global technology stocks have rebounded after a sharp decline, with semiconductor and artificial intelligence names leading the way, a trend that Indian business owners should watch closely. This rebound can have implications for the Indian market, particularly for those invested in tech stocks. Indian entrepreneurs and investors should stay informed about global market trends to make informed decisions.",
+      "content": "<h2>Global Tech Stocks Rebound</h2><p>The global technology stocks have rebounded after a sharp decline, with semiconductor and artificial intelligence names leading the way. This rebound can have implications for the Indian market, particularly for those invested in tech stocks. The Indian market, although distinct, can be influenced by global trends, and thus it is essential for Indian business owners to stay informed.</p><h2>Market Trends</h2><p>Investors in India should be aware of the market trends and the performance of tech stocks globally. The recent rebound in tech stocks can be an opportunity for Indian investors to reassess their investment strategies and make informed decisions. <ul><li>Stay updated on global market trends</li><li>Monitor the performance of tech stocks</li><li>Reassess investment strategies</li><li>Consider diversifying portfolios</li><li>Seek professional advice when needed</li></ul></p>",
+      "category": "MarTech",
+      "tags": [
+        "tech",
+        "stocks",
+        "market",
+        "trends",
+        "investment"
+      ],
+      "readTime": 3,
+      "slug": "tech-stocks-rebound",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "c4ffdc443692",
+      "originalUrl": "https://www.thestar.com.my/tech/tech-news/2026/06/24/anthropic-customer-sues-us-over-losing-access-to-fable-ai-model",
+      "originalTitle": "Anthropic customer sues US over losing access to Fable AI model",
+      "source": "Rachel Metz",
+      "imageUrl": "https://apicms.thestar.com.my/uploads/images/2026/06/24/3974240.jpg",
+      "publishedDate": "2026-06-24 03:00:00 +0000",
+      "createdAt": "2026-06-24T03:53:28.658Z",
+      "title": "AI Access Lawsuit",
+      "metaDescription": "US AI access lawsuit",
+      "keywords": [
+        "artificial intelligence",
+        "AI models",
+        "US government",
+        "foreign nationals",
+        "technology"
+      ],
+      "summary": "An artificial intelligence startup has sued the US government over a ban on accessing advanced AI models, a move that could impact Indian businesses using similar technologies. The lawsuit highlights the growing importance of AI in business operations and the need for clear regulations. Indian companies may need to reassess their AI strategies in light of this development.",
+      "content": "<h2>AI Access Dispute</h2><p>An artificial intelligence startup that uses Anthropic PBC's AI models has sued the US government over a government order that restricts access to advanced AI models for foreign nationals. This move could have significant implications for Indian businesses that rely on similar AI technologies.</p><p>The lawsuit centers around the US government's decision to limit access to Anthropic's most advanced AI model, Fable, citing national security concerns. The startup, which is a customer of Anthropic, claims that this decision has caused it significant harm and is seeking relief from the court.</p><h2>Indian Business Implications</h2><p>While the lawsuit is specific to the US, it highlights the growing importance of AI in business operations and the need for clear regulations around its use. Indian companies that use AI models similar to Fable may need to reassess their strategies in light of this development.</p><p>Some key considerations for Indian businesses include: <ul><li>Assessing the risks and benefits of using advanced AI models</li><li>Understanding the regulatory landscape around AI in India and abroad</li><li>Developing strategies for mitigating the impact of potential access restrictions</li><li>Exploring alternative AI solutions that may be less subject to regulatory restrictions</li><li>Staying up-to-date with the latest developments in the AI regulatory landscape</li></ul></p>",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "law",
+        "tech",
+        "business",
+        "regulation"
+      ],
+      "readTime": 3,
+      "slug": "ai-access-lawsuit",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "b9205efaf0ed",
       "originalUrl": "https://news.alphastreet.com/iron-mountain-irm-has-a-storage-cash-flow-and-data-center-expansion-story-bigger-than-a-paper-records-reit-label/",
       "originalTitle": "Iron Mountain (IRM) Has a Storage-Cash-Flow and Data-Center Expansion Story Bigger Than a Paper-Records REIT Label",
@@ -6337,7 +6403,7 @@
       "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-06-23T20:09:56.232Z",
-  "totalCount": 192,
+  "lastUpdated": "2026-06-24T03:53:28.658Z",
+  "totalCount": 194,
   "schema": "2.0"
 }
