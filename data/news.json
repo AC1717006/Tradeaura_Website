@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "3e9dcb684461",
+      "originalUrl": "https://news.alphastreet.com/moneyhero-q1-2026-loss-deepens-0-20-share-vs-0-06-expected/",
+      "originalTitle": "MoneyHero Q1 2026 Loss Deepens: -$0.20/Share vs -$0.06 Expected",
+      "source": "AlphaStreet Newsdesk",
+      "imageUrl": "https://cdn.news.alphastreet.com/wp-content/uploads/2026/06/24092419/MNY-earnings_flash-chart-1024x538.png",
+      "publishedDate": "2026-06-24 14:34:38 +0000",
+      "createdAt": "2026-06-24T14:38:06.216Z",
+      "title": "MoneyHero Loss",
+      "metaDescription": "MoneyHero Q1 loss widens",
+      "keywords": [
+        "MoneyHero",
+        "Q1 Loss",
+        "Financial Report",
+        "NASDAQ",
+        "Market Trends"
+      ],
+      "summary": "MoneyHero Limited reported a wider-than-expected Q1 2026 loss, which may impact investor confidence in the Indian market. The loss per share was $0.20, significantly higher than the expected $0.06. This news may be relevant to Indian business owners and investors who follow global market trends.",
+      "content": "<h2>MoneyHero Q1 2026 Loss</h2><p>MoneyHero Limited (NASDAQ:MNY) has reported a Q1 2026 loss of $0.20 per share, which is significantly wider than the $0.06 loss analysts had expected. This news may have implications for the Indian business community, particularly those who invest in global markets or follow financial trends.</p><p>The wider-than-expected loss may impact investor confidence in the company, and it will be important to watch how the market responds to this news. Indian business owners and startup founders who are interested in global market trends may want to pay attention to this development.</p><h2>Key Takeaways</h2><ul><li>MoneyHero Q1 2026 loss per share was $0.20</li><li>Expected loss per share was $0.06</li><li>The company's stock is listed on NASDAQ</li><li>The news may impact investor confidence in the company</li><li>Indian business owners and investors may want to watch how the market responds to this news</ul>",
+      "category": "Finance & Markets",
+      "tags": [
+        "finance",
+        "markets",
+        "nasdaq",
+        "loss",
+        "report"
+      ],
+      "readTime": 3,
+      "slug": "moneyhero-loss",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "894f792d7445",
+      "originalUrl": "https://www.bloomberg.com/news/videos/2026-06-24/openai-broadcom-develop-ai-chip-called-jalapeno-video",
+      "originalTitle": "OpenAI, Broadcom Develop AI Chip Called 'Jalapeno'",
+      "source": "www.bloomberg.com",
+      "imageUrl": null,
+      "publishedDate": "2026-06-24 14:23:45 +0000",
+      "createdAt": "2026-06-24T14:38:11.032Z",
+      "title": "AI Chip",
+      "metaDescription": "AI chip development",
+      "keywords": [
+        "AI",
+        "chip",
+        "OpenAI",
+        "Broadcom",
+        "Jalapeno"
+      ],
+      "summary": "OpenAI and Broadcom have developed an AI chip called Jalapeno, which can cut costs by 50%. This development may impact Indian businesses that rely on AI technology. Indian companies can explore adopting such AI chips to enhance their operations.",
+      "content": "<h2>Introduction to Jalapeno AI Chip</h2><p>OpenAI and Broadcom Inc. have collaborated to develop a custom artificial intelligence chip called Jalapeno. The chip is currently being tested by OpenAI, with the companies claiming it can reduce costs by 50%. This development is significant, as it may have implications for Indian businesses that utilize AI technology.</p><h2>Potential Impact on Indian Businesses</h2><p>The Jalapeno AI chip has the potential to benefit Indian companies that rely on AI, as it can help cut costs and enhance operational efficiency. Indian businesses can explore adopting such AI chips to improve their competitiveness in the market. The development of the Jalapeno chip is a testament to the growing importance of AI in the technology sector.</p><h2>Key Features of Jalapeno AI Chip</h2><ul><li>Custom artificial intelligence chip</li><li>Developed by OpenAI and Broadcom Inc.</li><li>Can cut costs by 50%</li><li>Currently being tested by OpenAI</li><li>May impact Indian businesses that rely on AI technology</li></ul>",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "tech",
+        "india",
+        "business",
+        "automation"
+      ],
+      "readTime": 3,
+      "slug": "ai-chip",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "65cd4fafbc03",
       "originalUrl": "https://www.businesstimes.com.sg/companies-markets/telcos-media-tech/sk-hynix-seeks-45-45-trillion-won-us-listing-fund-ai-boom",
       "originalTitle": "SK Hynix seeks 45.45 trillion won with US listing to fund AI boom",
@@ -6469,7 +6535,7 @@
       "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-06-24T09:36:28.242Z",
-  "totalCount": 196,
+  "lastUpdated": "2026-06-24T14:38:11.032Z",
+  "totalCount": 198,
   "schema": "2.0"
 }
