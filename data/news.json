@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "9af2b594b387",
+      "originalUrl": "https://www.business-standard.com/industry/news/india-tech-startup-funding-rises-12-per-cent-in-h1-2026-126062500605_1.html",
+      "originalTitle": "India tech funding rises 12% to $7.2 bn in H1 2026 but deal count shrinks",
+      "source": "Business Standard; Udisha Srivastav",
+      "imageUrl": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-03/24/thumb/fitandfill/1200X628/1774373357-1222.jpg",
+      "publishedDate": "2026-06-25 09:07:57 +0000",
+      "createdAt": "2026-06-25T09:31:19.962Z",
+      "title": "India Tech Funding",
+      "metaDescription": "India tech funding rises 12%",
+      "keywords": [
+        "tech funding",
+        "startup funding",
+        "indian market",
+        "investment",
+        "venture capital"
+      ],
+      "summary": "India's tech startup funding has seen a 12% increase in the first half of 2026, reaching $7.2 billion. Despite the growth, deal volumes and first-time funding have declined. This trend may impact Indian business owners and startup founders seeking investment.",
+      "content": "<h2>India Tech Funding on the Rise</h2><p>Technology startups in India raised $7.2 billion in the first half of 2026, with larger funding rounds driving growth. However, deal volumes, investor participation, and first-time funding declined. This trend suggests that investors are becoming more selective and focusing on established startups with strong growth potential.</p><h2>Key Trends</h2><p>The Indian tech funding landscape is evolving, with a shift towards larger, more mature startups. This may be due to the increasing competition in the Indian market and the need for startups to scale quickly to remain competitive. The decline in first-time funding may also indicate that investors are becoming more cautious and prioritizing startups with a proven track record.</p><h2>Implications for Indian Businesses</h2><p>The growth in tech funding is a positive sign for the Indian economy, but the decline in deal volumes and first-time funding may be a concern for startup founders seeking investment. Indian business owners and startup founders must adapt to this changing landscape by focusing on building strong, scalable businesses that can attract larger investments. Some key strategies for startups include:</p><ul><li>Developing a robust business plan and financial model</li><li>Building a strong team with a proven track record</li><li>Focus on innovation and differentiation to stand out in a competitive market</li><li>Establishing a strong network of investors and mentors</li><li>Being prepared to scale quickly and efficiently</li></ul>",
+      "category": "Business Tools",
+      "tags": [
+        "funding",
+        "startups",
+        "india",
+        "tech",
+        "investment"
+      ],
+      "readTime": 4,
+      "slug": "india-tech-funding",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "6fcc137b3e6c",
+      "originalUrl": "https://share.transistor.fm/s/e039d1ca",
+      "originalTitle": "AIUC-1: Building trust in AI agents | Practical AI | Episode 361",
+      "source": "share.transistor.fm",
+      "imageUrl": "https://img.transistorcdn.com/i--uwCFBt56n2pUa0vkol0DqogSiLnkbjeEusLWi_Cc/rs:fill:0:0:1/w:800/h:800/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8wODZl/ZTNmNTE4ODVjMTc4/YTE2MGJhYjQ1M2Fk/ZTAzNC5wbmc.webp",
+      "publishedDate": "2026-06-25 09:00:00 +0000",
+      "createdAt": "2026-06-25T09:31:25.101Z",
+      "title": "AI Trust",
+      "metaDescription": "Building trust in AI",
+      "keywords": [
+        "AI",
+        "trust",
+        "enterprise",
+        "insurance",
+        "certification"
+      ],
+      "summary": "Indian businesses can learn from the Artificial Intelligence Underwriting Company's approach to building trust in AI agents through standards, certification, audit, and insurance, which can be applied to the Indian market. This approach can help enterprises in India navigate the complexities of AI adoption. By establishing a robust framework for AI trust, Indian companies can mitigate risks and capitalize on the benefits of AI",
+      "content": "<h2>Introduction to AI Trust</h2><p>As AI becomes increasingly prevalent in Indian businesses, the need to establish trust in AI agents is becoming a pressing concern. The Artificial Intelligence Underwriting Company (AIUC) is at the forefront of this effort, developing a framework for building trust in AI through standards, certification, audit, and insurance.</p><h2>Enterprise Flywheel for AI Trust</h2><p>The AIUC's approach involves creating an enterprise flywheel that brings together standards, certification, audit, and insurance to establish a robust framework for AI trust. This framework can be applied to various industries in India, including finance, healthcare, and manufacturing, to name a few.</p><h2>Benefits for Indian Businesses</h2><p>By adopting this framework, Indian businesses can mitigate the risks associated with AI adoption and capitalize on its benefits. A robust AI trust framework can help Indian companies build trust with their customers, partners, and stakeholders, ultimately driving business growth and competitiveness.</p><ul><li>Establishing standards for AI development and deployment</li><li>Implementing certification programs for AI agents</li><li>Conducting regular audits to ensure AI compliance</li><li>Providing insurance coverage for AI-related risks</li><li>Fostering a culture of transparency and accountability in AI development</li></ul>",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "trust",
+        "enterprise",
+        "insurance",
+        "certification"
+      ],
+      "readTime": 3,
+      "slug": "ai-trust",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "90f5779d7663",
       "originalUrl": "https://economictimes.indiatimes.com/markets/ipos/fpos/csm-technologies-ipo-day-2-gmp-at-4-check-subscription-status-should-you-subscribe/articleshow/131981634.cms",
       "originalTitle": "CSM Technologies IPO Day 2: GMP at 4% | Check subscription status. Should you subscribe?",
@@ -6533,75 +6599,9 @@
       "status": "published",
       "featured": false,
       "sitemapAdded": false
-    },
-    {
-      "id": "abed903f1649",
-      "originalUrl": "https://www.thestreet.com/technology/google-forced-to-make-costly-ai-fix-after-companies-crashout-alphabet-gemini",
-      "originalTitle": "Google forced to make costly AI fix after companies crashout",
-      "source": "Hillary Remy",
-      "imageUrl": null,
-      "publishedDate": "2026-05-30 15:03:00 +0000",
-      "createdAt": "2026-05-30T15:17:39.385Z",
-      "title": "Google AI Fix",
-      "metaDescription": "Google AI budget fix",
-      "keywords": [
-        "AI budget",
-        "Google AI",
-        "enterprise AI",
-        "AI costs",
-        "AI fix"
-      ],
-      "summary": "Google has announced a costly AI fix after several large companies exhausted their annual AI budgets, a concern also relevant to Indian business owners who are increasingly adopting AI solutions. This move is expected to impact the Indian market as companies here also struggle with AI costs. Indian enterprises can learn from Google's response to the global AI budget crisis.",
-      "content": "<h2>Google's AI Budget Fix</h2><p>Google has been forced to make a costly AI fix after several of the world's largest companies burned through their entire annual AI budget. This is not a projection, but a reality that enterprise CIOs are facing, and Google has decided to respond publicly to address this issue.</p><p>The move is significant, especially for Indian business owners who are increasingly adopting AI solutions to stay competitive in the market. As AI adoption grows in India, companies here are also likely to face similar challenges with AI costs.</p><h2>Implications for Indian Businesses</h2><p>Indian enterprises can learn from Google's response to the global AI budget crisis. By understanding the causes of AI budget exhaustion, Indian companies can take proactive steps to optimize their AI spending and avoid similar pitfalls.</p><p>Some key takeaways for Indian businesses include: <ul><li>assessing AI costs and benefits carefully</li><li>adopting a phased approach to AI adoption</li><li>monitoring AI spending regularly</li><li>exploring cost-effective AI solutions</li><li>developing an AI strategy that aligns with business goals</li></ul></p>",
-      "category": "AI & Automation",
-      "tags": [
-        "ai",
-        "google",
-        "business",
-        "india",
-        "tech"
-      ],
-      "readTime": 3,
-      "slug": "google-ai-fix",
-      "status": "published",
-      "featured": false,
-      "sitemapAdded": false
-    },
-    {
-      "id": "17a6e0b611cd",
-      "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1ts1sl5/how_to_finetune_an_llm_for_openended_problems_p/",
-      "originalTitle": "How to fine-tune an LLM for open-ended problems? [P]",
-      "source": "/u/TechNerd10191",
-      "imageUrl": null,
-      "publishedDate": "2026-05-30 14:42:01 +0000",
-      "createdAt": "2026-05-30T15:17:44.457Z",
-      "title": "LLM Fine-Tuning",
-      "metaDescription": "Fine-tune LLM for open-ended problems",
-      "keywords": [
-        "LLM",
-        "fine-tuning",
-        "open-ended problems",
-        "machine learning",
-        "AI"
-      ],
-      "summary": "Indian businesses can leverage large language models to solve complex problems, but fine-tuning these models for open-ended tasks requires novel approaches, as traditional methods like RLVR and SFT may not be effective, and alternative techniques must be explored to achieve success in the Indian market.",
-      "content": "<h2>Introduction to LLM Fine-Tuning</h2><p>Large language models (LLMs) have shown tremendous promise in solving complex problems, but fine-tuning these models for open-ended tasks can be challenging. In the Indian business context, where companies are increasingly adopting AI and machine learning, fine-tuning LLMs for open-ended problems can be a key differentiator. However, traditional methods like reinforcement learning from virtual rewards (RLVR) may not be sufficient, as they rely on a clear reward signal, which may not be available in open-ended problems.</p><h2>Alternative Fine-Tuning Methods</h2><p>Given the limitations of traditional methods, alternative techniques must be explored. Some possible approaches include using proxy reward functions, incorporating domain-specific knowledge, and leveraging human feedback. These methods can help fine-tune LLMs to solve open-ended problems, such as proof-only math problems, which are critical in various fields, including science, technology, engineering, and mathematics (STEM).<ul><li>Proxy reward functions: These functions can be used to approximate the true reward signal, allowing the model to learn from partial feedback.</li><li>Domain-specific knowledge: Incorporating domain-specific knowledge can help the model understand the context and nuances of the problem, leading to better performance.</li><li>Human feedback: Human feedback can be used to guide the model's learning process, providing insights into the problem and helping the model to improve its performance.</li></ul>",
-      "category": "AI & Automation",
-      "tags": [
-        "llm",
-        "ai",
-        "ml",
-        "india",
-        "business"
-      ],
-      "readTime": 3,
-      "slug": "llm-fine-tuning",
-      "status": "published",
-      "featured": false,
-      "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-06-25T03:54:16.561Z",
+  "lastUpdated": "2026-06-25T09:31:25.101Z",
   "totalCount": 200,
   "schema": "2.0"
 }
