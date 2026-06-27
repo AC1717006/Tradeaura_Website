@@ -42,6 +42,16 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.auraautomation.site/news/india-us-trade.html</loc>
+    <lastmod>2026-06-27</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.auraautomation.site/news/privacy-defence.html</loc>
+    <lastmod>2026-06-27</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.auraautomation.site/news/market-wrap.html</loc>
     <lastmod>2026-06-27</lastmod>
     <priority>0.7</priority>
@@ -1028,16 +1038,6 @@
   </url>
   <url>
     <loc>https://www.auraautomation.site/news/google-ai-funding.html</loc>
-    <lastmod>2026-06-01</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.auraautomation.site/news/adobes-ai.html</loc>
-    <lastmod>2026-06-01</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.auraautomation.site/news/ai-giant-listing.html</loc>
     <lastmod>2026-06-01</lastmod>
     <priority>0.7</priority>
   </url>
