@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "d5f44b178aa0",
+      "originalUrl": "https://www.reddit.com/r/options/comments/1uha9fq/i_used_chatgpt_and_codex_to_build_and_backtest/",
+      "originalTitle": "I used ChatGPT and Codex to build and backtest SPY + QQQ 0DTE trading bots",
+      "source": "/u/saffystaffie",
+      "imageUrl": null,
+      "publishedDate": "2026-06-27 18:34:45 +0000",
+      "createdAt": "2026-06-27T19:25:11.858Z",
+      "title": "AI Trading Bots",
+      "metaDescription": "AI trading bots in India",
+      "keywords": [
+        "AI trading",
+        "ChatGPT",
+        "Codex",
+        "automated trading",
+        "Python"
+      ],
+      "summary": "Indian business owners can leverage AI trading bots to automate their trading strategies, using tools like ChatGPT and Codex to develop and refine their approaches. This can help them navigate the Indian market more efficiently. By adopting AI-powered trading solutions, Indian enterprises can stay competitive in the global market.",
+      "content": "<h2>Introduction to AI Trading Bots</h2><p>Artificial intelligence (AI) has been transforming the trading landscape in recent years, enabling businesses to automate their trading strategies and make data-driven decisions. In India, the use of AI trading bots can help businesses navigate the complex and dynamic Indian market. One such example is the use of ChatGPT and Codex to build and backtest SPY + QQQ 0DTE trading bots.</p><h2>Building AI Trading Bots</h2><p>To build an AI trading bot, one can use ChatGPT to develop and refine their trading strategy, and then use Codex to build the automated bot in Python. The bot can be launched, configured, and managed through PowerShell, and can connect to a broker's platform, such as Interactive Brokers' Trader Workstation (TWS), to receive market data and execute trades.</p><h2>Benefits of AI Trading Bots</h2><p>The use of AI trading bots can provide several benefits to Indian businesses, including increased efficiency, reduced risk, and improved profitability. By automating their trading strategies, businesses can reduce the risk of human error and make more informed decisions. Additionally, AI trading bots can analyze large amounts of data and make predictions based on that data, enabling businesses to stay ahead of the competition.</p><ul><li>Increased efficiency</li><li>Reduced risk</li><li>Improved profitability</li><li>Automated decision-making</li><li>Data-driven insights</li></ul>",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "trading",
+        "bots",
+        "python",
+        "codex"
+      ],
+      "readTime": 4,
+      "slug": "ai-trading-bots",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "299a59cd3d90",
+      "originalUrl": "https://www.theverge.com/ai-artificial-intelligence/958715/margaret-atwood-ai-problem-garbage-in-garbage-out",
+      "originalTitle": "Margaret Atwood says the problem with AI is ‘garbage in, garbage out’",
+      "source": "Terrence O'Brien",
+      "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/gettyimages-2258417618.jpg?quality=90&strip=all&crop=0%2C10.752607989199%2C100%2C78.494784021602&w=1200",
+      "publishedDate": "2026-06-27 18:39:32 +0000",
+      "createdAt": "2026-06-27T19:25:17.038Z",
+      "title": "AI Garbage Input",
+      "metaDescription": "AI problem in Indian market",
+      "keywords": [
+        "AI",
+        "Artificial Intelligence",
+        "Machine Learning",
+        "Indian Business",
+        "Automation"
+      ],
+      "summary": "Margaret Atwood's critique of AI highlights the importance of quality input for Indian businesses, emphasizing the need for reliable data to drive automation and decision-making. As Indian companies increasingly adopt AI solutions, they must prioritize data accuracy to avoid 'garbage in, garbage out' scenarios. This concern is particularly relevant in the Indian market, where data quality can significantly impact business outcomes.",
+      "content": "<h2>AI Quality Concerns</h2><p>Renowned author Margaret Atwood recently expressed her disappointment with AI, citing the 'garbage in, garbage out' problem. This phrase underscores the importance of high-quality input data for AI systems to produce reliable and accurate outputs. In the Indian business context, this concern is particularly significant, as companies are increasingly leveraging AI and automation to drive growth and efficiency.</p><p>Atwood's experience with an AI tool, although limited, highlights the need for Indian businesses to prioritize data quality and accuracy. As AI adoption becomes more widespread in the Indian market, companies must ensure that their data is reliable, relevant, and well-maintained to avoid suboptimal AI performance.</p><h2>Implications for Indian Businesses</h2><p>Indian companies must recognize the importance of data quality in AI-driven decision-making. To mitigate the risks associated with 'garbage in, garbage out,' businesses can take several steps: <ul><li>Implement robust data validation and verification processes</li><li>Invest in data cleansing and normalization techniques</li><li>Develop strategies for handling missing or incomplete data</li><li>Establish clear data governance policies and procedures</li><li>Continuously monitor and evaluate AI system performance</li></ul></p>",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "business",
+        "india",
+        "tech",
+        "automation"
+      ],
+      "readTime": 3,
+      "slug": "ai-garbage-input",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "b7a7a20f017d",
       "originalUrl": "https://www.benzinga.com/crypto/cryptocurrency/26/06/60145037/a-trump-crypto-effect-republicans-are-more-likely-to-use-crypto-survey-shows",
       "originalTitle": "A Trump Crypto Effect? Republicans Are More Likely To Use Crypto, Survey Shows",
@@ -6533,75 +6599,9 @@
       "status": "published",
       "featured": false,
       "sitemapAdded": false
-    },
-    {
-      "id": "9c1c32241d33",
-      "originalUrl": "https://www.investing.com/news/stock-market-news/nvidia-ceo-says-co-can-meet-ai-chip-demand-despite-ongoing-supply-constraints-reuters-93CH-4720817",
-      "originalTitle": "Nvidia CEO says co can meet AI chip demand despite ongoing supply constraints- Reuters By Investing.com",
-      "source": "www.investing.com",
-      "imageUrl": "https://i-invdn-com.investing.com/news/moved_LYNXMPEL620W9_L.jpg",
-      "publishedDate": "2026-06-02 03:36:57 +0000",
-      "createdAt": "2026-06-02T04:16:53.111Z",
-      "title": "Nvidia Meets AI Demand",
-      "metaDescription": "Nvidia meets AI chip demand",
-      "keywords": [
-        "Nvidia",
-        "AI Chips",
-        "Supply Constraints",
-        "Indian Market",
-        "Technology"
-      ],
-      "summary": "Nvidia's CEO has expressed confidence in meeting the growing demand for AI chips in India despite ongoing supply constraints. This development is crucial for Indian businesses and startups that rely on AI technology. The Indian market is expected to benefit from Nvidia's commitment to meeting AI chip demand.",
-      "content": "<h2>Nvidia's Commitment to AI Chip Demand</h2><p>Nvidia's CEO has stated that the company can meet the increasing demand for AI chips, despite the ongoing supply constraints. This announcement is significant for the Indian market, where AI technology is being increasingly adopted by businesses and startups.</p><p>The Indian market is expected to drive the growth of AI technology in the coming years, with the RBI and SEBI playing a crucial role in regulating and promoting the use of AI in various industries. Nvidia's commitment to meeting AI chip demand is a positive development for Indian businesses and startups that rely on AI technology.</p><h2>Key Takeaways</h2><ul><li>Nvidia can meet the growing demand for AI chips</li><li>Ongoing supply constraints will not impact Nvidia's ability to meet demand</li><li>The Indian market is expected to drive the growth of AI technology</li><li>Indian businesses and startups will benefit from Nvidia's commitment to meeting AI chip demand</li><li>The RBI and SEBI will play a crucial role in regulating and promoting the use of AI in India</ul>",
-      "category": "AI & Automation",
-      "tags": [
-        "tech",
-        "ai",
-        "nvidia",
-        "chips",
-        "india"
-      ],
-      "readTime": 3,
-      "slug": "nvidia-meets-ai-demand",
-      "status": "published",
-      "featured": false,
-      "sitemapAdded": false
-    },
-    {
-      "id": "e6691430d402",
-      "originalUrl": "https://www.techinasia.com/indias-raise-financial-unicorn-120m-series",
-      "originalTitle": "MUFG plans $250m fund for India startups",
-      "source": "Aiko Gao Ishida",
-      "imageUrl": null,
-      "publishedDate": "2026-06-02 04:08:34 +0000",
-      "createdAt": "2026-06-02T04:16:58.010Z",
-      "title": "India Startup Fund",
-      "metaDescription": "MUFG $250m fund",
-      "keywords": [
-        "startups",
-        "funding",
-        "investment",
-        "India",
-        "MUFG"
-      ],
-      "summary": "Mitsubishi UFJ Financial Group plans to invest $250 million in Indian startups, targeting early- and growth-stage companies. This move is expected to boost the Indian startup ecosystem. The investment will focus on innovative and scalable businesses.",
-      "content": "<h2>Investment Plans</h2><p>Mitsubishi UFJ Financial Group (MUFG) has announced plans to invest $250 million in Indian startups. The investment is expected to target early- and growth-stage startups, with a focus on innovative and scalable businesses.</p><p>The Indian startup ecosystem has been growing rapidly, with many companies showing significant potential for growth. This investment is expected to provide a boost to the ecosystem, enabling startups to scale up their operations and expand their reach.</p><h2>Investment Strategy</h2><p>Most investments are expected to target early- and growth-stage startups, with a focus on companies that have a strong potential for growth. The investment strategy will involve identifying and investing in startups that have innovative business models and scalable operations.</p><p>The investment is expected to be made over a period of time, with the exact timeline and details of the investment strategy yet to be announced. However, it is clear that MUFG is committed to supporting the growth of the Indian startup ecosystem.</p>",
-      "category": "Business Tools",
-      "tags": [
-        "funding",
-        "startups",
-        "india",
-        "business",
-        "investment"
-      ],
-      "readTime": 3,
-      "slug": "india-startup-fund",
-      "status": "published",
-      "featured": false,
-      "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-06-27T13:49:10.687Z",
+  "lastUpdated": "2026-06-27T19:25:17.038Z",
   "totalCount": 200,
   "schema": "2.0"
 }
