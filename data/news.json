@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "b04fbdec545a",
+      "originalUrl": "https://www.benzinga.com/trading-ideas/long-ideas/26/06/60188138/nvidia-isnt-the-expensive-ai-stock-anymore-amd-palantir-and-arm-are",
+      "originalTitle": "Nvidia Isn't The Expensive AI Stock Anymore—AMD, Palantir And ARM Are - Palantir Technologies (NASDAQ:PLT",
+      "source": "Surbhi Jain",
+      "imageUrl": "https://cdn.benzinga.com/cdn-cgi/image/width=1200,height=800,fit=crop/files/images/story/2026/06/30/Bahia--Brazil---August-29--2025-Nvidia-L.jpg",
+      "publishedDate": "2026-06-30 14:10:58 +0000",
+      "createdAt": "2026-06-30T14:29:22.160Z",
+      "title": "AI Stock Shift",
+      "metaDescription": "AI stock prices change",
+      "keywords": [
+        "AI",
+        "stock",
+        "Nvidia",
+        "AMD",
+        "Palantir"
+      ],
+      "summary": "Nvidia's valuation has dropped below that of AMD, Palantir, and Arm, raising questions about the pricing of AI stocks. This shift may impact Indian businesses investing in AI technology. Indian companies should reassess their investments in the AI sector.",
+      "content": "<h2>Changing AI Landscape</h2><p>Nvidia, once considered the most expensive AI stock, now trades at a lower earnings multiple than AMD, Palantir, and Arm. This shift has raised questions about how Wall Street is pricing the next phase of the AI boom. The Indian market, with its growing focus on AI adoption, should take note of these changes.</p><h2>Implications for Indian Businesses</h2><p>As Indian companies increasingly invest in AI technology, they must reassess their investments in light of these changing valuations. The shift in AI stock prices may impact the Indian market, particularly in sectors that rely heavily on AI, such as finance and healthcare. Indian business owners and startup founders should consider the potential implications of this shift on their investments and strategies.</p><h2>Key Players</h2><p>The companies involved in this shift, including Nvidia, AMD, Palantir, and Arm, are major players in the AI sector. Their valuations will likely continue to influence the Indian market and the global AI landscape. Indian companies should monitor these developments to make informed decisions about their AI investments.</p><ul><li>Nvidia's valuation has dropped significantly</li><li>AMD, Palantir, and Arm now trade at higher earnings multiples</li><li>Indian businesses should reassess their AI investments</li><li>The shift may impact the Indian market, particularly in AI-reliant sectors</li><li>Key players will continue to influence the global AI landscape</li></ul>",
+      "category": "MarTech",
+      "tags": [
+        "ai",
+        "tech",
+        "stock",
+        "market",
+        "trends"
+      ],
+      "readTime": 3,
+      "slug": "ai-stock-shift",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "f9c50ff04395",
+      "originalUrl": "https://techcentral.co.za/tcs-ibm-bob-an-ai-powered-development-partner-for-the-enterprise/283218/",
+      "originalTitle": "TCS+ | IBM Bob: an AI-powered development partner for the enterprise",
+      "source": "IBM; Edgetec",
+      "imageUrl": "https://techcentral.co.za/wp-content/uploads/2026/06/David-Spurway-IBM-1500-800.jpg",
+      "publishedDate": "2026-06-30 14:21:04 +0000",
+      "createdAt": "2026-06-30T14:29:27.078Z",
+      "title": "AI Development Partner",
+      "metaDescription": "AI assistant for enterprises",
+      "keywords": [
+        "AI",
+        "IBM",
+        "enterprise",
+        "development",
+        "automation"
+      ],
+      "summary": "IBM's new AI assistant targets legacy stacks and mainframes to facilitate faster developer onboarding, which can benefit Indian businesses in their digital transformation journey. This AI-powered development partner can help Indian enterprises streamline their operations and improve efficiency. By leveraging AI, Indian businesses can stay competitive in the market.",
+      "content": "<h2>Introduction to IBM's AI Assistant</h2><p>IBM has introduced a new AI-powered development partner, IBM Bob, designed to assist enterprises in their development processes. This AI assistant targets legacy stacks, mainframes, and aims to facilitate faster developer onboarding. With IBM Bob, Indian businesses can streamline their operations, improve efficiency, and stay competitive in the market.</p><h2>Benefits for Indian Enterprises</h2><p>The introduction of IBM Bob can have a significant impact on Indian enterprises. By leveraging AI, Indian businesses can automate repetitive tasks, reduce costs, and enhance customer experience. Some of the key benefits of using IBM Bob include: <ul><li>Improved developer productivity</li><li>Faster time-to-market</li><li>Enhanced customer experience</li><li>Reduced costs</li><li>Increased competitiveness</li></ul></p><p>Indian businesses can leverage IBM Bob to drive innovation, improve operational efficiency, and stay ahead of the competition. As the Indian market continues to evolve, the adoption of AI-powered development partners like IBM Bob can be a key differentiator for businesses.</p>",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "ibm",
+        "enterprise",
+        "development",
+        "automation"
+      ],
+      "readTime": 3,
+      "slug": "ai-development-partner",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "a59b51d934ef",
       "originalUrl": "https://www.gadgets360.com/laptops/features/best-monochrome-laser-printers-for-office-in-india-2026-hp-canon-brother-11706817",
       "originalTitle": "Best Monochrome Laser Printers for Office in India in 2026 From HP and More",
@@ -6533,75 +6599,9 @@
       "status": "published",
       "featured": false,
       "sitemapAdded": false
-    },
-    {
-      "id": "3a41250cfa66",
-      "originalUrl": "https://www.benzinga.com/markets/tech/26/06/53016072/broadcom-apollo-and-blackstone-are-quietly-building-an-ai-infrastructure-giant",
-      "originalTitle": "Broadcom, Apollo Build Massive AI Infrastructure Play - Apollo Global Management (NYSE:APO), Broadcom (NA",
-      "source": "Surbhi Jain",
-      "imageUrl": "https://cdn.benzinga.com/cdn-cgi/image/width=1200,height=800,fit=crop/files/images/story/2026/06/04/Broadcom-Sign-And-Logo-In-Green-Landscap_5.jpeg",
-      "publishedDate": "2026-06-04 20:00:03 +0000",
-      "createdAt": "2026-06-04T20:09:51.455Z",
-      "title": "AI Infrastructure",
-      "metaDescription": "AI infrastructure play",
-      "keywords": [
-        "AI",
-        "infrastructure",
-        "Broadcom",
-        "Apollo",
-        "compute"
-      ],
-      "summary": "Broadcom and Apollo are partnering to deploy AI compute capacity, which may impact Indian businesses. The Indian market is expected to benefit from this massive AI infrastructure play. Indian business owners should take note of this development.",
-      "content": "<h2>Introduction to AI Infrastructure</h2><p>Broadcom, Apollo, and Blackstone are partnering to deploy over 20 gigawatts of AI compute capacity through 2028. This massive AI infrastructure play is expected to have a significant impact on the global market, including India. As Indian businesses continue to grow and expand, they will require more advanced AI infrastructure to remain competitive.</p><h2>Benefits for Indian Businesses</h2><p>The deployment of AI compute capacity by Broadcom and Apollo is likely to benefit Indian businesses in several ways. It will provide them with access to advanced AI infrastructure, enabling them to improve their operations and decision-making. Additionally, it will create new opportunities for Indian businesses to innovate and expand into new areas.</p><h2>Key Takeaways</h2><ul><li>Broadcom and Apollo are partnering to deploy AI compute capacity</li><li>The deployment is expected to have a significant impact on the Indian market</li><li>Indian businesses will benefit from access to advanced AI infrastructure</li><li>The partnership will create new opportunities for innovation and expansion</li><li>Indian business owners should take note of this development and plan accordingly</ul>",
-      "category": "AI & Automation",
-      "tags": [
-        "ai",
-        "tech",
-        "business",
-        "india",
-        "infrastructure"
-      ],
-      "readTime": 3,
-      "slug": "ai-infrastructure",
-      "status": "published",
-      "featured": false,
-      "sitemapAdded": false
-    },
-    {
-      "id": "48e0a18c8e5c",
-      "originalUrl": "https://thenewstack.io/google-gemma-local-ai/",
-      "originalTitle": "Google Gemma 4 12B nearly matches 26B benchmarks — and runs on your laptop",
-      "source": "Meredith Shubel",
-      "imageUrl": "https://cdn.thenewstack.io/media/2026/06/a51e3ff3-barsrsind-gtkgtdjwyxq-unsplash-scaled.jpg",
-      "publishedDate": "2026-06-04 19:30:19 +0000",
-      "createdAt": "2026-06-04T20:09:56.310Z",
-      "title": "Gemma 4 12B",
-      "metaDescription": "Google Gemma 4 12B AI model",
-      "keywords": [
-        "AI model",
-        "Gemma 4 12B",
-        "local AI",
-        "consumer-grade laptops",
-        "native audio support"
-      ],
-      "summary": "Google's Gemma 4 12B AI model brings high performance to standard laptops, making it accessible to Indian businesses and startups. This model can run locally on 16GB laptops, providing native audio support. Indian entrepreneurs can leverage this technology to enhance their operations.",
-      "content": "<h2>Introduction to Gemma 4 12B</h2><p>Google has introduced the Gemma 4 12B AI model, which can run locally on standard, consumer-grade laptops with 16GB memory. This model brings high performance to laptops, making it an attractive option for Indian businesses and startups.</p><h2>Key Features</h2><p>The Gemma 4 12B model has native audio support and can nearly match the benchmarks of larger models. This makes it an ideal choice for Indian companies looking to leverage AI technology without requiring significant infrastructure investments.</p><h2>Benefits for Indian Businesses</h2><p>With the Gemma 4 12B model, Indian entrepreneurs can enhance their operations and improve efficiency. The model's ability to run locally on laptops also reduces dependence on cloud infrastructure, making it a cost-effective solution.</p><ul><li>High performance on standard laptops</li><li>Native audio support</li><li>Cost-effective solution</li><li>Reduced dependence on cloud infrastructure</li><li>Accessible to Indian businesses and startups</li></ul>",
-      "category": "AI & Automation",
-      "tags": [
-        "ai",
-        "laptops",
-        "business",
-        "startups",
-        "technology"
-      ],
-      "readTime": 3,
-      "slug": "gemma-4-12b",
-      "status": "published",
-      "featured": false,
-      "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-06-30T09:42:42.303Z",
+  "lastUpdated": "2026-06-30T14:29:27.078Z",
   "totalCount": 200,
   "schema": "2.0"
 }

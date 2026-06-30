@@ -42,6 +42,16 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.auraautomation.site/news/ai-stock-shift.html</loc>
+    <lastmod>2026-06-30</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.auraautomation.site/news/ai-development-partner.html</loc>
+    <lastmod>2026-06-30</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.auraautomation.site/news/monochrome-laser-printers.html</loc>
     <lastmod>2026-06-30</lastmod>
     <priority>0.7</priority>
@@ -1029,16 +1039,6 @@
   <url>
     <loc>https://www.auraautomation.site/news/ai-agents-surpass-humans.html</loc>
     <lastmod>2026-06-05</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.auraautomation.site/news/ai-infrastructure.html</loc>
-    <lastmod>2026-06-04</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.auraautomation.site/news/gemma-4-12b.html</loc>
-    <lastmod>2026-06-04</lastmod>
     <priority>0.7</priority>
   </url>
 </urlset>
