@@ -42,6 +42,16 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.auraautomation.site/news/amd-stock-dips.html</loc>
+    <lastmod>2026-07-01</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.auraautomation.site/news/meta-cloud-push.html</loc>
+    <lastmod>2026-07-01</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.auraautomation.site/news/global-market-trends.html</loc>
     <lastmod>2026-07-01</lastmod>
     <priority>0.7</priority>
@@ -1029,16 +1039,6 @@
   <url>
     <loc>https://www.auraautomation.site/news/infinix-smart-20.html</loc>
     <lastmod>2026-06-06</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.auraautomation.site/news/ai-treasury.html</loc>
-    <lastmod>2026-06-05</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.auraautomation.site/news/ibm-storage-fix.html</loc>
-    <lastmod>2026-06-05</lastmod>
     <priority>0.7</priority>
   </url>
 </urlset>

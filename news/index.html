@@ -124,6 +124,11 @@
           data-color="#F97316">
           <i class="fas fa-briefcase text-xs mr-1.5"></i>Business Tools
         </button>
+      <button onclick="filterCat('SaaS &amp; Software')" data-cat="SaaS &amp; Software"
+          class="cat-btn px-4 py-2 rounded-full text-sm font-medium border border-glassBorder text-gray-400 hover:text-white hover:border-white/20 transition-all"
+          data-color="#06B6D4">
+          <i class="fas fa-layer-group text-xs mr-1.5"></i>SaaS &amp; Software
+        </button>
       <button onclick="filterCat('Digital Transformation')" data-cat="Digital Transformation"
           class="cat-btn px-4 py-2 rounded-full text-sm font-medium border border-glassBorder text-gray-400 hover:text-white hover:border-white/20 transition-all"
           data-color="#6366F1">
@@ -143,11 +148,6 @@
           class="cat-btn px-4 py-2 rounded-full text-sm font-medium border border-glassBorder text-gray-400 hover:text-white hover:border-white/20 transition-all"
           data-color="#3B82F6">
           <i class="fas fa-newspaper text-xs mr-1.5"></i>Fintech
-        </button>
-      <button onclick="filterCat('SaaS &amp; Software')" data-cat="SaaS &amp; Software"
-          class="cat-btn px-4 py-2 rounded-full text-sm font-medium border border-glassBorder text-gray-400 hover:text-white hover:border-white/20 transition-all"
-          data-color="#06B6D4">
-          <i class="fas fa-layer-group text-xs mr-1.5"></i>SaaS &amp; Software
         </button>
       <button onclick="filterCat('Finance &amp; Markets')" data-cat="Finance &amp; Markets"
           class="cat-btn px-4 py-2 rounded-full text-sm font-medium border border-glassBorder text-gray-400 hover:text-white hover:border-white/20 transition-all"
@@ -176,10 +176,10 @@
       <i class="fas fa-star text-brandBlue mr-2"></i>Featured Article
     </h2>
     
-<a href="global-market-trends.html" class="group block glass-card border border-glassBorder rounded-2xl overflow-hidden hover:border-brandBlue/40 transition-all duration-300 hover:shadow-[0_0_40px_rgba(59,130,246,0.15)]" data-aos="fade-up">
+<a href="amd-stock-dips.html" class="group block glass-card border border-glassBorder rounded-2xl overflow-hidden hover:border-brandBlue/40 transition-all duration-300 hover:shadow-[0_0_40px_rgba(59,130,246,0.15)]" data-aos="fade-up">
   <div class="grid md:grid-cols-2">
     <div class="relative h-64 md:h-auto overflow-hidden img-wrap">
-      <img src="https://cdn.benzinga.com/cdn-cgi/image/width=1200,height=800,fit=crop/files/images/story/2026/07/01/Close-Up-Of-Wall-Street-Sign-With-Iconic.jpg" alt="" loading="lazy" class="w-full h-full object-cover" onerror="this.parentElement.classList.add('img-fallback');this.remove()">
+      <img src="https://cdn.benzinga.com/cdn-cgi/image/width=1200,height=800,fit=crop/files/images/story/2026/07/01/AMD.png" alt="" loading="lazy" class="w-full h-full object-cover" onerror="this.parentElement.classList.add('img-fallback');this.remove()">
       <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
       <div class="absolute top-4 left-4"><span class="cat-badge" style="background:rgba(249,115,22,0.15);border:1px solid rgba(249,115,22,0.3);color:#F97316"><i class="fas fa-briefcase"></i>Business Tools</span></div>
       
@@ -188,14 +188,14 @@
       <div>
         <div class="flex items-center gap-3 text-xs text-gray-500 mb-3">
           <span>1 July 2026</span><span>·</span>
-          <span>Rishabh Mishra</span><span>·</span>
+          <span>Anusuya Lahiri</span><span>·</span>
           <span><i class="fas fa-clock mr-1"></i>3 min read</span>
         </div>
-        <h2 class="font-heading font-bold text-2xl text-white mb-3 group-hover:text-brandBlue transition-colors leading-snug">Global Market Trends</h2>
-        <p class="text-gray-400 text-sm leading-relaxed line-clamp-4">The decline in US stock futures has implications for Indian business owners investing in global markets. The Dow Jones, Nasdaq 100, and S&amp;P 500 indices fell, following Tuesday&#39;s higher close. This trend may impact Indian investors with international portfolios.</p>
+        <h2 class="font-heading font-bold text-2xl text-white mb-3 group-hover:text-brandBlue transition-colors leading-snug">AMD Stock Dips</h2>
+        <p class="text-gray-400 text-sm leading-relaxed line-clamp-4">AMD&#39;s stock has dipped 3.29% premarket after a historic second-quarter surge, adding $615B in market value, a trend Indian businesses can learn from in terms of adapting to tech market fluctuations. This shift can impact Indian companies invested in tech stocks. Indian investors should consider the broader tech market cooling.</p>
       </div>
       <div class="mt-6 flex items-center gap-4">
-        <span class="px-2 py-0.5 rounded text-[10px] font-medium bg-white/5 text-gray-500 border border-glassBorder">stock market</span><span class="px-2 py-0.5 rounded text-[10px] font-medium bg-white/5 text-gray-500 border border-glassBorder">US futures</span>
+        <span class="px-2 py-0.5 rounded text-[10px] font-medium bg-white/5 text-gray-500 border border-glassBorder">AMD</span><span class="px-2 py-0.5 rounded text-[10px] font-medium bg-white/5 text-gray-500 border border-glassBorder">AI Rotation</span>
         <span class="ml-auto inline-flex items-center gap-1.5 text-sm font-semibold" style="color:#F97316">
           Read Full Article <i class="fas fa-arrow-right text-xs group-hover:translate-x-1 transition-transform"></i>
         </span>
@@ -216,6 +216,48 @@
       <span id="countBadge" class="text-xs text-gray-500">200 articles</span>
     </div>
     <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6" id="grid">
+      <div data-cat="Business Tools">
+<a href="amd-stock-dips.html" class="group block glass-card border border-glassBorder rounded-2xl overflow-hidden hover:border-brandBlue/40 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_0_30px_rgba(59,130,246,0.1)]" data-aos="fade-up">
+  <div class="relative h-44 overflow-hidden img-wrap">
+    <img src="https://cdn.benzinga.com/cdn-cgi/image/width=1200,height=800,fit=crop/files/images/story/2026/07/01/AMD.png" alt="" loading="lazy" class="w-full h-full object-cover" onerror="this.parentElement.classList.add('img-fallback');this.remove()">
+    <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+    <div class="absolute top-3 left-3"><span class="cat-badge" style="background:rgba(249,115,22,0.15);border:1px solid rgba(249,115,22,0.3);color:#F97316"><i class="fas fa-briefcase"></i>Business Tools</span></div>
+    
+  </div>
+  <div class="p-5">
+    <div class="flex items-center gap-2 text-[10px] text-gray-600 mb-2">
+      <span>1 July 2026</span><span>·</span>
+      <span>Anusuya Lahiri</span><span>·</span>
+      <span>3 min</span>
+    </div>
+    <h3 class="font-heading font-bold text-sm text-white mb-2 group-hover:text-brandBlue transition-colors leading-snug line-clamp-2">AMD Stock Dips</h3>
+    <p class="text-gray-500 text-xs leading-relaxed line-clamp-2 mb-3">AMD&#39;s stock has dipped 3.29% premarket after a historic second-quarter surge, adding $615B in market value, a trend Indian businesses can learn from in terms of adapting to tech market fluctuations. This shift can impact Indian companies invested in tech stocks. Indian investors should consider the broader tech market cooling.</p>
+    <span class="inline-flex items-center gap-1.5 text-xs font-semibold" style="color:#F97316">
+      Read More <i class="fas fa-arrow-right text-[9px] group-hover:translate-x-0.5 transition-transform"></i>
+    </span>
+  </div>
+</a></div>
+      <div data-cat="SaaS &amp; Software">
+<a href="meta-cloud-push.html" class="group block glass-card border border-glassBorder rounded-2xl overflow-hidden hover:border-brandBlue/40 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_0_30px_rgba(59,130,246,0.1)]" data-aos="fade-up">
+  <div class="relative h-44 overflow-hidden img-wrap">
+    <img src="https://image.cnbcfm.com/api/v1/image/108297760-1777307207308-108297760-1777307153926-gettyimages-2267943764-Zuckerberg_182_032626.jpeg?v=1780690805&amp;w=1920&amp;h=1080" alt="" loading="lazy" class="w-full h-full object-cover" onerror="this.parentElement.classList.add('img-fallback');this.remove()">
+    <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+    <div class="absolute top-3 left-3"><span class="cat-badge" style="background:rgba(6,182,212,0.15);border:1px solid rgba(6,182,212,0.3);color:#06B6D4"><i class="fas fa-layer-group"></i>SaaS &amp; Software</span></div>
+    
+  </div>
+  <div class="p-5">
+    <div class="flex items-center gap-2 text-[10px] text-gray-600 mb-2">
+      <span>1 July 2026</span><span>·</span>
+      <span>Ashley Capoot</span><span>·</span>
+      <span>3 min</span>
+    </div>
+    <h3 class="font-heading font-bold text-sm text-white mb-2 group-hover:text-brandBlue transition-colors leading-snug line-clamp-2">Meta Cloud Push</h3>
+    <p class="text-gray-500 text-xs leading-relaxed line-clamp-2 mb-3">Meta&#39;s new cloud business offers excess AI compute power, a move that can benefit Indian companies looking to leverage AI and cloud infrastructure. This development can also impact the Indian market, where companies are increasingly adopting cloud-based solutions. As India&#39;s digital transformation gains momentum, such offerings can cater to the growing demand for cloud and AI services.</p>
+    <span class="inline-flex items-center gap-1.5 text-xs font-semibold" style="color:#06B6D4">
+      Read More <i class="fas fa-arrow-right text-[9px] group-hover:translate-x-0.5 transition-transform"></i>
+    </span>
+  </div>
+</a></div>
       <div data-cat="Business Tools">
 <a href="global-market-trends.html" class="group block glass-card border border-glassBorder rounded-2xl overflow-hidden hover:border-brandBlue/40 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_0_30px_rgba(59,130,246,0.1)]" data-aos="fade-up">
   <div class="relative h-44 overflow-hidden img-wrap">
@@ -4370,48 +4412,6 @@
     <h3 class="font-heading font-bold text-sm text-white mb-2 group-hover:text-brandBlue transition-colors leading-snug line-clamp-2">Infinix Smart 20</h3>
     <p class="text-gray-500 text-xs leading-relaxed line-clamp-2 mb-3">The Infinix Smart 20 is set to launch in India, marking a significant entry into the Indian smartphone market. This launch is expected to cater to the growing demand for affordable and feature-rich mobile devices among Indian consumers. The Infinix Smart 20 was initially released in other markets in March, and its India launch is highly anticipated.</p>
     <span class="inline-flex items-center gap-1.5 text-xs font-semibold" style="color:#6366F1">
-      Read More <i class="fas fa-arrow-right text-[9px] group-hover:translate-x-0.5 transition-transform"></i>
-    </span>
-  </div>
-</a></div>
-      <div data-cat="AI &amp; Automation">
-<a href="ai-treasury.html" class="group block glass-card border border-glassBorder rounded-2xl overflow-hidden hover:border-brandBlue/40 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_0_30px_rgba(59,130,246,0.1)]" data-aos="fade-up">
-  <div class="relative h-44 overflow-hidden img-wrap">
-    <img src="https://static.seekingalpha.com/assets/og_image_1200-29b2bfe1a595477db6826bd2126c63ac2091efb7ec76347a8e7f81ba17e3de6c.png" alt="" loading="lazy" class="w-full h-full object-cover" onerror="this.parentElement.classList.add('img-fallback');this.remove()">
-    <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
-    <div class="absolute top-3 left-3"><span class="cat-badge" style="background:rgba(59,130,246,0.15);border:1px solid rgba(59,130,246,0.3);color:#3B82F6"><i class="fas fa-robot"></i>AI &amp; Automation</span></div>
-    
-  </div>
-  <div class="p-5">
-    <div class="flex items-center gap-2 text-[10px] text-gray-600 mb-2">
-      <span>5 June 2026</span><span>·</span>
-      <span>SA Transcripts</span><span>·</span>
-      <span>3 min</span>
-    </div>
-    <h3 class="font-heading font-bold text-sm text-white mb-2 group-hover:text-brandBlue transition-colors leading-snug line-clamp-2">AI Treasury</h3>
-    <p class="text-gray-500 text-xs leading-relaxed line-clamp-2 mb-3">Genius Group Limited discusses its AI treasury strategy, focusing on Phase 1 execution, which can provide valuable insights for Indian businesses looking to leverage AI in their financial management. The Indian market can learn from Genius Group&#39;s approach to AI adoption. Indian companies can explore similar strategies to optimize their treasury operations.</p>
-    <span class="inline-flex items-center gap-1.5 text-xs font-semibold" style="color:#3B82F6">
-      Read More <i class="fas fa-arrow-right text-[9px] group-hover:translate-x-0.5 transition-transform"></i>
-    </span>
-  </div>
-</a></div>
-      <div data-cat="SaaS &amp; Software">
-<a href="ibm-storage-fix.html" class="group block glass-card border border-glassBorder rounded-2xl overflow-hidden hover:border-brandBlue/40 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_0_30px_rgba(59,130,246,0.1)]" data-aos="fade-up">
-  <div class="relative h-44 overflow-hidden img-wrap">
-    <div class="img-fallback w-full h-full" style="--cat-bg:rgba(6,182,212,0.15)"><i class="fas fa-layer-group" style="color:#06B6D4"></i></div>
-    <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
-    <div class="absolute top-3 left-3"><span class="cat-badge" style="background:rgba(6,182,212,0.15);border:1px solid rgba(6,182,212,0.3);color:#06B6D4"><i class="fas fa-layer-group"></i>SaaS &amp; Software</span></div>
-    
-  </div>
-  <div class="p-5">
-    <div class="flex items-center gap-2 text-[10px] text-gray-600 mb-2">
-      <span>5 June 2026</span><span>·</span>
-      <span>vulners.com</span><span>·</span>
-      <span>3 min</span>
-    </div>
-    <h3 class="font-heading font-bold text-sm text-white mb-2 group-hover:text-brandBlue transition-colors leading-snug line-clamp-2">IBM Storage Fix</h3>
-    <p class="text-gray-500 text-xs leading-relaxed line-clamp-2 mb-3">Indian businesses using IBM Storage Scale Management GUI, Cloudkit, or HDFS layer can now breathe a sigh of relief as the recent security vulnerabilities have been fixed in the latest updates. The fixes are available in versions 5.2.3.7 and 6.0.1.0 or higher, ensuring the security of data storage and management. This update is crucial for Indian companies to protect their sensitive data from potential cyber threats.</p>
-    <span class="inline-flex items-center gap-1.5 text-xs font-semibold" style="color:#06B6D4">
       Read More <i class="fas fa-arrow-right text-[9px] group-hover:translate-x-0.5 transition-transform"></i>
     </span>
   </div>
