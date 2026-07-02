@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "0d41fd2c30dc",
+      "originalUrl": "https://www.channelnewsasia.com/business/indias-skyroot-aerospace-readies-countrys-first-private-orbital-rocket-launch-6227331",
+      "originalTitle": "India's Skyroot Aerospace readies country's first private orbital rocket launch",
+      "source": "CNA",
+      "imageUrl": "https://dam.mediacorp.sg/image/upload/s--s5ENkjiu--/c_fill,g_auto,h_676,w_1200/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/v1/one-cms/core/2026-07-02T090112Z_1_LYNXMPEM610HO_RTROPTP_3_INDIA-SPACE-SKYROOT.JPG?itok=P2V8SBmK",
+      "publishedDate": "2026-07-02 09:01:12 +0000",
+      "createdAt": "2026-07-02T09:17:39.091Z",
+      "title": "India's Private Rocket",
+      "metaDescription": "India's private orbital rocket launch",
+      "keywords": [
+        "skyroot aerospace",
+        "private rocket launch",
+        "indian space startup",
+        "orbital rocket",
+        "vikram-1 rocket"
+      ],
+      "summary": "Skyroot Aerospace, an Indian space startup, is preparing for the country's first private orbital rocket launch, marking a significant milestone in India's space industry. Founded by former Indian Space Research Organisation engineers, the company aims to develop small rockets. This development can have implications for the Indian market and businesses involved in the space sector.",
+      "content": "<h2>Introduction to Skyroot Aerospace</h2><p>Skyroot Aerospace, an Indian space startup, has announced its plans to launch the country's first private orbital rocket, Vikram-1. This significant milestone in India's space industry is expected to pave the way for private companies to participate in the space sector.</p><h2>Significance of the Launch</h2><p>The launch of Vikram-1 is a crucial step for Skyroot Aerospace, as it aims to place a satellite in orbit. This development can have far-reaching implications for the Indian market, particularly for businesses involved in the space sector. The success of this launch can open up new opportunities for private companies to contribute to India's space program.</p><h2>Implications for Indian Businesses</h2><p>The private orbital rocket launch can have significant implications for Indian businesses, particularly those involved in the space sector. With the Indian government's support for the space industry, private companies like Skyroot Aerospace can play a vital role in driving growth and innovation. As the space sector continues to evolve, Indian businesses can explore new opportunities for collaboration and investment.</p><ul><li>The launch of Vikram-1 can create new opportunities for Indian businesses to participate in the global space industry.</li><li>Private companies like Skyroot Aerospace can drive innovation and growth in the space sector.</li><li>The Indian government's support for the space industry can attract investments and foster collaborations.</li></ul>",
+      "category": "Business Tools",
+      "tags": [
+        "space",
+        "india",
+        "rocket",
+        "launch",
+        "startup"
+      ],
+      "readTime": 3,
+      "slug": "indias-private-rocket",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "20dd59c27842",
+      "originalUrl": "https://www.thestar.com.my/tech/tech-news/2026/07/02/as-companies-race-for-cheaper-ai-options-this-startup-pitches-a-solution",
+      "originalTitle": "As companies race for cheaper AI options, this startup pitches a solution",
+      "source": "Niko Gallogly",
+      "imageUrl": "https://apicms.thestar.com.my/uploads/images/2026/07/02/3988338.jpg",
+      "publishedDate": "2026-07-02 09:00:00 +0000",
+      "createdAt": "2026-07-02T09:17:43.962Z",
+      "title": "AI Solution",
+      "metaDescription": "Together AI startup",
+      "keywords": [
+        "AI",
+        "Artificial Intelligence",
+        "Startup",
+        "Technology",
+        "Innovation"
+      ],
+      "summary": "Together AI, a startup specializing in open-source artificial intelligence models, offers a cost-effective solution for Indian businesses looking to adopt AI. With a valuation of over US$8 billion, Together AI is a promising option for companies seeking to leverage AI without incurring high costs. This development is particularly relevant in the Indian market, where businesses are increasingly seeking to harness the power of AI.",
+      "content": "<h2>Introduction to Together AI</h2><p>Together AI, a startup that specializes in open-source artificial intelligence models, has gained significant attention in recent times. With a valuation of over US$8 billion, the company is now a major player in the AI industry. This development is particularly relevant in the Indian market, where businesses are increasingly seeking to harness the power of AI to drive growth and innovation.</p><h2>Benefits of Open-Source AI Models</h2><p>The use of open-source AI models can provide several benefits to Indian businesses, including cost savings, increased flexibility, and improved scalability. By leveraging open-source models, companies can avoid the high costs associated with developing and maintaining proprietary AI systems. Additionally, open-source models can be easily customized to meet the specific needs of Indian businesses, making them a highly attractive option.</p><h2>Key Features of Together AI</h2><p>Together AI offers a range of features that make it an attractive option for Indian businesses, including:<ul><li>Access to a wide range of open-source AI models</li><li>Customization options to meet specific business needs</li><li>Cost-effective pricing plans</li><li>Scalable and flexible architecture</li><li>Support for multiple AI applications</li></ul></p>",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "startup",
+        "tech",
+        "innovation",
+        "business"
+      ],
+      "readTime": 3,
+      "slug": "ai-solution",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "ce323549bf92",
       "originalUrl": "https://www.investing.com/news/stock-market-news/switch-seeks-2-bln-funding-round-at-nearly-50-bln-valuation--bloomberg-4772272",
       "originalTitle": "Switch seeks $2 bln funding round at nearly $50 bln valuation - Bloomberg By Investing.com",
@@ -6533,75 +6599,9 @@
       "status": "published",
       "featured": false,
       "sitemapAdded": false
-    },
-    {
-      "id": "1ab2672a89e5",
-      "originalUrl": "https://www.hindustantimes.com/india-news/rbi-keeps-rates-steady-takes-steps-to-attract-foreign-capital-101780710182682.html",
-      "originalTitle": "RBI keeps rates steady, takes steps to attract foreign capital",
-      "source": "Hindustan Times",
-      "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/06/06/1600x900/logo/PTI06-05-2026-000103A-0_1780710220988_1780710230510_995a6950-619a-47a6-868b-5276b8102f69.jpg",
-      "publishedDate": "2026-06-06 01:46:28",
-      "createdAt": "2026-06-06T13:51:02.559Z",
-      "title": "RBI Keeps Rates",
-      "metaDescription": "RBI keeps rates steady to attract foreign capital",
-      "keywords": [
-        "RBI",
-        "foreign capital",
-        "Indian economy",
-        "monetary policy",
-        "interest rates"
-      ],
-      "summary": "The Reserve Bank of India has kept interest rates steady while taking steps to attract foreign capital, aiming to balance growth and inflation in the Indian market. This move is expected to have a positive impact on the Indian economy. The decision is also influenced by the ongoing war in West Asia, which has disrupted the growth-inflation balance.",
-      "content": "<h2>RBI's Monetary Policy Decision</h2><p>The Reserve Bank of India (RBI) has decided to keep interest rates steady, citing the need to balance growth and inflation in the Indian economy. This decision is aimed at attracting foreign capital and promoting economic growth. The RBI has also taken steps to improve liquidity and reduce volatility in the financial markets.</p><h2>Impact on Indian Economy</h2><p>The RBI's decision is expected to have a positive impact on the Indian economy, as it will help to attract foreign investment and promote economic growth. The move is also expected to help reduce inflation and stabilize the currency. However, the ongoing war in West Asia poses a significant risk to the Indian economy, and the RBI will need to closely monitor the situation and take appropriate actions to mitigate its impact.</p><h2>Key Takeaways</h2><ul><li>The RBI has kept interest rates steady to balance growth and inflation.</li><li>The RBI has taken steps to attract foreign capital and promote economic growth.</li><li>The decision is expected to have a positive impact on the Indian economy.</li><li>The ongoing war in West Asia poses a significant risk to the Indian economy.</li><li>The RBI will need to closely monitor the situation and take appropriate actions to mitigate its impact.</li></ul>",
-      "category": "Business Tools",
-      "tags": [
-        "rbi",
-        "economy",
-        "finance",
-        "india",
-        "business"
-      ],
-      "readTime": 3,
-      "slug": "rbi-keeps-rates",
-      "status": "published",
-      "featured": false,
-      "sitemapAdded": false
-    },
-    {
-      "id": "0998edba1de4",
-      "originalUrl": "https://www.business-standard.com/technology/tech-news/spacex-lands-major-ai-deal-with-google-after-anthropic-win-ahead-of-ipo-126060600081_1.html",
-      "originalTitle": "SpaceX lands major AI deal with Google after Anthropic win ahead of IPO",
-      "source": "Business Standard",
-      "imageUrl": "https://bsmedia.business-standard.com/_media/bs/img/article/default/1260606/thumb-126060600081.jpg",
-      "publishedDate": "2026-06-06 01:47:25",
-      "createdAt": "2026-06-06T13:51:07.307Z",
-      "title": "AI Deal",
-      "metaDescription": "SpaceX AI deal",
-      "keywords": [
-        "SpaceX",
-        "AI",
-        "Google",
-        "IPO",
-        "Anthropic"
-      ],
-      "summary": "SpaceX has landed a major AI deal with Google, strengthening its AI capabilities ahead of its IPO. This partnership brings another high-profile customer to SpaceX, after its win with Anthropic. The deal is expected to boost SpaceX's valuation in the Indian market and beyond.",
-      "content": "<h2>SpaceX and Google Partnership</h2><p>SpaceX has secured a significant AI deal with Google, marking a major milestone for the company as it prepares for its initial public offering (IPO). This partnership is expected to strengthen SpaceX's AI narrative and boost its valuation, which is projected to reach $75 billion.</p><p>The deal comes on the heels of SpaceX's win with Anthropic, another high-profile customer. This string of successes is likely to reinforce SpaceX's position in the market and attract more investors as it moves forward with its IPO plans.</p><h2>Implications for Indian Businesses</h2><p>While the deal is primarily focused on the global market, it may have implications for Indian businesses, particularly those in the technology and AI sectors. As India continues to grow as a hub for tech innovation, partnerships like the one between SpaceX and Google may inspire similar collaborations in the Indian market.</p><ul><li>Increased investment in AI research and development</li><li>More partnerships between Indian startups and global tech giants</li><li>Growing demand for AI-based solutions in the Indian market</li></ul>",
-      "category": "AI & Automation",
-      "tags": [
-        "ai",
-        "space",
-        "tech",
-        "google",
-        "ipo"
-      ],
-      "readTime": 3,
-      "slug": "ai-deal",
-      "status": "published",
-      "featured": false,
-      "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-07-02T03:52:18.247Z",
+  "lastUpdated": "2026-07-02T09:17:43.962Z",
   "totalCount": 200,
   "schema": "2.0"
 }
