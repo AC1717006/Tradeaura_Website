@@ -119,6 +119,11 @@
         class="cat-btn px-4 py-2 rounded-full text-sm font-medium border border-brandBlue/40 bg-brandBlue/10 text-brandBlue transition-all">
         All Topics
       </button>
+      <button onclick="filterCat('AI &amp; Automation')" data-cat="AI &amp; Automation"
+          class="cat-btn px-4 py-2 rounded-full text-sm font-medium border border-glassBorder text-gray-400 hover:text-white hover:border-white/20 transition-all"
+          data-color="#3B82F6">
+          <i class="fas fa-robot text-xs mr-1.5"></i>AI &amp; Automation
+        </button>
       <button onclick="filterCat('Business Tools')" data-cat="Business Tools"
           class="cat-btn px-4 py-2 rounded-full text-sm font-medium border border-glassBorder text-gray-400 hover:text-white hover:border-white/20 transition-all"
           data-color="#F97316">
@@ -128,11 +133,6 @@
           class="cat-btn px-4 py-2 rounded-full text-sm font-medium border border-glassBorder text-gray-400 hover:text-white hover:border-white/20 transition-all"
           data-color="#14B8A6">
           <i class="fas fa-chart-line text-xs mr-1.5"></i>MarTech
-        </button>
-      <button onclick="filterCat('AI &amp; Automation')" data-cat="AI &amp; Automation"
-          class="cat-btn px-4 py-2 rounded-full text-sm font-medium border border-glassBorder text-gray-400 hover:text-white hover:border-white/20 transition-all"
-          data-color="#3B82F6">
-          <i class="fas fa-robot text-xs mr-1.5"></i>AI &amp; Automation
         </button>
       <button onclick="filterCat('Digital Transformation')" data-cat="Digital Transformation"
           class="cat-btn px-4 py-2 rounded-full text-sm font-medium border border-glassBorder text-gray-400 hover:text-white hover:border-white/20 transition-all"
@@ -176,27 +176,27 @@
       <i class="fas fa-star text-brandBlue mr-2"></i>Featured Article
     </h2>
     
-<a href="e20-rollout.html" class="group block glass-card border border-glassBorder rounded-2xl overflow-hidden hover:border-brandBlue/40 transition-all duration-300 hover:shadow-[0_0_40px_rgba(59,130,246,0.15)]" data-aos="fade-up">
+<a href="metas-ai-bet.html" class="group block glass-card border border-glassBorder rounded-2xl overflow-hidden hover:border-brandBlue/40 transition-all duration-300 hover:shadow-[0_0_40px_rgba(59,130,246,0.15)]" data-aos="fade-up">
   <div class="grid md:grid-cols-2">
     <div class="relative h-64 md:h-auto overflow-hidden img-wrap">
-      <img src="https://bsmedia.business-standard.com/_media/bs/img/article/2026-07/04/thumb/fitandfill/1200X628/1783168576-2302.jpg" alt="" loading="lazy" class="w-full h-full object-cover" onerror="this.parentElement.classList.add('img-fallback');this.remove()">
+      <div class="img-fallback w-full h-full" style="--cat-bg:rgba(59,130,246,0.15)"><i class="fas fa-robot" style="color:#3B82F6"></i></div>
       <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
-      <div class="absolute top-4 left-4"><span class="cat-badge" style="background:rgba(249,115,22,0.15);border:1px solid rgba(249,115,22,0.3);color:#F97316"><i class="fas fa-briefcase"></i>Business Tools</span></div>
+      <div class="absolute top-4 left-4"><span class="cat-badge" style="background:rgba(59,130,246,0.15);border:1px solid rgba(59,130,246,0.3);color:#3B82F6"><i class="fas fa-robot"></i>AI &amp; Automation</span></div>
       
     </div>
     <div class="p-8 flex flex-col justify-between">
       <div>
         <div class="flex items-center gap-3 text-xs text-gray-500 mb-3">
           <span>4 July 2026</span><span>·</span>
-          <span>Business Standard; Akshita Singh</span><span>·</span>
+          <span>Faizan Farooque</span><span>·</span>
           <span><i class="fas fa-clock mr-1"></i>3 min read</span>
         </div>
-        <h2 class="font-heading font-bold text-2xl text-white mb-3 group-hover:text-brandBlue transition-colors leading-snug">E20 Rollout</h2>
-        <p class="text-gray-400 text-sm leading-relaxed line-clamp-4">Indian industry experts support the E20 rollout, citing years of testing and consultations with no major concerns. The ethanol blending programme aims to reduce dependence on fossil fuels. This move is expected to positively impact the Indian economy and environment.</p>
+        <h2 class="font-heading font-bold text-2xl text-white mb-3 group-hover:text-brandBlue transition-colors leading-snug">Meta&#39;s AI Bet</h2>
+        <p class="text-gray-400 text-sm leading-relaxed line-clamp-4">Meta Platforms is establishing a cloud business to sell spare AI, which may impact Indian businesses. This move could provide new revenue streams for the company. Indian business owners should consider the potential implications of this development on the Indian market.</p>
       </div>
       <div class="mt-6 flex items-center gap-4">
-        <span class="px-2 py-0.5 rounded text-[10px] font-medium bg-white/5 text-gray-500 border border-glassBorder">E20 rollout</span><span class="px-2 py-0.5 rounded text-[10px] font-medium bg-white/5 text-gray-500 border border-glassBorder">ethanol blending</span>
-        <span class="ml-auto inline-flex items-center gap-1.5 text-sm font-semibold" style="color:#F97316">
+        <span class="px-2 py-0.5 rounded text-[10px] font-medium bg-white/5 text-gray-500 border border-glassBorder">artificial intelligence</span><span class="px-2 py-0.5 rounded text-[10px] font-medium bg-white/5 text-gray-500 border border-glassBorder">cloud business</span>
+        <span class="ml-auto inline-flex items-center gap-1.5 text-sm font-semibold" style="color:#3B82F6">
           Read Full Article <i class="fas fa-arrow-right text-xs group-hover:translate-x-1 transition-transform"></i>
         </span>
       </div>
@@ -216,6 +216,48 @@
       <span id="countBadge" class="text-xs text-gray-500">200 articles</span>
     </div>
     <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6" id="grid">
+      <div data-cat="AI &amp; Automation">
+<a href="metas-ai-bet.html" class="group block glass-card border border-glassBorder rounded-2xl overflow-hidden hover:border-brandBlue/40 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_0_30px_rgba(59,130,246,0.1)]" data-aos="fade-up">
+  <div class="relative h-44 overflow-hidden img-wrap">
+    <div class="img-fallback w-full h-full" style="--cat-bg:rgba(59,130,246,0.15)"><i class="fas fa-robot" style="color:#3B82F6"></i></div>
+    <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+    <div class="absolute top-3 left-3"><span class="cat-badge" style="background:rgba(59,130,246,0.15);border:1px solid rgba(59,130,246,0.3);color:#3B82F6"><i class="fas fa-robot"></i>AI &amp; Automation</span></div>
+    
+  </div>
+  <div class="p-5">
+    <div class="flex items-center gap-2 text-[10px] text-gray-600 mb-2">
+      <span>4 July 2026</span><span>·</span>
+      <span>Faizan Farooque</span><span>·</span>
+      <span>3 min</span>
+    </div>
+    <h3 class="font-heading font-bold text-sm text-white mb-2 group-hover:text-brandBlue transition-colors leading-snug line-clamp-2">Meta&#39;s AI Bet</h3>
+    <p class="text-gray-500 text-xs leading-relaxed line-clamp-2 mb-3">Meta Platforms is establishing a cloud business to sell spare AI, which may impact Indian businesses. This move could provide new revenue streams for the company. Indian business owners should consider the potential implications of this development on the Indian market.</p>
+    <span class="inline-flex items-center gap-1.5 text-xs font-semibold" style="color:#3B82F6">
+      Read More <i class="fas fa-arrow-right text-[9px] group-hover:translate-x-0.5 transition-transform"></i>
+    </span>
+  </div>
+</a></div>
+      <div data-cat="AI &amp; Automation">
+<a href="nasa-emergency.html" class="group block glass-card border border-glassBorder rounded-2xl overflow-hidden hover:border-brandBlue/40 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_0_30px_rgba(59,130,246,0.1)]" data-aos="fade-up">
+  <div class="relative h-44 overflow-hidden img-wrap">
+    <img src="https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/Testing-Link-Vibration-tests-2_4000x2600.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.723216378839%2C100%2C78.553567242322&amp;w=1200" alt="" loading="lazy" class="w-full h-full object-cover" onerror="this.parentElement.classList.add('img-fallback');this.remove()">
+    <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+    <div class="absolute top-3 left-3"><span class="cat-badge" style="background:rgba(59,130,246,0.15);border:1px solid rgba(59,130,246,0.3);color:#3B82F6"><i class="fas fa-robot"></i>AI &amp; Automation</span></div>
+    
+  </div>
+  <div class="p-5">
+    <div class="flex items-center gap-2 text-[10px] text-gray-600 mb-2">
+      <span>4 July 2026</span><span>·</span>
+      <span>Terrence O&#39;Brien</span><span>·</span>
+      <span>3 min</span>
+    </div>
+    <h3 class="font-heading font-bold text-sm text-white mb-2 group-hover:text-brandBlue transition-colors leading-snug line-clamp-2">NASA Emergency</h3>
+    <p class="text-gray-500 text-xs leading-relaxed line-clamp-2 mb-3">NASA&#39;s swift action to save the Swift Observatory from crashing to Earth is a testament to the organization&#39;s ability to come together in times of crisis, a valuable lesson for Indian business owners and startup founders. The mission&#39;s success can be attributed to the collaboration between NASA and private companies like Katalyst Space Technologies. This highlights the importance of partnerships and quick decision-making in the Indian market.</p>
+    <span class="inline-flex items-center gap-1.5 text-xs font-semibold" style="color:#3B82F6">
+      Read More <i class="fas fa-arrow-right text-[9px] group-hover:translate-x-0.5 transition-transform"></i>
+    </span>
+  </div>
+</a></div>
       <div data-cat="Business Tools">
 <a href="e20-rollout.html" class="group block glass-card border border-glassBorder rounded-2xl overflow-hidden hover:border-brandBlue/40 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_0_30px_rgba(59,130,246,0.1)]" data-aos="fade-up">
   <div class="relative h-44 overflow-hidden img-wrap">
@@ -4369,48 +4411,6 @@
     </div>
     <h3 class="font-heading font-bold text-sm text-white mb-2 group-hover:text-brandBlue transition-colors leading-snug line-clamp-2">Apple AI Update</h3>
     <p class="text-gray-500 text-xs leading-relaxed line-clamp-2 mb-3">Apple&#39;s new AI frameworks and Xcode 27 with agentic coding are set to revolutionize the Indian tech industry, with potential applications in various sectors. Indian businesses can leverage these advancements to enhance their operations and customer experiences. The update also includes Core AI, updated Foundation Models, and Swift 6.4.</p>
-    <span class="inline-flex items-center gap-1.5 text-xs font-semibold" style="color:#3B82F6">
-      Read More <i class="fas fa-arrow-right text-[9px] group-hover:translate-x-0.5 transition-transform"></i>
-    </span>
-  </div>
-</a></div>
-      <div data-cat="AI &amp; Automation">
-<a href="ai-trends.html" class="group block glass-card border border-glassBorder rounded-2xl overflow-hidden hover:border-brandBlue/40 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_0_30px_rgba(59,130,246,0.1)]" data-aos="fade-up">
-  <div class="relative h-44 overflow-hidden img-wrap">
-    <img src="https://www.businesskorea.co.kr/news/thumbnail/202606/270902_278002_1157_v150.jpg" alt="" loading="lazy" class="w-full h-full object-cover" onerror="this.parentElement.classList.add('img-fallback');this.remove()">
-    <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
-    <div class="absolute top-3 left-3"><span class="cat-badge" style="background:rgba(59,130,246,0.15);border:1px solid rgba(59,130,246,0.3);color:#3B82F6"><i class="fas fa-robot"></i>AI &amp; Automation</span></div>
-    
-  </div>
-  <div class="p-5">
-    <div class="flex items-center gap-2 text-[10px] text-gray-600 mb-2">
-      <span>9 June 2026</span><span>·</span>
-      <span>Jack H. Park</span><span>·</span>
-      <span>3 min</span>
-    </div>
-    <h3 class="font-heading font-bold text-sm text-white mb-2 group-hover:text-brandBlue transition-colors leading-snug line-clamp-2">AI Trends</h3>
-    <p class="text-gray-500 text-xs leading-relaxed line-clamp-2 mb-3">Indian business owners can learn from global AI trends and innovations, particularly in countries like South Korea, to stay competitive in the market. The country&#39;s tech giants are shaping the future of AI, and understanding their strategies can help Indian businesses make informed decisions. As the Indian market continues to grow, embracing AI and innovation will be crucial for success.</p>
-    <span class="inline-flex items-center gap-1.5 text-xs font-semibold" style="color:#3B82F6">
-      Read More <i class="fas fa-arrow-right text-[9px] group-hover:translate-x-0.5 transition-transform"></i>
-    </span>
-  </div>
-</a></div>
-      <div data-cat="AI &amp; Automation">
-<a href="nvidia-sk-hynix-ai-partnership.html" class="group block glass-card border border-glassBorder rounded-2xl overflow-hidden hover:border-brandBlue/40 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_0_30px_rgba(59,130,246,0.1)]" data-aos="fade-up">
-  <div class="relative h-44 overflow-hidden img-wrap">
-    <img src="https://techgenyz.com/wp-content/uploads/2026/06/nvidia-and-sk-hynix-1024x576.webp" alt="" loading="lazy" class="w-full h-full object-cover" onerror="this.parentElement.classList.add('img-fallback');this.remove()">
-    <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
-    <div class="absolute top-3 left-3"><span class="cat-badge" style="background:rgba(59,130,246,0.15);border:1px solid rgba(59,130,246,0.3);color:#3B82F6"><i class="fas fa-robot"></i>AI &amp; Automation</span></div>
-    
-  </div>
-  <div class="p-5">
-    <div class="flex items-center gap-2 text-[10px] text-gray-600 mb-2">
-      <span>8 June 2026</span><span>·</span>
-      <span>Techgenyz</span><span>·</span>
-      <span>3 min</span>
-    </div>
-    <h3 class="font-heading font-bold text-sm text-white mb-2 group-hover:text-brandBlue transition-colors leading-snug line-clamp-2">NVIDIA SK hynix AI Partnership</h3>
-    <p class="text-gray-500 text-xs leading-relaxed line-clamp-2 mb-3">NVIDIA and SK hynix have entered a multiyear partnership to develop next-generation memory solutions for AI, which can impact Indian businesses leveraging AI technology. This partnership aims to strengthen the semiconductor industry&#39;s relationship amidst surging demand for AI computing. Indian companies can benefit from this collaboration by adopting advanced AI solutions.</p>
     <span class="inline-flex items-center gap-1.5 text-xs font-semibold" style="color:#3B82F6">
       Read More <i class="fas fa-arrow-right text-[9px] group-hover:translate-x-0.5 transition-transform"></i>
     </span>
