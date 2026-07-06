@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "74c232045bea",
+      "originalUrl": "https://www.bloomberg.com/news/videos/2026-07-06/high-ai-capex-demand-a-multi-year-cycle-says-seseri-video",
+      "originalTitle": "High AI Capex Demand a 'Multi-Year' Cycle, Says Rudina Seseri",
+      "source": "www.bloomberg.com",
+      "imageUrl": null,
+      "publishedDate": "2026-07-06 19:38:16 +0000",
+      "createdAt": "2026-07-06T20:01:48.585Z",
+      "title": "AI Capex Demand",
+      "metaDescription": "AI capex demand cycle",
+      "keywords": [
+        "AI",
+        "Capex",
+        "Infrastructure",
+        "Investment",
+        "Technology"
+      ],
+      "summary": "Indian businesses are witnessing a surge in AI adoption, driving high demand for AI infrastructure. Rudina Seseri, founder of Glasswing Ventures, believes this demand will persist as companies strive to become vertically integrated AI players. This trend is expected to shape the Indian market.",
+      "content": "<h2>AI Infrastructure Demand on the Rise</h2><p>According to Rudina Seseri, founder and managing partner at Glasswing Ventures, the demand for AI infrastructure is strong and will continue to be a multi-year cycle. This is because companies are turning towards becoming vertically integrated players in the AI business, driving the need for high AI capital expenditure (capex).</p><p>The Indian market is also expected to witness significant growth in AI adoption, with companies across various sectors investing heavily in AI infrastructure. This trend is likely to continue as businesses seek to leverage AI to improve efficiency, reduce costs, and enhance customer experience.</p><h2>Key Drivers of AI Capex Demand</h2><ul><li>Increasing adoption of AI across industries</li><li>Growing need for vertical integration in AI</li><li>Rising demand for AI infrastructure</li><li>Improved efficiency and cost savings</li><li>Enhanced customer experience</li></ul>",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "tech",
+        "invest",
+        "market",
+        "trend"
+      ],
+      "readTime": 3,
+      "slug": "ai-capex-demand",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "a1b8e533c8bb",
+      "originalUrl": "https://gizmodo.com/when-it-comes-to-energy-use-ai-agents-could-make-chatbots-look-like-pocket-calculators-2000781774?utm_source=flipboard&utm_content=user%2FGizmodo",
+      "originalTitle": "When It Comes to Energy Use, AI Agents Could Make Chatbots Look Like Pocket Calculators",
+      "source": "AJ Dellinger",
+      "imageUrl": "https://gizmodo.com/app/uploads/2026/07/smokestacks-1200x675.png",
+      "publishedDate": "2026-07-06 19:25:59 +0000",
+      "createdAt": "2026-07-06T20:01:53.762Z",
+      "title": "AI Energy Use",
+      "metaDescription": "AI agents energy use",
+      "keywords": [
+        "AI agents",
+        "energy use",
+        "chatbots",
+        "automation",
+        "technology"
+      ],
+      "summary": "Indian businesses may soon adopt AI agents that could significantly impact energy consumption, potentially altering the way companies approach automation and technology. As the Indian market continues to grow, companies must consider the environmental implications of their technological advancements. The RBI and SEBI have been promoting sustainable practices, and AI agents may be the next step in this direction.",
+      "content": "<h2>Introduction to AI Agents</h2><p>AI agents are being developed to perform various tasks, including responding to emails and other automated functions. These agents have the potential to make chatbots look like pocket calculators in terms of energy use. As Indian businesses continue to adopt automation and technology, the energy consumption of these AI agents is becoming a concern.</p><h2>Energy Consumption Comparison</h2><p>While chatbots are relatively simple and do not consume much energy, AI agents are more complex and require more power to operate. This increased energy consumption can have significant environmental implications, especially for large-scale operations. Indian companies must consider these implications and explore ways to reduce their energy consumption.</p><h2>Future of AI Agents in India</h2><p>The Indian market is expected to continue growing, and AI agents are likely to play a significant role in this growth. As companies adopt these agents, they must also consider the environmental impact of their actions. The RBI and SEBI have been promoting sustainable practices, and AI agents may be the next step in this direction. By adopting energy-efficient AI agents, Indian businesses can reduce their environmental footprint and contribute to a more sustainable future.</p><h2>Key Considerations</h2><ul><li>Energy consumption of AI agents</li><li>Environmental implications of automation and technology</li><li>Sustainable practices in the Indian market</li><li>Role of RBI and SEBI in promoting sustainability</li><li>Future of AI agents in India</li></ul>",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "automation",
+        "energy",
+        "sustainability",
+        "technology"
+      ],
+      "readTime": 3,
+      "slug": "ai-energy-use",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "d019a7fd8aaa",
       "originalUrl": "https://www.investing.com/news/economy-news/feds-waller-forward-guidance-valuable-though-not-at-all-moments-4776969",
       "originalTitle": "Fed’s Waller: Forward guidance ’valuable,’ though not at all moments By Reuters",
@@ -6533,75 +6599,9 @@
       "status": "published",
       "featured": false,
       "sitemapAdded": false
-    },
-    {
-      "id": "10e0b4a5a655",
-      "originalUrl": "https://www.bloomberg.com/news/newsletters/2026-06-11/wall-street-s-worries-are-all-about-ai",
-      "originalTitle": "Wall Street’s Worries Are All About AI",
-      "source": "www.bloomberg.com",
-      "imageUrl": null,
-      "publishedDate": "2026-06-11 10:27:44 +0000",
-      "createdAt": "2026-06-11T10:42:35.583Z",
-      "title": "AI Concerns",
-      "metaDescription": "AI impact on markets",
-      "keywords": [
-        "AI",
-        "market trends",
-        "business automation",
-        "investments",
-        "technology"
-      ],
-      "summary": "Indian business owners are taking note of global market trends, particularly the growing concerns around AI. As the Indian market continues to evolve, understanding AI's impact on investments and business automation is crucial. This knowledge can help Indian companies make informed decisions and stay competitive.",
-      "content": "<h2>Global Market Trends</h2><p>Recent reports from global markets, including those from prominent financial institutions, highlight the growing concerns around Artificial Intelligence (AI) and its potential impact on various sectors. The Indian business landscape, being closely tied to global market trends, is also taking note of these developments.</p><h2>Understanding AI's Impact</h2><p>As AI continues to evolve and permeate various aspects of business, Indian companies must understand its implications on investments, operations, and overall strategy. This includes considering the potential benefits of AI, such as enhanced efficiency and decision-making, as well as the potential risks, including job displacement and market volatility.</p><h2>Key Considerations for Indian Businesses</h2><p>Indian business owners and decision-makers should consider the following key points when evaluating AI's impact on their operations: <ul><li>Assessing the potential for AI-driven automation in their industry</li><li>Evaluating the potential risks and benefits of AI adoption</li><li>Developing strategies to mitigate potential negative impacts</li><li>Staying informed about the latest developments in AI and its applications</li><li>Collaborating with stakeholders to develop industry-wide standards and best practices</li></ul></p>",
-      "category": "AI & Automation",
-      "tags": [
-        "ai",
-        "market",
-        "trends",
-        "business",
-        "tech"
-      ],
-      "readTime": 3,
-      "slug": "ai-concerns",
-      "status": "published",
-      "featured": false,
-      "sitemapAdded": false
-    },
-    {
-      "id": "4fbca9380c76",
-      "originalUrl": "https://timesofindia.indiatimes.com/science/meet-pemba-the-first-humanoid-to-climb-to-20341-feet-on-a-volcano-in-ecuador-in-extreme-field-conditions/articleshow/131655836.cms",
-      "originalTitle": "Meet Pemba: The first humanoid to climb to 20,341 feet on a volcano in Ecuador in extreme field conditions",
-      "source": "TOI Science Desk",
-      "imageUrl": "https://static.toiimg.com/thumb/msid-131655942,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
-      "publishedDate": "2026-06-11 10:16:12 +0000",
-      "createdAt": "2026-06-11T10:42:40.579Z",
-      "title": "Humanoid Tech",
-      "metaDescription": "Humanoid robot Pemba",
-      "keywords": [
-        "humanoid robot",
-        "artificial intelligence",
-        "robotic technology",
-        "automation",
-        "innovation"
-      ],
-      "summary": "A humanoid robot named Pemba has achieved a remarkable feat by climbing a 6,200-metre volcano in Ecuador, demonstrating its capabilities in extreme field conditions, which can inspire Indian business owners to explore innovative automation solutions, while the Reserve Bank of India and the Securities and Exchange Board of India monitor technological advancements in the Indian market.",
-      "content": "<h2>Introduction to Humanoid Robots</h2><p>The ascent of a 6,200-metre volcano by a walking humanoid machine sounds, at first, like one of those lab demonstrations that never quite leaves controlled conditions. Yet this time it did. A humanoid robot named Pemba has achieved a remarkable feat by climbing a 6,200-metre volcano in Ecuador, demonstrating its capabilities in extreme field conditions.</p><h2>Implications for Indian Businesses</h2><p>Indian business owners and startup founders can draw inspiration from Pemba's achievement, exploring innovative automation solutions to enhance their operations and stay competitive in the Indian market. As the Indian economy continues to grow, the adoption of robotic technology and artificial intelligence can play a crucial role in driving efficiency and productivity.</p><h2>Key Takeaways</h2><ul><li>Humanoid robots can operate in extreme field conditions</li><li>Indian businesses can benefit from innovative automation solutions</li><li>Robotic technology and artificial intelligence can drive efficiency and productivity</li><li>The Indian market is poised for growth with the adoption of new technologies</li><li>Business owners and startup founders must stay informed about the latest technological advancements</li></ul>",
-      "category": "AI & Automation",
-      "tags": [
-        "robots",
-        "ai",
-        "tech",
-        "innovation",
-        "automation"
-      ],
-      "readTime": 3,
-      "slug": "humanoid-tech",
-      "status": "published",
-      "featured": false,
-      "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-07-06T15:39:27.449Z",
+  "lastUpdated": "2026-07-06T20:01:53.763Z",
   "totalCount": 200,
   "schema": "2.0"
 }

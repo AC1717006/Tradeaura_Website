@@ -119,6 +119,11 @@
         class="cat-btn px-4 py-2 rounded-full text-sm font-medium border border-brandBlue/40 bg-brandBlue/10 text-brandBlue transition-all">
         All Topics
       </button>
+      <button onclick="filterCat('AI &amp; Automation')" data-cat="AI &amp; Automation"
+          class="cat-btn px-4 py-2 rounded-full text-sm font-medium border border-glassBorder text-gray-400 hover:text-white hover:border-white/20 transition-all"
+          data-color="#3B82F6">
+          <i class="fas fa-robot text-xs mr-1.5"></i>AI &amp; Automation
+        </button>
       <button onclick="filterCat('Finance &amp; Markets')" data-cat="Finance &amp; Markets"
           class="cat-btn px-4 py-2 rounded-full text-sm font-medium border border-glassBorder text-gray-400 hover:text-white hover:border-white/20 transition-all"
           data-color="#3B82F6">
@@ -128,11 +133,6 @@
           class="cat-btn px-4 py-2 rounded-full text-sm font-medium border border-glassBorder text-gray-400 hover:text-white hover:border-white/20 transition-all"
           data-color="#3B82F6">
           <i class="fas fa-newspaper text-xs mr-1.5"></i>Technology
-        </button>
-      <button onclick="filterCat('AI &amp; Automation')" data-cat="AI &amp; Automation"
-          class="cat-btn px-4 py-2 rounded-full text-sm font-medium border border-glassBorder text-gray-400 hover:text-white hover:border-white/20 transition-all"
-          data-color="#3B82F6">
-          <i class="fas fa-robot text-xs mr-1.5"></i>AI &amp; Automation
         </button>
       <button onclick="filterCat('Business Tools')" data-cat="Business Tools"
           class="cat-btn px-4 py-2 rounded-full text-sm font-medium border border-glassBorder text-gray-400 hover:text-white hover:border-white/20 transition-all"
@@ -176,26 +176,26 @@
       <i class="fas fa-star text-brandBlue mr-2"></i>Featured Article
     </h2>
     
-<a href="fed-guidance.html" class="group block glass-card border border-glassBorder rounded-2xl overflow-hidden hover:border-brandBlue/40 transition-all duration-300 hover:shadow-[0_0_40px_rgba(59,130,246,0.15)]" data-aos="fade-up">
+<a href="ai-capex-demand.html" class="group block glass-card border border-glassBorder rounded-2xl overflow-hidden hover:border-brandBlue/40 transition-all duration-300 hover:shadow-[0_0_40px_rgba(59,130,246,0.15)]" data-aos="fade-up">
   <div class="grid md:grid-cols-2">
     <div class="relative h-64 md:h-auto overflow-hidden img-wrap">
-      <img src="https://i-invdn-com.investing.com/news/https://i-invdn-com.investing.com/trkd-images/LYNXMPEM65103_L.jpg" alt="" loading="lazy" class="w-full h-full object-cover" onerror="this.parentElement.classList.add('img-fallback');this.remove()">
+      <div class="img-fallback w-full h-full" style="--cat-bg:rgba(59,130,246,0.15)"><i class="fas fa-robot" style="color:#3B82F6"></i></div>
       <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
-      <div class="absolute top-4 left-4"><span class="cat-badge" style="background:rgba(59,130,246,0.15);border:1px solid rgba(59,130,246,0.3);color:#3B82F6"><i class="fas fa-newspaper"></i>Finance &amp; Markets</span></div>
+      <div class="absolute top-4 left-4"><span class="cat-badge" style="background:rgba(59,130,246,0.15);border:1px solid rgba(59,130,246,0.3);color:#3B82F6"><i class="fas fa-robot"></i>AI &amp; Automation</span></div>
       
     </div>
     <div class="p-8 flex flex-col justify-between">
       <div>
         <div class="flex items-center gap-3 text-xs text-gray-500 mb-3">
           <span>6 July 2026</span><span>·</span>
-          <span>www.investing.com</span><span>·</span>
+          <span>www.bloomberg.com</span><span>·</span>
           <span><i class="fas fa-clock mr-1"></i>3 min read</span>
         </div>
-        <h2 class="font-heading font-bold text-2xl text-white mb-3 group-hover:text-brandBlue transition-colors leading-snug">Fed Guidance</h2>
-        <p class="text-gray-400 text-sm leading-relaxed line-clamp-4">The US Federal Reserve&#39;s forward guidance is a valuable tool for monetary policy, although its effectiveness varies. Indian business owners should be aware of global economic trends. This guidance can impact the Indian market through global economic shifts.</p>
+        <h2 class="font-heading font-bold text-2xl text-white mb-3 group-hover:text-brandBlue transition-colors leading-snug">AI Capex Demand</h2>
+        <p class="text-gray-400 text-sm leading-relaxed line-clamp-4">Indian businesses are witnessing a surge in AI adoption, driving high demand for AI infrastructure. Rudina Seseri, founder of Glasswing Ventures, believes this demand will persist as companies strive to become vertically integrated AI players. This trend is expected to shape the Indian market.</p>
       </div>
       <div class="mt-6 flex items-center gap-4">
-        <span class="px-2 py-0.5 rounded text-[10px] font-medium bg-white/5 text-gray-500 border border-glassBorder">forward guidance</span><span class="px-2 py-0.5 rounded text-[10px] font-medium bg-white/5 text-gray-500 border border-glassBorder">federal reserve</span>
+        <span class="px-2 py-0.5 rounded text-[10px] font-medium bg-white/5 text-gray-500 border border-glassBorder">AI</span><span class="px-2 py-0.5 rounded text-[10px] font-medium bg-white/5 text-gray-500 border border-glassBorder">Capex</span>
         <span class="ml-auto inline-flex items-center gap-1.5 text-sm font-semibold" style="color:#3B82F6">
           Read Full Article <i class="fas fa-arrow-right text-xs group-hover:translate-x-1 transition-transform"></i>
         </span>
@@ -216,6 +216,48 @@
       <span id="countBadge" class="text-xs text-gray-500">200 articles</span>
     </div>
     <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6" id="grid">
+      <div data-cat="AI &amp; Automation">
+<a href="ai-capex-demand.html" class="group block glass-card border border-glassBorder rounded-2xl overflow-hidden hover:border-brandBlue/40 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_0_30px_rgba(59,130,246,0.1)]" data-aos="fade-up">
+  <div class="relative h-44 overflow-hidden img-wrap">
+    <div class="img-fallback w-full h-full" style="--cat-bg:rgba(59,130,246,0.15)"><i class="fas fa-robot" style="color:#3B82F6"></i></div>
+    <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+    <div class="absolute top-3 left-3"><span class="cat-badge" style="background:rgba(59,130,246,0.15);border:1px solid rgba(59,130,246,0.3);color:#3B82F6"><i class="fas fa-robot"></i>AI &amp; Automation</span></div>
+    
+  </div>
+  <div class="p-5">
+    <div class="flex items-center gap-2 text-[10px] text-gray-600 mb-2">
+      <span>6 July 2026</span><span>·</span>
+      <span>www.bloomberg.com</span><span>·</span>
+      <span>3 min</span>
+    </div>
+    <h3 class="font-heading font-bold text-sm text-white mb-2 group-hover:text-brandBlue transition-colors leading-snug line-clamp-2">AI Capex Demand</h3>
+    <p class="text-gray-500 text-xs leading-relaxed line-clamp-2 mb-3">Indian businesses are witnessing a surge in AI adoption, driving high demand for AI infrastructure. Rudina Seseri, founder of Glasswing Ventures, believes this demand will persist as companies strive to become vertically integrated AI players. This trend is expected to shape the Indian market.</p>
+    <span class="inline-flex items-center gap-1.5 text-xs font-semibold" style="color:#3B82F6">
+      Read More <i class="fas fa-arrow-right text-[9px] group-hover:translate-x-0.5 transition-transform"></i>
+    </span>
+  </div>
+</a></div>
+      <div data-cat="AI &amp; Automation">
+<a href="ai-energy-use.html" class="group block glass-card border border-glassBorder rounded-2xl overflow-hidden hover:border-brandBlue/40 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_0_30px_rgba(59,130,246,0.1)]" data-aos="fade-up">
+  <div class="relative h-44 overflow-hidden img-wrap">
+    <img src="https://gizmodo.com/app/uploads/2026/07/smokestacks-1200x675.png" alt="" loading="lazy" class="w-full h-full object-cover" onerror="this.parentElement.classList.add('img-fallback');this.remove()">
+    <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+    <div class="absolute top-3 left-3"><span class="cat-badge" style="background:rgba(59,130,246,0.15);border:1px solid rgba(59,130,246,0.3);color:#3B82F6"><i class="fas fa-robot"></i>AI &amp; Automation</span></div>
+    
+  </div>
+  <div class="p-5">
+    <div class="flex items-center gap-2 text-[10px] text-gray-600 mb-2">
+      <span>6 July 2026</span><span>·</span>
+      <span>AJ Dellinger</span><span>·</span>
+      <span>3 min</span>
+    </div>
+    <h3 class="font-heading font-bold text-sm text-white mb-2 group-hover:text-brandBlue transition-colors leading-snug line-clamp-2">AI Energy Use</h3>
+    <p class="text-gray-500 text-xs leading-relaxed line-clamp-2 mb-3">Indian businesses may soon adopt AI agents that could significantly impact energy consumption, potentially altering the way companies approach automation and technology. As the Indian market continues to grow, companies must consider the environmental implications of their technological advancements. The RBI and SEBI have been promoting sustainable practices, and AI agents may be the next step in this direction.</p>
+    <span class="inline-flex items-center gap-1.5 text-xs font-semibold" style="color:#3B82F6">
+      Read More <i class="fas fa-arrow-right text-[9px] group-hover:translate-x-0.5 transition-transform"></i>
+    </span>
+  </div>
+</a></div>
       <div data-cat="Finance &amp; Markets">
 <a href="fed-guidance.html" class="group block glass-card border border-glassBorder rounded-2xl overflow-hidden hover:border-brandBlue/40 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_0_30px_rgba(59,130,246,0.1)]" data-aos="fade-up">
   <div class="relative h-44 overflow-hidden img-wrap">
@@ -4369,48 +4411,6 @@
     </div>
     <h3 class="font-heading font-bold text-sm text-white mb-2 group-hover:text-brandBlue transition-colors leading-snug line-clamp-2">AWS Graviton5</h3>
     <p class="text-gray-500 text-xs leading-relaxed line-clamp-2 mb-3">Amazon&#39;s AWS Graviton5 CPU is now available for AI workloads, offering a 25% performance uplift and improved efficiency. This development can benefit Indian businesses leveraging cloud computing for AI applications. The AWS Graviton5 is designed to support demanding AI workloads, making it an attractive option for Indian enterprises.</p>
-    <span class="inline-flex items-center gap-1.5 text-xs font-semibold" style="color:#3B82F6">
-      Read More <i class="fas fa-arrow-right text-[9px] group-hover:translate-x-0.5 transition-transform"></i>
-    </span>
-  </div>
-</a></div>
-      <div data-cat="AI &amp; Automation">
-<a href="ai-concerns.html" class="group block glass-card border border-glassBorder rounded-2xl overflow-hidden hover:border-brandBlue/40 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_0_30px_rgba(59,130,246,0.1)]" data-aos="fade-up">
-  <div class="relative h-44 overflow-hidden img-wrap">
-    <div class="img-fallback w-full h-full" style="--cat-bg:rgba(59,130,246,0.15)"><i class="fas fa-robot" style="color:#3B82F6"></i></div>
-    <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
-    <div class="absolute top-3 left-3"><span class="cat-badge" style="background:rgba(59,130,246,0.15);border:1px solid rgba(59,130,246,0.3);color:#3B82F6"><i class="fas fa-robot"></i>AI &amp; Automation</span></div>
-    
-  </div>
-  <div class="p-5">
-    <div class="flex items-center gap-2 text-[10px] text-gray-600 mb-2">
-      <span>11 June 2026</span><span>·</span>
-      <span>www.bloomberg.com</span><span>·</span>
-      <span>3 min</span>
-    </div>
-    <h3 class="font-heading font-bold text-sm text-white mb-2 group-hover:text-brandBlue transition-colors leading-snug line-clamp-2">AI Concerns</h3>
-    <p class="text-gray-500 text-xs leading-relaxed line-clamp-2 mb-3">Indian business owners are taking note of global market trends, particularly the growing concerns around AI. As the Indian market continues to evolve, understanding AI&#39;s impact on investments and business automation is crucial. This knowledge can help Indian companies make informed decisions and stay competitive.</p>
-    <span class="inline-flex items-center gap-1.5 text-xs font-semibold" style="color:#3B82F6">
-      Read More <i class="fas fa-arrow-right text-[9px] group-hover:translate-x-0.5 transition-transform"></i>
-    </span>
-  </div>
-</a></div>
-      <div data-cat="AI &amp; Automation">
-<a href="humanoid-tech.html" class="group block glass-card border border-glassBorder rounded-2xl overflow-hidden hover:border-brandBlue/40 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_0_30px_rgba(59,130,246,0.1)]" data-aos="fade-up">
-  <div class="relative h-44 overflow-hidden img-wrap">
-    <img src="https://static.toiimg.com/thumb/msid-131655942,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg" alt="" loading="lazy" class="w-full h-full object-cover" onerror="this.parentElement.classList.add('img-fallback');this.remove()">
-    <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
-    <div class="absolute top-3 left-3"><span class="cat-badge" style="background:rgba(59,130,246,0.15);border:1px solid rgba(59,130,246,0.3);color:#3B82F6"><i class="fas fa-robot"></i>AI &amp; Automation</span></div>
-    
-  </div>
-  <div class="p-5">
-    <div class="flex items-center gap-2 text-[10px] text-gray-600 mb-2">
-      <span>11 June 2026</span><span>·</span>
-      <span>TOI Science Desk</span><span>·</span>
-      <span>3 min</span>
-    </div>
-    <h3 class="font-heading font-bold text-sm text-white mb-2 group-hover:text-brandBlue transition-colors leading-snug line-clamp-2">Humanoid Tech</h3>
-    <p class="text-gray-500 text-xs leading-relaxed line-clamp-2 mb-3">A humanoid robot named Pemba has achieved a remarkable feat by climbing a 6,200-metre volcano in Ecuador, demonstrating its capabilities in extreme field conditions, which can inspire Indian business owners to explore innovative automation solutions, while the Reserve Bank of India and the Securities and Exchange Board of India monitor technological advancements in the Indian market.</p>
     <span class="inline-flex items-center gap-1.5 text-xs font-semibold" style="color:#3B82F6">
       Read More <i class="fas fa-arrow-right text-[9px] group-hover:translate-x-0.5 transition-transform"></i>
     </span>
