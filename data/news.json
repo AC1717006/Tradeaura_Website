@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "7667a0417f0b",
+      "originalUrl": "https://www.businesstimes.com.sg/companies-markets/telcos-media-tech/south-koreas-sk-hynix-launches-us28-billion-us-listing-ride-global-ai-wave",
+      "originalTitle": "South Korea’s SK Hynix launches US$28 billion US listing to ride global AI wave",
+      "source": "The Business Times",
+      "imageUrl": "https://cassette.sphdigital.com.sg/image/businesstimes/7226a7882f6505fcf7d2f0b12dc5ce2729cc94c4eec59b7dba20abdf4c6caf4e?w=1920&f=webp",
+      "publishedDate": "2026-07-06 10:22:56 +0000",
+      "createdAt": "2026-07-06T10:42:55.920Z",
+      "title": "AI Tech Listing",
+      "metaDescription": "AI tech company listing",
+      "keywords": [
+        "AI",
+        "tech",
+        "listing",
+        "investment",
+        "global"
+      ],
+      "summary": "South Korean company SK Hynix has launched a US listing to ride the global AI wave, Indian businesses can learn from this move to expand their presence in the global market. The company's decision to list in the US is a strategic move to tap into the global AI market. This development is relevant to Indian business owners and startup founders looking to expand their presence globally.",
+      "content": "<h2>Global AI Wave</h2><p>South Korean company SK Hynix has launched a US$28 billion US listing to ride the global AI wave. The company will sell 17.79 million new shares in Nasdaq depository receipts. This move is expected to provide a significant boost to the company's global presence and enable it to tap into the growing demand for AI-related technologies.</p><p>The listing is also expected to attract significant investment from global investors, which can provide a boost to the company's research and development efforts. Indian businesses can learn from this move and explore opportunities to expand their presence in the global market. The growth of the AI market is expected to continue in the coming years, and companies that are able to adapt and innovate are likely to be the ones that thrive.</p><h2>Indian Business Context</h2><p>In the Indian context, the growth of the AI market is also expected to be significant, with many Indian companies already making significant investments in AI-related technologies. The Reserve Bank of India and the Securities and Exchange Board of India have also been taking steps to promote the growth of the AI market in India. As the AI market continues to grow, Indian businesses will need to be able to adapt and innovate in order to remain competitive.</p><ul><li>Investment in AI-related technologies</li><li>Expansion into the global market</li><li>Research and development efforts</li><li>Adaptation and innovation</li><li>Competing in the growing AI market</li></ul>",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "tech",
+        "business",
+        "investment",
+        "global"
+      ],
+      "readTime": 3,
+      "slug": "ai-tech-listing",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "a79c291fdc12",
+      "originalUrl": "https://www.itpro.com/software/development/forward-deployed-engineers-are-big-techs-latest-gambit-to-drive-ai-adoption",
+      "originalTitle": "Forward deployed engineers are big tech’s latest gambit to drive AI adoption",
+      "source": "Ross Kelly",
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/KWnepUDMrMnCYkxSLQ3wKM-1920-80.jpg",
+      "publishedDate": "2026-07-06 10:07:28 +0000",
+      "createdAt": "2026-07-06T10:43:00.684Z",
+      "title": "AI Adoption",
+      "metaDescription": "AI adoption in India",
+      "keywords": [
+        "AI adoption",
+        "Indian market",
+        "RBI guidelines",
+        "SEBI regulations",
+        "enterprise AI"
+      ],
+      "summary": "Indian businesses are leveraging AI to drive growth, with forward deployed engineers helping to implement AI solutions. The Indian market is ripe for AI adoption, with many enterprises looking to invest in AI technologies. Forward deployed engineers are playing a key role in helping businesses navigate AI adoption.",
+      "content": "<h2>Introduction to AI Adoption</h2><p>Indian businesses are increasingly looking to adopt AI technologies to drive growth and improve efficiency. With the Indian market becoming increasingly competitive, businesses are looking for ways to stay ahead of the curve. One way to do this is by leveraging AI technologies, such as machine learning and natural language processing.</p><h2>Role of Forward Deployed Engineers</h2><p>Forward deployed engineers are playing a key role in helping Indian businesses adopt AI technologies. These engineers are embedded with the business, working closely with teams to identify areas where AI can be applied. They help to design and implement AI solutions, ensuring that they are tailored to the specific needs of the business.</p><h2>Benefits of AI Adoption</h2><p>There are many benefits to adopting AI technologies, including improved efficiency, increased productivity, and enhanced customer experience. AI can help businesses to automate routine tasks, freeing up staff to focus on higher-value tasks. It can also help to improve decision-making, by providing insights and analysis of large datasets.</p><ul><li>Improved efficiency</li><li>Increased productivity</li><li>Enhanced customer experience</li><li>Automated routine tasks</li><li>Improved decision-making</li></ul>",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "india",
+        "business",
+        "tech",
+        "automation"
+      ],
+      "readTime": 3,
+      "slug": "ai-adoption",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "1ff9914b463d",
       "originalUrl": "https://www.business-standard.com/markets/news/stock-market-live-july-6-nse-bse-sensex-today-nifty-gift-nifty-us-iran-deal-brent-crude-oil-price-q1-results-today-126070600079_1.html",
       "originalTitle": "Stock Market LIVE: GIFT Nifty signals tepid open; most Asia markets rise; Brent crude below $72",
@@ -6533,75 +6599,9 @@
       "status": "published",
       "featured": false,
       "sitemapAdded": false
-    },
-    {
-      "id": "7ea9961549af",
-      "originalUrl": "https://seekingalpha.com/article/4913934-meta-markets-perception-on-ai-capex-seems-misplaced",
-      "originalTitle": "Meta: The Market's Perception On AI CapEx Seems Misplaced (NASDAQ:META)",
-      "source": "Dilantha De Silva",
-      "imageUrl": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1359528534/image_1359528534.jpg?io=getty-c-w1536",
-      "publishedDate": "2026-06-10 20:16:58 +0000",
-      "createdAt": "2026-06-10T20:34:51.144Z",
-      "title": "Meta AI",
-      "metaDescription": "Meta AI investment",
-      "keywords": [
-        "Meta",
-        "AI",
-        "Investment",
-        "Technology",
-        "Innovation"
-      ],
-      "summary": "Meta's AI investments have sparked skepticism among investors, but the company's long-term strategy may prove beneficial. Indian business owners can learn from Meta's approach to innovation. The company's focus on AI can lead to new opportunities in the Indian market.",
-      "content": "<h2>Introduction to Meta's AI Strategy</h2><p>Meta, the parent company of Facebook and Instagram, has been investing heavily in artificial intelligence (AI). However, the company's AI capital expenditures (CapEx) have sparked skepticism among investors, who question the lack of a direct revenue path. Despite this, Meta remains committed to its AI strategy, which it believes will drive long-term growth and innovation.</p><h2>Understanding the Indian Context</h2><p>In the Indian context, companies like Meta can provide valuable lessons for business owners and startup founders. As the Indian market continues to grow and evolve, companies must innovate and adapt to stay ahead of the competition. Meta's focus on AI can serve as a model for Indian businesses looking to leverage technology to drive growth.</p><h2>Key Takeaways for Indian Business Owners</h2><p>Indian business owners can learn from Meta's approach to innovation and investment in AI. Some key takeaways include:</p><ul><li>Embracing a long-term strategy, even if it means short-term sacrifices</li><li>Investing in emerging technologies like AI to drive growth and innovation</li><li>Focusing on customer experience and engagement to build brand loyalty</li><li>Staying adaptable and willing to pivot in response to changing market conditions</li><li>Building a strong team with the skills and expertise needed to drive innovation</li></ul>",
-      "category": "MarTech",
-      "tags": [
-        "meta",
-        "ai",
-        "tech",
-        "innovation",
-        "business"
-      ],
-      "readTime": 3,
-      "slug": "meta-ai",
-      "status": "published",
-      "featured": false,
-      "sitemapAdded": false
-    },
-    {
-      "id": "21fbcbbeb5cb",
-      "originalUrl": "https://gizmodo.com/microsoft-exec-responds-to-graduates-booing-ai-with-compelling-argument-nuh-uh-2000770103",
-      "originalTitle": "Microsoft Exec Responds to Graduates Booing AI with Compelling Argument: 'Nuh Uh'",
-      "source": "AJ Dellinger",
-      "imageUrl": "https://gizmodo.com/app/uploads/2024/05/6cb21a1348288dc7390593a9f8ffbd89.jpg",
-      "publishedDate": "2026-06-10 20:05:30 +0000",
-      "createdAt": "2026-06-10T20:34:56.016Z",
-      "title": "AI Future",
-      "metaDescription": "AI in business",
-      "keywords": [
-        "AI",
-        "automation",
-        "business",
-        "technology",
-        "future"
-      ],
-      "summary": "A Microsoft executive responded to graduates booing AI, highlighting its potential benefits for Indian businesses. The executive argued that AI can augment human capabilities, leading to increased productivity and efficiency. This perspective is relevant for Indian business owners and startup founders looking to leverage AI in their operations.",
-      "content": "<h2>Introduction to AI in Business</h2><p>A recent incident involving a Microsoft executive and graduating students has sparked a debate about the role of Artificial Intelligence (AI) in the future of work. The executive's response to the students' negative reaction to AI has highlighted the potential benefits of AI for businesses in India.</p><h2>Benefits of AI</h2><p>According to the executive, AI can augment human capabilities, leading to increased productivity and efficiency. This can be particularly beneficial for Indian businesses, where labor costs are relatively high. By automating routine tasks, businesses can free up resources to focus on higher-value activities.</p><h2>Indian Business Context</h2><p>In the Indian market, AI can help businesses to improve customer service, enhance supply chain management, and optimize operations. Additionally, AI can help Indian companies to compete with global players, by providing them with access to advanced technologies and tools.</p><h2>Key Takeaways</h2><ul><li>AI can augment human capabilities, leading to increased productivity and efficiency</li><li>AI can help Indian businesses to improve customer service and enhance supply chain management</li><li>AI can provide Indian companies with access to advanced technologies and tools, enabling them to compete with global players</li><li>Indian businesses can leverage AI to optimize operations and reduce costs</li><li>AI is a key technology for the future of work, and Indian businesses should consider its potential benefits</li></ul>",
-      "category": "AI & Automation",
-      "tags": [
-        "ai",
-        "tech",
-        "business",
-        "india",
-        "future"
-      ],
-      "readTime": 3,
-      "slug": "ai-future",
-      "status": "published",
-      "featured": false,
-      "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-07-06T03:51:59.980Z",
+  "lastUpdated": "2026-07-06T10:43:00.685Z",
   "totalCount": 200,
   "schema": "2.0"
 }
