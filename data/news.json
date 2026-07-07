@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "6850fa6ea243",
+      "originalUrl": "https://www.techradar.com/pro/the-ai-trust-gap-no-scaling-without-quality-management",
+      "originalTitle": "The AI trust gap: No scaling without quality management",
+      "source": "Venkatesh Sriraman",
+      "imageUrl": null,
+      "publishedDate": "2026-07-07 14:27:11 +0000",
+      "createdAt": "2026-07-07T14:42:51.465Z",
+      "title": "AI Trust Gap",
+      "metaDescription": "AI trust gap and quality management",
+      "keywords": [
+        "AI",
+        "trust",
+        "quality management",
+        "governance",
+        "scaling"
+      ],
+      "summary": "Indian businesses looking to scale AI solutions must prioritize trust, testing, and governance to unlock their full potential. Effective quality management is crucial to bridging the AI trust gap. By doing so, companies can ensure reliable and efficient AI systems.",
+      "content": "<h2>Introduction to AI Trust Gap</h2><p>The increasing adoption of Artificial Intelligence (AI) in Indian businesses has led to a growing concern about the AI trust gap. As companies strive to scale their AI solutions, they must prioritize trust, testing, and governance to unlock their full potential. This is particularly relevant in the Indian market, where the RBI and SEBI have emphasized the importance of robust governance and risk management frameworks.</p><h2>Importance of Quality Management</h2><p>Effective quality management is crucial to bridging the AI trust gap. It involves ensuring that AI systems are reliable, efficient, and transparent. Indian businesses must invest in robust testing and validation protocols to guarantee the accuracy and fairness of their AI models. Moreover, they must establish clear governance structures to oversee the development and deployment of AI solutions.</p><h2>Benefits of Addressing the AI Trust Gap</h2><p>By addressing the AI trust gap, Indian businesses can reap significant benefits. These include improved customer trust, enhanced regulatory compliance, and increased competitiveness. Moreover, companies that prioritize quality management and governance can mitigate the risks associated with AI adoption, such as data breaches and algorithmic bias.</p><p>To achieve these benefits, Indian businesses can take several steps: <ul><li>Develop and implement robust testing and validation protocols</li><li>Establish clear governance structures and oversight mechanisms</li><li>Invest in employee training and education on AI and quality management</li><li>Engage with stakeholders to build trust and transparency</li><li>Continuously monitor and evaluate AI systems to ensure they are fair and unbiased</li></ul></p>",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "trust",
+        "quality",
+        "governance",
+        "scaling"
+      ],
+      "readTime": 3,
+      "slug": "ai-trust-gap",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "7522614ea94f",
+      "originalUrl": "https://seekingalpha.com/article/4920325-burford-capital-at-a-lower-price-i-could-be-convinced?source=feed_all_articles",
+      "originalTitle": "Burford Capital: At A Lower Price, I Could Be Convinced",
+      "source": "seekingalpha.com",
+      "imageUrl": null,
+      "publishedDate": "2026-07-07 14:22:33 +0000",
+      "createdAt": "2026-07-07T14:42:56.584Z",
+      "title": "Burford Capital",
+      "metaDescription": "Burford Capital investment",
+      "keywords": [
+        "investment",
+        "finance",
+        "Burford Capital",
+        "market trends",
+        "business growth"
+      ],
+      "summary": "Burford Capital's potential as an investment opportunity is being considered, Indian business owners should be aware of global market trends to make informed decisions. The company's performance and valuation are key factors in determining its attractiveness. As the Indian market continues to evolve, understanding such investment opportunities can be beneficial for business growth.",
+      "content": "<h2>Introduction to Burford Capital</h2><p>Burford Capital, a leading global finance firm, has been under consideration for investment. With its unique approach to financing legal cases, the company has garnered attention from investors worldwide. However, the decision to invest in Burford Capital depends on various factors, including its current price and market valuation.</p><h2>Market Trends and Valuation</h2><p>The Indian market, with its growing economy and increasing demand for financial services, presents an opportunity for companies like Burford Capital to expand their operations. The Reserve Bank of India (RBI) and the Securities and Exchange Board of India (SEBI) play crucial roles in regulating the financial sector, ensuring that companies operate within established guidelines. Understanding these regulations and market trends is essential for business owners and investors in India.</p><h2>Potential for Growth</h2><p>As the Indian market continues to grow, companies like Burford Capital may find opportunities to expand their services, catering to the increasing demand for financial solutions. By understanding the potential for growth and the regulatory environment, Indian business owners can make informed decisions about investments and partnerships. A lower price for Burford Capital could make it a more attractive investment opportunity, but it is crucial to consider all factors before making a decision.</p>",
+      "category": "Finance & Markets",
+      "tags": [
+        "finance",
+        "investment",
+        "growth",
+        "market",
+        "trends"
+      ],
+      "readTime": 3,
+      "slug": "burford-capital",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "80ada62bf687",
       "originalUrl": "https://www.channelnewsasia.com/business/bank-england-sees-growing-risks-financial-stability-ai-6238011",
       "originalTitle": "Bank of England sees growing risks to financial stability from AI",
@@ -6533,75 +6599,9 @@
       "status": "published",
       "featured": false,
       "sitemapAdded": false
-    },
-    {
-      "id": "d8d2ac77ec3c",
-      "originalUrl": "https://www.businesstimes.com.sg/companies-markets/banking-finance/futu-founder-brother-leaf-humbled-china-broker-crackdown",
-      "originalTitle": "Futu founder ‘Brother Leaf’ humbled by China broker crackdown",
-      "source": "The Business Times",
-      "imageUrl": "https://cassette.sphdigital.com.sg/image/businesstimes/3f7967de659c1fc55d0ab0829bdb49326ffdcfcc642e615fec047d52c5cd97e9?w=1920&f=webp",
-      "publishedDate": "2026-06-12 03:51:04 +0000",
-      "createdAt": "2026-06-12T04:17:51.942Z",
-      "title": "Broker Crackdown",
-      "metaDescription": "China broker crackdown impact",
-      "keywords": [
-        "brokerage",
-        "fintech",
-        "regulation",
-        "trading",
-        "market"
-      ],
-      "summary": "The founder of Futu, a Chinese online brokerage firm, remains optimistic despite a crackdown by Chinese regulators, expecting income from overseas operations to offset the impact. This development highlights the importance of regulatory compliance for Indian fintech companies expanding globally. Indian business owners should be aware of such regulatory challenges when venturing into international markets.",
-      "content": "<h2>Regulatory Challenges in Fintech</h2><p>The Chinese government's crackdown on brokerage firms has led to increased scrutiny of online trading platforms. Futu, a prominent Chinese online brokerage firm, has been affected by this regulatory action. However, its founder, 'Brother Leaf', remains confident that the company's overseas operations, including its Hong Kong and US-based brand Moomoo, will help mitigate the impact of the crackdown.</p><p>In the Indian context, this development serves as a reminder of the importance of regulatory compliance for fintech companies. The Reserve Bank of India (RBI) and the Securities and Exchange Board of India (SEBI) play crucial roles in regulating the Indian fintech industry. Indian business owners and startup founders should be aware of these regulatory requirements when expanding their operations domestically or internationally.</p><h2>Key Takeaways</h2><ul><li>Regulatory compliance is essential for fintech companies</li><li>Indian fintech companies should be aware of RBI and SEBI regulations</li><li>International expansion requires understanding of local regulatory frameworks</li><li>Diversification of operations can help mitigate regulatory risks</li><li>Indian business owners should monitor global regulatory developments to stay ahead</li></ul>",
-      "category": "Business Tools",
-      "tags": [
-        "fintech",
-        "regulation",
-        "trading",
-        "market",
-        "compliance"
-      ],
-      "readTime": 3,
-      "slug": "broker-crackdown",
-      "status": "published",
-      "featured": false,
-      "sitemapAdded": false
-    },
-    {
-      "id": "60061f9f235e",
-      "originalUrl": "https://www.techinasia.com/ibm-invests-israeli-genai-app-design-startup-anima",
-      "originalTitle": "IBM, ServiceNow extend partnership with new AI tools",
-      "source": "Aiko Gao Ishida",
-      "imageUrl": null,
-      "publishedDate": "2026-06-12 03:06:17 +0000",
-      "createdAt": "2026-06-12T04:17:56.782Z",
-      "title": "IBM, ServiceNow AI Tools",
-      "metaDescription": "IBM, ServiceNow extend partnership with AI tools",
-      "keywords": [
-        "IBM",
-        "ServiceNow",
-        "AI Tools",
-        "IT Operations",
-        "Data Governance"
-      ],
-      "summary": "IBM and ServiceNow are expanding their partnership to offer joint solutions for Indian businesses, focusing on application modernization, data governance, and IT operations. This collaboration aims to help Indian companies streamline their operations and improve efficiency. The new AI-powered tools will enable businesses to make data-driven decisions and enhance their overall performance.",
-      "content": "<h2>Partnership Expansion</h2><p>IBM and ServiceNow have announced the extension of their partnership, introducing new AI-powered tools for Indian businesses. The joint offerings will cater to the needs of application modernization, data governance, and IT operations, enabling companies to optimize their processes and improve productivity.</p><h2>Key Areas of Focus</h2><p>The partnership will focus on three primary areas: application modernization, data governance, and IT operations. The new AI tools will help Indian businesses to modernize their applications, ensure data compliance, and streamline their IT operations.</p><h2>Benefits for Indian Businesses</h2><p>The collaboration between IBM and ServiceNow is expected to bring significant benefits to Indian businesses. The AI-powered tools will enable companies to make data-driven decisions, enhance their operational efficiency, and improve their overall performance. The partnership will also provide Indian businesses with access to a wide range of expertise and resources, helping them to stay competitive in the market.</p><ul><li>Improved operational efficiency</li><li>Enhanced data governance</li><li>Streamlined IT operations</li><li>Access to expertise and resources</li><li>Competitive advantage in the market</li></ul>",
-      "category": "AI & Automation",
-      "tags": [
-        "ai",
-        "partnership",
-        "india",
-        "business",
-        "technology"
-      ],
-      "readTime": 3,
-      "slug": "ibm-servicenow-ai-tools",
-      "status": "published",
-      "featured": false,
-      "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-07-07T09:47:55.043Z",
+  "lastUpdated": "2026-07-07T14:42:56.584Z",
   "totalCount": 200,
   "schema": "2.0"
 }

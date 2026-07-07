@@ -42,6 +42,16 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.auraautomation.site/news/ai-trust-gap.html</loc>
+    <lastmod>2026-07-07</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.auraautomation.site/news/burford-capital.html</loc>
+    <lastmod>2026-07-07</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.auraautomation.site/news/ai-risks.html</loc>
     <lastmod>2026-07-07</lastmod>
     <priority>0.7</priority>
@@ -1028,16 +1038,6 @@
   </url>
   <url>
     <loc>https://www.auraautomation.site/news/ai-regulation.html</loc>
-    <lastmod>2026-06-12</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.auraautomation.site/news/broker-crackdown.html</loc>
-    <lastmod>2026-06-12</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.auraautomation.site/news/ibm-servicenow-ai-tools.html</loc>
     <lastmod>2026-06-12</lastmod>
     <priority>0.7</priority>
   </url>
