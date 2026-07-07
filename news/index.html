@@ -124,6 +124,11 @@
           data-color="#3B82F6">
           <i class="fas fa-robot text-xs mr-1.5"></i>AI &amp; Automation
         </button>
+      <button onclick="filterCat('Business Tools')" data-cat="Business Tools"
+          class="cat-btn px-4 py-2 rounded-full text-sm font-medium border border-glassBorder text-gray-400 hover:text-white hover:border-white/20 transition-all"
+          data-color="#F97316">
+          <i class="fas fa-briefcase text-xs mr-1.5"></i>Business Tools
+        </button>
       <button onclick="filterCat('Finance &amp; Markets')" data-cat="Finance &amp; Markets"
           class="cat-btn px-4 py-2 rounded-full text-sm font-medium border border-glassBorder text-gray-400 hover:text-white hover:border-white/20 transition-all"
           data-color="#3B82F6">
@@ -133,11 +138,6 @@
           class="cat-btn px-4 py-2 rounded-full text-sm font-medium border border-glassBorder text-gray-400 hover:text-white hover:border-white/20 transition-all"
           data-color="#3B82F6">
           <i class="fas fa-newspaper text-xs mr-1.5"></i>Technology
-        </button>
-      <button onclick="filterCat('Business Tools')" data-cat="Business Tools"
-          class="cat-btn px-4 py-2 rounded-full text-sm font-medium border border-glassBorder text-gray-400 hover:text-white hover:border-white/20 transition-all"
-          data-color="#F97316">
-          <i class="fas fa-briefcase text-xs mr-1.5"></i>Business Tools
         </button>
       <button onclick="filterCat('Digital Transformation')" data-cat="Digital Transformation"
           class="cat-btn px-4 py-2 rounded-full text-sm font-medium border border-glassBorder text-gray-400 hover:text-white hover:border-white/20 transition-all"
@@ -176,10 +176,10 @@
       <i class="fas fa-star text-brandBlue mr-2"></i>Featured Article
     </h2>
     
-<a href="ai-memory-boom.html" class="group block glass-card border border-glassBorder rounded-2xl overflow-hidden hover:border-brandBlue/40 transition-all duration-300 hover:shadow-[0_0_40px_rgba(59,130,246,0.15)]" data-aos="fade-up">
+<a href="ai-risks.html" class="group block glass-card border border-glassBorder rounded-2xl overflow-hidden hover:border-brandBlue/40 transition-all duration-300 hover:shadow-[0_0_40px_rgba(59,130,246,0.15)]" data-aos="fade-up">
   <div class="grid md:grid-cols-2">
     <div class="relative h-64 md:h-auto overflow-hidden img-wrap">
-      <img src="https://www.nasdaq.com/sites/acquia.prod/files/2019-05/0902-Q19%20Total%20Markets%20photos%20and%20gif_CC8.jpg" alt="" loading="lazy" class="w-full h-full object-cover" onerror="this.parentElement.classList.add('img-fallback');this.remove()">
+      <img src="https://dam.mediacorp.sg/image/upload/s--2A6TSaHQ--/c_fill,g_auto,h_676,w_1200/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/v1/one-cms/core/2026-07-07T093819Z_1_LYNXMPEM660GK_RTROPTP_3_BRITAIN-EU-CITY.JPG?itok=ZnTtJCn1" alt="" loading="lazy" class="w-full h-full object-cover" onerror="this.parentElement.classList.add('img-fallback');this.remove()">
       <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
       <div class="absolute top-4 left-4"><span class="cat-badge" style="background:rgba(59,130,246,0.15);border:1px solid rgba(59,130,246,0.3);color:#3B82F6"><i class="fas fa-robot"></i>AI &amp; Automation</span></div>
       
@@ -188,14 +188,14 @@
       <div>
         <div class="flex items-center gap-3 text-xs text-gray-500 mb-3">
           <span>7 July 2026</span><span>·</span>
-          <span>The Motley Fool</span><span>·</span>
+          <span>CNA</span><span>·</span>
           <span><i class="fas fa-clock mr-1"></i>3 min read</span>
         </div>
-        <h2 class="font-heading font-bold text-2xl text-white mb-3 group-hover:text-brandBlue transition-colors leading-snug">AI Memory Boom</h2>
-        <p class="text-gray-400 text-sm leading-relaxed line-clamp-4">The recent decline in Sandisk stock has raised concerns about the sustainability of the AI memory boom, which may have implications for Indian businesses investing in AI technology. As the demand for AI-powered solutions grows in India, the volatility of the global memory chip market can impact the local industry. Indian business owners should monitor the situation closely to make informed decisions.</p>
+        <h2 class="font-heading font-bold text-2xl text-white mb-3 group-hover:text-brandBlue transition-colors leading-snug">AI Risks</h2>
+        <p class="text-gray-400 text-sm leading-relaxed line-clamp-4">The increasing use of artificial intelligence in the banking sector poses a growing threat to financial stability, as seen in the global market, and Indian business owners should be aware of these risks. The Reserve Bank of India should consider these risks while regulating the Indian banking sector. Indian businesses must invest in cybersecurity to mitigate these risks.</p>
       </div>
       <div class="mt-6 flex items-center gap-4">
-        <span class="px-2 py-0.5 rounded text-[10px] font-medium bg-white/5 text-gray-500 border border-glassBorder">AI</span><span class="px-2 py-0.5 rounded text-[10px] font-medium bg-white/5 text-gray-500 border border-glassBorder">memory</span>
+        <span class="px-2 py-0.5 rounded text-[10px] font-medium bg-white/5 text-gray-500 border border-glassBorder">artificial intelligence</span><span class="px-2 py-0.5 rounded text-[10px] font-medium bg-white/5 text-gray-500 border border-glassBorder">financial stability</span>
         <span class="ml-auto inline-flex items-center gap-1.5 text-sm font-semibold" style="color:#3B82F6">
           Read Full Article <i class="fas fa-arrow-right text-xs group-hover:translate-x-1 transition-transform"></i>
         </span>
@@ -216,6 +216,48 @@
       <span id="countBadge" class="text-xs text-gray-500">200 articles</span>
     </div>
     <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6" id="grid">
+      <div data-cat="AI &amp; Automation">
+<a href="ai-risks.html" class="group block glass-card border border-glassBorder rounded-2xl overflow-hidden hover:border-brandBlue/40 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_0_30px_rgba(59,130,246,0.1)]" data-aos="fade-up">
+  <div class="relative h-44 overflow-hidden img-wrap">
+    <img src="https://dam.mediacorp.sg/image/upload/s--2A6TSaHQ--/c_fill,g_auto,h_676,w_1200/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/v1/one-cms/core/2026-07-07T093819Z_1_LYNXMPEM660GK_RTROPTP_3_BRITAIN-EU-CITY.JPG?itok=ZnTtJCn1" alt="" loading="lazy" class="w-full h-full object-cover" onerror="this.parentElement.classList.add('img-fallback');this.remove()">
+    <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+    <div class="absolute top-3 left-3"><span class="cat-badge" style="background:rgba(59,130,246,0.15);border:1px solid rgba(59,130,246,0.3);color:#3B82F6"><i class="fas fa-robot"></i>AI &amp; Automation</span></div>
+    
+  </div>
+  <div class="p-5">
+    <div class="flex items-center gap-2 text-[10px] text-gray-600 mb-2">
+      <span>7 July 2026</span><span>·</span>
+      <span>CNA</span><span>·</span>
+      <span>3 min</span>
+    </div>
+    <h3 class="font-heading font-bold text-sm text-white mb-2 group-hover:text-brandBlue transition-colors leading-snug line-clamp-2">AI Risks</h3>
+    <p class="text-gray-500 text-xs leading-relaxed line-clamp-2 mb-3">The increasing use of artificial intelligence in the banking sector poses a growing threat to financial stability, as seen in the global market, and Indian business owners should be aware of these risks. The Reserve Bank of India should consider these risks while regulating the Indian banking sector. Indian businesses must invest in cybersecurity to mitigate these risks.</p>
+    <span class="inline-flex items-center gap-1.5 text-xs font-semibold" style="color:#3B82F6">
+      Read More <i class="fas fa-arrow-right text-[9px] group-hover:translate-x-0.5 transition-transform"></i>
+    </span>
+  </div>
+</a></div>
+      <div data-cat="Business Tools">
+<a href="memory-price-hike.html" class="group block glass-card border border-glassBorder rounded-2xl overflow-hidden hover:border-brandBlue/40 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_0_30px_rgba(59,130,246,0.1)]" data-aos="fade-up">
+  <div class="relative h-44 overflow-hidden img-wrap">
+    <img src="https://cdn.wccftech.com/wp-content/uploads/2025/11/adata-ddr5-1.jpg" alt="" loading="lazy" class="w-full h-full object-cover" onerror="this.parentElement.classList.add('img-fallback');this.remove()">
+    <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+    <div class="absolute top-3 left-3"><span class="cat-badge" style="background:rgba(249,115,22,0.15);border:1px solid rgba(249,115,22,0.3);color:#F97316"><i class="fas fa-briefcase"></i>Business Tools</span></div>
+    
+  </div>
+  <div class="p-5">
+    <div class="flex items-center gap-2 text-[10px] text-gray-600 mb-2">
+      <span>7 July 2026</span><span>·</span>
+      <span>Hassan Mujtaba</span><span>·</span>
+      <span>3 min</span>
+    </div>
+    <h3 class="font-heading font-bold text-sm text-white mb-2 group-hover:text-brandBlue transition-colors leading-snug line-clamp-2">Memory Price Hike</h3>
+    <p class="text-gray-500 text-xs leading-relaxed line-clamp-2 mb-3">ADATA warns of a significant price hike in DRAM and NAND, affecting memory and storage prices, which may impact Indian businesses relying on technology and data storage. This price increase is expected to occur in Q3 2026. Indian companies may need to reassess their technology budgets and storage needs.</p>
+    <span class="inline-flex items-center gap-1.5 text-xs font-semibold" style="color:#F97316">
+      Read More <i class="fas fa-arrow-right text-[9px] group-hover:translate-x-0.5 transition-transform"></i>
+    </span>
+  </div>
+</a></div>
       <div data-cat="AI &amp; Automation">
 <a href="ai-memory-boom.html" class="group block glass-card border border-glassBorder rounded-2xl overflow-hidden hover:border-brandBlue/40 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_0_30px_rgba(59,130,246,0.1)]" data-aos="fade-up">
   <div class="relative h-44 overflow-hidden img-wrap">
@@ -4370,48 +4412,6 @@
     <h3 class="font-heading font-bold text-sm text-white mb-2 group-hover:text-brandBlue transition-colors leading-snug line-clamp-2">IBM, ServiceNow AI Tools</h3>
     <p class="text-gray-500 text-xs leading-relaxed line-clamp-2 mb-3">IBM and ServiceNow are expanding their partnership to offer joint solutions for Indian businesses, focusing on application modernization, data governance, and IT operations. This collaboration aims to help Indian companies streamline their operations and improve efficiency. The new AI-powered tools will enable businesses to make data-driven decisions and enhance their overall performance.</p>
     <span class="inline-flex items-center gap-1.5 text-xs font-semibold" style="color:#3B82F6">
-      Read More <i class="fas fa-arrow-right text-[9px] group-hover:translate-x-0.5 transition-transform"></i>
-    </span>
-  </div>
-</a></div>
-      <div data-cat="AI &amp; Automation">
-<a href="ai-training.html" class="group block glass-card border border-glassBorder rounded-2xl overflow-hidden hover:border-brandBlue/40 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_0_30px_rgba(59,130,246,0.1)]" data-aos="fade-up">
-  <div class="relative h-44 overflow-hidden img-wrap">
-    <img src="https://media.thenextweb.com/2026/06/companies-train-millions-workers-products-never-stop-shipping.avif" alt="" loading="lazy" class="w-full h-full object-cover" onerror="this.parentElement.classList.add('img-fallback');this.remove()">
-    <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
-    <div class="absolute top-3 left-3"><span class="cat-badge" style="background:rgba(59,130,246,0.15);border:1px solid rgba(59,130,246,0.3);color:#3B82F6"><i class="fas fa-robot"></i>AI &amp; Automation</span></div>
-    
-  </div>
-  <div class="p-5">
-    <div class="flex items-center gap-2 text-[10px] text-gray-600 mb-2">
-      <span>11 June 2026</span><span>·</span>
-      <span>Panayiotis Vitakis</span><span>·</span>
-      <span>3 min</span>
-    </div>
-    <h3 class="font-heading font-bold text-sm text-white mb-2 group-hover:text-brandBlue transition-colors leading-snug line-clamp-2">AI Training</h3>
-    <p class="text-gray-500 text-xs leading-relaxed line-clamp-2 mb-3">Indian businesses can leverage AI-generated video to enhance corporate learning programs, addressing the persistent skills gap. This approach can significantly reduce production time, as seen in ServiceNow&#39;s experience. By adopting AI-native L&amp;D, companies can efficiently train their workforce.</p>
-    <span class="inline-flex items-center gap-1.5 text-xs font-semibold" style="color:#3B82F6">
-      Read More <i class="fas fa-arrow-right text-[9px] group-hover:translate-x-0.5 transition-transform"></i>
-    </span>
-  </div>
-</a></div>
-      <div data-cat="Digital Transformation">
-<a href="bluesky-shifts-focus.html" class="group block glass-card border border-glassBorder rounded-2xl overflow-hidden hover:border-brandBlue/40 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_0_30px_rgba(59,130,246,0.1)]" data-aos="fade-up">
-  <div class="relative h-44 overflow-hidden img-wrap">
-    <img src="https://media.thenextweb.com/2026/06/bluesky-group-chats-communities-strategy.avif" alt="" loading="lazy" class="w-full h-full object-cover" onerror="this.parentElement.classList.add('img-fallback');this.remove()">
-    <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
-    <div class="absolute top-3 left-3"><span class="cat-badge" style="background:rgba(99,102,241,0.15);border:1px solid rgba(99,102,241,0.3);color:#6366F1"><i class="fas fa-rocket"></i>Digital Transformation</span></div>
-    
-  </div>
-  <div class="p-5">
-    <div class="flex items-center gap-2 text-[10px] text-gray-600 mb-2">
-      <span>11 June 2026</span><span>·</span>
-      <span>Cristian Dina</span><span>·</span>
-      <span>3 min</span>
-    </div>
-    <h3 class="font-heading font-bold text-sm text-white mb-2 group-hover:text-brandBlue transition-colors leading-snug line-clamp-2">Bluesky Shifts Focus</h3>
-    <p class="text-gray-500 text-xs leading-relaxed line-clamp-2 mb-3">Bluesky&#39;s pivot to communities and group chats may offer lessons for Indian businesses looking to expand their online presence, as user growth slows globally, and companies like X shut down their own communities, Indian entrepreneurs can learn from these shifts in the social media landscape, the Indian market is witnessing a surge in demand for community-building platforms, and Bluesky&#39;s strategy may inspire local businesses to explore similar models</p>
-    <span class="inline-flex items-center gap-1.5 text-xs font-semibold" style="color:#6366F1">
       Read More <i class="fas fa-arrow-right text-[9px] group-hover:translate-x-0.5 transition-transform"></i>
     </span>
   </div>

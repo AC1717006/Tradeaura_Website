@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "80ada62bf687",
+      "originalUrl": "https://www.channelnewsasia.com/business/bank-england-sees-growing-risks-financial-stability-ai-6238011",
+      "originalTitle": "Bank of England sees growing risks to financial stability from AI",
+      "source": "CNA",
+      "imageUrl": "https://dam.mediacorp.sg/image/upload/s--2A6TSaHQ--/c_fill,g_auto,h_676,w_1200/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/v1/one-cms/core/2026-07-07T093819Z_1_LYNXMPEM660GK_RTROPTP_3_BRITAIN-EU-CITY.JPG?itok=ZnTtJCn1",
+      "publishedDate": "2026-07-07 09:38:19 +0000",
+      "createdAt": "2026-07-07T09:47:50.179Z",
+      "title": "AI Risks",
+      "metaDescription": "AI poses financial stability risks",
+      "keywords": [
+        "artificial intelligence",
+        "financial stability",
+        "cyberattacks",
+        "banking sector",
+        "technology risks"
+      ],
+      "summary": "The increasing use of artificial intelligence in the banking sector poses a growing threat to financial stability, as seen in the global market, and Indian business owners should be aware of these risks. The Reserve Bank of India should consider these risks while regulating the Indian banking sector. Indian businesses must invest in cybersecurity to mitigate these risks.",
+      "content": "<h2>Introduction to AI Risks</h2><p>The Bank of England has warned that artificial intelligence poses a growing threat to financial stability. This warning is relevant to the Indian market, where the banking sector is increasingly adopting AI technologies. As investors bet heavily on the success of AI, the technology also increases banks' vulnerability to cyberattacks.</p><h2>Risks to Financial Stability</h2><p>The use of AI in the banking sector can lead to a range of risks, including cyberattacks, data breaches, and system failures. These risks can have a significant impact on the financial stability of the Indian market, and it is essential for Indian business owners and regulators to be aware of them. The RBI and SEBI should consider these risks while regulating the Indian banking sector.</p><h2>Mitigating AI Risks</h2><p>Indian businesses can mitigate the risks associated with AI by investing in cybersecurity and implementing robust risk management practices. This can include implementing firewalls, encrypting data, and training employees to identify and respond to cyber threats. By taking these steps, Indian businesses can reduce the risks associated with AI and ensure the financial stability of the Indian market.</p><ul><li>Invest in cybersecurity</li><li>Implement robust risk management practices</li><li>Train employees to identify and respond to cyber threats</li><li>Regularly update software and systems</li><li>Monitor for potential cyber threats</li></ul>",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "banking",
+        "cybersecurity",
+        "risk",
+        "technology"
+      ],
+      "readTime": 3,
+      "slug": "ai-risks",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "d9ab46d78f78",
+      "originalUrl": "https://wccftech.com/adata-warns-30-percent-memory-40-percent-nand-price-hike-q3-2026/",
+      "originalTitle": "ADATA Chairman Warns DRAM Prices Jump 30% and NAND 40% in Q3 2026 as AI Starves Consumer Supply",
+      "source": "Hassan Mujtaba",
+      "imageUrl": "https://cdn.wccftech.com/wp-content/uploads/2025/11/adata-ddr5-1.jpg",
+      "publishedDate": "2026-07-07 09:30:02 +0000",
+      "createdAt": "2026-07-07T09:47:55.043Z",
+      "title": "Memory Price Hike",
+      "metaDescription": "DRAM and NAND price increase",
+      "keywords": [
+        "DRAM",
+        "NAND",
+        "memory prices",
+        "storage prices",
+        "AI impact"
+      ],
+      "summary": "ADATA warns of a significant price hike in DRAM and NAND, affecting memory and storage prices, which may impact Indian businesses relying on technology and data storage. This price increase is expected to occur in Q3 2026. Indian companies may need to reassess their technology budgets and storage needs.",
+      "content": "<h2>Expected Price Hike in Memory and Storage</h2><p>ADATA has warned that another DRAM and NAND price hike is expected in Q3 2026, further raising memory and storage prices. This increase is attributed to the growing demand for AI technology, which is straining the global supply of memory and storage. As a result, Indian businesses may face higher costs for their technology and data storage needs.</p><p>The expected price hike is significant, with DRAM prices expected to jump by 30% and NAND prices by 40%. This increase may impact Indian companies across various industries, from technology and finance to healthcare and e-commerce. To mitigate the effects of this price hike, Indian businesses may need to explore alternative storage solutions or reassess their technology budgets.</p><h2>Impact on Indian Businesses</h2><p>Indian companies relying on technology and data storage may need to take steps to manage the expected price hike. This could include:</p><ul><li>Reassessing technology budgets and storage needs</li><li>Exploring alternative storage solutions</li><li>Negotiating with suppliers to secure better prices</li><li>Investing in more efficient data storage systems</li><li>Developing strategies to reduce data storage costs</li></ul>",
+      "category": "Business Tools",
+      "tags": [
+        "tech",
+        "data",
+        "storage",
+        "prices",
+        "ai"
+      ],
+      "readTime": 3,
+      "slug": "memory-price-hike",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "14b21563c821",
       "originalUrl": "https://www.nasdaq.com/articles/sandisk-stock-plunged-14-day-ai-memory-boom-cracking",
       "originalTitle": "Sandisk Stock Plunged 14% in a Day. Is the AI Memory Boom Cracking?",
@@ -6533,75 +6599,9 @@
       "status": "published",
       "featured": false,
       "sitemapAdded": false
-    },
-    {
-      "id": "928b515f1c1f",
-      "originalUrl": "https://thenextweb.com/news/companies-train-millions-workers-products-never-stop-shipping",
-      "originalTitle": "How companies train millions of workers when their products never stop shipping",
-      "source": "Panayiotis Vitakis",
-      "imageUrl": "https://media.thenextweb.com/2026/06/companies-train-millions-workers-products-never-stop-shipping.avif",
-      "publishedDate": "2026-06-11 20:14:59 +0000",
-      "createdAt": "2026-06-11T20:26:40.221Z",
-      "title": "AI Training",
-      "metaDescription": "AI in corporate learning",
-      "keywords": [
-        "AI",
-        "Corporate Learning",
-        "L&D",
-        "Training",
-        "Automation"
-      ],
-      "summary": "Indian businesses can leverage AI-generated video to enhance corporate learning programs, addressing the persistent skills gap. This approach can significantly reduce production time, as seen in ServiceNow's experience. By adopting AI-native L&D, companies can efficiently train their workforce.",
-      "content": "<h2>Introduction to AI-Generated Video</h2><p>Indian businesses are constantly looking for ways to improve their corporate learning programs, especially with the rapid pace of technological advancements. ServiceNow, a leading company, has successfully rebuilt its corporate learning program around AI-generated video, resulting in a tenfold reduction in production time. This innovative approach has been made possible by companies like Synthesia, which provides AI-native learning and development (L&D) solutions.</p><h2>Closing the Skills Gap</h2><p>According to Synthesia's SVP, the skills gap persists due to the inability of traditional L&D methods to keep pace with the changing needs of the workforce. AI-native L&D closes this gap by providing personalized, interactive, and engaging learning experiences. With AI-generated video, companies can create high-quality training content quickly and efficiently, addressing the needs of their diverse workforce.</p><h2>Benefits for Indian Businesses</h2><p>Indian businesses can benefit from adopting AI-generated video in their corporate learning programs. The Indian market is highly competitive, and companies need to ensure that their workforce is equipped with the latest skills to stay ahead. By leveraging AI-native L&D, Indian businesses can reduce production time, improve knowledge retention, and enhance overall employee performance. Some of the key benefits include: <ul><li>Personalized learning experiences</li><li>Increased efficiency in content creation</li><li>Improved knowledge retention</li><li>Enhanced employee engagement</li><li>Better ROI on training investments</li></ul></p>",
-      "category": "AI & Automation",
-      "tags": [
-        "ai",
-        "learning",
-        "training",
-        "automation",
-        "industry"
-      ],
-      "readTime": 3,
-      "slug": "ai-training",
-      "status": "published",
-      "featured": false,
-      "sitemapAdded": false
-    },
-    {
-      "id": "c0201c8285e4",
-      "originalUrl": "https://thenextweb.com/news/bluesky-group-chats-communities-strategy",
-      "originalTitle": "Bluesky launches group chats and pivots to communities as growth stalls at 44.8 million users",
-      "source": "Cristian Dina",
-      "imageUrl": "https://media.thenextweb.com/2026/06/bluesky-group-chats-communities-strategy.avif",
-      "publishedDate": "2026-06-11 20:15:17 +0000",
-      "createdAt": "2026-06-11T20:26:45.608Z",
-      "title": "Bluesky Shifts Focus",
-      "metaDescription": "Bluesky launches group chats",
-      "keywords": [
-        "Bluesky",
-        "group chats",
-        "communities",
-        "social media",
-        "growth strategy"
-      ],
-      "summary": "Bluesky's pivot to communities and group chats may offer lessons for Indian businesses looking to expand their online presence, as user growth slows globally, and companies like X shut down their own communities, Indian entrepreneurs can learn from these shifts in the social media landscape, the Indian market is witnessing a surge in demand for community-building platforms, and Bluesky's strategy may inspire local businesses to explore similar models",
-      "content": "<h2>Introduction to Bluesky's New Strategy</h2><p>Bluesky, a social media platform, has introduced group chats for up to 50 people and is building Reddit-style communities, as its user growth slows down to 44.8 million users, this pivot may be seen as a strategic move to revitalize growth and offer more engaging features to its users, in the context of the Indian market, this shift can be seen as an opportunity for local businesses to explore community-building platforms and social media strategies that cater to the Indian audience.</p><h2>Implications for Indian Businesses</h2><p>As the Indian market continues to grow and evolve, businesses can learn from Bluesky's strategy and adapt it to their own needs, by focusing on community-building and offering engaging features, Indian companies can expand their online presence and reach a wider audience, the Reserve Bank of India's and the Securities and Exchange Board of India's regulations on digital platforms can also impact the growth of social media companies in India, and businesses must be aware of these regulations when developing their online strategies.</p><h2>Key Takeaways</h2><ul><li>Bluesky's pivot to communities and group chats may inspire Indian businesses to explore similar models</li><li>The Indian market is witnessing a surge in demand for community-building platforms</li><li>Businesses must be aware of the regulatory environment in India when developing their online strategies</li><li>Community-building and engaging features can help Indian companies expand their online presence</li><li>Bluesky's strategy may offer lessons for Indian businesses looking to revitalize their growth and offer more engaging features to their users</li></ul>",
-      "category": "Digital Transformation",
-      "tags": [
-        "india",
-        "business",
-        "growth",
-        "strategy",
-        "social"
-      ],
-      "readTime": 3,
-      "slug": "bluesky-shifts-focus",
-      "status": "published",
-      "featured": false,
-      "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-07-07T03:41:51.763Z",
+  "lastUpdated": "2026-07-07T09:47:55.043Z",
   "totalCount": 200,
   "schema": "2.0"
 }

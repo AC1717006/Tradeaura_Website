@@ -42,6 +42,16 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.auraautomation.site/news/ai-risks.html</loc>
+    <lastmod>2026-07-07</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.auraautomation.site/news/memory-price-hike.html</loc>
+    <lastmod>2026-07-07</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.auraautomation.site/news/ai-memory-boom.html</loc>
     <lastmod>2026-07-07</lastmod>
     <priority>0.7</priority>
@@ -1029,16 +1039,6 @@
   <url>
     <loc>https://www.auraautomation.site/news/ibm-servicenow-ai-tools.html</loc>
     <lastmod>2026-06-12</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.auraautomation.site/news/ai-training.html</loc>
-    <lastmod>2026-06-11</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.auraautomation.site/news/bluesky-shifts-focus.html</loc>
-    <lastmod>2026-06-11</lastmod>
     <priority>0.7</priority>
   </url>
 </urlset>
