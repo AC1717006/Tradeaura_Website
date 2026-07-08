@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "ee1910dd79f6",
+      "originalUrl": "https://www.business-standard.com/markets/cryptocurrency/rbi-reiterates-call-for-crypto-curbs-tax-department-warns-of-evasion-risks-126070800562_1.html",
+      "originalTitle": "RBI reiterates call for crypto curbs; tax department warns of evasion risks",
+      "source": "www.business-standard.com",
+      "imageUrl": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-05/14/thumb/fitandfill/1200X628/1778745344-3858.jpg",
+      "publishedDate": "2026-07-08 08:25:14 +0000",
+      "createdAt": "2026-07-08T08:34:00.993Z",
+      "title": "Crypto Curbs",
+      "metaDescription": "RBI calls for crypto regulation",
+      "keywords": [
+        "cryptocurrency",
+        "RBI",
+        "regulation",
+        "India",
+        "evasion"
+      ],
+      "summary": "The Reserve Bank of India reiterates its call for cryptocurrency curbs, citing risks of tax evasion. This move may impact Indian businesses and investors in the crypto market. The RBI's stance highlights the need for regulatory clarity in the Indian market.",
+      "content": "<h2>Cryptocurrency Regulation in India</h2><p>The Reserve Bank of India (RBI) has reiterated its call for stricter regulations on cryptocurrencies, citing concerns over tax evasion and other risks. This move is significant for Indian businesses and investors in the crypto market, as it may impact their operations and investments.</p><p>The RBI's stance on cryptocurrency regulation is not new, as it has been advocating for stricter controls since 2018. However, the Indian government has allowed cryptocurrencies to exist in a grey zone, without explicit regulations. The RBI's latest call for regulation highlights the need for clarity and consistency in the Indian market.</p><h2>Implications for Indian Businesses</h2><p>Indian businesses and investors in the crypto market need to be aware of the potential implications of stricter regulations. Some of the key concerns include:</p><ul><li>Tax evasion risks</li><li>Regulatory compliance</li><li>Market volatility</li><li>Investment risks</li><li>Reputation risks</li></ul><p>As the Indian government and regulatory bodies continue to debate the future of cryptocurrency regulation, businesses and investors must stay informed and adapt to the changing landscape.</p>",
+      "category": "Business Tools",
+      "tags": [
+        "crypto",
+        "rbi",
+        "india",
+        "regulation",
+        "tax"
+      ],
+      "readTime": 3,
+      "slug": "crypto-curbs",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "91e3bf6c6841",
+      "originalUrl": "https://wccftech.com/deepseek-building-its-own-inference-chip-to-break-free-from-nvidia-huawei/",
+      "originalTitle": "DeepSeek Is Reportedly Building Its Own Inference Chip to Break Free From Both NVIDIA and Huawei",
+      "source": "Hassan Mujtaba",
+      "imageUrl": "https://cdn.wccftech.com/wp-content/uploads/2026/07/DeepSeek-AI-Chip-1.jpg",
+      "publishedDate": "2026-07-08 08:15:06 +0000",
+      "createdAt": "2026-07-08T08:34:05.977Z",
+      "title": "AI Chip Development",
+      "metaDescription": "AI chip development news",
+      "keywords": [
+        "AI Chips",
+        "Inference Accelerator",
+        "NVIDIA",
+        "Huawei",
+        "DeepSeek"
+      ],
+      "summary": "DeepSeek, a Chinese AI firm, is developing its own AI chip to reduce dependence on NVIDIA and Huawei, a move that may impact the Indian market. This development can potentially disrupt the global AI industry. Indian businesses may need to reassess their AI strategies in response.",
+      "content": "<h2>Introduction to AI Chips</h2><p>Artificial intelligence (AI) has become a crucial component of business operations worldwide, including in India. The increasing demand for AI-powered solutions has led to a surge in the development of specialized AI chips. Recently, it was reported that DeepSeek, a prominent Chinese AI firm, is working on its own AI chip, specifically an inference accelerator.</p><h2>Implications for Indian Businesses</h2><p>This development may have significant implications for Indian businesses, particularly those that rely heavily on AI and machine learning. As the Indian market continues to grow, companies may need to reassess their AI strategies and consider the potential benefits and drawbacks of using proprietary AI chips. The move by DeepSeek to develop its own AI chip may encourage other companies to follow suit, potentially leading to a more diverse and competitive AI chip market.</p><h2>Key Considerations</h2><p>Indian businesses should consider the following factors when evaluating the impact of AI chip development on their operations: <ul><li>Potential cost savings from using proprietary AI chips</li><li>Increased control over AI-powered solutions</li><li>Compatibility with existing infrastructure</li><li>Security and reliability of proprietary AI chips</li><li>Regulatory compliance with Indian laws and regulations</li></ul></p>",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "chips",
+        "nvidia",
+        "huawei",
+        "deepseek"
+      ],
+      "readTime": 3,
+      "slug": "ai-chip-development",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "c26c6054179b",
       "originalUrl": "https://www.reddit.com/r/quant/comments/1uqfv2w/architectures_for_hft_mldl/",
       "originalTitle": "Architectures for HFT ML/DL",
@@ -6533,75 +6599,9 @@
       "status": "published",
       "featured": false,
       "sitemapAdded": false
-    },
-    {
-      "id": "14fba4820cae",
-      "originalUrl": "https://www.infoworld.com/article/4184648/openai-buys-ona-to-help-rein-in-ai-agents.html",
-      "originalTitle": "OpenAI buys Ona to help rein in AI agents",
-      "source": "Evan Schuman",
-      "imageUrl": "https://www.infoworld.com/wp-content/uploads/2026/06/4184648-0-23131900-1781294487-shutterstock_2253221991.jpg?quality=50&strip=all&w=1024",
-      "publishedDate": "2026-06-12 20:01:11 +0000",
-      "createdAt": "2026-06-12T20:15:04.709Z",
-      "title": "AI Acquisition",
-      "metaDescription": "OpenAI buys Ona for AI control",
-      "keywords": [
-        "OpenAI",
-        "AI Agents",
-        "Acquisition",
-        "Ona",
-        "Codex"
-      ],
-      "summary": "OpenAI's acquisition of Ona is set to provide users with self-hosted sandboxes, allowing for greater control over AI tool execution. This move is expected to have implications for Indian businesses looking to leverage AI technology. As the Indian market continues to grow, companies will need to navigate the complexities of AI adoption.",
-      "content": "<h2>Introduction to OpenAI's Acquisition</h2><p>OpenAI has announced the acquisition of Ona, a move aimed at providing Codex users with self-hosted sandboxes. This development is expected to have significant implications for the Indian business landscape, as companies increasingly look to harness the power of AI technology.</p><h2>Implications for Indian Businesses</h2><p>The acquisition will enable users to move tool execution into infrastructure that they control, allowing for greater flexibility and security. This is particularly relevant in the Indian context, where businesses are looking to leverage AI to drive growth and innovation. As the Indian market continues to evolve, companies will need to navigate the complexities of AI adoption, including issues related to data privacy and security.</p><h2>Key Benefits of the Acquisition</h2><p>The acquisition is expected to provide several key benefits, including:<ul><li>Greater control over AI tool execution</li><li>Improved security and flexibility</li><li>Enhanced ability to navigate AI adoption</li><li>Increased innovation and growth</li><li>Better navigation of data privacy and security issues</li></ul></p>",
-      "category": "AI & Automation",
-      "tags": [
-        "ai",
-        "automation",
-        "business",
-        "technology",
-        "innovation"
-      ],
-      "readTime": 3,
-      "slug": "ai-acquisition",
-      "status": "published",
-      "featured": false,
-      "sitemapAdded": false
-    },
-    {
-      "id": "5c23cdf07486",
-      "originalUrl": "https://www.reddit.com/r/reinforcementlearning/comments/1u458ai/book_suggestions_for_learning_artificial/",
-      "originalTitle": "Book suggestions for learning Artificial intelligence for Robotics.",
-      "source": "/u/Lumpy-Cucumber-5895",
-      "imageUrl": null,
-      "publishedDate": "2026-06-12 19:32:25 +0000",
-      "createdAt": "2026-06-12T20:15:09.711Z",
-      "title": "AI Robotics",
-      "metaDescription": "Learn AI for robotics",
-      "keywords": [
-        "artificial intelligence",
-        "robotics",
-        "machine learning",
-        "automation",
-        "innovation"
-      ],
-      "summary": "Indian businesses can leverage artificial intelligence to enhance robotics and automation, driving innovation and growth in the market. With the right resources, startup founders and enterprise decision-makers can explore AI applications in robotics. This can lead to increased efficiency and competitiveness in the Indian industry.",
-      "content": "<h2>Introduction to AI Robotics</h2><p>Artificial intelligence (AI) is transforming the field of robotics, enabling machines to learn, adapt, and interact with their environment. For Indian businesses looking to explore AI applications in robotics, it is essential to have a solid understanding of the underlying concepts and technologies.</p><h2>Key Concepts</h2><p>To get started with AI robotics, one needs to understand machine learning, computer vision, and sensor integration. These concepts form the foundation of AI-powered robotics and are crucial for developing intelligent machines that can perform complex tasks.</p><h2>Learning Resources</h2><p>There are several resources available for learning AI robotics, including online courses, tutorials, and books. Some popular books on the subject include those that focus on machine learning, deep learning, and robotics engineering. By leveraging these resources, Indian businesses can develop the expertise needed to drive innovation and growth in the field of AI robotics.</p><h2>Applications in India</h2><p>The applications of AI robotics in India are vast and diverse, ranging from industrial automation to healthcare and transportation. By adopting AI-powered robotics, Indian businesses can improve efficiency, reduce costs, and enhance customer experience. As the Indian market continues to evolve, the demand for AI robotics is expected to increase, driving growth and innovation in the industry.</p>",
-      "category": "AI & Automation",
-      "tags": [
-        "ai",
-        "robotics",
-        "machine",
-        "learning",
-        "innovation"
-      ],
-      "readTime": 3,
-      "slug": "ai-robotics",
-      "status": "published",
-      "featured": false,
-      "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-07-08T02:56:27.714Z",
+  "lastUpdated": "2026-07-08T08:34:05.977Z",
   "totalCount": 200,
   "schema": "2.0"
 }
