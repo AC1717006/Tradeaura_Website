@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "c26c6054179b",
+      "originalUrl": "https://www.reddit.com/r/quant/comments/1uqfv2w/architectures_for_hft_mldl/",
+      "originalTitle": "Architectures for HFT ML/DL",
+      "source": "/u/quantum_hedge",
+      "imageUrl": null,
+      "publishedDate": "2026-07-08 02:29:30 +0000",
+      "createdAt": "2026-07-08T02:56:22.731Z",
+      "title": "HFT ML Models",
+      "metaDescription": "High frequency trading machine learning",
+      "keywords": [
+        "machine learning",
+        "high frequency trading",
+        "financial markets",
+        "algorithmic trading",
+        "artificial intelligence"
+      ],
+      "summary": "Indian businesses can leverage machine learning and high frequency trading to make data-driven decisions in the financial markets. By incorporating news data, fx, and constant features, companies can expand their universe of features. This can lead to more accurate predictions and better investment strategies.",
+      "content": "<h2>Introduction to HFT ML Models</h2><p>High frequency trading (HFT) involves using powerful computers to rapidly execute trades in the financial markets. Machine learning (ML) and deep learning (DL) play a crucial role in HFT, enabling companies to make data-driven decisions and stay ahead of the competition.</p><h2>Expanding the Universe of Features</h2><p>To improve the accuracy of HFT ML models, Indian businesses can consider incorporating additional features such as intraday news data, fx, and constant features. This can be achieved by using a universal model that updates a feature vector X for each instrument tick, concatenating features of the own instrument order book and other relevant features.</p><h2>Key Considerations</h2><p>When expanding the universe of features, Indian companies should consider the following factors: <ul><li>data quality and availability</li><li>feature engineering and selection</li><li>model complexity and interpretability</li><li>regulatory compliance and risk management</li><li>scalability and performance</li></ul></p>",
+      "category": "AI & Automation",
+      "tags": [
+        "finance",
+        "trading",
+        "machine",
+        "learning",
+        "models"
+      ],
+      "readTime": 3,
+      "slug": "hft-ml-models",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "a8c920ae8d79",
+      "originalUrl": "https://www.cnbc.com/video/2026/07/08/yinglan-tan.html",
+      "originalTitle": "Stablecoins, AI-biotech could drive next VC wave: Insignia Ventures Partners",
+      "source": "www.cnbc.com",
+      "imageUrl": "https://image.cnbcfm.com/api/v1/image/108331809-17834743621783474358-47024912686-1080pnbcnews.jpg?v=1783474361&w=1920&h=1080",
+      "publishedDate": "2026-07-08 02:29:09 +0000",
+      "createdAt": "2026-07-08T02:56:27.714Z",
+      "title": "VC Trends",
+      "metaDescription": "stablecoins AI biotech",
+      "keywords": [
+        "stablecoins",
+        "AI",
+        "biotech",
+        "venture capital",
+        "startup"
+      ],
+      "summary": "Insignia Ventures Partners predicts that stablecoins, AI-biotech integration, and agentic payments will drive the next venture capital wave, with Southeast Asian countries emerging as key startup hubs, potentially influencing the Indian market. Indian business owners and startup founders can learn from these trends. The Indian market may see similar investments in these areas.",
+      "content": "<h2>Emerging Trends in Venture Capital</h2><p>According to Yinglan Tan of Insignia Ventures Partners, the next wave of venture capital investments will be driven by areas such as stablecoins, AI's integration with biotech, and agentic payments. Beyond Singapore and Indonesia, Vietnam and Malaysia are emerging as key startup hubs in Southeast Asia, and this trend may have implications for the Indian market.</p><p>Indian business owners and startup founders can learn from these trends and explore opportunities for growth and investment in these areas. The integration of AI with biotech, in particular, has the potential to drive innovation and disruption in various industries.</p><h2>Key Areas of Investment</h2><ul><li>Stablecoins: a type of cryptocurrency that is pegged to a stable asset, such as a fiat currency</li><li>AI-biotech integration: the use of artificial intelligence in biotechnology to drive innovation and discovery</li><li>Agentic payments: a type of payment system that uses AI and machine learning to facilitate transactions</li></ul><p>As the Indian market continues to evolve and grow, it is likely that we will see similar investments in these areas, driven by the growing demand for innovative technologies and solutions.</p>",
+      "category": "MarTech",
+      "tags": [
+        "trends",
+        "vc",
+        "startup",
+        "asia",
+        "tech"
+      ],
+      "readTime": 3,
+      "slug": "vc-trends",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "d9ec57999408",
       "originalUrl": "https://www.reddit.com/r/investing/comments/1uq5s8r/ai_bubble_cracking_as_big_tech_renting_out_ai/",
       "originalTitle": "AI bubble cracking as big tech renting out AI infrastructure proves they overspent",
@@ -6533,75 +6599,9 @@
       "status": "published",
       "featured": false,
       "sitemapAdded": false
-    },
-    {
-      "id": "d5757607c797",
-      "originalUrl": "https://www.thestreet.com/investing/stocks/intc-intel-stock-price-target-bank-of-america-june-2026",
-      "originalTitle": "Bank of America makes major reset to Intel stock price target",
-      "source": "Moz Farooque",
-      "imageUrl": null,
-      "publishedDate": "2026-06-12 15:03:00 +0000",
-      "createdAt": "2026-06-12T15:22:25.171Z",
-      "title": "Intel Stock Reset",
-      "metaDescription": "Intel stock price target reset",
-      "keywords": [
-        "Intel",
-        "stock price",
-        "Bank of America",
-        "Nvidia",
-        "investing"
-      ],
-      "summary": "Bank of America has revised Intel's stock price target, which may impact the Indian market's perception of the company. This move could have implications for Indian businesses and investors. Intel faces competition from Nvidia, affecting its stock performance.",
-      "content": "<h2>Intel Stock Price Target Revision</h2><p>Bank of America has made a significant revision to Intel's stock price target, which could potentially alter the company's stock performance. This move may have implications for the Indian market, as investors and businesses assess the company's prospects. Intel still faces intense competition from Nvidia, which has been a major factor in its stock performance.</p><p>In the Indian context, this development may be relevant for businesses and investors who are looking to diversify their portfolios or invest in the technology sector. The revision of Intel's stock price target by Bank of America may be seen as a positive sign, but it is essential to consider the competitive landscape and the company's overall performance.</p><h2>Key Considerations</h2><p>When evaluating Intel's stock, Indian businesses and investors should consider the following factors:</p><ul><li>Competition from Nvidia and other players in the technology sector</li><li>Intel's ability to innovate and adapt to changing market trends</li><li>The company's financial performance and growth prospects</li><li>The impact of global market trends on the Indian economy</li><li>The role of regulatory bodies, such as the RBI and SEBI, in shaping the Indian market</li></ul>",
-      "category": "Business Tools",
-      "tags": [
-        "investing",
-        "stocks",
-        "tech",
-        "finance",
-        "market"
-      ],
-      "readTime": 3,
-      "slug": "intel-stock-reset",
-      "status": "published",
-      "featured": false,
-      "sitemapAdded": false
-    },
-    {
-      "id": "032cd15db41b",
-      "originalUrl": "https://www.androidheadlines.com/2026/06/leaker-says-touchscreen-macbook-100-confirmed.html",
-      "originalTitle": "Leaker Says Touchscreen MacBook Is '100% Confirmed,' and Nobody Is Surprised",
-      "source": "Tyler Lee",
-      "imageUrl": "https://www.androidheadlines.com/wp-content/uploads/2026/03/apple-macbook-pro-m5-series-chip-3.jpg",
-      "publishedDate": "2026-06-12 15:06:55 +0000",
-      "createdAt": "2026-06-12T15:22:30.418Z",
-      "title": "Touchscreen MacBook",
-      "metaDescription": "Touchscreen MacBook confirmed",
-      "keywords": [
-        "MacBook",
-        "Touchscreen",
-        "OLED",
-        "M6 chip",
-        "Laptop"
-      ],
-      "summary": "A leaker has confirmed the upcoming release of a touchscreen MacBook, potentially impacting the Indian laptop market. The new device is expected to feature an OLED display and M6 chip. This development may influence Indian business owners' and startup founders' technology purchasing decisions.",
-      "content": "<h2>Introduction of Touchscreen MacBook</h2><p>A recent leak has confirmed the release of a touchscreen MacBook, which is expected to arrive in late 2026 or early 2027. According to the leaker, the new device will feature an OLED display and be powered by the M6 chip. This news may have significant implications for the Indian market, where laptops are widely used by businesses and individuals alike.</p><h2>Features and Specifications</h2><p>The upcoming touchscreen MacBook is expected to boast an OLED display, providing vibrant colors and improved contrast. The device will be powered by the M6 chip, which is likely to deliver enhanced performance and efficiency. Other features of the device have not been disclosed, but it is expected to run on the latest operating system.</p><h2>Potential Impact on Indian Market</h2><p>The introduction of the touchscreen MacBook may influence the purchasing decisions of Indian business owners and startup founders. As the device is expected to offer advanced features and improved performance, it may become a popular choice among professionals and individuals who require a reliable and efficient laptop. However, the pricing of the device will be a crucial factor in determining its adoption in the Indian market.</p><ul><li>Expected release date: late 2026 or early 2027</li><li>Features: OLED display, M6 chip</li><li>Potential impact: enhanced performance, improved efficiency</li><li>Target audience: Indian business owners, startup founders, professionals</li><li>Pricing: to be determined</li></ul>",
-      "category": "SaaS & Software",
-      "tags": [
-        "laptop",
-        "tech",
-        "gadget",
-        "device",
-        "computer"
-      ],
-      "readTime": 3,
-      "slug": "touchscreen-macbook",
-      "status": "published",
-      "featured": false,
-      "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-07-07T19:59:56.849Z",
+  "lastUpdated": "2026-07-08T02:56:27.714Z",
   "totalCount": 200,
   "schema": "2.0"
 }
