@@ -42,6 +42,16 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.auraautomation.site/news/tcs-q1-fy27.html</loc>
+    <lastmod>2026-07-09</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.auraautomation.site/news/router-security.html</loc>
+    <lastmod>2026-07-09</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.auraautomation.site/news/ai-security-charter.html</loc>
     <lastmod>2026-07-09</lastmod>
     <priority>0.7</priority>
@@ -1028,16 +1038,6 @@
   </url>
   <url>
     <loc>https://www.auraautomation.site/news/smart-speaker-shift.html</loc>
-    <lastmod>2026-06-14</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.auraautomation.site/news/roper-tech.html</loc>
-    <lastmod>2026-06-14</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.auraautomation.site/news/css-layout.html</loc>
     <lastmod>2026-06-14</lastmod>
     <priority>0.7</priority>
   </url>
