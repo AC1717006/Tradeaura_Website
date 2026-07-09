@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "7ffc47d6a823",
+      "originalUrl": "https://www.thestreet.com/employment/microsoft-sends-significant-offer-to-laid-off-employees-severance-package",
+      "originalTitle": "Microsoft offers laid-off employees generous package",
+      "source": "Hillary Remy",
+      "imageUrl": null,
+      "publishedDate": "2026-07-09 19:17:00 +0000",
+      "createdAt": "2026-07-09T19:50:21.772Z",
+      "title": "Microsoft Layoffs",
+      "metaDescription": "Microsoft layoffs package",
+      "keywords": [
+        "microsoft layoffs",
+        "layoff package",
+        "employee benefits",
+        "tech industry",
+        "job cuts"
+      ],
+      "summary": "Microsoft has offered a generous severance package to its laid-off employees, a move that may be observed by Indian business owners and startup founders in the tech industry. This package can serve as a benchmark for companies in India to consider when restructuring. The Indian market may see similar layoff trends in the tech sector.",
+      "content": "<h2>Microsoft Layoff Package</h2><p>Microsoft has recently announced a significant layoff, and the company is offering a generous severance package to the affected employees. This package includes a range of benefits, such as continued pay and stock vesting, to support the employees during their transition. The move is seen as a positive step by the company to mitigate the impact of job losses on its former employees.</p><h2>Implications for Indian Businesses</h2><p>The Microsoft layoff package can serve as a reference point for Indian businesses, particularly in the tech sector, which is experiencing rapid growth and transformation. As Indian companies expand and evolve, they may need to consider similar restructuring measures, and the Microsoft package can provide a benchmark for fair and supportive treatment of affected employees. The Indian market is likely to see similar trends in the tech industry, and companies can learn from Microsoft's approach to managing layoffs.</p><ul><li>Continued pay and stock vesting</li><li>Outplacement support</li><li>Career transition services</li><li>Extended health insurance coverage</li><li>Education and training assistance</li></ul>",
+      "category": "Business Tools",
+      "tags": [
+        "layoffs",
+        "microsoft",
+        "india",
+        "tech",
+        "business"
+      ],
+      "readTime": 3,
+      "slug": "microsoft-layoffs",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "fa4531f821fa",
+      "originalUrl": "https://www.techradar.com/pro/its-not-just-about-the-gpu-crunching-on-an-llm-anymore-apple-silicon-leader-explains-why-a-mac-mini-could-be-the-surprising-choice-for-a-machine-running-all-your-ai-agents",
+      "originalTitle": "Apple silicon leader explains why a Mac Mini could be the surprising AI choice",
+      "source": "Christian Cawley",
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/5mj3qpyRu9npTKCmrac9SG-1920-80.jpg",
+      "publishedDate": "2026-07-09 19:25:00 +0000",
+      "createdAt": "2026-07-09T19:50:27.285Z",
+      "title": "AI on Mac Mini",
+      "metaDescription": "Apple silicon for AI",
+      "keywords": [
+        "Apple Silicon",
+        "AI Agents",
+        "Mac Mini",
+        "Artificial Intelligence",
+        "Machine Learning"
+      ],
+      "summary": "For Indian businesses looking to adopt AI solutions, Apple's Mac Mini can be a viable option, offering efficient performance without excessive costs. Apple silicon leader Doug Brooks highlights the capabilities of Apple desktop systems in running AI agents. This can be particularly relevant in the Indian market where cost-effective solutions are crucial.",
+      "content": "<h2>Introduction to AI on Mac Mini</h2><p>Indian businesses are increasingly looking for ways to integrate Artificial Intelligence (AI) into their operations. Doug Brooks, Apple silicon leader, has explained how Apple desktop systems, such as the Mac Mini, can efficiently run AI agents without significant performance issues. This is particularly important in the Indian context, where businesses often seek cost-effective solutions.</p><h2>Benefits of Using Mac Mini for AI</h2><p>The Mac Mini, with its Apple silicon, offers a compelling option for running AI agents. It provides the necessary performance for AI workloads without the high costs associated with more powerful machines. For Indian startups and enterprises, this can be a crucial factor in deciding which hardware to use for their AI initiatives.</p><h2>Key Considerations</h2><p>When considering the use of Mac Mini for AI, Indian businesses should look at the following factors:</p><ul><li>Cost-effectiveness: The Mac Mini offers a balance between performance and cost, making it an attractive option for businesses looking to manage expenses.</li><li>Performance: Apple silicon provides the necessary power for running AI agents, ensuring that businesses can efficiently process their AI workloads.</li><li>Scalability: As businesses grow, their AI needs may also expand. The Mac Mini can be a scalable solution, allowing businesses to easily add more power as required.</li><li>Security: Apple's silicon and the Mac Mini's design prioritize security, which is essential for protecting sensitive business data.</li><li>Integration: The Mac Mini can seamlessly integrate with other Apple devices and services, making it a convenient choice for businesses already invested in the Apple ecosystem.</li></ul>",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "apple",
+        "india",
+        "mac",
+        "mini"
+      ],
+      "readTime": 3,
+      "slug": "ai-on-mac-mini",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "00219118e210",
       "originalUrl": "https://www.investing.com/news/company-news/tcs-q1-fy27-slides-revenue-rises-139-as-margins-compress-to-24-93CH-4784481",
       "originalTitle": "TCS Q1 FY27 slides: revenue rises 13.9% as margins compress to 24% By Investing.com",
@@ -6533,75 +6599,9 @@
       "status": "published",
       "featured": false,
       "sitemapAdded": false
-    },
-    {
-      "id": "cbd9d7fb6c6d",
-      "originalUrl": "https://www.business-standard.com/industry/news/vaishnaw-expects-more-firms-to-start-production-of-memory-chips-in-india-126061400295_1.html",
-      "originalTitle": "Vaishnaw expects more firms to start production of memory chips in India",
-      "source": "Business Standard; Press Trust",
-      "imageUrl": "https://bsmedia.business-standard.com/_media/bs/img/article/2025-11/27/thumb/featurecrop/1200X628/1764225521-7019.jpg",
-      "publishedDate": "2026-06-14 08:24:06 +0000",
-      "createdAt": "2026-06-14T09:40:19.663Z",
-      "title": "India Chip Production",
-      "metaDescription": "Memory chip production in India",
-      "keywords": [
-        "memory chips",
-        "India production",
-        "electronics manufacturing",
-        "chip production",
-        "Indian market"
-      ],
-      "summary": "India is expected to see an increase in memory chip production with more firms setting up units to address the global supply-demand imbalance. The Indian government's initiatives are likely to attract investments in the electronics manufacturing sector. This development can create new opportunities for Indian businesses and startup founders.",
-      "content": "<h2>Memory Chip Production in India</h2><p>The Indian minister expects more firms to start producing memory chips in the country, driven by the global phenomenon of supply-demand imbalance. This imbalance is now being addressed by setting up many more units, which will help bridge the gap between supply and demand. The Indian government's initiatives to promote electronics manufacturing in the country are likely to attract significant investments in the sector.</p><h2>Opportunities for Indian Businesses</h2><p>The growth of memory chip production in India can create new opportunities for Indian businesses and startup founders. With the government's support, Indian companies can leverage the country's large talent pool and favorable business environment to establish themselves as major players in the global electronics manufacturing industry. Some of the key areas that Indian businesses can focus on include:</p><ul><li>Partnering with global companies to set up manufacturing units in India</li><li>Developing indigenous technologies to reduce dependence on imports</li><li>Creating a skilled workforce to support the growth of the electronics manufacturing sector</li><li>Investing in research and development to stay ahead of the competition</li><li>Collaborating with the government to create a favorable business environment</li></ul>",
-      "category": "Business Tools",
-      "tags": [
-        "india",
-        "chips",
-        "production",
-        "business",
-        "electronics"
-      ],
-      "readTime": 3,
-      "slug": "india-chip-production",
-      "status": "published",
-      "featured": false,
-      "sitemapAdded": false
-    },
-    {
-      "id": "ecd84ecd284b",
-      "originalUrl": "https://www.androidauthority.com/google-home-vs-alexa-switching-2026-3675758/",
-      "originalTitle": "Google just pushed me one step closer to ditching Google Home for Amazon Alexa",
-      "source": "Karandeep Singh",
-      "imageUrl": "https://www.androidauthority.com/wp-content/uploads/2024/05/Nest-Mini-stock-photo.jpg",
-      "publishedDate": "2026-06-14 09:00:39 +0000",
-      "createdAt": "2026-06-14T09:40:24.645Z",
-      "title": "Smart Speaker Shift",
-      "metaDescription": "Google Home vs Amazon Alexa",
-      "keywords": [
-        "smart speakers",
-        "amazon alexa",
-        "google home",
-        "voice assistants",
-        "home automation"
-      ],
-      "summary": "Indian business owners are taking notice of the smart speaker market, as Google's neglect of Google Home may lead to a shift towards Amazon Alexa, with potential implications for the Indian market. This change could impact how businesses approach voice-activated services and home automation. As the Indian market continues to grow, companies must consider the role of smart speakers in their strategies.",
-      "content": "<h2>Introduction to Smart Speakers</h2><p>Google's recent actions have led to a reevaluation of the smart speaker market, with many considering a switch from Google Home to Amazon Alexa. This shift may have significant implications for the Indian market, where smart speakers are becoming increasingly popular.</p><h2>Comparison of Google Home and Amazon Alexa</h2><p>When comparing Google Home and Amazon Alexa, several factors come into play, including compatibility, features, and pricing. Amazon Alexa has been continuously updating its features and expanding its compatibility with various devices, making it a more attractive option for many users.</p><h2>Impact on Indian Businesses</h2><p>As the Indian market continues to grow, businesses must consider the role of smart speakers in their strategies. With the potential shift towards Amazon Alexa, companies may need to adapt their approaches to voice-activated services and home automation. This could involve integrating Alexa-compatible devices into their products or services, or developing new strategies to reach customers through voice assistants.</p><h2>Conclusion</h2><p>In conclusion, the potential shift from Google Home to Amazon Alexa may have significant implications for the Indian market. As businesses navigate this changing landscape, they must consider the potential opportunities and challenges presented by smart speakers and voice assistants.</p><ul><li>Smart speakers are becoming increasingly popular in the Indian market</li><li>Amazon Alexa offers a range of features and compatibility options</li><li>Google's neglect of Google Home may lead to a shift towards Amazon Alexa</li><li>Indian businesses must consider the role of smart speakers in their strategies</li><li>Integration with voice assistants may be crucial for businesses in the future</li></ul>",
-      "category": "AI & Automation",
-      "tags": [
-        "smart",
-        "speakers",
-        "alexa",
-        "home",
-        "automation"
-      ],
-      "readTime": 3,
-      "slug": "smart-speaker-shift",
-      "status": "published",
-      "featured": false,
-      "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-07-09T15:16:38.371Z",
+  "lastUpdated": "2026-07-09T19:50:27.285Z",
   "totalCount": 200,
   "schema": "2.0"
 }
