@@ -42,6 +42,16 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.auraautomation.site/news/gold-price-shift.html</loc>
+    <lastmod>2026-07-10</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.auraautomation.site/news/semiconductor-warning.html</loc>
+    <lastmod>2026-07-10</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.auraautomation.site/news/debt-refinancing.html</loc>
     <lastmod>2026-07-10</lastmod>
     <priority>0.7</priority>
@@ -1028,16 +1038,6 @@
   </url>
   <url>
     <loc>https://www.auraautomation.site/news/crowdstrike-expands.html</loc>
-    <lastmod>2026-06-15</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.auraautomation.site/news/lubrizol-growth.html</loc>
-    <lastmod>2026-06-15</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.auraautomation.site/news/ai-funding-2.html</loc>
     <lastmod>2026-06-15</lastmod>
     <priority>0.7</priority>
   </url>
