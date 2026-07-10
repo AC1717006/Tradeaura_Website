@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "a8e009607537",
+      "originalUrl": "https://www.business-standard.com/companies/news/sbi-to-sell-1-42-stake-in-sbi-funds-management-in-pre-ipo-placement-126071000071_1.html",
+      "originalTitle": "SBI to sell 1.42% stake in SBI Funds Management in pre-IPO placement",
+      "source": "Business Standard; Reuters",
+      "imageUrl": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-07/09/thumb/fitandfill/1200X628/1783600816-8212.jpg",
+      "publishedDate": "2026-07-10 02:50:24 +0000",
+      "createdAt": "2026-07-10T03:36:49.675Z",
+      "title": "SBI Stake Sale",
+      "metaDescription": "SBI sells 1.42% stake in SBI Funds Management",
+      "keywords": [
+        "SBI Funds Management",
+        "IPO placement",
+        "stake sale",
+        "institutional demand",
+        "valuation"
+      ],
+      "summary": "State Bank of India is selling a 1.42% stake in SBI Funds Management in a pre-IPO placement, providing an early benchmark for the unit's valuation and indicating institutional demand before public offering. This move is significant for the Indian market as it sets a precedent for similar transactions. The sale is expected to have implications for the Indian financial sector.",
+      "content": "<h2>SBI Funds Management Stake Sale</h2><p>The State Bank of India (SBI) is selling a 1.42% stake in SBI Funds Management in a pre-IPO placement at ₹574 per share, which is the top end of the asset manager's IPO price band. This stake sale provides an early benchmark for the unit's valuation and indicates institutional demand before the public offering.</p><p>The sale is significant for the Indian market as it sets a precedent for similar transactions. The Indian financial sector is expected to be impacted by this move, with potential implications for other asset management companies. The demand for SBI Funds Management's IPO is likely to be high, given the company's strong track record and the growing demand for investment products in India.</p><h2>Implications for the Indian Market</h2><p>The stake sale is expected to have a positive impact on the Indian market, as it demonstrates the confidence of institutional investors in the country's financial sector. The sale is also likely to attract more foreign investment into the Indian market, which could lead to increased liquidity and deeper capital markets.</p><p>The following are some key points to note about the stake sale:<ul><li>The stake sale is for 1.42% of SBI Funds Management</li><li>The sale price is ₹574 per share, which is the top end of the IPO price band</li><li>The sale is expected to provide an early benchmark for the unit's valuation</li><li>The demand for SBI Funds Management's IPO is likely to be high</li><li>The sale is expected to have a positive impact on the Indian market</li></ul></p>",
+      "category": "Finance & Markets",
+      "tags": [
+        "finance",
+        "investing",
+        "ipo",
+        "banking",
+        "market"
+      ],
+      "readTime": 3,
+      "slug": "sbi-stake-sale",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "6118f51c399e",
+      "originalUrl": "https://www.digitaltrends.com/computing/chatgpt-is-coming-for-one-of-googles-smartest-chrome-features/",
+      "originalTitle": "ChatGPT is coming for one of Google’s smartest Chrome features",
+      "source": "Moinak Pal",
+      "imageUrl": "https://www.digitaltrends.com/tachyon/2026/03/DT-2026-03-24T011153.319.jpg?resize=1200%2C630",
+      "publishedDate": "2026-07-10 02:24:49 +0000",
+      "createdAt": "2026-07-10T03:36:54.770Z",
+      "title": "ChatGPT Chrome Extension",
+      "metaDescription": "ChatGPT challenges Google's Gemini",
+      "keywords": [
+        "ChatGPT",
+        "Chrome Extension",
+        "AI",
+        "Google Gemini",
+        "Automation"
+      ],
+      "summary": "OpenAI's ChatGPT Chrome extension brings AI-powered features to Indian businesses, competing with Google's Gemini Side Panel. This development can impact Indian companies' browsing and task automation experiences. Indian entrepreneurs can leverage this technology to enhance productivity.",
+      "content": "<h2>Introduction to ChatGPT Chrome Extension</h2><p>OpenAI has launched a new ChatGPT Chrome extension, aiming to provide context-aware AI capabilities directly within the browser. This move is seen as a challenge to Google's Gemini Side Panel, which offers webpage summaries, explanations, and task automation. The ChatGPT Chrome extension can summarize webpages, explain complex concepts, and automate tasks, making it a valuable tool for Indian businesses and entrepreneurs.</p><h2>Key Features and Implications</h2><p>The ChatGPT Chrome extension can have significant implications for Indian companies, particularly in terms of productivity and efficiency. Some of the key features include:<ul><li>Context-aware AI: The extension uses AI to understand the context of the webpage and provide relevant information.</li><li>Webpage summaries: ChatGPT can summarize long webpages, saving time and effort for Indian business owners.</li><li>Task automation: The extension can automate tasks, such as data entry and research, freeing up time for more strategic activities.</li></ul></p><h2>Conclusion</h2><p>In conclusion, the ChatGPT Chrome extension is a powerful tool that can benefit Indian businesses and entrepreneurs. As the Indian market continues to evolve, it is essential for companies to leverage the latest technologies to stay competitive. The ChatGPT Chrome extension is definitely worth exploring for those looking to enhance their productivity and efficiency.</p>",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "chrome",
+        "extension",
+        "business",
+        "productivity"
+      ],
+      "readTime": 3,
+      "slug": "chatgpt-chrome-extension",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "7ffc47d6a823",
       "originalUrl": "https://www.thestreet.com/employment/microsoft-sends-significant-offer-to-laid-off-employees-severance-package",
       "originalTitle": "Microsoft offers laid-off employees generous package",
@@ -6533,75 +6599,9 @@
       "status": "published",
       "featured": false,
       "sitemapAdded": false
-    },
-    {
-      "id": "0853cc3de433",
-      "originalUrl": "https://www.investing.com/news/stock-market-news/eu-commission-looking-at-practical-consequences-of-anthropic-decision-spokesperson-says-4741090",
-      "originalTitle": "EU Commission looking at practical consequences of Anthropic decision, spokesperson says By Reuters",
-      "source": "www.investing.com",
-      "imageUrl": "https://i-invdn-com.investing.com/news/https://i-invdn-com.investing.com/trkd-images/LYNXMPEM5D0DQ_L.jpg",
-      "publishedDate": "2026-06-14 13:48:27 +0000",
-      "createdAt": "2026-06-14T14:10:49.794Z",
-      "title": "EU Commission Review",
-      "metaDescription": "EU Commission reviews Anthropic decision",
-      "keywords": [
-        "EU Commission",
-        "Anthropic",
-        "Decision",
-        "Regulation",
-        "Compliance"
-      ],
-      "summary": "The EU Commission is examining the practical consequences of the Anthropic decision, which may have implications for Indian businesses operating in the European market. This review may lead to new regulations or compliance requirements. Indian companies should monitor the situation closely to adapt to potential changes.",
-      "content": "<h2>EU Commission Review of Anthropic Decision</h2><p>The European Union Commission is currently reviewing the practical consequences of the Anthropic decision, according to a spokesperson. This decision may have significant implications for businesses operating in the European market, including Indian companies with a presence in the region.</p><p>The EU Commission's review is focused on understanding the potential impact of the Anthropic decision on the market and identifying any necessary regulatory responses. This may involve assessing the decision's effects on competition, consumer protection, and other areas of concern.</p><h2>Potential Implications for Indian Businesses</h2><p>Indian businesses operating in the European market should be aware of the potential implications of the EU Commission's review. Depending on the outcome, Indian companies may need to adapt to new regulations or compliance requirements, which could affect their operations and bottom line.</p><ul><li>Monitoring regulatory developments in the EU</li><li>Assessing potential risks and opportunities</li><li>Developing strategies to comply with new regulations</li></ul>",
-      "category": "MarTech",
-      "tags": [
-        "eu",
-        "news",
-        "business",
-        "regulation",
-        "compliance"
-      ],
-      "readTime": 3,
-      "slug": "eu-commission-review",
-      "status": "published",
-      "featured": false,
-      "sitemapAdded": false
-    },
-    {
-      "id": "0e743fbee516",
-      "originalUrl": "https://www.digitaltrends.com/computing/apple-intelligence-2-0-what-the-new-ai-features-actually-mean/",
-      "originalTitle": "Apple Intelligence 2.0: What the New AI Features Actually Mean",
-      "source": "Paulo Vargas",
-      "imageUrl": "https://www.digitaltrends.com/tachyon/2026/06/siri-ai.jpeg?resize=1200%2C630",
-      "publishedDate": "2026-06-14 13:55:05 +0000",
-      "createdAt": "2026-06-14T14:10:54.717Z",
-      "title": "AI Features",
-      "metaDescription": "Apple AI features",
-      "keywords": [
-        "Artificial Intelligence",
-        "Apple Intelligence",
-        "AI Technology",
-        "Indian Market",
-        "Digital Transformation"
-      ],
-      "summary": "Apple's new AI features aim to make AI feel native to the iPhone, which can impact Indian businesses and consumers who use Apple devices. This development can also influence the Indian market's approach to AI adoption. Indian business owners should be aware of these advancements to stay competitive.",
-      "content": "<h2>Introduction to Apple Intelligence 2.0</h2><p>Apple Intelligence 2.0 is Apple’s attempt to make AI feel native to the iPhone, with Siri as the visible test, Gemini as the quiet twist, and app plumbing underneath. This new AI feature can potentially change the way Indian consumers interact with their Apple devices, and Indian businesses should take note of this development.</p><h2>Implications for Indian Businesses</h2><p>As Apple continues to push the boundaries of AI technology, Indian businesses should consider how these advancements can be leveraged to improve their operations and customer experiences. With the growing demand for digital transformation in the Indian market, Apple's AI features can be a key factor in driving this change.</p><h2>Key Features of Apple Intelligence 2.0</h2><p>Some of the key features of Apple Intelligence 2.0 include:<ul><li>Improved Siri capabilities</li><li>Enhanced app integration</li><li>Advanced machine learning algorithms</li></ul>These features can enable Indian businesses to develop more sophisticated and personalized customer experiences, ultimately driving growth and competitiveness in the Indian market.</p>",
-      "category": "AI & Automation",
-      "tags": [
-        "ai",
-        "apple",
-        "business",
-        "india",
-        "tech"
-      ],
-      "readTime": 3,
-      "slug": "ai-features",
-      "status": "published",
-      "featured": false,
-      "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-07-09T19:50:27.285Z",
+  "lastUpdated": "2026-07-10T03:36:54.770Z",
   "totalCount": 200,
   "schema": "2.0"
 }
