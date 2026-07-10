@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "577d169cb6bf",
+      "originalUrl": "https://www.thestreet.com/investing/stocks/oracle-dividends",
+      "originalTitle": "Oracle’s dividend history: Payout ratio and dividend yield",
+      "source": "Dominic Diongson",
+      "imageUrl": null,
+      "publishedDate": "2026-07-10 19:21:56 +0000",
+      "createdAt": "2026-07-10T19:37:19.592Z",
+      "title": "Oracle Dividends",
+      "metaDescription": "Oracle dividend history",
+      "keywords": [
+        "Oracle",
+        "dividend",
+        "payout ratio",
+        "cloud computing",
+        "investing"
+      ],
+      "summary": "Oracle's expansion into cloud computing has driven sales, with the cloud business accounting for a significant portion of revenue, making it an attractive investment opportunity for Indian business owners. The company's dividend history and payout ratio are crucial for investors. Oracle's growth in cloud computing can be a lesson for Indian startups and enterprise decision-makers",
+      "content": "<h2>Introduction to Oracle's Dividend History</h2><p>Oracle has expanded its services from database software management to cloud computing, which has been its biggest contributor to sales. In its fiscal 2026 year, the tech giant posted net income of $17 billion on revenue of $67 billion, with its cloud business accounting for a significant portion of revenue.</p><h2>Dividend Payout Ratio and Yield</h2><p>The company's dividend payout ratio and yield are crucial for investors, as they indicate the company's ability to distribute profits to shareholders. Oracle's dividend history shows a consistent payout ratio, making it an attractive investment opportunity for Indian business owners and startup founders.</p><h2>Investment Opportunities for Indian Businesses</h2><p>Oracle's growth in cloud computing can be a lesson for Indian startups and enterprise decision-makers, as they look to expand their services and increase revenue. The Indian market is increasingly adopting cloud computing, and companies like Oracle can serve as a model for success.</p><h2>Key Takeaways</h2><ul><li>Oracle's cloud business accounts for a significant portion of revenue</li><li>The company's dividend payout ratio and yield are crucial for investors</li><li>Oracle's growth in cloud computing can be a lesson for Indian startups and enterprise decision-makers</li><li>Indian businesses can learn from Oracle's expansion into cloud computing</li><li>Investing in companies like Oracle can provide a steady income stream for Indian investors</li></ul>",
+      "category": "SaaS & Software",
+      "tags": [
+        "oracle",
+        "cloud",
+        "investing",
+        "dividend",
+        "software"
+      ],
+      "readTime": 3,
+      "slug": "oracle-dividends",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "58fe39d2702c",
+      "originalUrl": "https://www.reddit.com/r/science/comments/1usxh0k/new_study_advances_dry_mrna_vaccine_microneedle/",
+      "originalTitle": "New study advances dry mRNA vaccine microneedle patches that use hundreds of tiny tips to deliver vaccine into the skin as an alternative to traditional injections, a design that could help make future mRNA vaccines easier to store and distribute and reduce the need for cold-chain logistics.",
+      "source": "/u/mvea",
+      "imageUrl": null,
+      "publishedDate": "2026-07-10 19:23:08 +0000",
+      "createdAt": "2026-07-10T19:37:24.568Z",
+      "title": "Dry mRNA Vaccine",
+      "metaDescription": "mRNA vaccine innovation",
+      "keywords": [
+        "mRNA vaccine",
+        "vaccine distribution",
+        "microneedle patches",
+        "cold-chain logistics",
+        "vaccine storage"
+      ],
+      "summary": "A new study has made significant progress in developing dry mRNA vaccine microneedle patches, which could revolutionize vaccine distribution in India by reducing the need for cold-chain logistics. This innovation has the potential to make future mRNA vaccines easier to store and transport, particularly in rural areas. Indian healthcare providers and pharmaceutical companies may benefit from this technology.",
+      "content": "<h2>Introduction to Dry mRNA Vaccine Microneedle Patches</h2><p>A recent study has advanced the development of dry mRNA vaccine microneedle patches, which use hundreds of tiny tips to deliver vaccines into the skin. This design has the potential to make future mRNA vaccines easier to store and distribute, reducing the need for cold-chain logistics. The microneedle patches are a promising alternative to traditional injections, offering a more convenient and pain-free experience for patients.</p><h2>Benefits of Microneedle Patches</h2><p>The use of microneedle patches can simplify vaccine distribution, particularly in areas with limited access to healthcare facilities and refrigeration. The patches can be easily stored at room temperature, reducing the need for cold-chain logistics and making them ideal for use in rural areas. Additionally, the patches can be self-administered, reducing the need for trained healthcare professionals.</p><h2>Implications for India</h2><p>The development of dry mRNA vaccine microneedle patches has significant implications for India, where vaccine distribution can be challenging due to the country's vast geography and limited healthcare infrastructure. Indian pharmaceutical companies and healthcare providers may benefit from this technology, which can help improve vaccine access and coverage across the country.</p>",
+      "category": "Business Tools",
+      "tags": [
+        "health",
+        "tech",
+        "vaccine",
+        "innovation",
+        "logistics"
+      ],
+      "readTime": 3,
+      "slug": "dry-mrna-vaccine",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "6a784a311079",
       "originalUrl": "https://www.thestreet.com/investing/bernstein-revamps-gold-price-target-on-fed-rate-shift",
       "originalTitle": "Bernstein revamps gold price target on Fed-rate shift",
@@ -6533,75 +6599,9 @@
       "status": "published",
       "featured": false,
       "sitemapAdded": false
-    },
-    {
-      "id": "57613b2cd10b",
-      "originalUrl": "https://www.bloomberg.com/news/articles/2026-06-15/kalshi-builds-ai-agent-to-stress-test-prediction-market-bets",
-      "originalTitle": "Kalshi Builds AI Agent to Stress-Test Prediction Market Bets",
-      "source": "www.bloomberg.com",
-      "imageUrl": null,
-      "publishedDate": "2026-06-15 12:00:31 +0000",
-      "createdAt": "2026-06-15T12:22:32.589Z",
-      "title": "AI Agent for Markets",
-      "metaDescription": "AI agent for market bets",
-      "keywords": [
-        "AI",
-        "prediction markets",
-        "machine learning",
-        "market analysis",
-        "automation"
-      ],
-      "summary": "Kalshi Inc. has developed an AI agent to stress-test prediction market bets, which can be a useful tool for Indian businesses looking to analyze market trends. This technology can help Indian companies make more informed decisions. The use of AI in market analysis is becoming increasingly prevalent in the Indian market.",
-      "content": "<h2>Introduction to AI-Powered Market Analysis</h2><p>Kalshi Inc. has developed its own AI agent to help deal with internal processes, including the wording of its prediction market contracts. This AI agent can be used to stress-test prediction market bets, allowing companies to make more informed decisions. The use of AI in market analysis is becoming increasingly important for businesses in India, as it can help them stay ahead of the competition.</p><h2>Benefits of AI-Powered Market Analysis</h2><p>The AI agent developed by Kalshi Inc. can be used to analyze large amounts of data, identify trends, and make predictions about future market movements. This can be particularly useful for Indian businesses looking to expand their operations or launch new products. Some of the key benefits of AI-powered market analysis include: <ul><li>Improved accuracy</li><li>Increased efficiency</li><li>Enhanced decision-making</li><li>Better risk management</li><li>Increased competitiveness</li></ul></p>",
-      "category": "AI & Automation",
-      "tags": [
-        "ai",
-        "markets",
-        "business",
-        "india",
-        "tech"
-      ],
-      "readTime": 3,
-      "slug": "ai-agent-for-markets",
-      "status": "published",
-      "featured": false,
-      "sitemapAdded": false
-    },
-    {
-      "id": "4753b7c7887e",
-      "originalUrl": "https://news.alphastreet.com/crowdstrike-is-building-a-security-platform-story-bigger-than-endpoint-growth/",
-      "originalTitle": "CrowdStrike Is Building a Security Platform Story Bigger Than Endpoint Growth",
-      "source": "Newsdesk",
-      "imageUrl": "https://cdn.news.alphastreet.com/wp-content/uploads/2026/05/29110548/market-news-1536x864-5-1024x576.jpg",
-      "publishedDate": "2026-06-15 11:53:44 +0000",
-      "createdAt": "2026-06-15T12:22:37.401Z",
-      "title": "CrowdStrike Expands",
-      "metaDescription": "CrowdStrike builds security platform",
-      "keywords": [
-        "CrowdStrike",
-        "security platform",
-        "endpoint security",
-        "cybersecurity",
-        "cloud security"
-      ],
-      "summary": "CrowdStrike is expanding its security platform beyond endpoint security, offering a comprehensive solution for businesses. This move is relevant to the Indian market as companies increasingly adopt cloud-based services. Indian business owners can benefit from CrowdStrike's advanced security features.",
-      "content": "<h2>CrowdStrike's Growing Security Platform</h2><p>CrowdStrike is still widely recognized as a leader in endpoint security, but the company's economics are shifting towards a more comprehensive security platform. The latest reported developments indicate that CrowdStrike is building a security platform story that goes beyond endpoint growth. This expansion is driven by the increasing demand for cloud-based security solutions.</p><p>In the Indian market, companies are rapidly adopting cloud-based services, making security a top priority. CrowdStrike's advanced security features, including threat intelligence and incident response, can help Indian businesses protect themselves from cyber threats. The company's security platform is designed to provide real-time protection and detection, giving businesses the ability to respond quickly to security incidents.</p><h2>Key Features of CrowdStrike's Security Platform</h2><p>The CrowdStrike security platform offers a range of features, including:</p><ul><li>Cloud-based security solutions</li><li>Threat intelligence and incident response</li><li>Real-time protection and detection</li><li>Advanced analytics and reporting</li><li>Integration with existing security systems</li></ul><p>These features make CrowdStrike's security platform an attractive solution for Indian businesses looking to enhance their security posture.</p>",
-      "category": "SaaS & Software",
-      "tags": [
-        "cloud",
-        "security",
-        "platform",
-        "solutions",
-        "cyber"
-      ],
-      "readTime": 3,
-      "slug": "crowdstrike-expands",
-      "status": "published",
-      "featured": false,
-      "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-07-10T14:33:36.519Z",
+  "lastUpdated": "2026-07-10T19:37:24.568Z",
   "totalCount": 200,
   "schema": "2.0"
 }
