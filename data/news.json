@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "2817035607a0",
+      "originalUrl": "https://www.investing.com/news/economy-news/investors-to-grapple-with-packed-week-of-earnings-cpi-iran-headlines-4787349",
+      "originalTitle": "Investors to grapple with packed week of earnings, CPI, Iran headlines By Reuters",
+      "source": "www.investing.com",
+      "imageUrl": "https://i-invdn-com.investing.com/news/https://i-invdn-com.investing.com/trkd-images/LYNXMPEM690H0_L.jpg",
+      "publishedDate": "2026-07-12 13:00:27 +0000",
+      "createdAt": "2026-07-12T13:26:24.879Z",
+      "title": "Market Update",
+      "metaDescription": "investors face busy week",
+      "keywords": [
+        "investors",
+        "earnings",
+        "CPI",
+        "market trends",
+        "economic indicators"
+      ],
+      "summary": "Indian business owners and investors will be closely watching the market this week as a packed schedule of earnings reports and economic data releases may impact the Indian market. The Reserve Bank of India's monetary policy decisions will also be influenced by these global trends. This week's events may bring volatility to the Indian stock market.",
+      "content": "<h2>Global Market Trends</h2><p>Investors in India and around the world are bracing for a busy week of earnings reports, economic data releases, and geopolitical headlines that may impact the market. The upcoming week will see a slew of major companies announcing their quarterly earnings, which will provide valuable insights into the health of the global economy.</p><h2>Economic Indicators</h2><p>The Consumer Price Index (CPI) data will also be closely watched, as it will provide clues about the inflationary trend and its potential impact on the Indian economy. Additionally, the ongoing tensions with Iran may lead to fluctuations in the global oil market, affecting India's trade balance and economic growth.</p><h2>Key Events to Watch</h2><p>Some of the key events that Indian investors should watch out for include:<ul><li>Quarterly earnings reports from major companies</li><li>CPI data releases</li><li>Geopolitical developments in Iran</li><li>Monetary policy decisions by the Reserve Bank of India</li><li>Global market trends and their impact on the Indian stock market</li></ul></p>",
+      "category": "Business Tools",
+      "tags": [
+        "market",
+        "investors",
+        "economy",
+        "trends",
+        "india"
+      ],
+      "readTime": 3,
+      "slug": "market-update-3",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "630b81f5a7ec",
+      "originalUrl": "https://flipboard.com/@engadget/is-microsoft-teams-tracking-you-rivvnqkot2uv5pvk",
+      "originalTitle": "Is Microsoft Teams Tracking You?",
+      "source": "flipboard.com",
+      "imageUrl": "https://ic-cdn.flipboard.com/flipboard.com/c520054f22d5157d07731fc59ef79c8ac035cdec/_medium.jpeg",
+      "publishedDate": "2026-07-12 13:00:06 +0000",
+      "createdAt": "2026-07-12T13:26:29.777Z",
+      "title": "Microsoft Teams Tracking",
+      "metaDescription": "Microsoft Teams tracking feature",
+      "keywords": [
+        "Microsoft Teams",
+        "Workplace Check-in",
+        "Employee Tracking",
+        "Productivity Tools",
+        "Data Privacy"
+      ],
+      "summary": "Microsoft Teams has introduced a new Workplace Check-in feature, raising concerns about employee data privacy in the Indian market. This feature allows for automatic updates of an employee's work location using Wi-Fi or desk peripheral connections. Indian business owners must consider the implications of this feature on their workforce.",
+      "content": "<h2>Introduction to Microsoft Teams Tracking</h2><p>Microsoft's new Workplace Check-in feature for Teams has officially rolled out, making it possible to automatically update an employee's work location using Wi-Fi or desk peripheral connections. This feature may be off by default, requiring admin enablement and employee consent, but the concept of 'voluntary' opt-in has raised concerns about employee data privacy.</p><h2>Implications for Indian Businesses</h2><p>Indian business owners and startup founders must consider the implications of this feature on their workforce. With the increasing use of productivity tools in the Indian market, it is essential to strike a balance between employee monitoring and data privacy. The feature may be useful for tracking employee productivity, but it also raises questions about the potential misuse of employee data.</p><h2>Key Considerations</h2><p>Some key considerations for Indian businesses include:<ul><li>Ensuring compliance with Indian data protection regulations</li><li>Obtaining employee consent before enabling the feature</li><li>Implementing measures to prevent the misuse of employee data</li><li>Providing transparency about the use of the feature</li><li>Regularly reviewing and updating data protection policies</li></ul></p>",
+      "category": "SaaS & Software",
+      "tags": [
+        "microsoft",
+        "teams",
+        "tracking",
+        "privacy",
+        "productivity"
+      ],
+      "readTime": 3,
+      "slug": "microsoft-teams-tracking",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "f681865c0581",
       "originalUrl": "https://www.investing.com/news/stock-market-news/is-ai-making-markets-more-or-less-efficient-4787332",
       "originalTitle": "Is AI making markets more or less efficient? By Investing.com",
@@ -6533,75 +6599,9 @@
       "status": "published",
       "featured": false,
       "sitemapAdded": false
-    },
-    {
-      "id": "ec154c8827d5",
-      "originalUrl": "https://economictimes.indiatimes.com/markets/forex/forex-news/rupee-closes-flat-at-94-52-vs-usd-as-oil-led-rally-faces-off-against-dollar-demand-fed-verdict-looms/articleshow/131796362.cms",
-      "originalTitle": "Rupee closes flat at 94.52 vs USD as oil-led rally faces off against dollar demand; Fed verdict looms",
-      "source": "SECTIONS Rupee closes flat; Fed verdict looms Reuters",
-      "imageUrl": "https://img.etimg.com/thumb/msid-131796362,width-1200,height-630,imgsize-33218,overlay-etmarkets/articleshow.jpg",
-      "publishedDate": "2026-06-17 10:43:49 +0000",
-      "createdAt": "2026-06-17T11:02:52.917Z",
-      "title": "Rupee Flat",
-      "metaDescription": "Rupee closes flat vs USD",
-      "keywords": [
-        "rupee",
-        "usd",
-        "oil prices",
-        "federal reserve",
-        "forex"
-      ],
-      "summary": "The Indian rupee closed almost flat against the US dollar due to increased corporate and importer demand for dollars. A significant drop in oil prices had initially boosted the rupee. The market is now focused on the US Federal Reserve's policy decision.",
-      "content": "<h2>Rupee Closes Flat Against USD</h2><p>The Indian rupee closed almost flat against the US dollar on Wednesday, with earlier gains erased as corporate and importer demand for dollars increased. A significant drop in oil prices had initially boosted the rupee, but the rally was short-lived.</p><p>Market focus now shifts to the US Federal Reserve's policy decision, which is expected to have an impact on the Indian market. The Reserve Bank of India (RBI) has been closely monitoring the situation, and any changes in the US Federal Reserve's policy could affect the rupee's value.</p><h2>Key Factors Affecting the Rupee</h2><p>The following factors are expected to affect the rupee's value in the coming days:</p><ul><li>Oil prices: Any further drop in oil prices could boost the rupee.</li><li>US Federal Reserve's policy decision: The decision is expected to have a significant impact on the Indian market.</li><li>Corporate and importer demand for dollars: Increased demand for dollars could weaken the rupee.</li><li>SEBI's regulations: The Securities and Exchange Board of India (SEBI) has been taking steps to regulate the forex market, which could affect the rupee's value.</li><li>Global market trends: Any changes in global market trends could also affect the rupee's value.</ul>",
-      "category": "Business Tools",
-      "tags": [
-        "rupee",
-        "usd",
-        "forex",
-        "market",
-        "economy"
-      ],
-      "readTime": 3,
-      "slug": "rupee-flat",
-      "status": "published",
-      "featured": false,
-      "sitemapAdded": false
-    },
-    {
-      "id": "01888564bf0b",
-      "originalUrl": "https://www.techradar.com/pro/why-most-ai-projects-dont-deliver-roi-and-how-to-fix-it",
-      "originalTitle": "Why most AI projects don’t deliver ROI and how to fix it",
-      "source": "Ciaran Cosgrave",
-      "imageUrl": "https://cdn.mos.cms.futurecdn.net/PAztEScphfxGJfYno5NjrL-2560-80.jpg",
-      "publishedDate": "2026-06-17 10:25:53 +0000",
-      "createdAt": "2026-06-17T11:02:58.089Z",
-      "title": "AI Projects ROI",
-      "metaDescription": "AI projects ROI in India",
-      "keywords": [
-        "AI",
-        "ROI",
-        "India",
-        "Automation",
-        "Technology"
-      ],
-      "summary": "Most AI projects in India fail to deliver return on investment due to half-hearted approaches, but with a strategic mindset, businesses can unlock the true potential of AI and achieve significant ROI. Indian companies can learn from global best practices to implement AI effectively. By doing so, they can stay competitive in the Indian market and improve their bottom line.",
-      "content": "<h2>Introduction to AI ROI in India</h2><p>Many Indian businesses have embarked on AI projects, but a significant number of them fail to deliver the expected return on investment (ROI). According to various studies, the primary reason for this is the half-hearted approach taken by companies. To achieve significant ROI from AI projects, Indian businesses need to adopt a strategic mindset and invest in the right technology and talent.</p><h2>Common Mistakes in AI Implementation</h2><p>Some of the common mistakes made by Indian companies when implementing AI include inadequate data quality, insufficient training data, and lack of clear goals. To overcome these challenges, businesses need to focus on building a strong data foundation, developing a clear understanding of their goals, and investing in the right talent and technology.</p><h2>Best Practices for AI Implementation</h2><p>To achieve significant ROI from AI projects, Indian businesses can follow best practices such as starting small, focusing on high-impact areas, and continuously monitoring and evaluating their AI systems. By doing so, they can unlock the true potential of AI and stay competitive in the Indian market.</p><ul><li>Start small and scale up gradually</li><li>Focus on high-impact areas such as customer service and supply chain management</li><li>Continuously monitor and evaluate AI systems</li><li>Invest in the right talent and technology</li><li>Develop a clear understanding of goals and objectives</li></ul>",
-      "category": "AI & Automation",
-      "tags": [
-        "ai",
-        "tech",
-        "india",
-        "business",
-        "roi"
-      ],
-      "readTime": 3,
-      "slug": "ai-projects-roi",
-      "status": "published",
-      "featured": false,
-      "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-07-12T08:22:07.703Z",
+  "lastUpdated": "2026-07-12T13:26:29.777Z",
   "totalCount": 200,
   "schema": "2.0"
 }
