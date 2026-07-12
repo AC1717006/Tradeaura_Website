@@ -119,6 +119,11 @@
         class="cat-btn px-4 py-2 rounded-full text-sm font-medium border border-brandBlue/40 bg-brandBlue/10 text-brandBlue transition-all">
         All Topics
       </button>
+      <button onclick="filterCat('AI &amp; Automation')" data-cat="AI &amp; Automation"
+          class="cat-btn px-4 py-2 rounded-full text-sm font-medium border border-glassBorder text-gray-400 hover:text-white hover:border-white/20 transition-all"
+          data-color="#3B82F6">
+          <i class="fas fa-robot text-xs mr-1.5"></i>AI &amp; Automation
+        </button>
       <button onclick="filterCat('Business Tools')" data-cat="Business Tools"
           class="cat-btn px-4 py-2 rounded-full text-sm font-medium border border-glassBorder text-gray-400 hover:text-white hover:border-white/20 transition-all"
           data-color="#F97316">
@@ -128,11 +133,6 @@
           class="cat-btn px-4 py-2 rounded-full text-sm font-medium border border-glassBorder text-gray-400 hover:text-white hover:border-white/20 transition-all"
           data-color="#6366F1">
           <i class="fas fa-rocket text-xs mr-1.5"></i>Digital Transformation
-        </button>
-      <button onclick="filterCat('AI &amp; Automation')" data-cat="AI &amp; Automation"
-          class="cat-btn px-4 py-2 rounded-full text-sm font-medium border border-glassBorder text-gray-400 hover:text-white hover:border-white/20 transition-all"
-          data-color="#3B82F6">
-          <i class="fas fa-robot text-xs mr-1.5"></i>AI &amp; Automation
         </button>
       <button onclick="filterCat('Technology')" data-cat="Technology"
           class="cat-btn px-4 py-2 rounded-full text-sm font-medium border border-glassBorder text-gray-400 hover:text-white hover:border-white/20 transition-all"
@@ -171,12 +171,12 @@
       <i class="fas fa-star text-brandBlue mr-2"></i>Featured Article
     </h2>
     
-<a href="energy-shift.html" class="group block glass-card border border-glassBorder rounded-2xl overflow-hidden hover:border-brandBlue/40 transition-all duration-300 hover:shadow-[0_0_40px_rgba(59,130,246,0.15)]" data-aos="fade-up">
+<a href="ai-market-efficiency.html" class="group block glass-card border border-glassBorder rounded-2xl overflow-hidden hover:border-brandBlue/40 transition-all duration-300 hover:shadow-[0_0_40px_rgba(59,130,246,0.15)]" data-aos="fade-up">
   <div class="grid md:grid-cols-2">
     <div class="relative h-64 md:h-auto overflow-hidden img-wrap">
-      <img src="https://i-invdn-com.investing.com/news/https://content-media.investing.com/news/LYNXNPEC1O0P5_L.jpg" alt="" loading="lazy" class="w-full h-full object-cover" onerror="this.parentElement.classList.add('img-fallback');this.remove()">
+      <img src="https://i-invdn-com.investing.com/news/https://content-media.investing.com/news/ArtificialIntelligenceAI_800x533_L_1758714606.jpg" alt="" loading="lazy" class="w-full h-full object-cover" onerror="this.parentElement.classList.add('img-fallback');this.remove()">
       <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
-      <div class="absolute top-4 left-4"><span class="cat-badge" style="background:rgba(249,115,22,0.15);border:1px solid rgba(249,115,22,0.3);color:#F97316"><i class="fas fa-briefcase"></i>Business Tools</span></div>
+      <div class="absolute top-4 left-4"><span class="cat-badge" style="background:rgba(59,130,246,0.15);border:1px solid rgba(59,130,246,0.3);color:#3B82F6"><i class="fas fa-robot"></i>AI &amp; Automation</span></div>
       
     </div>
     <div class="p-8 flex flex-col justify-between">
@@ -186,12 +186,12 @@
           <span>Simon Mugo</span><span>·</span>
           <span><i class="fas fa-clock mr-1"></i>3 min read</span>
         </div>
-        <h2 class="font-heading font-bold text-2xl text-white mb-3 group-hover:text-brandBlue transition-colors leading-snug">Energy Shift</h2>
-        <p class="text-gray-400 text-sm leading-relaxed line-clamp-4">The completion of Bangladesh&#39;s first nuclear plant marks a significant shift in energy production for emerging markets, with potential implications for India&#39;s own energy landscape. As India continues to grow and develop, it must consider its own energy needs and how to balance them with environmental concerns. This shift towards alternative energy sources may create new opportunities for Indian businesses and entrepreneurs.</p>
+        <h2 class="font-heading font-bold text-2xl text-white mb-3 group-hover:text-brandBlue transition-colors leading-snug">AI Market Efficiency</h2>
+        <p class="text-gray-400 text-sm leading-relaxed line-clamp-4">The increasing use of Artificial Intelligence in Indian financial markets raises questions about its impact on market efficiency, with potential implications for investors and regulators. As AI-driven trading systems become more prevalent, Indian business owners and investors must consider the potential benefits and drawbacks. The Reserve Bank of India and SEBI may need to reassess their regulatory frameworks to accommodate the growing role of AI in financial markets.</p>
       </div>
       <div class="mt-6 flex items-center gap-4">
-        <span class="px-2 py-0.5 rounded text-[10px] font-medium bg-white/5 text-gray-500 border border-glassBorder">energy</span><span class="px-2 py-0.5 rounded text-[10px] font-medium bg-white/5 text-gray-500 border border-glassBorder">nuclear</span>
-        <span class="ml-auto inline-flex items-center gap-1.5 text-sm font-semibold" style="color:#F97316">
+        <span class="px-2 py-0.5 rounded text-[10px] font-medium bg-white/5 text-gray-500 border border-glassBorder">AI</span><span class="px-2 py-0.5 rounded text-[10px] font-medium bg-white/5 text-gray-500 border border-glassBorder">market efficiency</span>
+        <span class="ml-auto inline-flex items-center gap-1.5 text-sm font-semibold" style="color:#3B82F6">
           Read Full Article <i class="fas fa-arrow-right text-xs group-hover:translate-x-1 transition-transform"></i>
         </span>
       </div>
@@ -211,6 +211,48 @@
       <span id="countBadge" class="text-xs text-gray-500">200 articles</span>
     </div>
     <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6" id="grid">
+      <div data-cat="AI &amp; Automation">
+<a href="ai-market-efficiency.html" class="group block glass-card border border-glassBorder rounded-2xl overflow-hidden hover:border-brandBlue/40 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_0_30px_rgba(59,130,246,0.1)]" data-aos="fade-up">
+  <div class="relative h-44 overflow-hidden img-wrap">
+    <img src="https://i-invdn-com.investing.com/news/https://content-media.investing.com/news/ArtificialIntelligenceAI_800x533_L_1758714606.jpg" alt="" loading="lazy" class="w-full h-full object-cover" onerror="this.parentElement.classList.add('img-fallback');this.remove()">
+    <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+    <div class="absolute top-3 left-3"><span class="cat-badge" style="background:rgba(59,130,246,0.15);border:1px solid rgba(59,130,246,0.3);color:#3B82F6"><i class="fas fa-robot"></i>AI &amp; Automation</span></div>
+    
+  </div>
+  <div class="p-5">
+    <div class="flex items-center gap-2 text-[10px] text-gray-600 mb-2">
+      <span>12 July 2026</span><span>·</span>
+      <span>Simon Mugo</span><span>·</span>
+      <span>3 min</span>
+    </div>
+    <h3 class="font-heading font-bold text-sm text-white mb-2 group-hover:text-brandBlue transition-colors leading-snug line-clamp-2">AI Market Efficiency</h3>
+    <p class="text-gray-500 text-xs leading-relaxed line-clamp-2 mb-3">The increasing use of Artificial Intelligence in Indian financial markets raises questions about its impact on market efficiency, with potential implications for investors and regulators. As AI-driven trading systems become more prevalent, Indian business owners and investors must consider the potential benefits and drawbacks. The Reserve Bank of India and SEBI may need to reassess their regulatory frameworks to accommodate the growing role of AI in financial markets.</p>
+    <span class="inline-flex items-center gap-1.5 text-xs font-semibold" style="color:#3B82F6">
+      Read More <i class="fas fa-arrow-right text-[9px] group-hover:translate-x-0.5 transition-transform"></i>
+    </span>
+  </div>
+</a></div>
+      <div data-cat="AI &amp; Automation">
+<a href="ai-transformers.html" class="group block glass-card border border-glassBorder rounded-2xl overflow-hidden hover:border-brandBlue/40 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_0_30px_rgba(59,130,246,0.1)]" data-aos="fade-up">
+  <div class="relative h-44 overflow-hidden img-wrap">
+    <div class="img-fallback w-full h-full" style="--cat-bg:rgba(59,130,246,0.15)"><i class="fas fa-robot" style="color:#3B82F6"></i></div>
+    <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+    <div class="absolute top-3 left-3"><span class="cat-badge" style="background:rgba(59,130,246,0.15);border:1px solid rgba(59,130,246,0.3);color:#3B82F6"><i class="fas fa-robot"></i>AI &amp; Automation</span></div>
+    
+  </div>
+  <div class="p-5">
+    <div class="flex items-center gap-2 text-[10px] text-gray-600 mb-2">
+      <span>12 July 2026</span><span>·</span>
+      <span>BrightmindAI</span><span>·</span>
+      <span>3 min</span>
+    </div>
+    <h3 class="font-heading font-bold text-sm text-white mb-2 group-hover:text-brandBlue transition-colors leading-snug line-clamp-2">AI Transformers</h3>
+    <p class="text-gray-500 text-xs leading-relaxed line-clamp-2 mb-3">Indian businesses can leverage AI transformer models to improve customer service and automate tasks, with applications in chatbots and language translation. The transformer model is a key component of many AI systems, including those used in India. By understanding how transformers work, Indian business owners can make informed decisions about AI adoption.</p>
+    <span class="inline-flex items-center gap-1.5 text-xs font-semibold" style="color:#3B82F6">
+      Read More <i class="fas fa-arrow-right text-[9px] group-hover:translate-x-0.5 transition-transform"></i>
+    </span>
+  </div>
+</a></div>
       <div data-cat="Business Tools">
 <a href="energy-shift.html" class="group block glass-card border border-glassBorder rounded-2xl overflow-hidden hover:border-brandBlue/40 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_0_30px_rgba(59,130,246,0.1)]" data-aos="fade-up">
   <div class="relative h-44 overflow-hidden img-wrap">
@@ -4364,48 +4406,6 @@
     </div>
     <h3 class="font-heading font-bold text-sm text-white mb-2 group-hover:text-brandBlue transition-colors leading-snug line-clamp-2">AI Projects ROI</h3>
     <p class="text-gray-500 text-xs leading-relaxed line-clamp-2 mb-3">Most AI projects in India fail to deliver return on investment due to half-hearted approaches, but with a strategic mindset, businesses can unlock the true potential of AI and achieve significant ROI. Indian companies can learn from global best practices to implement AI effectively. By doing so, they can stay competitive in the Indian market and improve their bottom line.</p>
-    <span class="inline-flex items-center gap-1.5 text-xs font-semibold" style="color:#3B82F6">
-      Read More <i class="fas fa-arrow-right text-[9px] group-hover:translate-x-0.5 transition-transform"></i>
-    </span>
-  </div>
-</a></div>
-      <div data-cat="Digital Transformation">
-<a href="retail-future.html" class="group block glass-card border border-glassBorder rounded-2xl overflow-hidden hover:border-brandBlue/40 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_0_30px_rgba(59,130,246,0.1)]" data-aos="fade-up">
-  <div class="relative h-44 overflow-hidden img-wrap">
-    <img src="https://www.fool.com.au/wp-content/uploads/2020/08/Motley-Fool-AMP-SD-Logo.png" alt="" loading="lazy" class="w-full h-full object-cover" onerror="this.parentElement.classList.add('img-fallback');this.remove()">
-    <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
-    <div class="absolute top-3 left-3"><span class="cat-badge" style="background:rgba(99,102,241,0.15);border:1px solid rgba(99,102,241,0.3);color:#6366F1"><i class="fas fa-rocket"></i>Digital Transformation</span></div>
-    
-  </div>
-  <div class="p-5">
-    <div class="flex items-center gap-2 text-[10px] text-gray-600 mb-2">
-      <span>17 June 2026</span><span>·</span>
-      <span>Www Facebook Com; Scottphillipsmoney; Scott Phillips</span><span>·</span>
-      <span>3 min</span>
-    </div>
-    <h3 class="font-heading font-bold text-sm text-white mb-2 group-hover:text-brandBlue transition-colors leading-snug line-clamp-2">Retail Future</h3>
-    <p class="text-gray-500 text-xs leading-relaxed line-clamp-2 mb-3">The future of retail has arrived, and many Indian businesses are not prepared to adapt to the changing landscape, with technology and automation being key drivers of this shift, as per recent trends in the Indian market. Indian business owners must be ready to evolve to stay competitive. The Reserve Bank of India&#39;s recent initiatives to promote digital payments will also play a crucial role in shaping the future of retail in India.</p>
-    <span class="inline-flex items-center gap-1.5 text-xs font-semibold" style="color:#6366F1">
-      Read More <i class="fas fa-arrow-right text-[9px] group-hover:translate-x-0.5 transition-transform"></i>
-    </span>
-  </div>
-</a></div>
-      <div data-cat="AI &amp; Automation">
-<a href="android-17.html" class="group block glass-card border border-glassBorder rounded-2xl overflow-hidden hover:border-brandBlue/40 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_0_30px_rgba(59,130,246,0.1)]" data-aos="fade-up">
-  <div class="relative h-44 overflow-hidden img-wrap">
-    <img src="https://apicms.thestar.com.my/uploads/images/2026/06/17/3962521.jpg" alt="" loading="lazy" class="w-full h-full object-cover" onerror="this.parentElement.classList.add('img-fallback');this.remove()">
-    <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
-    <div class="absolute top-3 left-3"><span class="cat-badge" style="background:rgba(59,130,246,0.15);border:1px solid rgba(59,130,246,0.3);color:#3B82F6"><i class="fas fa-robot"></i>AI &amp; Automation</span></div>
-    
-  </div>
-  <div class="p-5">
-    <div class="flex items-center gap-2 text-[10px] text-gray-600 mb-2">
-      <span>17 June 2026</span><span>·</span>
-      <span>Chris Welch</span><span>·</span>
-      <span>3 min</span>
-    </div>
-    <h3 class="font-heading font-bold text-sm text-white mb-2 group-hover:text-brandBlue transition-colors leading-snug line-clamp-2">Android 17</h3>
-    <p class="text-gray-500 text-xs leading-relaxed line-clamp-2 mb-3">Google has begun rolling out Android 17, the latest major update to its popular mobile operating system, with significant AI features to be introduced in the coming months, which may impact the Indian mobile market. Indian business owners and startup founders can expect enhanced user experiences and potential new opportunities for innovation. The update is likely to influence the Indian market, given the widespread use of Android devices in the country.</p>
     <span class="inline-flex items-center gap-1.5 text-xs font-semibold" style="color:#3B82F6">
       Read More <i class="fas fa-arrow-right text-[9px] group-hover:translate-x-0.5 transition-transform"></i>
     </span>
