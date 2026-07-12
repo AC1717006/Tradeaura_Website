@@ -8,7 +8,7 @@
   </url>
   <url>
     <loc>https://www.auraautomation.site/news/index.html</loc>
-    <lastmod>2026-07-11</lastmod>
+    <lastmod>2026-07-12</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
@@ -40,6 +40,16 @@
     <loc>https://www.auraautomation.site/pages/join.html</loc>
     <lastmod>2026-05-01</lastmod>
     <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.auraautomation.site/news/energy-shift.html</loc>
+    <lastmod>2026-07-12</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.auraautomation.site/news/smartwatches-india.html</loc>
+    <lastmod>2026-07-12</lastmod>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.auraautomation.site/news/ai-shift.html</loc>
@@ -1029,16 +1039,6 @@
   <url>
     <loc>https://www.auraautomation.site/news/android-17.html</loc>
     <lastmod>2026-06-17</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.auraautomation.site/news/openai-growth.html</loc>
-    <lastmod>2026-06-16</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.auraautomation.site/news/google-exposes-hackers.html</loc>
-    <lastmod>2026-06-16</lastmod>
     <priority>0.7</priority>
   </url>
 </urlset>
