@@ -8,7 +8,7 @@
   </url>
   <url>
     <loc>https://www.auraautomation.site/news/index.html</loc>
-    <lastmod>2026-07-13</lastmod>
+    <lastmod>2026-07-14</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
@@ -40,6 +40,16 @@
     <loc>https://www.auraautomation.site/pages/join.html</loc>
     <lastmod>2026-05-01</lastmod>
     <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.auraautomation.site/news/ipo-update.html</loc>
+    <lastmod>2026-07-14</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.auraautomation.site/news/ai-companion-app.html</loc>
+    <lastmod>2026-07-14</lastmod>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.auraautomation.site/news/ai-stocks.html</loc>
@@ -1029,16 +1039,6 @@
   <url>
     <loc>https://www.auraautomation.site/news/home-services.html</loc>
     <lastmod>2026-06-19</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.auraautomation.site/news/ai-robots.html</loc>
-    <lastmod>2026-06-18</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.auraautomation.site/news/nothings-review-program.html</loc>
-    <lastmod>2026-06-18</lastmod>
     <priority>0.7</priority>
   </url>
 </urlset>
