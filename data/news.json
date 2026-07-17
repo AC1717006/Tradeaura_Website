@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "46767ccd2b68",
+      "originalUrl": "https://www.reddit.com/r/ValueInvesting/comments/1uz8c0c/stock_research_app_my_cofounder_and_i_built/",
+      "originalTitle": "Stock research app my cofounder and I built. Prebuilt screens, custom screens, and a daily market rundown you can read in a minute",
+      "source": "/u/TheiaFintech",
+      "imageUrl": null,
+      "publishedDate": "2026-07-17 18:41:20 +0000",
+      "createdAt": "2026-07-17T19:15:01.408Z",
+      "title": "Stock Research App",
+      "metaDescription": "Stock research app for Indian market",
+      "keywords": [
+        "stock research",
+        "market analysis",
+        "investment tools",
+        "financial apps",
+        "Indian market"
+      ],
+      "summary": "Indian business owners and startup founders can utilize a newly developed stock research app to make informed investment decisions, with features such as prebuilt screens and daily market rundowns. The app is free, ad-free, and currently available on iOS. This tool can help Indian investors navigate the complex Indian market.",
+      "content": "<h2>Introduction to Stock Research App</h2><p>A new stock research app, developed by two engineers, is now available for Indian investors. The app, called Theia, offers a range of features including prebuilt screens, custom screens, and a daily market rundown that can be read in just a minute. The app is free, with no ads, and is currently available on iOS.</p><h2>Key Features</h2><p>The app's main features include prebuilt screens, custom screens, and a daily market rundown. These features allow users to quickly and easily access the information they need to make informed investment decisions. The app is designed to be user-friendly, with a simple and intuitive interface.</p><h2>Benefits for Indian Investors</h2><p>For Indian investors, the app provides a valuable tool for navigating the complex Indian market. With its range of features and user-friendly interface, the app can help investors make informed decisions and stay up-to-date with the latest market developments. Whether you are a seasoned investor or just starting out, the app is a valuable resource that can help you achieve your investment goals.</p>",
+      "category": "Business Tools",
+      "tags": [
+        "investing",
+        "finance",
+        "apps",
+        "india",
+        "market"
+      ],
+      "readTime": 3,
+      "slug": "stock-research-app",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "c6f1313e1ff1",
+      "originalUrl": "https://vulners.com/thn/THN:499E4165BDE84DD309BE3F86E6ABF268",
+      "originalTitle": "Seven Malicious Vite npm Packages Use Blockchain C2 to Deliver a RAT",
+      "source": "vulners.com",
+      "imageUrl": null,
+      "publishedDate": "2026-07-17 18:54:00 +0000",
+      "createdAt": "2026-07-17T19:15:06.632Z",
+      "title": "Vite npm Packages",
+      "metaDescription": "Malicious Vite npm packages",
+      "keywords": [
+        "npm packages",
+        "Vite",
+        "cybersecurity",
+        "software supply chain",
+        "malware"
+      ],
+      "summary": "Indian businesses using Vite frontend tooling ecosystem are at risk due to seven malicious npm packages discovered by cybersecurity researchers. These packages use blockchain C2 to deliver a Remote Access Trojan (RAT). Indian companies must ensure the security of their software supply chain to prevent such attacks.",
+      "content": "<h2>Malicious npm Packages Target Vite Ecosystem</h2><p>Cybersecurity researchers have discovered a cluster of seven malicious npm packages targeting the Vite frontend tooling ecosystem as part of a software supply chain attack. The malicious package campaign, codenamed ViteVenom by Checkmarx, marks an expansion of ChainVeil, which was observed using an innovative approach to command and control (C2) communication.</p><p>The malicious packages use blockchain-based C2 to deliver a RAT, allowing attackers to gain remote access to compromised systems. This attack highlights the importance of ensuring the security and integrity of the software supply chain, particularly for Indian businesses that rely on the Vite ecosystem.</p><h2>Impact on Indian Businesses</h2><p>Indian companies using the Vite ecosystem must take immediate action to protect themselves from these malicious packages. This includes verifying the authenticity of npm packages, monitoring for suspicious activity, and implementing robust security measures to prevent malware infections.</p><p>To mitigate the risk of such attacks, Indian businesses can take the following steps: <ul><li>Regularly update and patch their systems and software</li><li>Implement a robust security framework to detect and respond to threats</li><li>Conduct thorough security audits of their software supply chain</li><li>Provide cybersecurity awareness training to their employees</li><li>Engage with cybersecurity experts to stay informed about emerging threats</li></ul></p>",
+      "category": "MarTech",
+      "tags": [
+        "vite",
+        "npm",
+        "security",
+        "malware",
+        "cybersecurity"
+      ],
+      "readTime": 3,
+      "slug": "vite-npm-packages",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "497d77e567f8",
       "originalUrl": "https://www.investing.com/news/company-news/tuya-stock-hits-52week-low-at-172-usd-93CH-4798554",
       "originalTitle": "Tuya stock hits 52-week low at 1.72 USD By Investing.com",
@@ -6533,75 +6599,9 @@
       "status": "published",
       "featured": false,
       "sitemapAdded": false
-    },
-    {
-      "id": "985e41d200fb",
-      "originalUrl": "https://seekingalpha.com/news/4605830-pagerduty-names-eric-prengel-as-cfo-to-lead-finance-and-drive-ai-led-growth?feed_item_type=news",
-      "originalTitle": "PagerDuty names Eric Prengel as CFO to lead finance and drive AI-led growth",
-      "source": "seekingalpha.com",
-      "imageUrl": null,
-      "publishedDate": "2026-06-22 20:26:47 +0000",
-      "createdAt": "2026-06-22T20:52:27.000Z",
-      "title": "PagerDuty CFO",
-      "metaDescription": "PagerDuty CFO Eric Prengel",
-      "keywords": [
-        "PagerDuty",
-        "CFO",
-        "AI",
-        "Growth",
-        "Finance"
-      ],
-      "summary": "PagerDuty has appointed Eric Prengel as its new CFO to lead finance and drive AI-led growth. This move is expected to enhance the company's financial management and accelerate its expansion in the global market, including India. Indian businesses can draw inspiration from PagerDuty's strategic decision to leverage AI for growth.",
-      "content": "<h2>PagerDuty Appoints New CFO</h2><p>PagerDuty, a leading digital operations management platform, has named Eric Prengel as its new Chief Financial Officer (CFO). Prengel will be responsible for leading the company's finance function and driving AI-led growth. With his extensive experience in financial management and strategy, Prengel is expected to play a crucial role in shaping PagerDuty's financial future.</p><h2>Indian Business Context</h2><p>Indian businesses can learn from PagerDuty's decision to invest in AI-led growth. As the Indian market continues to evolve, companies that adopt AI and digital technologies are likely to gain a competitive edge. The appointment of a new CFO with a focus on AI-led growth is a strategic move that can help PagerDuty expand its presence in the Indian market.</p><h2>Key Takeaways</h2><p>The appointment of Eric Prengel as CFO is a significant development for PagerDuty. Some key takeaways from this move include:</p><ul><li>PagerDuty's focus on AI-led growth is expected to drive innovation and expansion in the company.</li><li>The appointment of a new CFO with experience in financial management and strategy is likely to enhance the company's financial performance.</li><li>Indian businesses can draw inspiration from PagerDuty's strategic decision to leverage AI for growth.</li><li>The Indian market is expected to play a significant role in PagerDuty's expansion plans.</li><li>Companies that adopt AI and digital technologies are likely to gain a competitive edge in the Indian market.</li></ul>",
-      "category": "AI & Automation",
-      "tags": [
-        "ai",
-        "growth",
-        "finance",
-        "cfo",
-        "pagerduty"
-      ],
-      "readTime": 3,
-      "slug": "pagerduty-cfo",
-      "status": "published",
-      "featured": false,
-      "sitemapAdded": false
-    },
-    {
-      "id": "7d68d4cbed37",
-      "originalUrl": "https://techcrunch.com/2026/06/22/microsoft-and-chevron-plan-one-of-the-largest-gas-powered-data-center-projects-in-us/",
-      "originalTitle": "Microsoft and Chevron plan one of the largest gas-powered data center projects in US | TechCrunch",
-      "source": "Tim De Chant",
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2021/02/GettyImages-1303397476.jpg?resize=1200,796",
-      "publishedDate": "2026-06-22 20:37:19 +0000",
-      "createdAt": "2026-06-22T20:52:32.133Z",
-      "title": "Microsoft Chevron Deal",
-      "metaDescription": "Microsoft Chevron data center",
-      "keywords": [
-        "data center",
-        "sustainability",
-        "cloud computing",
-        "energy management",
-        "digital infrastructure"
-      ],
-      "summary": "Microsoft has partnered with Chevron to power its new data center with natural gas, a move that may have implications for Indian businesses looking to invest in sustainable digital infrastructure. This deal highlights the importance of energy management in cloud computing. Indian companies can learn from this example to develop their own sustainable data center strategies.",
-      "content": "<h2>Introduction to Sustainable Data Centers</h2><p>Microsoft has recently signed a 20-year power purchase agreement with Chevron, marking one of the largest gas-powered data center projects in the US. This deal has sparked interest in the Indian business community, as companies look to invest in sustainable digital infrastructure. The partnership aims to provide a reliable source of power for Microsoft's data centers, which will be fueled by a new natural gas power plant.</p><h2>Implications for Indian Businesses</h2><p>As Indian companies expand their digital presence, they must consider the environmental impact of their operations. The Microsoft-Chevron deal serves as a reminder of the importance of energy management in cloud computing. Indian businesses can learn from this example to develop their own sustainable data center strategies, exploring alternatives such as renewable energy sources and energy-efficient technologies.</p><h2>Key Considerations</h2><p>When developing sustainable data center strategies, Indian businesses should consider the following factors: <ul><li>Energy efficiency</li><li>Renewable energy sources</li><li>Carbon footprint reduction</li><li>Scalability and reliability</li><li>Cost-effectiveness</li></ul> By prioritizing sustainability, Indian companies can reduce their environmental impact, improve their brand reputation, and contribute to a more environmentally friendly digital ecosystem.</p>",
-      "category": "Digital Transformation",
-      "tags": [
-        "data",
-        "energy",
-        "cloud",
-        "sustainability",
-        "infrastructure"
-      ],
-      "readTime": 3,
-      "slug": "microsoft-chevron-deal",
-      "status": "published",
-      "featured": false,
-      "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-07-17T13:44:48.889Z",
+  "lastUpdated": "2026-07-17T19:15:06.633Z",
   "totalCount": 200,
   "schema": "2.0"
 }
