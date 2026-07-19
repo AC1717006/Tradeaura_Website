@@ -119,6 +119,11 @@
         class="cat-btn px-4 py-2 rounded-full text-sm font-medium border border-brandBlue/40 bg-brandBlue/10 text-brandBlue transition-all">
         All Topics
       </button>
+      <button onclick="filterCat('AI &amp; Automation')" data-cat="AI &amp; Automation"
+          class="cat-btn px-4 py-2 rounded-full text-sm font-medium border border-glassBorder text-gray-400 hover:text-white hover:border-white/20 transition-all"
+          data-color="#3B82F6">
+          <i class="fas fa-robot text-xs mr-1.5"></i>AI &amp; Automation
+        </button>
       <button onclick="filterCat('Business Tools')" data-cat="Business Tools"
           class="cat-btn px-4 py-2 rounded-full text-sm font-medium border border-glassBorder text-gray-400 hover:text-white hover:border-white/20 transition-all"
           data-color="#F97316">
@@ -133,11 +138,6 @@
           class="cat-btn px-4 py-2 rounded-full text-sm font-medium border border-glassBorder text-gray-400 hover:text-white hover:border-white/20 transition-all"
           data-color="#3B82F6">
           <i class="fas fa-newspaper text-xs mr-1.5"></i>Finance &amp; Markets
-        </button>
-      <button onclick="filterCat('AI &amp; Automation')" data-cat="AI &amp; Automation"
-          class="cat-btn px-4 py-2 rounded-full text-sm font-medium border border-glassBorder text-gray-400 hover:text-white hover:border-white/20 transition-all"
-          data-color="#3B82F6">
-          <i class="fas fa-robot text-xs mr-1.5"></i>AI &amp; Automation
         </button>
       <button onclick="filterCat('MarTech')" data-cat="MarTech"
           class="cat-btn px-4 py-2 rounded-full text-sm font-medium border border-glassBorder text-gray-400 hover:text-white hover:border-white/20 transition-all"
@@ -176,27 +176,27 @@
       <i class="fas fa-star text-brandBlue mr-2"></i>Featured Article
     </h2>
     
-<a href="adani-case.html" class="group block glass-card border border-glassBorder rounded-2xl overflow-hidden hover:border-brandBlue/40 transition-all duration-300 hover:shadow-[0_0_40px_rgba(59,130,246,0.15)]" data-aos="fade-up">
+<a href="ai-trade.html" class="group block glass-card border border-glassBorder rounded-2xl overflow-hidden hover:border-brandBlue/40 transition-all duration-300 hover:shadow-[0_0_40px_rgba(59,130,246,0.15)]" data-aos="fade-up">
   <div class="grid md:grid-cols-2">
     <div class="relative h-64 md:h-auto overflow-hidden img-wrap">
-      <img src="https://bsmedia.business-standard.com/_media/bs/img/article/2026-06/24/thumb/fitandfill/1200X628/1782286267-2074.JPG" alt="" loading="lazy" class="w-full h-full object-cover" onerror="this.parentElement.classList.add('img-fallback');this.remove()">
+      <img src="https://i-invdn-com.investing.com/news/moved_LYNXNPEI2D0PS_L.jpg" alt="" loading="lazy" class="w-full h-full object-cover" onerror="this.parentElement.classList.add('img-fallback');this.remove()">
       <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
-      <div class="absolute top-4 left-4"><span class="cat-badge" style="background:rgba(249,115,22,0.15);border:1px solid rgba(249,115,22,0.3);color:#F97316"><i class="fas fa-briefcase"></i>Business Tools</span></div>
+      <div class="absolute top-4 left-4"><span class="cat-badge" style="background:rgba(59,130,246,0.15);border:1px solid rgba(59,130,246,0.3);color:#3B82F6"><i class="fas fa-robot"></i>AI &amp; Automation</span></div>
       
     </div>
     <div class="p-8 flex flex-col justify-between">
       <div>
         <div class="flex items-center gap-3 text-xs text-gray-500 mb-3">
           <span>19 July 2026</span><span>·</span>
-          <span>Business Standard; Press Trust</span><span>·</span>
+          <span>www.investing.com</span><span>·</span>
           <span><i class="fas fa-clock mr-1"></i>3 min read</span>
         </div>
-        <h2 class="font-heading font-bold text-2xl text-white mb-3 group-hover:text-brandBlue transition-colors leading-snug">Adani Case</h2>
-        <p class="text-gray-400 text-sm leading-relaxed line-clamp-4">Gautam Adani&#39;s legal team successfully navigated a US prosecution, providing a unique insight into corporate law. This development may have implications for Indian businesses operating globally. The case highlights the importance of robust legal representation in international markets.</p>
+        <h2 class="font-heading font-bold text-2xl text-white mb-3 group-hover:text-brandBlue transition-colors leading-snug">AI Trade</h2>
+        <p class="text-gray-400 text-sm leading-relaxed line-clamp-4">As US earnings season gains momentum, Indian business owners are keenly watching the results of tech giants like Alphabet and Intel, which are expected to have a significant impact on the AI trade. The Indian market is also likely to be influenced by these results, given the growing importance of AI in the country&#39;s business landscape. Indian startups and enterprises are taking note of these developments to inform their own AI strategies.</p>
       </div>
       <div class="mt-6 flex items-center gap-4">
-        <span class="px-2 py-0.5 rounded text-[10px] font-medium bg-white/5 text-gray-500 border border-glassBorder">Gautam Adani</span><span class="px-2 py-0.5 rounded text-[10px] font-medium bg-white/5 text-gray-500 border border-glassBorder">US prosecution</span>
-        <span class="ml-auto inline-flex items-center gap-1.5 text-sm font-semibold" style="color:#F97316">
+        <span class="px-2 py-0.5 rounded text-[10px] font-medium bg-white/5 text-gray-500 border border-glassBorder">AI trade</span><span class="px-2 py-0.5 rounded text-[10px] font-medium bg-white/5 text-gray-500 border border-glassBorder">Alphabet</span>
+        <span class="ml-auto inline-flex items-center gap-1.5 text-sm font-semibold" style="color:#3B82F6">
           Read Full Article <i class="fas fa-arrow-right text-xs group-hover:translate-x-1 transition-transform"></i>
         </span>
       </div>
@@ -216,6 +216,48 @@
       <span id="countBadge" class="text-xs text-gray-500">200 articles</span>
     </div>
     <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6" id="grid">
+      <div data-cat="AI &amp; Automation">
+<a href="ai-trade.html" class="group block glass-card border border-glassBorder rounded-2xl overflow-hidden hover:border-brandBlue/40 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_0_30px_rgba(59,130,246,0.1)]" data-aos="fade-up">
+  <div class="relative h-44 overflow-hidden img-wrap">
+    <img src="https://i-invdn-com.investing.com/news/moved_LYNXNPEI2D0PS_L.jpg" alt="" loading="lazy" class="w-full h-full object-cover" onerror="this.parentElement.classList.add('img-fallback');this.remove()">
+    <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+    <div class="absolute top-3 left-3"><span class="cat-badge" style="background:rgba(59,130,246,0.15);border:1px solid rgba(59,130,246,0.3);color:#3B82F6"><i class="fas fa-robot"></i>AI &amp; Automation</span></div>
+    
+  </div>
+  <div class="p-5">
+    <div class="flex items-center gap-2 text-[10px] text-gray-600 mb-2">
+      <span>19 July 2026</span><span>·</span>
+      <span>www.investing.com</span><span>·</span>
+      <span>3 min</span>
+    </div>
+    <h3 class="font-heading font-bold text-sm text-white mb-2 group-hover:text-brandBlue transition-colors leading-snug line-clamp-2">AI Trade</h3>
+    <p class="text-gray-500 text-xs leading-relaxed line-clamp-2 mb-3">As US earnings season gains momentum, Indian business owners are keenly watching the results of tech giants like Alphabet and Intel, which are expected to have a significant impact on the AI trade. The Indian market is also likely to be influenced by these results, given the growing importance of AI in the country&#39;s business landscape. Indian startups and enterprises are taking note of these developments to inform their own AI strategies.</p>
+    <span class="inline-flex items-center gap-1.5 text-xs font-semibold" style="color:#3B82F6">
+      Read More <i class="fas fa-arrow-right text-[9px] group-hover:translate-x-0.5 transition-transform"></i>
+    </span>
+  </div>
+</a></div>
+      <div data-cat="AI &amp; Automation">
+<a href="brain-robot-control.html" class="group block glass-card border border-glassBorder rounded-2xl overflow-hidden hover:border-brandBlue/40 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_0_30px_rgba(59,130,246,0.1)]" data-aos="fade-up">
+  <div class="relative h-44 overflow-hidden img-wrap">
+    <img src="https://cms.interestingengineering.com/wp-content/uploads/2026/07/BrainCo.jpg" alt="" loading="lazy" class="w-full h-full object-cover" onerror="this.parentElement.classList.add('img-fallback');this.remove()">
+    <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+    <div class="absolute top-3 left-3"><span class="cat-badge" style="background:rgba(59,130,246,0.15);border:1px solid rgba(59,130,246,0.3);color:#3B82F6"><i class="fas fa-robot"></i>AI &amp; Automation</span></div>
+    
+  </div>
+  <div class="p-5">
+    <div class="flex items-center gap-2 text-[10px] text-gray-600 mb-2">
+      <span>19 July 2026</span><span>·</span>
+      <span>Rupendra Brahambhatt</span><span>·</span>
+      <span>3 min</span>
+    </div>
+    <h3 class="font-heading font-bold text-sm text-white mb-2 group-hover:text-brandBlue transition-colors leading-snug line-clamp-2">Brain Robot Control</h3>
+    <p class="text-gray-500 text-xs leading-relaxed line-clamp-2 mb-3">A Chinese firm has developed a non-invasive headset that allows users to control robots with their thoughts, which could have significant implications for Indian businesses looking to adopt innovative technologies. This brain-computer interface technology has the potential to transform various industries in the Indian market. Indian companies may explore partnerships or investments in such cutting-edge technologies to stay competitive.</p>
+    <span class="inline-flex items-center gap-1.5 text-xs font-semibold" style="color:#3B82F6">
+      Read More <i class="fas fa-arrow-right text-[9px] group-hover:translate-x-0.5 transition-transform"></i>
+    </span>
+  </div>
+</a></div>
       <div data-cat="Business Tools">
 <a href="adani-case.html" class="group block glass-card border border-glassBorder rounded-2xl overflow-hidden hover:border-brandBlue/40 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_0_30px_rgba(59,130,246,0.1)]" data-aos="fade-up">
   <div class="relative h-44 overflow-hidden img-wrap">
@@ -4369,48 +4411,6 @@
     </div>
     <h3 class="font-heading font-bold text-sm text-white mb-2 group-hover:text-brandBlue transition-colors leading-snug line-clamp-2">AI Automation</h3>
     <p class="text-gray-500 text-xs leading-relaxed line-clamp-2 mb-3">Google&#39;s Gemini 3.5 Flash aims to revolutionize AI interaction, enabling digital coworkers to handle mundane software tasks, which can boost productivity for Indian businesses. This technology has the potential to transform how businesses operate in India. By automating repetitive tasks, Indian companies can focus on core activities.</p>
-    <span class="inline-flex items-center gap-1.5 text-xs font-semibold" style="color:#3B82F6">
-      Read More <i class="fas fa-arrow-right text-[9px] group-hover:translate-x-0.5 transition-transform"></i>
-    </span>
-  </div>
-</a></div>
-      <div data-cat="Finance &amp; Markets">
-<a href="moneyhero-loss.html" class="group block glass-card border border-glassBorder rounded-2xl overflow-hidden hover:border-brandBlue/40 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_0_30px_rgba(59,130,246,0.1)]" data-aos="fade-up">
-  <div class="relative h-44 overflow-hidden img-wrap">
-    <img src="https://cdn.news.alphastreet.com/wp-content/uploads/2026/06/24092419/MNY-earnings_flash-chart-1024x538.png" alt="" loading="lazy" class="w-full h-full object-cover" onerror="this.parentElement.classList.add('img-fallback');this.remove()">
-    <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
-    <div class="absolute top-3 left-3"><span class="cat-badge" style="background:rgba(59,130,246,0.15);border:1px solid rgba(59,130,246,0.3);color:#3B82F6"><i class="fas fa-newspaper"></i>Finance &amp; Markets</span></div>
-    
-  </div>
-  <div class="p-5">
-    <div class="flex items-center gap-2 text-[10px] text-gray-600 mb-2">
-      <span>24 June 2026</span><span>·</span>
-      <span>AlphaStreet Newsdesk</span><span>·</span>
-      <span>3 min</span>
-    </div>
-    <h3 class="font-heading font-bold text-sm text-white mb-2 group-hover:text-brandBlue transition-colors leading-snug line-clamp-2">MoneyHero Loss</h3>
-    <p class="text-gray-500 text-xs leading-relaxed line-clamp-2 mb-3">MoneyHero Limited reported a wider-than-expected Q1 2026 loss, which may impact investor confidence in the Indian market. The loss per share was $0.20, significantly higher than the expected $0.06. This news may be relevant to Indian business owners and investors who follow global market trends.</p>
-    <span class="inline-flex items-center gap-1.5 text-xs font-semibold" style="color:#3B82F6">
-      Read More <i class="fas fa-arrow-right text-[9px] group-hover:translate-x-0.5 transition-transform"></i>
-    </span>
-  </div>
-</a></div>
-      <div data-cat="AI &amp; Automation">
-<a href="ai-chip.html" class="group block glass-card border border-glassBorder rounded-2xl overflow-hidden hover:border-brandBlue/40 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_0_30px_rgba(59,130,246,0.1)]" data-aos="fade-up">
-  <div class="relative h-44 overflow-hidden img-wrap">
-    <div class="img-fallback w-full h-full" style="--cat-bg:rgba(59,130,246,0.15)"><i class="fas fa-robot" style="color:#3B82F6"></i></div>
-    <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
-    <div class="absolute top-3 left-3"><span class="cat-badge" style="background:rgba(59,130,246,0.15);border:1px solid rgba(59,130,246,0.3);color:#3B82F6"><i class="fas fa-robot"></i>AI &amp; Automation</span></div>
-    
-  </div>
-  <div class="p-5">
-    <div class="flex items-center gap-2 text-[10px] text-gray-600 mb-2">
-      <span>24 June 2026</span><span>·</span>
-      <span>www.bloomberg.com</span><span>·</span>
-      <span>3 min</span>
-    </div>
-    <h3 class="font-heading font-bold text-sm text-white mb-2 group-hover:text-brandBlue transition-colors leading-snug line-clamp-2">AI Chip</h3>
-    <p class="text-gray-500 text-xs leading-relaxed line-clamp-2 mb-3">OpenAI and Broadcom have developed an AI chip called Jalapeno, which can cut costs by 50%. This development may impact Indian businesses that rely on AI technology. Indian companies can explore adopting such AI chips to enhance their operations.</p>
     <span class="inline-flex items-center gap-1.5 text-xs font-semibold" style="color:#3B82F6">
       Read More <i class="fas fa-arrow-right text-[9px] group-hover:translate-x-0.5 transition-transform"></i>
     </span>
