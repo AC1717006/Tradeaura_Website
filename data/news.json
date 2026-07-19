@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "18312448447d",
+      "originalUrl": "https://seekingalpha.com/news/4615126-basic-income-will-be-needed-as-ai-takes-our-jobs-roubini?feed_item_type=news",
+      "originalTitle": "Basic income will be needed as AI takes our jobs - Roubini",
+      "source": "seekingalpha.com",
+      "imageUrl": null,
+      "publishedDate": "2026-07-19 17:44:53 +0000",
+      "createdAt": "2026-07-19T19:10:23.017Z",
+      "title": "AI Jobs Impact",
+      "metaDescription": "AI takes jobs, basic income needed",
+      "keywords": [
+        "Artificial Intelligence",
+        "Basic Income",
+        "Job Market",
+        "Automation",
+        "Economy"
+      ],
+      "summary": "As AI adoption increases, Indian businesses may need to consider the impact on job markets and the potential need for basic income guarantees. Economist Nouriel Roubini suggests that basic income will be necessary as AI takes over jobs. This could have significant implications for the Indian economy and business landscape.",
+      "content": "<h2>Impact of AI on Job Market</h2><p>According to economist Nouriel Roubini, the increasing adoption of Artificial Intelligence (AI) will lead to significant job losses, making basic income guarantees a necessity. As AI takes over routine and repetitive tasks, many jobs will become redundant, affecting various sectors of the economy.</p><p>In the Indian context, this could have far-reaching implications for businesses and the overall economy. With the Indian government's focus on digital transformation and the growing startup ecosystem, the impact of AI on jobs cannot be ignored. <h2>Way Forward</h2><p>Indian businesses and policymakers must consider the potential consequences of AI-driven job losses and explore strategies to mitigate them. This could include investing in education and re-skilling programs, as well as exploring alternative social safety nets, such as basic income guarantees.</p><p>Some key considerations for Indian businesses include: <ul><li>Investing in AI and automation technologies to stay competitive</li><li>Developing strategies to re-skill and up-skill workers</li><li>Exploring alternative social safety nets, such as basic income guarantees</li><li>Collaborating with policymakers to develop frameworks for AI adoption</li><li>Monitoring the impact of AI on the job market and adjusting business strategies accordingly</li></ul></p>",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "jobs",
+        "economy",
+        "business",
+        "india"
+      ],
+      "readTime": 3,
+      "slug": "ai-jobs-impact",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "11d8ceb46311",
+      "originalUrl": "https://vuldb.com/vuln/380497",
+      "originalTitle": "CVE-2026-63870 | Linux Kernel up to 7.0.12 6lowpan net/bluetooth/6lowpan.c lowpan_xmit uninitialized variable",
+      "source": "vuldb.com",
+      "imageUrl": null,
+      "publishedDate": "2026-07-19 18:59:47 +0000",
+      "createdAt": "2026-07-19T19:10:27.869Z",
+      "title": "Linux Kernel Vulnerability",
+      "metaDescription": "Linux kernel vulnerability CVE-2026-63870",
+      "keywords": [
+        "linux kernel",
+        "vulnerability",
+        "CVE-2026-63870",
+        "cybersecurity",
+        "technology"
+      ],
+      "summary": "A critical vulnerability has been discovered in the Linux Kernel, which can impact Indian businesses relying on Linux-based systems, highlighting the need for prompt patching and robust cybersecurity measures. The vulnerability, identified as CVE-2026-63870, affects the 6lowpan component and can result in the use of uninitialized variables. Indian companies must prioritize updating their systems to prevent potential cyber threats.",
+      "content": "<h2>Understanding the Vulnerability</h2><p>A recently discovered vulnerability in the Linux Kernel, classified as very critical, has been identified as CVE-2026-63870. The affected element is the function lowpan_xmit of the file net/bluetooth/6lowpan.c of the component 6lowpan. This vulnerability can result in the use of uninitialized variables, posing a significant risk to Indian businesses that rely on Linux-based systems.</p><h2>Impact on Indian Businesses</h2><p>Indian companies, especially those in the technology and software development sectors, may be impacted by this vulnerability. It is essential for these businesses to take immediate action to patch their systems and prevent potential cyber threats. The vulnerability can be exploited by attackers, leading to unauthorized access and data breaches.</p><h2>Recommendations</h2><p>To mitigate the risks associated with this vulnerability, Indian businesses should:</p><ul><li>Update their Linux Kernel to the latest version</li><li>Implement robust cybersecurity measures, including firewalls and intrusion detection systems</li><li>Conduct regular security audits to identify and address potential vulnerabilities</li><li>Ensure that all software and systems are up-to-date and patched</li><li>Provide cybersecurity awareness training to employees</li></ul>",
+      "category": "AI & Automation",
+      "tags": [
+        "linux",
+        "kernel",
+        "vulnerability",
+        "security",
+        "technology"
+      ],
+      "readTime": 3,
+      "slug": "linux-kernel-vulnerability",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "8c26f3ef777c",
       "originalUrl": "https://www.investing.com/news/stock-market-news/alphabet-intel-results-in-focus-for-ai-trade-as-us-earnings-rev-up-4799723",
       "originalTitle": "Alphabet, Intel results in focus for AI trade as US earnings rev up By Reuters",
@@ -6533,75 +6599,9 @@
       "status": "published",
       "featured": false,
       "sitemapAdded": false
-    },
-    {
-      "id": "7f6133c3b8e2",
-      "originalUrl": "https://cryptonews.com/news/microsoft-copilot-ai-predicts-incredible-solana-price-by-the-end-of-2026/",
-      "originalTitle": "Microsoft Copilot AI Predicts Solana Price by The End of 2026",
-      "source": "Ahmed Barakat",
-      "imageUrl": "https://cimg.co/wp-content/uploads/2026/06/24074731/1782287251-photo_2026-06-24_10-46-18.jpg",
-      "publishedDate": "2026-06-24 19:33:00 +0000",
-      "createdAt": "2026-06-24T19:50:37.651Z",
-      "title": "AI Price Prediction",
-      "metaDescription": "AI predicts Solana price",
-      "keywords": [
-        "Solana price",
-        "AI prediction",
-        "Microsoft Copilot",
-        "cryptocurrency",
-        "market trends"
-      ],
-      "summary": "Microsoft Copilot AI predicts Solana price to reach $250 to $400 by late 2026, which may impact the Indian cryptocurrency market. Indian business owners should be aware of the potential trends in the cryptocurrency space. This prediction is driven by the Alpenglow upgrade, which achieves 150ms finality.",
-      "content": "<h2>Introduction to AI Price Prediction</h2><p>Microsoft Copilot AI has made a prediction about the Solana price, which may be of interest to Indian business owners and startup founders. According to the prediction, Solana price is expected to challenge a $250 to $400 range by late 2026. This prediction is driven by the Alpenglow upgrade, which achieves 150ms finality.</p><h2>Impact on Indian Market</h2><p>The predicted price range may have an impact on the Indian cryptocurrency market. Indian business owners should be aware of the potential trends in the cryptocurrency space and consider the implications for their investments. The Alpenglow upgrade is expected to improve the performance of the Solana network, which may lead to increased adoption and higher prices.</p><h2>Key Factors</h2><p>The Microsoft Copilot AI prediction is based on various factors, including the Alpenglow upgrade and market trends. Some of the key factors that may influence the Solana price include:<ul><li>Adoption of the Solana network</li><li>Performance of the Alpenglow upgrade</li><li>Market trends and sentiment</li><li>Regulatory environment</li><li>Competition from other cryptocurrencies</li></ul></p>",
-      "category": "AI & Automation",
-      "tags": [
-        "ai",
-        "price",
-        "trends",
-        "crypto",
-        "market"
-      ],
-      "readTime": 3,
-      "slug": "ai-price-prediction",
-      "status": "published",
-      "featured": false,
-      "sitemapAdded": false
-    },
-    {
-      "id": "27df71965c85",
-      "originalUrl": "https://www.androidheadlines.com/2026/06/google-gemini-3-5-flash-computer-use-chrome-update.html",
-      "originalTitle": "Gemini 3.5 Flash Can Now Control Your Desktop to Handle Boring Software Tasks",
-      "source": "Jean Leon",
-      "imageUrl": "https://www.androidheadlines.com/wp-content/uploads/2026/06/Google-Gemini-3.5-logo-featured.webp",
-      "publishedDate": "2026-06-24 19:19:46 +0000",
-      "createdAt": "2026-06-24T19:50:42.470Z",
-      "title": "AI Automation",
-      "metaDescription": "AI automation for business",
-      "keywords": [
-        "AI",
-        "automation",
-        "Gemini",
-        "Google",
-        "productivity"
-      ],
-      "summary": "Google's Gemini 3.5 Flash aims to revolutionize AI interaction, enabling digital coworkers to handle mundane software tasks, which can boost productivity for Indian businesses. This technology has the potential to transform how businesses operate in India. By automating repetitive tasks, Indian companies can focus on core activities.",
-      "content": "<h2>Introduction to AI Automation</h2><p>Google has introduced Gemini 3.5 Flash, a technology that enables AI to control desktops and perform boring software tasks. This innovation can significantly impact Indian businesses by increasing efficiency and productivity. With Gemini 3.5 Flash, businesses in India can automate repetitive tasks, allowing them to focus on core activities.</p><h2>Benefits for Indian Businesses</h2><p>The benefits of AI automation for Indian businesses are numerous. Some of the advantages include:<ul><li>Increased productivity</li><li>Improved efficiency</li><li>Enhanced customer experience</li><li>Reduced costs</li><li>Competitive advantage</li></ul></p><p>By adopting AI automation, Indian companies can stay ahead of the competition and achieve their goals. As the Indian market continues to grow, businesses must leverage technology to remain competitive.</p>",
-      "category": "AI & Automation",
-      "tags": [
-        "ai",
-        "automation",
-        "google",
-        "gemini",
-        "productivity"
-      ],
-      "readTime": 3,
-      "slug": "ai-automation-2",
-      "status": "published",
-      "featured": false,
-      "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-07-19T13:23:13.508Z",
+  "lastUpdated": "2026-07-19T19:10:27.869Z",
   "totalCount": 200,
   "schema": "2.0"
 }
