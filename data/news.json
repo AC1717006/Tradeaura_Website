@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "f48613fb8f04",
+      "originalUrl": "https://www.investing.com/news/company-news/jk-cement-q1-fy27-slides-volume-surges-18-margins-face-pressure-93CH-4801190",
+      "originalTitle": "JK Cement Q1 FY27 slides: volume surges 18%, margins face pressure By Investing.com",
+      "source": "www.investing.com",
+      "imageUrl": "https://i-invdn-com.investing.com/redesign/images/seo/investing_300X300.png",
+      "publishedDate": "2026-07-20 13:46:41 +0000",
+      "createdAt": "2026-07-20T14:11:45.712Z",
+      "title": "Cement Q1",
+      "metaDescription": "cement industry news",
+      "keywords": [
+        "cement industry",
+        "JK Cement",
+        "Q1 results",
+        "Indian market",
+        "construction sector"
+      ],
+      "summary": "JK Cement's Q1 FY27 results show an 18% surge in volume, but margins face pressure. This development is significant for the Indian construction sector. The company's performance has implications for Indian business owners and investors.",
+      "content": "<h2>JK Cement Q1 FY27 Results</h2><p>JK Cement's Q1 FY27 results have been released, with the company reporting an 18% surge in volume. However, the company's margins face pressure due to various market factors. The Indian cement industry is a significant sector, with many players competing for market share.</p><p>The company's performance has implications for the Indian construction sector, which is a crucial part of the country's economy. The sector's growth is closely tied to the overall economic development of India. <h2>Key Highlights</h2><ul><li>18% surge in volume</li><li>Margins face pressure</li><li>Implications for the Indian construction sector</li><li>Significant for Indian business owners and investors</li><li>Market competition in the cement industry</li></ul>",
+      "category": "Business Tools",
+      "tags": [
+        "cement",
+        "industry",
+        "news",
+        "market",
+        "sector"
+      ],
+      "readTime": 3,
+      "slug": "cement-q1",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "7e7d650901d7",
+      "originalUrl": "https://www.infosecurity-magazine.com/news/jadepuffer-ai-model-ransomware/",
+      "originalTitle": "JadePuffer Returns With Ransomware Designed to Wipe AI Models",
+      "source": "Alessandro Mascellino",
+      "imageUrl": "https://assets.infosecurity-magazine.com/webpage/og/2982487c-aeaf-49d4-ba10-98b071254c11.jpg",
+      "publishedDate": "2026-07-20 14:05:00 +0000",
+      "createdAt": "2026-07-20T14:11:50.762Z",
+      "title": "AI Ransomware",
+      "metaDescription": "JadePuffer ransomware targets AI models",
+      "keywords": [
+        "JadePuffer",
+        "Ransomware",
+        "AI Models",
+        "Cybersecurity",
+        "Data Protection"
+      ],
+      "summary": "Indian businesses relying on AI models must be aware of the JadePuffer ransomware campaign, which targets and destroys AI model artifacts, posing a significant threat to their operations. The campaign uses the ENCFORGE locker to wipe out AI models, emphasizing the need for robust cybersecurity measures. As the Indian market increasingly adopts AI, businesses must prioritize data protection to mitigate such risks.",
+      "content": "<h2>JadePuffer Ransomware Campaign</h2><p>The JadePuffer ransomware campaign has been making headlines with its unique approach to targeting AI models. This campaign utilizes the ENCFORGE locker, which is specifically designed to destroy AI model artifacts, posing a significant threat to businesses that rely heavily on AI-powered operations.</p><p>In the Indian context, this campaign serves as a reminder of the importance of robust cybersecurity measures. As the country continues to adopt AI and machine learning technologies, businesses must prioritize data protection to mitigate the risks associated with such attacks.</p><h2>Key Takeaways</h2><p>The JadePuffer ransomware campaign highlights the need for Indian businesses to:</p><ul><li>Implement robust cybersecurity measures to protect AI models and data</li><li>Regularly update and patch software to prevent vulnerabilities</li><li>Develop incident response plans to address potential attacks</li><li>Invest in employee education and awareness programs to prevent phishing and other social engineering attacks</li><li>Consider investing in AI-specific security solutions to protect against targeted attacks</li></ul>",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "security",
+        "india",
+        "tech",
+        "business"
+      ],
+      "readTime": 3,
+      "slug": "ai-ransomware",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "51fc92e76357",
       "originalUrl": "https://seekingalpha.com/news/4614415-quant-snapshot-mxl-intc-lead-top-rated-names-as-amal-and-frme-lag?feed_item_type=news",
       "originalTitle": "Quant snapshot: MXL, INTC lead top-rated names as AMAL and FRME lag",
@@ -6533,75 +6599,9 @@
       "status": "published",
       "featured": false,
       "sitemapAdded": false
-    },
-    {
-      "id": "3fb1da5bb355",
-      "originalUrl": "https://www.channelnewsasia.com/world/us-fed-inflation-gauge-oil-prices-6210261",
-      "originalTitle": "US Fed's preferred inflation gauge hits fresh three-year high",
-      "source": "CNA",
-      "imageUrl": "https://dam.mediacorp.sg/image/upload/s--pcydwAmb--/c_fill,g_auto,h_676,w_1200/fl_relative,g_south_east,l_one-cms:core:watermark:ap_data-1,w_0.1/f_auto,q_auto/v1/one-cms/core/US_Gasoline_Prices_42649.jpg?itok=JzPPWIF0",
-      "publishedDate": "2026-06-25 14:13:55 +0000",
-      "createdAt": "2026-06-25T14:38:51.595Z",
-      "title": "Inflation Gauge",
-      "metaDescription": "US inflation gauge hits high",
-      "keywords": [
-        "inflation",
-        "economy",
-        "business",
-        "finance",
-        "market"
-      ],
-      "summary": "The US Federal Reserve's preferred inflation measure has hit a fresh three-year high, which may impact the Indian market due to global economic trends. This development could influence business decisions in India, particularly in sectors sensitive to international market fluctuations. Indian business owners should monitor these changes to adjust their strategies accordingly.",
-      "content": "<h2>Inflation Trends</h2><p>The US Federal Reserve's preferred inflation measure, the personal consumption expenditures (PCE) prices index, has reached a three-year high. This increase is largely attributed to elevated energy prices. The PCE index jumped 4.1% in May, posing a significant challenge to the US economy.</p><p>In the context of the Indian market, such global economic trends can have a ripple effect. As India's economy is increasingly integrated into the global market, businesses in India should be aware of these developments. The Reserve Bank of India (RBI) and the Securities and Exchange Board of India (SEBI) closely monitor international economic indicators to make informed decisions about the Indian economy.</p><h2>Implications for Indian Businesses</h2><p>Indian business owners, particularly those in sectors sensitive to international market fluctuations, should keep a close eye on these trends. This includes businesses involved in import and export, energy, and finance. Understanding the implications of global inflation trends can help Indian businesses make strategic decisions about investment, pricing, and expansion.</p><ul><li>Monitor global economic trends</li><li>Analyze the impact on the Indian market</li><li>Adjust business strategies accordingly</li><li>Stay informed about RBI and SEBI decisions</li><li>Diversify investments to mitigate risks</li></ul>",
-      "category": "Business Tools",
-      "tags": [
-        "economy",
-        "finance",
-        "market",
-        "business",
-        "trends"
-      ],
-      "readTime": 3,
-      "slug": "inflation-gauge",
-      "status": "published",
-      "featured": false,
-      "sitemapAdded": false
-    },
-    {
-      "id": "e5c5f7b0d7ad",
-      "originalUrl": "https://www.zdnet.com/education/computers-tech/geekom-a9-max-mini-pc-amazon-prime-day-2026/",
-      "originalTitle": "This Geekom mini PC is a good alternative to pricey tech, and it's $350 off",
-      "source": "Kyle Kucharski",
-      "imageUrl": "https://www.zdnet.com/a/img/resize/60321c2728b9d6a676e70bfc0e47f005b7f6babe/2025/09/24/7512e9c2-d190-436c-ad64-1d56eb24fba5/a9maxhero.jpg?auto=webp&fit=crop&height=675&width=1200",
-      "publishedDate": "2026-06-25 14:32:35 +0000",
-      "createdAt": "2026-06-25T14:38:57.073Z",
-      "title": "Mini PC Sale",
-      "metaDescription": "Mini PC on sale for business",
-      "keywords": [
-        "mini pc",
-        "business tech",
-        "indian market",
-        "computer sale",
-        "prime day"
-      ],
-      "summary": "Indian business owners can now access affordable mini PCs, a crucial tool for business operations, with the Geekom A9 Max on sale. This mini PC is a viable alternative to pricey tech, making it an attractive option for startups and enterprises alike. The sale is part of Amazon Prime Day, offering significant discounts on the device.",
-      "content": "<h2>Introduction to Mini PCs for Business</h2><p>For Indian businesses, investing in the right technology is crucial for efficient operations and competitiveness in the market. The Geekom A9 Max mini PC is a powerful device that packs a significant amount of computing power into a compact frame, making it an ideal choice for businesses looking to upgrade their tech without breaking the bank.</p><h2>Key Features and Benefits</h2><p>The Geekom A9 Max offers a range of features that make it an attractive option for businesses, including its compact size, high-performance capabilities, and affordability. With the device on sale for Amazon Prime Day, Indian business owners can now purchase the Geekom A9 Max at a significantly discounted price, making it an even more compelling choice for those looking to invest in new technology.</p><h2>Why Choose the Geekom A9 Max</h2><p>There are several reasons why the Geekom A9 Max stands out as a top choice for Indian businesses. Some of the key benefits include: <ul><li>Affordability: The device is priced competitively, making it an accessible option for startups and small businesses.</li><li>Performance: The Geekom A9 Max offers high-performance capabilities, ensuring that businesses can run their operations smoothly and efficiently.</li><li>Compact Design: The device's compact size makes it ideal for businesses with limited space, allowing for easy installation and deployment.</li><li>Energy Efficiency: The Geekom A9 Max is designed to be energy efficient, helping businesses reduce their energy consumption and lower their costs.</li><li>Scalability: The device is scalable, allowing businesses to easily upgrade and expand their operations as needed.</li></ul></p>",
-      "category": "Business Tools",
-      "tags": [
-        "tech",
-        "sale",
-        "prime",
-        "business",
-        "india"
-      ],
-      "readTime": 3,
-      "slug": "mini-pc-sale",
-      "status": "published",
-      "featured": false,
-      "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-07-20T09:20:01.667Z",
+  "lastUpdated": "2026-07-20T14:11:50.762Z",
   "totalCount": 200,
   "schema": "2.0"
 }
