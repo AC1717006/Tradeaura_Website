@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "d82d588d8fb6",
+      "originalUrl": "https://www.investing.com/news/company-news/bandhan-bank-q1fy27-slides-profit-rises-35-but-roa-outlook-cut-93CH-4803592",
+      "originalTitle": "Bandhan Bank Q1FY27 slides: profit rises 35% but ROA outlook cut By Investing.com",
+      "source": "www.investing.com",
+      "imageUrl": "https://i-invdn-com.investing.com/redesign/images/seo/investing_300X300.png",
+      "publishedDate": "2026-07-21 13:50:32 +0000",
+      "createdAt": "2026-07-21T13:58:32.952Z",
+      "title": "Bandhan Bank Q1",
+      "metaDescription": "Bandhan Bank Q1 profit rises",
+      "keywords": [
+        "Bandhan Bank",
+        "Q1FY27",
+        "profit",
+        "ROA",
+        "outlook"
+      ],
+      "summary": "Bandhan Bank's Q1FY27 results show a 35% rise in profit, but the bank has cut its return on assets outlook. This development may impact the Indian banking sector. Indian business owners should take note of these trends.",
+      "content": "<h2>Bandhan Bank's Q1FY27 Results</h2><p>Bandhan Bank has released its Q1FY27 results, showing a 35% rise in profit. However, the bank has cut its return on assets (ROA) outlook, which may have implications for the Indian banking sector.</p><p>The bank's profit rise is a positive sign for the Indian economy, but the cut in ROA outlook may indicate challenges ahead. Indian business owners and startup founders should monitor these developments closely.</p><h2>Key Takeaways</h2><ul><li>Bandhan Bank's Q1FY27 profit rises 35%</li><li>ROA outlook cut due to market conditions</li><li>Indian banking sector may be impacted</li><li>Business owners should monitor developments closely</li><li>Economic trends may affect business decisions</li></ul>",
+      "category": "Business Tools",
+      "tags": [
+        "banking",
+        "finance",
+        "india",
+        "business",
+        "economy"
+      ],
+      "readTime": 3,
+      "slug": "bandhan-bank-q1",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "3ae3fcb4457b",
+      "originalUrl": "https://interestingengineering.com/ai-robotics/bristol-myers-squibb-nvidia-ai-supercomputer",
+      "originalTitle": "US pharma firm ropes in Nvidia to build sector's largest supercomputer",
+      "source": "Ameya Paleja",
+      "imageUrl": "https://cms.interestingengineering.com/wp-content/uploads/2026/07/AI-S.jpg",
+      "publishedDate": "2026-07-21 13:40:28 +0000",
+      "createdAt": "2026-07-21T13:58:38.358Z",
+      "title": "AI Supercomputer",
+      "metaDescription": "Nvidia builds AI supercomputer",
+      "keywords": [
+        "AI",
+        "Supercomputer",
+        "Nvidia",
+        "Pharmaceutical",
+        "Technology"
+      ],
+      "summary": "US pharmaceutical giant Bristol Myers Squibb is teaming up with NVIDIA to build the sector's largest single-owned AI supercomputer, which may inspire similar initiatives in the Indian market. This collaboration can potentially accelerate the development of new medicines and transform the pharmaceutical industry. Indian business owners can take note of the growing importance of AI in the sector.",
+      "content": "<h2>Introduction to AI Supercomputer</h2><p>US pharmaceutical giant Bristol Myers Squibb is teaming up with NVIDIA to build the sector's largest single-owned AI supercomputer. This collaboration aims to accelerate the development of new medicines and transform the pharmaceutical industry. The AI supercomputer will enable Bristol Myers Squibb to analyze vast amounts of data, identify patterns, and make predictions, leading to breakthroughs in drug discovery and development.</p><h2>Impact on the Pharmaceutical Industry</h2><p>The use of AI in the pharmaceutical industry is becoming increasingly important, and this collaboration is a significant step forward. The AI supercomputer will help Bristol Myers Squibb to streamline its research and development process, reduce costs, and improve the accuracy of its predictions. This can potentially lead to the development of new and innovative treatments for various diseases.</p><h2>Key Features of the AI Supercomputer</h2><p>The AI supercomputer will be powered by NVIDIA's advanced graphics processing units (GPUs) and will have the capability to process vast amounts of data. The supercomputer will be used for various applications, including:</p><ul><li>Drug discovery and development</li><li>Genomic analysis</li><li>Personalized medicine</li><li>Clinical trial simulation</li><li>Regulatory compliance</li></ul><p>The collaboration between Bristol Myers Squibb and NVIDIA is a significant development in the pharmaceutical industry, and it may inspire similar initiatives in the Indian market. Indian pharmaceutical companies can take note of the growing importance of AI in the sector and consider investing in similar technologies to stay competitive.</p>",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "nvidia",
+        "pharma",
+        "tech",
+        "industry"
+      ],
+      "readTime": 3,
+      "slug": "ai-supercomputer",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "6ca2e5b10176",
       "originalUrl": "https://www.businesskorea.co.kr/news/articleView.html?idxno=273352",
       "originalTitle": "BlackRock Lifts Stakes in KAI and Ecopro Above 5%",
@@ -6533,75 +6599,9 @@
       "status": "published",
       "featured": false,
       "sitemapAdded": false
-    },
-    {
-      "id": "911a09f7f75a",
-      "originalUrl": "https://www.reddit.com/r/quant/comments/1ug7whq/the_worlds_first_neurosymbolic_worldmodel_for/",
-      "originalTitle": "The World's First Neuro-Symbolic World-Model for Stock-Market (Zero-Shot)",
-      "source": "/u/k_yuksel",
-      "imageUrl": null,
-      "publishedDate": "2026-06-26 14:08:58 +0000",
-      "createdAt": "2026-06-26T14:31:30.631Z",
-      "title": "Neuro-Symbolic Model",
-      "metaDescription": "Neuro-symbolic world-model for stock market",
-      "keywords": [
-        "neuro-symbolic",
-        "stock market",
-        "world model",
-        "artificial intelligence",
-        "finance"
-      ],
-      "summary": "A new neuro-symbolic world-model has been introduced for the stock market, leveraging artificial intelligence to make predictions. This technology can potentially aid Indian business owners in making informed investment decisions. The model's zero-shot capability allows it to make accurate predictions without prior training data.",
-      "content": "<h2>Introduction to Neuro-Symbolic World-Model</h2><p>The world's first neuro-symbolic world-model for the stock market has been developed, marking a significant milestone in the field of artificial intelligence and finance. This model combines the strengths of neural networks and symbolic reasoning to make predictions about the stock market.</p><h2>Key Features of the Model</h2><p>The neuro-symbolic world-model boasts a zero-shot capability, allowing it to make accurate predictions without requiring prior training data. This feature is particularly useful in the Indian market, where access to historical data may be limited.</p><p>The model's potential applications in the Indian business context are vast, including aiding investors in making informed decisions and helping companies to better navigate the stock market. As the Indian economy continues to grow, the demand for such innovative technologies is likely to increase.</p><h2>Implications for Indian Business Owners</h2><ul><li>Potential for more accurate stock market predictions</li><li>Ability to make informed investment decisions</li><li>Opportunity to stay ahead of the competition in the Indian market</li></ul>",
-      "category": "AI & Automation",
-      "tags": [
-        "finance",
-        "ai",
-        "market",
-        "tech",
-        "invest"
-      ],
-      "readTime": 3,
-      "slug": "neuro-symbolic-model",
-      "status": "published",
-      "featured": false,
-      "sitemapAdded": false
-    },
-    {
-      "id": "4759ba619fd9",
-      "originalUrl": "https://247wallst.com/investing/2026/06/26/big-techs-quiet-diversification-out-of-taiwan-is-the-ultimate-catalyst-for-intels-turnaround/",
-      "originalTitle": "Big Tech’s Quiet Diversification Out of Taiwan Is the Ultimate Catalyst for Intel’s Turnaround",
-      "source": "Alex Sirois",
-      "imageUrl": "https://247wallst.com/wp-content/uploads/2019/09/imageforentry4-ubk.jpg",
-      "publishedDate": "2026-06-26 14:06:20 +0000",
-      "createdAt": "2026-06-26T14:31:35.728Z",
-      "title": "Intel Turnaround",
-      "metaDescription": "Intel's turnaround catalyst",
-      "keywords": [
-        "Intel",
-        "Taiwan",
-        "Semiconductor",
-        "Artificial Intelligence",
-        "Technology"
-      ],
-      "summary": "Intel's turnaround is driven by big tech's diversification out of Taiwan, with the company positioning itself as a Western alternative for advanced chip manufacturing. This shift has significant implications for Indian businesses, particularly those invested in the technology sector. As India's technology industry continues to grow, the global dynamics of chip manufacturing will have a direct impact on the Indian market.",
-      "content": "<h2>Introduction</h2><p>Intel and Taiwan Semiconductor Manufacturing recently posted their Q1 2026 results, raising questions about the future of advanced chip manufacturing. As big tech companies diversify out of Taiwan, Intel is poised to benefit as a Western alternative. This shift has significant implications for Indian businesses, particularly those invested in the technology sector.</p><h2>Global Dynamics</h2><p>The global dynamics of chip manufacturing are complex, with Taiwan currently dominating the industry. However, as big tech companies begin to diversify, Intel is well-positioned to capitalize on this trend. With its strong brand and existing infrastructure, Intel can provide a reliable alternative for companies looking to reduce their dependence on Taiwanese manufacturers.</p><h2>Implications for India</h2><p>As India's technology industry continues to grow, the global dynamics of chip manufacturing will have a direct impact on the Indian market. Indian businesses will need to navigate this shifting landscape, considering the implications of big tech's diversification out of Taiwan. With the right strategies in place, Indian companies can capitalize on the opportunities presented by this trend, driving growth and innovation in the sector.</p><ul><li>Increased demand for Western-made chips</li><li>Growing importance of artificial intelligence in Indian industry</li><li>Need for Indian businesses to diversify their supply chains</li></ul>",
-      "category": "AI & Automation",
-      "tags": [
-        "tech",
-        "business",
-        "india",
-        "intel",
-        "taiwan"
-      ],
-      "readTime": 4,
-      "slug": "intel-turnaround",
-      "status": "published",
-      "featured": false,
-      "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-07-21T08:33:36.156Z",
+  "lastUpdated": "2026-07-21T13:58:38.358Z",
   "totalCount": 200,
   "schema": "2.0"
 }
