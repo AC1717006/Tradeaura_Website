@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "8ae746ee5d27",
+      "originalUrl": "https://www.thestreet.com/markets/ai-is-quietly-changing-how-portfolios-are-managed",
+      "originalTitle": "AI is quietly changing how portfolios are managed",
+      "source": "Hillary Remy",
+      "imageUrl": null,
+      "publishedDate": "2026-07-22 19:07:00 +0000",
+      "createdAt": "2026-07-22T19:25:16.295Z",
+      "title": "AI in Portfolio",
+      "metaDescription": "AI changing portfolio management",
+      "keywords": [
+        "AI",
+        "portfolio management",
+        "asset management",
+        "investment process",
+        "technology"
+      ],
+      "summary": "AI is transforming the Indian asset management landscape by streamlining portfolio management processes, enhancing investment decisions, and optimizing returns. Indian businesses can leverage AI to stay competitive in the market. The Reserve Bank of India's regulations and the Securities and Exchange Board of India's guidelines play a crucial role in shaping the AI adoption landscape.",
+      "content": "<h2>Introduction to AI in Portfolio Management</h2><p>Artificial intelligence is revolutionizing the way portfolios are managed in India. Walk into any Indian asset management firm that's been experimenting with AI and ask what the technology is actually doing in their investment process. The answer isn't usually what you'd expect. It's rarely about predicting tomorrow's big mover or finding the next multi-bagger before anyone else figures it out.</p><h2>Role of AI in Investment Process</h2><p>AI is being used to analyze vast amounts of data, identify patterns, and make predictions about market trends. This enables Indian asset management firms to make informed investment decisions, optimize their portfolios, and minimize risks. The use of AI in portfolio management is still in its nascent stages in India, but it has the potential to transform the way investments are made.</p><h2>Benefits of AI in Portfolio Management</h2><p>The benefits of using AI in portfolio management are numerous. Some of the key advantages include:<ul><li>Improved investment decisions</li><li>Enhanced risk management</li><li>Increased efficiency</li><li>Better portfolio optimization</li><li>Competitive advantage</li></ul></p>",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "finance",
+        "invest",
+        "market",
+        "tech"
+      ],
+      "readTime": 3,
+      "slug": "ai-in-portfolio",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "2f1ac184718d",
+      "originalUrl": "https://phys.org/news/2026-07-physics-based-ai-boost-biomedical.html",
+      "originalTitle": "Physics-based AI could boost biomedical imaging and autonomous vehicle sensors",
+      "source": "phys.org",
+      "imageUrl": null,
+      "publishedDate": "2026-07-22 19:00:08 +0000",
+      "createdAt": "2026-07-22T19:25:20.990Z",
+      "title": "AI Imaging",
+      "metaDescription": "AI for biomedical imaging",
+      "keywords": [
+        "ai",
+        "imaging",
+        "biomedical",
+        "autonomous",
+        "sensors"
+      ],
+      "summary": "A new physics-based AI system can enhance biomedical imaging and autonomous vehicle sensors, potentially benefiting Indian healthcare and automotive industries. This technology can improve diagnostic accuracy and vehicle safety. Indian businesses can leverage this innovation to drive growth",
+      "content": "<h2>Introduction to Physics-based AI</h2><p>A research team led by UCLA and the University of Rochester has demonstrated a promising evolution of an imaging system designed to capture details within complex media. The system uses physics-based AI to improve image quality, which can be applied to biomedical imaging and autonomous vehicle sensors.</p><h2>Applications in India</h2><p>In the Indian context, this technology can be used to improve diagnostic accuracy in healthcare, leading to better patient outcomes. Additionally, it can enhance vehicle safety in the automotive industry, reducing accidents and improving overall road safety. Indian businesses can leverage this innovation to drive growth and stay competitive in the global market.</p><h2>Key Benefits</h2><ul><li>Improved diagnostic accuracy in biomedical imaging</li><li>Enhanced vehicle safety in autonomous vehicles</li><li>Potential applications in other industries, such as robotics and surveillance</li><li>Opportunities for Indian businesses to drive growth and innovation</li><li>Contribution to the development of cutting-edge technologies in India</li></ul>",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "tech",
+        "health",
+        "auto",
+        "innovation"
+      ],
+      "readTime": 3,
+      "slug": "ai-imaging",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "a1681d7a1b18",
       "originalUrl": "https://seekingalpha.com/news/4616589-openai-plans-to-spend-over-30b-on-32-gw-georgia-data-center?feed_item_type=news",
       "originalTitle": "OpenAI plans to spend over $30B on 3.2 GW Georgia data center: report",
@@ -6533,75 +6599,9 @@
       "status": "published",
       "featured": false,
       "sitemapAdded": false
-    },
-    {
-      "id": "d5f44b178aa0",
-      "originalUrl": "https://www.reddit.com/r/options/comments/1uha9fq/i_used_chatgpt_and_codex_to_build_and_backtest/",
-      "originalTitle": "I used ChatGPT and Codex to build and backtest SPY + QQQ 0DTE trading bots",
-      "source": "/u/saffystaffie",
-      "imageUrl": null,
-      "publishedDate": "2026-06-27 18:34:45 +0000",
-      "createdAt": "2026-06-27T19:25:11.858Z",
-      "title": "AI Trading Bots",
-      "metaDescription": "AI trading bots in India",
-      "keywords": [
-        "AI trading",
-        "ChatGPT",
-        "Codex",
-        "automated trading",
-        "Python"
-      ],
-      "summary": "Indian business owners can leverage AI trading bots to automate their trading strategies, using tools like ChatGPT and Codex to develop and refine their approaches. This can help them navigate the Indian market more efficiently. By adopting AI-powered trading solutions, Indian enterprises can stay competitive in the global market.",
-      "content": "<h2>Introduction to AI Trading Bots</h2><p>Artificial intelligence (AI) has been transforming the trading landscape in recent years, enabling businesses to automate their trading strategies and make data-driven decisions. In India, the use of AI trading bots can help businesses navigate the complex and dynamic Indian market. One such example is the use of ChatGPT and Codex to build and backtest SPY + QQQ 0DTE trading bots.</p><h2>Building AI Trading Bots</h2><p>To build an AI trading bot, one can use ChatGPT to develop and refine their trading strategy, and then use Codex to build the automated bot in Python. The bot can be launched, configured, and managed through PowerShell, and can connect to a broker's platform, such as Interactive Brokers' Trader Workstation (TWS), to receive market data and execute trades.</p><h2>Benefits of AI Trading Bots</h2><p>The use of AI trading bots can provide several benefits to Indian businesses, including increased efficiency, reduced risk, and improved profitability. By automating their trading strategies, businesses can reduce the risk of human error and make more informed decisions. Additionally, AI trading bots can analyze large amounts of data and make predictions based on that data, enabling businesses to stay ahead of the competition.</p><ul><li>Increased efficiency</li><li>Reduced risk</li><li>Improved profitability</li><li>Automated decision-making</li><li>Data-driven insights</li></ul>",
-      "category": "AI & Automation",
-      "tags": [
-        "ai",
-        "trading",
-        "bots",
-        "python",
-        "codex"
-      ],
-      "readTime": 4,
-      "slug": "ai-trading-bots",
-      "status": "published",
-      "featured": false,
-      "sitemapAdded": false
-    },
-    {
-      "id": "299a59cd3d90",
-      "originalUrl": "https://www.theverge.com/ai-artificial-intelligence/958715/margaret-atwood-ai-problem-garbage-in-garbage-out",
-      "originalTitle": "Margaret Atwood says the problem with AI is ‘garbage in, garbage out’",
-      "source": "Terrence O'Brien",
-      "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/gettyimages-2258417618.jpg?quality=90&strip=all&crop=0%2C10.752607989199%2C100%2C78.494784021602&w=1200",
-      "publishedDate": "2026-06-27 18:39:32 +0000",
-      "createdAt": "2026-06-27T19:25:17.038Z",
-      "title": "AI Garbage Input",
-      "metaDescription": "AI problem in Indian market",
-      "keywords": [
-        "AI",
-        "Artificial Intelligence",
-        "Machine Learning",
-        "Indian Business",
-        "Automation"
-      ],
-      "summary": "Margaret Atwood's critique of AI highlights the importance of quality input for Indian businesses, emphasizing the need for reliable data to drive automation and decision-making. As Indian companies increasingly adopt AI solutions, they must prioritize data accuracy to avoid 'garbage in, garbage out' scenarios. This concern is particularly relevant in the Indian market, where data quality can significantly impact business outcomes.",
-      "content": "<h2>AI Quality Concerns</h2><p>Renowned author Margaret Atwood recently expressed her disappointment with AI, citing the 'garbage in, garbage out' problem. This phrase underscores the importance of high-quality input data for AI systems to produce reliable and accurate outputs. In the Indian business context, this concern is particularly significant, as companies are increasingly leveraging AI and automation to drive growth and efficiency.</p><p>Atwood's experience with an AI tool, although limited, highlights the need for Indian businesses to prioritize data quality and accuracy. As AI adoption becomes more widespread in the Indian market, companies must ensure that their data is reliable, relevant, and well-maintained to avoid suboptimal AI performance.</p><h2>Implications for Indian Businesses</h2><p>Indian companies must recognize the importance of data quality in AI-driven decision-making. To mitigate the risks associated with 'garbage in, garbage out,' businesses can take several steps: <ul><li>Implement robust data validation and verification processes</li><li>Invest in data cleansing and normalization techniques</li><li>Develop strategies for handling missing or incomplete data</li><li>Establish clear data governance policies and procedures</li><li>Continuously monitor and evaluate AI system performance</li></ul></p>",
-      "category": "AI & Automation",
-      "tags": [
-        "ai",
-        "business",
-        "india",
-        "tech",
-        "automation"
-      ],
-      "readTime": 3,
-      "slug": "ai-garbage-input",
-      "status": "published",
-      "featured": false,
-      "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-07-22T14:02:04.312Z",
+  "lastUpdated": "2026-07-22T19:25:20.990Z",
   "totalCount": 200,
   "schema": "2.0"
 }
