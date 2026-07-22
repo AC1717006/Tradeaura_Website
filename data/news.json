@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "7897e9247679",
+      "originalUrl": "https://iol.co.za/business/economy/2026-07-22-cost-of-living-bites-harder-as-inflation-climbs-to-5/",
+      "originalTitle": "Cost of living bites harder as inflation climbs to 5%",
+      "source": "Nicola Mawson",
+      "imageUrl": "https://iol-prod.appspot.com/image/ee036de8143ed873fe864a353c7c153709a56085/1000/jpeg",
+      "publishedDate": "2026-07-22 08:20:54 +0000",
+      "createdAt": "2026-07-22T08:33:10.941Z",
+      "title": "Inflation Rises",
+      "metaDescription": "inflation climbs to 5%",
+      "keywords": [
+        "inflation",
+        "economy",
+        "business",
+        "finance",
+        "India"
+      ],
+      "summary": "The recent surge in inflation is expected to impact Indian businesses, with the cost of living increasing to levels last seen two years ago. This rise in inflation may lead to higher production costs and reduced consumer spending. Indian business owners must adapt to these changes to remain competitive.",
+      "content": "<h2>Inflation on the Rise</h2><p>The cost of living in India has risen significantly, with inflation climbing to 5% in June. This increase is attributed to various factors, including global market trends and domestic economic conditions. As a result, Indian businesses are likely to face higher production costs, which may be passed on to consumers.</p><p>Indian business owners must be prepared to adapt to these changes and find ways to mitigate the impact of inflation on their operations. This may involve reviewing pricing strategies, managing cash flows, and exploring ways to increase efficiency. The Reserve Bank of India (RBI) and the Securities and Exchange Board of India (SEBI) are closely monitoring the situation and may take measures to stabilize the economy.</p><h2>Impact on Indian Businesses</h2><p>The rise in inflation is expected to have a significant impact on Indian businesses, particularly small and medium-sized enterprises (SMEs). These businesses may struggle to cope with higher production costs, reduced consumer spending, and increased competition. To remain competitive, Indian businesses must focus on innovation, quality, and customer service.</p><ul><li>Review pricing strategies to ensure competitiveness</li><li>Manage cash flows to maintain liquidity</li><li>Explore ways to increase efficiency and reduce costs</li><li>Monitor market trends and adjust business strategies accordingly</li><li>Focus on innovation, quality, and customer service to remain competitive</li></ul>",
+      "category": "Business Tools",
+      "tags": [
+        "economy",
+        "finance",
+        "inflation",
+        "business",
+        "india"
+      ],
+      "readTime": 3,
+      "slug": "inflation-rises",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "c6698fe26ed5",
+      "originalUrl": "https://techxplore.com/news/2026-07-india-domestic-workers-online-instant.html",
+      "originalTitle": "India's domestic workers go online as instant services boom",
+      "source": "techxplore.com",
+      "imageUrl": null,
+      "publishedDate": "2026-07-22 07:57:17 +0000",
+      "createdAt": "2026-07-22T08:33:16.201Z",
+      "title": "India's Domestic Workers Go Online",
+      "metaDescription": "Indian startup offers instant home services",
+      "keywords": [
+        "domestic workers",
+        "instant services",
+        "Indian startup",
+        "home services",
+        "digital transformation"
+      ],
+      "summary": "Indian startups are transforming the traditional domestic worker sector by offering instant home services online, promising better pay and efficiency. This shift is expected to impact the Indian market, with the potential to improve the livelihoods of domestic workers. The rise of such services may also lead to increased competition and innovation in the sector.",
+      "content": "<h2>Introduction of Instant Home Services</h2><p>Indian startups are revolutionizing the domestic worker sector by introducing instant home services, allowing customers to book and manage services online. This shift is transforming a traditionally word-of-mouth sector, promising better pay and efficiency for domestic workers.</p><h2>Benefits for Domestic Workers</h2><p>The introduction of instant home services is expected to improve the livelihoods of domestic workers in India, providing them with a platform to access more clients and earn better wages. With the use of technology, domestic workers can now manage their schedules and bookings more efficiently, allowing them to take on more work and increase their earnings.</p><h2>Impact on the Indian Market</h2><p>The rise of instant home services is likely to have a significant impact on the Indian market, with the potential to create new job opportunities and stimulate economic growth. As the demand for such services continues to grow, Indian startups are well-positioned to capitalize on this trend, driving innovation and competition in the sector.</p><ul><li>Increased efficiency and productivity for domestic workers</li><li>Improved access to clients and job opportunities</li><li>Enhanced customer experience through online booking and management</li><li>Potential for increased earnings and better pay for domestic workers</li><li>Stimulation of economic growth and job creation in the Indian market</ul>",
+      "category": "Digital Transformation",
+      "tags": [
+        "india",
+        "startups",
+        "services",
+        "workers",
+        "digital"
+      ],
+      "readTime": 3,
+      "slug": "indias-domestic-workers-go-online",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "bcfbd197adff",
       "originalUrl": "https://www.financialstandard.com.au/news/global-x-launches-global-smd-etf-179813354",
       "originalTitle": "Global X launches global SMD ETF",
@@ -6533,75 +6599,9 @@
       "status": "published",
       "featured": false,
       "sitemapAdded": false
-    },
-    {
-      "id": "e3194aa7f7bf",
-      "originalUrl": "https://www.business-standard.com/world-news/trump-may-visit-india-next-year-trade-deal-close-to-finalisation-rubio-126062700317_1.html",
-      "originalTitle": "Trump may visit India next year, trade deal close to finalisation: Rubio",
-      "source": "Business Standard; Reuters",
-      "imageUrl": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-06/18/thumb/fitandfill/1200X628/1781759514-3155.jpg",
-      "publishedDate": "2026-06-27 07:40:18 +0000",
-      "createdAt": "2026-06-27T08:40:00.702Z",
-      "title": "India-US Trade",
-      "metaDescription": "India-US trade deal nears finalisation",
-      "keywords": [
-        "India-US trade",
-        "trade deal",
-        "Indian business",
-        "US tariffs",
-        "Indian market"
-      ],
-      "summary": "A potential trade deal between India and the US is nearing finalisation, with a possible visit from Trump to India next year. This development may impact Indian businesses and the Indian market. The trade deal could ease tensions between the two countries after a rocky year.",
-      "content": "<h2>India-US Trade Relations</h2><p>India-US ties have been strained over the past year due to high tariffs imposed by Washington on Indian goods. The tensions arose from India's purchase of Russian oil and its close engagement with Pakistan.</p><p>A trade deal between the two countries is now close to finalisation, according to recent reports. This development may have significant implications for Indian businesses and the Indian market.</p><h2>Possible Implications</h2><p>The potential trade deal could lead to eased tensions between India and the US, with a possible visit from Trump to India next year. This could lead to increased trade and investment between the two countries, benefiting Indian businesses and the Indian economy.</p><p>Some key points to consider include: <ul><li>India's purchase of Russian oil and its impact on US-India relations</li><li>The close engagement between India and Pakistan</li><li>The potential benefits of a trade deal for Indian businesses</li><li>The possible implications for the Indian market</li><li>The role of the Indian government in negotiating the trade deal</li></ul></p>",
-      "category": "Business Tools",
-      "tags": [
-        "trade",
-        "india",
-        "us",
-        "business",
-        "economy"
-      ],
-      "readTime": 3,
-      "slug": "india-us-trade",
-      "status": "published",
-      "featured": false,
-      "sitemapAdded": false
-    },
-    {
-      "id": "32aabe8e7a73",
-      "originalUrl": "https://businessday.ng/technology/article/palmpay-moves-beyond-compliance-builds-company-wide-privacy-defence-system/",
-      "originalTitle": "PalmPay moves beyond compliance, builds company-wide privacy defence system - Businessday NG",
-      "source": "Royal Ibeh",
-      "imageUrl": "https://cdn.businessday.ng/2022/08/PalmPay.png",
-      "publishedDate": "2026-06-27 08:01:53 +0000",
-      "createdAt": "2026-06-27T08:40:05.357Z",
-      "title": "Privacy Defence",
-      "metaDescription": "Data protection strategy",
-      "keywords": [
-        "data protection",
-        "fintech",
-        "privacy defence",
-        "regulatory compliance",
-        "cybersecurity"
-      ],
-      "summary": "PalmPay, a fintech company, is shifting its data protection strategy beyond regulatory compliance. This move can be a valuable lesson for Indian businesses, especially in the fintech sector, to prioritize data protection. By embedding privacy responsibilities into daily work, companies can ensure a robust defence system.",
-      "content": "<h2>Data Protection in Fintech</h2><p>PalmPay, a fintech company, is moving beyond regulatory compliance by building a company-wide privacy defence system. This approach involves embedding privacy responsibilities into the daily work of all employees, ensuring that data protection is a top priority. In the Indian market, where the RBI and SEBI have strict regulations in place, such a strategy can be particularly beneficial.</p><p>By prioritizing data protection, Indian businesses can build trust with their customers and avoid potential penalties for non-compliance. A company-wide privacy defence system can include measures such as regular security audits, employee training, and incident response planning.</p><h2>Benefits of a Privacy Defence System</h2><p>A privacy defence system can provide numerous benefits to Indian businesses, including:</p><ul><li>Improved compliance with regulatory requirements</li><li>Enhanced customer trust and loyalty</li><li>Reduced risk of data breaches and cyber attacks</li><li>Increased efficiency in data management</li><li>Better reputation and competitive advantage</li></ul>",
-      "category": "Digital Transformation",
-      "tags": [
-        "fintech",
-        "privacy",
-        "security",
-        "compliance",
-        "data"
-      ],
-      "readTime": 3,
-      "slug": "privacy-defence",
-      "status": "published",
-      "featured": false,
-      "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-07-22T02:52:08.107Z",
+  "lastUpdated": "2026-07-22T08:33:16.202Z",
   "totalCount": 200,
   "schema": "2.0"
 }
