@@ -119,6 +119,11 @@
         class="cat-btn px-4 py-2 rounded-full text-sm font-medium border border-brandBlue/40 bg-brandBlue/10 text-brandBlue transition-all">
         All Topics
       </button>
+      <button onclick="filterCat('AI &amp; Automation')" data-cat="AI &amp; Automation"
+          class="cat-btn px-4 py-2 rounded-full text-sm font-medium border border-glassBorder text-gray-400 hover:text-white hover:border-white/20 transition-all"
+          data-color="#3B82F6">
+          <i class="fas fa-robot text-xs mr-1.5"></i>AI &amp; Automation
+        </button>
       <button onclick="filterCat('Business Tools')" data-cat="Business Tools"
           class="cat-btn px-4 py-2 rounded-full text-sm font-medium border border-glassBorder text-gray-400 hover:text-white hover:border-white/20 transition-all"
           data-color="#F97316">
@@ -133,11 +138,6 @@
           class="cat-btn px-4 py-2 rounded-full text-sm font-medium border border-glassBorder text-gray-400 hover:text-white hover:border-white/20 transition-all"
           data-color="#06B6D4">
           <i class="fas fa-layer-group text-xs mr-1.5"></i>SaaS &amp; Software
-        </button>
-      <button onclick="filterCat('AI &amp; Automation')" data-cat="AI &amp; Automation"
-          class="cat-btn px-4 py-2 rounded-full text-sm font-medium border border-glassBorder text-gray-400 hover:text-white hover:border-white/20 transition-all"
-          data-color="#3B82F6">
-          <i class="fas fa-robot text-xs mr-1.5"></i>AI &amp; Automation
         </button>
       <button onclick="filterCat('MarTech')" data-cat="MarTech"
           class="cat-btn px-4 py-2 rounded-full text-sm font-medium border border-glassBorder text-gray-400 hover:text-white hover:border-white/20 transition-all"
@@ -171,27 +171,27 @@
       <i class="fas fa-star text-brandBlue mr-2"></i>Featured Article
     </h2>
     
-<a href="inflation-rises.html" class="group block glass-card border border-glassBorder rounded-2xl overflow-hidden hover:border-brandBlue/40 transition-all duration-300 hover:shadow-[0_0_40px_rgba(59,130,246,0.15)]" data-aos="fade-up">
+<a href="openai-data-center.html" class="group block glass-card border border-glassBorder rounded-2xl overflow-hidden hover:border-brandBlue/40 transition-all duration-300 hover:shadow-[0_0_40px_rgba(59,130,246,0.15)]" data-aos="fade-up">
   <div class="grid md:grid-cols-2">
     <div class="relative h-64 md:h-auto overflow-hidden img-wrap">
-      <img src="https://iol-prod.appspot.com/image/ee036de8143ed873fe864a353c7c153709a56085/1000/jpeg" alt="" loading="lazy" class="w-full h-full object-cover" onerror="this.parentElement.classList.add('img-fallback');this.remove()">
+      <div class="img-fallback w-full h-full" style="--cat-bg:rgba(59,130,246,0.15)"><i class="fas fa-robot" style="color:#3B82F6"></i></div>
       <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
-      <div class="absolute top-4 left-4"><span class="cat-badge" style="background:rgba(249,115,22,0.15);border:1px solid rgba(249,115,22,0.3);color:#F97316"><i class="fas fa-briefcase"></i>Business Tools</span></div>
+      <div class="absolute top-4 left-4"><span class="cat-badge" style="background:rgba(59,130,246,0.15);border:1px solid rgba(59,130,246,0.3);color:#3B82F6"><i class="fas fa-robot"></i>AI &amp; Automation</span></div>
       
     </div>
     <div class="p-8 flex flex-col justify-between">
       <div>
         <div class="flex items-center gap-3 text-xs text-gray-500 mb-3">
           <span>22 July 2026</span><span>·</span>
-          <span>Nicola Mawson</span><span>·</span>
+          <span>seekingalpha.com</span><span>·</span>
           <span><i class="fas fa-clock mr-1"></i>3 min read</span>
         </div>
-        <h2 class="font-heading font-bold text-2xl text-white mb-3 group-hover:text-brandBlue transition-colors leading-snug">Inflation Rises</h2>
-        <p class="text-gray-400 text-sm leading-relaxed line-clamp-4">The recent surge in inflation is expected to impact Indian businesses, with the cost of living increasing to levels last seen two years ago. This rise in inflation may lead to higher production costs and reduced consumer spending. Indian business owners must adapt to these changes to remain competitive.</p>
+        <h2 class="font-heading font-bold text-2xl text-white mb-3 group-hover:text-brandBlue transition-colors leading-snug">OpenAI Data Center</h2>
+        <p class="text-gray-400 text-sm leading-relaxed line-clamp-4">OpenAI plans to invest over $30 billion in a 3.2 GW data center in Georgia, indicating a significant expansion of its infrastructure. This move is expected to enhance the company&#39;s capabilities in artificial intelligence and machine learning. Indian businesses can learn from OpenAI&#39;s strategic investment in technology infrastructure.</p>
       </div>
       <div class="mt-6 flex items-center gap-4">
-        <span class="px-2 py-0.5 rounded text-[10px] font-medium bg-white/5 text-gray-500 border border-glassBorder">inflation</span><span class="px-2 py-0.5 rounded text-[10px] font-medium bg-white/5 text-gray-500 border border-glassBorder">economy</span>
-        <span class="ml-auto inline-flex items-center gap-1.5 text-sm font-semibold" style="color:#F97316">
+        <span class="px-2 py-0.5 rounded text-[10px] font-medium bg-white/5 text-gray-500 border border-glassBorder">OpenAI</span><span class="px-2 py-0.5 rounded text-[10px] font-medium bg-white/5 text-gray-500 border border-glassBorder">data center</span>
+        <span class="ml-auto inline-flex items-center gap-1.5 text-sm font-semibold" style="color:#3B82F6">
           Read Full Article <i class="fas fa-arrow-right text-xs group-hover:translate-x-1 transition-transform"></i>
         </span>
       </div>
@@ -211,6 +211,48 @@
       <span id="countBadge" class="text-xs text-gray-500">200 articles</span>
     </div>
     <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6" id="grid">
+      <div data-cat="AI &amp; Automation">
+<a href="openai-data-center.html" class="group block glass-card border border-glassBorder rounded-2xl overflow-hidden hover:border-brandBlue/40 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_0_30px_rgba(59,130,246,0.1)]" data-aos="fade-up">
+  <div class="relative h-44 overflow-hidden img-wrap">
+    <div class="img-fallback w-full h-full" style="--cat-bg:rgba(59,130,246,0.15)"><i class="fas fa-robot" style="color:#3B82F6"></i></div>
+    <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+    <div class="absolute top-3 left-3"><span class="cat-badge" style="background:rgba(59,130,246,0.15);border:1px solid rgba(59,130,246,0.3);color:#3B82F6"><i class="fas fa-robot"></i>AI &amp; Automation</span></div>
+    
+  </div>
+  <div class="p-5">
+    <div class="flex items-center gap-2 text-[10px] text-gray-600 mb-2">
+      <span>22 July 2026</span><span>·</span>
+      <span>seekingalpha.com</span><span>·</span>
+      <span>3 min</span>
+    </div>
+    <h3 class="font-heading font-bold text-sm text-white mb-2 group-hover:text-brandBlue transition-colors leading-snug line-clamp-2">OpenAI Data Center</h3>
+    <p class="text-gray-500 text-xs leading-relaxed line-clamp-2 mb-3">OpenAI plans to invest over $30 billion in a 3.2 GW data center in Georgia, indicating a significant expansion of its infrastructure. This move is expected to enhance the company&#39;s capabilities in artificial intelligence and machine learning. Indian businesses can learn from OpenAI&#39;s strategic investment in technology infrastructure.</p>
+    <span class="inline-flex items-center gap-1.5 text-xs font-semibold" style="color:#3B82F6">
+      Read More <i class="fas fa-arrow-right text-[9px] group-hover:translate-x-0.5 transition-transform"></i>
+    </span>
+  </div>
+</a></div>
+      <div data-cat="Business Tools">
+<a href="cwg-2026.html" class="group block glass-card border border-glassBorder rounded-2xl overflow-hidden hover:border-brandBlue/40 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_0_30px_rgba(59,130,246,0.1)]" data-aos="fade-up">
+  <div class="relative h-44 overflow-hidden img-wrap">
+    <img src="https://sm.mashable.com/mashable_in/seo/default/neerajchopra_76us.jpg" alt="" loading="lazy" class="w-full h-full object-cover" onerror="this.parentElement.classList.add('img-fallback');this.remove()">
+    <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+    <div class="absolute top-3 left-3"><span class="cat-badge" style="background:rgba(249,115,22,0.15);border:1px solid rgba(249,115,22,0.3);color:#F97316"><i class="fas fa-briefcase"></i>Business Tools</span></div>
+    
+  </div>
+  <div class="p-5">
+    <div class="flex items-center gap-2 text-[10px] text-gray-600 mb-2">
+      <span>22 July 2026</span><span>·</span>
+      <span>Omair Pall</span><span>·</span>
+      <span>3 min</span>
+    </div>
+    <h3 class="font-heading font-bold text-sm text-white mb-2 group-hover:text-brandBlue transition-colors leading-snug line-clamp-2">CWG 2026</h3>
+    <p class="text-gray-500 text-xs leading-relaxed line-clamp-2 mb-3">The Commonwealth Games 2026 is set to begin, with India participating in various events, this article provides a comprehensive schedule and live streaming details, although not directly related to Indian business, it can serve as a morale booster for employees, Indian business owners can use this to plan employee engagement activities, the games can also provide a unique opportunity for Indian businesses to advertise and reach a global audience</p>
+    <span class="inline-flex items-center gap-1.5 text-xs font-semibold" style="color:#F97316">
+      Read More <i class="fas fa-arrow-right text-[9px] group-hover:translate-x-0.5 transition-transform"></i>
+    </span>
+  </div>
+</a></div>
       <div data-cat="Business Tools">
 <a href="inflation-rises.html" class="group block glass-card border border-glassBorder rounded-2xl overflow-hidden hover:border-brandBlue/40 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_0_30px_rgba(59,130,246,0.1)]" data-aos="fade-up">
   <div class="relative h-44 overflow-hidden img-wrap">
@@ -4364,48 +4406,6 @@
     </div>
     <h3 class="font-heading font-bold text-sm text-white mb-2 group-hover:text-brandBlue transition-colors leading-snug line-clamp-2">AI Garbage Input</h3>
     <p class="text-gray-500 text-xs leading-relaxed line-clamp-2 mb-3">Margaret Atwood&#39;s critique of AI highlights the importance of quality input for Indian businesses, emphasizing the need for reliable data to drive automation and decision-making. As Indian companies increasingly adopt AI solutions, they must prioritize data accuracy to avoid &#39;garbage in, garbage out&#39; scenarios. This concern is particularly relevant in the Indian market, where data quality can significantly impact business outcomes.</p>
-    <span class="inline-flex items-center gap-1.5 text-xs font-semibold" style="color:#3B82F6">
-      Read More <i class="fas fa-arrow-right text-[9px] group-hover:translate-x-0.5 transition-transform"></i>
-    </span>
-  </div>
-</a></div>
-      <div data-cat="Digital Transformation">
-<a href="crypto-divide.html" class="group block glass-card border border-glassBorder rounded-2xl overflow-hidden hover:border-brandBlue/40 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_0_30px_rgba(59,130,246,0.1)]" data-aos="fade-up">
-  <div class="relative h-44 overflow-hidden img-wrap">
-    <img src="https://cdn.benzinga.com/cdn-cgi/image/width=1200,height=800,fit=crop/files/images/story/2026/06/27/NRSC-Defends-Event--Blames-Democrats.jpg" alt="" loading="lazy" class="w-full h-full object-cover" onerror="this.parentElement.classList.add('img-fallback');this.remove()">
-    <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
-    <div class="absolute top-3 left-3"><span class="cat-badge" style="background:rgba(99,102,241,0.15);border:1px solid rgba(99,102,241,0.3);color:#6366F1"><i class="fas fa-rocket"></i>Digital Transformation</span></div>
-    
-  </div>
-  <div class="p-5">
-    <div class="flex items-center gap-2 text-[10px] text-gray-600 mb-2">
-      <span>27 June 2026</span><span>·</span>
-      <span>Khyathi Dalal</span><span>·</span>
-      <span>3 min</span>
-    </div>
-    <h3 class="font-heading font-bold text-sm text-white mb-2 group-hover:text-brandBlue transition-colors leading-snug line-clamp-2">Crypto Divide</h3>
-    <p class="text-gray-500 text-xs leading-relaxed line-clamp-2 mb-3">A recent survey shows that cryptocurrency ownership is becoming more polarized, with Republicans more likely to own digital assets. This trend may have implications for the Indian market, where digital payments are on the rise. Indian business owners should be aware of the shifting landscape of digital assets.</p>
-    <span class="inline-flex items-center gap-1.5 text-xs font-semibold" style="color:#6366F1">
-      Read More <i class="fas fa-arrow-right text-[9px] group-hover:translate-x-0.5 transition-transform"></i>
-    </span>
-  </div>
-</a></div>
-      <div data-cat="AI &amp; Automation">
-<a href="ai-price-hike.html" class="group block glass-card border border-glassBorder rounded-2xl overflow-hidden hover:border-brandBlue/40 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_0_30px_rgba(59,130,246,0.1)]" data-aos="fade-up">
-  <div class="relative h-44 overflow-hidden img-wrap">
-    <img src="https://platform.theverge.com/wp-content/uploads/sites/2/2025/03/STK071_ACastro_apple_0003_a30fb2.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200" alt="" loading="lazy" class="w-full h-full object-cover" onerror="this.parentElement.classList.add('img-fallback');this.remove()">
-    <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
-    <div class="absolute top-3 left-3"><span class="cat-badge" style="background:rgba(59,130,246,0.15);border:1px solid rgba(59,130,246,0.3);color:#3B82F6"><i class="fas fa-robot"></i>AI &amp; Automation</span></div>
-    
-  </div>
-  <div class="p-5">
-    <div class="flex items-center gap-2 text-[10px] text-gray-600 mb-2">
-      <span>27 June 2026</span><span>·</span>
-      <span>Terrence O&#39;Brien</span><span>·</span>
-      <span>3 min</span>
-    </div>
-    <h3 class="font-heading font-bold text-sm text-white mb-2 group-hover:text-brandBlue transition-colors leading-snug line-clamp-2">AI Price Hike</h3>
-    <p class="text-gray-500 text-xs leading-relaxed line-clamp-2 mb-3">Indian businesses may face increased costs due to Big Tech&#39;s AI investments, as seen in Apple&#39;s recent price hike, affecting the Indian market and consumer spending. This trend may impact the overall technology landscape in India. Indian business owners should be aware of these changes.</p>
     <span class="inline-flex items-center gap-1.5 text-xs font-semibold" style="color:#3B82F6">
       Read More <i class="fas fa-arrow-right text-[9px] group-hover:translate-x-0.5 transition-transform"></i>
     </span>
