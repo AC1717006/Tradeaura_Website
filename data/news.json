@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "2a8aa19f3a11",
+      "originalUrl": "https://phys.org/news/2026-07-quasar-lenses-emerge-ai-scan.html",
+      "originalTitle": "Seven possible quasar lenses emerge from AI scan of 800,000 DESI objects",
+      "source": "phys.org",
+      "imageUrl": null,
+      "publishedDate": "2026-07-27 19:20:07 +0000",
+      "createdAt": "2026-07-27T19:38:24.657Z",
+      "title": "AI Quasar Scan",
+      "metaDescription": "AI scan of 800,000 objects",
+      "keywords": [
+        "AI",
+        "quasars",
+        "lensing",
+        "galaxies",
+        "automation"
+      ],
+      "summary": "A recent AI scan of 800,000 objects has identified seven possible quasar lenses, which can aid in understanding distant galaxies. This breakthrough has implications for Indian businesses and researchers in the field of astrophysics. Indian scientists can leverage this technology to advance their research in the field.",
+      "content": "<h2>Introduction to Quasars</h2><p>Quasars, distant cores of galaxies powered by supermassive black holes, are among the most luminous objects in the universe. While not uncommon, their brightness can make it difficult to accurately measure the galaxies they reside in. This means scientists must use gravitational lensing to assist in their study.</p><h2>AI Scan and Results</h2><p>A recent AI scan of 800,000 objects has identified seven possible quasar lenses, which can aid in understanding distant galaxies. The use of AI in this field has increased efficiency and accuracy in identifying these lenses. The Indian market can benefit from this technology by applying it to various fields such as data analysis and research.</p><h2>Implications for Indian Businesses</h2><p>The implications of this breakthrough are significant for Indian businesses and researchers in the field of astrophysics. Indian scientists can leverage this technology to advance their research in the field. Additionally, the use of AI in this field can inspire innovation and development of new technologies in India.</p>",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "space",
+        "tech",
+        "india",
+        "research"
+      ],
+      "readTime": 3,
+      "slug": "ai-quasar-scan",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "36df18ffd71a",
+      "originalUrl": "https://www.cnbc.com/2026/07/27/crypto-stocks-rally-thanks-to-rotation-from-ai-infrastructure-bitcoin-miners-lag.html",
+      "originalTitle": "Crypto stocks rally thanks to rotation from AI infrastructure; bitcoin miners lag",
+      "source": "Tanaya Macheel",
+      "imageUrl": "https://image.cnbcfm.com/api/v1/image/107115735-1662667698139-gettyimages-1240299195-CLEANSPARK_BITCOIN_GA.jpeg?v=1761666886&w=1920&h=1080",
+      "publishedDate": "2026-07-27 19:14:30 +0000",
+      "createdAt": "2026-07-27T19:38:29.765Z",
+      "title": "Crypto Rally",
+      "metaDescription": "Crypto stocks gain",
+      "keywords": [
+        "crypto",
+        "stocks",
+        "bitcoin",
+        "miners",
+        "AI"
+      ],
+      "summary": "Crypto stocks have seen a surge in the Indian market, outperforming the broader market trends, as investors rotate away from AI infrastructure and chip names, with bitcoin miners experiencing a lag, which may be relevant for Indian business owners and investors to consider in their investment strategies, given the Reserve Bank of India's stance on cryptocurrency regulations.",
+      "content": "<h2>Crypto Stocks Surge</h2><p>Crypto stocks proved to be some of the top gainers on Monday, even as the broader market sold off and capital rotated away from chip and AI infrastructure names. This rotation has led to a surge in crypto stocks, with investors looking for alternative investments. The Indian market, in particular, has seen a significant impact, with investors keenly watching the developments in the crypto space.</p><h2>Bitcoin Miners Lag</h2><p>However, bitcoin miners have not seen the same level of growth, with their stocks lagging behind. This could be due to various factors, including the current regulatory environment and the increasing competition in the crypto mining space. The Securities and Exchange Board of India (SEBI) has been closely watching the crypto market, and any changes in regulations could have a significant impact on the Indian crypto industry.</p><h2>Investment Strategies</h2><p>For Indian business owners and investors, it is essential to consider the current trends in the crypto market and the potential risks and opportunities associated with investing in crypto stocks. With the RBI's stance on cryptocurrency regulations, investors must be cautious and informed in their investment decisions. As the Indian market continues to evolve, it will be interesting to see how the crypto industry develops and how investors respond to the changing landscape.</p><ul><li>Crypto stocks have seen a surge in the Indian market</li><li>Bitcoin miners have experienced a lag</li><li>Investors are rotating away from AI infrastructure and chip names</li><li>The RBI's stance on cryptocurrency regulations is crucial for investors</li><li>The Indian market is closely watching the developments in the crypto space</li></ul>",
+      "category": "MarTech",
+      "tags": [
+        "crypto",
+        "stocks",
+        "bitcoin",
+        "miners",
+        "ai"
+      ],
+      "readTime": 3,
+      "slug": "crypto-rally",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "ff3f9a52ef94",
       "originalUrl": "https://www.investing.com/news/earnings/amkor-technology-earnings-on-deck-as-ai-partnerships-fuel-optimism-93CH-4814562",
       "originalTitle": "Amkor Technology earnings on deck as AI partnerships fuel optimism By Investing.com",
@@ -6533,75 +6599,9 @@
       "status": "published",
       "featured": false,
       "sitemapAdded": false
-    },
-    {
-      "id": "3d8afa2cffb0",
-      "originalUrl": "https://www.ai-cio.com/news/how-lps-use-ai-what-works-and-what-doesnt/",
-      "originalTitle": "How LPs Use AI: What Works—and What Doesn’t",
-      "source": "Matt Toledo",
-      "imageUrl": null,
-      "publishedDate": "2026-07-02 19:04:43 +0000",
-      "createdAt": "2026-07-02T19:35:00.141Z",
-      "title": "AI in Finance",
-      "metaDescription": "AI in finance and markets",
-      "keywords": [
-        "artificial intelligence",
-        "finance",
-        "investment",
-        "machine learning",
-        "automation"
-      ],
-      "summary": "Indian businesses are increasingly adopting AI in finance to improve investment decisions. The Reserve Bank of India's guidelines on AI adoption have also encouraged its use. As a result, AI is transforming the Indian finance sector.",
-      "content": "<h2>Introduction to AI in Finance</h2><p>Artificial intelligence (AI) is being increasingly used by Limited Partners (LPs) in the Indian finance sector to make informed investment decisions. The use of AI in finance has been encouraged by the Reserve Bank of India's guidelines on AI adoption. As a result, AI is transforming the Indian finance sector, enabling businesses to make data-driven decisions and stay competitive.</p><h2>Benefits of AI in Finance</h2><p>The benefits of AI in finance are numerous. Some of the key benefits include:<ul><li>Improved investment decisions through data analysis</li><li>Enhanced risk management</li><li>Increased efficiency in financial operations</li><li>Better customer service</li><li>Competitive advantage</li></ul></p><p>However, there are also challenges associated with the adoption of AI in finance, such as data quality issues and the need for skilled professionals to implement and manage AI systems.</p>",
-      "category": "AI & Automation",
-      "tags": [
-        "finance",
-        "ai",
-        "invest",
-        "market",
-        "tech"
-      ],
-      "readTime": 3,
-      "slug": "ai-in-finance",
-      "status": "published",
-      "featured": false,
-      "sitemapAdded": false
-    },
-    {
-      "id": "c665e9cf6572",
-      "originalUrl": "https://businessday.ng/technology/article/visa-bets-on-ai-stablecoins-to-redefine-digital-commerce-as-tokenised-payments-surge-70-across-emerging-markets/",
-      "originalTitle": "Visa bets on AI, stablecoins to redefine digital commerce as tokenised payments surge 70% across emerging markets - Businessday NG",
-      "source": "Royal Ibeh",
-      "imageUrl": "https://cdn.businessday.ng/wp-content/uploads/2026/07/2H6A3433.jpg",
-      "publishedDate": "2026-07-02 19:27:51 +0000",
-      "createdAt": "2026-07-02T19:35:05.203Z",
-      "title": "Visa Bets on AI",
-      "metaDescription": "Visa's AI strategy",
-      "keywords": [
-        "artificial intelligence",
-        "digital commerce",
-        "tokenisation",
-        "stablecoins",
-        "payments"
-      ],
-      "summary": "Visa is leveraging AI, tokenisation, and stablecoins to redefine digital commerce, a strategy that may influence the Indian market. With tokenised payments surging globally, Indian business owners should take note of this trend. India's digital payments space is growing rapidly, with the RBI and SEBI playing key roles in regulating the market.",
-      "content": "<h2>Visa's New Strategy</h2><p>Global payments giant Visa has unveiled a new strategy built around artificial intelligence (AI), tokenisation, and stablecoins, signalling a significant shift in the company's approach to digital commerce. This move is in response to the growing demand for tokenised payments, which have surged 70% across emerging markets.</p><p>In India, the digital payments space is growing rapidly, driven by government initiatives and increasing smartphone penetration. The Reserve Bank of India (RBI) and the Securities and Exchange Board of India (SEBI) are playing key roles in regulating the market and promoting innovation.</p><h2>Key Features of Visa's Strategy</h2><ul><li>Artificial intelligence (AI) will be used to enhance payment processing and security</li><li>Tokenisation will enable secure and efficient transactions</li><li>Stablecoins will provide a stable store of value and medium of exchange</li></ul><p>Indian business owners and startup founders can learn from Visa's strategy and explore ways to leverage AI, tokenisation, and stablecoins to drive growth and innovation in their own businesses.</p>",
-      "category": "Digital Transformation",
-      "tags": [
-        "ai",
-        "payments",
-        "commerce",
-        "fintech",
-        "innovation"
-      ],
-      "readTime": 3,
-      "slug": "visa-bets-on-ai",
-      "status": "published",
-      "featured": false,
-      "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-07-27T14:41:29.114Z",
+  "lastUpdated": "2026-07-27T19:38:29.766Z",
   "totalCount": 200,
   "schema": "2.0"
 }
