@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "12619ccc2723",
+      "originalUrl": "https://www.investing.com/news/transcripts/earnings-call-transcript-man-group-posts-record-h1-2026-aum-shares-rise-93CH-4815681",
+      "originalTitle": "Earnings call transcript: Man Group posts record H1 2026 AUM, shares rise By Investing.com",
+      "source": "www.investing.com",
+      "imageUrl": "https://i-invdn-com.investing.com/news/LYNXNPEB8506G_L.jpg",
+      "publishedDate": "2026-07-28 08:29:07 +0000",
+      "createdAt": "2026-07-28T08:38:31.364Z",
+      "title": "Man Group H1",
+      "metaDescription": "Man Group posts record AUM",
+      "keywords": [
+        "asset management",
+        "AUM",
+        "financial markets",
+        "investment",
+        "earnings"
+      ],
+      "summary": "Man Group's record assets under management in H1 2026 is a significant development in the global financial sector, which may have implications for Indian business owners and investors. The company's shares have risen following the announcement. This development reflects the growing importance of asset management in the global economy.",
+      "content": "<h2>Record Assets Under Management</h2><p>Man Group has announced a record assets under management (AUM) in the first half of 2026, resulting in a rise in the company's shares. This development is significant in the context of global financial markets and may have implications for Indian investors and business owners.</p><p>The company's earnings call transcript revealed that the record AUM is a result of strong investment performance and net inflows. The Indian market, with its growing economy and increasing investment opportunities, may be an attractive destination for companies like Man Group.</p><h2>Implications for Indian Business</h2><p>The growth of asset management companies like Man Group reflects the increasing importance of investment and financial services in the global economy. For Indian business owners and investors, this development may present opportunities for investment and partnerships.</p><p>Some key points to consider include: <ul><li>the growing demand for asset management services in India</li><li>the increasing importance of investment in the Indian economy</li><li>the potential for partnerships between Indian businesses and global asset management companies</li><li>the need for Indian investors to diversify their portfolios</li><li>the role of regulatory bodies in shaping the Indian financial sector</li></ul></p>",
+      "category": "Finance & Markets",
+      "tags": [
+        "finance",
+        "markets",
+        "investment",
+        "aum",
+        "earnings"
+      ],
+      "readTime": 3,
+      "slug": "man-group-h1",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "f277172d06e2",
+      "originalUrl": "https://vulners.com/thn/THN:22D4699B70CA93B9968C6F0380DD1920",
+      "originalTitle": "Researcher Says AI Helped Develop Linux Traffic-Control Race Into Root Exploit",
+      "source": "vulners.com",
+      "imageUrl": null,
+      "publishedDate": "2026-07-28 08:04:00 +0000",
+      "createdAt": "2026-07-28T08:38:36.162Z",
+      "title": "Linux Root Exploit",
+      "metaDescription": "Linux kernel exploit turns user into root",
+      "keywords": [
+        "linux",
+        "kernel",
+        "exploit",
+        "artificial intelligence",
+        "cybersecurity"
+      ],
+      "summary": "A researcher has discovered a Linux kernel exploit that can turn a local user into root, posing a significant threat to Indian businesses relying on Linux systems. The exploit, tracked as CVE-2026-53264, has a CVSS score of 7.8 and was developed with the help of artificial intelligence. Indian companies must take immediate action to patch their systems and prevent potential cyber attacks.",
+      "content": "<h2>Linux Kernel Exploit Discovered</h2><p>A researcher at STAR Labs has published a Linux kernel exploit that can turn an ordinary local user into root on the CentOS Stream 9 build it targeted. The flaw, tracked as CVE-2026-53264, has a CVSS score of 7.8 and is a use-after-free race in the kernel's network traffic-control subsystem. This exploit was developed with the help of artificial intelligence, highlighting the growing role of AI in cybersecurity.</p><h2>Implications for Indian Businesses</h2><p>Indian companies relying on Linux systems must take immediate action to patch their systems and prevent potential cyber attacks. This exploit can have significant consequences, including data breaches and system compromise. To mitigate these risks, Indian businesses should ensure that their systems are up-to-date and implement robust cybersecurity measures.</p><h2>Recommendations</h2><p>To protect themselves from this exploit, Indian businesses can take the following steps:</p><ul><li>Update their Linux systems to the latest version</li><li>Implement robust cybersecurity measures, such as firewalls and intrusion detection systems</li><li>Conduct regular security audits to identify potential vulnerabilities</li><li>Provide cybersecurity training to their employees</li><li>Monitor their systems for suspicious activity</li></ul>",
+      "category": "AI & Automation",
+      "tags": [
+        "linux",
+        "security",
+        "ai",
+        "cyber",
+        "tech"
+      ],
+      "readTime": 3,
+      "slug": "linux-root-exploit",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "96f2ebb4390b",
       "originalUrl": "https://www.investing.com/news/stock-market-news/s-korea-stocks-slump-over-9-as-ai-spending-fears-hammer-chip-stocks-4815389",
       "originalTitle": "S. Korea stocks slump over 9% as AI spending fears hammer chip stocks By Investing.com",
@@ -6533,75 +6599,9 @@
       "status": "published",
       "featured": false,
       "sitemapAdded": false
-    },
-    {
-      "id": "0a0207b19833",
-      "originalUrl": "https://indianexpress.com/article/technology/indian-government-notice-to-telegram-signal-10769659/",
-      "originalTitle": "After WhatsApp, India sends notices to Telegram and Signal over anonymity features",
-      "source": "indianexpress.com",
-      "imageUrl": null,
-      "publishedDate": "2026-07-03 09:20:54 +0000",
-      "createdAt": "2026-07-03T09:23:20.843Z",
-      "title": "India Notices Telegram, Signal",
-      "metaDescription": "India sends notices to Telegram and Signal",
-      "keywords": [
-        "Telegram",
-        "Signal",
-        "WhatsApp",
-        "Anonymity",
-        "India"
-      ],
-      "summary": "The Indian government has sent notices to Telegram and Signal over their anonymity features, following a similar notice to WhatsApp, which may impact Indian businesses and startups using these platforms for communication and marketing. This move highlights the government's focus on regulating social media and messaging apps in the country. Indian business owners should be aware of these developments and their potential implications.",
-      "content": "<h2>Regulatory Action</h2><p>The Indian government has issued notices to Telegram and Signal, two popular messaging apps, regarding their anonymity features. This move comes after a similar notice was sent to WhatsApp, another widely-used messaging platform. The notices are part of the government's efforts to regulate social media and messaging apps in the country.</p><p>The anonymity features of these apps have raised concerns among law enforcement agencies, which believe that they can be used for illegal activities. The government has asked the companies to provide information about their privacy policies and how they plan to address these concerns.</p><h2>Potential Impact</h2><p>The notices sent to Telegram and Signal may have implications for Indian businesses and startups that use these platforms for communication and marketing. Companies that rely on these apps for customer engagement and outreach may need to reassess their strategies and ensure that they are compliant with the government's regulations.</p><p>Some key points to consider include: <ul><li>Understanding the privacy policies of messaging apps</li><li>Ensuring compliance with government regulations</li><li>Developing strategies for customer engagement and outreach</li><li>Staying up-to-date with the latest developments in social media regulation</li><li>Adapting to changes in the regulatory landscape</li></ul></p>",
-      "category": "Digital Transformation",
-      "tags": [
-        "tech",
-        "india",
-        "social",
-        "media",
-        "regulation"
-      ],
-      "readTime": 3,
-      "slug": "india-notices-telegram-signal",
-      "status": "published",
-      "featured": false,
-      "sitemapAdded": false
-    },
-    {
-      "id": "de7c030cc76f",
-      "originalUrl": "https://www.investing.com/news/stock-market-news/tesla-posts-strongerthanexpected-q2-deliveries-as-europe-sales-improve-4773259",
-      "originalTitle": "Tesla quarterly deliveries set record; European recovery raises hopes of annual growth By Reuters",
-      "source": "www.investing.com",
-      "imageUrl": "https://i-invdn-com.investing.com/news/https://i-invdn-com.investing.com/trkd-images/LYNXMPEM610V1_L.jpg",
-      "publishedDate": "2026-07-03 09:01:03 +0000",
-      "createdAt": "2026-07-03T09:23:25.963Z",
-      "title": "Tesla Q2 Deliveries",
-      "metaDescription": "Tesla quarterly deliveries set record",
-      "keywords": [
-        "Tesla",
-        "Electric Vehicles",
-        "Quarterly Deliveries",
-        "European Market",
-        "Growth"
-      ],
-      "summary": "Tesla's record quarterly deliveries have raised hopes of annual growth, driven by a recovery in European sales, which may have implications for Indian businesses looking to enter the electric vehicle market. Indian companies can learn from Tesla's strategies to improve their own sales and growth. The Indian market is also expected to see growth in the electric vehicle sector.",
-      "content": "<h2>Tesla's Quarterly Deliveries</h2><p>Tesla's quarterly deliveries have set a new record, driven by a strong recovery in European sales. This has raised hopes of annual growth for the company, despite initial expectations of a slowdown. The European market has been a key driver of growth for Tesla, and the company's ability to tap into this market has been crucial to its success.</p><p>In the Indian context, Tesla's success has implications for local businesses looking to enter the electric vehicle market. The Indian government has been pushing for the adoption of electric vehicles, and companies like Tesla can serve as a model for Indian businesses. The Reserve Bank of India's (RBI) policies and the Securities and Exchange Board of India's (SEBI) regulations can also impact the growth of the electric vehicle sector in India.</p><h2>Key Takeaways</h2><ul><li>Tesla's quarterly deliveries have set a new record</li><li>European sales have driven the growth</li><li>Indian businesses can learn from Tesla's strategies</li><li>The Indian government is pushing for electric vehicle adoption</li><li>RBI and SEBI policies can impact the sector's growth</ul>",
-      "category": "Business Tools",
-      "tags": [
-        "electric",
-        "vehicles",
-        "tesla",
-        "growth",
-        "market"
-      ],
-      "readTime": 3,
-      "slug": "tesla-q2-deliveries-2",
-      "status": "published",
-      "featured": false,
-      "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-07-28T02:44:10.596Z",
+  "lastUpdated": "2026-07-28T08:38:36.162Z",
   "totalCount": 200,
   "schema": "2.0"
 }
