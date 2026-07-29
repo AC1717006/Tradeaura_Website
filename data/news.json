@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "54da9278cfef",
+      "originalUrl": "https://www.investing.com/news/economy-news/feds-warsh-says-there-is-no-soft-target-for-inflation-only-a-2-goal-4821504",
+      "originalTitle": "Fed’s Warsh says there is no ’soft target’ for inflation, only a 2% goal By Reuters",
+      "source": "www.investing.com",
+      "imageUrl": "https://i-invdn-com.investing.com/news/LYNXMPEM4611N_1200_L.jpg",
+      "publishedDate": "2026-07-29 18:54:46 +0000",
+      "createdAt": "2026-07-29T19:20:54.347Z",
+      "title": "Inflation Goal",
+      "metaDescription": "Inflation goal of 2%",
+      "keywords": [
+        "inflation",
+        "monetary policy",
+        "economic growth",
+        "interest rates",
+        "federal reserve"
+      ],
+      "summary": "The US Federal Reserve aims to keep inflation at 2%, which may impact India's economic growth and interest rates. Indian businesses should monitor global monetary policies to make informed decisions. This goal indicates a stable economic environment.",
+      "content": "<h2>Inflation Target</h2><p>The US Federal Reserve has clarified that it does not have a 'soft target' for inflation, but rather a firm goal of 2%. This means that the Fed will strive to keep inflation at this level, which may have implications for India's economic growth and interest rates.</p><p>Indian businesses, particularly those in the import and export sectors, should closely monitor global monetary policies to make informed decisions about investments and resource allocation. A stable inflation rate can lead to increased consumer spending, economic growth, and job creation.</p><h2>Implications for India</h2><p>While the US Federal Reserve's inflation goal may not directly impact India's monetary policy, it can influence global interest rates and economic trends. The Reserve Bank of India (RBI) may consider these factors when making decisions about interest rates and inflation targets in India.</p><p>Key points to consider include: <ul><li>inflation rates and their impact on consumer spending</li><li>interest rates and their effect on borrowing and investment</li><li>global economic trends and their influence on India's trade and commerce</li><li>monetary policy decisions and their implications for Indian businesses</li><li>the importance of monitoring global economic developments for informed decision-making</li></ul></p>",
+      "category": "Business Tools",
+      "tags": [
+        "economy",
+        "growth",
+        "policy",
+        "rates",
+        "trade"
+      ],
+      "readTime": 3,
+      "slug": "inflation-goal",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "d79a698fcb85",
+      "originalUrl": "https://thenextweb.com/news/deepmind-alphafold-team-dismantled-gemini-anthropic",
+      "originalTitle": "DeepMind dismantles its Nobel-winning AlphaFold team",
+      "source": "Ana Maria Constantin",
+      "imageUrl": "https://media.thenextweb.com/2026/05/deepmind-union-google-pentagon-ai-military.avif",
+      "publishedDate": "2026-07-29 18:44:18 +0000",
+      "createdAt": "2026-07-29T19:20:59.570Z",
+      "title": "AlphaFold Team Disbanded",
+      "metaDescription": "DeepMind dismantles AlphaFold team",
+      "keywords": [
+        "DeepMind",
+        "AlphaFold",
+        "Artificial Intelligence",
+        "Google",
+        "Nobel"
+      ],
+      "summary": "Google DeepMind's AlphaFold team, a Nobel-winning group, has been disbanded with most members reassigned to work on Gemini, while others leave for Anthropic, potentially impacting India's growing AI market. This move may influence Indian business owners and startup founders who are investing in AI research and development. The dismantling of the team could also affect the Indian market's perception of AI innovation.",
+      "content": "<h2>Introduction to AlphaFold</h2><p>Google DeepMind's AlphaFold team, a Nobel-winning group, has been disbanded with most members reassigned to work on Gemini, while others leave for Anthropic. This team was responsible for developing an artificial intelligence model that could predict the 3D structure of proteins, a problem that had puzzled scientists for decades.</p><h2>Impact on Indian Businesses</h2><p>The dismantling of the AlphaFold team may have implications for Indian businesses, particularly those involved in AI research and development. India has been actively promoting the use of AI and machine learning in various sectors, including healthcare and finance. The loss of a prominent AI research team could potentially hinder the growth of India's AI market.</p><h2>Key Takeaways</h2><ul><li>The AlphaFold team has been disbanded, with most members reassigned to work on Gemini.</li><li>Some team members have left to join Anthropic, a rival AI research organization.</li><li>The dismantling of the team may impact India's growing AI market.</li><li>Indian businesses may need to reassess their AI research and development strategies.</li><li>The move could influence the Indian market's perception of AI innovation.</li></ul>",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "tech",
+        "business",
+        "india",
+        "google"
+      ],
+      "readTime": 3,
+      "slug": "alphafold-team-disbanded",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "06a13c4ea98d",
       "originalUrl": "https://news.alphastreet.com/exxon-mobil-xom-heads-into-results-with-buybacks-facing-a-lower-oil-stress-test/",
       "originalTitle": "Exxon Mobil (XOM) Heads Into Results With Buybacks Facing a Lower-Oil Stress Test",
@@ -6533,75 +6599,9 @@
       "status": "published",
       "featured": false,
       "sitemapAdded": false
-    },
-    {
-      "id": "63e5e81f9a3f",
-      "originalUrl": "https://www.thestreet.com/investing/metas-next-ai-bet-has-one-major-catch-for-investors",
-      "originalTitle": "Meta’s next AI bet has one major catch for investors",
-      "source": "Faizan Farooque",
-      "imageUrl": null,
-      "publishedDate": "2026-07-04 18:47:00 +0000",
-      "createdAt": "2026-07-04T19:18:32.968Z",
-      "title": "Meta's AI Bet",
-      "metaDescription": "Meta's AI investment strategy",
-      "keywords": [
-        "artificial intelligence",
-        "cloud business",
-        "Meta Platforms",
-        "investors",
-        "revenue"
-      ],
-      "summary": "Meta Platforms is establishing a cloud business to sell spare AI, which may impact Indian businesses. This move could provide new revenue streams for the company. Indian business owners should consider the potential implications of this development on the Indian market.",
-      "content": "<h2>Introduction to Meta's AI Investment</h2><p>Meta Platforms has been investing heavily in artificial intelligence, and now the company is establishing a cloud business to sell spare AI. This move is expected to provide new revenue streams for the company, which has been under pressure from investors to generate returns on its AI investments.</p><h2>Implications for Indian Businesses</h2><p>As Meta expands its cloud business, Indian companies may have new opportunities to leverage AI technology. The Indian market is expected to play a significant role in the growth of the global cloud computing industry, and Meta's move could be an important development for Indian businesses. The Reserve Bank of India and the Securities and Exchange Board of India may also be interested in Meta's cloud business, as it could have implications for the Indian economy and financial markets.</p><h2>Key Considerations</h2><p>There are several key considerations for Indian business owners and investors. These include: <ul><li>the potential benefits of leveraging AI technology</li><li>the potential risks and challenges associated with adopting new technology</li><li>the impact of Meta's cloud business on the Indian market</li><li>the potential regulatory implications of Meta's move</li><li>the potential for new revenue streams and business opportunities</li></ul></p>",
-      "category": "AI & Automation",
-      "tags": [
-        "ai",
-        "cloud",
-        "business",
-        "investors",
-        "revenue"
-      ],
-      "readTime": 3,
-      "slug": "metas-ai-bet",
-      "status": "published",
-      "featured": false,
-      "sitemapAdded": false
-    },
-    {
-      "id": "b349f88a9f88",
-      "originalUrl": "https://www.theverge.com/science/961459/nasa-emergency-save-swift-observatory-katalyst-space-technologies",
-      "originalTitle": "NASA launched an emergency mission to stop the Swift Observatory from crashing to Earth",
-      "source": "Terrence O'Brien",
-      "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/Testing-Link-Vibration-tests-2_4000x2600.jpg?quality=90&strip=all&crop=0%2C10.723216378839%2C100%2C78.553567242322&w=1200",
-      "publishedDate": "2026-07-04 19:06:27 +0000",
-      "createdAt": "2026-07-04T19:18:37.894Z",
-      "title": "NASA Emergency",
-      "metaDescription": "NASA saves Swift Observatory",
-      "keywords": [
-        "NASA",
-        "Space",
-        "Technology",
-        "Emergency",
-        "Mission"
-      ],
-      "summary": "NASA's swift action to save the Swift Observatory from crashing to Earth is a testament to the organization's ability to come together in times of crisis, a valuable lesson for Indian business owners and startup founders. The mission's success can be attributed to the collaboration between NASA and private companies like Katalyst Space Technologies. This highlights the importance of partnerships and quick decision-making in the Indian market.",
-      "content": "<h2>NASA's Emergency Mission</h2><p>NASA recently launched an emergency mission to stop the Swift Observatory from crashing to Earth. The mission came together in just nine months, a remarkable feat considering the complexity of the task. This was made possible by the collaboration between NASA and private companies like Katalyst Space Technologies.</p><p>The success of this mission is a testament to the power of partnerships and quick decision-making. In the Indian business context, this can be applied to various industries, where collaboration and swift action can be the key to success. For instance, Indian startups can learn from NASA's ability to come together in times of crisis and apply it to their own business strategies.</p><h2>Key Takeaways</h2><ul><li>Importance of partnerships and collaborations</li><li>Quick decision-making in times of crisis</li><li>Application of NASA's strategies to Indian business context</li><li>Role of private companies in space technology</li><li>Lessons for Indian startup founders and business owners</ul>",
-      "category": "AI & Automation",
-      "tags": [
-        "space",
-        "nasa",
-        "tech",
-        "india",
-        "business"
-      ],
-      "readTime": 3,
-      "slug": "nasa-emergency",
-      "status": "published",
-      "featured": false,
-      "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-07-29T14:17:15.998Z",
+  "lastUpdated": "2026-07-29T19:20:59.570Z",
   "totalCount": 200,
   "schema": "2.0"
 }
