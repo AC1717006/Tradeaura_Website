@@ -8,7 +8,7 @@
   </url>
   <url>
     <loc>https://www.auraautomation.site/news/index.html</loc>
-    <lastmod>2026-07-31</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
@@ -40,6 +40,16 @@
     <loc>https://www.auraautomation.site/pages/join.html</loc>
     <lastmod>2026-05-01</lastmod>
     <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.auraautomation.site/news/india-bond-index-delay.html</loc>
+    <lastmod>2026-08-01</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.auraautomation.site/news/esim-vs-sim.html</loc>
+    <lastmod>2026-08-01</lastmod>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.auraautomation.site/news/booking-holdings.html</loc>
@@ -1028,16 +1038,6 @@
   </url>
   <url>
     <loc>https://www.auraautomation.site/news/memory-price-hike.html</loc>
-    <lastmod>2026-07-07</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.auraautomation.site/news/ai-memory-boom.html</loc>
-    <lastmod>2026-07-07</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.auraautomation.site/news/tencent-hunyuan-hy3.html</loc>
     <lastmod>2026-07-07</lastmod>
     <priority>0.7</priority>
   </url>
