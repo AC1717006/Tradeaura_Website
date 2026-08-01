@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "c73d8b85ec0a",
+      "originalUrl": "https://www.business-standard.com/companies/news/maruti-suzuki-logs-record-july-domestic-pv-sales-jumps-34-to-241-421-unit-126080100614_1.html",
+      "originalTitle": "Maruti Suzuki logs record July domestic PV sales; jumps 34% to 241,421 unit",
+      "source": "Business Standard; Press Trust",
+      "imageUrl": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-01/28/thumb/fitandfill/1200X628/1769624966-1047.jpg",
+      "publishedDate": "2026-08-01 12:34:14 +0000",
+      "createdAt": "2026-08-01T13:26:45.638Z",
+      "title": "Maruti Suzuki Sales",
+      "metaDescription": "Maruti Suzuki July sales",
+      "keywords": [
+        "Maruti Suzuki",
+        "automotive sales",
+        "Indian market",
+        "passenger vehicles",
+        "sales growth"
+      ],
+      "summary": "Maruti Suzuki India Ltd reported a 34% rise in total sales to 241,421 units in July, driven by strong demand in the Indian market. This growth is a positive indicator for the Indian automotive industry. The company's performance can be seen as a benchmark for other businesses in the sector.",
+      "content": "<h2>Maruti Suzuki's Record Sales</h2><p>Maruti Suzuki India Ltd, the country's largest car manufacturer, has reported a significant increase in its domestic passenger vehicle sales for the month of July. The company sold 241,421 units in July, which is a 34% rise compared to the same month last year when it sold 180,526 units.</p><p>This growth can be attributed to the strong demand for passenger vehicles in the Indian market, with many consumers opting for new cars due to the increasing disposable income and easy financing options available. The sales figures also indicate a positive trend for the Indian automotive industry as a whole.</p><h2>Key Highlights</h2><ul><li>Total sales: 241,421 units</li><li>Year-on-year growth: 34%</li><li>Previous year's sales: 180,526 units</li></ul><p>The company's performance is expected to have a positive impact on the Indian economy, with the automotive sector being a significant contributor to the country's GDP. As the demand for passenger vehicles continues to rise, other businesses in the sector are likely to benefit from this trend.</p>",
+      "category": "Business Tools",
+      "tags": [
+        "india",
+        "sales",
+        "growth",
+        "market",
+        "auto"
+      ],
+      "readTime": 3,
+      "slug": "maruti-suzuki-sales",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "850b2bac069d",
+      "originalUrl": "https://wccftech.com/amd-prepares-linux-driver-support-for-rdna-5-gpus-with-new-dcn6-display-engine-patches/",
+      "originalTitle": "AMD Prepares Linux Driver Support For RDNA 5 GPUs With New DCN6 Display Engine Patches",
+      "source": "Sarfraz Khan",
+      "imageUrl": "https://cdn.wccftech.com/wp-content/uploads/2025/08/AMD-RDNA-5-Radeon-Gaming-GPUs-Cores-F-gigapixel-low_res-scale-4_00x-Custom-1920x1078.jpg",
+      "publishedDate": "2026-08-01 13:14:50 +0000",
+      "createdAt": "2026-08-01T13:26:50.527Z",
+      "title": "AMD Linux Support",
+      "metaDescription": "AMD Linux driver support",
+      "keywords": [
+        "AMD",
+        "Linux",
+        "RDNA 5",
+        "DCN6",
+        "GPU"
+      ],
+      "summary": "AMD introduces Linux driver support for upcoming RDNA 5 GPUs, enhancing display capabilities. This move is crucial for Indian businesses relying on Linux-based systems. The development may impact the Indian market's graphics processing needs.",
+      "content": "<h2>Introduction of DCN6 Display Engine</h2><p>AMD has introduced initial support for Display Core Next 6 (DCN6) in Linux, laying the groundwork for the upcoming RDNA 5 graphics architecture. This development is significant for Indian businesses that utilize Linux-based systems, as it enhances display capabilities and paves the way for more efficient graphics processing.</p><h2>Impact on Indian Businesses</h2><p>The introduction of DCN6 display engine patches in Linux may have a positive impact on Indian businesses, particularly those in the fields of gaming, graphics design, and video production. With improved display capabilities, Indian companies can expect better performance and efficiency in their operations.</p><h2>Key Features</h2><p>The new DCN6 display engine patches offer several key features, including:<ul><li>Improved display capabilities</li><li>Enhanced graphics processing</li><li>Support for upcoming RDNA 5 GPUs</li><li>Compatibility with Linux-based systems</li><li>Increased efficiency and performance</li></ul></p>",
+      "category": "Business Tools",
+      "tags": [
+        "linux",
+        "gpu",
+        "amd",
+        "rdna",
+        "dcn6"
+      ],
+      "readTime": 3,
+      "slug": "amd-linux-support",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "6777f1023654",
       "originalUrl": "https://www.twelfthmagpie.com/2026/08/01/i-asked-chatgpt-for-the-probability-of-spacex-stock-falling-below-90-it-said/",
       "originalTitle": "I asked ChatGPT for the probability of SpaceX stock falling below $90. It said...",
@@ -6533,75 +6599,9 @@
       "status": "published",
       "featured": false,
       "sitemapAdded": false
-    },
-    {
-      "id": "6850fa6ea243",
-      "originalUrl": "https://www.techradar.com/pro/the-ai-trust-gap-no-scaling-without-quality-management",
-      "originalTitle": "The AI trust gap: No scaling without quality management",
-      "source": "Venkatesh Sriraman",
-      "imageUrl": null,
-      "publishedDate": "2026-07-07 14:27:11 +0000",
-      "createdAt": "2026-07-07T14:42:51.465Z",
-      "title": "AI Trust Gap",
-      "metaDescription": "AI trust gap and quality management",
-      "keywords": [
-        "AI",
-        "trust",
-        "quality management",
-        "governance",
-        "scaling"
-      ],
-      "summary": "Indian businesses looking to scale AI solutions must prioritize trust, testing, and governance to unlock their full potential. Effective quality management is crucial to bridging the AI trust gap. By doing so, companies can ensure reliable and efficient AI systems.",
-      "content": "<h2>Introduction to AI Trust Gap</h2><p>The increasing adoption of Artificial Intelligence (AI) in Indian businesses has led to a growing concern about the AI trust gap. As companies strive to scale their AI solutions, they must prioritize trust, testing, and governance to unlock their full potential. This is particularly relevant in the Indian market, where the RBI and SEBI have emphasized the importance of robust governance and risk management frameworks.</p><h2>Importance of Quality Management</h2><p>Effective quality management is crucial to bridging the AI trust gap. It involves ensuring that AI systems are reliable, efficient, and transparent. Indian businesses must invest in robust testing and validation protocols to guarantee the accuracy and fairness of their AI models. Moreover, they must establish clear governance structures to oversee the development and deployment of AI solutions.</p><h2>Benefits of Addressing the AI Trust Gap</h2><p>By addressing the AI trust gap, Indian businesses can reap significant benefits. These include improved customer trust, enhanced regulatory compliance, and increased competitiveness. Moreover, companies that prioritize quality management and governance can mitigate the risks associated with AI adoption, such as data breaches and algorithmic bias.</p><p>To achieve these benefits, Indian businesses can take several steps: <ul><li>Develop and implement robust testing and validation protocols</li><li>Establish clear governance structures and oversight mechanisms</li><li>Invest in employee training and education on AI and quality management</li><li>Engage with stakeholders to build trust and transparency</li><li>Continuously monitor and evaluate AI systems to ensure they are fair and unbiased</li></ul></p>",
-      "category": "AI & Automation",
-      "tags": [
-        "ai",
-        "trust",
-        "quality",
-        "governance",
-        "scaling"
-      ],
-      "readTime": 3,
-      "slug": "ai-trust-gap",
-      "status": "published",
-      "featured": false,
-      "sitemapAdded": false
-    },
-    {
-      "id": "7522614ea94f",
-      "originalUrl": "https://seekingalpha.com/article/4920325-burford-capital-at-a-lower-price-i-could-be-convinced?source=feed_all_articles",
-      "originalTitle": "Burford Capital: At A Lower Price, I Could Be Convinced",
-      "source": "seekingalpha.com",
-      "imageUrl": null,
-      "publishedDate": "2026-07-07 14:22:33 +0000",
-      "createdAt": "2026-07-07T14:42:56.584Z",
-      "title": "Burford Capital",
-      "metaDescription": "Burford Capital investment",
-      "keywords": [
-        "investment",
-        "finance",
-        "Burford Capital",
-        "market trends",
-        "business growth"
-      ],
-      "summary": "Burford Capital's potential as an investment opportunity is being considered, Indian business owners should be aware of global market trends to make informed decisions. The company's performance and valuation are key factors in determining its attractiveness. As the Indian market continues to evolve, understanding such investment opportunities can be beneficial for business growth.",
-      "content": "<h2>Introduction to Burford Capital</h2><p>Burford Capital, a leading global finance firm, has been under consideration for investment. With its unique approach to financing legal cases, the company has garnered attention from investors worldwide. However, the decision to invest in Burford Capital depends on various factors, including its current price and market valuation.</p><h2>Market Trends and Valuation</h2><p>The Indian market, with its growing economy and increasing demand for financial services, presents an opportunity for companies like Burford Capital to expand their operations. The Reserve Bank of India (RBI) and the Securities and Exchange Board of India (SEBI) play crucial roles in regulating the financial sector, ensuring that companies operate within established guidelines. Understanding these regulations and market trends is essential for business owners and investors in India.</p><h2>Potential for Growth</h2><p>As the Indian market continues to grow, companies like Burford Capital may find opportunities to expand their services, catering to the increasing demand for financial solutions. By understanding the potential for growth and the regulatory environment, Indian business owners can make informed decisions about investments and partnerships. A lower price for Burford Capital could make it a more attractive investment opportunity, but it is crucial to consider all factors before making a decision.</p>",
-      "category": "Finance & Markets",
-      "tags": [
-        "finance",
-        "investment",
-        "growth",
-        "market",
-        "trends"
-      ],
-      "readTime": 3,
-      "slug": "burford-capital",
-      "status": "published",
-      "featured": false,
-      "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-08-01T08:24:34.388Z",
+  "lastUpdated": "2026-08-01T13:26:50.528Z",
   "totalCount": 200,
   "schema": "2.0"
 }
