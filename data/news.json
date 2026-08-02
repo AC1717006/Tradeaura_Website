@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "88ee607b82b3",
+      "originalUrl": "https://www.business-standard.com/companies/news/coal-india-july-production-supplies-growth-fy27-126080200077_1.html",
+      "originalTitle": "Coal India July coal supplies hit record high, production rises 8.44%",
+      "source": "Business Standard; Sudheer Pal Singh",
+      "imageUrl": "https://bsmedia.business-standard.com/_media/bs/img/article/2023-03/27/thumb/fitandfill/1200X628/1679929152-9587.jpg",
+      "publishedDate": "2026-08-02 01:58:30 +0000",
+      "createdAt": "2026-08-02T03:15:48.773Z",
+      "title": "Coal India Output",
+      "metaDescription": "Coal India production rises",
+      "keywords": [
+        "Coal India",
+        "coal production",
+        "Indian market",
+        "energy sector",
+        "mining"
+      ],
+      "summary": "Coal India's July coal supplies reached a record high, with production growing 8.44%. This surge in coal offtake is expected to positively impact the Indian energy sector. The increased production will help meet the rising demand for coal in India.",
+      "content": "<h2>Record Coal Supplies</h2><p>Coal India reported that its July coal supplies rose to 64.19 million tonnes (MT), the highest-ever coal offtake for the month in the company's history. The production grew to 50.36 MT, an 8.44% increase from the previous year.</p><p>The significant rise in coal supplies is expected to have a positive impact on the Indian energy sector, which is heavily reliant on coal for power generation. The increased production will help meet the rising demand for coal in India, driven by the growing economy and industrialization.</p><h2>Key Highlights</h2><ul><li>Coal India's July coal supplies reached a record high of 64.19 MT</li><li>Production grew to 50.36 MT, an 8.44% increase from the previous year</li><li>The increased production is expected to positively impact the Indian energy sector</li><li>The surge in coal offtake will help meet the rising demand for coal in India</li><li>The growth in coal production is a positive sign for the Indian economy</ul>",
+      "category": "Business Tools",
+      "tags": [
+        "coal",
+        "energy",
+        "india",
+        "mining",
+        "production"
+      ],
+      "readTime": 3,
+      "slug": "coal-india-output",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "d86ad07aac40",
+      "originalUrl": "https://www.androidauthority.com/google-search-time-filters-broken-3693606/",
+      "originalTitle": "It’s not just you: This fundamental Google Search feature is broken worldwide",
+      "source": "Adamya Sharma",
+      "imageUrl": null,
+      "publishedDate": "2026-08-02 02:06:07 +0000",
+      "createdAt": "2026-08-02T03:15:53.987Z",
+      "title": "Google Search Issue",
+      "metaDescription": "Google Search time filters broken",
+      "keywords": [
+        "google search",
+        "time filters",
+        "search engine",
+        "online search",
+        "digital tools"
+      ],
+      "summary": "Indian business owners relying on Google Search for market research and analysis may be affected by the current issue with time filters. This disruption can impact their ability to find relevant and up-to-date information. As a result, businesses may need to explore alternative search methods or tools to stay informed.",
+      "content": "<h2>Google Search Time Filters Not Working</h2><p>Google Search, a widely used tool for Indian businesses to stay informed and conduct market research, is currently experiencing an issue with its time filters. This feature, which allows users to narrow down search results by specific time ranges, is no longer functioning as expected. As a result, users may encounter difficulties in finding relevant and recent information, which can be crucial for business decision-making.</p><h2>Impact on Indian Businesses</h2><p>The disruption of Google Search time filters can have significant implications for Indian businesses, particularly those that rely heavily on online research and analysis. With the Indian market becoming increasingly digital, the ability to access accurate and timely information is essential for businesses to stay competitive. In light of this issue, Indian businesses may need to explore alternative search methods or tools to ensure they remain informed and up-to-date.</p><h2>Possible Solutions</h2><p>Some possible solutions for Indian businesses affected by this issue include using alternative search engines or exploring specialized search tools that cater to specific industries or needs. Additionally, businesses can also consider using other online resources, such as news websites or industry publications, to stay informed about the latest developments in their respective fields. By being aware of this issue and exploring alternative solutions, Indian businesses can minimize the impact of the Google Search time filter disruption and continue to operate effectively.</p>",
+      "category": "Google & Marketing",
+      "tags": [
+        "search",
+        "google",
+        "tools",
+        "business",
+        "digital"
+      ],
+      "readTime": 3,
+      "slug": "google-search-issue",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "4862bdbe35f5",
       "originalUrl": "https://seekingalpha.com/news/4623113-trending-stocks-this-week-as-big-tech-earnings-fed-decision-sway-markets?feed_item_type=news",
       "originalTitle": "Trending stocks this week as Big Tech earnings, Fed decision sway markets",
@@ -6533,75 +6599,9 @@
       "status": "published",
       "featured": false,
       "sitemapAdded": false
-    },
-    {
-      "id": "c26c6054179b",
-      "originalUrl": "https://www.reddit.com/r/quant/comments/1uqfv2w/architectures_for_hft_mldl/",
-      "originalTitle": "Architectures for HFT ML/DL",
-      "source": "/u/quantum_hedge",
-      "imageUrl": null,
-      "publishedDate": "2026-07-08 02:29:30 +0000",
-      "createdAt": "2026-07-08T02:56:22.731Z",
-      "title": "HFT ML Models",
-      "metaDescription": "High frequency trading machine learning",
-      "keywords": [
-        "machine learning",
-        "high frequency trading",
-        "financial markets",
-        "algorithmic trading",
-        "artificial intelligence"
-      ],
-      "summary": "Indian businesses can leverage machine learning and high frequency trading to make data-driven decisions in the financial markets. By incorporating news data, fx, and constant features, companies can expand their universe of features. This can lead to more accurate predictions and better investment strategies.",
-      "content": "<h2>Introduction to HFT ML Models</h2><p>High frequency trading (HFT) involves using powerful computers to rapidly execute trades in the financial markets. Machine learning (ML) and deep learning (DL) play a crucial role in HFT, enabling companies to make data-driven decisions and stay ahead of the competition.</p><h2>Expanding the Universe of Features</h2><p>To improve the accuracy of HFT ML models, Indian businesses can consider incorporating additional features such as intraday news data, fx, and constant features. This can be achieved by using a universal model that updates a feature vector X for each instrument tick, concatenating features of the own instrument order book and other relevant features.</p><h2>Key Considerations</h2><p>When expanding the universe of features, Indian companies should consider the following factors: <ul><li>data quality and availability</li><li>feature engineering and selection</li><li>model complexity and interpretability</li><li>regulatory compliance and risk management</li><li>scalability and performance</li></ul></p>",
-      "category": "AI & Automation",
-      "tags": [
-        "finance",
-        "trading",
-        "machine",
-        "learning",
-        "models"
-      ],
-      "readTime": 3,
-      "slug": "hft-ml-models",
-      "status": "published",
-      "featured": false,
-      "sitemapAdded": false
-    },
-    {
-      "id": "a8c920ae8d79",
-      "originalUrl": "https://www.cnbc.com/video/2026/07/08/yinglan-tan.html",
-      "originalTitle": "Stablecoins, AI-biotech could drive next VC wave: Insignia Ventures Partners",
-      "source": "www.cnbc.com",
-      "imageUrl": "https://image.cnbcfm.com/api/v1/image/108331809-17834743621783474358-47024912686-1080pnbcnews.jpg?v=1783474361&w=1920&h=1080",
-      "publishedDate": "2026-07-08 02:29:09 +0000",
-      "createdAt": "2026-07-08T02:56:27.714Z",
-      "title": "VC Trends",
-      "metaDescription": "stablecoins AI biotech",
-      "keywords": [
-        "stablecoins",
-        "AI",
-        "biotech",
-        "venture capital",
-        "startup"
-      ],
-      "summary": "Insignia Ventures Partners predicts that stablecoins, AI-biotech integration, and agentic payments will drive the next venture capital wave, with Southeast Asian countries emerging as key startup hubs, potentially influencing the Indian market. Indian business owners and startup founders can learn from these trends. The Indian market may see similar investments in these areas.",
-      "content": "<h2>Emerging Trends in Venture Capital</h2><p>According to Yinglan Tan of Insignia Ventures Partners, the next wave of venture capital investments will be driven by areas such as stablecoins, AI's integration with biotech, and agentic payments. Beyond Singapore and Indonesia, Vietnam and Malaysia are emerging as key startup hubs in Southeast Asia, and this trend may have implications for the Indian market.</p><p>Indian business owners and startup founders can learn from these trends and explore opportunities for growth and investment in these areas. The integration of AI with biotech, in particular, has the potential to drive innovation and disruption in various industries.</p><h2>Key Areas of Investment</h2><ul><li>Stablecoins: a type of cryptocurrency that is pegged to a stable asset, such as a fiat currency</li><li>AI-biotech integration: the use of artificial intelligence in biotechnology to drive innovation and discovery</li><li>Agentic payments: a type of payment system that uses AI and machine learning to facilitate transactions</li></ul><p>As the Indian market continues to evolve and grow, it is likely that we will see similar investments in these areas, driven by the growing demand for innovative technologies and solutions.</p>",
-      "category": "MarTech",
-      "tags": [
-        "trends",
-        "vc",
-        "startup",
-        "asia",
-        "tech"
-      ],
-      "readTime": 3,
-      "slug": "vc-trends",
-      "status": "published",
-      "featured": false,
-      "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-08-01T19:12:22.034Z",
+  "lastUpdated": "2026-08-02T03:15:53.988Z",
   "totalCount": 200,
   "schema": "2.0"
 }
