@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "13cde878aaf1",
+      "originalUrl": "https://www.investing.com/news/stock-market-news/meta-cuts-wipro-outsourcing-work-by-at-least-25-mint-93CH-4829754",
+      "originalTitle": "Meta cuts Wipro outsourcing work by at least 25%- Mint By Investing.com",
+      "source": "www.investing.com",
+      "imageUrl": "https://i-invdn-com.investing.com/news/facebook_2_800x533_L_1412668233.jpg",
+      "publishedDate": "2026-08-03 02:56:19 +0000",
+      "createdAt": "2026-08-03T03:17:43.852Z",
+      "title": "Meta Cuts Wipro Work",
+      "metaDescription": "Meta reduces Wipro outsourcing work",
+      "keywords": [
+        "Meta",
+        "Wipro",
+        "outsourcing",
+        "business",
+        "India"
+      ],
+      "summary": "Meta has reduced its outsourcing work with Wipro by at least 25%, impacting the Indian IT sector. This move may affect Wipro's revenue and India's business landscape. Indian business owners should be aware of this development and its potential implications.",
+      "content": "<h2>Impact on Indian IT Sector</h2><p>Meta, a leading technology company, has cut its outsourcing work with Wipro, a major Indian IT firm, by at least 25%. This decision may have significant implications for Wipro's revenue and the Indian IT sector as a whole. As the Indian economy continues to grow, such developments can affect the business landscape and influence decisions made by Indian business owners and startup founders.</p><h2>Reasons Behind the Decision</h2><p>The reasons behind Meta's decision to reduce its outsourcing work with Wipro are not entirely clear. However, it is likely that the company is looking to optimize its operations and reduce costs. This move may also be part of a larger strategy to streamline its outsourcing partnerships and improve efficiency. Indian businesses should be aware of these trends and adjust their strategies accordingly.</p><h2>Key Takeaways</h2><ul><li>Meta has reduced its outsourcing work with Wipro by at least 25%.</li><li>This decision may impact Wipro's revenue and the Indian IT sector.</li><li>Indian business owners and startup founders should be aware of this development and its potential implications.</li><li>The Indian economy continues to grow, and such developments can affect the business landscape.</li><li>Companies should adjust their strategies to stay competitive in the market.</li></ul>",
+      "category": "Business Tools",
+      "tags": [
+        "india",
+        "business",
+        "tech",
+        "news",
+        "outsourcing"
+      ],
+      "readTime": 3,
+      "slug": "meta-cuts-wipro-work",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "8a8abd4ed2c8",
+      "originalUrl": "https://vulners.com/cve/CVE-2026-58059",
+      "originalTitle": "CVE-2026-58059 Quadratic-time escaping when stringifying X.500 distinguished names",
+      "source": "vulners.com",
+      "imageUrl": null,
+      "publishedDate": "2026-08-03 02:41:30 +0000",
+      "createdAt": "2026-08-03T03:17:48.527Z",
+      "title": "CVE-2026-58059",
+      "metaDescription": "CVE-2026-58059 vulnerability",
+      "keywords": [
+        "CVE-2026-58059",
+        "Bouncy Castle",
+        "Java",
+        "X.500",
+        "vulnerability"
+      ],
+      "summary": "A quadratic-time escaping vulnerability was discovered in Bouncy Castle for Java, affecting versions before 1.85, which can impact Indian businesses using Java-based applications. This issue also affects Bouncy Castle for Java LTS and FIPS versions. Indian businesses should update their systems to prevent potential attacks.",
+      "content": "<h2>Vulnerability Overview</h2><p>A quadratic-time escaping vulnerability, identified as CVE-2026-58059, has been discovered in Bouncy Castle for Java, a popular cryptographic library used in various applications. This vulnerability affects Bouncy Castle for Java versions before 1.85, as well as Bouncy Castle for Java LTS before 2.73.12 and Bouncy Castle for Java FIPS BC-FJA before bc-fips 1.0.2.7.</p><p>Indian businesses using Java-based applications should be aware of this vulnerability and take necessary steps to update their systems. The vulnerability can be exploited when stringifying X.500 distinguished names, potentially leading to Denial-of-Service (DoS) attacks.</p><h2>Affected Versions</h2><p>The following versions are affected by this vulnerability:</p><ul><li>Bouncy Castle for Java before 1.85</li><li>Bouncy Castle for Java LTS before 2.73.12</li><li>Bouncy Castle for Java FIPS BC-FJA before bc-fips 1.0.2.7</li></ul><p>Indian businesses should update their systems to the latest versions to prevent potential attacks and ensure the security of their applications.</p>",
+      "category": "SaaS & Software",
+      "tags": [
+        "java",
+        "security",
+        "vulnerability",
+        "bouncycastle",
+        "cve"
+      ],
+      "readTime": 3,
+      "slug": "cve-2026-58059",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "af2997498854",
       "originalUrl": "https://www.investing.com/news/stock-market-news/this-countrys-stock-market-may-do-better-than-most-if-ai-bubble-pops-analyst-4829705",
       "originalTitle": "This country’s stock market may do better than most if AI bubble pops: Analyst By Investing.com",
@@ -6533,75 +6599,9 @@
       "status": "published",
       "featured": false,
       "sitemapAdded": false
-    },
-    {
-      "id": "61e41c07355a",
-      "originalUrl": "https://www.business-standard.com/companies/news/us-judge-seeks-more-details-from-adani-on-doj-move-to-drop-bribery-case-126070900121_1.html",
-      "originalTitle": "US judge seeks more details from Adani on DOJ move to drop bribery case",
-      "source": "Business Standard; Bloomberg",
-      "imageUrl": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-05/15/thumb/fitandfill/1200X628/1778817512-726.jpg",
-      "publishedDate": "2026-07-09 02:45:51 +0000",
-      "createdAt": "2026-07-09T03:35:09.399Z",
-      "title": "Adani Case Update",
-      "metaDescription": "Adani bribery case update",
-      "keywords": [
-        "Adani",
-        "bribery case",
-        "Indian business",
-        "US judge",
-        "DOJ"
-      ],
-      "summary": "A US judge has sought more details from Adani regarding the DOJ's move to drop a bribery case. This development may have implications for Indian businesses operating globally. The case is being closely watched in the Indian market.",
-      "content": "<h2>US Judge Seeks More Details from Adani</h2><p>A US judge has directed Adani to file sworn responses by July 15 regarding the DOJ's move to dismiss a bribery indictment. This move is part of an ongoing case that may have significant implications for Indian businesses operating in the global market.</p><p>The judge's decision is seen as an effort to ensure transparency and accountability in the case. The Indian business community is watching the developments closely, as the outcome may set a precedent for future cases involving Indian companies.</p><h2>Implications for Indian Businesses</h2><p>The case highlights the importance of compliance with international laws and regulations for Indian businesses operating globally. Indian companies must ensure that they are adhering to the highest standards of ethics and transparency to avoid such situations.</p><p>The development is also being closely watched by regulatory bodies in India, such as the RBI and SEBI, which are responsible for overseeing the activities of Indian companies. The outcome of the case may lead to increased scrutiny of Indian businesses operating abroad.</p>",
-      "category": "Business Tools",
-      "tags": [
-        "india",
-        "business",
-        "law",
-        "compliance",
-        "regulation"
-      ],
-      "readTime": 3,
-      "slug": "adani-case-update",
-      "status": "published",
-      "featured": false,
-      "sitemapAdded": false
-    },
-    {
-      "id": "204f056ab892",
-      "originalUrl": "https://www.techinasia.com/mistral-ai-raises-2b-series-c-at-13-8b-valuation",
-      "originalTitle": "Mistral AI introduces navigation model for robots",
-      "source": "Diya Lal",
-      "imageUrl": null,
-      "publishedDate": "2026-07-09 03:30:01 +0000",
-      "createdAt": "2026-07-09T03:35:14.473Z",
-      "title": "Robot Nav",
-      "metaDescription": "Mistral AI navigation model",
-      "keywords": [
-        "robot navigation",
-        "Mistral AI",
-        "robotics",
-        "AI technology",
-        "automation"
-      ],
-      "summary": "Mistral AI introduces a navigation model for robots, which can be relevant to Indian businesses looking to automate their operations, the technology uses a single camera and RGB images to guide various types of robots, potentially increasing efficiency in the Indian market, especially in industries like manufacturing and logistics, with the RBI and SEBI promoting innovation and digital transformation in the country",
-      "content": "<h2>Introduction to Robot Navigation</h2><p>Mistral AI has introduced a navigation model for robots called Robostral Navigate, which uses a single camera and RGB images to guide various types of robots. This technology has the potential to increase efficiency in various industries, including manufacturing and logistics. In the Indian market, this technology can be particularly useful, given the country's focus on digital transformation and innovation.</p><h2>Key Features</h2><p>The Robostral Navigate model is designed to be versatile and can be used with different types of robots. The use of a single camera and RGB images makes it a cost-effective solution for businesses looking to automate their operations. Some of the key features of this model include:</p><ul><li>Single camera navigation</li><li>RGB image guidance</li><li>Versatility in robot compatibility</li><li>Cost-effectiveness</li><li>Potential for increased efficiency</li></ul><p>As Indian businesses continue to look for ways to innovate and automate their operations, the introduction of this navigation model can be a significant development. With the support of regulatory bodies like the RBI and SEBI, the Indian market is poised for growth in the field of robotics and AI.</p>",
-      "category": "AI & Automation",
-      "tags": [
-        "robots",
-        "ai",
-        "nav",
-        "tech",
-        "auto"
-      ],
-      "readTime": 3,
-      "slug": "robot-nav",
-      "status": "published",
-      "featured": false,
-      "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-08-02T19:14:27.310Z",
+  "lastUpdated": "2026-08-03T03:17:48.527Z",
   "totalCount": 200,
   "schema": "2.0"
 }
