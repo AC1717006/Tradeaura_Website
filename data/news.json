@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "26a6487bf307",
+      "originalUrl": "https://www.investing.com/news/stock-market-news/alibababacked-3d-ai-startup-vast-weighs-hong-kong-listing-bloomberg-reports-4832729",
+      "originalTitle": "Alibaba-backed 3D AI startup Vast weighs Hong Kong listing, Bloomberg reports By Investing.com",
+      "source": "Ayushman Ojha",
+      "imageUrl": "https://i-invdn-com.investing.com/news/https://content-media.investing.com/news/moved_LYNXMPEM4K0F0_L.jpg",
+      "publishedDate": "2026-08-04 02:19:33 +0000",
+      "createdAt": "2026-08-04T02:46:55.888Z",
+      "title": "Vast AI Listing",
+      "metaDescription": "Vast AI listing news",
+      "keywords": [
+        "Alibaba",
+        "Vast",
+        "AI",
+        "Hong Kong",
+        "listing"
+      ],
+      "summary": "Alibaba-backed Vast, a 3D AI startup, considers listing in Hong Kong, as reported by Bloomberg, indicating a growing trend of AI startups exploring public markets, which may have implications for the Indian market and RBI regulations. This development reflects the increasing importance of AI in business. Indian business owners should take note of global AI trends.",
+      "content": "<h2>Vast AI Listing Plans</h2><p>According to a report by Bloomberg, Vast, a 3D AI startup backed by Alibaba, is weighing its options for a listing in Hong Kong. This move is significant, as it indicates a growing trend of AI startups exploring public markets. The development of AI technology has been rapid, and its applications are being felt across various industries.</p><p>The potential listing of Vast in Hong Kong is a testament to the city's status as a hub for technology and finance. The move may also have implications for the Indian market, as Indian business owners and startup founders look to explore similar opportunities. The RBI and SEBI regulations will play a crucial role in shaping the landscape for AI startups in India.</p><h2>Implications for Indian Businesses</h2><p>Indian business owners and startup founders should take note of the global trends in AI and explore ways to leverage this technology to drive growth and innovation. The Indian market presents a unique opportunity for AI startups, with a large and growing consumer base and a favorable business environment.</p><ul><li>A growing demand for AI-powered solutions</li><li>Increasing investments in AI startups</li><li>Expanding applications of AI across industries</li><li>Emerging regulatory frameworks for AI</li><li>Growing competition in the AI space</li></ul>",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "vast",
+        "alibaba",
+        "listing",
+        "hongkong"
+      ],
+      "readTime": 3,
+      "slug": "vast-ai-listing",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "0d125d3dc08e",
+      "originalUrl": "https://indianexpress.com/article/technology/artificial-intelligence/trump-ai-framework-openai-google-anthropic-meeting-10816796/",
+      "originalTitle": "OpenAI, Anthropic, Google and Meta to join White House AI security meeting",
+      "source": "Tech Desk",
+      "imageUrl": "https://images.indianexpress.com/2026/08/OpenAI-White-House-meeting.jpg",
+      "publishedDate": "2026-08-04 02:31:25 +0000",
+      "createdAt": "2026-08-04T02:47:00.794Z",
+      "title": "AI Security Meet",
+      "metaDescription": "AI cybersecurity framework",
+      "keywords": [
+        "AI Security",
+        "Cybersecurity Framework",
+        "Artificial Intelligence",
+        "US Government",
+        "AI Models"
+      ],
+      "summary": "The US government is set to meet with major AI companies to discuss a new AI cybersecurity framework, which may have implications for Indian businesses using AI technology. The framework aims to evaluate advanced AI models before release. Indian companies may need to adapt to similar regulations in the future.",
+      "content": "<h2>Introduction to AI Security</h2><p>The White House is set to meet with OpenAI, Google, and Anthropic to discuss a new AI cybersecurity framework that would allow the US government to evaluate advanced AI models before they are released. This framework is designed to address the growing concerns around AI security and its potential impact on businesses and individuals.</p><h2>Implications for Indian Businesses</h2><p>Although the meeting is focused on the US government, the implications of this framework may be felt by Indian businesses that use AI technology. As India's RBI and SEBI continue to monitor the use of AI in the Indian market, it is possible that similar regulations may be introduced in the future. Indian business owners and startup founders should be aware of these developments and consider how they may impact their operations.</p><h2>Key Considerations</h2><p>Some key considerations for Indian businesses include:<ul><li>Understanding the potential risks and benefits of AI technology</li><li>Developing strategies to mitigate AI security risks</li><li>Staying up-to-date with the latest developments in AI regulation</li><li>Collaborating with other businesses and organizations to share best practices</li><li>Investing in AI security research and development</li></ul></p>",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "security",
+        "business",
+        "technology",
+        "regulation"
+      ],
+      "readTime": 3,
+      "slug": "ai-security-meet",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "c3e87940f8ff",
       "originalUrl": "https://www.investing.com/news/company-news/onterris-appoints-kurt-beil-to-lead-global-consulting-business-93CH-4832122",
       "originalTitle": "Onterris appoints Kurt Beil to lead global consulting business By Investing.com",
@@ -6533,75 +6599,9 @@
       "status": "published",
       "featured": false,
       "sitemapAdded": false
-    },
-    {
-      "id": "a8e009607537",
-      "originalUrl": "https://www.business-standard.com/companies/news/sbi-to-sell-1-42-stake-in-sbi-funds-management-in-pre-ipo-placement-126071000071_1.html",
-      "originalTitle": "SBI to sell 1.42% stake in SBI Funds Management in pre-IPO placement",
-      "source": "Business Standard; Reuters",
-      "imageUrl": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-07/09/thumb/fitandfill/1200X628/1783600816-8212.jpg",
-      "publishedDate": "2026-07-10 02:50:24 +0000",
-      "createdAt": "2026-07-10T03:36:49.675Z",
-      "title": "SBI Stake Sale",
-      "metaDescription": "SBI sells 1.42% stake in SBI Funds Management",
-      "keywords": [
-        "SBI Funds Management",
-        "IPO placement",
-        "stake sale",
-        "institutional demand",
-        "valuation"
-      ],
-      "summary": "State Bank of India is selling a 1.42% stake in SBI Funds Management in a pre-IPO placement, providing an early benchmark for the unit's valuation and indicating institutional demand before public offering. This move is significant for the Indian market as it sets a precedent for similar transactions. The sale is expected to have implications for the Indian financial sector.",
-      "content": "<h2>SBI Funds Management Stake Sale</h2><p>The State Bank of India (SBI) is selling a 1.42% stake in SBI Funds Management in a pre-IPO placement at ₹574 per share, which is the top end of the asset manager's IPO price band. This stake sale provides an early benchmark for the unit's valuation and indicates institutional demand before the public offering.</p><p>The sale is significant for the Indian market as it sets a precedent for similar transactions. The Indian financial sector is expected to be impacted by this move, with potential implications for other asset management companies. The demand for SBI Funds Management's IPO is likely to be high, given the company's strong track record and the growing demand for investment products in India.</p><h2>Implications for the Indian Market</h2><p>The stake sale is expected to have a positive impact on the Indian market, as it demonstrates the confidence of institutional investors in the country's financial sector. The sale is also likely to attract more foreign investment into the Indian market, which could lead to increased liquidity and deeper capital markets.</p><p>The following are some key points to note about the stake sale:<ul><li>The stake sale is for 1.42% of SBI Funds Management</li><li>The sale price is ₹574 per share, which is the top end of the IPO price band</li><li>The sale is expected to provide an early benchmark for the unit's valuation</li><li>The demand for SBI Funds Management's IPO is likely to be high</li><li>The sale is expected to have a positive impact on the Indian market</li></ul></p>",
-      "category": "Finance & Markets",
-      "tags": [
-        "finance",
-        "investing",
-        "ipo",
-        "banking",
-        "market"
-      ],
-      "readTime": 3,
-      "slug": "sbi-stake-sale",
-      "status": "published",
-      "featured": false,
-      "sitemapAdded": false
-    },
-    {
-      "id": "6118f51c399e",
-      "originalUrl": "https://www.digitaltrends.com/computing/chatgpt-is-coming-for-one-of-googles-smartest-chrome-features/",
-      "originalTitle": "ChatGPT is coming for one of Google’s smartest Chrome features",
-      "source": "Moinak Pal",
-      "imageUrl": "https://www.digitaltrends.com/tachyon/2026/03/DT-2026-03-24T011153.319.jpg?resize=1200%2C630",
-      "publishedDate": "2026-07-10 02:24:49 +0000",
-      "createdAt": "2026-07-10T03:36:54.770Z",
-      "title": "ChatGPT Chrome Extension",
-      "metaDescription": "ChatGPT challenges Google's Gemini",
-      "keywords": [
-        "ChatGPT",
-        "Chrome Extension",
-        "AI",
-        "Google Gemini",
-        "Automation"
-      ],
-      "summary": "OpenAI's ChatGPT Chrome extension brings AI-powered features to Indian businesses, competing with Google's Gemini Side Panel. This development can impact Indian companies' browsing and task automation experiences. Indian entrepreneurs can leverage this technology to enhance productivity.",
-      "content": "<h2>Introduction to ChatGPT Chrome Extension</h2><p>OpenAI has launched a new ChatGPT Chrome extension, aiming to provide context-aware AI capabilities directly within the browser. This move is seen as a challenge to Google's Gemini Side Panel, which offers webpage summaries, explanations, and task automation. The ChatGPT Chrome extension can summarize webpages, explain complex concepts, and automate tasks, making it a valuable tool for Indian businesses and entrepreneurs.</p><h2>Key Features and Implications</h2><p>The ChatGPT Chrome extension can have significant implications for Indian companies, particularly in terms of productivity and efficiency. Some of the key features include:<ul><li>Context-aware AI: The extension uses AI to understand the context of the webpage and provide relevant information.</li><li>Webpage summaries: ChatGPT can summarize long webpages, saving time and effort for Indian business owners.</li><li>Task automation: The extension can automate tasks, such as data entry and research, freeing up time for more strategic activities.</li></ul></p><h2>Conclusion</h2><p>In conclusion, the ChatGPT Chrome extension is a powerful tool that can benefit Indian businesses and entrepreneurs. As the Indian market continues to evolve, it is essential for companies to leverage the latest technologies to stay competitive. The ChatGPT Chrome extension is definitely worth exploring for those looking to enhance their productivity and efficiency.</p>",
-      "category": "AI & Automation",
-      "tags": [
-        "ai",
-        "chrome",
-        "extension",
-        "business",
-        "productivity"
-      ],
-      "readTime": 3,
-      "slug": "chatgpt-chrome-extension",
-      "status": "published",
-      "featured": false,
-      "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-08-03T19:41:18.136Z",
+  "lastUpdated": "2026-08-04T02:47:00.795Z",
   "totalCount": 200,
   "schema": "2.0"
 }
