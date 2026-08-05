@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "0cacda105147",
+      "originalUrl": "https://www.investing.com/news/stock-market-news/wacker-chemie-hits-3week-high-after-reuters-report-on-us-polysilicon-plans-4836565",
+      "originalTitle": "Wacker Chemie hits 3-week high after Reuters report on U.S. polysilicon plans By Investing.com",
+      "source": "Roushni Nair",
+      "imageUrl": "https://i-invdn-com.investing.com/news/https://content-media.investing.com/news/news_arrow_up_800x533_L_1414401892.jpg",
+      "publishedDate": "2026-08-05 07:58:14 +0000",
+      "createdAt": "2026-08-05T08:39:57.437Z",
+      "title": "Chemie Stock Rises",
+      "metaDescription": "Wacker Chemie hits 3-week high",
+      "keywords": [
+        "Wacker Chemie",
+        "polysilicon",
+        "stock market",
+        "chemical industry",
+        "market trends"
+      ],
+      "summary": "Wacker Chemie's stock has risen to a 3-week high after a Reuters report on US polysilicon plans, indicating a positive trend in the chemical industry. This development may have implications for Indian businesses in the chemical sector. The stock market is closely watching the company's moves.",
+      "content": "<h2>Wacker Chemie's Stock Surge</h2><p>Wacker Chemie's stock has risen to a 3-week high after a Reuters report on US polysilicon plans. The report has sparked interest in the chemical industry, with many investors closely watching the company's moves. In the Indian context, this development may have implications for businesses in the chemical sector, particularly those involved in polysilicon production.</p><p>The Indian chemical industry is a significant contributor to the country's economy, and developments in the global market can have a ripple effect. As the industry continues to evolve, Indian businesses must stay informed about market trends and developments. <h2>Key Takeaways</h2><ul><li>Wacker Chemie's stock has risen to a 3-week high</li><li>The company's plans for US polysilicon production have sparked interest in the chemical industry</li><li>Indian businesses in the chemical sector may be impacted by this development</li><li>The Indian chemical industry is a significant contributor to the country's economy</li><li>Staying informed about market trends is crucial for Indian businesses</li></ul>",
+      "category": "Business Tools",
+      "tags": [
+        "industry",
+        "market",
+        "trends",
+        "business",
+        "economy"
+      ],
+      "readTime": 3,
+      "slug": "chemie-stock-rises",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "fc35acaced7b",
+      "originalUrl": "https://vuldb.com/vuln/386132",
+      "originalTitle": "CVE-2026-4431 | themeruby Easy Post Submission Plugin up to 2.3.0 on WordPress create_post postId improper authorization",
+      "source": "vuldb.com",
+      "imageUrl": null,
+      "publishedDate": "2026-08-05 08:25:50 +0000",
+      "createdAt": "2026-08-05T08:40:02.199Z",
+      "title": "WordPress Plugin Vulnerability",
+      "metaDescription": "WordPress plugin vulnerability affects authorization",
+      "keywords": [
+        "wordpress security",
+        "plugin vulnerability",
+        "authorization issue",
+        "indian business",
+        "cybersecurity"
+      ],
+      "summary": "A critical vulnerability has been reported in a WordPress plugin, affecting authorization and potentially impacting Indian businesses with online presence. This vulnerability can be exploited to manipulate post IDs, leading to improper authorization. Indian business owners using WordPress should take immediate action to update their plugins and ensure the security of their websites.",
+      "content": "<h2>Vulnerability Details</h2><p>A vulnerability marked as critical has been reported in the themeruby Easy Post Submission Plugin up to 2.3.0 on WordPress. This impacts the function create_post of the component Submission Handler, causing improper authorization due to the manipulation of the argument postId.</p><h2>Impact on Indian Businesses</h2><p>Indian businesses with an online presence using WordPress are potentially at risk due to this vulnerability. It is essential for these businesses to take immediate action to update their plugins and ensure the security of their websites. Failure to do so can lead to unauthorized access and potential data breaches.</p><h2>Recommendations</h2><p>To mitigate this vulnerability, Indian business owners should:</p><ul><li>Update the themeruby Easy Post Submission Plugin to the latest version</li><li>Monitor their website's security and performance regularly</li><li>Implement additional security measures, such as firewalls and access controls</li><li>Keep their WordPress core and other plugins up to date</li><li>Back up their website data regularly</li></ul>",
+      "category": "SaaS & Software",
+      "tags": [
+        "security",
+        "vulnerability",
+        "wordpress",
+        "plugins",
+        "cybersecurity"
+      ],
+      "readTime": 3,
+      "slug": "wordpress-plugin-vulnerability",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "e85344d26f36",
       "originalUrl": "https://seekingalpha.com/news/4625561-crexendo-targets-100m-revenue-run-rate-by-end-of-2026-while-planning-volume-46-release-in-q2",
       "originalTitle": "Crexendo targets $100M revenue run rate by end of 2026 while planning volume 46 release in Q2 2027 (NASDAQ:CXDO)",
@@ -6533,75 +6599,9 @@
       "status": "published",
       "featured": false,
       "sitemapAdded": false
-    },
-    {
-      "id": "a5b2168d126a",
-      "originalUrl": "https://www.twelfthmagpie.com/2026/07/11/how-10000-could-unlock-717-of-passive-income-overnight/",
-      "originalTitle": "How £10,000 could unlock £717 of passive income overnight!",
-      "source": "James Beard",
-      "imageUrl": "https://www.twelfthmagpie.com/wp-content/uploads/2024/07/Birmingham-1200x800.jpg",
-      "publishedDate": "2026-07-11 07:00:00 +0000",
-      "createdAt": "2026-07-11T08:00:43.799Z",
-      "title": "Passive Income",
-      "metaDescription": "Passive income strategies",
-      "keywords": [
-        "passive income",
-        "dividend shares",
-        "investment portfolio",
-        "financial growth",
-        "wealth creation"
-      ],
-      "summary": "Indian business owners can create a portfolio of high-yielding dividend shares to generate passive income, contributing to their financial growth and wealth creation. A well-diversified investment portfolio can help mitigate risks and increase returns. By adopting a strategic investment approach, Indian entrepreneurs can unlock new revenue streams and achieve long-term financial stability.",
-      "content": "<h2>Introduction to Passive Income</h2><p>Passive income is a highly sought-after concept in the Indian business landscape, where entrepreneurs and investors seek to create wealth without actively engaging in day-to-day operations. One effective way to achieve this is by building a portfolio of high-yielding dividend shares. This strategy can help Indian business owners generate significant levels of passive income, contributing to their overall financial growth and stability.</p><h2>Benefits of Dividend Shares</h2><p>Dividend shares offer a unique opportunity for Indian investors to earn regular income from their investments. By investing in established companies with a history of paying consistent dividends, Indian business owners can create a steady stream of passive income. This approach can be particularly beneficial for those looking to diversify their investment portfolio and reduce their reliance on a single income source.</p><h2>Key Considerations</h2><p>When building a portfolio of dividend shares, Indian investors should consider several key factors, including the company's financial health, dividend yield, and industry trends. It is essential to conduct thorough research and analysis to ensure that the selected companies have a strong track record of paying dividends and are well-positioned for long-term growth.</p><ul><li>Assess the company's financial health and dividend payment history</li><li>Evaluate the industry trends and competitive landscape</li><li>Diversify the investment portfolio to minimize risk</li><li>Monitor and adjust the portfolio as needed to ensure optimal performance</li><li>Consider consulting with a financial advisor to create a personalized investment strategy</li></ul>",
-      "category": "Business Tools",
-      "tags": [
-        "finance",
-        "investing",
-        "wealth",
-        "growth",
-        "income"
-      ],
-      "readTime": 3,
-      "slug": "passive-income",
-      "status": "published",
-      "featured": false,
-      "sitemapAdded": false
-    },
-    {
-      "id": "d479976837a7",
-      "originalUrl": "https://www.canonrumors.com/canon-eos-r8-mark-ii-rumored-specifications/",
-      "originalTitle": "Canon EOS R8 Mark II Rumored Specs: A 32.5MP Retro Powerhouse",
-      "source": "Craig Blair",
-      "imageUrl": null,
-      "publishedDate": "2026-07-11 07:48:58 +0000",
-      "createdAt": "2026-07-11T08:00:48.397Z",
-      "title": "Canon EOS R8",
-      "metaDescription": "Canon EOS R8 Mark II specs",
-      "keywords": [
-        "Canon EOS R8",
-        "camera",
-        "technology",
-        "gadgets",
-        "innovation"
-      ],
-      "summary": "The rumored Canon EOS R8 Mark II is expected to launch in September with a retro design and advanced features, which may appeal to Indian photography enthusiasts and businesses. The camera's specifications include a 32.5MP full-frame sensor and dual SD card slots. This launch may impact the Indian market for professional photography equipment.",
-      "content": "<h2>Introduction to Canon EOS R8 Mark II</h2><p>The Canon EOS R8 Mark II is rumored to launch in September with a retro design, 32.5MP full-frame sensor, IBIS, and dual SD card slots. This camera is expected to be a powerhouse in the world of photography, appealing to both professionals and enthusiasts in India.</p><h2>Key Features</h2><p>The key features of the Canon EOS R8 Mark II include:</p><ul><li>32.5MP full-frame sensor</li><li>IBIS (In-Body Image Stabilization)</li><li>Dual SD card slots</li><li>Retro design</li><li>Advanced autofocus system</li></ul><p>These features make the Canon EOS R8 Mark II an attractive option for Indian businesses and professionals in the photography industry.</p>",
-      "category": "Technology",
-      "tags": [
-        "camera",
-        "gadgets",
-        "tech",
-        "photography",
-        "innovation"
-      ],
-      "readTime": 3,
-      "slug": "canon-eos-r8",
-      "status": "published",
-      "featured": false,
-      "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-08-05T02:44:40.787Z",
+  "lastUpdated": "2026-08-05T08:40:02.199Z",
   "totalCount": 200,
   "schema": "2.0"
 }
