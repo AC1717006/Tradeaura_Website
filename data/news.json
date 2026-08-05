@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "64cd2f7484e0",
+      "originalUrl": "https://www.investing.com/news/stock-market-news/meta-releases-muse-code-coding-agent-in-beta-93CH-4839053",
+      "originalTitle": "Meta releases Muse Code coding agent in beta By Investing.com",
+      "source": "www.investing.com",
+      "imageUrl": "https://i-invdn-com.investing.com/news/facebook_2_800x533_L_1412668233.jpg",
+      "publishedDate": "2026-08-05 19:23:06 +0000",
+      "createdAt": "2026-08-05T19:38:59.364Z",
+      "title": "Meta Muse Code",
+      "metaDescription": "Meta coding agent beta",
+      "keywords": [
+        "Meta",
+        "Muse Code",
+        "Coding Agent",
+        "Artificial Intelligence",
+        "Automation"
+      ],
+      "summary": "Meta has released its Muse Code coding agent in beta, which can help Indian businesses automate coding tasks, improving efficiency and productivity. This development can have a significant impact on the Indian market, particularly in the IT sector. Indian business owners can leverage this technology to streamline their operations and stay competitive.",
+      "content": "<h2>Introduction to Meta Muse Code</h2><p>Meta has announced the release of its Muse Code coding agent in beta, a significant development in the field of artificial intelligence and automation. This coding agent is designed to assist developers in writing code, making the process faster and more efficient.</p><h2>Implications for Indian Businesses</h2><p>The release of Meta Muse Code can have a substantial impact on Indian businesses, particularly those in the IT sector. By automating coding tasks, Indian companies can improve their productivity and efficiency, allowing them to focus on more strategic and creative aspects of their operations.</p><h2>Key Features and Benefits</h2><p>Some of the key features and benefits of Meta Muse Code include:<ul><li>Automated code completion</li><li>Code review and debugging</li><li>Integration with existing development tools</li><li>Improved coding accuracy and efficiency</li><li>Enhanced collaboration among developers</li></ul></p>",
+      "category": "AI & Automation",
+      "tags": [
+        "meta",
+        "ai",
+        "code",
+        "automation",
+        "tech"
+      ],
+      "readTime": 3,
+      "slug": "meta-muse-code",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "4399db21ab37",
+      "originalUrl": "https://gizmodo.com/googles-ai-search-reportedly-told-users-that-flock-cameras-are-a-goldmine-2000794890",
+      "originalTitle": "Google's AI Search Reportedly Told Users That Flock Cameras Are a Goldmine",
+      "source": "AJ Dellinger",
+      "imageUrl": "https://gizmodo.com/app/uploads/2024/09/AI-search-monopoly-antitrust-google-senators-ftc-1.jpg",
+      "publishedDate": "2026-08-05 19:20:09 +0000",
+      "createdAt": "2026-08-05T19:39:04.429Z",
+      "title": "AI Search Error",
+      "metaDescription": "AI search mistake",
+      "keywords": [
+        "artificial intelligence",
+        "search engine",
+        "google ai",
+        "ai mistakes",
+        "technology error"
+      ],
+      "summary": "A recent report indicates that Google's AI search provided incorrect information, highlighting the importance of accuracy in AI systems for Indian businesses. This incident serves as a reminder for businesses to carefully evaluate AI implementation. Indian companies must prioritize AI reliability to maintain customer trust.",
+      "content": "<h2>Introduction to AI Search</h2><p>Google's AI search has been reported to have provided misleading information to users, stating that Flock cameras are a valuable investment. This mistake raises concerns about the reliability of AI systems and their potential impact on business decisions in India.</p><h2>Implications for Indian Businesses</h2><p>Indian companies relying on AI search for market research or customer insights must be cautious of potential errors. The Indian market is highly competitive, and incorrect information can lead to poor decision-making. The Reserve Bank of India and the Securities and Exchange Board of India have emphasized the importance of accuracy in financial and business transactions.</p><h2>Key Takeaways</h2><p>Indian business owners and startup founders should consider the following when implementing AI systems: <ul><li>evaluate AI accuracy and reliability</li><li>develop strategies for mitigating AI errors</li><li>ensure compliance with regulatory requirements</li><li>provide ongoing training and support for AI systems</li><li>monitor AI performance and customer feedback</li></ul></p>",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "search",
+        "error",
+        "google",
+        "india"
+      ],
+      "readTime": 3,
+      "slug": "ai-search-error",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "f79fc047eaa7",
       "originalUrl": "https://www.investing.com/news/economic-indicators/services-pmi-surpasses-expectations-signals-economic-strength-93CH-4838010",
       "originalTitle": "Services PMI Surpasses Expectations, Signals Economic Strength By Investing.com",
@@ -6533,75 +6599,9 @@
       "status": "published",
       "featured": false,
       "sitemapAdded": false
-    },
-    {
-      "id": "ff5460e15d53",
-      "originalUrl": "https://www.nasdaq.com/articles/ai-trade-rotating-chips-infrastructure-2-stocks-riding-shift",
-      "originalTitle": "The AI Trade Is Rotating From Chips to Infrastructure. 2 Stocks Riding the Shift.",
-      "source": "The Motley Fool",
-      "imageUrl": "https://www.nasdaq.com/sites/acquia.prod/files/2019-05/0902-Q19%20Total%20Markets%20photos%20and%20gif_CC8.jpg",
-      "publishedDate": "2026-07-11 17:43:00 +0000",
-      "createdAt": "2026-07-11T19:08:40.446Z",
-      "title": "AI Shift",
-      "metaDescription": "AI trade rotation to infrastructure",
-      "keywords": [
-        "AI trade",
-        "infrastructure",
-        "data centers",
-        " Vertiv",
-        "NASDAQ"
-      ],
-      "summary": "The AI trade is shifting from chips to infrastructure, with companies like Vertiv riding the wave, and this shift is expected to impact the Indian market as data centers become crucial for businesses, the Indian business context is likely to see growth in this sector, with the RBI and SEBI playing a role in regulating the market.",
-      "content": "<h2>Introduction to AI Shift</h2><p>The AI trade is undergoing a significant shift from chips to infrastructure, with data centers playing a crucial role in this transition. This shift is expected to have a substantial impact on the Indian market, as businesses increasingly rely on data centers to support their operations. Companies like Vertiv are at the forefront of this shift, with a data-center backlog of $15 billion.</p><h2>Impact on Indian Market</h2><p>The growth of data centers in India is likely to be driven by the increasing demand for cloud computing, artificial intelligence, and the Internet of Things (IoT). As the Indian market continues to evolve, the RBI and SEBI will play a critical role in regulating the sector and ensuring that businesses operate within a stable and secure environment. The shift to infrastructure is expected to create new opportunities for Indian businesses, particularly in the areas of data center construction, management, and maintenance.</p><h2>Key Players</h2><p>Some of the key players in the AI infrastructure space include:<ul><li>Vertiv</li><li>NVIDIA</li><li>AMD</li><li>Google</li><li>Microsoft</li></ul>These companies are investing heavily in the development of AI infrastructure, including data centers, and are well-positioned to benefit from the shift in the AI trade.</p>",
-      "category": "AI & Automation",
-      "tags": [
-        "ai",
-        "data",
-        "cloud",
-        "market",
-        "tech"
-      ],
-      "readTime": 3,
-      "slug": "ai-shift",
-      "status": "published",
-      "featured": false,
-      "sitemapAdded": false
-    },
-    {
-      "id": "1b419913c851",
-      "originalUrl": "https://www.techradar.com/pro/samsung-just-gave-google-and-the-ai-gang-the-perfect-reason-to-buy-all-new-storage-so-dont-expect-ssd-prices-to-drop-anytime-soon",
-      "originalTitle": "Samsung’s latest storage breakthrough moves virtualization inside SSDs",
-      "source": "Efosa Udinmwen",
-      "imageUrl": "https://cdn.mos.cms.futurecdn.net/xZHDn2xqqbvySWS5TUbpvL-2250-80.jpg",
-      "publishedDate": "2026-07-11 18:40:00 +0000",
-      "createdAt": "2026-07-11T19:08:45.308Z",
-      "title": "SSD Storage Breakthrough",
-      "metaDescription": "Samsung's new NVMe tech",
-      "keywords": [
-        "SSD",
-        "NVMe",
-        "Storage",
-        "Virtualization",
-        "AI"
-      ],
-      "summary": "Samsung's latest storage breakthrough brings virtualization inside SSDs, which could make AI servers faster and impact the Indian market. This new NVMe technology may lead to higher enterprise SSD prices. Indian businesses may need to adapt to these changes in storage technology.",
-      "content": "<h2>Introduction to NVMe Technology</h2><p>Samsung has recently announced a significant breakthrough in storage technology, introducing new NVMe technology that moves virtualization inside SSDs. This development is expected to make AI servers faster and more efficient, which could have a significant impact on the Indian market.</p><p>The new NVMe technology has the potential to revolutionize the way Indian businesses approach data storage and processing. With the increasing demand for faster and more efficient data processing, this technology could be a game-changer for companies operating in the Indian market.</p><h2>Impact on Indian Businesses</h2><p>Indian businesses, particularly those in the AI and data analytics sector, may need to adapt to these changes in storage technology. The new NVMe technology could lead to higher enterprise SSD prices, which may affect the bottom line of Indian companies. However, the increased efficiency and speed offered by this technology could also lead to significant cost savings and revenue growth in the long run.</p><p>Some key benefits of the new NVMe technology include: <ul><li>Faster data processing speeds</li><li>Improved efficiency and productivity</li><li>Enhanced data security and reliability</li><li>Increased scalability and flexibility</li><li>Better support for AI and machine learning applications</li></ul></p>",
-      "category": "AI & Automation",
-      "tags": [
-        "tech",
-        "storage",
-        "ai",
-        "india",
-        "business"
-      ],
-      "readTime": 3,
-      "slug": "ssd-storage-breakthrough",
-      "status": "published",
-      "featured": false,
-      "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-08-05T14:15:00.055Z",
+  "lastUpdated": "2026-08-05T19:39:04.429Z",
   "totalCount": 200,
   "schema": "2.0"
 }
