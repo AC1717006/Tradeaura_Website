@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "e74b4f253cf6",
+      "originalUrl": "https://seekingalpha.com/news/4627311-meta-apologizes-for-restricting-indian-pm-modis-post?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "originalTitle": "Meta apologizes for restricting Indian PM Modi's Facebook post",
+      "source": "seekingalpha.com",
+      "imageUrl": null,
+      "publishedDate": "2026-08-06 08:01:45 +0000",
+      "createdAt": "2026-08-06T08:40:52.062Z",
+      "title": "Meta Apologizes",
+      "metaDescription": "Meta restricts Indian PM post",
+      "keywords": [
+        "Meta",
+        "Facebook",
+        "India",
+        "Social Media",
+        "Censorship"
+      ],
+      "summary": "Meta apologized for restricting Indian PM Modi's Facebook post, highlighting the complexities of social media censorship in the Indian market. The incident raises concerns about freedom of speech and online regulation. Indian business owners should be aware of these developments to navigate the online landscape effectively.",
+      "content": "<h2>Introduction</h2><p>Meta recently apologized for restricting a Facebook post by Indian Prime Minister Narendra Modi. The incident has sparked a debate about social media censorship and the role of tech companies in regulating online content in India.</p><h2>Implications for Indian Businesses</h2><p>The restriction of the Prime Minister's post has significant implications for Indian businesses, particularly those that rely on social media for marketing and customer engagement. It highlights the need for companies to be aware of the evolving online regulatory landscape in India and to develop strategies to navigate these complexities.</p><h2>Key Takeaways</h2><p>The incident serves as a reminder of the importance of understanding social media policies and guidelines in India. Indian business owners should be aware of the following:</p><ul><li>Facebook's community standards and guidelines</li><li>Indian laws and regulations related to online content</li><li>The role of social media in marketing and customer engagement</li><li>The importance of developing effective online strategies</li><li>The need for ongoing monitoring and adaptation to changes in the online landscape</li></ul>",
+      "category": "Digital Transformation",
+      "tags": [
+        "media",
+        "censorship",
+        "facebook",
+        "india",
+        "policy"
+      ],
+      "readTime": 3,
+      "slug": "meta-apologizes",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "b7cefa4be39b",
+      "originalUrl": "https://interestingengineering.com/ai-robotics/ergocub-humanoid-human-robot-teamwork",
+      "originalTitle": "New humanoid adapts to human movement to reduce workplace injuries",
+      "source": "Jijo Malayil",
+      "imageUrl": "https://cms.interestingengineering.com/wp-content/uploads/2026/08/Untitled-design-3.jpg",
+      "publishedDate": "2026-08-06 08:21:57 +0000",
+      "createdAt": "2026-08-06T08:40:57.277Z",
+      "title": "ErgoCub Robot",
+      "metaDescription": "ErgoCub robot for safe lifting",
+      "keywords": [
+        "humanoid robot",
+        "workplace safety",
+        "ergonomics",
+        "collaborative lifting",
+        "robotics"
+      ],
+      "summary": "The ergoCub humanoid robot is designed to reduce workplace injuries by adapting to human movements, making it a valuable tool for Indian businesses prioritizing employee safety. This technology can be particularly beneficial in industries with high manual labor demands. By leveraging robotics, Indian companies can improve workplace ergonomics and reduce the risk of employee injuries.",
+      "content": "<h2>Introduction to ErgoCub Robot</h2><p>The ergoCub humanoid robot is a cutting-edge innovation that adapts to human movements, reducing back strain and making collaborative lifting safer and smarter. This robot is designed to work alongside humans, providing support and assistance in tasks that require heavy lifting or manual labor. By doing so, it can significantly reduce the risk of workplace injuries, which is a major concern for Indian businesses.</p><h2>Benefits for Indian Businesses</h2><p>Indian companies, particularly those in industries such as manufacturing, construction, and logistics, can benefit greatly from the ergoCub robot. By incorporating this technology into their operations, they can improve workplace safety, reduce employee injuries, and increase overall productivity. Additionally, the ergoCub robot can help Indian businesses comply with regulatory requirements and standards set by organizations such as the RBI and SEBI, which emphasize the importance of employee safety and well-being.</p><h2>Key Features of ErgoCub Robot</h2><ul><li>Adapts to human movements to reduce back strain</li><li>Makes collaborative lifting safer and smarter</li><li>Designed to work alongside humans in various tasks</li><li>Can be integrated into different industries and workplaces</li><li>Helps reduce the risk of workplace injuries and improves employee safety</li></ul>",
+      "category": "AI & Automation",
+      "tags": [
+        "robot",
+        "safety",
+        "industry",
+        "labor",
+        "tech"
+      ],
+      "readTime": 3,
+      "slug": "ergocub-robot",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "0e9bcb7b1d98",
       "originalUrl": "https://economictimes.indiatimes.com/markets/ipos/fpos/milky-mist-ipo-price-band-fixed-at-rs-133-140-for-rs-1553-crore-ipo-issue-opens-on-august-11/articleshow/132979358.cms",
       "originalTitle": "Milky Mist IPO price band fixed at Rs 133-140 for Rs 1,553-crore IPO; issue opens on August 11",
@@ -6533,75 +6599,9 @@
       "status": "published",
       "featured": false,
       "sitemapAdded": false
-    },
-    {
-      "id": "f681865c0581",
-      "originalUrl": "https://www.investing.com/news/stock-market-news/is-ai-making-markets-more-or-less-efficient-4787332",
-      "originalTitle": "Is AI making markets more or less efficient? By Investing.com",
-      "source": "Simon Mugo",
-      "imageUrl": "https://i-invdn-com.investing.com/news/https://content-media.investing.com/news/ArtificialIntelligenceAI_800x533_L_1758714606.jpg",
-      "publishedDate": "2026-07-12 07:26:38 +0000",
-      "createdAt": "2026-07-12T08:22:02.746Z",
-      "title": "AI Market Efficiency",
-      "metaDescription": "AI impact on market efficiency",
-      "keywords": [
-        "AI",
-        "market efficiency",
-        "financial markets",
-        "trading systems",
-        "investing"
-      ],
-      "summary": "The increasing use of Artificial Intelligence in Indian financial markets raises questions about its impact on market efficiency, with potential implications for investors and regulators. As AI-driven trading systems become more prevalent, Indian business owners and investors must consider the potential benefits and drawbacks. The Reserve Bank of India and SEBI may need to reassess their regulatory frameworks to accommodate the growing role of AI in financial markets.",
-      "content": "<h2>Introduction to AI in Financial Markets</h2><p>The use of Artificial Intelligence (AI) in financial markets has grown significantly in recent years, with many investors and trading firms leveraging AI-driven systems to make investment decisions. This trend has sparked debate about the impact of AI on market efficiency, with some arguing that it improves market performance and others claiming that it creates new inefficiencies.</p><h2>Benefits of AI in Financial Markets</h2><p>Proponents of AI in financial markets argue that it can help identify patterns and trends that human investors may miss, leading to more informed investment decisions. Additionally, AI-driven trading systems can execute trades at high speeds, reducing the risk of human error and emotions influencing investment choices. Some of the key benefits of AI in financial markets include: <ul><li>Improved risk management</li><li>Enhanced portfolio optimization</li><li>Increased trading efficiency</li></ul></p><h2>Challenges and Limitations of AI in Financial Markets</h2><p>Despite the potential benefits of AI in financial markets, there are also challenges and limitations to consider. For example, AI systems can be biased if they are trained on incomplete or inaccurate data, leading to flawed investment decisions. Furthermore, the increasing reliance on AI-driven trading systems may exacerbate market volatility and create new risks for investors.</p>",
-      "category": "AI & Automation",
-      "tags": [
-        "ai",
-        "finance",
-        "markets",
-        "investing",
-        "trading"
-      ],
-      "readTime": 3,
-      "slug": "ai-market-efficiency",
-      "status": "published",
-      "featured": false,
-      "sitemapAdded": false
-    },
-    {
-      "id": "7de0f29cf741",
-      "originalUrl": "https://brightmindai.medium.com/what-is-a-transformer-in-ai-a-simple-explanation-for-beginners-7615c70cd2a5?source=rss------technology-5",
-      "originalTitle": "What Is a Transformer in AI? A Simple Explanation for Beginners",
-      "source": "BrightmindAI",
-      "imageUrl": null,
-      "publishedDate": "2026-07-12 07:56:50 +0000",
-      "createdAt": "2026-07-12T08:22:07.703Z",
-      "title": "AI Transformers",
-      "metaDescription": "AI transformer models",
-      "keywords": [
-        "AI",
-        "transformer",
-        "machine learning",
-        "natural language processing",
-        "deep learning"
-      ],
-      "summary": "Indian businesses can leverage AI transformer models to improve customer service and automate tasks, with applications in chatbots and language translation. The transformer model is a key component of many AI systems, including those used in India. By understanding how transformers work, Indian business owners can make informed decisions about AI adoption.",
-      "content": "<h2>Introduction to AI Transformers</h2><p>The transformer model is a type of neural network architecture that is widely used in natural language processing and other AI applications. It was introduced in a research paper in 2017 and has since become a key component of many AI systems, including chatbots and language translation software.</p><h2>How Transformers Work</h2><p>Transformers work by using self-attention mechanisms to weigh the importance of different input elements relative to each other. This allows the model to capture complex relationships between different parts of the input data, such as the relationships between different words in a sentence.</p><h2>Applications of Transformers in India</h2><p>Transformers have many potential applications in India, including chatbots, language translation, and text summarization. Indian businesses can use transformer-based models to improve customer service, automate tasks, and gain insights from large amounts of data. Some examples of transformer-based models used in India include language translation software and chatbots used in customer service.</p><h2>Benefits of Transformers</h2><p>The benefits of using transformer-based models include improved accuracy, increased efficiency, and enhanced customer experience. Transformers can also be used to analyze large amounts of data, providing valuable insights for Indian businesses.</p><ul><li>Improved accuracy</li><li>Increased efficiency</li><li>Enhanced customer experience</li><li>Ability to analyze large amounts of data</li><li>Cost savings</li></ul>",
-      "category": "AI & Automation",
-      "tags": [
-        "ai",
-        "ml",
-        "nlp",
-        "tech",
-        "india"
-      ],
-      "readTime": 3,
-      "slug": "ai-transformers",
-      "status": "published",
-      "featured": false,
-      "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-08-06T02:47:13.947Z",
+  "lastUpdated": "2026-08-06T08:40:57.277Z",
   "totalCount": 200,
   "schema": "2.0"
 }
