@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "395c4779788c",
+      "originalUrl": "https://www.investing.com/news/company-news/kaynes-q1-fy27-slides-40-revenue-growth-margin-pressure-mounts-93CH-4847617",
+      "originalTitle": "Kaynes Q1 FY27 slides: 40% revenue growth, margin pressure mounts By Investing.com",
+      "source": "www.investing.com",
+      "imageUrl": "https://i-invdn-com.investing.com/redesign/images/seo/investing_300X300.png",
+      "publishedDate": "2026-08-08 06:20:31 +0000",
+      "createdAt": "2026-08-08T06:57:54.803Z",
+      "title": "Kaynes Revenue Growth",
+      "metaDescription": "Kaynes Q1 FY27 revenue growth",
+      "keywords": [
+        "revenue growth",
+        "Kaynes",
+        "Indian market",
+        "financial results",
+        "Q1 FY27"
+      ],
+      "summary": "Kaynes reported a 40% revenue growth in Q1 FY27, driven by strong demand. However, the company faced margin pressure due to rising costs. This growth is significant in the Indian business context, where companies are striving to increase revenue amidst economic uncertainty.",
+      "content": "<h2>Kaynes Q1 FY27 Financial Results</h2><p>Kaynes reported a 40% revenue growth in Q1 FY27, driven by strong demand from its customers. The company's revenue increased significantly, driven by its diversified product portfolio and strong customer relationships.</p><p>However, the company faced margin pressure due to rising costs, including raw materials and labor costs. This margin pressure is a concern for the company, as it may impact its profitability in the coming quarters.</p><h2>Key Highlights</h2><ul><li>40% revenue growth in Q1 FY27</li><li>Margin pressure due to rising costs</li><li>Strong demand from customers</li><li>Diversified product portfolio</li><li>Strong customer relationships</li></ul>",
+      "category": "Business Tools",
+      "tags": [
+        "finance",
+        "growth",
+        "india",
+        "market",
+        "revenue"
+      ],
+      "readTime": 3,
+      "slug": "kaynes-revenue-growth",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "da6dd1a111c3",
+      "originalUrl": "https://vulners.com/cvelist/CVELIST:CVE-2026-14526",
+      "originalTitle": "CVE-2026-14526 AI Copilot – Content Generator <= 1.5.6 - Unauthenticated Privilege Escalation via Custom Workflow Route",
+      "source": "vulners.com",
+      "imageUrl": null,
+      "publishedDate": "2026-08-08 06:38:41 +0000",
+      "createdAt": "2026-08-08T06:57:59.753Z",
+      "title": "AI Copilot Vulnerability",
+      "metaDescription": "CVE-2026-14526 AI Copilot vulnerability",
+      "keywords": [
+        "AI Copilot",
+        "WordPress plugin",
+        "vulnerability",
+        "authorization bypass",
+        "cybersecurity"
+      ],
+      "summary": "Indian businesses using the AI Copilot Content Generator plugin for WordPress are at risk due to a vulnerability that allows unauthenticated attackers to escalate privileges. This vulnerability can be exploited via a custom workflow route, highlighting the need for Indian companies to prioritize cybersecurity. The Reserve Bank of India's emphasis on cybersecurity makes it essential for businesses to stay informed about such vulnerabilities.",
+      "content": "<h2>Vulnerability Details</h2><p>The AI Copilot – Content Generator plugin for WordPress is vulnerable to authorization bypass in all versions up to, and including, 1.5.6. This is due to the plugin not properly verifying that a user is authorized to perform an action. This makes it possible for unauthenticated attackers to create a custom workflow route, leading to privilege escalation.</p><h2>Impact on Indian Businesses</h2><p>Indian businesses using this plugin are at risk, and it is essential to take immediate action to mitigate this vulnerability. The Securities and Exchange Board of India's guidelines on cybersecurity emphasize the importance of protecting sensitive information. Indian companies must prioritize cybersecurity to safeguard their business operations and customer data.</p><h2>Recommendations</h2><p>To address this vulnerability, Indian businesses should:</p><ul><li>Update the AI Copilot – Content Generator plugin to a version higher than 1.5.6</li><li>Conduct regular security audits to identify potential vulnerabilities</li><li>Implement robust cybersecurity measures to protect against unauthorized access</li><li>Stay informed about the latest cybersecurity threats and vulnerabilities</li><li>Develop a comprehensive incident response plan to respond to security incidents</li></ul>",
+      "category": "SaaS & Software",
+      "tags": [
+        "wordpress",
+        "vulnerability",
+        "cybersecurity",
+        "india",
+        "plugins"
+      ],
+      "readTime": 3,
+      "slug": "ai-copilot-vulnerability",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "85d9d91beb5f",
       "originalUrl": "https://seekingalpha.com/article/4933614-s-p-500-snapshot-index-wraps-up-best-week-since-april-with-record-close?source=feed_all_articles",
       "originalTitle": "S&P 500 Snapshot: Index Wraps Up Best Week Since April With Record Close",
@@ -6533,75 +6599,9 @@
       "status": "published",
       "featured": false,
       "sitemapAdded": false
-    },
-    {
-      "id": "403775e51d36",
-      "originalUrl": "https://www.business-standard.com/markets/ipo/sbi-funds-management-raises-rs-2663-crore-anchor-allotment-ipo-126071400101_1.html",
-      "originalTitle": "SBI Funds Management raises Rs 2,663 cr from anchor investors ahead of IPO",
-      "source": "www.business-standard.com",
-      "imageUrl": null,
-      "publishedDate": "2026-07-14 02:13:31 +0000",
-      "createdAt": "2026-07-14T02:43:38.245Z",
-      "title": "IPO Update",
-      "metaDescription": "SBI Funds Management IPO news",
-      "keywords": [
-        "IPO",
-        "SBI Funds Management",
-        "anchor investors",
-        "Indian market",
-        "finance"
-      ],
-      "summary": "SBI Funds Management has raised a significant amount from anchor investors ahead of its IPO, indicating a positive response from investors. This development is expected to impact the Indian market and finance sector. The IPO is set to open on July 14 with a price band of ₹545-574 per share.",
-      "content": "<h2>SBI Funds Management IPO Details</h2><p>SBI Funds Management has raised ₹2,663 crore from anchor investors ahead of its ₹9,813 crore IPO, which opens on July 14 at a price band of ₹545-574 per share. This significant investment from anchor investors is a positive indication for the company's IPO. The response from anchor investors is crucial for the success of an IPO, and in this case, it suggests that the company's financials and growth prospects are attractive to investors.</p><h2>Impact on the Indian Market</h2><p>The success of SBI Funds Management's IPO can have a positive impact on the Indian market, particularly in the finance sector. A successful IPO can attract more investors to the market, increasing liquidity and boosting investor confidence. Additionally, it can also encourage other companies to list their shares, leading to increased activity in the Indian stock market.</p><h2>Key Highlights</h2><p>The key highlights of SBI Funds Management's IPO include:</p><ul><li>IPO size: ₹9,813 crore</li><li>Price band: ₹545-574 per share</li><li>Opening date: July 14</li><li>Anchor investors' investment: ₹2,663 crore</li><li>Company's financials and growth prospects: attractive to investors</li></ul>",
-      "category": "Finance & Markets",
-      "tags": [
-        "ipo",
-        "finance",
-        "market",
-        "investors",
-        "business"
-      ],
-      "readTime": 3,
-      "slug": "ipo-update",
-      "status": "published",
-      "featured": false,
-      "sitemapAdded": false
-    },
-    {
-      "id": "6459de2a99a1",
-      "originalUrl": "https://technode.com/2026/07/14/mihoyo-launches-ai-companion-app-bside-olivia-lin-on-steam/",
-      "originalTitle": "miHoYo launches AI companion app BSide: Olivia Lin on Steam Early Access · TechNode",
-      "source": "Jessie Wu",
-      "imageUrl": "https://technode.com/wp-content/uploads/2026/07/beside-1.png",
-      "publishedDate": "2026-07-14 02:36:39 +0000",
-      "createdAt": "2026-07-14T02:43:43.345Z",
-      "title": "AI Companion App",
-      "metaDescription": "AI companion app launches",
-      "keywords": [
-        "AI",
-        "Companion",
-        "App",
-        "Steam",
-        "Gaming"
-      ],
-      "summary": "Chinese gaming firm miHoYo launches AI companion app BSide: Olivia Lin on Steam, a move that may inspire Indian gaming and tech companies to explore AI-powered companions. This development can potentially disrupt the Indian gaming market. Indian businesses can learn from this innovative approach to AI adoption.",
-      "content": "<h2>Introduction to AI Companion App</h2><p>On Monday, Chinese gaming firm miHoYo launched Early Access for its AI companion app, BSide: Olivia Lin, on Steam. Unlike the studio's anime-style games, this app marks a new direction for the company, leveraging AI to create a unique user experience.</p><h2>Key Features</h2><p>The app is designed to provide users with a personalized companion, using AI to learn and adapt to individual preferences. This innovative approach can potentially inspire Indian businesses to explore AI-powered solutions for customer engagement and retention.</p><h2>Implications for Indian Market</h2><p>The launch of BSide: Olivia Lin may have significant implications for the Indian gaming and tech industries. As Indian companies continue to grow and expand, they may look to AI-powered companions as a means to enhance customer experience and stay competitive in the market.</p><h2>Future of AI Companions</h2><ul><li>Increased adoption of AI-powered companions in gaming and beyond</li><li>Potential for Indian businesses to develop innovative AI solutions</li><li>Growing demand for personalized user experiences</li><li>Expansion of AI companions into new industries and markets</li><li>Continued investment in AI research and development</li></ul>",
-      "category": "AI & Automation",
-      "tags": [
-        "ai",
-        "gaming",
-        "steam",
-        "tech",
-        "india"
-      ],
-      "readTime": 3,
-      "slug": "ai-companion-app",
-      "status": "published",
-      "featured": false,
-      "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-08-08T01:49:09.618Z",
+  "lastUpdated": "2026-08-08T06:57:59.753Z",
   "totalCount": 200,
   "schema": "2.0"
 }
