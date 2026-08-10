@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "08f628d7091b",
+      "originalUrl": "https://www.businesstimes.com.sg/opinion-features/singapores-sovereign-wealth-funds-are-betting-big-ai-central-bank-isnt-so-sure",
+      "originalTitle": "Singapore’s sovereign wealth funds are betting big on AI, but the central bank isn’t so sure",
+      "source": "Jude Chan",
+      "imageUrl": "https://cassette.sphdigital.com.sg/image/businesstimes/4f6b5607a6117901f9419f760b242c4d6699338370d6abd1c7be4353c80a9d4e?w=1920&f=webp",
+      "publishedDate": "2026-08-10 07:22:30 +0000",
+      "createdAt": "2026-08-10T07:46:30.990Z",
+      "title": "AI Investment",
+      "metaDescription": "AI investment trends",
+      "keywords": [
+        "AI",
+        "investment",
+        "sovereign wealth",
+        "central bank",
+        "funds"
+      ],
+      "summary": "Indian business owners should be aware of global AI investment trends, as seen in Singapore's sovereign wealth funds. The central bank's cautious approach highlights the need for careful consideration in AI investments. This trend may have implications for the Indian market.",
+      "content": "<h2>Global AI Investment Trends</h2><p>Recent developments in Singapore's sovereign wealth funds have shown a significant interest in AI investments. However, the central bank has expressed concerns, demonstrating a cautious approach to this emerging technology. This dichotomy highlights the complexities of investing in AI, a trend that Indian business owners should be aware of.</p><h2>Implications for Indian Business</h2><p>The Indian market, with its growing tech industry, may be impacted by global AI investment trends. As Indian business owners and startup founders consider investing in AI, they should be mindful of the potential risks and benefits. The Reserve Bank of India's stance on AI investments will be crucial in shaping the country's approach to this technology.</p><h2>Key Considerations</h2><p>When considering AI investments, Indian business owners should take into account the following factors: <ul><li>Regulatory environment</li><li>Market demand</li><li>Competition</li><li>Technological advancements</li><li>Return on investment</li></ul></p>",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "funds",
+        "investment",
+        "bank",
+        "tech"
+      ],
+      "readTime": 3,
+      "slug": "ai-investment-2",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "f9754415501c",
+      "originalUrl": "https://technode.com/2026/08/10/wechat-tests-ai-assisted-writing-and-comments-in-moments/",
+      "originalTitle": "WeChat tests AI-assisted writing and comments in Moments · TechNode",
+      "source": "TechNode Feed",
+      "imageUrl": "https://technode.com/wp-content/uploads/2026/08/wechat-adem-ay-zs-41Br0WhQ-unsplash.jpg",
+      "publishedDate": "2026-08-10 07:07:08 +0000",
+      "createdAt": "2026-08-10T07:46:35.804Z",
+      "title": "AI Writing",
+      "metaDescription": "AI assisted writing",
+      "keywords": [
+        "AI",
+        "automation",
+        "writing",
+        "assistants",
+        "chatbots"
+      ],
+      "summary": "WeChat is testing AI-assisted writing and comments, a feature that could be useful for Indian businesses looking to automate their social media content. This technology has the potential to revolutionize the way businesses interact with their customers. Indian companies can learn from this development and explore similar solutions.",
+      "content": "<h2>Introduction to AI-Assisted Writing</h2><p>WeChat, a popular messaging platform, is testing two AI features in its Moments section: AI-assisted writing and AI-generated comments. This move is expected to enhance user experience and provide businesses with new ways to engage with their audience.</p><h2>Potential Impact on Indian Businesses</h2><p>For Indian businesses, this development is significant as it highlights the potential of AI in automating content creation and customer interaction. With the increasing use of social media in India, companies can leverage AI-assisted writing to streamline their online presence and improve customer engagement.</p><h2>Key Features and Benefits</h2><p>The AI-assisted writing feature allows users to generate content with the help of AI, while AI-generated comments enable users to respond to posts using automated comments. The benefits of these features include increased efficiency, improved accuracy, and enhanced customer experience.</p><ul><li>Increased efficiency in content creation</li><li>Improved accuracy in responding to customer queries</li><li>Enhanced customer experience through personalized interactions</li></ul>",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "chatbots",
+        "writing",
+        "assistants",
+        "automation"
+      ],
+      "readTime": 3,
+      "slug": "ai-writing",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "d5f61ad19078",
       "originalUrl": "https://www.benzinga.com/news/politics/26/08/61064744/iran-hormuz-reopening-us-demands-dow-futures-oil",
       "originalTitle": "Iran Links Hormuz Reopening to US Meeting Its Demands: Dow Futures Fall 127 Points, Brent Above $84",
@@ -6533,75 +6599,9 @@
       "status": "published",
       "featured": false,
       "sitemapAdded": false
-    },
-    {
-      "id": "9087dbf36235",
-      "originalUrl": "https://www.investing.com/news/stock-market-news/amd-ubs-hikes-price-target-ahead-of-ai-event-on-stronger-gpu-outlook-4794609",
-      "originalTitle": "AMD: UBS hikes price target ahead of AI event on stronger GPU outlook By Investing.com",
-      "source": "Ayushman Ojha",
-      "imageUrl": "https://i-invdn-com.investing.com/news/https://content-media.investing.com/news/moved_LYNXMPEJ430SF_L.jpg",
-      "publishedDate": "2026-07-16 02:12:46 +0000",
-      "createdAt": "2026-07-16T02:48:59.350Z",
-      "title": "AMD Price Target",
-      "metaDescription": "AMD price target raised",
-      "keywords": [
-        "AMD",
-        "GPU",
-        "AI",
-        "UBS",
-        "Investing"
-      ],
-      "summary": "UBS has raised its price target for AMD ahead of an AI event, driven by a stronger GPU outlook. This development may impact Indian businesses that rely on AMD's products. The Indian market may see increased demand for AI-powered technologies.",
-      "content": "<h2>AMD Price Target Raised by UBS</h2><p>UBS has raised its price target for AMD ahead of an AI event, driven by a stronger GPU outlook. This development may impact Indian businesses that rely on AMD's products, particularly those in the tech and manufacturing sectors. The Indian market may see increased demand for AI-powered technologies, which could drive growth for companies that invest in these areas.</p><h2>Key Drivers</h2><p>The key drivers behind UBS's decision to raise AMD's price target include the growing demand for GPUs in AI applications, as well as the company's strong product lineup. Indian businesses may need to consider these factors when making investment decisions.</p><h2>Implications for Indian Businesses</h2><ul><li>Increased demand for AI-powered technologies</li><li>Growth opportunities for tech and manufacturing sectors</li><li>Potential for increased investment in GPUs and AI-related products</li></ul>",
-      "category": "AI & Automation",
-      "tags": [
-        "india",
-        "tech",
-        "business",
-        "ai",
-        "gpu"
-      ],
-      "readTime": 3,
-      "slug": "amd-price-target",
-      "status": "published",
-      "featured": false,
-      "sitemapAdded": false
-    },
-    {
-      "id": "f48d0c90a96a",
-      "originalUrl": "https://www.hardwarezone.com.sg/mobile/smartphones/samsung-galaxy-z-foldable-flex-titanium-explained",
-      "originalTitle": "Samsung’s foldable teaser shows it’s solving foldable creases with… titanium?",
-      "source": "Liu Hongzuo",
-      "imageUrl": null,
-      "publishedDate": "2026-07-16 02:00:00 +0000",
-      "createdAt": "2026-07-16T02:49:05.444Z",
-      "title": "Samsung Foldable",
-      "metaDescription": "Samsung's foldable phone",
-      "keywords": [
-        "samsung",
-        "foldable",
-        "titanium",
-        "galaxy z",
-        "innovation"
-      ],
-      "summary": "Samsung's upcoming Galaxy Z foldable phones aim to tackle display creases with titanium, a development that may impact the Indian smartphone market. This innovation could influence Indian business owners and startup founders in the tech industry. The use of titanium may set a new standard for foldable devices in India.",
-      "content": "<h2>Samsung's Foldable Solution</h2><p>Samsung has been working on solving the issue of display creases on its foldable phones, and the latest teaser reveals that the company is using titanium to address this problem. The use of titanium is expected to provide a more durable and long-lasting solution to the crease issue, which has been a major concern for users of foldable devices.</p><p>The upcoming Galaxy Z foldable phones are likely to have a significant impact on the Indian smartphone market, where Samsung has a strong presence. The company's decision to use titanium in its foldable devices may set a new standard for the industry, and Indian business owners and startup founders in the tech sector will be watching the development closely.</p><h2>Key Features</h2><p>The use of titanium in Samsung's foldable devices is expected to provide several benefits, including:</p><ul><li>Improved durability</li><li>Increased resistance to scratches and damage</li><li>Enhanced overall performance</li></ul><p>These features may make Samsung's foldable devices more attractive to Indian consumers, who are increasingly looking for high-quality and innovative products.</p>",
-      "category": "AI & Automation",
-      "tags": [
-        "tech",
-        "innovation",
-        "smartphones",
-        "samsung",
-        "titanium"
-      ],
-      "readTime": 3,
-      "slug": "samsung-foldable",
-      "status": "published",
-      "featured": false,
-      "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-08-10T02:00:38.255Z",
+  "lastUpdated": "2026-08-10T07:46:35.804Z",
   "totalCount": 200,
   "schema": "2.0"
 }
