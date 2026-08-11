@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "4c218c27b0fa",
+      "originalUrl": "https://www.cnbc.com/2026/08/11/do-state-election-betting-bans-apply-to-prediction-markets.html",
+      "originalTitle": "Is betting on elections using prediction markets illegal? Many states are unsure as midterms approach",
+      "source": "Davis Giangiulio",
+      "imageUrl": "https://image.cnbcfm.com/api/v1/image/108325397-1782220308115-gettyimages-2282128548-NYC_PRIMARY.jpeg?v=1782220354&w=1920&h=1080",
+      "publishedDate": "2026-08-11 18:44:16 +0000",
+      "createdAt": "2026-08-11T19:05:17.958Z",
+      "title": "Election Betting",
+      "metaDescription": "Election betting laws",
+      "keywords": [
+        "election betting",
+        "prediction markets",
+        "market trades",
+        "betting laws",
+        "election laws"
+      ],
+      "summary": "As the Indian market navigates complex regulatory frameworks, business owners must understand the laws surrounding election betting and prediction markets. In the US, 23 states have laws banning betting on elections, but the application of these rules to prediction market trades is unclear. This ambiguity has significant implications for businesses operating in the Indian market, where similar regulatory challenges exist.",
+      "content": "<h2>Election Betting Laws</h2><p>In the US, 23 states have laws banning betting on elections, according to Pew Research. However, the application of these rules to prediction market trades is unclear, and many states are unsure if these laws apply. This ambiguity has significant implications for businesses operating in the market, where regulatory challenges are common.</p><h2>Prediction Markets</h2><p>Prediction markets allow users to trade on the outcome of events, including elections. These markets can provide valuable insights into public opinion and sentiment, but they also raise concerns about the potential for manipulation and exploitation. As the Indian market continues to grow and evolve, it is essential for business owners to understand the regulatory frameworks surrounding these markets.</p><h2>Regulatory Challenges</h2><p>In India, regulatory bodies such as the RBI and SEBI play a crucial role in shaping the market landscape. Business owners must navigate complex regulatory frameworks to ensure compliance with relevant laws and regulations. The ambiguity surrounding election betting laws in the US highlights the need for clear and consistent regulation in the Indian market.</p><ul><li>Election betting laws are unclear in many states</li><li>Prediction markets can provide valuable insights into public opinion</li><li>Regulatory challenges are common in the Indian market</li><li>Business owners must understand regulatory frameworks to ensure compliance</li><li>Clear and consistent regulation is essential for market growth</li></ul>",
+      "category": "Business Tools",
+      "tags": [
+        "law",
+        "market",
+        "election",
+        "business",
+        "regulation"
+      ],
+      "readTime": 3,
+      "slug": "election-betting",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "17787ac7d3b6",
+      "originalUrl": "https://www.databricks.com/blog/open-sourcing-metals-v2-databricks-java-and-scala-language-server-multi-million-line-codebases",
+      "originalTitle": "Open-sourcing Metals v2: Databricks’ Java and Scala language server for multi‑million line codebases",
+      "source": "Ãlafur PÃ¡ll Geirsson; Iulian Dragos; Alessandro Patti",
+      "imageUrl": "https://www.databricks.com/sites/default/files/2026-08/2026-05-blog-open-sourcing-metals-v2-databricks-java-and-scala-language-server-for-multi-million-line-codebases-og-1200x628-2x.png",
+      "publishedDate": "2026-08-11 18:50:58 +0000",
+      "createdAt": "2026-08-11T19:05:22.681Z",
+      "title": "Databricks Metals v2",
+      "metaDescription": "Databricks open sources Metals v2 for Java and Scala",
+      "keywords": [
+        "Databricks",
+        "Metals v2",
+        "Java",
+        "Scala",
+        "open source"
+      ],
+      "summary": "Databricks has open-sourced Metals v2, a Java and Scala language server, to support multi-million line codebases. This move can benefit Indian businesses that rely on Java and Scala for their development needs. By adopting Metals v2, Indian companies can improve their development efficiency and productivity.",
+      "content": "<h2>Introduction to Metals v2</h2><p>Databricks has announced the open-sourcing of Metals v2, a Java and Scala language server designed to support large-scale codebases. This move is expected to benefit Indian businesses that rely heavily on Java and Scala for their development needs. Metals v2 provides a range of features, including a build-free repository index, compiler-backed pipelines, and metadata-first build integration.</p><h2>Key Features of Metals v2</h2><p>Some of the key features of Metals v2 include:</p><ul><li>Build-free repository index for faster navigation and search</li><li>Compiler-backed pipelines for improved code compilation and analysis</li><li>Metadata-first build integration for streamlined build processes</li></ul><p>By adopting Metals v2, Indian companies can improve their development efficiency and productivity, leading to faster time-to-market and reduced costs.</p>",
+      "category": "SaaS & Software",
+      "tags": [
+        "databricks",
+        "metalsv2",
+        "java",
+        "scala",
+        "opensource"
+      ],
+      "readTime": 3,
+      "slug": "databricks-metals-v2",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "6870a43dd270",
       "originalUrl": "https://seekingalpha.com/news/4630693-qumulusai-signs-gpu-as-a-service-deal-with-drw-for-dedicated-nvidia-blackwell-b300-cluster?feed_item_type=news",
       "originalTitle": "QumulusAI signs GPU-as-a-Service deal with DRW for dedicated Nvidia Blackwell B300 cluster",
@@ -6533,75 +6599,9 @@
       "status": "published",
       "featured": false,
       "sitemapAdded": false
-    },
-    {
-      "id": "497d77e567f8",
-      "originalUrl": "https://www.investing.com/news/company-news/tuya-stock-hits-52week-low-at-172-usd-93CH-4798554",
-      "originalTitle": "Tuya stock hits 52-week low at 1.72 USD By Investing.com",
-      "source": "www.investing.com",
-      "imageUrl": "https://i-invdn-com.investing.com/redesign/images/seo/investing_300X300.png",
-      "publishedDate": "2026-07-17 13:35:05 +0000",
-      "createdAt": "2026-07-17T13:44:42.695Z",
-      "title": "Tuya Stock Low",
-      "metaDescription": "Tuya stock hits 52-week low",
-      "keywords": [
-        "Tuya",
-        "stock market",
-        "investment",
-        "finance",
-        "technology"
-      ],
-      "summary": "Tuya's stock has hit a 52-week low, impacting investor portfolios. This development may have implications for Indian businesses invested in global markets. Indian entrepreneurs should monitor such market trends to make informed decisions.",
-      "content": "<h2>Tuya Stock Hits 52-Week Low</h2><p>Tuya's stock has recently reached a 52-week low, trading at 1.72 USD. This significant drop may influence the investment strategies of Indian businesses and startups operating in the global market.</p><p>Indian companies, especially those in the technology sector, should be aware of such market fluctuations to adjust their investment portfolios accordingly. The Reserve Bank of India (RBI) and the Securities and Exchange Board of India (SEBI) play crucial roles in regulating and overseeing the Indian market, ensuring stability and transparency.</p><h2>Market Implications</h2><p>The decline in Tuya's stock price may have broader implications for the Indian market, particularly for companies with international investments. Indian business owners and startup founders should closely monitor these developments to make informed decisions about their investment strategies.</p><ul><li>Monitor market trends</li><li>Adjust investment portfolios</li><li>Stay informed about regulatory updates</li><li>Diversify investments</li><li>Seek professional advice</li></ul>",
-      "category": "Business Tools",
-      "tags": [
-        "finance",
-        "stock",
-        "market",
-        "investment",
-        "trends"
-      ],
-      "readTime": 3,
-      "slug": "tuya-stock-low",
-      "status": "published",
-      "featured": false,
-      "sitemapAdded": false
-    },
-    {
-      "id": "a5d11e137466",
-      "originalUrl": "https://www.reddit.com/r/apple/comments/1uyzox0/ios_27_adds_an_allnew_app_to_your_iphones_home/",
-      "originalTitle": "iOS 27 adds an all-new app to your iPhone’s Home Screen",
-      "source": "/u/Few_Baseball_3835",
-      "imageUrl": null,
-      "publishedDate": "2026-07-17 13:25:52 +0000",
-      "createdAt": "2026-07-17T13:44:48.888Z",
-      "title": "iOS Update",
-      "metaDescription": "iOS new app",
-      "keywords": [
-        "iOS",
-        "iPhone",
-        "Apple",
-        "Technology",
-        "Innovation"
-      ],
-      "summary": "The latest iOS update brings a new app to the iPhone's Home Screen, which may impact how Indian businesses approach mobile strategy. This development is relevant for Indian entrepreneurs and startup founders who use iPhones for business purposes. The new app may offer opportunities for integration with existing business tools.",
-      "content": "<h2>iOS Update Overview</h2><p>The latest iOS update has introduced a new app to the iPhone's Home Screen, which is expected to enhance user experience. For Indian business owners, this update may have implications for their mobile strategy and how they interact with customers. As the Indian market continues to grow and become increasingly digital, it is essential for businesses to stay up-to-date with the latest technological advancements.</p><h2>Implications for Indian Businesses</h2><p>Indian businesses that rely on iPhones for their operations may need to reassess their mobile strategy in light of this update. The new app may offer opportunities for integration with existing business tools, such as customer relationship management (CRM) software or marketing automation platforms. To stay competitive, Indian businesses should consider how they can leverage this new app to improve their customer engagement and overall business efficiency.</p><h2>Key Considerations</h2><p>When evaluating the impact of this update, Indian businesses should consider the following factors: <ul><li>How the new app may affect their existing mobile strategy</li><li>Opportunities for integration with other business tools</li><li>Potential benefits for customer engagement and business efficiency</li><li>Any potential challenges or limitations of the new app</li><li>How to stay ahead of the competition in the Indian market</li></ul></p>",
-      "category": "Business Tools",
-      "tags": [
-        "ios",
-        "update",
-        "india",
-        "business",
-        "tech"
-      ],
-      "readTime": 3,
-      "slug": "ios-update",
-      "status": "published",
-      "featured": false,
-      "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-08-11T13:11:03.470Z",
+  "lastUpdated": "2026-08-11T19:05:22.681Z",
   "totalCount": 200,
   "schema": "2.0"
 }
