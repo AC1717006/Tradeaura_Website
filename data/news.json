@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "f52d437bb9a7",
+      "originalUrl": "https://news.alphastreet.com/match-group-mtch-q2-2026-shows-margin-gains-but-user-growth-still-needs-proof/",
+      "originalTitle": "Match Group (MTCH) Q2 2026 Shows Margin Gains, but User Growth Still Needs Proof",
+      "source": "Newsdesk",
+      "imageUrl": null,
+      "publishedDate": "2026-08-12 18:36:25 +0000",
+      "createdAt": "2026-08-12T19:04:33.725Z",
+      "title": "Match Group Q2",
+      "metaDescription": "Match Group Q2 margin gains",
+      "keywords": [
+        "Match Group",
+        "Q2 2026",
+        "Margin Gains",
+        "User Growth",
+        "Efficiency"
+      ],
+      "summary": "Match Group's Q2 2026 results show improved efficiency, but user growth remains a concern. Indian businesses can learn from this example, focusing on sustainable growth and efficiency. This can be applied to the Indian market, where companies like RBI and SEBI regulate financial markets.",
+      "content": "<h2>Introduction</h2><p>Match Group's second quarter of 2026 showed a business that is getting more efficient faster than it is getting healthier. The company's Q2 results indicate a significant improvement in margins, but user growth remains a concern. This trend can be seen in various industries, including the Indian market, where businesses are constantly looking for ways to improve efficiency and growth.</p><h2>Key Takeaways</h2><p>The key takeaways from Match Group's Q2 results are: <ul><li>Improved margins due to increased efficiency</li><li>Slow user growth, which is a concern for the company's long-term health</li><li>The company's focus on sustainability and growth, which is relevant to Indian businesses</li><li>The importance of regulatory compliance, as seen in the Indian market with RBI and SEBI</li><li>The need for Indian businesses to balance efficiency and growth, as seen in Match Group's Q2 results</li></ul></p><h2>Conclusion</h2><p>In conclusion, Match Group's Q2 2026 results provide valuable insights for Indian businesses. The company's focus on efficiency and sustainability is relevant to the Indian market, where businesses are constantly looking for ways to improve their bottom line. By learning from Match Group's example, Indian businesses can improve their own efficiency and growth, while also ensuring regulatory compliance.</p>",
+      "category": "Business Tools",
+      "tags": [
+        "markets",
+        "growth",
+        "efficiency",
+        "regulation",
+        "sustainability"
+      ],
+      "readTime": 3,
+      "slug": "match-group-q2",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "d250d5b7177f",
+      "originalUrl": "https://www.techspot.com/news/113448-amd-tpm-implementation-includes-two-high-severity-flaws.html",
+      "originalTitle": "AMD's TPM implementation includes two high-severity flaws, but fixes have been available since May",
+      "source": "Alfonso Maruccia",
+      "imageUrl": "https://www.techspot.com/images2/news/ts3_thumbs/2026/08/2026-08-12-ts3_thumbs-b55.jpg",
+      "publishedDate": "2026-08-12 18:31:00 +0000",
+      "createdAt": "2026-08-12T19:04:38.587Z",
+      "title": "AMD's TPM Flaws",
+      "metaDescription": "AMD's TPM implementation flaws",
+      "keywords": [
+        "AMD",
+        "TPM",
+        "Security",
+        "Firmware",
+        "Updates"
+      ],
+      "summary": "AMD's TPM implementation has two high-severity flaws, but fixes have been available since May, which is crucial for Indian businesses to ensure the security of their systems. The Trusted Computing Group identified the issue, prompting AMD to release new motherboard and firmware updates. Indian companies must prioritize updating their systems to prevent potential security breaches.",
+      "content": "<h2>AMD's TPM Implementation Flaws</h2><p>Researchers working with the Trusted Computing Group recently identified a potential security issue in AMD's TPM code, prompting the company to release new motherboard and firmware updates. The two high-severity flaws in AMD's TPM implementation can be mitigated with the latest updates, which have been available since May. This is particularly important for Indian businesses that rely on AMD systems, as failing to update can leave them vulnerable to security threats.</p><h2>Impact on Indian Businesses</h2><p>Indian companies must prioritize updating their systems to prevent potential security breaches. The Reserve Bank of India and the Securities and Exchange Board of India have emphasized the importance of cybersecurity in the Indian market. By keeping their systems up-to-date, Indian businesses can ensure the security and integrity of their data, which is essential for maintaining customer trust and complying with regulatory requirements.</p><h2>Key Takeaways</h2><ul><li>AMD's TPM implementation has two high-severity flaws</li><li>Fixes have been available since May</li><li>Indian businesses must prioritize updating their systems</li><li>Cybersecurity is crucial for the Indian market</li><li>Regular updates can prevent potential security breaches</li></ul>",
+      "category": "AI & Automation",
+      "tags": [
+        "tech",
+        "security",
+        "india",
+        "business",
+        "updates"
+      ],
+      "readTime": 3,
+      "slug": "amds-tpm-flaws",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "300dd7d0a08a",
       "originalUrl": "https://www.businesstimes.com.sg/companies-markets/sgx-securities-trading-value-july-rises-37-year-year-s46-2-billion",
       "originalTitle": "SGX securities trading value for July rises 37% year on year to S$46.2 billion",
@@ -6533,75 +6599,9 @@
       "status": "published",
       "featured": false,
       "sitemapAdded": false
-    },
-    {
-      "id": "af27fb57c62f",
-      "originalUrl": "https://www.business-standard.com/india-news/delhi-world-s-cheapest-for-buying-property-salaries-among-lowest-report-126071800666_1.html",
-      "originalTitle": "Delhi world's cheapest for property, salaries among lowest: Deutsche report",
-      "source": "Business Standard; Press Trust",
-      "imageUrl": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-07/03/thumb/featurecrop/1200X628/1783094278-3418.jpg",
-      "publishedDate": "2026-07-18 12:48:06 +0000",
-      "createdAt": "2026-07-18T13:21:45.029Z",
-      "title": "Delhi Affordable",
-      "metaDescription": "Delhi cheapest city",
-      "keywords": [
-        "Delhi",
-        "property",
-        "salaries",
-        "broadband",
-        "cost"
-      ],
-      "summary": "A recent report highlights Delhi as the most affordable city globally for property and salaries, with the lowest broadband internet costs, making it an attractive location for Indian businesses and startups. This affordability can be a significant factor for business owners and decision-makers in India. The report's findings have implications for the Indian market.",
-      "content": "<h2>Affordability in Delhi</h2><p>A recent report by Deutsche found that Delhi is the world's cheapest city for buying property, with salaries among the lowest globally. The report also noted that Delhi offers the most inexpensive broadband internet, with a monthly connection costing $7.3 (around Rs 703), the lowest in the 69-city sample.</p><p>This affordability can be a significant factor for business owners and decision-makers in India, as it can impact operating costs and profitability. Indian businesses, particularly startups, may find Delhi an attractive location due to its low costs.</p><h2>Key Findings</h2><ul><li>Delhi has the lowest property prices globally</li><li>Salaries in Delhi are among the lowest worldwide</li><li>Broadband internet in Delhi is the cheapest, at $7.3 per month</li></ul><p>These findings suggest that Delhi can be an attractive location for businesses looking to establish or expand operations in India. The city's affordability can help reduce costs and increase competitiveness in the Indian market.</p>",
-      "category": "Business Tools",
-      "tags": [
-        "delhi",
-        "property",
-        "salaries",
-        "broadband",
-        "cost"
-      ],
-      "readTime": 3,
-      "slug": "delhi-affordable",
-      "status": "published",
-      "featured": false,
-      "sitemapAdded": false
-    },
-    {
-      "id": "985faf47283c",
-      "originalUrl": "https://www.techspot.com/news/113166-san-francisco-warns-apple-google-stop-profiting-ai.html",
-      "originalTitle": "San Francisco warns Apple and Google to stop profiting from AI nudify apps",
-      "source": "Rob Thubron",
-      "imageUrl": "https://www.techspot.com/images2/news/ts3_thumbs/2026/07/2026-07-18-ts3_thumbs-087.jpg",
-      "publishedDate": "2026-07-18 12:51:00 +0000",
-      "createdAt": "2026-07-18T13:21:49.859Z",
-      "title": "AI Apps Warning",
-      "metaDescription": "San Francisco warns tech giants",
-      "keywords": [
-        "AI",
-        "nudify apps",
-        "tech giants",
-        "app store",
-        "Google Play"
-      ],
-      "summary": "San Francisco has issued cease-and-desist letters to tech giants, demanding removal of AI-powered nudify apps from their stores, a move that could impact the Indian market. Indian business owners and startup founders should be aware of the potential implications on their operations. The development highlights the need for responsible AI deployment in India.",
-      "content": "<h2>Regulatory Action Against AI Nudify Apps</h2><p>San Francisco has taken a significant step by sending cease-and-desist letters to tech giants, demanding that they remove AI-powered nudify apps from their stores. This move could have far-reaching implications for the Indian market, where many businesses and startups rely on these platforms to reach their customers.</p><p>In India, the regulatory environment is evolving, with the RBI and SEBI playing crucial roles in shaping the landscape. As the Indian market continues to grow, it is essential for business owners and startup founders to stay informed about the latest developments and their potential impact on operations.</p><h2>Key Takeaways</h2><ul><li>San Francisco's action against AI nudify apps could influence the Indian market</li><li>Indian businesses and startups should be aware of the potential implications</li><li>Responsible AI deployment is crucial in India</li><li>The regulatory environment in India is evolving</li><li>Business owners and startup founders must stay informed about the latest developments</li></ul>",
-      "category": "AI & Automation",
-      "tags": [
-        "ai",
-        "apps",
-        "india",
-        "tech",
-        "regulation"
-      ],
-      "readTime": 3,
-      "slug": "ai-apps-warning",
-      "status": "published",
-      "featured": false,
-      "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-08-12T13:15:14.290Z",
+  "lastUpdated": "2026-08-12T19:04:38.587Z",
   "totalCount": 200,
   "schema": "2.0"
 }
