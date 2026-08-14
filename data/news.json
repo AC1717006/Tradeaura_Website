@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "5453c2284b6c",
+      "originalUrl": "https://seekingalpha.com/article/4936895-palantir-winning-ai-race-with-aip-and-forward-deployed-engineer-approach?source=feed_all_articles",
+      "originalTitle": "Palantir: Winning AI Race With AIP And Forward Deployed Engineer Approach",
+      "source": "seekingalpha.com",
+      "imageUrl": null,
+      "publishedDate": "2026-08-14 18:51:38 +0000",
+      "createdAt": "2026-08-14T18:57:39.159Z",
+      "title": "Palantir AI",
+      "metaDescription": "Palantir wins AI race",
+      "keywords": [
+        "Palantir",
+        "AI",
+        "AIP",
+        "Engineer",
+        "Technology"
+      ],
+      "summary": "Palantir is leading the AI race with its innovative approach, which can be a valuable lesson for Indian business owners and startup founders. The company's success can be attributed to its forward-deployed engineer approach and AIP technology. Indian businesses can learn from Palantir's strategy to stay competitive in the market.",
+      "content": "<h2>Introduction to Palantir</h2><p>Palantir is a well-known company in the field of artificial intelligence and data integration. The company has been making waves with its innovative approach to AI, which has helped it stay ahead of the competition. In the Indian context, businesses can learn from Palantir's strategy to improve their own operations and decision-making processes.</p><h2>Forward Deployed Engineer Approach</h2><p>One of the key factors contributing to Palantir's success is its forward-deployed engineer approach. This approach involves deploying engineers directly to the client's site to work closely with them and understand their needs. This helps in developing tailored solutions that meet the client's specific requirements. In India, where the market is highly competitive, such an approach can help businesses build strong relationships with their clients and provide them with customized solutions.</p><h2>AIP Technology</h2><p>Palantir's AIP technology is another factor that has contributed to its success. AIP stands for Artificial Intelligence Platform, which is a suite of tools that enables businesses to build and deploy AI models quickly and efficiently. The platform provides a range of features, including data integration, machine learning, and model deployment. Indian businesses can leverage such technology to improve their operations, reduce costs, and enhance customer experience.</p><h2>Benefits for Indian Businesses</h2><p>Palantir's approach and technology can have several benefits for Indian businesses. Some of the key benefits include improved decision-making, increased efficiency, and enhanced customer experience. By adopting a forward-deployed engineer approach and leveraging AIP technology, Indian businesses can stay competitive in the market and achieve their goals.</p><ul><li>Improved decision-making</li><li>Increased efficiency</li><li>Enhanced customer experience</li><li>Competitive advantage</li><li>Cost savings</li></ul>",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "tech",
+        "business",
+        "india",
+        "palantir"
+      ],
+      "readTime": 4,
+      "slug": "palantir-ai",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "1582bbc45bf0",
+      "originalUrl": "https://www.sciencealert.com/1000-ai-agents-started-agreeing-without-anyone-telling-them-to",
+      "originalTitle": "1,000 AI Agents Started Agreeing Without Anyone Telling Them To",
+      "source": "Esra Öz; Esra Ãz",
+      "imageUrl": "https://www.sciencealert.com/images/2026/08/PurpleAbstractIllustrationOfConvergenceLooksLikeAHumanEye.jpg",
+      "publishedDate": "2026-08-14 18:00:00 +0000",
+      "createdAt": "2026-08-14T18:57:44.269Z",
+      "title": "AI Agents Sync",
+      "metaDescription": "AI agents agree without instruction",
+      "keywords": [
+        "artificial intelligence",
+        "ai agents",
+        "machine learning",
+        "automation",
+        "technology"
+      ],
+      "summary": "In a significant development, 1,000 AI agents have demonstrated the ability to reach a consensus without being explicitly instructed to do so, a phenomenon that could have significant implications for Indian businesses leveraging AI and automation. This could potentially enhance decision-making processes and improve operational efficiency. Indian companies may benefit from exploring such AI capabilities to stay competitive in the market.",
+      "content": "<h2>Introduction to AI Agents</h2><p>Imagine a virtual room filled with 1,000 artificial intelligence agents, each tasked with making a choice between two meaningless options. Recently, an experiment involving such a scenario revealed an intriguing outcome: the AI agents began to agree on one of the options without any explicit instruction to do so.</p><h2>Implications for Indian Businesses</h2><p>This development has significant implications for Indian businesses, particularly those investing in AI and automation. The ability of AI agents to reach a consensus could enhance decision-making processes, improve operational efficiency, and potentially give Indian companies a competitive edge in the market. As the Indian market continues to evolve, leveraging such AI capabilities could be crucial for businesses to stay ahead.</p><h2>Key Takeaways</h2><ul><li>1,000 AI agents reached a consensus without explicit instruction.</li><li>This phenomenon could enhance decision-making and operational efficiency.</li><li>Indian businesses may benefit from exploring AI capabilities to stay competitive.</li></ul>",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "automation",
+        "tech",
+        "business",
+        "india"
+      ],
+      "readTime": 3,
+      "slug": "ai-agents-sync",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "3ca61b13a626",
       "originalUrl": "https://www.benzinga.com/trading-ideas/short-ideas/26/08/61207025/top-3-tech-stocks-that-may-fall-off-a-cliff-in-august",
       "originalTitle": "Top 3 Tech Stocks That May Fall Off A Cliff In August - Atlassian (NASDAQ:TEAM), Elastic (NYSE:ESTC)",
@@ -6533,75 +6599,9 @@
       "status": "published",
       "featured": false,
       "sitemapAdded": false
-    },
-    {
-      "id": "f48613fb8f04",
-      "originalUrl": "https://www.investing.com/news/company-news/jk-cement-q1-fy27-slides-volume-surges-18-margins-face-pressure-93CH-4801190",
-      "originalTitle": "JK Cement Q1 FY27 slides: volume surges 18%, margins face pressure By Investing.com",
-      "source": "www.investing.com",
-      "imageUrl": "https://i-invdn-com.investing.com/redesign/images/seo/investing_300X300.png",
-      "publishedDate": "2026-07-20 13:46:41 +0000",
-      "createdAt": "2026-07-20T14:11:45.712Z",
-      "title": "Cement Q1",
-      "metaDescription": "cement industry news",
-      "keywords": [
-        "cement industry",
-        "JK Cement",
-        "Q1 results",
-        "Indian market",
-        "construction sector"
-      ],
-      "summary": "JK Cement's Q1 FY27 results show an 18% surge in volume, but margins face pressure. This development is significant for the Indian construction sector. The company's performance has implications for Indian business owners and investors.",
-      "content": "<h2>JK Cement Q1 FY27 Results</h2><p>JK Cement's Q1 FY27 results have been released, with the company reporting an 18% surge in volume. However, the company's margins face pressure due to various market factors. The Indian cement industry is a significant sector, with many players competing for market share.</p><p>The company's performance has implications for the Indian construction sector, which is a crucial part of the country's economy. The sector's growth is closely tied to the overall economic development of India. <h2>Key Highlights</h2><ul><li>18% surge in volume</li><li>Margins face pressure</li><li>Implications for the Indian construction sector</li><li>Significant for Indian business owners and investors</li><li>Market competition in the cement industry</li></ul>",
-      "category": "Business Tools",
-      "tags": [
-        "cement",
-        "industry",
-        "news",
-        "market",
-        "sector"
-      ],
-      "readTime": 3,
-      "slug": "cement-q1",
-      "status": "published",
-      "featured": false,
-      "sitemapAdded": false
-    },
-    {
-      "id": "7e7d650901d7",
-      "originalUrl": "https://www.infosecurity-magazine.com/news/jadepuffer-ai-model-ransomware/",
-      "originalTitle": "JadePuffer Returns With Ransomware Designed to Wipe AI Models",
-      "source": "Alessandro Mascellino",
-      "imageUrl": "https://assets.infosecurity-magazine.com/webpage/og/2982487c-aeaf-49d4-ba10-98b071254c11.jpg",
-      "publishedDate": "2026-07-20 14:05:00 +0000",
-      "createdAt": "2026-07-20T14:11:50.762Z",
-      "title": "AI Ransomware",
-      "metaDescription": "JadePuffer ransomware targets AI models",
-      "keywords": [
-        "JadePuffer",
-        "Ransomware",
-        "AI Models",
-        "Cybersecurity",
-        "Data Protection"
-      ],
-      "summary": "Indian businesses relying on AI models must be aware of the JadePuffer ransomware campaign, which targets and destroys AI model artifacts, posing a significant threat to their operations. The campaign uses the ENCFORGE locker to wipe out AI models, emphasizing the need for robust cybersecurity measures. As the Indian market increasingly adopts AI, businesses must prioritize data protection to mitigate such risks.",
-      "content": "<h2>JadePuffer Ransomware Campaign</h2><p>The JadePuffer ransomware campaign has been making headlines with its unique approach to targeting AI models. This campaign utilizes the ENCFORGE locker, which is specifically designed to destroy AI model artifacts, posing a significant threat to businesses that rely heavily on AI-powered operations.</p><p>In the Indian context, this campaign serves as a reminder of the importance of robust cybersecurity measures. As the country continues to adopt AI and machine learning technologies, businesses must prioritize data protection to mitigate the risks associated with such attacks.</p><h2>Key Takeaways</h2><p>The JadePuffer ransomware campaign highlights the need for Indian businesses to:</p><ul><li>Implement robust cybersecurity measures to protect AI models and data</li><li>Regularly update and patch software to prevent vulnerabilities</li><li>Develop incident response plans to address potential attacks</li><li>Invest in employee education and awareness programs to prevent phishing and other social engineering attacks</li><li>Consider investing in AI-specific security solutions to protect against targeted attacks</li></ul>",
-      "category": "AI & Automation",
-      "tags": [
-        "ai",
-        "security",
-        "india",
-        "tech",
-        "business"
-      ],
-      "readTime": 3,
-      "slug": "ai-ransomware",
-      "status": "published",
-      "featured": false,
-      "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-08-14T13:12:19.310Z",
+  "lastUpdated": "2026-08-14T18:57:44.270Z",
   "totalCount": 200,
   "schema": "2.0"
 }
