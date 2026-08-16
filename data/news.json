@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "b03d39be55f5",
+      "originalUrl": "https://www.business-standard.com/markets/news/mcap-of-5-most-valued-firms-erodes-by-1-trn-tcs-takes-biggest-hit-126081600156_1.html",
+      "originalTitle": "Mcap of 5 most valued firms erodes by ₹1 trn, TCS takes biggest hit",
+      "source": "www.business-standard.com",
+      "imageUrl": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-04/10/thumb/featurecrop/1200X628/1775815432-6744.JPG",
+      "publishedDate": "2026-08-16 06:01:22 +0000",
+      "createdAt": "2026-08-16T06:43:06.536Z",
+      "title": "Market Cap Erodes",
+      "metaDescription": "India's top firms market cap erodes",
+      "keywords": [
+        "market capitalization",
+        "TCS",
+        "Indian market",
+        "valuation erosion",
+        "RBI"
+      ],
+      "summary": "The market capitalization of India's top 5 firms has eroded by ₹1 trillion, with TCS taking the biggest hit, while other companies like Bharti Airtel and Bajaj Finance saw gains. This shift in market capitalization reflects the current state of the Indian market. Indian business owners should be aware of these changes to make informed decisions.",
+      "content": "<h2>Market Capitalization Shifts</h2><p>The market capitalization of India's top 5 firms has eroded by ₹1 trillion, with TCS taking the biggest hit. This significant erosion in market capitalization is a notable development in the Indian market. Other companies like Reliance Industries, HDFC Bank, ICICI Bank, and SBI also faced valuation erosion.</p><p>On the other hand, companies like Bharti Airtel, Bajaj Finance, Larsen & Toubro, LIC, and Hindustan Unilever saw gains in their market capitalization. This shift in market capitalization reflects the current state of the Indian market and the performance of these companies.</p><h2>Key Takeaways</h2><ul><li>TCS faced the biggest erosion in market capitalization</li><li>Reliance Industries, HDFC Bank, ICICI Bank, and SBI also saw valuation erosion</li><li>Bharti Airtel, Bajaj Finance, Larsen & Toubro, LIC, and Hindustan Unilever gained in market capitalization</li><li>The shift in market capitalization reflects the current state of the Indian market</li><li>Indian business owners should be aware of these changes to make informed decisions</li></ul>",
+      "category": "Business Tools",
+      "tags": [
+        "finance",
+        "market",
+        "india",
+        "business",
+        "economy"
+      ],
+      "readTime": 3,
+      "slug": "market-cap-erodes",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "42605fac8cba",
+      "originalUrl": "https://www.theguardian.com/money/2026/aug/16/scam-ai-holiday-photos-instagram-facebook",
+      "originalTitle": "‘We detected unusual activity’: the scam that uses AI to exploit your holiday photos",
+      "source": "Shane Hickey",
+      "imageUrl": "https://i.guim.co.uk/img/media/e19d25c3f14c71a1833b7377ae24e10418ee1a2b/616_0_5001_4001/master/5001.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=cfd18935af3ff006c614ccd422589139",
+      "publishedDate": "2026-08-16 06:00:17 +0000",
+      "createdAt": "2026-08-16T06:43:11.418Z",
+      "title": "AI Scam Alert",
+      "metaDescription": "AI scam targets Indians",
+      "keywords": [
+        "AI scam",
+        "holiday photos",
+        "Instagram",
+        "Facebook",
+        "cybercrime"
+      ],
+      "summary": "Indian businesses and individuals are being targeted by a new AI-powered scam that uses holiday photos from social media to trick victims into revealing their bank account details. The scam is a reminder of the importance of cybersecurity in the Indian market. Indian authorities, including the RBI and SEBI, have warned about the dangers of such scams.",
+      "content": "<h2>Introduction to AI Scam</h2><p>A new scam is targeting Indians, using AI to exploit their holiday photos posted on social media platforms like Instagram and Facebook. The scam creates emails that appear to be from a legitimate source, seeking bank account details from the victim.</p><h2>How the Scam Works</h2><p>Fraudsters use pictures posted on Instagram or Facebook to create emails that seem authentic, asking the victim to verify their bank account details. This scam is a reminder of the importance of being cautious when sharing personal information online, especially in the Indian market where cybersecurity is a growing concern.</p><h2>Prevention is Key</h2><p>To avoid falling victim to such scams, it is essential to be vigilant when receiving emails that ask for personal or financial information. Indian businesses and individuals must ensure they have robust cybersecurity measures in place to protect themselves from such threats.</p><ul><li>Be cautious when sharing personal information online</li><li>Verify the authenticity of emails before responding</li><li>Keep software and systems up to date</li><li>Use strong passwords and enable two-factor authentication</li><li>Regularly monitor bank account activity</li></ul>",
+      "category": "Digital Transformation",
+      "tags": [
+        "ai",
+        "scam",
+        "cybercrime",
+        "india",
+        "security"
+      ],
+      "readTime": 3,
+      "slug": "ai-scam-alert",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "b0620ff0aed8",
       "originalUrl": "https://www.zerohedge.com/geopolitical/are-chinas-surveillance-exports-turning-nations-digital-dictatorships",
       "originalTitle": "Are China's Surveillance Exports Turning Nations Into Digital Dictatorships?",
@@ -6533,75 +6599,9 @@
       "status": "published",
       "featured": false,
       "sitemapAdded": false
-    },
-    {
-      "id": "bcfbd197adff",
-      "originalUrl": "https://www.financialstandard.com.au/news/global-x-launches-global-smd-etf-179813354",
-      "originalTitle": "Global X launches global SMD ETF",
-      "source": "Vinny Vucago",
-      "imageUrl": null,
-      "publishedDate": "2026-07-22 02:19:00 +0000",
-      "createdAt": "2026-07-22T02:52:03.264Z",
-      "title": "Global X ETF",
-      "metaDescription": "Global X launches international ETF",
-      "keywords": [
-        "etf",
-        "global x",
-        "international equity",
-        "small cap",
-        "mid cap"
-      ],
-      "summary": "Global X has launched a new ETF offering low-cost exposure to small- and mid-cap companies, a strategy that Indian investors may also consider for diversification. Indian business owners and startup founders can learn from this global trend. The Indian market has its own set of regulations and guidelines set by RBI and SEBI.",
-      "content": "<h2>Introduction to Global X ETF</h2><p>Global X ETF has expanded its international equity range with the launch of the Global X MSCI International Small and Mid-Cap ETF, offering investors low-cost exposure to small- and mid-cap companies across developed markets. This move is part of a global trend where investors are looking for diversification and low-cost investment options.</p><h2>Implications for Indian Market</h2><p>While this ETF is currently available to Australian investors, the strategy of investing in small- and mid-cap companies can be applied to the Indian market as well. Indian business owners and startup founders can consider diversifying their portfolios by investing in similar companies. However, they must comply with the regulations and guidelines set by the Reserve Bank of India (RBI) and the Securities and Exchange Board of India (SEBI).</p><h2>Key Benefits</h2><p>The key benefits of investing in small- and mid-cap companies include the potential for high growth and low correlation with large-cap companies. This can help investors reduce their risk and increase their returns. Some of the key features of this ETF include:</p><ul><li>Low-cost exposure to small- and mid-cap companies</li><li>Diversification across developed markets</li><li>Potential for high growth</li><li>Low correlation with large-cap companies</li><li>Compliance with international regulations</li></ul>",
-      "category": "SaaS & Software",
-      "tags": [
-        "etf",
-        "investing",
-        "market",
-        "globalx",
-        "finance"
-      ],
-      "readTime": 3,
-      "slug": "global-x-etf",
-      "status": "published",
-      "featured": false,
-      "sitemapAdded": false
-    },
-    {
-      "id": "0606c75084b2",
-      "originalUrl": "https://www.techinasia.com/sg-data-center-firm-flow-digital-names-cfo",
-      "originalTitle": "Nike plans to cut thousands of online distributors in China",
-      "source": "Aiko Gao Ishida",
-      "imageUrl": null,
-      "publishedDate": "2026-07-22 02:23:38 +0000",
-      "createdAt": "2026-07-22T02:52:08.107Z",
-      "title": "Nike Cuts Distributors",
-      "metaDescription": "Nike reduces online distributors",
-      "keywords": [
-        "distribution network",
-        "online marketplace",
-        "brand presentation",
-        "pricing strategy",
-        "market consolidation"
-      ],
-      "summary": "Nike plans to cut thousands of online distributors in China to address inconsistent pricing and brand presentation. This move can be seen as a strategic step to consolidate its market presence. Indian businesses can learn from Nike's approach to optimize their own distribution networks.",
-      "content": "<h2>Nike's Distribution Strategy</h2><p>Nike has announced plans to reduce its online distributors in China, citing inconsistent pricing and brand presentation across online marketplaces. This decision aims to consolidate Nike's market presence and improve its overall brand image.</p><p>The company's broad distribution network had expanded its access to a wider customer base, but it also led to inconsistencies in pricing and brand presentation. By cutting down on distributors, Nike seeks to address these issues and establish a more cohesive brand identity.</p><h2>Implications for Indian Businesses</h2><p>Indian businesses can draw lessons from Nike's approach to distribution network management. By optimizing their distribution channels, companies can improve their brand presentation, pricing strategies, and overall market presence. This is particularly relevant in the Indian market, where a strong online presence is crucial for businesses to succeed.</p><ul><li>Consistent pricing and brand presentation are key to establishing a strong brand identity</li><li>A well-managed distribution network can help businesses expand their customer base</li><li>Market consolidation can be an effective strategy for establishing a dominant market presence</li></ul>",
-      "category": "Business Tools",
-      "tags": [
-        "market",
-        "brand",
-        "price",
-        "china",
-        "nike"
-      ],
-      "readTime": 3,
-      "slug": "nike-cuts-distributors",
-      "status": "published",
-      "featured": false,
-      "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-08-16T01:27:15.352Z",
+  "lastUpdated": "2026-08-16T06:43:11.419Z",
   "totalCount": 200,
   "schema": "2.0"
 }
