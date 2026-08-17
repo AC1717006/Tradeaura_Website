@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "7a5b2a7e7946",
+      "originalUrl": "https://economictimes.indiatimes.com/markets/ipos/fpos/major-companies-launch-bids-to-raise-rs-7100-crore-during-this-unprecedented-week-of-ipos/articleshow/133284250.cms",
+      "originalTitle": "IPO Rush: 9 issues to raise around Rs 7,100 crore this week",
+      "source": "SECTIONS IPO Rush ; ET Bureau",
+      "imageUrl": "https://img.etimg.com/thumb/msid-133284267,width-1200,height-630,imgsize-53146,overlay-etmarkets/articleshow.jpg",
+      "publishedDate": "2026-08-17 00:47:32 +0000",
+      "createdAt": "2026-08-17T01:24:39.024Z",
+      "title": "IPO Rush",
+      "metaDescription": "IPOs in India",
+      "keywords": [
+        "IPO",
+        "Indian market",
+        "RBI",
+        "SEBI",
+        "finance"
+      ],
+      "summary": "The Indian primary market is expecting a busy week with seven mainboard IPOs aiming to raise approximately ₹7,100 crore in capital, with Horizon Industrial Parks planning the largest IPO, seeking ₹2,600 crore, and Lalithaa Jewellery Mart following, intending to raise ₹1,700 crore. This rush of IPOs indicates a growing trend in the Indian market. Indian business owners and startup founders are keenly watching these developments.",
+      "content": "<h2>IPO Rush in India</h2><p>The Indian primary market is expecting a busy week with seven mainboard IPOs aiming to raise approximately ₹7,100 crore in capital. Horizon Industrial Parks plans the largest IPO, seeking ₹2,600 crore, while Lalithaa Jewellery Mart follows, intending to raise ₹1,700 crore.</p><p>The SME segment is also expected to see significant activity, with several companies launching their IPOs. This rush of IPOs indicates a growing trend in the Indian market, with many companies looking to raise capital to fund their growth plans.</p><h2>Key IPOs</h2><ul><li>Horizon Industrial Parks: ₹2,600 crore</li><li>Lalithaa Jewellery Mart: ₹1,700 crore</li></ul><p>These IPOs are expected to provide a significant boost to the Indian economy, with the capital raised being used to fund expansion plans, repay debt, and invest in new projects. The RBI and SEBI are closely monitoring these developments, ensuring that the IPO process is fair and transparent.</p>",
+      "category": "Finance & Markets",
+      "tags": [
+        "ipo",
+        "market",
+        "finance",
+        "business",
+        "economy"
+      ],
+      "readTime": 3,
+      "slug": "ipo-rush",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
+      "id": "6d7ef326a638",
+      "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1vqdode/r_sinekan_kolmogorovarnold_networks_using/",
+      "originalTitle": "[R] SineKAN: Kolmogorov-Arnold Networks Using Sinusoidal Activation Functions",
+      "source": "/u/jacobgorm",
+      "imageUrl": null,
+      "publishedDate": "2026-08-17 00:46:26 +0000",
+      "createdAt": "2026-08-17T01:24:44.095Z",
+      "title": "SineKAN Networks",
+      "metaDescription": "SineKAN for machine learning",
+      "keywords": [
+        "machine learning",
+        "Kolmogorov-Arnold",
+        "sinusoidal activation",
+        "neural networks",
+        "artificial intelligence"
+      ],
+      "summary": "The SineKAN network is a type of neural network that utilizes sinusoidal activation functions, which can be relevant to Indian businesses looking to adopt AI solutions. This technology has the potential to improve machine learning capabilities in various industries. Indian companies can explore SineKAN for innovative applications.",
+      "content": "<h2>Introduction to SineKAN</h2><p>The SineKAN network is a variant of the Kolmogorov-Arnold network, which uses sinusoidal activation functions instead of traditional B-splines. This approach has been explored in research, and the results are promising. The use of sinusoidal activation functions can lead to more efficient and effective neural networks.</p><h2>Applications of SineKAN</h2><p>The SineKAN network has various potential applications in machine learning, including image and speech recognition, natural language processing, and predictive modeling. Indian businesses can leverage this technology to improve their operations, customer service, and decision-making processes. Some of the key benefits of SineKAN include:</p><ul><li>Improved accuracy and efficiency</li><li>Enhanced scalability and flexibility</li><li>Increased interpretability and transparency</li><li>Reduced computational complexity</li><li>Better handling of complex data</li></ul><p>As the Indian market continues to grow and evolve, the adoption of AI and machine learning technologies like SineKAN can be a key differentiator for businesses. By exploring and investing in these innovations, Indian companies can stay ahead of the competition and achieve their goals.</p>",
+      "category": "AI & Automation",
+      "tags": [
+        "ai",
+        "ml",
+        "networks",
+        "sinusoidal",
+        "kan"
+      ],
+      "readTime": 3,
+      "slug": "sinekan-networks",
+      "status": "published",
+      "featured": false,
+      "sitemapAdded": false
+    },
+    {
       "id": "f9052022725f",
       "originalUrl": "https://www.reddit.com/r/ValueInvesting/comments/1vq42l0/a_framework_for_evaluating_moats_in_tech/",
       "originalTitle": "A framework for evaluating moats in tech companies (metrics I actually look at)",
@@ -6533,75 +6599,9 @@
       "status": "published",
       "featured": false,
       "sitemapAdded": false
-    },
-    {
-      "id": "8ae746ee5d27",
-      "originalUrl": "https://www.thestreet.com/markets/ai-is-quietly-changing-how-portfolios-are-managed",
-      "originalTitle": "AI is quietly changing how portfolios are managed",
-      "source": "Hillary Remy",
-      "imageUrl": null,
-      "publishedDate": "2026-07-22 19:07:00 +0000",
-      "createdAt": "2026-07-22T19:25:16.295Z",
-      "title": "AI in Portfolio",
-      "metaDescription": "AI changing portfolio management",
-      "keywords": [
-        "AI",
-        "portfolio management",
-        "asset management",
-        "investment process",
-        "technology"
-      ],
-      "summary": "AI is transforming the Indian asset management landscape by streamlining portfolio management processes, enhancing investment decisions, and optimizing returns. Indian businesses can leverage AI to stay competitive in the market. The Reserve Bank of India's regulations and the Securities and Exchange Board of India's guidelines play a crucial role in shaping the AI adoption landscape.",
-      "content": "<h2>Introduction to AI in Portfolio Management</h2><p>Artificial intelligence is revolutionizing the way portfolios are managed in India. Walk into any Indian asset management firm that's been experimenting with AI and ask what the technology is actually doing in their investment process. The answer isn't usually what you'd expect. It's rarely about predicting tomorrow's big mover or finding the next multi-bagger before anyone else figures it out.</p><h2>Role of AI in Investment Process</h2><p>AI is being used to analyze vast amounts of data, identify patterns, and make predictions about market trends. This enables Indian asset management firms to make informed investment decisions, optimize their portfolios, and minimize risks. The use of AI in portfolio management is still in its nascent stages in India, but it has the potential to transform the way investments are made.</p><h2>Benefits of AI in Portfolio Management</h2><p>The benefits of using AI in portfolio management are numerous. Some of the key advantages include:<ul><li>Improved investment decisions</li><li>Enhanced risk management</li><li>Increased efficiency</li><li>Better portfolio optimization</li><li>Competitive advantage</li></ul></p>",
-      "category": "AI & Automation",
-      "tags": [
-        "ai",
-        "finance",
-        "invest",
-        "market",
-        "tech"
-      ],
-      "readTime": 3,
-      "slug": "ai-in-portfolio",
-      "status": "published",
-      "featured": false,
-      "sitemapAdded": false
-    },
-    {
-      "id": "2f1ac184718d",
-      "originalUrl": "https://phys.org/news/2026-07-physics-based-ai-boost-biomedical.html",
-      "originalTitle": "Physics-based AI could boost biomedical imaging and autonomous vehicle sensors",
-      "source": "phys.org",
-      "imageUrl": null,
-      "publishedDate": "2026-07-22 19:00:08 +0000",
-      "createdAt": "2026-07-22T19:25:20.990Z",
-      "title": "AI Imaging",
-      "metaDescription": "AI for biomedical imaging",
-      "keywords": [
-        "ai",
-        "imaging",
-        "biomedical",
-        "autonomous",
-        "sensors"
-      ],
-      "summary": "A new physics-based AI system can enhance biomedical imaging and autonomous vehicle sensors, potentially benefiting Indian healthcare and automotive industries. This technology can improve diagnostic accuracy and vehicle safety. Indian businesses can leverage this innovation to drive growth",
-      "content": "<h2>Introduction to Physics-based AI</h2><p>A research team led by UCLA and the University of Rochester has demonstrated a promising evolution of an imaging system designed to capture details within complex media. The system uses physics-based AI to improve image quality, which can be applied to biomedical imaging and autonomous vehicle sensors.</p><h2>Applications in India</h2><p>In the Indian context, this technology can be used to improve diagnostic accuracy in healthcare, leading to better patient outcomes. Additionally, it can enhance vehicle safety in the automotive industry, reducing accidents and improving overall road safety. Indian businesses can leverage this innovation to drive growth and stay competitive in the global market.</p><h2>Key Benefits</h2><ul><li>Improved diagnostic accuracy in biomedical imaging</li><li>Enhanced vehicle safety in autonomous vehicles</li><li>Potential applications in other industries, such as robotics and surveillance</li><li>Opportunities for Indian businesses to drive growth and innovation</li><li>Contribution to the development of cutting-edge technologies in India</li></ul>",
-      "category": "AI & Automation",
-      "tags": [
-        "ai",
-        "tech",
-        "health",
-        "auto",
-        "innovation"
-      ],
-      "readTime": 3,
-      "slug": "ai-imaging",
-      "status": "published",
-      "featured": false,
-      "sitemapAdded": false
     }
   ],
-  "lastUpdated": "2026-08-16T18:32:49.567Z",
+  "lastUpdated": "2026-08-17T01:24:44.095Z",
   "totalCount": 200,
   "schema": "2.0"
 }
