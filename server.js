@@ -25,6 +25,7 @@ const path         = require('path');
 const { default: YahooFinance } = require('yahoo-finance2');
 
 const PORT = parseInt(process.env.PORT || '3001', 10);
+const HOST = process.env.HOST || '0.0.0.0';
 
 // ── Yahoo Finance client ──────────────────────────────────────────────────
 const yf = new YahooFinance({ suppressNotices: ['yahooSurvey'] });
@@ -159,7 +160,7 @@ app.get('/health', (_req, res) => {
 });
 
 // ── Start ─────────────────────────────────────────────────────────────────
-app.listen(PORT, async () => {
+app.listen(PORT, HOST, async () => {
   console.log(`\n[Server] http://localhost:${PORT}`);
   console.log(`[Server] Market    → http://localhost:${PORT}/api/market`);
   console.log(`[Server] Instagram → http://localhost:${PORT}/api/instagram`);
