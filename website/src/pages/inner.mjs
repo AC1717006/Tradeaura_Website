@@ -387,7 +387,7 @@ export const gymDashboard = () => {
 
 <section class="ta-section" id="gym-demo-form">
   <div class="ta-container">
-    <div class="ta-grid" style="grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:48px;align-items:start">
+    <div class="ta-grid ta-grid--split">
       <div class="ta-sechead">
         <span class="ta-eyebrow">3 months free</span>
         <h2>Start your free demo</h2>

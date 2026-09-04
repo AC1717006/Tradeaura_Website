@@ -18,6 +18,20 @@
   }
   track('gym_landing_view');
 
+  /* The browser jumps to #gym-demo-form while the page is still growing
+     (font swap and late layout), leaving the viewport hundreds of pixels
+     above the section. Re-anchor once, instantly, after layout settles. */
+  function reanchor() {
+    var target = location.hash && document.getElementById(location.hash.slice(1));
+    if (!target) return;
+    var off = target.getBoundingClientRect().top;
+    if (Math.abs(off - 84) > 40) target.scrollIntoView({ behavior: 'auto', block: 'start' });
+  }
+  window.addEventListener('load', function () {
+    if (document.fonts && document.fonts.ready) document.fonts.ready.then(function () { setTimeout(reanchor, 60); });
+    else setTimeout(reanchor, 200);
+  });
+
   document.querySelectorAll('a[href="#gym-demo-form"]').forEach(function (a) {
     a.addEventListener('click', function () { track('gym_demo_cta_click'); });
   });
