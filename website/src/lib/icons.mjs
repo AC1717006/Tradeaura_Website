@@ -1,0 +1,44 @@
+/* Stroke icons on a 24px grid, one consistent style. currentColor throughout. */
+const s = (d, w = 1.7) =>
+  `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="${w}" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${d}</svg>`;
+
+export const icons = {
+  whatsapp: s('<path d="M21 11.5a8.4 8.4 0 0 1-9 8.4 8.5 8.5 0 0 1-3.9-.9L3 21l1.9-5.1A8.4 8.4 0 0 1 3.5 11.5a8.5 8.5 0 0 1 8.5-8.5 8.4 8.4 0 0 1 9 8.5Z"/>'),
+  crm: s('<path d="M16 20v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 20v-2a4 4 0 0 0-3-3.9"/>'),
+  ai: s('<path d="M12 3l1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9Z"/><path d="M19 16l.9 2.1L22 19l-2.1.9L19 22l-.9-2.1L16 19l2.1-.9Z"/>'),
+  saas: s('<path d="M12 3l9 5-9 5-9-5Z"/><path d="M3 13l9 5 9-5"/>'),
+  chart: s('<path d="M3 20h18"/><path d="M6 20V10M11 20V4M16 20v-7M21 20v-4"/>'),
+  web: s('<rect x="2.5" y="4" width="19" height="16" rx="2.5"/><path d="M2.5 9h19"/><path d="M6 6.5h.01M8.5 6.5h.01"/>'),
+  mobile: s('<rect x="7" y="2.5" width="10" height="19" rx="2.5"/><path d="M11 18.5h2"/>'),
+  code: s('<path d="M8.5 8.5L4 12l4.5 3.5"/><path d="M15.5 8.5L20 12l-4.5 3.5"/><path d="M13.5 5l-3 14"/>'),
+  api: s('<path d="M10 13a5 5 0 0 0 7.5.5l3-3a5 5 0 0 0-7-7l-1.7 1.7"/><path d="M14 11a5 5 0 0 0-7.5-.5l-3 3a5 5 0 0 0 7 7L12 19"/>'),
+  layers: s('<path d="M12 3l9 5-9 5-9-5Z"/><path d="M3 13l9 5 9-5"/><path d="M3 18l9 5 9-5"/>'),
+  gauge: s('<path d="M12 14l4-4"/><path d="M3.5 18a9 9 0 1 1 17 0"/>'),
+  shield: s('<path d="M12 3l8 4v5c0 5-3.4 8.4-8 9.9C7.4 20.4 4 17 4 12V7Z"/><path d="M9.5 12.2l1.8 1.8 3.4-3.6"/>'),
+  scale: s('<path d="M4 20V8M10 20V4M16 20v-9M22 20v-5"/><path d="M2 20h20"/>'),
+  arrow: s('<path d="M5 12h13M13 6l6 6-6 6"/>', 2),
+  chevron: s('<path d="M9 6l6 6-6 6"/>', 2),
+  chevronDown: s('<path d="M6 9l6 6 6-6"/>', 2),
+  check: s('<path d="M20 6L9 17l-5-5"/>', 2.2),
+  play: s('<path d="M6 4l14 8-14 8V4Z"/>'),
+  menu: s('<path d="M4 7h16M4 12h16M4 17h16"/>', 2),
+  close: s('<path d="M6 6l12 12M18 6L6 18"/>', 2),
+  mail: s('<rect x="2.5" y="5" width="19" height="14" rx="2.5"/><path d="M3 7l9 6 9-6"/>'),
+  phone: s('<path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.2a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2Z"/>'),
+  pin: s('<path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/>'),
+  clock: s('<circle cx="12" cy="12" r="9"/><path d="M12 8v5l3 2"/>'),
+  travel: s('<path d="M2 16l20-5-3-3-6 1.5L7 4 4 5l4 6-4 1 1 3Z"/>'),
+  realestate: s('<path d="M3 10l9-7 9 7v10a1 1 0 0 1-1 1h-5v-7H9v7H4a1 1 0 0 1-1-1Z"/>'),
+  health: s('<path d="M12 21s-8-4.6-8-10a4.6 4.6 0 0 1 8-3 4.6 4.6 0 0 1 8 3c0 5.4-8 10-8 10Z"/>'),
+  education: s('<path d="M2 8l10-5 10 5-10 5Z"/><path d="M6 11v5c0 1.5 2.7 3 6 3s6-1.5 6-3v-5"/>'),
+  finance: s('<path d="M6 4h12M6 9h12M16 4c0 5-4 5-10 5l9 10"/>'),
+  logistics: s('<path d="M3 7h11v9H3Z"/><path d="M14 10h4l3 3v3h-7Z"/><circle cx="7" cy="18" r="2"/><circle cx="17" cy="18" r="2"/>'),
+  retail: s('<path d="M4 8h16l-1.2 11a2 2 0 0 1-2 1.8H7.2a2 2 0 0 1-2-1.8Z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/>'),
+  manufacturing: s('<path d="M3 20V10l5 3V10l5 3V10l5 3v7Z"/><path d="M3 20h18"/>'),
+  linkedin: s('<rect x="3" y="3" width="18" height="18" rx="3"/><path d="M8 10v7M8 7v.01M12 17v-4a2 2 0 0 1 4 0v4"/>'),
+  chat: s('<path d="M21 11.5a8.5 8.5 0 0 1-9.1 8.5 9 9 0 0 1-3.4-.7L3 21l1.8-4.6A8.4 8.4 0 0 1 3 11.5a8.5 8.5 0 0 1 9-8.5 8.5 8.5 0 0 1 9 8.5Z"/><path d="M12 7.6l.9 2.3 2.3.9-2.3.9-.9 2.3-.9-2.3-2.3-.9 2.3-.9Z"/>'),
+  send: s('<path d="M21 3L3 10.5l7 2.5 2.5 7Z"/><path d="M10 13l4-4"/>'),
+  instagram: s('<rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="3.6"/><path d="M17.5 6.5v.01"/>'),
+};
+
+export const icon = (name) => icons[name] || '';

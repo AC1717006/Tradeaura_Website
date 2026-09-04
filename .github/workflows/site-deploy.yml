@@ -1,0 +1,145 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# TradeAura website — build, verify, deploy.
+#
+# Replaces the old deploy.yml, which synced the RAW REPO ROOT to S3 with
+# --delete and would have destroyed the current production build on any push.
+# This workflow builds website/ (zero-dependency static build), verifies it,
+# and only then syncs website/dist to the production bucket.
+#
+# AWS auth is GitHub OIDC → role TradeAuraSiteDeploy (least privilege: this
+# bucket + one CloudFront distribution). No access keys anywhere.
+#
+# SAFETY: the deletion guard fails the run if the sync would delete ANY object,
+# unless a workflow_dispatch run explicitly sets allow_deletions=DELETE.
+# ─────────────────────────────────────────────────────────────────────────────
+name: Website — Build & Deploy
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'website/**'
+      - 'news/**'
+      - 'data/news.json'
+      - 'assets/**'
+      - 'instagram-feed.json'
+      - 'index.html'
+      - 'robots.txt'
+      - '.github/workflows/site-deploy.yml'
+  # Content bots commit with GITHUB_TOKEN, which never fires `push` workflows —
+  # so their completion triggers the deploy instead (same reason the old
+  # deploy.yml listed News Hub here).
+  workflow_run:
+    workflows: ["News Hub — Auto Refresh", "Instagram Feed — Auto Refresh", "News Hub — Admin Actions"]
+    types: [completed]
+  workflow_dispatch:
+    inputs:
+      allow_deletions:
+        description: 'Type DELETE to permit S3 object deletions in this run'
+        required: false
+        default: ''
+
+permissions:
+  id-token: write   # OIDC token for AWS
+  contents: read
+
+concurrency:
+  group: site-deploy
+  cancel-in-progress: false
+
+env:
+  # Not a secret — an ARN is an identifier; the role's trust policy limits it
+  # to this repository's main branch.
+  ROLE_ARN: arn:aws:iam::748999352674:role/TradeAuraSiteDeploy
+  BUCKET: auraautomation.site
+  DISTRIBUTION_ID: E2MDS9RES88JXK
+  AWS_REGION: us-east-1
+
+jobs:
+  build-verify-deploy:
+    # After a content bot: deploy only if it succeeded.
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          ref: main   # workflow_run events must still build the branch tip
+
+      - name: Node 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # The builder re-themes the legacy pages in the repo root. Stage exactly
+      # that content in its own directory so nothing else (website/, .github/)
+      # can leak into route verification.
+      - name: Stage legacy content
+        run: |
+          mkdir -p /tmp/legacy
+          cp -r index.html robots.txt instagram-feed.json news assets data /tmp/legacy/
+
+      - name: Build
+        run: TA_LEGACY=/tmp/legacy node website/build.mjs
+
+      - name: Verify dist (secret scan, page integrity)
+        working-directory: website
+        run: bash deploy/scripts/verify-dist.sh
+
+      - name: Verify every legacy route is preserved
+        run: TA_LEGACY=/tmp/legacy node website/scripts/verify-routes.mjs
+
+      - name: Sanity counts
+        run: |
+          set -e
+          FILES=$(find website/dist -type f | wc -l)
+          HTML=$(find website/dist -name '*.html' | wc -l)
+          echo "dist: $FILES files, $HTML html pages"
+          test "$FILES" -ge 600 || { echo "::error::dist too small ($FILES files) — refusing to deploy"; exit 1; }
+          test -f website/dist/index.html
+          test -f website/dist/assets/js/chat.js
+          test -f website/dist/assets/js/ta-analytics.js
+          grep -q 'https://api.auraautomation.site/admin/login' website/dist/index.html
+          ! grep -rlE 'AKIA[A-Z0-9]{16}|BEGIN [A-Z ]*PRIVATE KEY|postgresql://' website/dist
+
+      - name: AWS credentials (OIDC)
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ env.ROLE_ARN }}
+          aws-region: ${{ env.AWS_REGION }}
+
+      - name: Deletion guard
+        run: |
+          set -e
+          aws s3 sync website/dist "s3://$BUCKET" --delete --dryrun > /tmp/sync-plan.txt
+          DEL=$(grep -c 'delete:' /tmp/sync-plan.txt || true)
+          ADD=$(grep -c 'upload:' /tmp/sync-plan.txt || true)
+          echo "plan: $ADD uploads, $DEL deletions"
+          if [ "$DEL" -gt 0 ] && [ "${{ github.event.inputs.allow_deletions }}" != "DELETE" ]; then
+            echo "::error::sync would delete $DEL object(s); re-run via workflow_dispatch with allow_deletions=DELETE if intended"
+            grep 'delete:' /tmp/sync-plan.txt | head -50
+            exit 1
+          fi
+
+      - name: Deploy to S3
+        run: aws s3 sync website/dist "s3://$BUCKET" --delete
+
+      - name: Invalidate CloudFront
+        run: |
+          set -e
+          ID=$(aws cloudfront create-invalidation --distribution-id "$DISTRIBUTION_ID" --paths "/*" --query 'Invalidation.Id' --output text)
+          echo "invalidation $ID — waiting for completion"
+          aws cloudfront wait invalidation-completed --distribution-id "$DISTRIBUTION_ID" --id "$ID"
+
+      - name: Live verification
+        run: |
+          set -e
+          curl -fsS -o /tmp/home.html https://www.auraautomation.site/
+          grep -q 'https://api.auraautomation.site/admin/login' /tmp/home.html
+          grep -q 'data-ta-chat' /tmp/home.html
+          curl -fsS -o /dev/null https://www.auraautomation.site/assets/js/chat.js
+          curl -fsS -o /dev/null https://www.auraautomation.site/assets/js/ta-analytics.js
+          curl -fsS -o /dev/null https://www.auraautomation.site/assets/css/chat.css
+          curl -fsS -o /dev/null https://www.auraautomation.site/pages/contact.html
+          curl -fsS https://api.auraautomation.site/api/chat/health | grep -q '"chat":"ready"'
+          echo "live checks passed"

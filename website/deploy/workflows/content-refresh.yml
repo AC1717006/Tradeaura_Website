@@ -1,0 +1,129 @@
+# ─────────────────────────────────────────────────────────────
+# PROPOSED — replaces the deploy-triggering behaviour of
+# news-refresh.yml / instagram-feed.yml / news-admin.yml.
+# NOT INSTALLED.
+#
+# THE PROBLEM TODAY
+#   cron → git push main → deploy.yml → whole repo to production
+#   ≈25 unattended production deploys/day, each re-publishing .env.
+#
+# THE FIX
+#   Content bots write DATA to a content branch. They never deploy.
+#   A separate scheduled job builds that data, verifies it, and
+#   publishes ONLY the news/data prefixes — with no --delete, so a
+#   bad content run can never remove the marketing site or the
+#   609 news URLs.
+#
+#   Anything touching the full site still goes through
+#   deploy.yml → staging → approval → production.
+# ─────────────────────────────────────────────────────────────
+name: Content Refresh
+
+on:
+  schedule:
+    - cron: '0 0,6,12,18 * * *'   # news, unchanged cadence
+    - cron: '0 * * * *'           # instagram, unchanged cadence
+  workflow_dispatch:
+    inputs:
+      job:
+        description: 'Which pipeline to run'
+        type: choice
+        options: [news, instagram, both]
+        default: both
+
+permissions:
+  contents: write        # commit to the content branch only
+  id-token: write        # OIDC for the scoped content publish
+
+env:
+  AWS_REGION:  us-east-1
+  PROD_BUCKET: auraautomation.site
+  CONTENT_BRANCH: content
+
+jobs:
+  refresh:
+    name: Fetch content and publish news prefixes
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }}
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with: { node-version: '20' }
+
+      # ── fetch (unchanged logic, unchanged secrets) ──────────
+      - name: Refresh news
+        if: github.event.schedule == '0 0,6,12,18 * * *' || inputs.job == 'news' || inputs.job == 'both'
+        env:
+          GROQ_API_KEY:     ${{ secrets.GROQ_API_KEY }}
+          CURRENTS_API_KEY: ${{ secrets.CURRENTS_API_KEY }}
+          NEWSDATA_API_KEY: ${{ secrets.NEWSDATA_API_KEY }}
+        run: node scripts/fetch-news.js
+
+      - name: Refresh Instagram feed
+        if: github.event.schedule == '0 * * * *' || inputs.job == 'instagram' || inputs.job == 'both'
+        env:
+          INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
+          INSTAGRAM_USER_ID:      ${{ secrets.INSTAGRAM_USER_ID }}
+        run: node scripts/fetch-instagram.js
+
+      # ── build the whole site so news pages render in the new theme ──
+      - name: Build
+        run: node build.mjs
+
+      - name: Verify dist/
+        env: { MIN_NEWS: '609' }
+        run: bash deploy/scripts/verify-dist.sh dist
+
+      # ── refuse to shrink the site ───────────────────────────
+      - name: Guard against article loss
+        run: |
+          set -euo pipefail
+          NEW=$(find dist/news -name '*.html' ! -name index.html | wc -l)
+          LIVE=$(curl -s https://www.auraautomation.site/sitemap.xml | grep -c '/news/' || echo 0)
+          echo "built=$NEW  live_sitemap=$LIVE"
+          if [ "$NEW" -lt 609 ]; then
+            echo "::error::Built $NEW articles (<609). Refusing to publish."; exit 1
+          fi
+
+      - uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ secrets.AWS_CONTENT_ROLE_ARN }}   # scoped: news/* data/* only
+          aws-region: ${{ env.AWS_REGION }}
+
+      # ── NOTE: no --delete anywhere in this job. ─────────────
+      # Content jobs may ADD and UPDATE. Only the approved
+      # deploy.yml pipeline is ever allowed to remove objects.
+      - name: Publish news + data prefixes
+        run: |
+          aws s3 sync ./dist/news "s3://${PROD_BUCKET}/news" \
+            --cache-control 'public,max-age=300'
+          aws s3 sync ./dist/data "s3://${PROD_BUCKET}/data" \
+            --cache-control 'public,max-age=300'
+          aws s3 cp ./dist/sitemap.xml "s3://${PROD_BUCKET}/sitemap.xml" \
+            --cache-control 'public,max-age=300'
+          if [ -f ./dist/instagram-feed.json ]; then
+            aws s3 cp ./dist/instagram-feed.json "s3://${PROD_BUCKET}/instagram-feed.json" \
+              --cache-control 'public,max-age=300'
+          fi
+
+      - name: Invalidate only what changed
+        run: |
+          aws cloudfront create-invalidation \
+            --distribution-id "${{ secrets.PROD_CF_DISTRIBUTION_ID }}" \
+            --paths '/news/*' '/data/*' '/sitemap.xml' '/instagram-feed.json'
+
+      # ── record the data change on a content branch ──────────
+      - name: Commit data to content branch
+        run: |
+          set -euo pipefail
+          git config user.name  'TradeAura Content Bot'
+          git config user.email 'bot@auraautomation.site'
+          git checkout -B "${CONTENT_BRANCH}"
+          git add data/news.json instagram-feed.json news/ || true
+          git diff --cached --quiet && { echo 'no content change'; exit 0; }
+          git commit -m "chore(content): refresh $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push --force-with-lease origin "${CONTENT_BRANCH}"
+          echo 'Content committed to the content branch. It does NOT deploy the site.' >> "$GITHUB_STEP_SUMMARY"

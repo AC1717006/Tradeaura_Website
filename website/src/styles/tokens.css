@@ -1,0 +1,65 @@
+/* ─────────────────────────────────────────────────────────────
+   TradeAura — Design tokens
+   Source of truth: TradeAura Platform Design canvas (approved)
+   ───────────────────────────────────────────────────────────── */
+:root {
+  /* Surfaces — neutrals carry a slight indigo bias, not pure grey */
+  --ta-surface:      #FFFFFF;
+  --ta-surface-2:    #FAFAFD;
+  --ta-ground:       #F5F6FA;
+
+  /* Ink */
+  --ta-ink:          #16181F;
+  --ta-ink-2:        #3E4353;
+  --ta-ink-3:        #6A7086;
+  --ta-ink-4:        #9BA1B4;
+
+  /* Lines */
+  --ta-line:         #E3E6F0;
+  --ta-line-2:       #EEF0F6;
+
+  /* Brand accent — deepened from #3B82F6 for an enterprise read */
+  --ta-accent:       #3D4EDB;
+  --ta-accent-ink:   #2C39A8;
+  --ta-accent-soft:  #EDEFFE;
+  --ta-accent-line:  #C9CFFA;
+  --ta-violet:       #7A4DD6;
+  --ta-violet-soft:  #F2ECFD;
+  --ta-violet-line:  #DCCBF6;
+
+  /* Semantic — deliberately separate from the brand hue */
+  --ta-ok:           #0E7C56;
+  --ta-ok-soft:      #E4F4EE;
+  --ta-ok-line:      #B9E2D2;
+  --ta-warn:         #9A5B08;
+  --ta-warn-soft:    #FBF0DF;
+  --ta-warn-line:    #EFD9B4;
+  --ta-crit:         #B32B45;
+  --ta-crit-soft:    #FCEBEF;
+  --ta-crit-line:    #F3C9D3;
+
+  /* Type */
+  --ta-font-display: Outfit, ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --ta-font-body:    "IBM Plex Sans", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --ta-font-mono:    "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  /* Radius — restrained; pill-shaped everything reads as a template */
+  --ta-r-sm:  6px;
+  --ta-r-md:  8px;
+  --ta-r-lg:  10px;
+  --ta-r-xl:  14px;
+
+  /* Elevation — two levels only, both meaning real elevation */
+  --ta-shadow-sm: 0 1px 2px rgba(22, 24, 31, .06);
+  --ta-shadow:    0 1px 2px rgba(22, 24, 31, .05), 0 8px 24px -12px rgba(22, 24, 31, .18);
+  --ta-shadow-lg: 0 1px 2px rgba(22, 24, 31, .05), 0 24px 56px -28px rgba(22, 24, 31, .28);
+
+  /* Layout */
+  --ta-container: 1240px;
+  --ta-gutter:    40px;
+  --ta-header-h:  68px;
+}
+
+@media (max-width: 760px) {
+  :root { --ta-gutter: 20px; --ta-header-h: 60px; }
+}

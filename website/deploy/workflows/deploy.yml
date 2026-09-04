@@ -1,0 +1,210 @@
+# ─────────────────────────────────────────────────────────────
+# PROPOSED — replaces .github/workflows/deploy.yml
+# NOT INSTALLED. Review, then copy into the repo when approved.
+#
+# Repository → Build → dist/ → GATE → Staging → QA → APPROVAL
+#            → Production → CloudFront invalidation
+#
+# Key differences from the current workflow:
+#   • builds first; publishes ./dist, NEVER the repository root
+#   • hard gate refuses to publish secrets or source files
+#   • staging deploy is automatic; production requires approval
+#   • CloudFront invalidation after each publish
+#   • OIDC role assumption — no long-lived IAM keys
+#   • cron content jobs no longer reach production unattended
+# ─────────────────────────────────────────────────────────────
+name: Build · Stage · Deploy
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      deploy_production:
+        description: 'Also deploy to PRODUCTION after staging (still requires environment approval)'
+        type: boolean
+        default: false
+
+# OIDC needs id-token: write. Everything else stays read-only.
+permissions:
+  contents: read
+  id-token: write
+
+concurrency:
+  group: deploy-${{ github.ref }}
+  cancel-in-progress: false          # never cancel a half-finished S3 sync
+
+env:
+  AWS_REGION:       us-east-1
+  STAGING_BUCKET:   staging.auraautomation.site
+  PROD_BUCKET:      auraautomation.site
+  MIN_NEWS:         '609'            # publish floor — see verify-dist.sh
+
+jobs:
+  # ══ 1. BUILD ══════════════════════════════════════════════
+  build:
+    name: Build and verify dist/
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # The generator has no dependencies. If that ever changes,
+      # add `npm ci` here — never `npm install`.
+      - name: Build
+        run: node build.mjs
+
+      - name: Verify dist/ (blocks secrets and source files)
+        env:
+          MIN_NEWS: ${{ env.MIN_NEWS }}
+        run: bash deploy/scripts/verify-dist.sh dist
+
+      - name: Summarise build
+        run: |
+          {
+            echo "### Build output"
+            echo ""
+            echo "| Metric | Value |"
+            echo "|---|---:|"
+            echo "| Files | $(find dist -type f | wc -l) |"
+            echo "| Size | $(du -sh dist | cut -f1) |"
+            echo "| News articles | $(find dist/news -name '*.html' ! -name index.html | wc -l) |"
+            echo "| Sitemap URLs | $(grep -c '<loc>' dist/sitemap.xml) |"
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: dist
+          path: dist/
+          retention-days: 14          # this artifact IS the rollback source
+
+  # ══ 2. STAGING ════════════════════════════════════════════
+  staging:
+    name: Deploy to staging
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: staging
+      url: https://staging.auraautomation.site
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: dist
+          path: dist
+
+      - name: Re-verify dist/ after download
+        run: bash deploy/scripts/verify-dist.sh dist
+
+      - uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ secrets.AWS_DEPLOY_ROLE_ARN }}
+          aws-region: ${{ env.AWS_REGION }}
+
+      - name: Confirm target bucket is STAGING
+        run: |
+          set -euo pipefail
+          case "${STAGING_BUCKET}" in
+            staging.*) ;;
+            *) echo "::error::Refusing to sync: '${STAGING_BUCKET}' is not a staging bucket name"; exit 1 ;;
+          esac
+          aws s3api head-bucket --bucket "${STAGING_BUCKET}"
+
+      # --delete is acceptable on staging: it is disposable and versioned.
+      - name: Sync dist/ → staging
+        run: |
+          aws s3 sync ./dist "s3://${STAGING_BUCKET}" --delete \
+            --cache-control 'public,max-age=300' \
+            --exclude '*.html' --exclude 'sitemap.xml' --exclude 'robots.txt'
+          aws s3 sync ./dist "s3://${STAGING_BUCKET}" --delete \
+            --cache-control 'public,max-age=60' \
+            --exclude '*' --include '*.html' --include 'sitemap.xml' --include 'robots.txt'
+
+      - name: Invalidate staging CloudFront
+        run: |
+          aws cloudfront create-invalidation \
+            --distribution-id "${{ secrets.STAGING_CF_DISTRIBUTION_ID }}" \
+            --paths '/*'
+
+      - name: Smoke-test staging
+        run: bash deploy/scripts/smoke-test.sh https://staging.auraautomation.site
+
+  # ══ 3. PRODUCTION — gated on manual approval ══════════════
+  production:
+    name: Deploy to production
+    needs: staging
+    if: github.ref == 'refs/heads/main' && (github.event_name == 'push' || inputs.deploy_production)
+    runs-on: ubuntu-latest
+    environment:
+      name: production            # ← configure REQUIRED REVIEWERS on this environment
+      url: https://www.auraautomation.site
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: dist
+          path: dist
+
+      - name: Re-verify dist/ (final gate)
+        run: bash deploy/scripts/verify-dist.sh dist
+
+      - uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ secrets.AWS_DEPLOY_ROLE_ARN }}
+          aws-region: ${{ env.AWS_REGION }}
+
+      - name: Confirm target bucket
+        run: |
+          set -euo pipefail
+          test "${PROD_BUCKET}" = "auraautomation.site" || { echo "::error::Unexpected bucket"; exit 1; }
+          aws s3api head-bucket --bucket "${PROD_BUCKET}"
+
+      # Refuse to run if versioning is off — versioning IS the rollback.
+      - name: Require bucket versioning
+        run: |
+          set -euo pipefail
+          S=$(aws s3api get-bucket-versioning --bucket "${PROD_BUCKET}" --query Status --output text)
+          echo "versioning: $S"
+          test "$S" = "Enabled" || { echo "::error::Versioning is not Enabled — refusing to deploy"; exit 1; }
+
+      - name: Snapshot current production (rollback point)
+        run: |
+          STAMP=$(date -u +%Y%m%d-%H%M%S)
+          echo "SNAPSHOT=$STAMP" >> "$GITHUB_ENV"
+          aws s3 sync "s3://${PROD_BUCKET}" "s3://${{ secrets.BACKUP_BUCKET }}/$STAMP" --quiet
+          echo "Snapshot: s3://${{ secrets.BACKUP_BUCKET }}/$STAMP" >> "$GITHUB_STEP_SUMMARY"
+
+      # Long cache for fingerprint-free assets, short for HTML so
+      # content updates appear promptly even before invalidation.
+      - name: Sync dist/ → production
+        run: |
+          aws s3 sync ./dist "s3://${PROD_BUCKET}" --delete \
+            --cache-control 'public,max-age=86400' \
+            --exclude '*.html' --exclude 'sitemap.xml' --exclude 'robots.txt'
+          aws s3 sync ./dist "s3://${PROD_BUCKET}" --delete \
+            --cache-control 'public,max-age=300' \
+            --exclude '*' --include '*.html' --include 'sitemap.xml' --include 'robots.txt'
+
+      - name: Invalidate production CloudFront
+        run: |
+          aws cloudfront create-invalidation \
+            --distribution-id "${{ secrets.PROD_CF_DISTRIBUTION_ID }}" \
+            --paths '/*'
+
+      - name: Smoke-test production
+        run: bash deploy/scripts/smoke-test.sh https://www.auraautomation.site
+
+      - name: Assert secrets are NOT public
+        run: |
+          set -euo pipefail
+          FAIL=0
+          for p in .env .env.example package.json server.js CODEBASE.md \
+                   scripts/fetch-news.js api/market.js vercel.json .gitignore; do
+            C=$(curl -s -o /dev/null -w '%{http_code}' "https://www.auraautomation.site/$p" || echo 000)
+            echo "  /$p → $C"
+            [ "$C" = "200" ] && { echo "::error::/$p is still public"; FAIL=1; }
+          done
+          exit $FAIL

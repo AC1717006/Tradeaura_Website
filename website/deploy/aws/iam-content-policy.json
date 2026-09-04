@@ -1,0 +1,20 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    { "Sid": "ListProd", "Effect": "Allow", "Action": "s3:ListBucket",
+      "Resource": "arn:aws:s3:::auraautomation.site",
+      "Condition": { "StringLike": { "s3:prefix": ["news/*","data/*"] } } },
+    { "Sid": "ContentPrefixesOnly", "Effect": "Allow",
+      "Action": ["s3:GetObject","s3:PutObject"],
+      "Resource": [
+        "arn:aws:s3:::auraautomation.site/news/*",
+        "arn:aws:s3:::auraautomation.site/data/*",
+        "arn:aws:s3:::auraautomation.site/sitemap.xml",
+        "arn:aws:s3:::auraautomation.site/instagram-feed.json"
+      ] },
+    { "Sid": "NoDeletesEver", "Effect": "Deny", "Action": "s3:DeleteObject", "Resource": "*" },
+    { "Sid": "Invalidate", "Effect": "Allow",
+      "Action": "cloudfront:CreateInvalidation",
+      "Resource": "arn:aws:cloudfront::<AWS_ACCOUNT_ID>:distribution/*" }
+  ]
+}

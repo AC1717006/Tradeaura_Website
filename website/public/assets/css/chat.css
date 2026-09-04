@@ -1,0 +1,323 @@
+/* ─────────────────────────────────────────────────────────────
+   TradeAura AI — chat widget.
+
+   Uses ONLY existing design tokens (tokens.css). No new colours,
+   no new fonts, no framework. Loaded as a separate stylesheet so
+   site.css stays byte-identical.
+
+   Z-INDEX: the page already uses 50 (mobile sticky CTA), 60
+   (header), 70/71 (mobile drawer). The widget sits above all of
+   them at 80/81.
+
+   MOBILE: the sticky "Book a Free Demo" bar owns the bottom of
+   the viewport below 760px, so the launcher is lifted clear of it
+   and the bar is hidden while the panel is open.
+   ───────────────────────────────────────────────────────────── */
+
+.ta-chat { position: fixed; z-index: 80; }
+
+/* Screen-reader-only label. Defined here, not in site.css, so the
+   existing stylesheet stays byte-identical. */
+.ta-visually-hidden {
+  position: absolute; width: 1px; height: 1px;
+  padding: 0; margin: -1px; overflow: hidden;
+  clip: rect(0 0 0 0); clip-path: inset(50%); white-space: nowrap; border: 0;
+}
+
+/* ── Launcher ───────────────────────────────────────────────── */
+.ta-chat__launcher {
+  position: fixed; right: 24px; bottom: 24px; z-index: 80;
+  display: inline-flex; align-items: center; gap: 10px;
+  height: 56px; padding: 0 20px 0 18px;
+  border: 1px solid var(--ta-accent-ink);
+  border-radius: 999px;
+  background: var(--ta-accent); color: #FFF;
+  font-family: var(--ta-font-body); font-size: 14.5px; font-weight: 600;
+  cursor: pointer; box-shadow: var(--ta-shadow-lg);
+  transition: background-color .15s ease, transform .15s ease, opacity .2s ease;
+}
+.ta-chat__launcher:hover { background: var(--ta-accent-ink); transform: translateY(-1px); }
+.ta-chat__launcher:focus-visible { outline: 2px solid var(--ta-accent-ink); outline-offset: 3px; }
+.ta-chat__launcher svg { width: 22px; height: 22px; }
+.ta-chat__launcher-label { white-space: nowrap; }
+
+/* A quiet pulse the first time only — attention without a popup. */
+.ta-chat__ping {
+  position: absolute; top: 12px; right: 16px;
+  width: 9px; height: 9px; border-radius: 50%;
+  background: var(--ta-ok); border: 2px solid var(--ta-accent);
+}
+.ta-chat[data-open="true"] .ta-chat__launcher { opacity: 0; pointer-events: none; }
+
+/* ── Panel ──────────────────────────────────────────────────── */
+.ta-chat__panel {
+  position: fixed; right: 24px; bottom: 24px; z-index: 81;
+  width: 380px; height: 600px; max-height: calc(100vh - 48px);
+  display: none; flex-direction: column; overflow: hidden;
+  background: var(--ta-surface);
+  border: 1px solid var(--ta-line);
+  border-radius: var(--ta-r-xl);
+  box-shadow: var(--ta-shadow-lg);
+  font-family: var(--ta-font-body);
+  opacity: 0; transform: translateY(8px) scale(.985);
+  transition: opacity .18s ease, transform .18s ease;
+}
+.ta-chat[data-open="true"] .ta-chat__panel { display: flex; opacity: 1; transform: none; }
+
+/* ── Header ─────────────────────────────────────────────────── */
+.ta-chat__head {
+  display: flex; align-items: center; gap: 11px;
+  padding: 14px 14px 14px 16px;
+  border-bottom: 1px solid var(--ta-line);
+  background: var(--ta-surface-2);
+  flex-shrink: 0;
+}
+.ta-chat__avatar {
+  width: 36px; height: 36px; border-radius: var(--ta-r-md);
+  display: grid; place-items: center; flex-shrink: 0;
+  background: var(--ta-accent); color: #FFF;
+  font-family: var(--ta-font-display); font-size: 13px; font-weight: 700;
+  letter-spacing: .01em;
+}
+.ta-chat__id { min-width: 0; flex: 1; }
+.ta-chat__title {
+  display: block; font-family: var(--ta-font-display);
+  font-size: 15px; font-weight: 700; color: var(--ta-ink); line-height: 1.25;
+}
+.ta-chat__status {
+  display: flex; align-items: center; gap: 6px;
+  font-size: 12px; color: var(--ta-ink-3); line-height: 1.4;
+}
+.ta-chat__dot {
+  width: 7px; height: 7px; border-radius: 50%;
+  background: var(--ta-ok); flex-shrink: 0;
+}
+.ta-chat__close {
+  width: 34px; height: 34px; flex-shrink: 0;
+  display: grid; place-items: center;
+  background: transparent; border: 1px solid transparent;
+  border-radius: var(--ta-r-sm); color: var(--ta-ink-3); cursor: pointer;
+  transition: background-color .15s ease, color .15s ease;
+}
+.ta-chat__close:hover { background: var(--ta-line-2); color: var(--ta-ink); }
+.ta-chat__close:focus-visible { outline: 2px solid var(--ta-accent); outline-offset: 1px; }
+.ta-chat__close svg { width: 17px; height: 17px; }
+
+/* ── Message log ────────────────────────────────────────────── */
+.ta-chat__log {
+  flex: 1; min-height: 0; overflow-y: auto; overscroll-behavior: contain;
+  padding: 18px 16px 8px; background: var(--ta-ground);
+  display: flex; flex-direction: column; gap: 14px;
+  scrollbar-width: thin; scrollbar-color: var(--ta-line) transparent;
+}
+.ta-chat__log::-webkit-scrollbar { width: 8px; }
+.ta-chat__log::-webkit-scrollbar-thumb { background: var(--ta-line); border-radius: 4px; }
+
+.ta-chat__msg { display: flex; flex-direction: column; gap: 4px; max-width: 88%; }
+.ta-chat__msg--ai { align-self: flex-start; align-items: flex-start; }
+.ta-chat__msg--me { align-self: flex-end; align-items: flex-end; }
+
+.ta-chat__bubble {
+  padding: 10px 13px; font-size: 14px; line-height: 1.52;
+  border-radius: var(--ta-r-lg); white-space: pre-wrap; word-wrap: break-word;
+}
+.ta-chat__msg--ai .ta-chat__bubble {
+  background: var(--ta-surface); color: var(--ta-ink);
+  border: 1px solid var(--ta-line); border-bottom-left-radius: var(--ta-r-sm);
+  box-shadow: var(--ta-shadow-sm);
+}
+.ta-chat__msg--me .ta-chat__bubble {
+  background: var(--ta-accent); color: #FFF;
+  border-bottom-right-radius: var(--ta-r-sm);
+}
+.ta-chat__time {
+  font-family: var(--ta-font-mono); font-size: 10.5px;
+  color: var(--ta-ink-4); padding: 0 3px;
+}
+
+/* Error bubble + retry */
+.ta-chat__msg--error .ta-chat__bubble {
+  background: var(--ta-crit-soft); border-color: var(--ta-crit-line); color: var(--ta-crit);
+}
+.ta-chat__retry {
+  align-self: flex-start; margin-top: 2px;
+  background: transparent; border: 1px solid var(--ta-line);
+  border-radius: var(--ta-r-sm); padding: 5px 11px;
+  font-family: var(--ta-font-body); font-size: 12.5px; font-weight: 600;
+  color: var(--ta-ink-2); cursor: pointer;
+}
+.ta-chat__retry:hover { background: var(--ta-surface); border-color: var(--ta-ink-4); }
+
+/* ── Typing indicator ───────────────────────────────────────── */
+.ta-chat__typing {
+  align-self: flex-start;
+  display: none; align-items: center; gap: 4px;
+  padding: 12px 14px; background: var(--ta-surface);
+  border: 1px solid var(--ta-line); border-radius: var(--ta-r-lg);
+  border-bottom-left-radius: var(--ta-r-sm); box-shadow: var(--ta-shadow-sm);
+}
+.ta-chat[data-typing="true"] .ta-chat__typing { display: flex; }
+.ta-chat__typing span {
+  width: 6px; height: 6px; border-radius: 50%; background: var(--ta-ink-4);
+  animation: ta-chat-bounce 1.3s infinite ease-in-out;
+}
+.ta-chat__typing span:nth-child(2) { animation-delay: .16s; }
+.ta-chat__typing span:nth-child(3) { animation-delay: .32s; }
+@keyframes ta-chat-bounce {
+  0%, 62%, 100% { transform: translateY(0);   opacity: .45; }
+  32%           { transform: translateY(-4px); opacity: 1;   }
+}
+
+/* ── Quick actions ──────────────────────────────────────────── */
+.ta-chat__quick {
+  display: flex; flex-wrap: wrap; gap: 7px;
+  padding: 4px 16px 14px; background: var(--ta-ground); flex-shrink: 0;
+}
+.ta-chat__quick:empty { display: none; }
+.ta-chat__chip {
+  background: var(--ta-surface); border: 1px solid var(--ta-accent-line);
+  color: var(--ta-accent-ink); border-radius: 999px;
+  padding: 7px 13px; font-family: var(--ta-font-body);
+  font-size: 12.5px; font-weight: 600; cursor: pointer;
+  transition: background-color .15s ease, border-color .15s ease;
+}
+.ta-chat__chip:hover { background: var(--ta-accent-soft); }
+.ta-chat__chip:focus-visible { outline: 2px solid var(--ta-accent); outline-offset: 1px; }
+
+/* WhatsApp CTA — uses the OK token, not an off-palette brand green */
+.ta-chat__wa {
+  display: inline-flex; align-items: center; gap: 7px;
+  background: var(--ta-ok-soft); border: 1px solid var(--ta-ok-line);
+  color: var(--ta-ok); border-radius: 999px; padding: 7px 13px;
+  font-size: 12.5px; font-weight: 600; text-decoration: none;
+}
+.ta-chat__wa:hover { background: #D7EDE4; }
+.ta-chat__wa svg { width: 14px; height: 14px; }
+
+/* ── Enquiry confirmation card ──────────────────────────────────
+   Shown only when the assistant has enough to send. The lead is
+   created on the button press, never automatically. */
+.ta-chat__enquiry {
+  width: 100%;
+  background: var(--ta-surface);
+  border: 1px solid var(--ta-accent-line);
+  border-radius: var(--ta-r-lg);
+  padding: 12px 13px;
+}
+.ta-chat__enquiry-title {
+  margin: 0 0 10px; font-size: 13px; font-weight: 600; line-height: 1.4;
+  color: var(--ta-ink);
+}
+.ta-chat__enquiry-list {
+  margin: 0 0 11px;
+  display: grid; grid-template-columns: auto 1fr;
+  gap: 4px 12px; font-size: 12.5px; line-height: 1.45;
+}
+.ta-chat__enquiry-list dt { color: var(--ta-ink-3); font-weight: 500; }
+.ta-chat__enquiry-list dd { margin: 0; color: var(--ta-ink); overflow-wrap: anywhere; }
+.ta-chat__enquiry-send {
+  width: 100%; min-height: 40px;
+  background: var(--ta-accent); color: #FFF;
+  border: 1px solid var(--ta-accent-ink); border-radius: var(--ta-r-md);
+  font-family: var(--ta-font-body); font-size: 13.5px; font-weight: 600;
+  cursor: pointer; transition: background-color .15s ease, opacity .15s ease;
+}
+.ta-chat__enquiry-send:hover:not(:disabled) { background: var(--ta-accent-ink); }
+.ta-chat__enquiry-send:disabled { opacity: .55; cursor: progress; }
+.ta-chat__enquiry-send:focus-visible { outline: 2px solid var(--ta-accent-ink); outline-offset: 2px; }
+
+/* Reference line after a successful submission */
+.ta-chat__ref {
+  align-self: flex-start; margin: -6px 0 0;
+  font-family: var(--ta-font-mono); font-size: 11px;
+  color: var(--ta-ok); background: var(--ta-ok-soft);
+  border: 1px solid var(--ta-ok-line); border-radius: var(--ta-r-sm);
+  padding: 5px 9px;
+}
+
+/* ── Composer ───────────────────────────────────────────────── */
+.ta-chat__form {
+  display: flex; align-items: flex-end; gap: 8px;
+  padding: 12px 12px 12px 14px;
+  border-top: 1px solid var(--ta-line); background: var(--ta-surface);
+  flex-shrink: 0;
+}
+.ta-chat__input {
+  flex: 1; resize: none; border: 1px solid var(--ta-line);
+  border-radius: var(--ta-r-md); padding: 10px 12px;
+  font-family: var(--ta-font-body); font-size: 14px; line-height: 1.45;
+  color: var(--ta-ink); background: var(--ta-surface);
+  max-height: 108px; min-height: 42px;
+  transition: border-color .15s ease, box-shadow .15s ease;
+}
+.ta-chat__input::placeholder { color: var(--ta-ink-4); }
+.ta-chat__input:focus {
+  outline: none; border-color: var(--ta-accent);
+  box-shadow: 0 0 0 3px var(--ta-accent-soft);
+}
+.ta-chat__send {
+  width: 42px; height: 42px; flex-shrink: 0;
+  display: grid; place-items: center;
+  background: var(--ta-accent); color: #FFF;
+  border: 1px solid var(--ta-accent-ink); border-radius: var(--ta-r-md);
+  cursor: pointer; transition: background-color .15s ease, opacity .15s ease;
+}
+.ta-chat__send:hover:not(:disabled) { background: var(--ta-accent-ink); }
+.ta-chat__send:disabled { opacity: .4; cursor: not-allowed; }
+.ta-chat__send:focus-visible { outline: 2px solid var(--ta-accent-ink); outline-offset: 2px; }
+.ta-chat__send svg { width: 18px; height: 18px; }
+
+.ta-chat__foot {
+  padding: 0 16px 11px; background: var(--ta-surface);
+  font-size: 10.5px; line-height: 1.4;
+  color: var(--ta-ink-4); text-align: center; flex-shrink: 0;
+}
+
+/* ── Mobile: bottom sheet ───────────────────────────────────── */
+@media (max-width: 760px) {
+  /* Clear the sticky "Book a Free Demo" bar (72px + safe area). */
+  .ta-chat__launcher {
+    right: 16px; bottom: calc(84px + env(safe-area-inset-bottom));
+    height: 52px; padding: 0 18px 0 16px;
+  }
+}
+
+@media (max-width: 560px) {
+  .ta-chat__launcher {
+    width: 54px; height: 54px; padding: 0; justify-content: center;
+    right: 14px; bottom: calc(84px + env(safe-area-inset-bottom));
+  }
+  .ta-chat__launcher-label { display: none; }
+
+  .ta-chat__panel {
+    right: 0; left: 0; bottom: 0; width: auto;
+    /* JS narrows this to visualViewport.height when the keyboard opens. */
+    height: 92dvh; max-height: 100dvh;
+    border-radius: var(--ta-r-xl) var(--ta-r-xl) 0 0;
+    border-bottom: none;
+  }
+  .ta-chat__foot { padding-bottom: calc(11px + env(safe-area-inset-bottom)); }
+
+  /* The chat IS the conversion path while open — don't stack two CTAs. */
+  .ta-chat[data-open="true"] ~ .ta-sticky-cta,
+  body:has(.ta-chat[data-open="true"]) .ta-sticky-cta { display: none; }
+}
+
+/* Very short viewports (landscape phones) */
+@media (max-height: 620px) and (min-width: 561px) {
+  .ta-chat__panel { height: calc(100vh - 48px); }
+}
+
+/* ── Footer clearance ───────────────────────────────────────── */
+/* The fixed launcher covers the footer's bottom-right corner at the end of
+   the scroll, hiding the utility links (Privacy / Terms / Admin Login).
+   Reserve its footprint inside the utility row. Lives HERE, not site.css,
+   so a TA_CHAT=off build reserves nothing. Widths = launcher + offset + gap. */
+.ta-footer__base { padding-inline-end: 210px; }
+@media (max-width: 760px) { .ta-footer__base { padding-inline-end: 180px; } }
+@media (max-width: 560px) { .ta-footer__base { padding-inline-end: 84px; } }
+
+@media (prefers-reduced-motion: reduce) {
+  .ta-chat__panel, .ta-chat__launcher { transition: none; }
+  .ta-chat__typing span { animation: none; opacity: .6; }
+}

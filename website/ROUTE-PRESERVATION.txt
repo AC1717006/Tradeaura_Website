@@ -1,0 +1,36 @@
+════ ROUTE PRESERVATION ════
+  legacy .html routes found : 618
+  intentionally excluded    : 1 (admin/index.html)
+  present in dist/          : 617
+  MISSING                   : 0
+  canonical changed         : 0
+  description missing       : 0
+
+  sitemap URLs              : 622
+  news pages in dist/       : 610
+
+  ✅ PASS — every legacy route preserved
+
+════ LEGACY INVENTORY (captured pre-build, read-only) ════
+  public routes (non-news) : 8   → /index.html, /pages/{about,compare,contact,industries,join,services}.html, /admin/index.html
+  news routes              : 610 → /news/index.html + 609 articles
+  sitemap.xml (legacy)     : 208 entries  ⚠ 408 news pages were NOT listed
+  robots.txt               : Allow all + sitemap ref — preserved verbatim
+  redirects in use         : NONE (no .htaccess, no _redirects, no CloudFront function)
+  live 404 behaviour       : plain 404, no redirect chain
+
+════ URL MAPPING ════
+  /index.html                        rebuilt, same URL
+  /pages/about.html                  rebuilt, same URL
+  /pages/services.html               rebuilt, same URL
+  /pages/industries.html             rebuilt, same URL
+  /pages/contact.html                rebuilt, same URL
+  /pages/compare.html                rebuilt as Pricing, same URL
+  /pages/join.html                   rebuilt as Careers, same URL
+  /news/index.html                   rebuilt, same URL
+  /news/<609 articles>               re-themed in place, URLs frozen
+  /pages/solutions.html              NEW
+  /pages/projects.html               NEW
+  /login.html                        NEW (placeholder, no auth wired)
+  /legal/{privacy,terms}             NEW (placeholder copy)
+  /admin/index.html                  EXCLUDED — see security note
