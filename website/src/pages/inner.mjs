@@ -50,15 +50,15 @@ ${closing}`,
 export const services = () =>
   Layout({
     title: 'Services | TradeAura Automation',
-    description: 'Website development, mobile app development, custom software, AI automation, WhatsApp automation and CRM & business automation.',
+    description: 'Website development, mobile app development, custom software, AI automation, WhatsApp automation, CRM & business automation and the GYM Dashboard for gym owners.',
     canonical: `${O}/pages/services.html`,
     current: 'services', depth: 1,
     body: `
-${PageHead({ eyebrow: 'Services', title: 'Six services. One operating layer.', body: 'Start with the process that hurts most. We scope it, build it and prove it before moving to the next one.' })}
+${PageHead({ eyebrow: 'Services', title: 'Seven services. One operating layer.', body: 'Start with the process that hurts most. We scope it, build it and prove it before moving to the next one.' })}
 <section class="ta-section">
   <div class="ta-container">
     <div class="ta-grid ta-grid--3">
-      ${site.services.map((s) => ServiceCard({ ...s, href: `solutions.html#${s.key}` })).join('')}
+      ${site.services.map((s) => ServiceCard({ ...s, href: s.href || `solutions.html#${s.key}` })).join('')}
     </div>
   </div>
 </section>
@@ -311,3 +311,139 @@ const legal = (slug, title, intro) =>
 
 export const privacy = () => legal('privacy', 'Privacy Policy', 'How TradeAura Automation collects, uses and protects your information.');
 export const terms = () => legal('terms', 'Terms of Service', 'The terms under which TradeAura Automation provides its services.');
+
+/* ── /pages/gym-dashboard.html — GYM Dashboard product page ── */
+export const gymDashboard = () => {
+  const faq = [
+    ['Is the 3-month demo really free?', 'Yes. Gym owners get the full dashboard free for 3 months — members, plans, barcodes, attendance and WhatsApp reminders. No card required. Near the end of the demo we discuss a plan that fits your gym.'],
+    ['Do I need any hardware?', 'No. Any phone, tablet or computer with a browser works. A basic USB barcode scanner (₹800–1,500) makes reception faster, but the camera on your phone can scan member cards too.'],
+    ['How do WhatsApp reminders work?', 'The system watches every membership expiry date and automatically sends reminders on the official WhatsApp Business API — for example 7, 3 and 1 day before expiry. You choose the schedule and can switch each reminder on or off.'],
+    ['Can I bring my existing members from Excel?', 'Yes. During onboarding the TradeAura team helps you load your current member list so you start with everything in place.'],
+    ['Is my member data safe?', 'Each gym’s data is fully isolated — no other gym can ever see your members. Access is password-protected with staff roles, and every important change is logged.'],
+    ['What happens after the demo ends?', 'Nothing is deleted. Your dashboard shows the demo status the whole time, and before it ends we agree a simple subscription. If you don’t continue, your data stays safe and exportable.'],
+  ];
+  const feat = (iconName, title, body) => WhyCard({ iconName, title, body });
+  return Layout({
+    title: 'GYM Dashboard — Gym Management Software | TradeAura',
+    description: 'Gym management dashboard for Indian gym owners: members, membership plans, barcode entry, attendance and automatic WhatsApp reminders before memberships expire. 3-month free demo.',
+    canonical: `${O}/pages/gym-dashboard.html`,
+    current: 'services', depth: 1,
+    headExtra: `
+  <title>GYM Dashboard — Gym Management Software | TradeAura</title>
+  <meta name="description" content="Gym management dashboard for gym owners: members, membership plans, barcode entry, attendance tracking and automatic WhatsApp reminders before memberships expire. Start a 3-month free demo.">
+  <link rel="canonical" href="${O}/pages/gym-dashboard.html">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="TradeAura GYM Dashboard — Run Your Gym. Not Your Register.">
+  <meta property="og:description" content="Members, memberships, barcode entry and automatic WhatsApp expiry reminders in one dashboard. 3 months free for gym owners.">
+  <meta property="og:site_name" content="TradeAura">
+  <meta property="og:locale" content="en_IN">
+  <meta property="og:url" content="${O}/pages/gym-dashboard.html">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="TradeAura GYM Dashboard">
+  <meta name="twitter:description" content="Your gym memberships, fully automated. 3-month free demo.">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"TradeAura GYM Dashboard","applicationCategory":"BusinessApplication","operatingSystem":"Web","description":"Gym management software: members, membership plans, attendance, barcode entry and automated WhatsApp expiry reminders.","offers":{"@type":"Offer","price":"0","priceCurrency":"INR","description":"3-month free demo for gym owners"}}</script>`,
+    scripts: ['assets/js/gym-apply.js'],
+    body: `
+<section class="ta-section ta-section--tight" data-gym-landing>
+  <div class="ta-container">
+    <div class="ta-sechead" style="max-width:60ch">
+      <span class="ta-eyebrow">GYM Dashboard · Gym Management &amp; Automation</span>
+      <h1 style="font-size:clamp(34px,4.8vw,52px);font-weight:700;line-height:1.06">Run your gym.<br>Not your register.</h1>
+      <p style="font-size:18px;color:var(--ta-ink-2)">Track members, memberships and attendance from one smart dashboard — with automatic WhatsApp reminders before memberships expire. Apne gym ke members, memberships aur attendance ko ek hi dashboard se manage karein.</p>
+      <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:8px">
+        ${Button({ label: 'Start 3-Month Free Demo', href: '#gym-demo-form', variant: 'primary', size: 'lg' })}
+        ${Button({ label: 'See how it works', href: '#gym-how', variant: 'ghost', size: 'lg' })}
+      </div>
+      <p class="ta-mono" style="font-size:11.5px;color:var(--ta-ink-3)">3 MONTHS FREE · No card required · Setup help included</p>
+    </div>
+  </div>
+</section>
+
+<section class="ta-section">
+  <div class="ta-container">
+    ${SectionHeader({ eyebrow: 'The problem', title: 'Registers forget. Excel doesn’t follow up.', body: 'Expired memberships slip through, renewals depend on someone remembering, and nobody knows who actually came in today. Every missed renewal is money already earned — walking out.' })}
+    <div class="ta-grid ta-grid--3" style="margin-top:38px">
+      ${feat('gym', 'Members & memberships', 'Every member in one place with plan, dates, payments and status — Active, Expiring Soon or Expired at a glance. Create any plan: monthly, quarterly, student, couple, personal training, custom days.')}
+      ${feat('scale', 'Barcode entry', 'Every member gets a unique barcode. Print the member card, scan at reception, and entry plus attendance is recorded in one second — green for allowed, red for expired.')}
+      ${feat('whatsapp', 'WhatsApp reminders', 'The system messages members automatically before their membership expires — 7, 3 and 1 day before, on the official WhatsApp Business API. Renewals happen before the lapse, not after.')}
+      ${feat('chart', 'Live dashboard', 'Total members, today’s check-ins, expiring memberships and revenue — the numbers a gym owner actually checks, updated live.')}
+      ${feat('shield', 'Your data, isolated', 'Each gym’s data is completely separate, access is password-protected with staff roles, and every important change is logged.')}
+      ${feat('layers', 'Reports & exports', 'Member lists, expiring memberships, attendance and plan-wise reports — downloadable as CSV whenever you need them.')}
+    </div>
+  </div>
+</section>
+
+<section class="ta-section ta-section--ground" id="gym-how">
+  <div class="ta-container">
+    ${SectionHeader({ eyebrow: 'How it works', title: 'From register to dashboard in a day.' })}
+    <div class="ta-process" style="margin-top:38px">
+      ${ProcessStep({ n: '01', title: 'Apply for the demo', body: 'Fill the form below. The TradeAura team calls you, understands your gym and switches on your dashboard.' })}
+      ${ProcessStep({ n: '02', title: 'Add plans & members', body: 'Create your membership plans — any duration, any price — and add members. We help you bring your existing list across.' })}
+      ${ProcessStep({ n: '03', title: 'Print member cards', body: 'Every member gets a unique barcode and a printable member card with your gym’s name on it.' })}
+      ${ProcessStep({ n: '04', title: 'Scan & relax', body: 'Reception scans the card — entry recorded, expiry checked, attendance counted. WhatsApp reminders go out automatically.' })}
+    </div>
+  </div>
+</section>
+
+<section class="ta-section" id="gym-demo-form">
+  <div class="ta-container">
+    <div class="ta-grid" style="grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:48px;align-items:start">
+      <div class="ta-sechead">
+        <span class="ta-eyebrow">3 months free</span>
+        <h2>Start your free demo</h2>
+        <p>Tell us about your gym. The TradeAura team will contact you, set up your dashboard and help you add your first members. Membership khatam hone se pehle WhatsApp reminder — automatically.</p>
+        <p class="ta-mono" style="font-size:11.5px;color:var(--ta-ink-3)">Application reviewed within 1 working day.</p>
+      </div>
+      <div>
+        <form class="ta-form" id="taGymForm" novalidate>
+          <div class="ta-field"><label for="gOwner">Your name</label><input id="gOwner" name="ownerName" type="text" autocomplete="name" required></div>
+          <div class="ta-field"><label for="gGym">Gym name</label><input id="gGym" name="gymName" type="text" autocomplete="organization" required></div>
+          <div class="ta-field"><label for="gPhone">Mobile number</label><input id="gPhone" name="phone" type="tel" inputmode="tel" autocomplete="tel" required></div>
+          <div class="ta-field"><label for="gWa">WhatsApp number <span class="ta-field__hint">(if different)</span></label><input id="gWa" name="whatsapp" type="tel" inputmode="tel"></div>
+          <div class="ta-field"><label for="gEmail">Email <span class="ta-field__hint">(optional)</span></label><input id="gEmail" name="email" type="email" autocomplete="email"></div>
+          <div class="ta-field"><label for="gCity">City</label><input id="gCity" name="city" type="text" autocomplete="address-level2"></div>
+          <div class="ta-field"><label for="gCount">Number of members</label>
+            <select id="gCount" name="memberCount"><option value="">Select…</option><option>Under 50</option><option>50–150</option><option>150–400</option><option>400–1000</option><option>1000+</option></select></div>
+          <div class="ta-field"><label for="gMethod">How do you manage members today?</label>
+            <select id="gMethod" name="currentMethod"><option value="">Select…</option><option>Paper register</option><option>Excel / Google Sheets</option><option>WhatsApp only</option><option>Another software</option><option>No system yet</option></select></div>
+          <div class="ta-field ta-field--full"><label>Which features interest you most?</label>
+            <div style="display:flex;gap:14px;flex-wrap:wrap;font-size:13.5px;color:var(--ta-ink-2)">
+              <label style="display:flex;gap:6px;align-items:center"><input type="checkbox" name="feature" value="whatsapp_reminders" checked> WhatsApp reminders</label>
+              <label style="display:flex;gap:6px;align-items:center"><input type="checkbox" name="feature" value="barcode"> Barcode entry</label>
+              <label style="display:flex;gap:6px;align-items:center"><input type="checkbox" name="feature" value="attendance"> Attendance</label>
+              <label style="display:flex;gap:6px;align-items:center"><input type="checkbox" name="feature" value="members"> Member management</label>
+              <label style="display:flex;gap:6px;align-items:center"><input type="checkbox" name="feature" value="reports"> Reports</label>
+            </div></div>
+          <div class="ta-field"><label for="gPref">Preferred contact</label>
+            <select id="gPref" name="preferredContact"><option value="whatsapp">WhatsApp</option><option value="call">Phone call</option><option value="email">Email</option></select></div>
+          <div class="ta-field"><label for="gInsta">Website / Instagram <span class="ta-field__hint">(optional)</span></label><input id="gInsta" name="websiteInstagram" type="text"></div>
+          <div class="ta-field ta-field--full"><label style="display:flex;gap:8px;align-items:flex-start;font-weight:400;font-size:13px;color:var(--ta-ink-2)">
+            <input type="checkbox" id="gConsent" name="consent" required style="margin-top:2px">
+            I agree to be contacted by TradeAura regarding the GYM Dashboard demo.</label></div>
+          <div class="ta-field ta-field--full">
+            <button class="ta-btn ta-btn--primary ta-btn--lg" type="submit" id="taGymSubmit">Start My Free Demo</button>
+            <p id="taGymMsg" role="status" style="font-size:13.5px;margin-top:8px"></p>
+          </div>
+        </form>
+        <div id="taGymSuccess" hidden style="border:1px solid var(--ta-line);border-radius:14px;padding:28px;background:var(--ta-surface)">
+          <h3 style="margin-bottom:8px">Your 3-Month Free Demo request has been received. 🎉</h3>
+          <p style="color:var(--ta-ink-2)">Application ID: <strong class="ta-mono" id="taGymAppId"></strong></p>
+          <p style="color:var(--ta-ink-2);margin-top:8px">The TradeAura team will contact you within 1 working day to set up your gym dashboard.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ta-section ta-section--ground">
+  <div class="ta-container">
+    ${SectionHeader({ eyebrow: 'FAQ', title: 'Questions gym owners ask us.' })}
+    <div style="max-width:72ch;margin-top:30px;display:flex;flex-direction:column;gap:10px">
+      ${faq.map(([q, a]) => `<details style="border:1px solid var(--ta-line);border-radius:10px;padding:14px 18px;background:var(--ta-surface)"><summary style="font-weight:600;cursor:pointer">${esc(q)}</summary><p style="margin-top:10px;color:var(--ta-ink-2)">${esc(a)}</p></details>`).join('')}
+    </div>
+  </div>
+</section>
+
+${CTASection({ title: 'Your gym. Your members. Fully automated.', body: 'Start the 3-month free demo today — the TradeAura team sets everything up with you.', primary: { label: 'Start 3-Month Free Demo', href: '#gym-demo-form' }, secondary: 'No card required · Cancel anytime' })}`,
+  });
+};

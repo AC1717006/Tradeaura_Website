@@ -102,6 +102,7 @@ const pages = [
   ['pages/compare.html', inner.compare()],
   ['pages/join.html', inner.join()],
   ['pages/contact.html', inner.contact({ webhook: WEBHOOK, staging: IS_STAGING })],
+  ['pages/gym-dashboard.html', inner.gymDashboard()],
   ['login.html', inner.login()],
   ['legal/privacy.html', inner.privacy()],
   ['legal/terms.html', inner.terms()],

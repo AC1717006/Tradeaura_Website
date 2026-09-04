@@ -114,6 +114,8 @@ export const site = {
       body: 'Broadcasts, drip sequences and inbound routing on the official WhatsApp Business API — not a browser hack that gets your number banned.' },
     { key: 'crm', iconName: 'crm', title: 'CRM & Business Automation',
       body: 'Every enquiry captured, scored, assigned and chased automatically. No lead sits unread in a shared inbox over a weekend.' },
+    { key: 'gym_dashboard', iconName: 'gym', title: 'GYM Dashboard', href: 'gym-dashboard.html',
+      body: 'Manage members, memberships and attendance from one smart dashboard. Barcode entry, expiry tracking and automatic WhatsApp reminders — without spreadsheets or registers.' },
   ],
 
   /* ── Solutions — business-language, with concrete capabilities ── */
