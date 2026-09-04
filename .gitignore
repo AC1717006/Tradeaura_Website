@@ -2,3 +2,19 @@ node_modules/
 .env
 .env.local
 .env.*.local
+
+# Customer lead data — PII. data/ is a committed directory (data/news.json is
+# tracked), so without this rule `git add -A` would publish leads.jsonl and
+# conversations.jsonl (names, phone numbers, email addresses) to a public repo.
+data/chat/
+
+# PM2 runtime config — may carry environment values. Was previously only in
+# .git/info/exclude, which is local-only and does not survive a fresh clone.
+ecosystem.config.js
+
+# Google service-account key for GA4 / Search Console (admin platform). Never commit.
+secrets/*
+!secrets/.gitkeep
+
+# Website build output — built by CI, never committed.
+website/dist/
