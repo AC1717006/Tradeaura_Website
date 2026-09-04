@@ -25,11 +25,16 @@
     var target = location.hash && document.getElementById(location.hash.slice(1));
     if (!target) return;
     var off = target.getBoundingClientRect().top;
-    if (Math.abs(off - 84) > 40) target.scrollIntoView({ behavior: 'auto', block: 'start' });
+    /* 'instant' (not 'auto') so this snap overrides scroll-behavior:smooth and
+       cannot be cancelled by the browser's own competing fragment scroll. */
+    if (Math.abs(off - 84) > 40) target.scrollIntoView({ behavior: 'instant', block: 'start' });
   }
   window.addEventListener('load', function () {
-    if (document.fonts && document.fonts.ready) document.fonts.ready.then(function () { setTimeout(reanchor, 60); });
-    else setTimeout(reanchor, 200);
+    /* After load the browser performs its own (stale, smooth) fragment scroll;
+       correct twice, after it has finished. Both calls are no-ops when the
+       viewport is already right. */
+    setTimeout(reanchor, 400);
+    setTimeout(reanchor, 1400);
   });
 
   document.querySelectorAll('a[href="#gym-demo-form"]').forEach(function (a) {
