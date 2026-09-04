@@ -47,7 +47,7 @@
         if (r.d && r.d.ok) {
           track('gym_demo_application_success');
           document.getElementById('taGymAppId').textContent = r.d.applicationId || '';
-          form.hidden = true; success.hidden = false;
+          form.style.display = 'none'; success.hidden = false;
           success.scrollIntoView({ behavior: 'smooth', block: 'center' });
           return;
         }
