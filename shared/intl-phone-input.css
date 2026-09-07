@@ -1,0 +1,34 @@
+/* shared/intl-phone-input.css — styles for the shared international phone input + country selector.
+   Inherits the host page's tokens where present (--line, --surface, --ink, --accent …) with safe fallbacks,
+   so the same file works in the gym SPA, the join page, the admin console and the public website. */
+.ipi{position:relative;width:100%;min-width:0;font:inherit}
+.ipi__row{display:flex;align-items:stretch;width:100%;min-width:0;border:1px solid var(--line,var(--ta-line,#d9dce6));border-radius:var(--ipi-radius,8px);background:var(--surface,var(--ta-surface,#fff));transition:border-color .12s,box-shadow .12s}
+.ipi__row:focus-within{border-color:var(--accent,var(--ta-accent,#4F5BD5));box-shadow:0 0 0 3px var(--accent-soft,var(--ta-accent-soft,rgba(79,91,213,.18)))}
+.ipi.is-invalid .ipi__row{border-color:var(--crit,var(--ta-crit,#C0392B));box-shadow:0 0 0 3px var(--crit-soft,rgba(192,57,43,.14))}
+.ipi .ipi__btn{display:inline-flex;align-items:center;gap:6px;flex:none;max-width:46%;padding:0 10px;border:0;border-right:1px solid var(--line,var(--ta-line,#d9dce6));border-radius:var(--ipi-radius,8px) 0 0 var(--ipi-radius,8px);background:var(--surface-2,var(--ta-surface-2,#f5f6fa));color:var(--ink,var(--ta-ink,#16181F));font:inherit;font-size:14px;cursor:pointer;white-space:nowrap;min-height:40px}
+.ipi__btn:hover{background:var(--line-2,var(--ta-line-2,#eceef5))}
+.ipi__btn:focus-visible{outline:2px solid var(--accent,var(--ta-accent,#4F5BD5));outline-offset:-2px}
+.ipi__btn--wide{max-width:none;flex:1;border-right:0;border-radius:var(--ipi-radius,8px);background:transparent;justify-content:flex-start;padding:0 12px}
+.ipi__btn--wide .ipi__caret{margin-left:auto}
+.ipi.is-empty .ipi__cname{color:var(--ink-3,var(--ta-ink-3,#6A7086))}
+.ipi__flag{font-size:18px;line-height:1}
+.ipi__cc{font-variant-numeric:tabular-nums;font-weight:500}
+.ipi__caret{font-size:11px;color:var(--ink-3,var(--ta-ink-3,#6A7086))}
+.ipi .ipi__num{flex:1 1 60px;min-width:0;width:100%;border:0;box-shadow:none;margin:0;background:transparent;padding:9px 11px;font:inherit;font-size:16px;color:var(--ink,var(--ta-ink,#16181F));outline:none;border-radius:0 var(--ipi-radius,8px) var(--ipi-radius,8px) 0}
+.ipi .ipi__num::placeholder{color:var(--ink-4,var(--ta-ink-4,#9aa0b5))}
+.ipi.ipi--lg .ipi__btn{min-height:48px;font-size:15px;padding:0 12px}.ipi.ipi--lg .ipi__num{padding:13px 14px}
+.ipi__pop{position:absolute;z-index:60;left:0;right:0;top:calc(100% + 6px);max-width:100%;background:var(--surface,var(--ta-surface,#fff));border:1px solid var(--line,var(--ta-line,#d9dce6));border-radius:12px;box-shadow:0 12px 32px rgba(20,26,61,.16);padding:8px;box-sizing:border-box}
+.ipi__pop[hidden]{display:none}
+.ipi .ipi__search{width:100%;box-sizing:border-box;border:1px solid var(--line,var(--ta-line,#d9dce6));border-radius:8px;padding:9px 11px;font:inherit;font-size:16px;background:var(--surface,var(--ta-surface,#fff));color:var(--ink,var(--ta-ink,#16181F));margin-bottom:6px}
+.ipi .ipi__search:focus{outline:none;border-color:var(--accent,var(--ta-accent,#4F5BD5));box-shadow:0 0 0 3px var(--accent-soft,var(--ta-accent-soft,rgba(79,91,213,.18)))}
+.ipi__list{list-style:none;margin:0;padding:0;max-height:min(46vh,280px);overflow-y:auto;overscroll-behavior:contain;-webkit-overflow-scrolling:touch}
+.ipi__item{display:flex;align-items:center;gap:10px;padding:9px 10px;border-radius:8px;cursor:pointer;font-size:14px;color:var(--ink,var(--ta-ink,#16181F))}
+.ipi__item .ipi__name{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.ipi__item .ipi__dial{color:var(--ink-3,var(--ta-ink-3,#6A7086));font-variant-numeric:tabular-nums;flex:none}
+.ipi__item:hover,.ipi__item.is-active{background:var(--accent-soft,var(--ta-accent-soft,#EEF0FF))}
+.ipi__item.is-selected{font-weight:600}
+.ipi__empty{padding:12px 10px;color:var(--ink-3,var(--ta-ink-3,#6A7086));font-size:13px}
+.ipi__err{display:block;margin-top:6px;font-size:12.5px;color:var(--crit,var(--ta-crit,#C0392B))}
+.ipi__err[hidden]{display:none}
+@media (max-width:420px){.ipi .ipi__btn{max-width:52%;padding:0 8px;gap:4px}.ipi__list{max-height:40vh}}
+@media (prefers-reduced-motion:reduce){.ipi__row{transition:none}}

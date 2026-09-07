@@ -85,7 +85,12 @@ if (!site.analytics.enabled) {
 mkdirSync(join(DIST, 'assets/css'), { recursive: true });
 copyFileSync(join(HERE, 'src/styles/tokens.css'), join(DIST, 'assets/css/tokens.css'));
 copyFileSync(join(HERE, 'src/styles/site.css'), join(DIST, 'assets/css/site.css'));
-log(`  assets            ${nAssets + 2} files`);
+/* shared international contact standard — ONE source (../shared) for the API, the gym SPA and the site */
+const SHARED = join(HERE, '..', 'shared');
+mkdirSync(join(DIST, 'assets/js'), { recursive: true });
+for (const f of ['intl-contact.js', 'intl-phone-input.js']) copyFileSync(join(SHARED, f), join(DIST, 'assets/js', f));
+copyFileSync(join(SHARED, 'intl-phone-input.css'), join(DIST, 'assets/css/intl-phone-input.css'));
+log(`  assets            ${nAssets + 5} files`);
 
 /* ── 2. carry legacy media across unchanged ────────────────── */
 const nMedia = copyDir(join(LEGACY, 'assets'), join(DIST, 'assets'));

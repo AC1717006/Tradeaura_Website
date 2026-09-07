@@ -121,7 +121,8 @@ ${meta}
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
 <link rel="stylesheet" href="${r}assets/css/tokens.css">
-<link rel="stylesheet" href="${r}assets/css/site.css">${chat ? `\n<link rel="stylesheet" href="${r}assets/css/chat.css">` : ''}
+<link rel="stylesheet" href="${r}assets/css/site.css">
+<link rel="stylesheet" href="${r}assets/css/intl-phone-input.css">${chat ? `\n<link rel="stylesheet" href="${r}assets/css/chat.css">` : ''}
 <link rel="icon" href="${r}assets/favicon.svg" type="image/svg+xml">${analytics ? `\n<meta name="ta-analytics" content="${esc(site.analytics.endpoint)}">` : ''}
 </head>
 <body>

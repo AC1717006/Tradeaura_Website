@@ -7,6 +7,12 @@
   var msg = document.getElementById('taFormMsg');
   var btn = document.getElementById('taSubmit');
 
+  /* Shared international phone control — mounted before the staging guard so the field always renders. */
+  var IPI = window.IntlPhoneInput, phoneCtl = null;
+  if (IPI && document.getElementById('mobileHost')) {
+    phoneCtl = IPI.mount(document.getElementById('mobileHost'), { name: 'mobile', country: 'IN', required: true, placeholder: 'Phone number', id: 'mobile' });
+  }
+
   /* Staging guard: the build emits data-ta-staging and omits @action.
      Belt and braces — even if the attribute were removed, there is no
      action to POST to, so no request can reach production. */
@@ -29,6 +35,7 @@
       form.reportValidity();
       return;
     }
+    if (phoneCtl && !phoneCtl.validate()) { phoneCtl.input.focus(); return; }
     var original = btn.textContent;
     btn.disabled = true;
     btn.textContent = 'Sending…';
@@ -44,6 +51,7 @@
 
     var data = {};
     new FormData(form).forEach(function (value, key) { data[key] = value; });
+    if (phoneCtl) { data.mobile = phoneCtl.getValue().e164 || phoneCtl.getValue().raw; data.country = phoneCtl.getCountry(); }   // canonical E.164 in the existing `mobile` column; `country` is an extra key the Sheet script ignores
     data.timestamp = new Date().toISOString();
 
     fetch(form.action, {

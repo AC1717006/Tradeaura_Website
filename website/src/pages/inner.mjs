@@ -222,7 +222,7 @@ ${staging ? `        <div class="ta-card" style="padding:16px 18px;margin-bottom
           <div class="ta-field"><label for="ownerName">Name</label><input id="ownerName" name="ownerName" type="text" autocomplete="name" required></div>
           <div class="ta-field"><label for="businessName">Company</label><input id="businessName" name="businessName" type="text" autocomplete="organization" required></div>
           <div class="ta-field"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required></div>
-          <div class="ta-field"><label for="mobile">Phone</label><input id="mobile" name="mobile" type="tel" autocomplete="tel" inputmode="tel" required></div>
+          <div class="ta-field"><label for="mobile">Phone</label><div id="mobileHost" data-ta-phone="mobile" data-required="1"></div></div>
           <div class="ta-field ta-field--full">
             <label for="businessType">Service you are interested in</label>
             <select id="businessType" name="businessType" required>
@@ -263,7 +263,7 @@ ${staging ? `        <div class="ta-card" style="padding:16px 18px;margin-bottom
     </div>
   </div>
 </section>`,
-    scripts: ['assets/js/contact.js'],
+    scripts: ['assets/js/intl-contact.js', 'assets/js/intl-phone-input.js', 'assets/js/contact.js'],
   });
 
 /* ── /login.html — placeholder until Phase 3 ───────────────── */
@@ -342,7 +342,7 @@ export const gymDashboard = () => {
   <meta name="twitter:title" content="TradeAura GYM Dashboard">
   <meta name="twitter:description" content="Your gym memberships, fully automated. 3-month free demo.">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"TradeAura GYM Dashboard","applicationCategory":"BusinessApplication","operatingSystem":"Web","description":"Gym management software: members, membership plans, attendance, barcode entry and automated WhatsApp expiry reminders.","offers":{"@type":"Offer","price":"0","priceCurrency":"INR","description":"3-month free demo for gym owners"}}</script>`,
-    scripts: ['assets/js/gym-apply.js'],
+    scripts: ['assets/js/intl-contact.js', 'assets/js/intl-phone-input.js', 'assets/js/gym-apply.js'],
     body: `
 <section class="ta-section ta-section--tight" data-gym-landing>
   <div class="ta-container">
@@ -398,10 +398,13 @@ export const gymDashboard = () => {
         <form class="ta-form" id="taGymForm" novalidate>
           <div class="ta-field"><label for="gOwner">Your name</label><input id="gOwner" name="ownerName" type="text" autocomplete="name" required></div>
           <div class="ta-field"><label for="gGym">Gym name</label><input id="gGym" name="gymName" type="text" autocomplete="organization" required></div>
-          <div class="ta-field"><label for="gPhone">Mobile number</label><input id="gPhone" name="phone" type="tel" inputmode="tel" autocomplete="tel" required></div>
-          <div class="ta-field"><label for="gWa">WhatsApp number <span class="ta-field__hint">(if different)</span></label><input id="gWa" name="whatsapp" type="tel" inputmode="tel"></div>
+          <div class="ta-field"><label for="gPhone">Phone number</label><div id="gPhoneHost" data-ta-phone="phone" data-required="1"></div></div>
+          <div class="ta-field"><label for="gWa">WhatsApp number <span class="ta-field__hint">(if different)</span></label><div id="gWaHost" data-ta-phone="whatsapp"></div></div>
           <div class="ta-field"><label for="gEmail">Email <span class="ta-field__hint">(optional)</span></label><input id="gEmail" name="email" type="email" autocomplete="email"></div>
+          <div class="ta-field"><label for="gCountry">Country</label><div id="gCountryHost" data-ta-country="country"></div></div>
           <div class="ta-field"><label for="gCity">City</label><input id="gCity" name="city" type="text" autocomplete="address-level2"></div>
+          <div class="ta-field"><label for="gState">State / Province / Region <span class="ta-field__hint">(optional)</span></label><input id="gState" name="state" type="text" autocomplete="address-level1" maxlength="100"></div>
+          <div class="ta-field"><label for="gPostal">Postal / ZIP code <span class="ta-field__hint">(optional)</span></label><input id="gPostal" name="postalCode" type="text" autocomplete="postal-code" maxlength="12"></div>
           <div class="ta-field"><label for="gCount">Number of members</label>
             <select id="gCount" name="memberCount"><option value="">Select…</option><option>Under 50</option><option>50–150</option><option>150–400</option><option>400–1000</option><option>1000+</option></select></div>
           <div class="ta-field"><label for="gMethod">How do you manage members today?</label>

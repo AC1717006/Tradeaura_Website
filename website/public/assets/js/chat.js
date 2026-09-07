@@ -164,7 +164,7 @@
         if (!summary[k]) return;
         var dt = document.createElement('dt'); dt.textContent = LABELS[k];
         var dd = document.createElement('dd');
-        dd.textContent = Array.isArray(summary[k]) ? summary[k].join(', ') : summary[k];
+        dd.textContent = (k === 'phone' && window.IntlContact) ? window.IntlContact.formatPhone(Array.isArray(summary[k]) ? summary[k].join(', ') : summary[k]) : Array.isArray(summary[k]) ? summary[k].join(', ') : summary[k];
         dl.appendChild(dt); dl.appendChild(dd);
       });
       if (dl.children.length) card.appendChild(dl);
