@@ -39,7 +39,7 @@ ${PageHead({ eyebrow: 'Solutions', title: 'Where automation earns its place.', b
 <section class="ta-section">
   <div class="ta-container">
     <div class="ta-grid ta-grid--2">
-      ${site.solutions.map((s) => `<div id="${s.id}" style="scroll-margin-top:90px">${SolutionCard({ ...s, ctaHref: 'contact.html' })}</div>`).join('')}
+      ${site.solutions.map((s) => `<div id="${s.id}" style="scroll-margin-top:90px">${SolutionCard({ ...s, ctaHref: `contact.html${s.ctaService ? `?service=${encodeURIComponent(s.ctaService)}` : ''}` })}</div>`).join('')}
     </div>
   </div>
 </section>

@@ -17,3 +17,21 @@
     if (e.key === 'Escape') setOpen(false);
   });
 })();
+
+/* Contact form — preselect the service when the visitor arrives from a
+   solutions CTA (contact.html?service=…).
+   Deliberately defensive: it only ever selects an option the form already
+   renders, so an unknown, stale or hand-edited value simply leaves the
+   dropdown on its default and `required` still forces a real choice.
+   Nothing from the URL is ever written into the DOM. */
+(function () {
+  'use strict';
+  var sel = document.getElementById('businessType');
+  if (!sel || !window.location.search) return;
+  var want;
+  try { want = new URLSearchParams(window.location.search).get('service'); } catch (e) { return; }
+  if (!want) return;
+  for (var i = 0; i < sel.options.length; i++) {
+    if (sel.options[i].value === want) { sel.selectedIndex = i; return; }
+  }
+})();

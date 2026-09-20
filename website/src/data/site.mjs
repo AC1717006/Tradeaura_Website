@@ -131,6 +131,7 @@ export const site = {
       iconName: 'whatsapp',
       title: 'WhatsApp Automation',
       cta: 'Automate my WhatsApp',
+      ctaService: 'WhatsApp Automation',
       body:
         'Most Indian businesses already run on WhatsApp. The problem is that it runs on a person holding a phone. We move it onto the Business API so it keeps working at 2am and at scale.',
       points: [
@@ -145,6 +146,7 @@ export const site = {
       iconName: 'crm',
       title: 'CRM & Lead Management',
       cta: 'Set up my CRM',
+      ctaService: 'CRM & Business Automation',
       body:
         'Enquiries arrive from a website form, a WhatsApp message, a phone call and a marketplace — and then get lost between them. We make one pipeline out of all of it.',
       points: [
@@ -159,6 +161,7 @@ export const site = {
       iconName: 'ai',
       title: 'AI Agents & Automation',
       cta: 'Put AI to work',
+      ctaService: 'AI Automation',
       body:
         'We are deliberately narrow about where AI goes. It handles the high-volume, low-judgement work — classification, extraction, first-draft replies — and hands anything consequential to a person.',
       points: [
@@ -187,6 +190,7 @@ export const site = {
       iconName: 'saas',
       title: 'Custom SaaS',
       cta: 'Build my software',
+      ctaService: 'Custom Software Development',
       body:
         'Sometimes the process is the product. When your operation has a shape no vendor sells, we build the application around it — and you own the code.',
       points: [
@@ -201,6 +205,7 @@ export const site = {
       iconName: 'web',
       title: 'Web & Mobile Platforms',
       cta: 'Build my site or app',
+      ctaService: 'Website Development',
       body:
         'The customer-facing half of the work: the site people find you through, and the app your customers or field staff use every day.',
       points: [
