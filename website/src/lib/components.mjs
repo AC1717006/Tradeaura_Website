@@ -45,13 +45,27 @@ export const SectionHeader = ({ eyebrow = '', title, body = '', aside = '' }) =>
 };
 
 /* ── ServiceCard ───────────────────────────────────────────── */
-export const ServiceCard = ({ iconName, title, body, href }) => `
+export const ServiceCard = ({ iconName, title, body, href, featured = false, badge = '' }) => {
+  const more = `<span class="ta-svc__more">Learn more <span style="width:13px;height:13px;display:grid;place-items:center">${icon('arrow')}</span></span>`;
+  if (!featured)
+    return `
   <a class="ta-card ta-card--link ta-svc" href="${href}">
     <span class="ta-icon-tile">${icon(iconName)}</span>
     <h3>${esc(title)}</h3>
     <p>${esc(body)}</p>
-    <span class="ta-svc__more">Learn more <span style="width:13px;height:13px;display:grid;place-items:center">${icon('arrow')}</span></span>
+    ${more}
   </a>`;
+  /* Featured: same card, spanning the full grid row (see .ta-svc--featured). */
+  return `
+  <a class="ta-card ta-card--link ta-svc ta-svc--featured" href="${href}">
+    <span class="ta-icon-tile">${icon(iconName)}</span>
+    <div class="ta-svc__text">
+      <div class="ta-svc__head"><h3>${esc(title)}</h3>${badge ? Badge({ label: badge, variant: 'accent', pill: true }) : ''}</div>
+      <p>${esc(body)}</p>
+    </div>
+    ${more}
+  </a>`;
+};
 
 /* ── SolutionCard ──────────────────────────────────────────── */
 /* `cta` (label) lives in site.solutions, but the button only renders when a

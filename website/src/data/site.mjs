@@ -120,7 +120,11 @@ export const site = {
       body: 'Broadcasts, drip sequences and inbound routing on the official WhatsApp Business API — not a browser hack that gets your number banned.' },
     { key: 'crm', iconName: 'crm', title: 'CRM & Business Automation',
       body: 'Every enquiry captured, scored, assigned and chased automatically. No lead sits unread in a shared inbox over a weekend.' },
+    /* featured: the seventh card would otherwise sit alone at the end of a
+       three- or two-column row. Spanning the full row turns that gap into
+       emphasis. The badge repeats the offer already stated on the page. */
     { key: 'gym_dashboard', iconName: 'gym', title: 'GYM Dashboard', href: 'gym-dashboard.html',
+      featured: true, badge: '3 MONTHS FREE',
       body: 'Manage members, memberships and attendance from one smart dashboard. Barcode entry, expiry tracking and automatic WhatsApp reminders — without spreadsheets or registers.' },
   ],
 

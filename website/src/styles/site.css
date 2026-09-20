@@ -228,6 +228,18 @@ a.ta-card:hover, .ta-card--link:hover { border-color: var(--ta-accent-line); box
 .ta-svc h3 { font-size: 17px; font-weight: 600; }
 .ta-svc p { font-size: 13.5px; color: var(--ta-ink-3); line-height: 1.6; }
 .ta-svc__more { margin-top: auto; padding-top: 10px; font-size: 13px; font-weight: 600; color: var(--ta-accent); display: inline-flex; align-items: center; gap: 6px; }
+/* Featured service card — spans the whole grid row (the seventh service is
+   otherwise orphaned in both the 3-column and the 2-column layout), and lays
+   its icon, text and link out in a row once there is width for it. */
+.ta-svc--featured { grid-column: 1 / -1; }
+.ta-svc__text { display: flex; flex-direction: column; gap: 12px; }
+.ta-svc__head { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+@media (min-width: 681px) {
+  .ta-svc--featured { flex-direction: row; align-items: center; gap: 22px; padding: 26px 28px; }
+  .ta-svc--featured .ta-icon-tile { flex-shrink: 0; }
+  .ta-svc--featured .ta-svc__text { flex: 1; min-width: 0; }
+  .ta-svc--featured .ta-svc__more { margin-top: 0; padding-top: 0; flex-shrink: 0; }
+}
 
 .ta-sol { display: grid; grid-template-columns: auto 1fr; gap: 18px; padding: 26px; align-items: start; }
 .ta-sol h3 { font-size: 18px; font-weight: 600; margin-bottom: 6px; }
