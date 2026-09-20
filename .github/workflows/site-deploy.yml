@@ -99,7 +99,9 @@ jobs:
           test -f website/dist/index.html
           test -f website/dist/assets/js/chat.js
           test -f website/dist/assets/js/ta-analytics.js
-          grep -q 'https://api.auraautomation.site/admin/login' website/dist/index.html
+          grep -q 'legal/privacy.html' website/dist/index.html
+          # the admin login link was removed from the public footer — keep it out
+          ! grep -q 'admin/login' website/dist/index.html
           ! grep -rlE 'AKIA[A-Z0-9]{16}|BEGIN [A-Z ]*PRIVATE KEY|postgresql://' website/dist
 
       - name: AWS credentials (OIDC)
@@ -135,7 +137,7 @@ jobs:
         run: |
           set -e
           curl -fsS -o /tmp/home.html https://www.auraautomation.site/
-          grep -q 'https://api.auraautomation.site/admin/login' /tmp/home.html
+          grep -q 'legal/privacy.html' /tmp/home.html
           grep -q 'data-ta-chat' /tmp/home.html
           curl -fsS -o /dev/null https://www.auraautomation.site/assets/js/chat.js
           curl -fsS -o /dev/null https://www.auraautomation.site/assets/js/ta-analytics.js

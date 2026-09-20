@@ -310,7 +310,7 @@
 
 /* ── Footer clearance ───────────────────────────────────────── */
 /* The fixed launcher covers the footer's bottom-right corner at the end of
-   the scroll, hiding the utility links (Privacy / Terms / Admin Login).
+   the scroll, hiding the utility links (Privacy / Terms).
    Reserve its footprint inside the utility row. Lives HERE, not site.css,
    so a TA_CHAT=off build reserves nothing. Widths = launcher + offset + gap. */
 .ta-footer__base { padding-inline-end: 210px; }

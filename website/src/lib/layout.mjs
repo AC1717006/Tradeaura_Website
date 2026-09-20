@@ -70,7 +70,7 @@ export const Footer = ({ depth = 0 }) => {
     </div>
     <div class="ta-footer__base">
       <span>© ${site.year} ${esc(site.legalName)}</span>
-      <span><a href="${r}legal/privacy.html">Privacy</a> · <a href="${r}legal/terms.html">Terms</a> · <a href="https://api.auraautomation.site/admin/login">Admin Login</a></span>
+      <span><a href="${r}legal/privacy.html">Privacy</a> · <a href="${r}legal/terms.html">Terms</a></span>
     </div>
   </div>
 </footer>`;
