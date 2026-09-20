@@ -35,7 +35,7 @@ ${Hero({
       aside: 'Start with the process that costs you the most time. Each service is scoped, priced and proved on its own.',
     })}
     <div class="ta-grid ta-grid--3" style="margin-top:38px">
-      ${site.services.map((s) => ServiceCard({ ...s, href: `pages/solutions.html#${s.key}` })).join('')}
+      ${site.services.map((s) => ServiceCard({ ...s, href: s.href ? `pages/${s.href}` : `pages/solutions.html#${s.key}` })).join('')}
     </div>
   </div>
 </section>

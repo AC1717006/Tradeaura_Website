@@ -100,13 +100,19 @@ export const site = {
     ],
   },
 
-  /* ── Services — the six you specified ────────────────────── */
+  /* ── Services — the six you specified ──────────────────────
+     `href` is optional and is written RELATIVE TO pages/ (the depth the
+     services page sits at); the home page prefixes it with `pages/`.
+     Without it a card falls back to solutions.html#<key> — which only
+     resolves for keys that are actually section ids on the solutions
+     page (ai, whatsapp, crm). web/mobile/software have no section of
+     their own, so they point at the sections that do cover them. */
   services: [
-    { key: 'web', iconName: 'web', title: 'Website Development',
+    { key: 'web', iconName: 'web', title: 'Website Development', href: 'solutions.html#platforms',
       body: 'Fast, accessible marketing sites and web platforms — built to load quickly, rank well and be edited without a developer.' },
-    { key: 'mobile', iconName: 'mobile', title: 'Mobile App Development',
+    { key: 'mobile', iconName: 'mobile', title: 'Mobile App Development', href: 'solutions.html#platforms',
       body: 'Android and iOS apps for customers or field teams, connected to the systems your business already runs on.' },
-    { key: 'software', iconName: 'code', title: 'Custom Software Development',
+    { key: 'software', iconName: 'code', title: 'Custom Software Development', href: 'solutions.html#saas',
       body: 'When off-the-shelf software nearly fits but not quite, we build the product your operation actually runs on — and you own the code.' },
     { key: 'ai', iconName: 'ai', title: 'AI Automation',
       body: 'Drafting, summarising, classifying and answering — pointed only at the jobs where a model genuinely beats a person.' },
