@@ -430,27 +430,9 @@ export const gymDashboard = () => {
           <div class="ta-field"><label for="gOwner">Your name</label><input id="gOwner" name="ownerName" type="text" autocomplete="name" required></div>
           <div class="ta-field"><label for="gGym">Gym name</label><input id="gGym" name="gymName" type="text" autocomplete="organization" required></div>
           <div class="ta-field"><label for="gPhone">Phone number</label><div id="gPhoneHost" data-ta-phone="phone" data-required="1"></div></div>
-          <div class="ta-field"><label for="gWa">WhatsApp number <span class="ta-field__hint">(if different)</span></label><div id="gWaHost" data-ta-phone="whatsapp"></div></div>
-          <div class="ta-field"><label for="gEmail">Email <span class="ta-field__hint">(optional)</span></label><input id="gEmail" name="email" type="email" autocomplete="email"></div>
-          <div class="ta-field"><label for="gCountry">Country</label><div id="gCountryHost" data-ta-country="country"></div></div>
-          <div class="ta-field"><label for="gCity">City</label><input id="gCity" name="city" type="text" autocomplete="address-level2"></div>
-          <div class="ta-field"><label for="gState">State / Province / Region <span class="ta-field__hint">(optional)</span></label><input id="gState" name="state" type="text" autocomplete="address-level1" maxlength="100"></div>
-          <div class="ta-field"><label for="gPostal">Postal / ZIP code <span class="ta-field__hint">(optional)</span></label><input id="gPostal" name="postalCode" type="text" autocomplete="postal-code" maxlength="12"></div>
-          <div class="ta-field"><label for="gCount">Number of members</label>
+          <div class="ta-field"><label for="gCity">City <span class="ta-field__hint">(optional)</span></label><input id="gCity" name="city" type="text" autocomplete="address-level2"></div>
+          <div class="ta-field"><label for="gCount">Number of members <span class="ta-field__hint">(optional)</span></label>
             <select id="gCount" name="memberCount"><option value="">Select…</option><option>Under 50</option><option>50–150</option><option>150–400</option><option>400–1000</option><option>1000+</option></select></div>
-          <div class="ta-field"><label for="gMethod">How do you manage members today?</label>
-            <select id="gMethod" name="currentMethod"><option value="">Select…</option><option>Paper register</option><option>Excel / Google Sheets</option><option>WhatsApp only</option><option>Another software</option><option>No system yet</option></select></div>
-          <div class="ta-field ta-field--full"><label>Which features interest you most?</label>
-            <div style="display:flex;gap:14px;flex-wrap:wrap;font-size:13.5px;color:var(--ta-ink-2)">
-              <label style="display:flex;gap:6px;align-items:center"><input type="checkbox" name="feature" value="whatsapp_reminders" checked> WhatsApp reminders</label>
-              <label style="display:flex;gap:6px;align-items:center"><input type="checkbox" name="feature" value="barcode"> Barcode entry</label>
-              <label style="display:flex;gap:6px;align-items:center"><input type="checkbox" name="feature" value="attendance"> Attendance</label>
-              <label style="display:flex;gap:6px;align-items:center"><input type="checkbox" name="feature" value="members"> Member management</label>
-              <label style="display:flex;gap:6px;align-items:center"><input type="checkbox" name="feature" value="reports"> Reports</label>
-            </div></div>
-          <div class="ta-field"><label for="gPref">Preferred contact</label>
-            <select id="gPref" name="preferredContact"><option value="whatsapp">WhatsApp</option><option value="call">Phone call</option><option value="email">Email</option></select></div>
-          <div class="ta-field"><label for="gInsta">Website / Instagram <span class="ta-field__hint">(optional)</span></label><input id="gInsta" name="websiteInstagram" type="text"></div>
           <div class="ta-field ta-field--full"><label style="display:flex;gap:8px;align-items:flex-start;font-weight:400;font-size:13px;color:var(--ta-ink-2)">
             <input type="checkbox" id="gConsent" name="consent" required style="margin-top:2px">
             I agree to be contacted by TradeAura regarding the GYM Dashboard demo.</label></div>

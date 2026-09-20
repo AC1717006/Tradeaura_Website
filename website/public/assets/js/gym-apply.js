@@ -45,31 +45,52 @@
 
   /* Shared international phone/country controls (assets/js/intl-phone-input.js). The country is a
      convenience default only — the visitor can change it; nothing is inferred from location. */
+  /* The short form carries only the phone host. The country select and the
+     separate WhatsApp number were removed, so every control here is mounted
+     only if its host element actually exists — this file is also loaded by
+     any future longer variant of the form. */
   var IPI = window.IntlPhoneInput, phoneCtl = null, waCtl = null, countryCtl = null;
+  var host = function (id) { return document.getElementById(id); };
   if (IPI) {
-    countryCtl = IPI.countrySelect(document.getElementById('gCountryHost'), { name: 'country', value: 'IN', label: 'Country' });
-    phoneCtl = IPI.mount(document.getElementById('gPhoneHost'), { name: 'phone', country: 'IN', required: true, placeholder: 'Phone number', id: 'gPhone' });
-    waCtl = IPI.mount(document.getElementById('gWaHost'), { name: 'whatsapp', country: 'IN', placeholder: 'Same as phone if blank', id: 'gWa' });
-    var syncCountry = function (cc) { if (cc && !phoneCtl.input.value.trim()) phoneCtl.setCountry(cc); if (cc && !waCtl.input.value.trim()) waCtl.setCountry(cc); };
-    countryCtl.setValue = (function (orig) { return function (cc) { orig(cc); syncCountry(cc); }; })(countryCtl.setValue);
-    document.getElementById('gCountryHost').addEventListener('click', function () { setTimeout(function () { syncCountry(countryCtl.getValue()); }, 0); });
-    countryCtl.button.id = 'gCountry';
+    if (host('gCountryHost')) countryCtl = IPI.countrySelect(host('gCountryHost'), { name: 'country', value: 'IN', label: 'Country' });
+    if (host('gPhoneHost')) phoneCtl = IPI.mount(host('gPhoneHost'), { name: 'phone', country: 'IN', required: true, placeholder: 'Phone number', id: 'gPhone' });
+    if (host('gWaHost')) waCtl = IPI.mount(host('gWaHost'), { name: 'whatsapp', country: 'IN', placeholder: 'Same as phone if blank', id: 'gWa' });
+    if (countryCtl) {
+      var syncCountry = function (cc) {
+        if (cc && phoneCtl && !phoneCtl.input.value.trim()) phoneCtl.setCountry(cc);
+        if (cc && waCtl && !waCtl.input.value.trim()) waCtl.setCountry(cc);
+      };
+      countryCtl.setValue = (function (orig) { return function (cc) { orig(cc); syncCountry(cc); }; })(countryCtl.setValue);
+      host('gCountryHost').addEventListener('click', function () { setTimeout(function () { syncCountry(countryCtl.getValue()); }, 0); });
+      countryCtl.button.id = 'gCountry';
+    }
   }
   form.addEventListener('submit', function (e) {
     e.preventDefault();
     if (!form.checkValidity()) { form.reportValidity(); return; }
-    if (phoneCtl && (!phoneCtl.validate() || !waCtl.validate())) { (phoneCtl.validate() ? waCtl : phoneCtl).input.focus(); return; }
+    if (phoneCtl && !phoneCtl.validate()) { phoneCtl.input.focus(); return; }
+    if (waCtl && !waCtl.validate()) { waCtl.input.focus(); return; }
     var features = [];
     form.querySelectorAll('input[name="feature"]:checked').forEach(function (c) { features.push(c.value); });
+    /* Every field below the first three is optional in the form AND on the
+       server (all those columns are nullable), so each one is read through a
+       guard: a control the short form does not render simply sends ''. */
+    var val = function (name) { return form[name] ? form[name].value : ''; };
     var payload = {
       ownerName: form.ownerName.value, gymName: form.gymName.value,
-      phone: phoneCtl ? (phoneCtl.getValue().e164 || phoneCtl.getValue().raw) : form.phone.value, phoneCountry: phoneCtl ? phoneCtl.getCountry() : '',
-      whatsapp: waCtl ? (waCtl.getValue().e164 || waCtl.getValue().raw) : form.whatsapp.value, whatsappCountry: waCtl ? waCtl.getCountry() : '',
-      country: countryCtl ? (countryCtl.getValue() || (phoneCtl && phoneCtl.getCountry())) : '', state: form.state.value, postalCode: form.postalCode.value,
-      email: form.email.value,
-      city: form.city.value, memberCount: form.memberCount.value, currentMethod: form.currentMethod.value,
-      interestedFeatures: features, preferredContact: form.preferredContact.value,
-      websiteInstagram: form.websiteInstagram.value, consent: document.getElementById('gConsent').checked
+      phone: phoneCtl ? (phoneCtl.getValue().e164 || phoneCtl.getValue().raw) : val('phone'), phoneCountry: phoneCtl ? phoneCtl.getCountry() : '',
+      whatsapp: waCtl ? (waCtl.getValue().e164 || waCtl.getValue().raw) : val('whatsapp'), whatsappCountry: waCtl ? waCtl.getCountry() : '',
+      country: countryCtl ? (countryCtl.getValue() || (phoneCtl && phoneCtl.getCountry())) : (phoneCtl ? phoneCtl.getCountry() : ''),
+      state: val('state'), postalCode: val('postalCode'),
+      email: val('email'),
+      city: val('city'), memberCount: val('memberCount'), currentMethod: val('currentMethod'),
+      /* preferredContact gates the LIVE WhatsApp onboarding message on the server
+         (consents() requires preferred_contact === 'whatsapp'). The removed select
+         was pre-selected to "WhatsApp", so sending that same default when the
+         control is absent keeps the existing behaviour instead of silently
+         switching every new application to no-WhatsApp. */
+      interestedFeatures: features, preferredContact: val('preferredContact') || 'whatsapp',
+      websiteInstagram: val('websiteInstagram'), consent: document.getElementById('gConsent').checked
     };
     var original = btn.textContent;
     btn.disabled = true; btn.textContent = 'Sending…';
