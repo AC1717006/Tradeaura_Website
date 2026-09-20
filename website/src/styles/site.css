@@ -360,3 +360,22 @@ a.ta-card:hover, .ta-card--link:hover { border-color: var(--ta-accent-line); box
   .ta-header__cta .ta-btn--primary { padding-inline: 14px; font-size: 13.5px; }
   .ta-logo__word { font-size: 16px; }
 }
+
+/* 320px overflow — measured, not guessed.
+   Two separate causes made the page 357px wide inside a 320px viewport:
+   1. .ta-strip__label has flex-shrink:0 and an intrinsic width of 337px
+      ("TECHNOLOGY • AUTOMATION • AI • SOFTWARE" at .15em tracking), so it
+      could neither shrink nor wrap and set the page width on its own.
+   2. logo (127px) + gap (12px) + header CTA (159px) = 298px, against the
+      280px left between the 20px gutters — which pushed the burger, plus
+      its -10px optical margin, 8px past the right edge and clipped it.
+   The strip items themselves scroll horizontally by design (≤560px above)
+   and are not touched. */
+@media (max-width: 420px) {
+  .ta-strip__label { flex-shrink: 1; min-width: 0; }
+}
+@media (max-width: 360px) {
+  /* The sticky bottom bar (≤760px) already carries the same Book a Demo
+     action, so dropping it from the header loses no call to action. */
+  .ta-header__cta .ta-btn--primary { display: none; }
+}
