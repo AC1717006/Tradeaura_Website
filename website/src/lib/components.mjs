@@ -54,13 +54,17 @@ export const ServiceCard = ({ iconName, title, body, href }) => `
   </a>`;
 
 /* ── SolutionCard ──────────────────────────────────────────── */
-export const SolutionCard = ({ iconName, title, body, points = [] }) => `
+/* `cta` (label) lives in site.solutions, but the button only renders when a
+   caller also passes ctaHref — so the solutions page gets per-section CTAs
+   while the home page, which reuses this card, stays exactly as it was. */
+export const SolutionCard = ({ iconName, title, body, points = [], cta = '', ctaHref = '' }) => `
   <div class="ta-card ta-sol">
     <span class="ta-icon-tile">${icon(iconName)}</span>
     <div>
       <h3>${esc(title)}</h3>
       <p>${esc(body)}</p>
       ${points.length ? `<ul>${points.map((p) => `<li>${esc(p)}</li>`).join('')}</ul>` : ''}
+      ${cta && ctaHref ? `<div class="ta-sol__cta">${Button({ label: cta, href: ctaHref, variant: 'secondary', iconName: 'arrow', trailing: true })}</div>` : ''}
     </div>
   </div>`;
 

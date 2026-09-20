@@ -379,3 +379,7 @@ a.ta-card:hover, .ta-card--link:hover { border-color: var(--ta-accent-line); box
      action, so dropping it from the header loses no call to action. */
   .ta-header__cta .ta-btn--primary { display: none; }
 }
+
+/* Per-section CTA on the solutions page. The card body is a grid row, so the
+   button needs its own top margin rather than a gap change on .ta-sol. */
+.ta-sol__cta { margin-top: 16px; }
