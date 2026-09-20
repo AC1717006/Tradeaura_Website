@@ -31,7 +31,7 @@ ${Hero({
   <div class="ta-container">
     ${SectionHeader({
       eyebrow: 'What we build',
-      title: 'Six services. One technology partner.',
+      title: 'Seven services. One technology partner.',
       aside: 'Start with the process that costs you the most time. Each service is scoped, priced and proved on its own.',
     })}
     <div class="ta-grid ta-grid--3" style="margin-top:38px">
