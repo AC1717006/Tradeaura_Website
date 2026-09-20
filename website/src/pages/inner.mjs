@@ -290,6 +290,39 @@ export const login = () =>
 </section>`,
   });
 
+/* ── /error.html — S3 custom error document ──────────────────
+   Served for ANY unknown path, so the browser's base URL can be
+   /a/b/c. `<base href="/">` makes every relative URL the Layout
+   emits (CSS, JS, nav, footer) resolve from the site root — without
+   it a 404 on a nested path would load unstyled with broken links.
+   noindex: an error page must never enter the search index.      */
+export const notFound = () =>
+  Layout({
+    title: 'Page not found | TradeAura Automation',
+    description: 'The page you are looking for is not available.',
+    current: '', depth: 0, stickyCta: false,
+    headExtra: `
+  <base href="/">
+  <title>Page not found | TradeAura Automation</title>
+  <meta name="description" content="The page you are looking for is not available.">
+  <meta name="robots" content="noindex, follow">`,
+    body: `
+<section class="ta-section">
+  <div class="ta-container" style="max-width:560px">
+    <div class="ta-card" style="padding:40px 32px;text-align:center;display:flex;flex-direction:column;align-items:center;gap:14px">
+      <span class="ta-eyebrow">Error 404</span>
+      <h1 style="font-size:clamp(26px,4vw,34px);font-weight:700;line-height:1.12">Page not found</h1>
+      <p style="font-size:15px;color:var(--ta-ink-2);max-width:46ch">The page you are looking for does not exist, or it has moved. The link you followed may be out of date.</p>
+      <div style="display:flex;gap:10px;margin-top:8px;flex-wrap:wrap;justify-content:center">
+        ${Button({ label: 'Back to home', href: 'index.html', variant: 'primary' })}
+        ${Button({ label: 'Contact us', href: 'pages/contact.html', variant: 'secondary' })}
+      </div>
+      <p style="font-size:13.5px;color:var(--ta-ink-3);margin-top:4px">Or browse our <a href="pages/services.html">services</a> and <a href="pages/solutions.html">solutions</a>.</p>
+    </div>
+  </div>
+</section>`,
+  });
+
 /* ── Legal stubs ───────────────────────────────────────────── */
 const legal = (slug, title, intro) =>
   Layout({

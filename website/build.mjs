@@ -109,6 +109,7 @@ const pages = [
   ['pages/contact.html', inner.contact({ webhook: WEBHOOK, staging: IS_STAGING })],
   ['pages/gym-dashboard.html', inner.gymDashboard()],
   ['login.html', inner.login()],
+  ['error.html', inner.notFound()],          // S3 custom error document — must sit at the bucket root
   ['legal/privacy.html', inner.privacy()],
   ['legal/terms.html', inner.terms()],
 ];
@@ -147,7 +148,8 @@ log(`  news articles     ${articles.length} re-themed, ${failures.length} passed
 const today = new Date().toISOString().slice(0, 10);
 const urls = [
   { loc: `${site.origin}/`, pri: '1.0', freq: 'weekly' },
-  ...pages.filter(([r]) => r !== 'index.html' && !r.startsWith('legal/')).map(([r]) => ({ loc: `${site.origin}/${r}`, pri: '0.8', freq: 'monthly' })),
+  // error.html is the 404 document — it is noindex and must never be advertised in the sitemap.
+  ...pages.filter(([r]) => r !== 'index.html' && r !== 'error.html' && !r.startsWith('legal/')).map(([r]) => ({ loc: `${site.origin}/${r}`, pri: '0.8', freq: 'monthly' })),
   { loc: `${site.origin}/news/index.html`, pri: '0.9', freq: 'daily' },
   ...articles.map((a) => ({ loc: a.canonical || `${site.origin}/news/${a.file}`, pri: '0.6', freq: 'monthly' })),
   ...failures.map((f) => ({ loc: `${site.origin}/news/${f}`, pri: '0.6', freq: 'monthly' })),
