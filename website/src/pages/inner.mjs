@@ -191,7 +191,6 @@ ${PageHead({ eyebrow: 'Careers', title: 'Build systems that replace busywork.', 
       <h2 style="font-size:20px;font-weight:600">No open roles right now</h2>
       <p style="font-size:14px;color:var(--ta-ink-3);max-width:44ch">We are not actively hiring, but we read every message. If you build automation, data or AI systems, tell us what you have shipped.</p>
       <div style="margin-top:8px">${Button({ label: 'Get in touch', href: 'contact.html', variant: 'primary' })}</div>
-      <p class="ta-mono" style="font-size:11px;color:var(--ta-ink-4);margin-top:6px">Replace this with live openings when hiring resumes.</p>
     </div>
   </div>
 </section>
@@ -284,7 +283,6 @@ export const login = () =>
         ${Button({ label: 'Contact us', href: 'pages/contact.html', variant: 'primary' })}
         ${Button({ label: 'Back to home', href: 'index.html', variant: 'secondary' })}
       </div>
-      <p class="ta-mono" style="font-size:11px;color:var(--ta-ink-4);margin-top:8px">Authentication is unchanged in this phase — nothing was wired up.</p>
     </div>
   </div>
 </section>`,
