@@ -217,3 +217,21 @@ export const TrustStrip = ({ eyebrow, items }) => `
       </div>
     </div>
   </div>`;
+
+/* ── VideoCard — thumbnail card for YouTube videos (data from lib/videos.mjs) ──
+   `short` switches to the 9:16 layout. data-service/data-kind drive the
+   chip filters in site.js; the page is complete without JavaScript. */
+const PLAY_ICON = '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="rgba(0,0,0,.55)"/><path d="M9.5 7.5v9l7-4.5z" fill="#fff"/></svg>';
+export const VideoCard = ({ v, href, short = false, badge = '' }) => `
+  <a class="ta-card ta-card--link ta-video${short ? ' ta-video--short' : ''}" href="${href}" data-service="${esc(v.service || 'other')}" data-kind="${esc(v.kind)}">
+    <span class="ta-video__thumb">
+      <img src="${esc(short ? (v.thumbs.vertical || v.thumbs.hq) : v.thumbs.mq)}" alt="" width="${short ? 360 : 320}" height="${short ? 640 : 180}" loading="lazy" decoding="async">
+      ${v.durationLabel ? `<span class="ta-video__dur">${esc(v.durationLabel)}</span>` : ''}
+      <span class="ta-video__play">${PLAY_ICON}</span>
+    </span>
+    <span class="ta-video__body">
+      ${badge ? Badge({ label: badge, variant: 'neutral' }) : ''}
+      <h3>${esc(v.titleClean)}</h3>
+      <span class="ta-video__meta">${esc(v.dateLabel)}</span>
+    </span>
+  </a>`;

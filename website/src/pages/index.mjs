@@ -4,8 +4,9 @@ import {
   WhyCard, ProcessStep, ProjectCard, CTASection, Button, esc,
 } from '../lib/components.mjs';
 import { site } from '../data/site.mjs';
+import { homeSection as videoSection } from './videos.mjs';
 
-export const build = () => {
+export const build = ({ videos = null } = {}) => {
   const body = `
 ${Hero({
   eyebrow: 'Technology · Automation · AI · Software',
@@ -93,7 +94,7 @@ ${Hero({
     <div style="margin-top:24px">${Button({ label: 'View all projects', href: 'pages/projects.html', variant: 'secondary', iconName: 'arrow', trailing: true })}</div>
   </div>
 </section>
-
+${videos ? videoSection(videos) : ''}
 ${CTASection({
   title: 'Tell us the one process that wastes the most time.',
   body:

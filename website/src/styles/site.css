@@ -395,3 +395,63 @@ a.ta-card:hover, .ta-card--link:hover { border-color: var(--ta-accent-line); box
 /* Per-section CTA on the solutions page. The card body is a grid row, so the
    button needs its own top margin rather than a gap change on .ta-sol. */
 .ta-sol__cta { margin-top: 16px; }
+
+/* ── Videos (YouTube) ──────────────────────────────────────── */
+.ta-vbar { display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; margin: 30px 0 22px; }
+.ta-chips { display: flex; gap: 8px; flex-wrap: wrap; }
+.ta-chip { font: inherit; font-size: 13px; font-weight: 600; padding: 7px 14px; border-radius: 999px; border: 1px solid var(--ta-line); background: #fff; color: var(--ta-ink-2); cursor: pointer; }
+.ta-chip:hover { border-color: var(--ta-accent-line); color: var(--ta-ink); }
+.ta-chip.is-on { background: var(--ta-ink); color: #fff; border-color: var(--ta-ink); }
+.ta-vcount { font-size: 11.5px; color: var(--ta-ink-3); }
+.ta-vsection + .ta-vsection { margin-top: 44px; }
+.ta-vsection__title { font-size: 20px; margin: 0 0 18px; display: flex; align-items: baseline; gap: 10px; }
+.ta-vsection__title .ta-mono { font-size: 12px; color: var(--ta-ink-3); }
+.ta-vgrid [hidden], .ta-vsection[hidden] { display: none !important; }
+.ta-video { display: flex; flex-direction: column; padding: 0; overflow: hidden; height: 100%; }
+.ta-video__thumb { position: relative; display: block; aspect-ratio: 16 / 9; background: var(--ta-ground); overflow: hidden; }
+.ta-video__thumb img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .25s ease; }
+.ta-video:hover .ta-video__thumb img { transform: scale(1.03); }
+.ta-video__dur { position: absolute; right: 8px; bottom: 8px; font-family: var(--ta-font-mono); font-size: 11px; padding: 2px 7px; border-radius: 6px; background: rgba(0,0,0,.72); color: #fff; }
+.ta-video__play { position: absolute; inset: 0; display: grid; place-items: center; opacity: .92; }
+.ta-video__play svg { width: 44px; height: 44px; filter: drop-shadow(0 2px 8px rgba(0,0,0,.45)); }
+.ta-video__body { display: flex; flex-direction: column; gap: 8px; padding: 16px 18px 18px; flex: 1; align-items: flex-start; }
+.ta-video h3 { font-size: 15.5px; font-weight: 600; line-height: 1.35; margin: 0; }
+.ta-video__meta { margin-top: auto; padding-top: 6px; font-family: var(--ta-font-mono); font-size: 11.5px; color: var(--ta-ink-3); }
+.ta-video--short .ta-video__thumb { aspect-ratio: 9 / 16; }
+.ta-video--short .ta-video__body { padding: 12px 14px 14px; }
+.ta-video--short h3 { font-size: 13.5px; }
+.ta-vgrid--shorts { grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 14px; }
+@media (max-width: 1200px) { .ta-vgrid--shorts { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+@media (max-width: 1020px) { .ta-vgrid--shorts { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+@media (max-width: 680px)  { .ta-vgrid--shorts { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; } }
+.ta-vfoot { margin: 32px 0 0; }
+.ta-video-empty { padding: 36px 28px; text-align: center; }
+.ta-video-empty p { margin: 0 0 16px; color: var(--ta-ink-3); }
+/* detail page */
+.ta-video-page h1 { font-size: clamp(22px, 3vw, 32px); line-height: 1.25; margin: 12px 0 8px; }
+.ta-video-head { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 18px; }
+.ta-crumbs { font-size: 13px; color: var(--ta-ink-3); }
+.ta-crumbs a { color: inherit; }
+.ta-video-page > .ta-video__meta, .ta-video-page .ta-video__meta { margin: 0 0 22px; }
+.ta-video-grid { grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); gap: 40px; }
+.ta-video-cta .ta-btn { white-space: normal; text-align: center; max-width: 100%; }
+.ta-embed { position: relative; aspect-ratio: 16 / 9; width: 100%; max-width: 960px; background: #000; border-radius: 14px; overflow: hidden; cursor: pointer; }
+.ta-embed--short { aspect-ratio: 9 / 16; max-width: 380px; }
+.ta-embed img, .ta-embed iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; object-fit: cover; }
+.ta-embed__play { position: absolute; inset: 0; display: grid; place-items: center; }
+.ta-embed__play svg { width: 76px; height: 76px; filter: drop-shadow(0 4px 16px rgba(0,0,0,.5)); transition: transform .15s ease; }
+.ta-embed:hover .ta-embed__play svg, .ta-embed:focus-visible .ta-embed__play svg { transform: scale(1.06); }
+.ta-embed__link { position: absolute; left: 12px; bottom: 12px; font-size: 12px; color: #fff; background: rgba(0,0,0,.6); padding: 4px 10px; border-radius: 6px; }
+.ta-video-desc { margin-top: 22px; font-size: 15px; color: var(--ta-ink-2); }
+.ta-video-desc p { margin: 0 0 12px; }
+.ta-video-desc a { word-break: break-all; }
+.ta-h3 { font-size: 17px; margin: 26px 0 12px; }
+.ta-chapters { list-style: none; padding: 0; margin: 0; display: grid; gap: 7px; }
+.ta-chapters li { display: flex; gap: 12px; font-size: 14px; }
+.ta-chapters time { font-family: var(--ta-font-mono); color: var(--ta-accent); flex: 0 0 auto; }
+.ta-video-side { display: flex; flex-direction: column; gap: 16px; }
+.ta-video-cta { padding: 22px; }
+.ta-video-cta h3 { margin: 0 0 6px; font-size: 16px; }
+.ta-video-cta p { margin: 0 0 14px; font-size: 13.5px; color: var(--ta-ink-3); }
+.ta-video-more { margin-top: 44px; }
+@media (max-width: 860px) { .ta-video-grid { grid-template-columns: minmax(0, 1fr); gap: 28px; } .ta-embed { border-radius: 10px; } .ta-embed--short { margin: 0 auto; } }
