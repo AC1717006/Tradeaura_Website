@@ -1,0 +1,820 @@
+{
+  "channelId": "UCGvvp1dn6jiXIBXpLs6WMGA",
+  "channelTitle": "Aura Automation",
+  "source": "api",
+  "fetchedAt": "2026-10-24T11:42:27.538Z",
+  "playlists": [
+    {
+      "id": "PLJ99Uf4p0PzQ",
+      "title": "Error Kaise Resolve Kare? Website & Coding Errors Fix (Hindi)"
+    },
+    {
+      "id": "PLPkZbJ1EznD4",
+      "title": "Vibe Coding Kaise Seekhe? Beginner se Pro (Hindi) | AI se App & Website"
+    },
+    {
+      "id": "PLTGxIVVo8v_c",
+      "title": "How to Build Automation (Hindi) | WhatsApp, AI Agent, Business Automation"
+    }
+  ],
+  "videos": [
+    {
+      "id": "xtq3gtSIPPA",
+      "slug": "instagram-pe-khud-post-ho-jaaye-auto-post-system",
+      "kind": "short",
+      "title": "Instagram Pe Khud Post Ho Jaaye? 📲 Auto Post System #shorts #instagram",
+      "description": "Roz Instagram pe post karna bhool jaate ho? 😴 Google Sheet + n8n se aisa system banao jo time aate hi khud post kare! 📲\n\n✅ Sheet mein date, time, caption, image\n✅ n8n har ghante check kare\n✅ Time aate hi Instagram pe auto post + status \"Posted\"\n\n▶️ Poora setup step-by-step: https://youtu.be/jzJpi5lSpS0\n👉 Template chahiye? Comment karo \"AUTO\"\n\n📌 Is video mein:\nHinglish: Instagram auto post kaise kare, n8n se Instagram post schedule\nHindi: इंस्टाग्राम ऑटो पोस्ट कैसे करें\nEnglish: Instagram auto posting with n8n and Google Sheets\n\n🌐 https://www.auraautomation.site\n💬 WhatsApp: +91 95874 02524\n\n#shorts #instagramautomation #n8n #automation #hindi",
+      "publishedAt": "2026-10-23T13:49:23Z",
+      "durationSec": 28,
+      "thumbs": {
+        "mq": "https://i.ytimg.com/vi/xtq3gtSIPPA/mqdefault.jpg",
+        "hq": "https://i.ytimg.com/vi/xtq3gtSIPPA/hqdefault.jpg",
+        "max": "https://i.ytimg.com/vi/xtq3gtSIPPA/maxresdefault.jpg",
+        "vertical": "https://i.ytimg.com/vi/xtq3gtSIPPA/oar2.jpg"
+      },
+      "playlists": [],
+      "removed": false
+    },
+    {
+      "id": "jzJpi5lSpS0",
+      "slug": "instagram-auto-post-system-kaise-banaye-google-sheet-n8n-free-no-code",
+      "kind": "video",
+      "title": "Instagram Auto Post System Kaise Banaye? 📲 Google Sheet + n8n (Free, No Code) | Hindi",
+      "description": "Roz Instagram pe post karna bhool jaate ho? 😴 Aaj aisa system banayenge jo khud post karega — aap so rahe ho tab bhi! 📲\n\nIs video mein:\n📲 System kaise kaam karta hai: Google Sheet → n8n → Instagram\n📲 Step 1: Instagram Business/Creator account + Facebook Page connect\n📲 Step 2: Google Sheet — Date, Time, Caption, Image link, Status\n📲 Step 3: n8n workflow — Schedule trigger → Sheet → Instagram publish\n📲 Status \"Posted\" taaki ek post do baar na jaaye\n⚠️ Dhyan rakho: image link public ho, aur Instagram ki daily posting limit hoti hai\n🤖 Bonus: ChatGPT/Claude se automatic caption\n\n👉 Poora template chahiye? Comment karo \"AUTO\" — link DM mein!\n\n📌 Is video mein:\nHinglish: Instagram auto post kaise kare, n8n se Instagram post schedule, Google Sheet se automatic Instagram post\nHindi: इंस्टाग्राम ऑटो पोस्ट कैसे करें, बिना कोडिंग इंस्टाग्राम पोस्ट शेड्यूल करें\nEnglish: Instagram auto posting automation with n8n, Google Sheets and Instagram Graph API\n\n🔔 Aise aur videos ke liye Subscribe karo: Automation, Vibe Coding aur Error Fix — simple Hinglish mein.\n📅 Free 30-Min Consultation: https://www.auraautomation.site/pages/contact.html\n🌐 Website: https://www.auraautomation.site\n📸 Instagram: https://www.instagram.com/auraautomation.in\n💬 WhatsApp: +91 95874 02524\n\n#instagramautomation #n8n #automation #hindi #auraautomation",
+      "publishedAt": "2026-10-23T12:45:18Z",
+      "durationSec": 95,
+      "thumbs": {
+        "mq": "https://i.ytimg.com/vi/jzJpi5lSpS0/mqdefault.jpg",
+        "hq": "https://i.ytimg.com/vi/jzJpi5lSpS0/hqdefault.jpg",
+        "max": "https://i.ytimg.com/vi/jzJpi5lSpS0/maxresdefault.jpg",
+        "vertical": null
+      },
+      "playlists": [
+        "PLTGxIVVo8v_c"
+      ],
+      "removed": false
+    },
+    {
+      "id": "PFdhIf8atlc",
+      "slug": "automation-kaise-seekhe-2026-roadmap-zero-se-n8n-apis-ai-agents-hindi",
+      "kind": "video",
+      "title": "Automation Kaise Seekhe? 2026 Roadmap Zero Se 🗺️ | n8n, APIs, AI Agents (Hindi)",
+      "description": "Automation seekhna hai par shuru kahan se karein? 🤯 Is video mein zero se poora 2026 roadmap — 5 stages, 3 mahine, aur end mein real projects!\n\n🗺️ Roadmap:\n1️⃣ Stage 1 (Week 1–2): Basics — Google Sheets formulas, if-else logic, trigger-action + ek no-code tool (n8n / Make / Zapier)\n2️⃣ Stage 2 (Week 3–4): APIs & Webhooks — JSON, HTTP requests, Postman\n3️⃣ Stage 3 (Month 2): Thoda code — JavaScript/Python basics, Apps Script, error handling\n4️⃣ Stage 4 (Month 2–3): AI jodo — ChatGPT/Claude API, n8n AI agent, prompts\n5️⃣ Stage 5: Real projects — gym, restaurant, travel agent ke liye automation + portfolio\n\n❌ 3 galtiyan: sirf tutorials dekhna, APIs skip karna, error handling bhoolna\n\n👇 Comment karo: tumhara pehla automation kya hoga?\n\n📌 Is video mein: How to learn automation — zero se 2026 roadmap: no-code tools, APIs aur webhooks, thoda code, AI agents aur real projects.\nइस वीडियो में: ऑटोमेशन सीखने का पूरा रोडमैप, शून्य से शुरूआत।\nIn this video: A complete 2026 roadmap to learn automation from zero — no-code tools, APIs, code, AI agents and real projects.\n\n📅 Free 30-Min Consultation: https://www.auraautomation.site/pages/contact.html\n🌐 https://www.auraautomation.site\n📸 https://www.instagram.com/auraautomation.in\n\n#automation #n8n #hindi",
+      "publishedAt": "2026-10-22T02:15:31Z",
+      "durationSec": 132,
+      "thumbs": {
+        "mq": "https://i.ytimg.com/vi/PFdhIf8atlc/mqdefault.jpg",
+        "hq": "https://i.ytimg.com/vi/PFdhIf8atlc/hqdefault.jpg",
+        "max": "https://i.ytimg.com/vi/PFdhIf8atlc/maxresdefault.jpg",
+        "vertical": null
+      },
+      "playlists": [],
+      "removed": false
+    },
+    {
+      "id": "Tq9wuFd9G0s",
+      "slug": "automation-seekhna-hai-shuru-kahan-se-karein-5-stages",
+      "kind": "short",
+      "title": "Automation Seekhna Hai? Shuru Kahan Se Karein 🗺️ 5 Stages #shorts",
+      "description": "Automation seekhne ka zero se roadmap — 5 stages, 3 mahine! 🗺️\nBasics → APIs → Thoda code → AI → Real projects\n\n🎬 Poora roadmap: https://youtu.be/PFdhIf8atlc\n\n📌 Is video mein: How to learn automation — n8n/Make/Zapier, APIs aur webhooks, code, AI agents aur real projects ka roadmap.\n\n🌐 www.auraautomation.site\n📸 instagram.com/auraautomation.in\n\n#shorts #automation #hindi",
+      "publishedAt": "2026-10-22T02:15:20Z",
+      "durationSec": 25,
+      "thumbs": {
+        "mq": "https://i.ytimg.com/vi/Tq9wuFd9G0s/mqdefault.jpg",
+        "hq": "https://i.ytimg.com/vi/Tq9wuFd9G0s/hqdefault.jpg",
+        "max": "https://i.ytimg.com/vi/Tq9wuFd9G0s/maxresdefault.jpg",
+        "vertical": "https://i.ytimg.com/vi/Tq9wuFd9G0s/oar2.jpg"
+      },
+      "playlists": [],
+      "removed": false
+    },
+    {
+      "id": "q1R1AfD-ne8",
+      "slug": "your-lead-messaged-at-11-47-pm-did-you-reply-real-estate-whatsapp-auto",
+      "kind": "short",
+      "title": "Your Lead Messaged at 11:47 PM… Did You Reply? 🏙️ Real Estate WhatsApp Automation #shorts",
+      "description": "In Dubai real estate, speed closes deals. ⏱️\n\nYour buyer enquires at 11:47 PM. Your competitor replies in 60 seconds — you reply at 9 AM. Lead lost.\n\nAura Automation helps real estate brokers & agencies:\n✅ Reply to every portal & ad lead on WhatsApp instantly, 24/7\n✅ Qualify buyers (budget, area, move-in) automatically\n✅ Book viewings and update your CRM\n✅ Run automatic follow-ups so no lead goes cold\n\n💬 Book a free demo on WhatsApp: https://wa.me/919587402524\n🌐 https://www.auraautomation.site\n\n#realestate #dubairealestate #whatsappautomation",
+      "publishedAt": "2026-10-21T13:05:27Z",
+      "durationSec": 38,
+      "thumbs": {
+        "mq": "https://i.ytimg.com/vi/q1R1AfD-ne8/mqdefault.jpg",
+        "hq": "https://i.ytimg.com/vi/q1R1AfD-ne8/hqdefault.jpg",
+        "max": "https://i.ytimg.com/vi/q1R1AfD-ne8/maxresdefault.jpg",
+        "vertical": "https://i.ytimg.com/vi/q1R1AfD-ne8/oar2.jpg"
+      },
+      "playlists": [],
+      "removed": false
+    },
+    {
+      "id": "XqQfL4RQZZ4",
+      "slug": "gym-owner-ho-register-band-karo-3-months-free-gym-dashboard",
+      "kind": "short",
+      "title": "Gym Owner Ho? Register Band Karo! 🏋️ 3 Months FREE Gym Dashboard #shorts #gym",
+      "description": "Gym owner ho aur fees abhi bhi register mein likhte ho? 😅\nExpired member roz free mein aa raha hai, udhaar yaad nahi rehta… Bas! Ab register band 🚫\n\n🏋️ Aura Gym Dashboard:\n✅ Har member ka barcode card\n✅ Entry pe scan — valid = ENTRY ALLOWED, expired = no entry\n✅ Fees: paid, partial, due — sab ek screen pe\n✅ Expiry se 7, 3, 1 din pehle automatic reminder\n✅ Dashboard pe aaj ki entries, kamai, kaun expire ho raha\n\n🎁 3 MONTHS FREE — card bhi nahi chahiye. Limited offer!\n👉 Apply karo: https://www.auraautomation.site/pages/gym-dashboard.html\n\n📌 Is video mein: Gym management software se members, fees, barcode entry aur expiry reminders kaise automate kare — Aura Gym Dashboard demo.\nइस वीडियो में: जिम मैनेजमेंट सॉफ्टवेयर से मेंबर, फीस और एंट्री का हिसाब आसानी से।\nIn this video: A gym management dashboard with barcode entry, fee tracking and automatic expiry reminders.\n\n📸 https://www.instagram.com/auraautomation.in\n\n#shorts #gymowner #gymmanagement",
+      "publishedAt": "2026-10-20T13:59:47Z",
+      "durationSec": 59,
+      "thumbs": {
+        "mq": "https://i.ytimg.com/vi/XqQfL4RQZZ4/mqdefault.jpg",
+        "hq": "https://i.ytimg.com/vi/XqQfL4RQZZ4/hqdefault.jpg",
+        "max": "https://i.ytimg.com/vi/XqQfL4RQZZ4/maxresdefault.jpg",
+        "vertical": "https://i.ytimg.com/vi/XqQfL4RQZZ4/oar2.jpg"
+      },
+      "playlists": [],
+      "removed": false
+    },
+    {
+      "id": "q5EI0HgQXxc",
+      "slug": "website-ka-40-000-claude-design-se-bas-kuch-prompts",
+      "kind": "short",
+      "title": "Website Ka ₹40,000? 😱 Claude Design Se Bas Kuch Prompts! 🏹 #shorts #dussehra",
+      "description": "Developer bola ₹40,000 aur 15 din? 😅 Is Dussehra Claude Design se website banao — bas kuch prompts mein! 🔥\n\n🎬 Poora tutorial (5 steps + 3 zaroori baatein): https://youtu.be/eBnU-9zuerY\n\n📌 Is video mein: Claude Design se prompt likho, canvas pe website ready, comment ya slider se sudhaar karo aur export karke live karo.\nइस वीडियो में: क्लॉड डिज़ाइन से कुछ प्रॉम्प्ट में वेबसाइट बनाने का तरीका।\nIn this video: Build a website with Claude Design in just a few prompts.\n\n🪔 Happy Dussehra!\n\n🌐 https://www.auraautomation.site\n📸 https://www.instagram.com/auraautomation.in\n\n#shorts #claudedesign #dussehra",
+      "publishedAt": "2026-10-20T06:30:03Z",
+      "durationSec": 30,
+      "thumbs": {
+        "mq": "https://i.ytimg.com/vi/q5EI0HgQXxc/mqdefault.jpg",
+        "hq": "https://i.ytimg.com/vi/q5EI0HgQXxc/hqdefault.jpg",
+        "max": "https://i.ytimg.com/vi/q5EI0HgQXxc/maxresdefault.jpg",
+        "vertical": "https://i.ytimg.com/vi/q5EI0HgQXxc/oar2.jpg"
+      },
+      "playlists": [],
+      "removed": false
+    },
+    {
+      "id": "eBnU-9zuerY",
+      "slug": "claude-design-se-website-banao-bas-kuch-prompts-mein-dussehra-special",
+      "kind": "video",
+      "title": "Claude Design Se Website Banao — Bas Kuch Prompts Mein! 🏹 Dussehra Special (Hindi)",
+      "description": "Kal Dussehra hai aur website chahiye? Developer bola 15 din aur ₹40,000? 😅\nIs Dussehra, website banane ke 10 sir wale Ravan ko jalao — Claude Design se, bas kuch prompts mein! 🔥\n\nIs video mein:\n🏹 Claude Design kya hai (Anthropic Labs ka research preview — chat + canvas)\n🏹 Step 1: New project + context (logo, photos, screenshot)\n🏹 Step 2: Pehla prompt — goal, sections, colors, audience\n🏹 Step 3: Sudhaar — chat, comments, direct text edit, sliders\n🏹 Step 4: Mobile check\n🏹 Step 5: Export / Claude Code handoff → hosting pe live\n⚠️ 3 baatein: sirf frontend (order/payment/database ke liye backend chahiye), design system set karo, research preview + weekly limit\n\n👉 Comment mein apne business ka naam likho — hum uske liye prompt bana denge!\n\n🪔 Happy Dussehra!\n\n📌 Is video mein: Claude Design se kuch prompts mein website kaise banaye — project setup, pehla prompt, refine, mobile check aur export, ek Dussehra special demo ke saath.\nइस वीडियो में: क्लॉड डिज़ाइन से कुछ प्रॉम्प्ट में वेबसाइट बनाने का आसान तरीका।\nIn this video: How to build a website with Claude Design in just a few prompts, from first prompt to export.\n\n📅 Free 30-Min Consultation: https://www.auraautomation.site/pages/contact.html\n🌐 Website: https://www.auraautomation.site\n📸 Instagram: https://www.instagram.com/auraautomation.in\n\n#claudedesign #websitebanao #dussehra",
+      "publishedAt": "2026-10-20T01:30:36Z",
+      "durationSec": 154,
+      "thumbs": {
+        "mq": "https://i.ytimg.com/vi/eBnU-9zuerY/mqdefault.jpg",
+        "hq": "https://i.ytimg.com/vi/eBnU-9zuerY/hqdefault.jpg",
+        "max": "https://i.ytimg.com/vi/eBnU-9zuerY/maxresdefault.jpg",
+        "vertical": null
+      },
+      "playlists": [],
+      "removed": false
+    },
+    {
+      "id": "HSkE44Udq3E",
+      "slug": "cors-error-kya-hai-2-min-mein-fix-express-fastapi-vite-hindi",
+      "kind": "video",
+      "title": "CORS Error Kya Hai? 2 Min Mein Fix 🚫 (Express, FastAPI, Vite) | Hindi",
+      "description": "\"blocked by CORS policy: No 'Access-Control-Allow-Origin' header\" — ye error har developer ko kabhi na kabhi aata hai 😅\n\nIs video mein simple Hinglish mein:\n⏱️ CORS kya hai: browser ka security guard\n⏱️ Origin = protocol + domain + port\n⏱️ Postman mein kyun chalta hai, browser mein kyun nahi\n⏱️ Preflight (OPTIONS) request kya hoti hai\n⏱️ Fix: Node Express (cors package), Python FastAPI (CORSMiddleware), Vite proxy\n⏱️ 3 galtiyan: credentials + *, origin mein trailing slash, no-cors jugaad\n\n👉 Comment mein batao: agla error kaunsa fix karein?\n\n🌐 auraautomation.site\n📸 Instagram: @auraautomation.in\n\n📌 Is video mein: CORS error kya hota hai, Postman me API chalti hai par browser me kyun block hoti hai, aur Express, FastAPI ya Vite proxy se ise 2 minute me kaise fix kare.\nइस वीडियो में: कॉर्स एरर क्या है, ब्राउज़र रिक्वेस्ट क्यों ब्लॉक करता है और सर्वर पर इसे कैसे ठीक करें।\nIn this video: What a CORS error is, why the browser blocks the response, and how to fix it on the server with Express, FastAPI or a Vite proxy.",
+      "publishedAt": "2026-10-19T12:30:19Z",
+      "durationSec": 115,
+      "thumbs": {
+        "mq": "https://i.ytimg.com/vi/HSkE44Udq3E/mqdefault.jpg",
+        "hq": "https://i.ytimg.com/vi/HSkE44Udq3E/hqdefault.jpg",
+        "max": "https://i.ytimg.com/vi/HSkE44Udq3E/maxresdefault.jpg",
+        "vertical": null
+      },
+      "playlists": [
+        "PLJ99Uf4p0PzQ"
+      ],
+      "removed": false
+    },
+    {
+      "id": "lnDjxi9-IIw",
+      "slug": "chatgpt-se-business-chalaoge-business-owner-ke-7-sawaal-hindi",
+      "kind": "video",
+      "title": "ChatGPT Se Business Chalaoge? 🤖 Business Owner Ke 7 Sawaal (Hindi)",
+      "description": "Staff chutti pe… aur kaam ka dher? 🤖 \"Tension mat lo boss, main hoon na!\"\nBusiness owner ke 7 sawaal — ChatGPT jaise AI tools se aapka business kya-kya kar sakta hai:\n✅ Customer reply\n✅ Quotation / invoice draft\n✅ Social media post ideas\n✅ Follow-up reminders\n✅ AI galti kare toh?\n🔒 Kya cheez AI ko kabhi nahi deni (password, bank details)\n💰 Kharcha kitna?\n\n⚠️ AI ka kaam hamesha check karo — final decision aapka.\n\nAapka sawaal kya hai? Comment karo 👇\n🌐 AI / automation setup: https://auraautomation.site\n📸 Instagram: @auraautomation.in\n\n#ChatGPT #AI #businessautomation #smallbusiness #hinglish #auraautomation\n\n📌 Is video mein: ChatGPT aur AI se business me kaun se kaam aaj hi automate ho sakte hain, aur business owner ke 7 common sawaalon ke seedhe jawab.\nइस वीडियो में: चैटजीपीटी और एआई से छोटे बिज़नेस के कौन से काम आसान हो सकते हैं, सरल हिंदी में।\nIn this video: Which business tasks ChatGPT and AI can automate today, answered through 7 real questions from business owners.",
+      "publishedAt": "2026-10-18T01:30:23Z",
+      "durationSec": 105,
+      "thumbs": {
+        "mq": "https://i.ytimg.com/vi/lnDjxi9-IIw/mqdefault.jpg",
+        "hq": "https://i.ytimg.com/vi/lnDjxi9-IIw/hqdefault.jpg",
+        "max": "https://i.ytimg.com/vi/lnDjxi9-IIw/maxresdefault.jpg",
+        "vertical": null
+      },
+      "playlists": [
+        "PLTGxIVVo8v_c"
+      ],
+      "removed": false
+    },
+    {
+      "id": "LKaai331HHE",
+      "slug": "ai-mera-staff-replace-kar-dega",
+      "kind": "short",
+      "title": "AI Mera Staff Replace Kar Dega? 🤖😂 #shorts #ChatGPT",
+      "description": "\"Tension mat lo boss, main hoon na!\" 🤖 …aur phir naam likha \"Sharma ji ka beta\" 😂\nAI se business — saare 7 sawaal 👇\nhttps://youtu.be/lnDjxi9-IIw\n\n🌐 https://auraautomation.site\n\n#shorts #ChatGPT #AI #smallbusiness #hinglish\n\n📌 Is video mein: ChatGPT aur AI se business me kaun se kaam aaj hi automate ho sakte hain, aur business owner ke 7 common sawaalon ke seedhe jawab.\nइस वीडियो में: चैटजीपीटी और एआई से छोटे बिज़नेस के कौन से काम आसान हो सकते हैं, सरल हिंदी में।\nIn this video: Which business tasks ChatGPT and AI can automate today, answered through 7 real questions from business owners.",
+      "publishedAt": "2026-10-18T01:30:15Z",
+      "durationSec": 26,
+      "thumbs": {
+        "mq": "https://i.ytimg.com/vi/LKaai331HHE/mqdefault.jpg",
+        "hq": "https://i.ytimg.com/vi/LKaai331HHE/hqdefault.jpg",
+        "max": "https://i.ytimg.com/vi/LKaai331HHE/maxresdefault.jpg",
+        "vertical": "https://i.ytimg.com/vi/LKaai331HHE/oar2.jpg"
+      },
+      "playlists": [],
+      "removed": false
+    },
+    {
+      "id": "vKwjoE3fHRM",
+      "slug": "error-502-ka-matlab-20-second-mein",
+      "kind": "short",
+      "title": "Error 502 Ka Matlab? 20 Second Mein 🚫 #shorts #webdevelopment",
+      "description": "Error 502 aaya? 😐 4xx = galti aapki, 5xx = galti server ki 🍽️\nRestaurant wali poori kahani 👇\nhttps://youtu.be/-6ExTQQfVQ0\n\n🌐 https://auraautomation.site\n\n#shorts #webdevelopment #errorcodes #hinglish\n\n📌 Is video mein: Website par 404, 500 aur 502 error ka asli matlab kya hai, ye kyun aate hain aur inhe kaise samjhe aur fix kare.\nइस वीडियो में: वेबसाइट पर 404, 500 और 502 एरर का मतलब और उन्हें ठीक करने का तरीका, आसान भाषा में।\nIn this video: What 404, 500 and 502 errors actually mean, why they happen and how to troubleshoot them.",
+      "publishedAt": "2026-10-17T14:30:26Z",
+      "durationSec": 27,
+      "thumbs": {
+        "mq": "https://i.ytimg.com/vi/vKwjoE3fHRM/mqdefault.jpg",
+        "hq": "https://i.ytimg.com/vi/vKwjoE3fHRM/hqdefault.jpg",
+        "max": "https://i.ytimg.com/vi/vKwjoE3fHRM/maxresdefault.jpg",
+        "vertical": "https://i.ytimg.com/vi/vKwjoE3fHRM/oar2.jpg"
+      },
+      "playlists": [],
+      "removed": false
+    },
+    {
+      "id": "-6ExTQQfVQ0",
+      "slug": "website-pe-404-500-502-ka-matlab-kya-hai-error-codes-simple-hindi-mein",
+      "kind": "video",
+      "title": "Website Pe 404, 500, 502 Ka Matlab Kya Hai? 🚫 Error Codes Simple Hindi Mein",
+      "description": "Website khuli… aur likha \"Error 502\" 😐 Ye number aakhir bol kya raha hai?\nIs video mein har HTTP error code ka matlab — ek restaurant ki kahani se: aap customer, waiter = gateway, kitchen = server 🍽️\n\n⏱️ Chapters\n0:00 Error 502?!\n0:10 Rule: 4xx vs 5xx\n0:25 404 Not Found & 403 Forbidden\n0:43 429 Too Many Requests\n0:55 500, 502, 503 — Server ki galti\n1:20 504 Gateway Timeout\n1:32 Website owner ke 3 kaam\n1:47 200 OK 🎉\n\nAapne sabse zyada kaunsa error dekha hai? Comment karo 👇\n\n🌐 https://auraautomation.site\n📸 Instagram: @auraautomation.in\n\n#http #errorcodes #webdevelopment #hinglish #auraautomation\n\n📌 Is video mein: Website par 404, 500 aur 502 error ka asli matlab kya hai, ye kyun aate hain aur inhe kaise samjhe aur fix kare.\nइस वीडियो में: वेबसाइट पर 404, 500 और 502 एरर का मतलब और उन्हें ठीक करने का तरीका, आसान भाषा में।\nIn this video: What 404, 500 and 502 errors actually mean, why they happen and how to troubleshoot them.",
+      "publishedAt": "2026-10-17T14:30:20Z",
+      "durationSec": 121,
+      "thumbs": {
+        "mq": "https://i.ytimg.com/vi/-6ExTQQfVQ0/mqdefault.jpg",
+        "hq": "https://i.ytimg.com/vi/-6ExTQQfVQ0/hqdefault.jpg",
+        "max": "https://i.ytimg.com/vi/-6ExTQQfVQ0/maxresdefault.jpg",
+        "vertical": null
+      },
+      "playlists": [
+        "PLJ99Uf4p0PzQ"
+      ],
+      "removed": false
+    },
+    {
+      "id": "jTATDgrv6oY",
+      "slug": "ai-1-minute-mein-sarkari-file-aage-bhej-di-hai",
+      "kind": "short",
+      "title": "AI 1 Minute Mein… Sarkari File? \"Aage Bhej Di Hai\" 📁😂 #shorts #AI",
+      "description": "AI minute mein kaam karta hai… aur sarkari file \"aage bhej di hai\" 📁😂\nPar sarkar ke paas 38,000+ AI GPUs bhi hain! Poori kahani 👇\nhttps://youtu.be/0SQZUL-yAIc\n\n📊 Source: IndiaAI / PIB, 2026. \"Babu\" sirf ek general joke hai.\n🌐 https://auraautomation.site\n\n#shorts #AI #IndiaAI #DigitalIndia #hinglish\n\n📌 Is video mein: India me AI kitna aage hai, sarkar AI aur automation ke saath kya kar rahi hai, aur kahan atak jaati hai — balanced aur simple Hinglish me.\nइस वीडियो में: भारत में एआई की स्थिति, सरकार क्या कर रही है और कहां रुकावटें हैं, आसान हिंदी में।\nIn this video: A balanced look at AI adoption in India, what the government is doing and where progress gets stuck.",
+      "publishedAt": "2026-10-16T12:30:36Z",
+      "durationSec": 21,
+      "thumbs": {
+        "mq": "https://i.ytimg.com/vi/jTATDgrv6oY/mqdefault.jpg",
+        "hq": "https://i.ytimg.com/vi/jTATDgrv6oY/hqdefault.jpg",
+        "max": "https://i.ytimg.com/vi/jTATDgrv6oY/maxresdefault.jpg",
+        "vertical": "https://i.ytimg.com/vi/jTATDgrv6oY/oar2.jpg"
+      },
+      "playlists": [],
+      "removed": false
+    },
+    {
+      "id": "0SQZUL-yAIc",
+      "slug": "ai-mein-india-kitna-aage-sarkar-kya-kar-rahi-hai-aur-kahan-atak-gayi-h",
+      "kind": "video",
+      "title": "AI Mein India Kitna Aage? 🤖 Sarkar Kya Kar Rahi Hai… Aur Kahan Atak Gayi (Hindi)",
+      "description": "Duniya AI se minute mein kaam kar rahi hai… aur yahan \"file aage bhej di hai\" 📁😂\nKya sach mein sarkar AI se door hai? Is video mein facts: UPI, Aadhaar, DigiLocker, IndiaAI Mission (₹10,372 crore, 38,000+ GPUs), Bhashini — aur kahan kaam atka hai: daftaron mein AI ka dheema use, bikhra data, training ki kami, slow kharid. Plus: agar AI sach mein daftar tak pahunch jaye toh kya badlega, aur aap aaj kya kar sakte ho.\n\nAapke hisaab se sabse pehle kaunsa sarkari kaam AI se hona chahiye? Comment karo 👇\n\n📊 Source: IndiaAI / PIB, 2026. \"Babu\" character sirf ek general joke hai — kisi vyakti ya party ke baare mein nahi.\n\n🌐 https://auraautomation.site\n📸 Instagram: @auraautomation.in\n\n#AI #IndiaAI #DigitalIndia #automation #hinglish #auraautomation\n\n📌 Is video mein: India me AI kitna aage hai, sarkar AI aur automation ke saath kya kar rahi hai, aur kahan atak jaati hai — balanced aur simple Hinglish me.\nइस वीडियो में: भारत में एआई की स्थिति, सरकार क्या कर रही है और कहां रुकावटें हैं, आसान हिंदी में।\nIn this video: A balanced look at AI adoption in India, what the government is doing and where progress gets stuck.",
+      "publishedAt": "2026-10-16T12:30:03Z",
+      "durationSec": 101,
+      "thumbs": {
+        "mq": "https://i.ytimg.com/vi/0SQZUL-yAIc/mqdefault.jpg",
+        "hq": "https://i.ytimg.com/vi/0SQZUL-yAIc/hqdefault.jpg",
+        "max": "https://i.ytimg.com/vi/0SQZUL-yAIc/maxresdefault.jpg",
+        "vertical": null
+      },
+      "playlists": [],
+      "removed": false
+    },
+    {
+      "id": "j3WAtU5xc7I",
+      "slug": "98-match-reply-hmm",
+      "kind": "short",
+      "title": "98% Match… Reply: \"hmm\" 💀 #shorts #datingapp",
+      "description": "98% match ≠ 100% reply 💀\nLove app match kaise karwata hai? Full video 👇\nhttps://youtu.be/O9Zjg2zXdys\n\n⚠️ Simplified explanation — \"LOVE APP\" fictional hai.\n🌐 https://auraautomation.site\n\n#shorts #datingapp #algorithm #techhumor #hinglish\n\n📌 Is video mein: Dating app aapka match kaise banata hai — profile data, swipe aur recommendation algorithm ka simple breakdown, funny examples ke saath.\nइस वीडियो में: डेटिंग ऐप मैच कैसे बनाता है, इसके एल्गोरिदम को आसान भाषा में समझें।\nIn this video: How dating apps decide your matches, explaining profile data, swipes and recommendation algorithms in simple terms.",
+      "publishedAt": "2026-10-15T12:30:22Z",
+      "durationSec": 24,
+      "thumbs": {
+        "mq": "https://i.ytimg.com/vi/j3WAtU5xc7I/mqdefault.jpg",
+        "hq": "https://i.ytimg.com/vi/j3WAtU5xc7I/hqdefault.jpg",
+        "max": "https://i.ytimg.com/vi/j3WAtU5xc7I/maxresdefault.jpg",
+        "vertical": "https://i.ytimg.com/vi/j3WAtU5xc7I/oar2.jpg"
+      },
+      "playlists": [],
+      "removed": false
+    },
+    {
+      "id": "O9Zjg2zXdys",
+      "slug": "dating-app-match-kaise-karwata-hai-algorithm-explained-in-hindi",
+      "kind": "video",
+      "title": "Dating App Match Kaise Karwata Hai? 💘 Algorithm Explained in Hindi",
+      "description": "98% match… aur reply aaya \"hmm\" 💀\nLove/dating app aapko kaise match karta hai? Profile data, swipe signals, radius, score, aur \"It's a Match\" — 6 steps mein simple Hinglish mein samjho.\n\n⏱️ Chapters\n0:00 98% match… reply \"hmm\"\n0:11 Step 1: Profile = Data\n0:24 Step 2: Swipe = Signal\n0:42 Step 3: Radius & Filters\n0:58 Step 4: Match Score\n1:11 Step 5: It's a Match!\n1:23 Step 6: 2 Ghante Baad… Seen 💀\n1:36 3 Tips for Better Matches\n1:46 Part 2 Teaser\n\n⚠️ Simplified explanation — real apps ka exact algorithm public nahi hota. \"LOVE APP\" fictional hai.\n\n🌐 https://auraautomation.site\n📸 Instagram: @auraautomation.in\n\n#datingapp #algorithm #techexplained #hinglish #auraautomation\n\n📌 Is video mein: Dating app aapka match kaise banata hai — profile data, swipe aur recommendation algorithm ka simple breakdown, funny examples ke saath.\nइस वीडियो में: डेटिंग ऐप मैच कैसे बनाता है, इसके एल्गोरिदम को आसान भाषा में समझें।\nIn this video: How dating apps decide your matches, explaining profile data, swipes and recommendation algorithms in simple terms.",
+      "publishedAt": "2026-10-15T12:30:04Z",
+      "durationSec": 117,
+      "thumbs": {
+        "mq": "https://i.ytimg.com/vi/O9Zjg2zXdys/mqdefault.jpg",
+        "hq": "https://i.ytimg.com/vi/O9Zjg2zXdys/hqdefault.jpg",
+        "max": "https://i.ytimg.com/vi/O9Zjg2zXdys/maxresdefault.jpg",
+        "vertical": null
+      },
+      "playlists": [],
+      "removed": false
+    },
+    {
+      "id": "17adG9HqmKE",
+      "slug": "database-ud-gaya-backup-nahi-tha-ye-galti-mat-karna",
+      "kind": "short",
+      "title": "Database Ud Gaya… Backup Nahi Tha 😱 Ye Galti Mat Karna",
+      "description": "Customers 1,240 → 0 😱 Backup \"cloud pe\" tha… par cloud = safe nahi. 5 galtiyan + 3-2-1 rule full video mein 👇\n\n▶ Full video: https://youtu.be/4wG80klKQj8\n📢 Backup checklist — Instagram channel: https://www.instagram.com/channel/MtYfN-khP3BXk5SR/\n🌐 https://auraautomation.site\n\n#Shorts #Database #Backup #VibeCoding #AuraAutomation\n\n📌 Is video mein: Database ud jaaye aur backup na ho to kya hota hai — 5 common galtiyan aur 3-2-1 backup rule se apna data kaise safe rakhe.\nइस वीडियो में: डेटाबेस बैकअप की 5 आम गलतियां और 3-2-1 नियम से डेटा सुरक्षित रखने का तरीका।\nIn this video: Five common database backup mistakes and how the 3-2-1 backup rule keeps your data safe.",
+      "publishedAt": "2026-10-14T12:56:07Z",
+      "durationSec": 32,
+      "thumbs": {
+        "mq": "https://i.ytimg.com/vi/17adG9HqmKE/mqdefault.jpg",
+        "hq": "https://i.ytimg.com/vi/17adG9HqmKE/hqdefault.jpg",
+        "max": "https://i.ytimg.com/vi/17adG9HqmKE/maxresdefault.jpg",
+        "vertical": "https://i.ytimg.com/vi/17adG9HqmKE/oar2.jpg"
+      },
+      "playlists": [],
+      "removed": false
+    },
+    {
+      "id": "4wG80klKQj8",
+      "slug": "database-ud-gaya-aur-backup-nahi-tha-5-galtiyan-3-2-1-rule-hindi",
+      "kind": "video",
+      "title": "Database Ud Gaya… Aur Backup Nahi Tha 😱 5 Galtiyan + 3-2-1 Rule (Hindi)",
+      "description": "Subah app khola… saare customers, saare orders — 0! 😱 Aur backup? \"Cloud pe tha\"… par cloud = safe nahi hota.\nIs video mein 5 tareeke jinse database udta hai — delete galti, update/migration, server, hack, aur \"backup tha par kaam ka nahi\" — aur wo 3-2-1 rule jo aapka data hamesha bachata hai.\n\n⏱️ Chapters\n0:00 Database ud gaya!\n0:19 Galti 1: Ek galat DELETE\n0:41 Galti 2: Update/migration fail\n1:00 Galti 3: Server hi chala gaya\n1:22 Galti 4: Hack + ransom note\n1:46 Galti 5: \"Backup tha\" par kaam ka nahi\n2:10 3-2-1 backup rule\n2:42 Seedhi baat\n2:55 Aapka last backup kab?\n\n📺 Cloud bill ₹40,000 kyun aaya: https://youtu.be/qtn-pyCEjHw\n📺 Mera app sirf laptop pe chalta hai (Docker): https://youtu.be/jLFp6QbBvDM\n📢 Backup checklist + polls — Instagram channel: https://www.instagram.com/channel/MtYfN-khP3BXk5SR/\n🌐 Backup setup karwana hai? https://auraautomation.site\n\n⚠️ Numbers ek example scenario hain.\n\n#Database #Backup #VibeCoding #AIApp #DataLoss #WebDevelopment #AuraAutomation\n\n📌 Is video mein: Database ud jaaye aur backup na ho to kya hota hai — 5 common galtiyan aur 3-2-1 backup rule se apna data kaise safe rakhe.\nइस वीडियो में: डेटाबेस बैकअप की 5 आम गलतियां और 3-2-1 नियम से डेटा सुरक्षित रखने का तरीका।\nIn this video: Five common database backup mistakes and how the 3-2-1 backup rule keeps your data safe.",
+      "publishedAt": "2026-10-14T12:53:22Z",
+      "durationSec": 190,
+      "thumbs": {
+        "mq": "https://i.ytimg.com/vi/4wG80klKQj8/mqdefault.jpg",
+        "hq": "https://i.ytimg.com/vi/4wG80klKQj8/hqdefault.jpg",
+        "max": "https://i.ytimg.com/vi/4wG80klKQj8/maxresdefault.jpg",
+        "vertical": null
+      },
+      "playlists": [
+        "PLJ99Uf4p0PzQ"
+      ],
+      "removed": false
+    },
+    {
+      "id": "jLFp6QbBvDM",
+      "slug": "mera-app-bas-mere-laptop-pe-chalta-hai-5-wajah-1-dabba-jo-sab-fix-kare",
+      "kind": "video",
+      "title": "Mera App Bas Mere Laptop Pe Chalta Hai 🤡 5 Wajah + 1 Dabba Jo Sab Fix Kare (Hindi)",
+      "description": "Laptop pe app bilkul chal raha tha… server pe CRASH? 🤡 Ye har developer ke saath hota hai.\nIs video mein 5 wajah — version, package, .env, operating system, localhost — aur wo ek \"dabba\" (Docker) jo \"mere laptop pe chal raha tha\" wali problem hamesha ke liye khatam kar deta hai.\n\n⏱️ Chapters\n0:00 Mere laptop pe chal raha tha!\n0:14 Wajah 1: Version alag\n0:31 Wajah 2: Package missing\n0:48 Wajah 3: .env sirf laptop pe\n1:06 Wajah 4: Windows vs Linux\n1:22 Wajah 5: Localhost\n1:37 Docker = ek dabba\n2:00 Seedhi baat\n2:12 Setup checklist\n\n📺 Cloud bill ₹40,000 kyun aaya: https://youtu.be/qtn-pyCEjHw\n📺 JWT, .env aur 6 security basics: https://youtu.be/yeLPv1ZmUEA\n📢 Setup checklist + polls — Instagram channel: https://www.instagram.com/channel/MtYfN-khP3BXk5SR/\n🌐 Deploy setup karwana hai? https://auraautomation.site\n\n#VibeCoding #Docker #Deployment #WebDevelopment #AIApp #DevLife #AuraAutomation\n\n📌 Is video mein: App laptop pe chalta hai par server pe crash kyun hota hai — 5 wajah aur Docker jaisa ek 'dabba' jo sab fix kar deta hai.\nइस वीडियो में: ऐप लैपटॉप पर चलता है पर सर्वर पर क्यों नहीं — 5 कारण और डॉकर से समाधान।\nIn this video: Why an app works on your laptop but crashes on the server, five reasons and how Docker fixes it.",
+      "publishedAt": "2026-10-12T12:30:28Z",
+      "durationSec": 144,
+      "thumbs": {
+        "mq": "https://i.ytimg.com/vi/jLFp6QbBvDM/mqdefault.jpg",
+        "hq": "https://i.ytimg.com/vi/jLFp6QbBvDM/hqdefault.jpg",
+        "max": "https://i.ytimg.com/vi/jLFp6QbBvDM/maxresdefault.jpg",
+        "vertical": null
+      },
+      "playlists": [
+        "PLJ99Uf4p0PzQ",
+        "PLPkZbJ1EznD4"
+      ],
+      "removed": false
+    },
+    {
+      "id": "0lV9EpYoNcI",
+      "slug": "laptop-pe-chala-server-pe-crash-5-wajah",
+      "kind": "short",
+      "title": "Laptop Pe Chala… Server Pe CRASH? 🤡 5 Wajah",
+      "description": "Version alag, package missing, keys sirf laptop pe… baaki 2 wajah + Docker wala dabba full video mein 👇\n\n▶ Full video: https://youtu.be/jLFp6QbBvDM\n📢 Setup checklist — Instagram channel: https://www.instagram.com/channel/MtYfN-khP3BXk5SR/\n🌐 https://auraautomation.site\n\n#Shorts #VibeCoding #Docker #DevLife #AuraAutomation\n\n📌 Is video mein: App laptop pe chalta hai par server pe crash kyun hota hai — 5 wajah aur Docker jaisa ek 'dabba' jo sab fix kar deta hai.\nइस वीडियो में: ऐप लैपटॉप पर चलता है पर सर्वर पर क्यों नहीं — 5 कारण और डॉकर से समाधान।\nIn this video: Why an app works on your laptop but crashes on the server, five reasons and how Docker fixes it.",
+      "publishedAt": "2026-10-12T12:30:20Z",
+      "durationSec": 21,
+      "thumbs": {
+        "mq": "https://i.ytimg.com/vi/0lV9EpYoNcI/mqdefault.jpg",
+        "hq": "https://i.ytimg.com/vi/0lV9EpYoNcI/hqdefault.jpg",
+        "max": "https://i.ytimg.com/vi/0lV9EpYoNcI/maxresdefault.jpg",
+        "vertical": "https://i.ytimg.com/vi/0lV9EpYoNcI/oar2.jpg"
+      },
+      "playlists": [],
+      "removed": false
+    },
+    {
+      "id": "3q7LO64gZK4",
+      "slug": "sirf-50-users-cloud-ka-bill-40-000-ai-app-ka-paisa-kahan-leak-hota-hai",
+      "kind": "short",
+      "title": "Sirf 50 Users… Cloud Ka Bill ₹40,000?! 💸 AI App Ka Paisa Kahan Leak Hota Hai",
+      "description": "AI se app banaya, sirf 50 users… aur cloud ka bill ₹40,000! 💸 Paisa 5 jagah leak hota hai — 2 yahan, baaki 3 leak + wo ek budget alert jo sab rok de, full video mein 👇\n\n▶ Full video: https://youtu.be/qtn-pyCEjHw\n📢 Checklist + polls — Instagram channel: https://www.instagram.com/channel/MtYfN-khP3BXk5SR/\n🌐 Setup cost-proof karwana hai? https://auraautomation.site\n\n⚠️ Numbers example ke liye hain, real bill setup pe depend karta hai.\n\n#Shorts #CloudBill #VibeCoding #AIApp #CloudCost #AuraAutomation\n\n📌 Is video mein: AI se app banaya aur cloud ka bill ₹40,000 aa gaya? Wo 5 jagah jahan paisa leak hota hai aur cloud cost kaise kam kare.\nइस वीडियो में: क्लाउड बिल अचानक क्यों बढ़ता है और खर्च कम करने के 5 तरीके।\nIn this video: Five places your cloud bill leaks money in AI apps and how to cut hosting costs.",
+      "publishedAt": "2026-10-11T07:30:27Z",
+      "durationSec": 37,
+      "thumbs": {
+        "mq": "https://i.ytimg.com/vi/3q7LO64gZK4/mqdefault.jpg",
+        "hq": "https://i.ytimg.com/vi/3q7LO64gZK4/hqdefault.jpg",
+        "max": "https://i.ytimg.com/vi/3q7LO64gZK4/maxresdefault.jpg",
+        "vertical": "https://i.ytimg.com/vi/3q7LO64gZK4/oar2.jpg"
+      },
+      "playlists": [],
+      "removed": false
+    },
+    {
+      "id": "qtn-pyCEjHw",
+      "slug": "ai-se-app-banaya-cloud-ka-bill-40-000-5-jagah-paisa-leak-hota-hai-hind",
+      "kind": "video",
+      "title": "AI Se App Banaya… Cloud Ka Bill ₹40,000?! 💸 5 Jagah Paisa Leak Hota Hai (Hindi)",
+      "description": "AI se app banaya, sirf 50 users… aur cloud ka bill ₹40,000 aa gaya? 💸 Blinkit se bada server nahi, 5 chhoti galtiyan hain jo paisa chupke se leak karti hain.\nIs video mein: khaali bada server, AI API ka token khel, bhoole hue resources, data transfer, database/logs — aur wo 2 alerts jo bill ko ₹2,000 pe rok dete hain.\n\n⏱️ Chapters\n0:00 50 users, bill ₹40,000!\n0:19 Leak 1: Khaali bada server\n0:40 Leak 2: AI API aur bug loop\n1:08 Leak 3: Bhoole hue resources\n1:29 Leak 4: Data transfer\n1:47 Leak 5: Database aur logs\n2:01 Budget alert + API limit\n2:30 Cloud = bijli ka meter\n2:43 Aapka bill kitna?\n\n📺 Part 1 — Vibe coding se website crash kyun hoti hai: https://youtu.be/kMkkFc5me5c\n📺 Part 2 — JWT, .env aur 6 security basics: https://youtu.be/yeLPv1ZmUEA\n📢 Checklist + polls — Instagram channel: https://www.instagram.com/channel/MtYfN-khP3BXk5SR/\n🌐 Setup cost-proof karwana hai? https://auraautomation.site\n\n⚠️ Numbers ek example scenario hain, kisi company ka asli bill nahi.\n\n#CloudBill #VibeCoding #AWS #AIApp #CloudCost #SystemDesign #AuraAutomation\n\n📌 Is video mein: AI se app banaya aur cloud ka bill ₹40,000 aa gaya? Wo 5 jagah jahan paisa leak hota hai aur cloud cost kaise kam kare.\nइस वीडियो में: क्लाउड बिल अचानक क्यों बढ़ता है और खर्च कम करने के 5 तरीके।\nIn this video: Five places your cloud bill leaks money in AI apps and how to cut hosting costs.",
+      "publishedAt": "2026-10-11T06:30:26Z",
+      "durationSec": 178,
+      "thumbs": {
+        "mq": "https://i.ytimg.com/vi/qtn-pyCEjHw/mqdefault.jpg",
+        "hq": "https://i.ytimg.com/vi/qtn-pyCEjHw/hqdefault.jpg",
+        "max": "https://i.ytimg.com/vi/qtn-pyCEjHw/maxresdefault.jpg",
+        "vertical": null
+      },
+      "playlists": [
+        "PLPkZbJ1EznD4"
+      ],
+      "removed": false
+    },
+    {
+      "id": "zTRwC3B1BY8",
+      "slug": "tatkal-pe-site-kyun-atakti-hai-blinkit-ka-ulta",
+      "kind": "short",
+      "title": "Tatkal Pe Site Kyun Atakti Hai? 🚆 Blinkit Ka Ulta #Shorts",
+      "description": "Theek 10 baje Tatkal… loading… 0 seats ❌ Blinkit pe lakhon log, phir bhi app nahi atakta — toh IRCTC kyun? 🚆\nJinse aap lad rahe ho… wo insaan hi nahi the 😱\nFull video 👉 https://youtu.be/Ddt8jBtnKT4\n\n#Tatkal #IRCTC #IndianRailways #SystemDesign #Blinkit #AuraAutomation #Shorts\n\n📌 Is video mein: IRCTC Tatkal ke time site kyun atakti hai, aur Blinkit jaise apps itna traffic kaise sambhalte hain — system design simple bhasha me.\nइस वीडियो में: तत्काल बुकिंग के समय वेबसाइट क्यों अटकती है और भारी ट्रैफिक कैसे संभाला जाता है।\nIn this video: Why IRCTC Tatkal slows down under traffic spikes and how scalable apps handle the load.",
+      "publishedAt": "2026-10-10T13:30:06Z",
+      "durationSec": 33,
+      "thumbs": {
+        "mq": "https://i.ytimg.com/vi/zTRwC3B1BY8/mqdefault.jpg",
+        "hq": "https://i.ytimg.com/vi/zTRwC3B1BY8/hqdefault.jpg",
+        "max": "https://i.ytimg.com/vi/zTRwC3B1BY8/maxresdefault.jpg",
+        "vertical": "https://i.ytimg.com/vi/zTRwC3B1BY8/oar2.jpg"
+      },
+      "playlists": [],
+      "removed": false
+    },
+    {
+      "id": "Ddt8jBtnKT4",
+      "slug": "irctc-tatkal-pe-site-kyun-atakti-hai-blinkit-ka-ulta-example-hindi",
+      "kind": "video",
+      "title": "IRCTC Tatkal Pe Site Kyun Atakti Hai? 🚆 Blinkit Ka Ulta Example (Hindi)",
+      "description": "Theek 10 baje Tatkal khola… loading… aur seats khatam 😩 Blinkit pe lakhon log, phir bhi app nahi atakta — toh IRCTC kyun?\nIs video mein: ek second ki bheed, seat ka taala, bots ka khel, purana system, aur ab kya badla — plus Tatkal tips.\n\n⏱️ Chapters\n0:00 10 baje… aur seats khatam!\n0:20 Blinkit vs IRCTC: ek second ki bheed\n0:43 Seats kam, log zyada (seat ka taala)\n1:06 Bots: aadhe log insaan hi nahi the\n1:33 Purana system aur kamzor kadi\n1:57 Ab kya badla?\n2:20 Tatkal ke 3 tips\n2:37 Business ke liye seekh\n2:55 Aapka experience\n\n📺 Part 1 — Blinkit kabhi down kyun nahi hota: https://youtu.be/rqNSsSRh5Mc\n📚 Facts: news reports (2025–26)\n🌐 Sale-proof setup: https://auraautomation.site\n\n#IRCTC #Tatkal #SystemDesign #IndianRailways #Scalability #AuraAutomation\n\n📌 Is video mein: IRCTC Tatkal ke time site kyun atakti hai, aur Blinkit jaise apps itna traffic kaise sambhalte hain — system design simple bhasha me.\nइस वीडियो में: तत्काल बुकिंग के समय वेबसाइट क्यों अटकती है और भारी ट्रैफिक कैसे संभाला जाता है।\nIn this video: Why IRCTC Tatkal slows down under traffic spikes and how scalable apps handle the load.",
+      "publishedAt": "2026-10-10T12:30:30Z",
+      "durationSec": 188,
+      "thumbs": {
+        "mq": "https://i.ytimg.com/vi/Ddt8jBtnKT4/mqdefault.jpg",
+        "hq": "https://i.ytimg.com/vi/Ddt8jBtnKT4/hqdefault.jpg",
+        "max": "https://i.ytimg.com/vi/Ddt8jBtnKT4/maxresdefault.jpg",
+        "vertical": null
+      },
+      "playlists": [],
+      "removed": false
+    },
+    {
+      "id": "M6neS6Ee0ns",
+      "slug": "blinkit-kabhi-down-kyun-nahi-hota",
+      "kind": "short",
+      "title": "Blinkit Kabhi DOWN Kyun Nahi Hota? 🛒 #Shorts",
+      "description": "Sale wale din aapki website band… par Blinkit kabhi nahi? 🛒⚡\nRaaz hai — load balancer + autoscaling 📈\nFull video 👉 https://youtu.be/rqNSsSRh5Mc\n\n#LoadBalancing #Blinkit #SystemDesign #WebDevelopment #StartupIndia #AuraAutomation #Shorts\n\n📌 Is video mein: Blinkit jaise apps kabhi down kyun nahi hote — load balancing, auto scaling aur high availability simple bhasha me.\nइस वीडियो में: लोड बैलेंसिंग और ऑटो स्केलिंग से ऐप हमेशा चालू कैसे रहते हैं।\nIn this video: How apps like Blinkit stay up using load balancing, auto scaling and high availability.",
+      "publishedAt": "2026-10-09T13:30:34Z",
+      "durationSec": 36,
+      "thumbs": {
+        "mq": "https://i.ytimg.com/vi/M6neS6Ee0ns/mqdefault.jpg",
+        "hq": "https://i.ytimg.com/vi/M6neS6Ee0ns/hqdefault.jpg",
+        "max": "https://i.ytimg.com/vi/M6neS6Ee0ns/maxresdefault.jpg",
+        "vertical": "https://i.ytimg.com/vi/M6neS6Ee0ns/oar2.jpg"
+      },
+      "playlists": [],
+      "removed": false
+    },
+    {
+      "id": "rqNSsSRh5Mc",
+      "slug": "blinkit-kabhi-down-kyun-nahi-hota-load-balancing-simple-bhasha-mein-hi",
+      "kind": "video",
+      "title": "Blinkit Kabhi DOWN Kyun Nahi Hota? 🛒 Load Balancing Simple Bhasha Mein (Hindi)",
+      "description": "Sale wale din aapki website band… aur Blinkit pe lakhon log ek saath order karte hain, phir bhi app nahi atakta. Kaise? 🤔\nIs video mein load balancing, health check aur autoscaling — ek dukaan ke example se — aur Blinkit ka setup.\n\n⏱️ Chapters\n0:00 Blinkit kabhi down kyun nahi hota?\n0:21 Ek counter = ek server\n0:45 Load balancer kya hai\n1:06 Round robin, least load, health check\n1:32 Autoscaling\n1:49 Blinkit ka setup (cloud, Kubernetes)\n2:26 Aapke business ke liye 3 cheezein\n2:50 Comment + setup\n\n📚 Blinkit setup ki jaankari: Blinkit engineering blog\n📺 Part 2 — IRCTC Tatkal pe site kyun atakti hai (Blinkit ka ulta): https://youtu.be/Ddt8jBtnKT4\n🌐 Scalable setup chahiye? https://auraautomation.site\n\n#LoadBalancing #Blinkit #SystemDesign #Scalability #CloudComputing #AuraAutomation\n\n📌 Is video mein: Blinkit jaise apps kabhi down kyun nahi hote — load balancing, auto scaling aur high availability simple bhasha me.\nइस वीडियो में: लोड बैलेंसिंग और ऑटो स्केलिंग से ऐप हमेशा चालू कैसे रहते हैं।\nIn this video: How apps like Blinkit stay up using load balancing, auto scaling and high availability.",
+      "publishedAt": "2026-10-09T12:30:29Z",
+      "durationSec": 183,
+      "thumbs": {
+        "mq": "https://i.ytimg.com/vi/rqNSsSRh5Mc/mqdefault.jpg",
+        "hq": "https://i.ytimg.com/vi/rqNSsSRh5Mc/hqdefault.jpg",
+        "max": "https://i.ytimg.com/vi/rqNSsSRh5Mc/maxresdefault.jpg",
+        "vertical": null
+      },
+      "playlists": [],
+      "removed": false
+    },
+    {
+      "id": "1Nu27YkInTI",
+      "slug": "ai-website-launch-pe-crash-5-wajah",
+      "kind": "short",
+      "title": "AI Website Launch Pe CRASH? 💥 5 Wajah #Shorts",
+      "description": "AI se 1 ghante mein website… par launch ke din CRASH? 💥\nTeesri wajah sabse khatarnak hai 👀\nPoori video + fix 👉 https://youtu.be/kMkkFc5me5c\n\n#VibeCoding #AIWebsite #WebsiteCrash #AuraAutomation #Shorts\n\n📌 Is video mein: Vibe coding se website banayi aur launch pe crash ho gayi? 5 wajah aur unka fix — AI se website banane walon ke liye.\nइस वीडियो में: एआई से बनी वेबसाइट लॉन्च पर क्यों क्रैश होती है — 5 कारण और समाधान।\nIn this video: Five reasons vibe-coded websites crash at launch and how to fix each one.",
+      "publishedAt": "2026-10-09T01:30:21Z",
+      "durationSec": 37,
+      "thumbs": {
+        "mq": "https://i.ytimg.com/vi/1Nu27YkInTI/mqdefault.jpg",
+        "hq": "https://i.ytimg.com/vi/1Nu27YkInTI/hqdefault.jpg",
+        "max": "https://i.ytimg.com/vi/1Nu27YkInTI/maxresdefault.jpg",
+        "vertical": "https://i.ytimg.com/vi/1Nu27YkInTI/oar2.jpg"
+      },
+      "playlists": [],
+      "removed": false
+    },
+    {
+      "id": "F1lsADyhe7Q",
+      "slug": "business-owner-ke-7-sawaal-aur-unke-seedhe-jawab-automation-q-a-hindi",
+      "kind": "video",
+      "title": "Business Owner Ke 7 Sawaal… Aur Unke Seedhe Jawab 💬 Automation Q&A (Hindi)",
+      "description": "Business owner ke 7 sawaal… aur unke seedhe jawab 💬\n\n❓ Automation hota kya hai?\n❓ Chhote business ke kaam ka hai?\n❓ Staff ki naukri chali jayegi?\n❓ Pehle kya automate karein?\n❓ WhatsApp pe chalega?\n❓ Customer ka data safe rahega?\n❓ Kharcha kitna?\n\nJawab video mein 👆\nAapka sawaal kya hai? Comment karo 👇 — hum jawab denge\n\n🌐 auraautomation.site\n\n\n🎵 Music: \"Bum Baa Diga Diga\" – DC | ‪@AnirudhOfficial‬ .\n❤️ This is a non-profit fan edit created for entertainment purposes only. All rights belong to their respective owners.\n\n#businessautomation #smallbusinessindia #whatsappautomation #aiautomation #automation #entrepreneur #businessgrowth #digitalindia #jaipurbusiness #auraautomation\n\n📌 Is video mein: Business owner ke common sawaal — automation kya hai, kitna kharcha hai aur kahan se shuru kare — seedhe jawab ke saath.\nइस वीडियो में: बिज़नेस ऑटोमेशन से जुड़े आम सवालों के सीधे जवाब, आसान हिंदी में।\nIn this video: Straight answers to common business owner questions about automation, cost and where to start.",
+      "publishedAt": "2026-10-08T07:30:12Z",
+      "durationSec": 50,
+      "thumbs": {
+        "mq": "https://i.ytimg.com/vi/F1lsADyhe7Q/mqdefault.jpg",
+        "hq": "https://i.ytimg.com/vi/F1lsADyhe7Q/hqdefault.jpg",
+        "max": "https://i.ytimg.com/vi/F1lsADyhe7Q/maxresdefault.jpg",
+        "vertical": null
+      },
+      "playlists": [
+        "PLTGxIVVo8v_c"
+      ],
+      "removed": false
+    },
+    {
+      "id": "TD-8DaqaDks",
+      "slug": "comment-kiya-dm-aa-gaya-ye-kaise-hota-hai",
+      "kind": "short",
+      "title": "Comment Kiya… DM Aa Gaya? 🤯 Ye Kaise Hota Hai #Shorts",
+      "description": "Ek galti ki toh account pe khatra ⚠️ Poora setup + safe tarika 👉 https://youtu.be/C5t2nqNWTg4\n#InstagramAutomation #CommentToDM #Shorts\n\n📌 Is video mein: Reel pe 'comment karo, link DM me' wala automation kaise kaam karta hai — Instagram comment-to-DM automation step by step.\nइस वीडियो में: इंस्टाग्राम पर कमेंट करते ही डीएम में लिंक कैसे आता है, पूरी प्रक्रिया आसान भाषा में।\nIn this video: How Instagram comment-to-DM automation works, from comment trigger to automatic DM reply.",
+      "publishedAt": "2026-10-08T02:30:32Z",
+      "durationSec": 30,
+      "thumbs": {
+        "mq": "https://i.ytimg.com/vi/TD-8DaqaDks/mqdefault.jpg",
+        "hq": "https://i.ytimg.com/vi/TD-8DaqaDks/hqdefault.jpg",
+        "max": "https://i.ytimg.com/vi/TD-8DaqaDks/maxresdefault.jpg",
+        "vertical": "https://i.ytimg.com/vi/TD-8DaqaDks/oar2.jpg"
+      },
+      "playlists": [],
+      "removed": false
+    },
+    {
+      "id": "C5t2nqNWTg4",
+      "slug": "comment-karo-dm-mein-link-instagram-comment-to-dm-automation-kaise-kaa",
+      "kind": "video",
+      "title": "Comment Karo, DM Mein Link 🤯 Instagram Comment-to-DM Automation Kaise Kaam Karta Hai? (Hindi) #dm",
+      "description": "Reel pe \"LINK\" comment kiya… aur 2 second mein DM aa gaya? Ye hai comment-to-DM automation — business ke liye sabse sasti lead machine. Is video mein: kaise kaam karta hai, account safe hai ya nahi, aur comments ko leads mein kaise badlein.\n\n⏱️ Chapters\n0:00 Comment kiya, 2 sec mein DM!\n0:22 Sawaal 1: Ye kaise kaam karta hai? (Trigger → Check → Action)\n0:52 Sawaal 2: Account ban toh nahi hoga?\n1:20 Sawaal 3: Sirf link hi bhejta hai?\n1:47 Sawaal 4: Mere business ke kis kaam ka?\n2:09 3 galtiyan jo mat karna\n2:25 Live test + setup\n\n🔴 Live test: Instagram pe @auraautomation.in ki kisi bhi reel pe \"LINK\" comment karo.\n🌐 Apne business ke liye setup: https://auraautomation.site\n\n#InstagramAutomation #CommentToDM #LeadGeneration #BusinessAutomation #InstagramMarketing #AuraAutomation\n\n📌 Is video mein: Reel pe 'comment karo, link DM me' wala automation kaise kaam karta hai — Instagram comment-to-DM automation step by step.\nइस वीडियो में: इंस्टाग्राम पर कमेंट करते ही डीएम में लिंक कैसे आता है, पूरी प्रक्रिया आसान भाषा में।\nIn this video: How Instagram comment-to-DM automation works, from comment trigger to automatic DM reply.",
+      "publishedAt": "2026-10-08T02:30:07Z",
+      "durationSec": 162,
+      "thumbs": {
+        "mq": "https://i.ytimg.com/vi/C5t2nqNWTg4/mqdefault.jpg",
+        "hq": "https://i.ytimg.com/vi/C5t2nqNWTg4/hqdefault.jpg",
+        "max": "https://i.ytimg.com/vi/C5t2nqNWTg4/maxresdefault.jpg",
+        "vertical": null
+      },
+      "playlists": [
+        "PLTGxIVVo8v_c"
+      ],
+      "removed": false
+    },
+    {
+      "id": "s3gHnyi0mkY",
+      "slug": "ai-se-app-bana-liya-par-jwt-aur-env-pata-hai-6-security-basics-aur-4th",
+      "kind": "short",
+      "title": "AI se app bana liya… par JWT aur .env pata hai? 🔐6 security basics — aur 4th wali galti #shorts",
+      "description": "AI se app ban gaya, login-payment chal raha hai… par safe hai? 🔐\nJWT, .env, password hash — 6 security basics, aur 4th wali galti sabse common hai 👀\nFull video 👉 https://youtu.be/yeLPv1ZmUEA\n\n#VibeCoding #WebSecurity #JWT #AIApp #AuraAutomation #Shorts\n\n📌 Is video mein: Vibe coding se app banaya? JWT, .env, API key, password hashing jaise 6 security basics jo har AI app me hone chahiye.\nइस वीडियो में: एआई से बने ऐप के लिए 6 जरूरी सुरक्षा बेसिक्स — जेडब्ल्यूटी, .env और पासवर्ड हैशिंग।\nIn this video: Six security basics every vibe-coded AI app needs, including JWT, .env secrets and password hashing.",
+      "publishedAt": "2026-10-07T14:26:47Z",
+      "durationSec": 35,
+      "thumbs": {
+        "mq": "https://i.ytimg.com/vi/s3gHnyi0mkY/mqdefault.jpg",
+        "hq": "https://i.ytimg.com/vi/s3gHnyi0mkY/hqdefault.jpg",
+        "max": "https://i.ytimg.com/vi/s3gHnyi0mkY/maxresdefault.jpg",
+        "vertical": "https://i.ytimg.com/vi/s3gHnyi0mkY/oar2.jpg"
+      },
+      "playlists": [],
+      "removed": false
+    },
+    {
+      "id": "yeLPv1ZmUEA",
+      "slug": "vibe-coding-karte-ho-jwt-env-pata-hai-6-security-basics-jo-har-ai-app",
+      "kind": "video",
+      "title": "Vibe Coding Karte Ho? JWT, .env Pata Hai? 🔐 6 Security Basics Jo Har AI App Mein Chahiye (Hindi)",
+      "description": "AI se app ban gaya, login aur payment bhi chal raha hai… par safe hai? 🔐\nIs video mein 6 security basics, bilkul simple bhasha mein — har vibe coder aur business owner ke liye.\n\n⏱️ Chapters\n0:00 App chal raha hai… par safe hai?\n0:26 1/6 .env — aapki tijori\n0:55 2/6 JWT — ID card hai, locker nahi\n1:27 3/6 Password hash\n1:47 4/6 Authorization (sabse common galti)\n2:06 5/6 Input check\n2:18 6/6 Rate limit\n2:29 Launch se pehle kya karein?\n2:45 Aapka sawaal\n\n📺 Part 1 — Vibe coding se website crash kyun hoti hai: https://youtu.be/kMkkFc5me5c\n🌐 Security review chahiye? https://auraautomation.site\n\n#VibeCoding #WebSecurity #JWT #AIApp #CyberSecurity #AuraAutomation\n\n📌 Is video mein: Vibe coding se app banaya? JWT, .env, API key, password hashing jaise 6 security basics jo har AI app me hone chahiye.\nइस वीडियो में: एआई से बने ऐप के लिए 6 जरूरी सुरक्षा बेसिक्स — जेडब्ल्यूटी, .env और पासवर्ड हैशिंग।\nIn this video: Six security basics every vibe-coded AI app needs, including JWT, .env secrets and password hashing.",
+      "publishedAt": "2026-10-07T12:30:34Z",
+      "durationSec": 177,
+      "thumbs": {
+        "mq": "https://i.ytimg.com/vi/yeLPv1ZmUEA/mqdefault.jpg",
+        "hq": "https://i.ytimg.com/vi/yeLPv1ZmUEA/hqdefault.jpg",
+        "max": "https://i.ytimg.com/vi/yeLPv1ZmUEA/maxresdefault.jpg",
+        "vertical": null
+      },
+      "playlists": [
+        "PLPkZbJ1EznD4"
+      ],
+      "removed": false
+    },
+    {
+      "id": "kMkkFc5me5c",
+      "slug": "vibe-coding-se-website-banayi-launch-pe-crash-5-wajah-fix-hindi",
+      "kind": "video",
+      "title": "Vibe Coding Se Website Banayi… Launch Pe CRASH? 💥 5 Wajah + Fix (Hindi) #india #hindi",
+      "description": "AI se 1 ghante mein website ban jaati hai… par launch ke din crash kyun hoti hai? 💥\nIs video mein vibe coding ki 5 sabse common galtiyan aur unka simple fix — business owners ke liye.\n\n⏱️ Chapters\n0:00 Launch ke din crash!\n0:16 Wajah 1: Laptop pe perfect, real mein fail\n0:42 Wajah 2: Launch day traffic\n1:07 Wajah 3: API key leak (paisa bhi jaata hai)\n1:32 Wajah 4: Ek theek, doosra toota\n1:58 Wajah 5: Packages\n2:13 Launch se pehle 5-point checklist\n2:32 Kya vibe coding bekaar hai?\n2:48 Aapka sawaal\n\n💬 Aapki website bhi AI se bani hai? Comment mein likho kya problem aa rahi hai.\n📺 Part 2 — JWT, .env aur 6 security basics: https://youtu.be/yeLPv1ZmUEA\n🌐 Website ko production-ready banana hai? https://auraautomation.site\n\n#VibeCoding #AIWebsite #WebsiteCrash #AIAutomation #WebDevelopment #AuraAutomation\n\n📌 Is video mein: Vibe coding se website banayi aur launch pe crash ho gayi? 5 wajah aur unka fix — AI se website banane walon ke liye.\nइस वीडियो में: एआई से बनी वेबसाइट लॉन्च पर क्यों क्रैश होती है — 5 कारण और समाधान।\nIn this video: Five reasons vibe-coded websites crash at launch and how to fix each one.",
+      "publishedAt": "2026-10-07T02:30:40Z",
+      "durationSec": 184,
+      "thumbs": {
+        "mq": "https://i.ytimg.com/vi/kMkkFc5me5c/mqdefault.jpg",
+        "hq": "https://i.ytimg.com/vi/kMkkFc5me5c/hqdefault.jpg",
+        "max": "https://i.ytimg.com/vi/kMkkFc5me5c/maxresdefault.jpg",
+        "vertical": null
+      },
+      "playlists": [
+        "PLJ99Uf4p0PzQ",
+        "PLPkZbJ1EznD4"
+      ],
+      "removed": false
+    },
+    {
+      "id": "NTo33jVUPB4",
+      "slug": "ai-website-launch-pe-crash-5-wajah-2",
+      "kind": "short",
+      "title": "AI Website Launch Pe CRASH? 💥 5 Wajah #Shorts",
+      "description": "AI se 1 ghante mein website… par launch ke din CRASH? 💥\nTeesri wajah sabse khatarnak hai 👀\nPoori video + fix 👉 https://youtu.be/kMkkFc5me5c\n\n#VibeCoding #AIWebsite #WebsiteCrash #AuraAutomation #Shorts\n\n📌 Is video mein: Vibe coding se website banayi aur launch pe crash ho gayi? 5 wajah aur unka fix — AI se website banane walon ke liye.\nइस वीडियो में: एआई से बनी वेबसाइट लॉन्च पर क्यों क्रैश होती है — 5 कारण और समाधान।\nIn this video: Five reasons vibe-coded websites crash at launch and how to fix each one.",
+      "publishedAt": "2026-10-07T02:30:33Z",
+      "durationSec": 30,
+      "thumbs": {
+        "mq": "https://i.ytimg.com/vi/NTo33jVUPB4/mqdefault.jpg",
+        "hq": "https://i.ytimg.com/vi/NTo33jVUPB4/hqdefault.jpg",
+        "max": "https://i.ytimg.com/vi/NTo33jVUPB4/maxresdefault.jpg",
+        "vertical": "https://i.ytimg.com/vi/NTo33jVUPB4/oar2.jpg"
+      },
+      "playlists": [],
+      "removed": false
+    },
+    {
+      "id": "pWk1yY2bdhk",
+      "slug": "ai-agent-vs-chatbot-vs-automation-business-owner-ke-liye-simple-farak",
+      "kind": "video",
+      "title": "AI Agent vs Chatbot vs Automation 🤯 Business Owner Ke Liye Simple Farak (Hindi) #aivideo #aura",
+      "description": "AI Agent, Chatbot aur Automation — teeno same nahi hain! Galat cheez li toh paisa bhi jayega aur kaam bhi nahi hoga. Is video mein simple Q&A mein samjho ki aapke business ke liye kaunsa sahi hai.\n\n⏱️ Chapters\n0:00 Teeno ek hi cheez hai?\n0:20 Automation kya hai?\n0:47 Chatbot kya hai?\n1:13 AI Agent kya hai?\n1:46 Ek example, teen tarike\n2:16 Ek line mein farak\n2:30 Kaunsa kab use karein?\n2:42 Sabse badi galti\n3:04 Best setup\n3:19 Aapka sawaal\n\n💬 Comment karo: aapke business mein kaunsa kaam roz time kha jaata hai? Hum batayenge automation, chatbot ya agent.\n🌐 Setup chahiye? https://auraautomation.site\n\n#AIAgent #Chatbot #BusinessAutomation #AIAutomation #WhatsAppBot #SmallBusinessIndia #AuraAutomation\n\n📌 Is video mein: AI agent, chatbot aur automation me asli farak kya hai, aur business ke liye kaunsa sahi hai — simple examples ke saath.\nइस वीडियो में: एआई एजेंट, चैटबॉट और ऑटोमेशन में फर्क, बिज़नेस उदाहरणों के साथ।\nIn this video: The real difference between AI agents, chatbots and automation, and which one a business needs.",
+      "publishedAt": "2026-10-06T13:30:15Z",
+      "durationSec": 216,
+      "thumbs": {
+        "mq": "https://i.ytimg.com/vi/pWk1yY2bdhk/mqdefault.jpg",
+        "hq": "https://i.ytimg.com/vi/pWk1yY2bdhk/hqdefault.jpg",
+        "max": "https://i.ytimg.com/vi/pWk1yY2bdhk/maxresdefault.jpg",
+        "vertical": null
+      },
+      "playlists": [
+        "PLTGxIVVo8v_c"
+      ],
+      "removed": false
+    },
+    {
+      "id": "VZbfdmbMZCs",
+      "slug": "ai-agent-vs-chatbot-vs-automation-farak-50-sec-mein",
+      "kind": "short",
+      "title": "AI Agent vs Chatbot vs Automation 🤯 Farak 50 Sec Mein #Shorts",
+      "description": "Ek hi customer message… teen alag result! ⚙️ Automation vs 💬 Chatbot vs 🤖 AI Agent\nPoora farak samjho (full video) 👉 https://youtu.be/pWk1yY2bdhk\n💬 Comment karo: aapke business mein kaunsa kaam roz time khata hai?\n🌐 https://auraautomation.site\n\n#AIAgent #Chatbot #Automation #BusinessAutomation #AuraAutomation #Shorts\n\n📌 Is video mein: AI agent, chatbot aur automation me asli farak kya hai, aur business ke liye kaunsa sahi hai — simple examples ke saath.\nइस वीडियो में: एआई एजेंट, चैटबॉट और ऑटोमेशन में फर्क, बिज़नेस उदाहरणों के साथ।\nIn this video: The real difference between AI agents, chatbots and automation, and which one a business needs.",
+      "publishedAt": "2026-10-06T08:00:02Z",
+      "durationSec": 52,
+      "thumbs": {
+        "mq": "https://i.ytimg.com/vi/VZbfdmbMZCs/mqdefault.jpg",
+        "hq": "https://i.ytimg.com/vi/VZbfdmbMZCs/hqdefault.jpg",
+        "max": "https://i.ytimg.com/vi/VZbfdmbMZCs/maxresdefault.jpg",
+        "vertical": "https://i.ytimg.com/vi/VZbfdmbMZCs/oar2.jpg"
+      },
+      "playlists": [],
+      "removed": false
+    },
+    {
+      "id": "xed76znJnq4",
+      "slug": "restaurant-owner-ka-roz-ka-chaos-automation-se-solve",
+      "kind": "short",
+      "title": "Restaurant Owner ka Roz ka Chaos 😵 Automation se Solve 🤖 #Shorts",
+      "description": "Restaurant chalana = roz ka chaos? 😵\nMissed WhatsApp orders, galat KOT, raat ko 2 ghante hisaab…\n\nSab automate ho sakta hai 🤖\n✅ Smart WhatsApp bot: menu, order, payment link (24×7)\n✅ Kitchen screen: KOT ki galti khatam\n✅ Table booking + auto reminder\n✅ Stock alert + daily sales report WhatsApp pe\n✅ Birthday offers apne aap\n\nApne restaurant ko automate karna hai?\n👉 https://auraautomation.site\n\n#RestaurantBusiness #RestaurantAutomation #WhatsAppBot #RestaurantOwner #SmallBusinessIndia #AuraAutomation #Shorts\n\n📌 Is video mein: Business owner ke common sawaal — automation kya hai, kitna kharcha hai aur kahan se shuru kare — seedhe jawab ke saath.\nइस वीडियो में: बिज़नेस ऑटोमेशन से जुड़े आम सवालों के सीधे जवाब, आसान हिंदी में।\nIn this video: Straight answers to common business owner questions about automation, cost and where to start.",
+      "publishedAt": "2026-10-06T01:30:06Z",
+      "durationSec": 67,
+      "thumbs": {
+        "mq": "https://i.ytimg.com/vi/xed76znJnq4/mqdefault.jpg",
+        "hq": "https://i.ytimg.com/vi/xed76znJnq4/hqdefault.jpg",
+        "max": "https://i.ytimg.com/vi/xed76znJnq4/maxresdefault.jpg",
+        "vertical": "https://i.ytimg.com/vi/xed76znJnq4/oar2.jpg"
+      },
+      "playlists": [],
+      "removed": false
+    },
+    {
+      "id": "N-8NyNp5nh8",
+      "slug": "github-se-automatic-deployment-git-push-karo-website-automatically-upd",
+      "kind": "video",
+      "title": "GitHub Se Automatic Deployment 🚀 | Git Push Karo, Website Automatically Update! #github",
+      "description": "Kya aap har baar website update karne ke liye manually files upload karte ho? 😩\nFile upload karo → folder check karo → server restart karo → aur phir pray karo ki website down na ho! 😂\n\nIs video mein hum build karenge ek Automatic Deployment System using GitHub Actions.\n\nSimple idea:\n💻 Code change → 🚀 git push → ⚡ GitHub Actions → 🧪 Build + Tests → 🔐 Secure server connection → 🌐 Automatic deployment → ✅ Website LIVE\n\n⏱️ Chapters\n0:00 Manual deployment ka problem\n0:23 GitHub automatic deployment kya hai?\n0:41 Manual deployment ki problems\n1:07 CI/CD kya hota hai?\n1:36 6-step automatic deployment flow\n2:26 GitHub Actions workflow\n2:53 deploy.yml + secure secrets & SSH\n3:24 Staging vs main branch\n3:46 Failed deployment & rollback\n4:14 Automatic deployment ke benefits\n4:48 Recap + final CTA\n\n🛠️ Technologies / Concepts\nGit & GitHub · GitHub Actions · CI/CD · YAML workflow · SSH authentication · GitHub Secrets · Staging & Production · Nginx · Rollback strategy\n\n🚀 Final workflow: Code → git push → GitHub Actions → Test → Secure deploy → Website LIVE\nMatlab future mein website update karne ke liye baar-baar manual upload nahi. Sirf code push karo — deployment automatically handle ho sakta hai. 🔥\n\nAgar aap web development, AI, automation, SaaS aur DevOps ko practical examples ke saath seekhna chahte ho, channel ko Subscribe 🔔 zaroor karein.\n\n💬 Comment karke batao: FileZilla wale 🐢 ya Git Push wale 🚀?\n🌐 Aura Automation — https://auraautomation.site\n\n#GitHub #GitHubActions #CICD #DevOps #AutomaticDeployment #WebDevelopment #Automation #AuraAutomation\n\n📌 Is video mein: GitHub Actions se automatic deployment — git push karo aur website apne aap update ho jaaye. CI/CD step by step Hinglish me.\nइस वीडियो में: गिटहब एक्शन्स से ऑटोमैटिक डिप्लॉयमेंट और सीआई/सीडी, स्टेप बाय स्टेप।\nIn this video: Set up automatic deployment with GitHub Actions so every git push updates your website, CI/CD step by step.",
+      "publishedAt": "2026-10-05T13:30:06Z",
+      "durationSec": 309,
+      "thumbs": {
+        "mq": "https://i.ytimg.com/vi/N-8NyNp5nh8/mqdefault.jpg",
+        "hq": "https://i.ytimg.com/vi/N-8NyNp5nh8/hqdefault.jpg",
+        "max": "https://i.ytimg.com/vi/N-8NyNp5nh8/maxresdefault.jpg",
+        "vertical": null
+      },
+      "playlists": [
+        "PLPkZbJ1EznD4",
+        "PLTGxIVVo8v_c"
+      ],
+      "removed": false
+    },
+    {
+      "id": "TwF-xsREb3c",
+      "slug": "github-actions-se-automatic-deployment-complete-ci-cd-tutorial",
+      "kind": "short",
+      "title": "GitHub Actions Se Automatic Deployment | Complete CI/CD Tutorial #aiautomation",
+      "description": "Code change → git push → GitHub Actions → Build + Test → Secure deploy → Website LIVE ✅\nManual file upload ka jhanjhat khatam 🚀\nFull CI/CD tutorial 👉 https://youtu.be/N-8NyNp5nh8\n\n#GitHub #GitHubActions #CICD #DevOps #WebDevelopment #AuraAutomation #Shorts\n\n📌 Is video mein: GitHub Actions se automatic deployment — git push karo aur website apne aap update ho jaaye. CI/CD step by step Hinglish me.\nइस वीडियो में: गिटहब एक्शन्स से ऑटोमैटिक डिप्लॉयमेंट और सीआई/सीडी, स्टेप बाय स्टेप।\nIn this video: Set up automatic deployment with GitHub Actions so every git push updates your website, CI/CD step by step.",
+      "publishedAt": "2026-10-05T01:45:21Z",
+      "durationSec": 55,
+      "thumbs": {
+        "mq": "https://i.ytimg.com/vi/TwF-xsREb3c/mqdefault.jpg",
+        "hq": "https://i.ytimg.com/vi/TwF-xsREb3c/hqdefault.jpg",
+        "max": "https://i.ytimg.com/vi/TwF-xsREb3c/maxresdefault.jpg",
+        "vertical": "https://i.ytimg.com/vi/TwF-xsREb3c/oar2.jpg"
+      },
+      "playlists": [],
+      "removed": false
+    },
+    {
+      "id": "nJ7w5-2ARks",
+      "slug": "git-push-karo-website-live-github-actions-automatic-deployment",
+      "kind": "short",
+      "title": "Git Push Karo → Website LIVE 🚀 | GitHub Actions Automatic Deployment",
+      "description": "Har baar manually files upload karte ho? 😩 Ab sirf git push — aur website apne aap LIVE 🚀\nGitHub Actions se automatic deployment, simple bhasha mein.\nFull tutorial 👉 https://youtu.be/N-8NyNp5nh8\n\n#GitHub #GitHubActions #CICD #DevOps #WebDevelopment #AuraAutomation #Shorts\n\n📌 Is video mein: GitHub Actions se automatic deployment — git push karo aur website apne aap update ho jaaye. CI/CD step by step Hinglish me.\nइस वीडियो में: गिटहब एक्शन्स से ऑटोमैटिक डिप्लॉयमेंट और सीआई/सीडी, स्टेप बाय स्टेप।\nIn this video: Set up automatic deployment with GitHub Actions so every git push updates your website, CI/CD step by step.",
+      "publishedAt": "2026-10-04T14:30:30Z",
+      "durationSec": 57,
+      "thumbs": {
+        "mq": "https://i.ytimg.com/vi/nJ7w5-2ARks/mqdefault.jpg",
+        "hq": "https://i.ytimg.com/vi/nJ7w5-2ARks/hqdefault.jpg",
+        "max": "https://i.ytimg.com/vi/nJ7w5-2ARks/maxresdefault.jpg",
+        "vertical": "https://i.ytimg.com/vi/nJ7w5-2ARks/oar2.jpg"
+      },
+      "playlists": [],
+      "removed": false
+    },
+    {
+      "id": "E57nrvWe4h8",
+      "slug": "ai-se-apna-saas-product-kaise-banaye-complete-roadmap-part-1",
+      "kind": "video",
+      "title": "AI Se Apna SaaS Product Kaise Banaye? 🚀 | Complete Roadmap | Part 1 #saas #aivideo",
+      "description": "Kya aapke paas SaaS product ka idea hai, lekin developer, designer, product manager aur testing team nahi hai? 🤔\n\nIs video mein hum dekhenge ki AI ki help se apna SaaS product kaise build kiya ja sakta hai — idea se lekar AI integration tak. 🚀\nYe 2-part series ka PART 1 hai.\n\nIs video mein cover karenge:\n🔹 SaaS actually hota kya hai?\n🔹 SaaS idea ko validate kaise karein?\n🔹 Real problem aur target customer identify kaise karein?\n🔹 AI se product requirements kaise generate karein?\n🔹 User roles, features aur modules kaise define karein?\n🔹 AI se UI/UX planning kaise karein?\n🔹 Dashboard, Leads, Reports aur Settings jaise screens kaise plan karein?\n🔹 PostgreSQL database kaise structure karein?\n🔹 Frontend → API → Database architecture kaise kaam karta hai?\n🔹 Authentication aur role-based access kaise design karein?\n🔹 CRUD operations kya hain?\n🔹 AI ko SaaS product mein integrate karke automation kaise create karein?\n🔹 WhatsApp-style customer message ko AI structured lead mein kaise convert kar sakta hai?\n\n🚀 Example project\nVideo mein hum ek fictional SaaS product \"LeadFlow AI\" ka example use kar rahe hain — ek AI-powered lead management SaaS.\nFlow: Customer message → AI → Information extraction → CRM lead → Sales assignment → Follow-up\n\nSabse important baat: AI aapke liye draft aur development mein help kar sakta hai, lekin final product decisions aapko lene hain.\n\n📌 PART 2 mein kya aayega?\nTesting → Deployment → AWS + Nginx + SSL → Cost breakdown → Live demo → Reality check\n\nAgar aap AI, SaaS, automation, CRM aur software development seekhna chahte hain, to channel ko Subscribe karna na bhoolen. 🔔\n\n🌐 Aura Automation: https://auraautomation.site\n\n#AI #SaaS #AISaaS #SaaSDevelopment #AIAutomation #SoftwareDevelopment #Startup #CRM #AIProduct #AuraAutomation\n\n📌 Is video mein: AI se apna SaaS product kaise banaye — idea se launch tak complete roadmap, beginners ke liye.\nइस वीडियो में: एआई की मदद से अपना सास प्रोडक्ट बनाने का पूरा रोडमैप।\nIn this video: A complete roadmap to build your own SaaS product with AI, from idea to launch.",
+      "publishedAt": "2026-10-04T13:30:32Z",
+      "durationSec": 305,
+      "thumbs": {
+        "mq": "https://i.ytimg.com/vi/E57nrvWe4h8/mqdefault.jpg",
+        "hq": "https://i.ytimg.com/vi/E57nrvWe4h8/hqdefault.jpg",
+        "max": "https://i.ytimg.com/vi/E57nrvWe4h8/maxresdefault.jpg",
+        "vertical": null
+      },
+      "playlists": [
+        "PLPkZbJ1EznD4"
+      ],
+      "removed": false
+    },
+    {
+      "id": "qWPMcOSFA6Y",
+      "slug": "ai-se-algo-trading-system-kaise-banayein-backtesting-se-aws-ec2-deploy",
+      "kind": "video",
+      "title": "AI se Algo Trading System Kaise Banayein? Backtesting se AWS EC2 Deployment tak (Hindi)",
+      "description": "Kya AI ki help se aap apna trading idea ek automated system mein badal sakte ho? Is video mein poori journey step-by-step samjhi hai: trading idea → AI se strategy aur code → backtesting → paper trading → broker API integration → AWS EC2 deployment → monitoring, logs aur alerts.\n\n⚠️ Disclaimer: Ye video sirf education ke liye hai. Ye financial advice nahi hai, aur koi bhi system profit ki guarantee nahi deta.\n\nChapters:\n0:00 Socho: system aapke liye trade kare\n0:16 Disclaimer\n0:28 Algo Trading kya hai?\n0:55 AI se strategy ka code\n1:24 Stage 1: Backtesting\n1:53 Stage 2: Paper Trading\n2:22 Stage 3: Broker API + error handling\n2:52 Laptop band = system band\n3:08 Stage 4: AWS EC2 deployment\n3:26 Professional algo ecosystem\n3:40 Database, Logs, Monitoring, Alerts\n3:57 AI ki limits + safety\n4:19 Poori journey recap\n4:41 Build smart. Test properly. Deploy responsibly.\n4:53 Aura Automation + CTA\n\nBuild smart. Test properly. Deploy responsibly.\n\n📅 Apna automation system banwana hai? Book a Free 30-Min Consultation: https://www.auraautomation.site/pages/contact.html\n💬 WhatsApp: +91 95874 02524\n\n#AlgoTrading #AIAutomation #AWS #AuraAutomation\n\n📌 Is video mein: AI ki madad se algo trading system kaise banaye — strategy, backtesting aur AWS EC2 par deployment tak. (Sirf educational, financial advice nahi.)\nइस वीडियो में: एआई से एल्गो ट्रेडिंग सिस्टम, बैकटेस्टिंग और एडब्ल्यूएस पर डिप्लॉयमेंट — केवल शैक्षिक जानकारी।\nIn this video: Build an algo trading system with AI, from backtesting to AWS EC2 deployment. Educational only, not financial advice.",
+      "publishedAt": "2026-10-03T13:30:23Z",
+      "durationSec": 306,
+      "thumbs": {
+        "mq": "https://i.ytimg.com/vi/qWPMcOSFA6Y/mqdefault.jpg",
+        "hq": "https://i.ytimg.com/vi/qWPMcOSFA6Y/hqdefault.jpg",
+        "max": "https://i.ytimg.com/vi/qWPMcOSFA6Y/maxresdefault.jpg",
+        "vertical": null
+      },
+      "playlists": [
+        "PLTGxIVVo8v_c"
+      ],
+      "removed": false
+    },
+    {
+      "id": "uDp-a0RfEck",
+      "slug": "ai-se-algo-trading-system-kaise-banayein-hindi",
+      "kind": "short",
+      "title": "AI se Algo Trading System Kaise Banayein?  (Hindi) #AlgoTrading #AIAutomation #AWS",
+      "description": "Trading idea → AI se code → backtesting → paper trading → broker API → AWS EC2 pe live 🤖📈\nPoori journey step-by-step (full video) 👉 https://youtu.be/qWPMcOSFA6Y\n\n⚠️ Sirf education ke liye — financial advice nahi, profit ki koi guarantee nahi.\n🌐 https://auraautomation.site\n\n#AlgoTrading #AIAutomation #AWS #TradingBot #AuraAutomation #Shorts\n\n📌 Is video mein: AI ki madad se algo trading system kaise banaye — strategy, backtesting aur AWS EC2 par deployment tak. (Sirf educational, financial advice nahi.)\nइस वीडियो में: एआई से एल्गो ट्रेडिंग सिस्टम, बैकटेस्टिंग और एडब्ल्यूएस पर डिप्लॉयमेंट — केवल शैक्षिक जानकारी।\nIn this video: Build an algo trading system with AI, from backtesting to AWS EC2 deployment. Educational only, not financial advice.",
+      "publishedAt": "2026-10-03T12:30:06Z",
+      "durationSec": 56,
+      "thumbs": {
+        "mq": "https://i.ytimg.com/vi/uDp-a0RfEck/mqdefault.jpg",
+        "hq": "https://i.ytimg.com/vi/uDp-a0RfEck/hqdefault.jpg",
+        "max": "https://i.ytimg.com/vi/uDp-a0RfEck/maxresdefault.jpg",
+        "vertical": "https://i.ytimg.com/vi/uDp-a0RfEck/oar2.jpg"
+      },
+      "playlists": [],
+      "removed": false
+    },
+    {
+      "id": "X1vCtsVrbQk",
+      "slug": "chatbot-vs-ai-agent-farak-kya-hai-hindi",
+      "kind": "short",
+      "title": "Chatbot vs AI Agent — Farak Kya Hai? 🤖 (Hindi)",
+      "description": "Chatbot sirf jawab deta hai… AI Agent kaam karke deta hai 🤖\nPoora farak (Automation vs Chatbot vs AI Agent) 👉 https://youtu.be/pWk1yY2bdhk\n🌐 https://auraautomation.site\n\n#AIAgent #Chatbot #BusinessAutomation #AuraAutomation #Shorts\n\n📌 Is video mein: AI agent, chatbot aur automation me asli farak kya hai, aur business ke liye kaunsa sahi hai — simple examples ke saath.\nइस वीडियो में: एआई एजेंट, चैटबॉट और ऑटोमेशन में फर्क, बिज़नेस उदाहरणों के साथ।\nIn this video: The real difference between AI agents, chatbots and automation, and which one a business needs.",
+      "publishedAt": "2026-09-08T00:45:11Z",
+      "durationSec": 68,
+      "thumbs": {
+        "mq": "https://i.ytimg.com/vi/X1vCtsVrbQk/mqdefault.jpg",
+        "hq": "https://i.ytimg.com/vi/X1vCtsVrbQk/hqdefault.jpg",
+        "max": "https://i.ytimg.com/vi/X1vCtsVrbQk/maxresdefault.jpg",
+        "vertical": "https://i.ytimg.com/vi/X1vCtsVrbQk/oar2.jpg"
+      },
+      "playlists": [],
+      "removed": false
+    }
+  ]
+}
