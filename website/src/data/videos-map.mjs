@@ -33,7 +33,11 @@ export const videoMap = {
     [/n8n|automation|automate|\bai\b|chatgpt|gemini|claude|agent|workflow|instagram|sheet/i, 'ai'],
   ],
   exclude: [
-    // 'VIDEO_ID',
+    'j3WAtU5xc7I',   // Short "98% Match… Reply: hmm" (dating app)
+    'O9Zjg2zXdys',   // "Dating App Match Kaise Karwata Hai? Algorithm Explained"
+    'qWPMcOSFA6Y',   // "AI se Algo Trading System Kaise Banayein?" (video)
+    'uDp-a0RfEck',   // "AI se Algo Trading System Kaise Banayein?" (Short)
+    'NTo33jVUPB4',   // duplicate Short "AI Website Launch Pe CRASH? 5 Wajah" (7 Oct) — 1Nu27YkInTI (9 Oct) kept
   ],
   /* description lines dropped on the website (channel boilerplate) */
   boilerplate: [
