@@ -47,13 +47,33 @@ export const linkify = (text) => esc(text).replace(/https?:\/\/[^\s<]+/g, (u) =>
 });
 export const descHtml = (d) => d.paragraphs.map((p) => `<p>${p.map(linkify).join('<br>')}</p>`).join('');
 
+/* returns [serviceKey|null, source] — source: override | playlist | keyword | none */
 export function serviceFor(v) {
-  if (Object.prototype.hasOwnProperty.call(videoMap.overrides, v.id)) return videoMap.overrides[v.id];
-  for (const pid of v.playlists || []) if (videoMap.playlists[pid]) return videoMap.playlists[pid];
-  for (const [re, key] of videoMap.keywords) if (re.test(v.title)) return key;
+  if (Object.prototype.hasOwnProperty.call(videoMap.overrides, v.id)) return [videoMap.overrides[v.id], 'override'];
+  for (const pid of v.playlists || []) if (videoMap.playlists[pid]) return [videoMap.playlists[pid], 'playlist'];
+  for (const [re, key] of videoMap.keywords) if (re.test(v.title)) return [key, 'keyword'];
   const head = String(v.description || '').slice(0, 400);
-  for (const [re, key] of videoMap.keywords) if (re.test(head)) return key;
-  return null;
+  for (const [re, key] of videoMap.keywords) if (re.test(head)) return [key, 'keyword'];
+  return [null, 'none'];
+}
+
+/* Shorts are cut from a long video published around the same time but are never
+   in a playlist. A Short whose service came from keywords (or nothing) inherits
+   the service of a long video within ±4 days that shares ≥2 title words. */
+const tokens = (t) => new Set(cleanTitle(t).toLowerCase().replace(/[^\p{L}\p{N}\s]/gu, ' ').split(/\s+/).filter((w) => w.length >= 4 || /^\d{3,}$/.test(w)));
+export function pairShorts(list) {
+  const longs = list.filter((v) => v.kind !== 'short');
+  for (const s of list) {
+    if (s.kind !== 'short' || s.serviceSource === 'override' || s.serviceSource === 'playlist') continue;
+    const st = tokens(s.title); let best = null, bestN = 1;
+    for (const l of longs) {
+      if (Math.abs(Date.parse(l.publishedAt) - Date.parse(s.publishedAt)) > 4 * 864e5) continue;
+      const n = [...tokens(l.title)].filter((w) => st.has(w)).length;
+      if (n > bestN) { best = l; bestN = n; }
+    }
+    if (best && best.service) { s.service = best.service; s.serviceMeta = serviceMeta(best.service); s.serviceSource = `pair:${best.id}`; }
+  }
+  return list;
 }
 const serviceMeta = (key) => {
   const s = key && site.services.find((x) => x.key === key);
@@ -67,12 +87,12 @@ const durIso = (sec) => sec === null || sec === undefined ? null : `PT${sec >= 3
 const dateLabel = (iso) => new Date(iso).toLocaleDateString('en-IN', { day: '2-digit', month: 'short', year: 'numeric', timeZone: 'Asia/Kolkata' });
 
 const shape = (raw) => {
-  const service = serviceFor(raw);
+  const [service, serviceSource] = serviceFor(raw);
   return {
     ...raw,
     titleClean: cleanTitle(raw.title),
     desc: cleanDescription(raw.description),
-    service, serviceMeta: serviceMeta(service),
+    service, serviceMeta: serviceMeta(service), serviceSource,
     durationLabel: durLabel(raw.durationSec), durationIso: durIso(raw.durationSec),
     dateLabel: dateLabel(raw.publishedAt),
     url: `${site.origin}/videos/${raw.slug}.html`,
@@ -87,7 +107,7 @@ export function loadVideos(paths) {
   let data = null;
   if (file) { try { data = JSON.parse(readFileSync(file, 'utf8')); } catch (e) { console.warn(`  ⚠ videos: ${file} unreadable (${e.message}) — building without videos`); } }
   const raw = (data && Array.isArray(data.videos) ? data.videos : []).filter((v) => v && /^[A-Za-z0-9_-]{11}$/.test(v.id) && /^[a-z0-9-]+$/.test(v.slug));
-  const live = raw.filter((v) => !v.removed && !videoMap.exclude.includes(v.id)).map(shape)
+  const live = pairShorts(raw.filter((v) => !v.removed && !videoMap.exclude.includes(v.id)).map(shape))
     .sort((a, b) => String(b.publishedAt).localeCompare(String(a.publishedAt)));
   return {
     file, source: data ? data.source : null, fetchedAt: data ? data.fetchedAt : null, playlists: (data && data.playlists) || [],
