@@ -1,0 +1,73 @@
+name: YouTube Feed — Auto Refresh
+
+# Refreshes data/videos.json from the YouTube Data API v3 (scripts/fetch-youtube.js).
+# The website build only READS this file, so a failed fetch never breaks a deploy:
+# on any error the script exits non-zero without writing and nothing is committed.
+# The bot commit triggers "Website — Build & Deploy" through workflow_run.
+on:
+  schedule:
+    - cron: '30 1 * * *'     # daily 01:30 UTC = 07:00 IST
+  workflow_dispatch:          # manual trigger from the Actions UI
+
+permissions:
+  contents: write             # to commit data/videos.json
+
+concurrency:
+  group: youtube-feed
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v5
+        with:
+          ref: main
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Node 20
+        uses: actions/setup-node@v5
+        with:
+          node-version: '20'
+
+      - name: Validate secret
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: |
+          if [ -z "$YOUTUBE_API_KEY" ]; then echo "::error::YOUTUBE_API_KEY secret is not set."; exit 1; fi
+          echo "✓ key loaded (${#YOUTUBE_API_KEY} chars)"
+
+      - name: Fetch channel videos
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          YOUTUBE_CHANNEL_ID: UCGvvp1dn6jiXIBXpLs6WMGA
+        run: node scripts/fetch-youtube.js
+
+      - name: Verify data/videos.json
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: |
+          set -e
+          test -f data/videos.json || { echo "::error::data/videos.json missing"; exit 1; }
+          N=$(node -e "const f=require('./data/videos.json');process.stdout.write(String(f.videos.filter(v=>!v.removed).length))")
+          echo "public videos in JSON: $N"
+          test "$N" -gt 0 || { echo "::error::0 public videos — refusing to commit"; exit 1; }
+          if grep -qF "$YOUTUBE_API_KEY" data/videos.json; then echo "::error::API key found in JSON — refusing to commit"; exit 1; fi
+          ! grep -qE 'AIza[0-9A-Za-z_-]{35}' data/videos.json
+          echo "✓ JSON valid, no key material"
+
+      - name: Detect changes
+        id: changes
+        run: |
+          git add -N data/videos.json
+          git diff --quiet -- data/videos.json && echo "changed=false" >> "$GITHUB_OUTPUT" || echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Commit updated feed
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name  "TradeAura YouTube Bot"
+          git config user.email "bot@auraautomation.site"
+          git add data/videos.json
+          git commit -m "chore(youtube): auto-refresh videos [$(date -u '+%Y-%m-%d %H:%M UTC')]"
+          git push
