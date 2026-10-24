@@ -11,6 +11,8 @@ import { fileURLToPath } from 'node:url';
 import { build as buildHome } from './src/pages/index.mjs';
 import * as inner from './src/pages/inner.mjs';
 import { extract, renderArticle, renderIndex } from './src/news/retheme.mjs';
+import { loadVideos } from './src/lib/videos.mjs';
+import * as vid from './src/pages/videos.mjs';
 import { site } from './src/data/site.mjs';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
@@ -97,8 +99,18 @@ const nMedia = copyDir(join(LEGACY, 'assets'), join(DIST, 'assets'));
 log(`  legacy media      ${nMedia} files (unchanged)`);
 
 /* ── 3. marketing pages ────────────────────────────────────── */
+/* ── 3a. videos — data/videos.json, written by the "YouTube Feed" workflow.
+   The build never calls YouTube; a missing or unreadable file simply means
+   an empty catalogue (the page still builds, the home section is omitted). */
+const videos = loadVideos([process.env.TA_VIDEOS, join(HERE, '..', 'data', 'videos.json'), join(LEGACY, 'data', 'videos.json')]);
+const videoPages = [
+  ...videos.all.map((v) => [`videos/${v.slug}.html`, vid.page(v, videos)]),
+  ...videos.removed.filter((v) => !videos.all.some((x) => x.slug === v.slug)).map((v) => [`videos/${v.slug}.html`, vid.gone(v)]),
+];
+
 const pages = [
-  ['index.html', buildHome()],
+  ['index.html', buildHome({ videos })],
+  ['pages/videos.html', vid.index(videos)],
   ['pages/solutions.html', inner.solutions()],
   ['pages/services.html', inner.services()],
   ['pages/projects.html', inner.projects()],
@@ -115,6 +127,8 @@ const pages = [
 ];
 pages.forEach(([rel, html]) => write(rel, html));
 log(`  marketing pages   ${pages.length}`);
+videoPages.forEach(([rel, html]) => write(rel, html));
+log(`  videos            ${videos.videos.length} videos + ${videos.shorts.length} shorts, ${videos.removed.length} tombstones${videos.file ? ` (${videos.source}, ${relative(HERE, videos.file)})` : ' (no data/videos.json — empty catalogue)'}`);
 
 /* ── 4. news — transform every existing file, URLs frozen ──── */
 const newsDir = join(LEGACY, 'news');
@@ -151,6 +165,8 @@ const urls = [
   // error.html is the 404 document — it is noindex and must never be advertised in the sitemap.
   ...pages.filter(([r]) => r !== 'index.html' && r !== 'error.html' && !r.startsWith('legal/')).map(([r]) => ({ loc: `${site.origin}/${r}`, pri: '0.8', freq: 'monthly' })),
   { loc: `${site.origin}/news/index.html`, pri: '0.9', freq: 'daily' },
+  // tombstone pages are noindex and stay out of the sitemap
+  ...videos.all.map((v) => ({ loc: v.url, pri: '0.6', freq: 'monthly' })),
   ...articles.map((a) => ({ loc: a.canonical || `${site.origin}/news/${a.file}`, pri: '0.6', freq: 'monthly' })),
   ...failures.map((f) => ({ loc: `${site.origin}/news/${f}`, pri: '0.6', freq: 'monthly' })),
   ...pages.filter(([r]) => r.startsWith('legal/')).map(([r]) => ({ loc: `${site.origin}/${r}`, pri: '0.2', freq: 'yearly' })),

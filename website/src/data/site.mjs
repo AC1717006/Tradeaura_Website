@@ -71,6 +71,7 @@ export const site = {
       title: 'Resources',
       links: [
         { label: 'News', href: 'news/index.html' },
+        { label: 'Videos', href: 'pages/videos.html' },
         { label: 'Contact', href: 'pages/contact.html' },
         { label: 'Login', href: 'login.html' },
       ],

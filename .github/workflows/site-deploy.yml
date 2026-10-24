@@ -21,6 +21,7 @@ on:
       - 'website/**'
       - 'news/**'
       - 'data/news.json'
+      - 'data/videos.json'
       - 'assets/**'
       - 'instagram-feed.json'
       - 'index.html'
@@ -30,7 +31,7 @@ on:
   # so their completion triggers the deploy instead (same reason the old
   # deploy.yml listed News Hub here).
   workflow_run:
-    workflows: ["News Hub — Auto Refresh", "Instagram Feed — Auto Refresh", "News Hub — Admin Actions"]
+    workflows: ["News Hub — Auto Refresh", "Instagram Feed — Auto Refresh", "News Hub — Admin Actions", "YouTube Feed — Auto Refresh"]
     types: [completed]
   workflow_dispatch:
     inputs:
@@ -97,6 +98,7 @@ jobs:
           echo "dist: $FILES files, $HTML html pages"
           test "$FILES" -ge 600 || { echo "::error::dist too small ($FILES files) — refusing to deploy"; exit 1; }
           test -f website/dist/index.html
+          test -f website/dist/pages/videos.html
           test -f website/dist/assets/js/chat.js
           test -f website/dist/assets/js/ta-analytics.js
           grep -q 'legal/privacy.html' website/dist/index.html
