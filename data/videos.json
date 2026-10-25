@@ -2,7 +2,7 @@
   "channelId": "UCGvvp1dn6jiXIBXpLs6WMGA",
   "channelTitle": "Aura Automation",
   "source": "api",
-  "fetchedAt": "2026-10-24T11:42:27.538Z",
+  "fetchedAt": "2026-10-25T06:34:44.368Z",
   "playlists": [
     {
       "id": "PLJ99Uf4p0PzQ",
@@ -18,6 +18,42 @@
     }
   ],
   "videos": [
+    {
+      "id": "4nuudv7v6Pc",
+      "slug": "1-000-ka-claude-free-claude-for-startups",
+      "kind": "short",
+      "title": "$1,000 Ka Claude FREE! 🎁 Claude for Startups #shorts #claude",
+      "description": "Anthropic ke Claude for Startups program mein $1,000 API credit + Claude Team 1 saal free + software discounts! 🎁\n\n✅ Bootstrapped startups bhi apply kar sakte hain\n❌ Gmail nahi — company domain email chahiye\n⚠️ Credit 6 mahine mein expire\n\n▶️ Poori details: https://youtu.be/usYOOFI_8Vk\nℹ️ Info Oct 2026 — terms badal sakti hain, approval guaranteed nahi.\n\n📌 Is video mein:\nHinglish: Claude free credit kaise le, Claude for Startups apply\nHindi: क्लॉड फ्री क्रेडिट कैसे लें\nEnglish: free Claude API credits for startups\n\n🌐 https://www.auraautomation.site\n💬 WhatsApp: +91 95874 02524\n\n#shorts #claude #anthropic #startup #aitools",
+      "publishedAt": "2026-10-24T12:29:08Z",
+      "durationSec": 27,
+      "thumbs": {
+        "mq": "https://i.ytimg.com/vi/4nuudv7v6Pc/mqdefault.jpg",
+        "hq": "https://i.ytimg.com/vi/4nuudv7v6Pc/hqdefault.jpg",
+        "max": "https://i.ytimg.com/vi/4nuudv7v6Pc/maxresdefault.jpg",
+        "vertical": "https://i.ytimg.com/vi/4nuudv7v6Pc/oar2.jpg"
+      },
+      "playlists": [],
+      "removed": false
+    },
+    {
+      "id": "usYOOFI_8Vk",
+      "slug": "claude-ka-1-000-free-credit-kaise-le-claude-for-startups-program-hindi",
+      "kind": "video",
+      "title": "Claude Ka $1,000 FREE Credit Kaise Le? 🎁 Claude for Startups Program (Hindi)",
+      "description": "Claude ka API bill dekh ke dar lagta hai? 😅 Anthropic ke Claude for Startups program mein mil sakta hai $1,000 (~₹85,000) ka API credit! 🎁\n\nIs video mein:\n🎁 Kya milta hai: $1,000 API credit, Claude Team 1 saal free (5 users tak), $45,000 tak software discounts, higher rate limits\n🎁 Kaun apply kar sakta hai: bootstrapped, pre-seed, VC-backed — company 5 saal se nayi ho YA pichhle 2 saal mein funding mili ho\n🎁 Zaroori: Claude Console account + company domain email (Gmail nahi!)\n🎁 Apply kaise karein — 3 steps\n⚠️ Credit 6 mahine mein expire, sirf Anthropic API pe (Bedrock/Vertex nahi)\n💰 Partner VC-backed startups: $100,000 tak extra credit\n\nℹ️ Info October 2026 ki hai — terms badal sakti hain. Approval guaranteed nahi. Official page: https://claude.com/programs/startups\n\n👉 Comment karo \"CLAUDE\" — link DM mein!\n\n📌 Is video mein:\nHinglish: Claude free credit kaise le, Claude for Startups apply kaise kare, Anthropic API free credits\nHindi: क्लॉड फ्री क्रेडिट कैसे लें, स्टार्टअप के लिए AI क्रेडिट\nEnglish: Claude for Startups program, free Claude API credits for startups 2026\n\n🔔 Aise aur videos ke liye Subscribe karo: Automation, Vibe Coding aur Error Fix — simple Hinglish mein.\n📅 Free 30-Min Consultation: https://www.auraautomation.site/pages/contact.html\n🌐 Website: https://www.auraautomation.site\n📸 Instagram: https://www.instagram.com/auraautomation.in\n💬 WhatsApp: +91 95874 02524\n\n#claude #anthropic #startup #aitools #hindi #auraautomation",
+      "publishedAt": "2026-10-24T12:28:03Z",
+      "durationSec": 95,
+      "thumbs": {
+        "mq": "https://i.ytimg.com/vi/usYOOFI_8Vk/mqdefault.jpg",
+        "hq": "https://i.ytimg.com/vi/usYOOFI_8Vk/hqdefault.jpg",
+        "max": "https://i.ytimg.com/vi/usYOOFI_8Vk/maxresdefault.jpg",
+        "vertical": null
+      },
+      "playlists": [
+        "PLPkZbJ1EznD4"
+      ],
+      "removed": false
+    },
     {
       "id": "xtq3gtSIPPA",
       "slug": "instagram-pe-khud-post-ho-jaaye-auto-post-system",
