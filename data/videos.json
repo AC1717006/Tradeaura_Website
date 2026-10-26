@@ -2,7 +2,7 @@
   "channelId": "UCGvvp1dn6jiXIBXpLs6WMGA",
   "channelTitle": "Aura Automation",
   "source": "api",
-  "fetchedAt": "2026-10-25T06:34:44.368Z",
+  "fetchedAt": "2026-10-26T06:44:32.023Z",
   "playlists": [
     {
       "id": "PLJ99Uf4p0PzQ",
@@ -18,6 +18,42 @@
     }
   ],
   "videos": [
+    {
+      "id": "AZrl-4ATNY8",
+      "slug": "ye-dekh-ke-maza-aaya-aapka-app-bhi-aise-hi-girega",
+      "kind": "short",
+      "title": "Ye dekh ke maza aaya? Aapka app bhi aise hi girega 😏💀  #quiz #securecloud #earnmoney",
+      "description": "🔔 Aise aur videos ke liye Subscribe karo: Automation, Vibe Coding aur Error Fix — simple Hinglish mein.\n\n📅 Free 30-Min Consultation: https://www.auraautomation.site/pages/contact.html\n🌐 Website: https://www.auraautomation.site\n📸 Instagram: https://www.instagram.com/auraautomation.in\n💬 WhatsApp: +91 95874 02524\n\n#automation #vibecoding #hindi #auraautomation",
+      "publishedAt": "2026-10-25T13:09:17Z",
+      "durationSec": 33,
+      "thumbs": {
+        "mq": "https://i.ytimg.com/vi/AZrl-4ATNY8/mqdefault.jpg",
+        "hq": "https://i.ytimg.com/vi/AZrl-4ATNY8/hqdefault.jpg",
+        "max": "https://i.ytimg.com/vi/AZrl-4ATNY8/maxresdefault.jpg",
+        "vertical": "https://i.ytimg.com/vi/AZrl-4ATNY8/oar2.jpg"
+      },
+      "playlists": [],
+      "removed": false
+    },
+    {
+      "id": "WAb-pZ0LEuQ",
+      "slug": "vibe-coding-ki-7-galtiyan-jo-ai-app-ko-barbaad-kar-deti-hain-part-1-hi",
+      "kind": "video",
+      "title": "Vibe Coding Ki 7 Galtiyan 💀 Jo AI App Ko Barbaad Kar Deti Hain | Part 1 (Hindi)",
+      "description": "AI se 2 ghante mein app bana diya… aur 2 din baad sab gayab? 💀 Vibe coding mein ye 7 galtiyan 90% log karte hain — aur number 4 sabse khatarnak hai!\n\nIs video mein:\n❌ Galti 1: Bina plan ke shuru karna — pehle 5 line ka plan\n❌ Galti 2: Ek prompt mein poora app — ek baar mein ek feature\n❌ Galti 3: \"Accept All\" bina padhe\n❌ Galti 4: Save point nahi — Git commit = aapka undo button\n❌ Galti 5: AI ko bas \"fix it\" bolna — poora error + context do\n❌ Galti 6: Sirf apne laptop pe test\n❌ Galti 7: Har hafte naya AI tool\n\n📺 Part 2 jaldi: launch ke baad wali galtiyan!\n💬 Comment karo — aapne kaunsi galti ki hai?\n\n📌 Is video mein:\nHinglish: vibe coding galtiyan, AI se app kaise banaye, vibe coding kaise seekhe\nHindi: वाइब कोडिंग की गलतियां, AI से ऐप बनाने में गलतियां\nEnglish: vibe coding mistakes beginners make, AI app building tips\n\n🔔 Aise aur videos ke liye Subscribe karo: Automation, Vibe Coding aur Error Fix — simple Hinglish mein.\n📅 Free 30-Min Consultation: https://www.auraautomation.site/pages/contact.html\n🌐 Website: https://www.auraautomation.site\n📸 Instagram: https://www.instagram.com/auraautomation.in\n💬 WhatsApp: +91 95874 02524\n\n#vibecoding #aicoding #appdevelopment #hindi #auraautomation",
+      "publishedAt": "2026-10-25T12:30:22Z",
+      "durationSec": 155,
+      "thumbs": {
+        "mq": "https://i.ytimg.com/vi/WAb-pZ0LEuQ/mqdefault.jpg",
+        "hq": "https://i.ytimg.com/vi/WAb-pZ0LEuQ/hqdefault.jpg",
+        "max": "https://i.ytimg.com/vi/WAb-pZ0LEuQ/maxresdefault.jpg",
+        "vertical": null
+      },
+      "playlists": [
+        "PLPkZbJ1EznD4"
+      ],
+      "removed": false
+    },
     {
       "id": "4nuudv7v6Pc",
       "slug": "1-000-ka-claude-free-claude-for-startups",
