@@ -2,7 +2,7 @@
   "channelId": "UCGvvp1dn6jiXIBXpLs6WMGA",
   "channelTitle": "Aura Automation",
   "source": "api",
-  "fetchedAt": "2026-10-26T06:44:32.023Z",
+  "fetchedAt": "2026-10-27T06:38:16.903Z",
   "playlists": [
     {
       "id": "PLJ99Uf4p0PzQ",
@@ -18,6 +18,42 @@
     }
   ],
   "videos": [
+    {
+      "id": "spYNr6oxt1A",
+      "slug": "lead-ko-10-second-mein-whatsapp-reply-ai-automation",
+      "kind": "short",
+      "title": "Lead Ko 10 Second Mein WhatsApp Reply 🤖 AI Automation #shorts #automation",
+      "description": "Raat 11 baje lead aaya… aur subah tak chala gaya? 😩 Aisa system banao jo 10 second mein khud reply kare!\n\n✅ Form bhara → entry Google Sheet mein\n✅ n8n + AI ne personal reply likha\n✅ WhatsApp pe bhej diya + owner ko alert\n\n▶️ Poora step-by-step tutorial: https://youtu.be/o3JHpqb-sCI\n👉 Ye setup chahiye? Comment karo \"AUTO\"\n\n📌 Is video mein:\nHinglish: WhatsApp automation kaise kare, n8n tutorial hindi\nHindi: व्हाट्सएप ऑटोमेशन कैसे करें\nEnglish: AI WhatsApp auto reply with n8n and Google Sheets\n\n🌐 https://www.auraautomation.site\n💬 WhatsApp: +91 95874 02524\n\n#shorts #automation #n8n #whatsappautomation #aiautomation",
+      "publishedAt": "2026-10-25T17:46:17Z",
+      "durationSec": 34,
+      "thumbs": {
+        "mq": "https://i.ytimg.com/vi/spYNr6oxt1A/mqdefault.jpg",
+        "hq": "https://i.ytimg.com/vi/spYNr6oxt1A/hqdefault.jpg",
+        "max": "https://i.ytimg.com/vi/spYNr6oxt1A/maxresdefault.jpg",
+        "vertical": "https://i.ytimg.com/vi/spYNr6oxt1A/oar2.jpg"
+      },
+      "playlists": [],
+      "removed": false
+    },
+    {
+      "id": "o3JHpqb-sCI",
+      "slug": "zero-se-apna-pehla-ai-automation-banao-whatsapp-google-sheet-ai-comple",
+      "kind": "video",
+      "title": "Zero Se Apna Pehla AI Automation Banao 🤖 WhatsApp + Google Sheet + AI | Complete Tutorial (Hindi)",
+      "description": "Raat 11 baje lead aaya… aur subah tak competitor le gaya? 😩 Is complete tutorial mein zero se banayenge ek AI Lead Assistant — jo form bharte hi 10 second mein customer ko WhatsApp pe personal reply bhejta hai. Koi coding nahi!\n\n⏱️ Chapters\n0:00 Raat 11:47 ka lead — competitor le gaya\n0:23 Kya banayenge: AI Lead Assistant (flow)\n0:53 Kya chahiye: 4 cheezein + kharcha\n1:24 Step 1: Google Form + Sheet (Status column)\n2:15 Step 2: n8n setup — Google Sheets Trigger\n3:10 Step 3: AI node + prompt\n4:42 Step 4: WhatsApp node + Meta template\n5:58 Step 5: Owner alert + Status + Executions\n6:46 Live test + roz ka kharcha\n7:43 5 galtiyan jo mat karna\n8:12 Part 2 mein kya aayega\n8:31 Comment AUTO / free consultation\n\n🧩 Tools: Google Forms, Google Sheets, n8n, AI (ChatGPT / Claude / Gemini API), WhatsApp Business Cloud API (Meta)\n⚠️ Business-initiated WhatsApp message ke liye Meta-approved template chahiye. WhatsApp message charges Meta ki pricing ke hisaab se lagte hain — apne country ke rates check karein.\n\n👉 Ye setup apne business mein chahiye? Comment karo \"AUTO\" ya free consultation book karo 👇\n\n📌 Is video mein:\nHinglish: automation kaise banaye, WhatsApp automation kaise kare, n8n tutorial hindi, AI automation for business\nHindi: ऑटोमेशन कैसे बनाएं, व्हाट्सएप ऑटोमेशन, एआई से बिजनेस ऑटोमेशन\nEnglish: how to build AI automation with n8n, WhatsApp and Google Sheets — beginner tutorial\n\n🔔 Aise aur videos ke liye Subscribe karo: Automation, Vibe Coding aur Error Fix — simple Hinglish mein.\n📅 Free 30-Min Consultation: https://www.auraautomation.site/pages/contact.html\n🌐 Website: https://www.auraautomation.site\n📸 Instagram: https://www.instagram.com/auraautomation.in\n💬 WhatsApp: +91 95874 02524\n\n#automation #n8n #whatsappautomation #aiautomation #hindi #auraautomation",
+      "publishedAt": "2026-10-25T17:44:33Z",
+      "durationSec": 525,
+      "thumbs": {
+        "mq": "https://i.ytimg.com/vi/o3JHpqb-sCI/mqdefault.jpg",
+        "hq": "https://i.ytimg.com/vi/o3JHpqb-sCI/hqdefault.jpg",
+        "max": "https://i.ytimg.com/vi/o3JHpqb-sCI/maxresdefault.jpg",
+        "vertical": null
+      },
+      "playlists": [
+        "PLTGxIVVo8v_c"
+      ],
+      "removed": false
+    },
     {
       "id": "AZrl-4ATNY8",
       "slug": "ye-dekh-ke-maza-aaya-aapka-app-bhi-aise-hi-girega",
