@@ -2,7 +2,7 @@
   "channelId": "UCGvvp1dn6jiXIBXpLs6WMGA",
   "channelTitle": "Aura Automation",
   "source": "api",
-  "fetchedAt": "2026-11-02T07:59:48.182Z",
+  "fetchedAt": "2026-11-03T08:21:48.659Z",
   "playlists": [
     {
       "id": "PLJ99Uf4p0PzQ",
@@ -18,6 +18,44 @@
     }
   ],
   "videos": [
+    {
+      "id": "yTCEdIEil7o",
+      "slug": "90-accuracy-wala-ai-trading-bot-pehle-ye-dekho",
+      "kind": "short",
+      "title": "90% Accuracy Wala AI Trading Bot? 🚨 Pehle Ye Dekho #shorts #aitrading",
+      "description": "Telegram pe \"90% accuracy\" wala AI bot? 🚨 Pakka profit koi nahi de sakta!\nAI ka sahi use: ✅ Company report samjho ✅ Strategy backtest karo ✅ Har trade se pehle risk calculate karo.\n\n⚠️ Sirf educational. Ye financial / investment advice nahi hai. Trading mein risk hai.\n▶️ Poori video (7 tareeke + 3 galtiyan): https://youtu.be/Uyi7w7tmB44\n\n🔔 Aise aur videos ke liye Subscribe karo: Automation, Vibe Coding aur Error Fix — simple Hinglish mein.\n📅 Free 30-Min Consultation: https://www.auraautomation.site/pages/contact.html\n🌐 Website: https://www.auraautomation.site\n📸 Instagram: https://www.instagram.com/auraautomation.in\n💬 WhatsApp: +91 95874 02524\n\n#shorts #aitrading #trading #stockmarket #hindi #auraautomation",
+      "publishedAt": "2026-11-02T12:45:12Z",
+      "durationSec": 35,
+      "thumbs": {
+        "mq": "https://i.ytimg.com/vi/yTCEdIEil7o/mqdefault.jpg",
+        "hq": "https://i.ytimg.com/vi/yTCEdIEil7o/hqdefault.jpg",
+        "max": "https://i.ytimg.com/vi/yTCEdIEil7o/maxresdefault.jpg",
+        "vertical": "https://i.ytimg.com/vi/yTCEdIEil7o/oar2.jpg"
+      },
+      "playlists": [
+        "PLTGxIVVo8v_c"
+      ],
+      "removed": false
+    },
+    {
+      "id": "Uyi7w7tmB44",
+      "slug": "trading-mein-ai-ka-sahi-use-7-tareeke-3-khatarnak-galtiyan-ai-trading",
+      "kind": "video",
+      "title": "Trading Mein AI Ka Sahi Use 📈 7 Tareeke + 3 Khatarnak Galtiyan | AI Trading Ka Sach (Hindi)",
+      "description": "Telegram pe \"90% accuracy wala AI trading bot\"? 🚨 Ruko! Is video mein sach: AI ko kal ka bhav nahi pata — par research, concepts, rules, backtesting, trading journal, risk calculator aur alerts mein AI aapka sabse tez assistant ban sakta hai. Saath mein 3 khatarnak galtiyan aur scam ke signs.\n\n⚠️ Disclaimer: Ye video sirf educational hai. Ye financial / investment advice nahi hai. Koi stock buy ya sell karne ki salah nahi di gayi hai. Trading mein risk hai — apna research khud karein ya SEBI-registered advisor se salah lein.\n\n⏱️ Chapters\n0:00 Scam hook, vaada + disclaimer\n0:32 Sach: AI assistant hai\n1:03 Tareeka 1: Research\n1:46 Tareeka 2: Concepts\n2:09 Tareeka 3: Rules\n2:38 Tareeka 4: Backtesting\n3:40 Tareeka 5: Trading journal\n4:20 Tareeka 6: Risk calculator\n5:11 Tareeka 7: Alerts + algo\n6:00 Overfitting + paper trading\n6:46 3 galtiyan + scam signs\n7:46 Outro + disclaimer\n\n💬 Aap trading mein AI kis kaam ke liye use karte ho? Comment karo 👇\n👉 Prompt pack chahiye? Comment karo \"TRADE\"\n\n📌 Is video mein:\nHinglish: trading mein AI ka use kaise kare, AI trading kaise kare, ChatGPT se stock research, backtesting kaise kare\nHindi: ट्रेडिंग में एआई का उपयोग कैसे करें\nEnglish: how to use AI for trading the right way — research, backtesting, risk management (educational)\n\n🔔 Aise aur videos ke liye Subscribe karo: Automation, Vibe Coding aur Error Fix — simple Hinglish mein.\n📅 Free 30-Min Consultation: https://www.auraautomation.site/pages/contact.html\n🌐 Website: https://www.auraautomation.site\n📸 Instagram: https://www.instagram.com/auraautomation.in\n💬 WhatsApp: +91 95874 02524\n\n#aitrading #trading #stockmarket #chatgpt #hindi #auraautomation",
+      "publishedAt": "2026-11-02T12:30:09Z",
+      "durationSec": 489,
+      "thumbs": {
+        "mq": "https://i.ytimg.com/vi/Uyi7w7tmB44/mqdefault.jpg",
+        "hq": "https://i.ytimg.com/vi/Uyi7w7tmB44/hqdefault.jpg",
+        "max": "https://i.ytimg.com/vi/Uyi7w7tmB44/maxresdefault.jpg",
+        "vertical": null
+      },
+      "playlists": [
+        "PLTGxIVVo8v_c"
+      ],
+      "removed": false
+    },
     {
       "id": "qzS0DLj-doQ",
       "slug": "ai-agency-kholni-hai-pehle-ye-3-services-seekho",
