@@ -2,7 +2,7 @@
   "channelId": "UCGvvp1dn6jiXIBXpLs6WMGA",
   "channelTitle": "Aura Automation",
   "source": "api",
-  "fetchedAt": "2026-11-03T08:21:48.659Z",
+  "fetchedAt": "2026-11-04T07:50:46.110Z",
   "playlists": [
     {
       "id": "PLJ99Uf4p0PzQ",
@@ -18,6 +18,44 @@
     }
   ],
   "videos": [
+    {
+      "id": "9Gx58on2m84",
+      "slug": "har-enquiry-ka-auto-reply-free-mein-make-com-4-steps",
+      "kind": "short",
+      "title": "Har Enquiry Ka Auto Reply, FREE Mein 🤯 Make.com 4 Steps #shorts #automation",
+      "description": "Har enquiry ka reply raat ko haath se? 😩 Make.com pe sirf 4 steps:\n✅ Sheet mein nayi entry\n✅ Gmail se personal thank-you email\n✅ Telegram pe aapko alert\n✅ Sheet mein status \"Emailed\"\nBina code, free plan pe, 15 minute mein! 🚀\n\n▶️ Poora step-by-step tutorial: https://youtu.be/AhG6rFL6SgY\n👉 Blueprint chahiye? Comment karo \"MAKE\"\n\n🔔 Aise aur videos ke liye Subscribe karo: Automation, Vibe Coding aur Error Fix — simple Hinglish mein.\n📅 Free 30-Min Consultation: https://www.auraautomation.site/pages/contact.html\n🌐 Website: https://www.auraautomation.site\n📸 Instagram: https://www.instagram.com/auraautomation.in\n💬 WhatsApp: +91 95874 02524\n\n#shorts #makecom #nocode #automation #hindi #auraautomation",
+      "publishedAt": "2026-11-03T13:45:11Z",
+      "durationSec": 36,
+      "thumbs": {
+        "mq": "https://i.ytimg.com/vi/9Gx58on2m84/mqdefault.jpg",
+        "hq": "https://i.ytimg.com/vi/9Gx58on2m84/hqdefault.jpg",
+        "max": "https://i.ytimg.com/vi/9Gx58on2m84/maxresdefault.jpg",
+        "vertical": "https://i.ytimg.com/vi/9Gx58on2m84/oar2.jpg"
+      },
+      "playlists": [
+        "PLTGxIVVo8v_c"
+      ],
+      "removed": false
+    },
+    {
+      "id": "AhG6rFL6SgY",
+      "slug": "make-com-tutorial-in-hindi-pehla-automation-15-min-mein-google-form-gm",
+      "kind": "video",
+      "title": "Make.com Tutorial in Hindi: Pehla Automation 15 Min Mein 🚀 Google Form → Gmail + Telegram (Free)",
+      "description": "Har enquiry ka reply raat ko haath se? 😩 Is video mein Make.com pe zero se pehla automation — bina code, free plan pe, sirf 15 minute mein!\n\nKya banayenge: Google Form bhara → Google Sheet mein nayi row → Gmail se personal thank-you email → Telegram pe aapko \"Naya lead\" alert → Sheet mein status \"Emailed\".\n\nIs video mein seekhoge:\n✅ Make ke 4 shabd: Scenario, Module, Trigger, Mapping\n✅ Free plan: 1,000 credits/month aur 15-min schedule ka hisaab\n✅ Step 1: Google Sheets – Watch New Rows (trigger)\n✅ Step 2: Gmail – Send an email + mapping + filter\n✅ Step 3: Telegram Bot alert (BotFather token + Chat ID)\n✅ Step 4: Sheet status update (double email se bachao)\n✅ History se error kaise fix kare + schedule ON karna\n✅ 5 galtiyan jo beginners karte hain\n\n👉 Ready-made scenario blueprint chahiye? Comment karo \"MAKE\" 👇\n\nℹ️ Make ke free plan ki limits time ke saath badal sakti hain — apne account mein ek baar check kar lein.\n\n📌 Is video mein:\nHinglish: make.com tutorial hindi, make.com kaise use kare, no code automation hindi, google form auto reply email\nHindi: मेक.कॉम ट्यूटोरियल हिंदी\nEnglish: Make.com tutorial for beginners — Google Form to Gmail and Telegram automation\n\n🔔 Aise aur videos ke liye Subscribe karo: Automation, Vibe Coding aur Error Fix — simple Hinglish mein.\n📅 Free 30-Min Consultation: https://www.auraautomation.site/pages/contact.html\n🌐 Website: https://www.auraautomation.site\n📸 Instagram: https://www.instagram.com/auraautomation.in\n💬 WhatsApp: +91 95874 02524\n\n#makecom #nocode #automation #hindi #googleforms #auraautomation",
+      "publishedAt": "2026-11-03T13:30:28Z",
+      "durationSec": 497,
+      "thumbs": {
+        "mq": "https://i.ytimg.com/vi/AhG6rFL6SgY/mqdefault.jpg",
+        "hq": "https://i.ytimg.com/vi/AhG6rFL6SgY/hqdefault.jpg",
+        "max": "https://i.ytimg.com/vi/AhG6rFL6SgY/maxresdefault.jpg",
+        "vertical": null
+      },
+      "playlists": [
+        "PLTGxIVVo8v_c"
+      ],
+      "removed": false
+    },
     {
       "id": "yTCEdIEil7o",
       "slug": "90-accuracy-wala-ai-trading-bot-pehle-ye-dekho",
