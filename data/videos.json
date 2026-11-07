@@ -2,7 +2,7 @@
   "channelId": "UCGvvp1dn6jiXIBXpLs6WMGA",
   "channelTitle": "Aura Automation",
   "source": "api",
-  "fetchedAt": "2026-11-06T08:19:15.549Z",
+  "fetchedAt": "2026-11-07T07:36:54.406Z",
   "playlists": [
     {
       "id": "PLJ99Uf4p0PzQ",
@@ -18,6 +18,44 @@
     }
   ],
   "videos": [
+    {
+      "id": "vMPwlw0aB78",
+      "slug": "interview-mein-dbt-aata-hai-bank-wala-dbt-nahi",
+      "kind": "short",
+      "title": "Interview Mein \"dbt Aata Hai?\" 💀 Bank Wala DBT Nahi! #shorts #dbt",
+      "description": "Interview mein poocha \"dbt aata hai?\"… maine bola bank wala DBT! 💀\ndbt = data build tool:\n✅ Warehouse ke andar sirf SQL se kachcha data → saaf tables\n✅ Har model ek SELECT file, ref() se order khud tay\n✅ Tests galti pakad lete hain\nFree: dbt Core + DuckDB.\n▶️ Poora 5 min tutorial: https://youtu.be/Vz8AM3Q55fg\n👉 Starter project chahiye? Comment karo \"DBT\"\n\n🔔 Subscribe karo: Automation, Vibe Coding aur Error Fix — simple Hinglish mein.\n📅 Free 30-Min Consultation: https://www.auraautomation.site/pages/contact.html\n🌐 https://www.auraautomation.site · 📸 https://www.instagram.com/auraautomation.in · 💬 +91 95874 02524\n\n#shorts #dbt #sql #dataengineering #hindi #auraautomation",
+      "publishedAt": "2026-11-06T12:45:00Z",
+      "durationSec": 29,
+      "thumbs": {
+        "mq": "https://i.ytimg.com/vi/vMPwlw0aB78/mqdefault.jpg",
+        "hq": "https://i.ytimg.com/vi/vMPwlw0aB78/hqdefault.jpg",
+        "max": "https://i.ytimg.com/vi/vMPwlw0aB78/maxresdefault.jpg",
+        "vertical": "https://i.ytimg.com/vi/vMPwlw0aB78/oar2.jpg"
+      },
+      "playlists": [
+        "PLTGxIVVo8v_c"
+      ],
+      "removed": false
+    },
+    {
+      "id": "Vz8AM3Q55fg",
+      "slug": "dbt-kya-hai-beginners-ke-liye-5-min-mein-hindi",
+      "kind": "video",
+      "title": "dbt Kya Hai? Beginners Ke Liye 5 Min Mein (Hindi) 🧱",
+      "description": "Interview mein poocha \"dbt aata hai?\" aur aapne bola bank wala DBT? 😅 Is 5 minute ke video mein dbt (data build tool) bilkul zero se — aur free mein laptop pe ek asli mini project bhi chalayenge (dbt Core + DuckDB).\n\nKya seekhoge:\n✅ dbt kya hai — ELT ka \"T\" (Transform)\n✅ Model, ref(), materialization (view / table / incremental), lineage graph\n✅ Asli demo: dbt seed → dbt run → dbt test (FAIL → fix → PASS)\n✅ dbt docs + lineage graph\n✅ 5 steps mein khud kaise shuru karein + dbt build\n\n⏱️ Chapters\n00:00 Hook: bank wala DBT ya data build tool?\n00:24 Intro: Ajay Chouhan (Aura Automation)\n00:36 dbt kya hai? (ELT ka T)\n01:13 Problem: bikhri SQL + kitchen example\n01:51 4 concepts: model, ref, materialization, lineage\n02:45 Starter project + Demo: pip install dbt-duckdb, dbt init\n03:19 Demo: dbt seed + dbt run\n03:57 Demo: dbt test FAIL → fix → PASS\n04:28 Demo: dbt docs + lineage graph\n04:40 Ab aap khud karo: 5 steps + dbt build\n05:01 dbt Core vs dbt Cloud + outro\n\nℹ️ dbt Core open-source aur free hai. dbt Cloud hosted version hai — uski pricing official website par check karein.\n\n💬 Aap student ho ya job mein? Comment karo!\n👉 Starter project (files ke saath) chahiye? Comment karo \"DBT\"\n\n📌 Is video mein:\nHinglish: dbt kya hai, dbt tutorial hindi, data build tool kya hai, dbt for beginners\nHindi: डीबीटी (डेटा बिल्ड टूल) क्या है\nEnglish: dbt (data build tool) tutorial for beginners in Hindi — dbt Core + DuckDB\n\n🔔 Aise aur videos ke liye Subscribe karo: Automation, Vibe Coding aur Error Fix — simple Hinglish mein.\n📅 Free 30-Min Consultation: https://www.auraautomation.site/pages/contact.html\n🌐 Website: https://www.auraautomation.site\n📸 Instagram: https://www.instagram.com/auraautomation.in\n💬 WhatsApp: +91 95874 02524\n\n#dbt #dataengineering #sql #hindi #auraautomation",
+      "publishedAt": "2026-11-06T12:30:20Z",
+      "durationSec": 332,
+      "thumbs": {
+        "mq": "https://i.ytimg.com/vi/Vz8AM3Q55fg/mqdefault.jpg",
+        "hq": "https://i.ytimg.com/vi/Vz8AM3Q55fg/hqdefault.jpg",
+        "max": "https://i.ytimg.com/vi/Vz8AM3Q55fg/maxresdefault.jpg",
+        "vertical": null
+      },
+      "playlists": [
+        "PLTGxIVVo8v_c"
+      ],
+      "removed": false
+    },
     {
       "id": "Fza6o3HBfTs",
       "slug": "ye-photo-naach-rahi-hai-0-mein-free-motion-control-ai",
