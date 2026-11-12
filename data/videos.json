@@ -2,7 +2,7 @@
   "channelId": "UCGvvp1dn6jiXIBXpLs6WMGA",
   "channelTitle": "Aura Automation",
   "source": "api",
-  "fetchedAt": "2026-11-11T08:04:36.259Z",
+  "fetchedAt": "2026-11-12T08:41:35.102Z",
   "playlists": [
     {
       "id": "PLJ99Uf4p0PzQ",
@@ -18,6 +18,44 @@
     }
   ],
   "videos": [
+    {
+      "id": "5u0ZdaR4Oe4",
+      "slug": "push-kiya-website-band-ci-cd-30-sec-mein",
+      "kind": "short",
+      "title": "Push Kiya… Website BAND! 💀 CI/CD 30 Sec Mein #shorts #github",
+      "description": "Code push kiya… aur website band! 💀\n✅ CI: har push par robot khud build + test karta hai — bug mila to wahin STOP\n✅ CD: test pass, to apne aap live\nGitHub Actions — public repo par free.\n▶️ Asli demo ke saath poora tutorial: https://youtu.be/Fnvq8paI5NE\n👉 Workflow file chahiye? Comment karo \"CICD\"\n\n🔔 Subscribe karo: Automation, Vibe Coding aur Error Fix — simple Hinglish mein.\n📅 Free 30-Min Consultation: https://www.auraautomation.site/pages/contact.html\n🌐 https://www.auraautomation.site · 📸 https://www.instagram.com/auraautomation.in · 💬 +91 95874 02524\n\n#shorts #cicd #githubactions #devops #hindi #auraautomation",
+      "publishedAt": "2026-11-11T15:16:35Z",
+      "durationSec": 27,
+      "thumbs": {
+        "mq": "https://i.ytimg.com/vi/5u0ZdaR4Oe4/mqdefault.jpg",
+        "hq": "https://i.ytimg.com/vi/5u0ZdaR4Oe4/hqdefault.jpg",
+        "max": "https://i.ytimg.com/vi/5u0ZdaR4Oe4/maxresdefault.jpg",
+        "vertical": "https://i.ytimg.com/vi/5u0ZdaR4Oe4/oar2.jpg"
+      },
+      "playlists": [
+        "PLTGxIVVo8v_c"
+      ],
+      "removed": false
+    },
+    {
+      "id": "Fnvq8paI5NE",
+      "slug": "ci-cd-kya-hai-github-actions-beginners-ke-liye-hindi",
+      "kind": "video",
+      "title": "CI/CD Kya Hai? GitHub Actions Beginners Ke Liye (Hindi) ⚙️",
+      "description": "Code push kiya… aur poori website band? 😱 Is 5 minute ke video mein CI/CD bilkul zero se — aur GitHub Actions par free mein ek ASLI pipeline: test fail hua to deploy ruk gaya, pass hua to page apne aap live!\n\nKya seekhoge:\n✅ CI (Continuous Integration) vs CD (Continuous Delivery / Deployment)\n✅ GitHub Actions ke 5 shabd: workflow, trigger, job, steps, runner\n✅ Asli demo: push → tests ✅ → GitHub Pages par auto deploy\n✅ Bug daala → tests ❌ → deploy skip (galti live nahi gayi)\n✅ 4 steps mein khud kaise shuru karein\n\n🔗 Demo repo (public): https://github.com/AC1717006/aura-cicd-demo\n🌐 Live demo page: https://ac1717006.github.io/aura-cicd-demo/\n\n⏱️ Chapters\n00:00 Hook: website down, robot ne roka?\n00:17 Intro: Ajay Chouhan (Aura Automation)\n00:29 CI vs CD: Integration, Delivery, Deployment\n01:08 Problem: zip + manual upload\n01:31 GitHub Actions ke 5 shabd + free hai?\n02:07 Ready-made ci.yml + Demo: push → hara tick\n02:58 Demo: bug → laal ❌ → fix\n03:33 CD: deploy job → live page + proof\n04:08 Ab aap khud karo: 4 steps\n04:28 Outro\n\nℹ️ Public repo par GitHub ke standard runners free hain; private repo ke free minutes ki limit GitHub docs mein dekhein.\n\n💬 Aap kis project pe CI/CD lagaoge? Comment karo!\n👉 Ready-made workflow file chahiye? Comment karo \"CICD\"\n\n📌 Is video mein:\nHinglish: ci cd kya hai, github actions tutorial hindi, ci cd pipeline kaise banaye, github pages deploy\nHindi: सीआई सीडी क्या है\nEnglish: CI/CD explained for beginners in Hindi — GitHub Actions + GitHub Pages demo\n\n🔔 Aise aur videos ke liye Subscribe karo: Automation, Vibe Coding aur Error Fix — simple Hinglish mein.\n📅 Free 30-Min Consultation: https://www.auraautomation.site/pages/contact.html\n🌐 Website: https://www.auraautomation.site\n📸 Instagram: https://www.instagram.com/auraautomation.in\n💬 WhatsApp: +91 95874 02524\n\n#cicd #githubactions #devops #github #hindi #auraautomation",
+      "publishedAt": "2026-11-11T15:15:21Z",
+      "durationSec": 286,
+      "thumbs": {
+        "mq": "https://i.ytimg.com/vi/Fnvq8paI5NE/mqdefault.jpg",
+        "hq": "https://i.ytimg.com/vi/Fnvq8paI5NE/hqdefault.jpg",
+        "max": "https://i.ytimg.com/vi/Fnvq8paI5NE/maxresdefault.jpg",
+        "vertical": null
+      },
+      "playlists": [
+        "PLTGxIVVo8v_c"
+      ],
+      "removed": false
+    },
     {
       "id": "o69sVtS68MA",
       "slug": "code-chala-demo-mein-crash-tdd-vs-bdd-30-sec-mein",
