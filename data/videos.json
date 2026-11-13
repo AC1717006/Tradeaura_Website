@@ -2,7 +2,7 @@
   "channelId": "UCGvvp1dn6jiXIBXpLs6WMGA",
   "channelTitle": "Aura Automation",
   "source": "api",
-  "fetchedAt": "2026-11-12T08:41:35.102Z",
+  "fetchedAt": "2026-11-13T08:32:08.532Z",
   "playlists": [
     {
       "id": "PLJ99Uf4p0PzQ",
@@ -18,6 +18,44 @@
     }
   ],
   "videos": [
+    {
+      "id": "q5_yw_6SG3c",
+      "slug": "final-final-v3-ud-gaya-git-vs-github-30-sec",
+      "kind": "short",
+      "title": "\"final_final_v3\" Ud Gaya? 💀 Git vs GitHub 30 Sec #shorts #git",
+      "description": "Final, final, pakka final… aur kal wala version ud gaya! 💀\n✅ Git = laptop pe har badlav ka save point\n✅ GitHub = online album — share karo, team ke saath kaam karo\nGit camera, GitHub album! 📸\n▶️ Asli demo ke saath poora tutorial: https://youtu.be/ecWXZOBFN5w\n👉 Cheat sheet chahiye? Comment karo \"GIT\"\n\n🔔 Subscribe karo: Automation, Vibe Coding aur Error Fix — simple Hinglish mein.\n📅 Free 30-Min Consultation: https://www.auraautomation.site/pages/contact.html\n🌐 https://www.auraautomation.site · 📸 https://www.instagram.com/auraautomation.in · 💬 +91 95874 02524\n\n#shorts #git #github #coding #hindi #auraautomation",
+      "publishedAt": "2026-11-12T12:45:26Z",
+      "durationSec": 29,
+      "thumbs": {
+        "mq": "https://i.ytimg.com/vi/q5_yw_6SG3c/mqdefault.jpg",
+        "hq": "https://i.ytimg.com/vi/q5_yw_6SG3c/hqdefault.jpg",
+        "max": "https://i.ytimg.com/vi/q5_yw_6SG3c/maxresdefault.jpg",
+        "vertical": "https://i.ytimg.com/vi/q5_yw_6SG3c/oar2.jpg"
+      },
+      "playlists": [
+        "PLTGxIVVo8v_c"
+      ],
+      "removed": false
+    },
+    {
+      "id": "ecWXZOBFN5w",
+      "slug": "git-vs-github-kya-hai-beginners-ke-liye-5-min-mein-hindi",
+      "kind": "video",
+      "title": "Git vs GitHub Kya Hai? Beginners Ke Liye 5 Min Mein (Hindi) 🔀",
+      "description": "File ka naam \"final_final_pakka_final_v3\"… aur kal wala version ud gaya? 😭 Is video mein Git aur GitHub ka farak bilkul zero se — aur laptop pe asli demo!\n\nKya seekhoge:\n✅ Git kya hai — version control, commit = save point\n✅ GitHub kya hai — Git projects ka online ghar (GitLab, Bitbucket jaise)\n✅ Git vs GitHub: ek table mein farak\n✅ Asli demo: git init, add, commit, diff, log, restore (mita hua text wapas!)\n✅ Branch + merge, aur git push → GitHub Actions ✅\n\n🔗 Demo repo: https://github.com/AC1717006/aura-cicd-demo\n\n⏱️ Chapters\n00:00 Hook: final_final file ud gaya\n00:24 Intro: Ajay Chouhan (Aura Automation)\n00:36 Git kya hai: commit = save point\n00:58 GitHub kya hai: online album\n01:28 Git vs GitHub: farak table\n01:51 Cheat sheet + Demo: init, add, commit, diff, restore\n03:13 Branch + merge (asli output)\n03:27 GitHub demo: git push → Actions ✅\n03:58 Ab aap khud karo: 4 steps\n04:09 Outro\n\n💬 Aapka pehla commit message kya hoga? Comment karo!\n👉 Git commands ki 1-page cheat sheet chahiye? Comment karo \"GIT\"\n\n📌 Is video mein:\nHinglish: git vs github, git kya hai, github kya hai, git tutorial hindi, git commands for beginners\nHindi: गिट और गिटहब में क्या अंतर है\nEnglish: Git vs GitHub explained for beginners in Hindi — real demo\n\n🔔 Aise aur videos ke liye Subscribe karo: Automation, Vibe Coding aur Error Fix — simple Hinglish mein.\n📅 Free 30-Min Consultation: https://www.auraautomation.site/pages/contact.html\n🌐 Website: https://www.auraautomation.site\n📸 Instagram: https://www.instagram.com/auraautomation.in\n💬 WhatsApp: +91 95874 02524\n\n#git #github #coding #programming #hindi #auraautomation",
+      "publishedAt": "2026-11-12T12:45:04Z",
+      "durationSec": 270,
+      "thumbs": {
+        "mq": "https://i.ytimg.com/vi/ecWXZOBFN5w/mqdefault.jpg",
+        "hq": "https://i.ytimg.com/vi/ecWXZOBFN5w/hqdefault.jpg",
+        "max": "https://i.ytimg.com/vi/ecWXZOBFN5w/maxresdefault.jpg",
+        "vertical": null
+      },
+      "playlists": [
+        "PLTGxIVVo8v_c"
+      ],
+      "removed": false
+    },
     {
       "id": "5u0ZdaR4Oe4",
       "slug": "push-kiya-website-band-ci-cd-30-sec-mein",
