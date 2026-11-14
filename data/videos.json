@@ -2,7 +2,7 @@
   "channelId": "UCGvvp1dn6jiXIBXpLs6WMGA",
   "channelTitle": "Aura Automation",
   "source": "api",
-  "fetchedAt": "2026-11-13T08:32:08.532Z",
+  "fetchedAt": "2026-11-14T07:52:41.170Z",
   "playlists": [
     {
       "id": "PLJ99Uf4p0PzQ",
@@ -18,6 +18,44 @@
     }
   ],
   "videos": [
+    {
+      "id": "RFLA9NC33EY",
+      "slug": "guest-bahar-khada-staff-ko-pata-nahi-auto-task-system",
+      "kind": "short",
+      "title": "Guest Bahar Khada… Staff Ko Pata Nahi! 😤 Auto Task System #shorts #hotel",
+      "description": "Guest bahar khada hai… aur housekeeping ko pata hi nahi! 😤\n✅ Check-in hua → housekeeping ko kaam khud, deadline ke saath\n✅ Ek kaam Done → agla apne aap shuru\n✅ Har staff ka WND / WNDOT score khud banta hai\n▶️ Asli demo ke saath poora system: https://youtu.be/m5EB4s06CQA\n👉 Apne business ke liye chahiye? Comment karo \"SYSTEM\"\n\n🔔 Subscribe karo · 📅 Free 30-Min Consultation: https://www.auraautomation.site/pages/contact.html\n🌐 https://www.auraautomation.site · 📸 https://www.instagram.com/auraautomation.in · 💬 +91 95874 02524\n\n#shorts #hotelmanagement #businessautomation #staffmanagement #hindi #auraautomation",
+      "publishedAt": "2026-11-13T13:34:38Z",
+      "durationSec": 30,
+      "thumbs": {
+        "mq": "https://i.ytimg.com/vi/RFLA9NC33EY/mqdefault.jpg",
+        "hq": "https://i.ytimg.com/vi/RFLA9NC33EY/hqdefault.jpg",
+        "max": "https://i.ytimg.com/vi/RFLA9NC33EY/maxresdefault.jpg",
+        "vertical": "https://i.ytimg.com/vi/RFLA9NC33EY/oar2.jpg"
+      },
+      "playlists": [
+        "PLTGxIVVo8v_c"
+      ],
+      "removed": false
+    },
+    {
+      "id": "m5EB4s06CQA",
+      "slug": "staff-har-kaam-time-pe-kare-hotel-auto-task-system-hindi",
+      "kind": "video",
+      "title": "Staff Har Kaam Time Pe Kare? 🏨 Hotel Auto Task System (Hindi)",
+      "description": "Guest room ke bahar khada… aur housekeeping ko kisi ne bataya hi nahi? 😤 Is video mein aisa system jisme kisi ko kaam bolna hi na pade — ek kaam Done, agla apne aap shuru. Saath mein har staff ka WND / WNDOT score, Monday (EM) aur Operation (OM) meeting ke liye.\n\nKya seekhoge:\n✅ Auto flow: check-in → housekeeping → room service → bellboy → feedback call\n✅ WND (Work Not Done) aur WNDOT (Work Not Done On Time) kaise nikaale\n✅ Asli demo: task khud bana, late hua to laal + alert\n✅ EM report (Every Monday meeting) — har employee ka score\n✅ OM view (Operation meeting) — kaam kahan atak raha hai\n✅ Restaurant, gym, clinic, office — kahin bhi lagao\n\nℹ️ Demo app \"Hotel Sunrise\" ka naam aur data sample hai. Asli setup mein alerts WhatsApp par aate hain.\n\n⏱️ Chapters\n00:00 Hook: guest bahar, phone baj raha\n00:16 Intro: Ajay Chouhan (Aura Automation)\n00:28 Problem: register, staff group, proof nahi\n00:53 Auto flow: 5-step domino\n01:34 WND / WNDOT: Raju example\n02:17 Comment SYSTEM + Demo: auto flow, late alert\n03:10 Demo: EM report (Every Monday)\n03:45 Demo: OM view (bottleneck)\n04:15 Ab aap karo: 4 steps\n04:46 Outro\n\n💬 Aapke business mein kaunsa kaam sabse zyada atakta hai? Comment karo!\n👉 Apne business ke liye aisa system chahiye? Comment karo \"SYSTEM\" ya free consultation book karo 👇\n\n📌 Is video mein:\nHinglish: hotel staff management system, employee task tracking, staff kaam time pe kaise karaye, hotel automation hindi\nHindi: होटल स्टाफ का हर काम टाइम पर कैसे कराएं\nEnglish: hotel staff task automation system — auto task flow, WND/WNDOT employee score\n\n🔔 Aise aur videos ke liye Subscribe karo: Automation, Vibe Coding aur Error Fix — simple Hinglish mein.\n📅 Free 30-Min Consultation: https://www.auraautomation.site/pages/contact.html\n🌐 Website: https://www.auraautomation.site\n📸 Instagram: https://www.instagram.com/auraautomation.in\n💬 WhatsApp: +91 95874 02524\n\n#hotelmanagement #businessautomation #staffmanagement #automation #hindi #auraautomation",
+      "publishedAt": "2026-11-13T13:33:29Z",
+      "durationSec": 302,
+      "thumbs": {
+        "mq": "https://i.ytimg.com/vi/m5EB4s06CQA/mqdefault.jpg",
+        "hq": "https://i.ytimg.com/vi/m5EB4s06CQA/hqdefault.jpg",
+        "max": "https://i.ytimg.com/vi/m5EB4s06CQA/maxresdefault.jpg",
+        "vertical": null
+      },
+      "playlists": [
+        "PLTGxIVVo8v_c"
+      ],
+      "removed": false
+    },
     {
       "id": "q5_yw_6SG3c",
       "slug": "final-final-v3-ud-gaya-git-vs-github-30-sec",
@@ -80,9 +118,9 @@
       "slug": "ci-cd-kya-hai-github-actions-beginners-ke-liye-hindi",
       "kind": "video",
       "title": "CI/CD Kya Hai? GitHub Actions Beginners Ke Liye (Hindi) ⚙️",
-      "description": "Code push kiya… aur poori website band? 😱 Is 5 minute ke video mein CI/CD bilkul zero se — aur GitHub Actions par free mein ek ASLI pipeline: test fail hua to deploy ruk gaya, pass hua to page apne aap live!\n\nKya seekhoge:\n✅ CI (Continuous Integration) vs CD (Continuous Delivery / Deployment)\n✅ GitHub Actions ke 5 shabd: workflow, trigger, job, steps, runner\n✅ Asli demo: push → tests ✅ → GitHub Pages par auto deploy\n✅ Bug daala → tests ❌ → deploy skip (galti live nahi gayi)\n✅ 4 steps mein khud kaise shuru karein\n\n🔗 Demo repo (public): https://github.com/AC1717006/aura-cicd-demo\n🌐 Live demo page: https://ac1717006.github.io/aura-cicd-demo/\n\n⏱️ Chapters\n00:00 Hook: website down, robot ne roka?\n00:17 Intro: Ajay Chouhan (Aura Automation)\n00:29 CI vs CD: Integration, Delivery, Deployment\n01:08 Problem: zip + manual upload\n01:31 GitHub Actions ke 5 shabd + free hai?\n02:07 Ready-made ci.yml + Demo: push → hara tick\n02:58 Demo: bug → laal ❌ → fix\n03:33 CD: deploy job → live page + proof\n04:08 Ab aap khud karo: 4 steps\n04:28 Outro\n\nℹ️ Public repo par GitHub ke standard runners free hain; private repo ke free minutes ki limit GitHub docs mein dekhein.\n\n💬 Aap kis project pe CI/CD lagaoge? Comment karo!\n👉 Ready-made workflow file chahiye? Comment karo \"CICD\"\n\n📌 Is video mein:\nHinglish: ci cd kya hai, github actions tutorial hindi, ci cd pipeline kaise banaye, github pages deploy\nHindi: सीआई सीडी क्या है\nEnglish: CI/CD explained for beginners in Hindi — GitHub Actions + GitHub Pages demo\n\n🔔 Aise aur videos ke liye Subscribe karo: Automation, Vibe Coding aur Error Fix — simple Hinglish mein.\n📅 Free 30-Min Consultation: https://www.auraautomation.site/pages/contact.html\n🌐 Website: https://www.auraautomation.site\n📸 Instagram: https://www.instagram.com/auraautomation.in\n💬 WhatsApp: +91 95874 02524\n\n#cicd #githubactions #devops #github #hindi #auraautomation",
+      "description": "Code push kiya… aur poori website band? 😱 Is 5 minute ke video mein CI/CD bilkul zero se — aur GitHub Actions par free mein ek ASLI pipeline: test fail hua to deploy ruk gaya, pass hua to page apne aap live!\n\nKya seekhoge:\n✅ CI (Continuous Integration) vs CD (Continuous Delivery / Deployment)\n✅ GitHub Actions ke 5 shabd: workflow, trigger, job, steps, runner\n✅ Asli demo: push → tests ✅ → GitHub Pages par auto deploy\n✅ Bug daala → tests ❌ → deploy skip (galti live nahi gayi)\n✅ 4 steps mein khud kaise shuru karein\n\n🔗 Demo repo (public): https://github.com/AC1717006/aura-cicd-demo\n🌐 Live demo page: https://ac1717006.github.io/aura-cicd-demo/\n\n⏱️ Chapters\n00:00 Hook: website down, robot ne roka?\n00:17 Intro: Ajay Chouhan (Aura Automation)\n00:29 CI vs CD: Integration, Delivery, Deployment\n01:08 Problem: zip + manual upload\n01:27 GitHub Actions ke 5 shabd + free hai?\n02:04 Ready-made ci.yml + Demo: push → hara tick\n02:55 Demo: bug → laal ❌ → fix\n03:30 CD: deploy job → live page + proof\n04:04 Ab aap khud karo: 4 steps\n04:25 Outro\n\nℹ️ Public repo par GitHub ke standard runners free hain; private repo ke free minutes ki limit GitHub docs mein dekhein.\n\n💬 Aap kis project pe CI/CD lagaoge? Comment karo!\n👉 Ready-made workflow file chahiye? Comment karo \"CICD\"\n\n📌 Is video mein:\nHinglish: ci cd kya hai, github actions tutorial hindi, ci cd pipeline kaise banaye, github pages deploy\nHindi: सीआई सीडी क्या है\nEnglish: CI/CD explained for beginners in Hindi — GitHub Actions + GitHub Pages demo\n\n🔔 Aise aur videos ke liye Subscribe karo: Automation, Vibe Coding aur Error Fix — simple Hinglish mein.\n📅 Free 30-Min Consultation: https://www.auraautomation.site/pages/contact.html\n🌐 Website: https://www.auraautomation.site\n📸 Instagram: https://www.instagram.com/auraautomation.in\n💬 WhatsApp: +91 95874 02524\n\n#cicd #githubactions #devops #github #hindi #auraautomation",
       "publishedAt": "2026-11-11T15:15:21Z",
-      "durationSec": 286,
+      "durationSec": 282,
       "thumbs": {
         "mq": "https://i.ytimg.com/vi/Fnvq8paI5NE/mqdefault.jpg",
         "hq": "https://i.ytimg.com/vi/Fnvq8paI5NE/hqdefault.jpg",
