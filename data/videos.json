@@ -2,7 +2,7 @@
   "channelId": "UCGvvp1dn6jiXIBXpLs6WMGA",
   "channelTitle": "Aura Automation",
   "source": "api",
-  "fetchedAt": "2026-11-15T08:14:04.856Z",
+  "fetchedAt": "2026-11-16T08:21:19.216Z",
   "playlists": [
     {
       "id": "PLJ99Uf4p0PzQ",
@@ -18,6 +18,44 @@
     }
   ],
   "videos": [
+    {
+      "id": "LbMZCrZJlOs",
+      "slug": "microsoft-24-ghante-down-ai-ne-nahi-kiya",
+      "kind": "short",
+      "title": "Microsoft 24 Ghante Down… AI Ne Nahi Kiya! 😱 #shorts",
+      "description": "Duniya AI se dar rahi thi… aur Microsoft ko ek network change ne 24 ghante gira diya! 😱\nAgle din Workday — backup test, aur hazaaron companies ki salary atak gayi.\n✅ Na hacker, na AI — bas ek badlaav bina poori jaanch ke\n✅ Ilaaj: test, thoda-thoda rollout, rollback ready\n▶️ Poori kahani + asli demo: https://youtu.be/i049bAF_REk\n👉 Checklist chahiye? Comment karo \"BACKUP\"\n🔔 Subscribe karo · 🌐 https://www.auraautomation.site · 📸 https://www.instagram.com/auraautomation.in\n#shorts #microsoftoutage #outage #cloud #hindi #auraautomation",
+      "publishedAt": "2026-11-15T14:00:02Z",
+      "durationSec": 32,
+      "thumbs": {
+        "mq": "https://i.ytimg.com/vi/LbMZCrZJlOs/mqdefault.jpg",
+        "hq": "https://i.ytimg.com/vi/LbMZCrZJlOs/hqdefault.jpg",
+        "max": "https://i.ytimg.com/vi/LbMZCrZJlOs/maxresdefault.jpg",
+        "vertical": "https://i.ytimg.com/vi/LbMZCrZJlOs/oar2.jpg"
+      },
+      "playlists": [
+        "PLTGxIVVo8v_c"
+      ],
+      "removed": false
+    },
+    {
+      "id": "i049bAF_REk",
+      "slug": "microsoft-24-ghante-down-ai-ya-ek-galti-internet-kaise-girta-hai-hindi",
+      "kind": "video",
+      "title": "Microsoft 24 Ghante Down! AI Ya Ek Galti? Internet Kaise Girta Hai (Hindi)",
+      "description": "12 November ko Microsoft ka email, Teams aur Copilot lagbhag 24 ghante pareshaan raha… aur agle din Workday, jahan hazaaron companies ki salary chalti hai, poora din band! 😱 Kya ye AI tha? Hacker? Ya ek chhoti si galti? Is video mein poori kahani — aur laptop par asli demo ki aap apni website ko aisi galti se kaise bachao.\n\nKya jaanoge:\n✅ Microsoft 365 outage (12–13 Nov 2026) — kya hua aur kyun\n✅ Workday outage — backup test ne payroll kaise roka\n✅ Cloudflare aur GitHub — viral khabar ka sach\n✅ Pehle bhi hua: 2024 ka galat update, Cloudflare 2025, AWS 2025\n✅ Kya AI internet band kar sakta hai?\n✅ Asli demo: auto rollback, sahi backup test, canary rollout\n✅ Business ke liye 6-point checklist\n\n⏱️ Chapters\n00:00 Ek subah sab band: Microsoft aur Workday\n01:10 Microsoft 365 outage: 12 November ki poori kahani\n03:57 Workday outage: backup test ne salary roki\n05:50 Cloudflare aur GitHub: viral khabar ka sach\n06:23 Pehle bhi hua hai: 2024 update, Cloudflare 2025, AWS 2025\n07:46 Kya AI internet band kar sakta hai?\n09:06 Asli demo: auto rollback, sahi backup test, canary rollout\n10:36 Business ke liye 6-point checklist\n11:08 Outro\n\n📚 Sources:\nhttps://statusstack.com/blog/microsoft-365-exchange-online-outage-november-12-2026\nhttps://www.securityweek.com/microsoft-365-outage-disrupts-outlook-exchange-online-and-teams/\nhttps://statusstack.com/blog/workday-outage-november-13-2026\nhttps://blogs.microsoft.com/blog/2024/07/20/helping-our-customers-through-the-crowdstrike-outage/\nhttps://www.techtarget.com/cybersecurity/news/366596532/Microsoft-Faulty-CrowdStrike-update-affected-85M-devices\nhttps://blog.cloudflare.com/18-november-2025-outage/\nhttps://www.ilert.com/postmortems/cloudflare-global-outage-nov-2025\nhttps://aws.amazon.com/message/101925/\nhttps://www.bleepingcomputer.com/news/technology/amazon-this-weeks-aws-outage-was-caused-by-major-dns-failure/\nℹ️ Demo app \"Chai Point\" ka naam aur data sample hai. Is video mein kisi company ka logo istemal nahi hua; jaankari public reports aur company statements par aadharit hai.\n\n💬 Kya aap AI ko apne server ki chaabi doge? Comment karo!\n👉 Backup + rollback checklist chahiye? Comment karo \"BACKUP\"\n\n📌 Is video mein:\nHinglish: microsoft outage kyu hua, microsoft down november 2026, workday outage, internet down kyu hota hai, rollback kya hai, backup test kaise kare\nHindi: माइक्रोसॉफ्ट डाउन क्यों हुआ\nEnglish: Microsoft 365 outage November 2026 explained in Hindi — Workday outage, AI or human error, rollback and backup demo\n\n🔔 Aise aur videos ke liye Subscribe karo: Automation, Vibe Coding aur Error Fix — simple Hinglish mein.\n📅 Free 30-Min Consultation: https://www.auraautomation.site/pages/contact.html\n🌐 Website: https://www.auraautomation.site\n📸 Instagram: https://www.instagram.com/auraautomation.in\n💬 WhatsApp: +91 95874 02524\n\n#microsoftoutage #outage #cloud #devops #hindi #auraautomation",
+      "publishedAt": "2026-11-15T14:00:02Z",
+      "durationSec": 688,
+      "thumbs": {
+        "mq": "https://i.ytimg.com/vi/i049bAF_REk/mqdefault.jpg",
+        "hq": "https://i.ytimg.com/vi/i049bAF_REk/hqdefault.jpg",
+        "max": "https://i.ytimg.com/vi/i049bAF_REk/maxresdefault.jpg",
+        "vertical": null
+      },
+      "playlists": [
+        "PLTGxIVVo8v_c"
+      ],
+      "removed": false
+    },
     {
       "id": "RFLA9NC33EY",
       "slug": "guest-bahar-khada-staff-ko-pata-nahi-auto-task-system",
