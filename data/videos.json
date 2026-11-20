@@ -2,7 +2,7 @@
   "channelId": "UCGvvp1dn6jiXIBXpLs6WMGA",
   "channelTitle": "Aura Automation",
   "source": "api",
-  "fetchedAt": "2026-11-19T09:12:09.554Z",
+  "fetchedAt": "2026-11-20T08:55:30.716Z",
   "playlists": [
     {
       "id": "PLJ99Uf4p0PzQ",
@@ -18,6 +18,25 @@
     }
   ],
   "videos": [
+    {
+      "id": "WKy3eLSH_NA",
+      "slug": "100-baar-check-0-parcel-webhook-20-sec-mein",
+      "kind": "short",
+      "title": "100 Baar Check, 0 Parcel 😤 Webhook 20 Sec Mein #shorts",
+      "description": "Sau baar darwaza khola… parcel zero! 😤\n✅ Polling = baar-baar poochna (din ke 1,440 sawaal)\n✅ Webhook = doorbell — kaam hote hi server khud batata hai\n▶️ Asli demo ke saath poora tutorial: https://youtu.be/ABJjJ7hjZGs\n👉 Code chahiye? Comment karo \"WEBHOOK\"\n\n🔔 Subscribe karo · 📅 Free 30-Min Consultation: https://www.auraautomation.site/pages/contact.html\n🌐 https://www.auraautomation.site · 📸 https://www.instagram.com/auraautomation.in · 💬 +91 95874 02524\n\n#shorts #webhook #api #coding #hindi #auraautomation",
+      "publishedAt": "2026-11-19T13:00:13Z",
+      "durationSec": 23,
+      "thumbs": {
+        "mq": "https://i.ytimg.com/vi/WKy3eLSH_NA/mqdefault.jpg",
+        "hq": "https://i.ytimg.com/vi/WKy3eLSH_NA/hqdefault.jpg",
+        "max": "https://i.ytimg.com/vi/WKy3eLSH_NA/maxresdefault.jpg",
+        "vertical": "https://i.ytimg.com/vi/WKy3eLSH_NA/oar2.jpg"
+      },
+      "playlists": [
+        "PLTGxIVVo8v_c"
+      ],
+      "removed": false
+    },
     {
       "id": "LbMZCrZJlOs",
       "slug": "microsoft-24-ghante-down-ai-ne-nahi-kiya",
