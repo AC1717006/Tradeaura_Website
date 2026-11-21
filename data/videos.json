@@ -2,7 +2,7 @@
   "channelId": "UCGvvp1dn6jiXIBXpLs6WMGA",
   "channelTitle": "Aura Automation",
   "source": "api",
-  "fetchedAt": "2026-11-20T08:55:30.716Z",
+  "fetchedAt": "2026-11-21T08:37:45.420Z",
   "playlists": [
     {
       "id": "PLJ99Uf4p0PzQ",
@@ -18,6 +18,59 @@
     }
   ],
   "videos": [
+    {
+      "id": "VwkPdHUi8tI",
+      "slug": "vibe-coding-ke-liye-best-laptop-8gb-vs-16gb-ram-laptop-buying-guide-20",
+      "kind": "video",
+      "title": "Vibe Coding Ke Liye Best Laptop? 💻 8GB vs 16GB RAM | Laptop Buying Guide 2026 #laptop #vibecoding",
+      "description": "💻 Vibe Coding ke liye kaunsa laptop best hai? 8GB RAM enough hai ya 16GB RAM zaroori hai?\n\nIs video mein hum real laptop RAM usage test karenge aur samjhenge ki AI Coding, Vibe Coding aur Software Development ke liye laptop kharidte waqt kin 5 cheezon ka dhyan rakhna chahiye.\n\n🔥 **Is Video Mein Kya Seekhenge?**\n✅ Laptop hang kyun hota hai?\n✅ Vibe Coding mein RAM aur Processor ka role\n✅ 8GB RAM laptop ka real test\n✅ RAM, SSD, Processor, Battery aur Screen\n✅ Windows vs Mac – kya choose karein?\n✅ ₹60,000 se ₹1 Lakh tak laptop buying guide\n✅ Laptop kharidne se pehle 3 important questions\n\n⏱️ **Video Chapters:**\n00:00 Laptop Atak Gaya! RAM Full\n00:20 Vibe Coding: RAM vs Processor\n00:56 8GB RAM Laptop Real Test\n01:41 Laptop Ki 5 Important Cheezein\n03:01 Windows vs Mac – Kya Best Hai?\n03:40 Laptop Buying Guide: ₹60K to ₹1 Lakh\n04:35 Laptop Choose Karne Ke 4 Steps\n04:48 Aapke Laptop Mein Kitni RAM Hai?\n\n🚀 Agar aap AI Tools, Claude Code, Cursor AI, ChatGPT ya Vibe Coding seekhna chahte hain, to channel ko Subscribe karein.\n\n💬 COMMENT KAREIN:\nAapke laptop mein 8GB, 16GB ya 32GB RAM hai? Aur aapka laptop coding ke waqt hang hota hai?\n\n🔔 Subscribe for AI Automation, Vibe Coding, Coding Tutorials & Tech Tips in Hindi.\n\n🌐 Website: https://www.auraautomation.site\n📸 Instagram: https://www.instagram.com/auraautomation.in\n📱 WhatsApp: +91 95874 02524\n\n#VibeCoding #BestLaptop2026 #CodingLaptop #LaptopBuyingGuide #8GBvs16GB #AICoding #ClaudeCode #CursorAI #RAMTest #HindiTech #AuraAutomation\n🔔 Aise aur videos ke liye Subscribe karo: Automation, Vibe Coding aur Error Fix — simple Hinglish mein.\n\n📅 Free 30-Min Consultation: https://www.auraautomation.site/pages/contact.html\n🌐 Website: https://www.auraautomation.site\n📸 Instagram: https://www.instagram.com/auraautomation.in\n💬 WhatsApp: +91 95874 02524\n\n#automation #vibecoding #hindi #auraautomation",
+      "publishedAt": "2026-11-21T01:00:27Z",
+      "durationSec": 306,
+      "thumbs": {
+        "mq": "https://i.ytimg.com/vi/VwkPdHUi8tI/mqdefault.jpg",
+        "hq": "https://i.ytimg.com/vi/VwkPdHUi8tI/hqdefault.jpg",
+        "max": "https://i.ytimg.com/vi/VwkPdHUi8tI/maxresdefault.jpg",
+        "vertical": null
+      },
+      "playlists": [],
+      "removed": false
+    },
+    {
+      "id": "tAKkToCieFI",
+      "slug": "vibe-coding-ke-liye-best-laptop-8gb-vs-16gb-ram-laptop-buying-guide-20-2",
+      "kind": "short",
+      "title": "Vibe Coding Ke Liye Best Laptop? 💻 8GB vs 16GB RAM | Laptop Buying Guide 2026 #laptop #vibecoding",
+      "description": "🔔 Aise aur videos ke liye Subscribe karo: Automation, Vibe Coding aur Error Fix — simple Hinglish mein.\n\n📅 Free 30-Min Consultation: https://www.auraautomation.site/pages/contact.html\n🌐 Website: https://www.auraautomation.site\n📸 Instagram: https://www.instagram.com/auraautomation.in\n💬 WhatsApp: +91 95874 02524\n\n#automation #vibecoding #hindi #auraautomation",
+      "publishedAt": "2026-11-20T13:45:36Z",
+      "durationSec": 31,
+      "thumbs": {
+        "mq": "https://i.ytimg.com/vi/tAKkToCieFI/mqdefault.jpg",
+        "hq": "https://i.ytimg.com/vi/tAKkToCieFI/hqdefault.jpg",
+        "max": "https://i.ytimg.com/vi/tAKkToCieFI/maxresdefault.jpg",
+        "vertical": "https://i.ytimg.com/vi/tAKkToCieFI/oar2.jpg"
+      },
+      "playlists": [],
+      "removed": false
+    },
+    {
+      "id": "ABJjJ7hjZGs",
+      "slug": "webhook-kya-hai-beginners-ke-liye-hindi",
+      "kind": "video",
+      "title": "Webhook Kya Hai? Beginners Ke Liye (Hindi) 🔔",
+      "description": "Order aaya… aur aadhe second mein kitchen mein ghanti! 🔔 Is video mein Webhook bilkul zero se — doorbell wale example se, aur laptop par ek ASLI demo ke saath.\n\nKya seekhoge:\n✅ Webhook kya hai — doorbell example\n✅ Polling vs Webhook: 1,440 sawaal vs 1 message\n✅ Asli demo: order → webhook → kitchen screen (Python Flask)\n✅ JSON payload ke andar kya hota hai\n✅ Security: secret key / signature check, nakli request = 401\n✅ Duplicate message kaise rokein\n✅ 4 steps mein apna webhook\n\nℹ️ Demo app \"Chai Point\" ka naam aur data sample hai.\n\n⏱️ Chapters\n00:00 Hook: order aaya, kitchen mein ghanti\n00:16 Webhook kya hai? Doorbell example\n00:34 Polling vs Webhook: 1,440 vs 1\n00:59 Asli demo: order → webhook → kitchen (Python Flask)\n01:37 Proof: 1 minute test\n01:58 Security: secret key, 401, duplicate\n02:28 Ab aap karo: 4 steps\n02:42 Outro\n\n💬 Aap pehla webhook kis cheez par lagaoge? Comment karo!\n👉 Poora code chahiye? Comment karo \"WEBHOOK\"\n\n📌 Is video mein:\nHinglish: webhook kya hai, webhook kaise kaam karta hai, webhook vs api, webhook vs polling, webhook tutorial hindi\nHindi: वेबहुक क्या है\nEnglish: What is a webhook — explained for beginners in Hindi with a real demo\n\n🔔 Aise aur videos ke liye Subscribe karo: Automation, Vibe Coding aur Error Fix — simple Hinglish mein.\n📅 Free 30-Min Consultation: https://www.auraautomation.site/pages/contact.html\n🌐 Website: https://www.auraautomation.site\n📸 Instagram: https://www.instagram.com/auraautomation.in\n💬 WhatsApp: +91 95874 02524\n\n#webhook #api #automation #coding #hindi #auraautomation",
+      "publishedAt": "2026-11-20T13:30:32Z",
+      "durationSec": 180,
+      "thumbs": {
+        "mq": "https://i.ytimg.com/vi/ABJjJ7hjZGs/mqdefault.jpg",
+        "hq": "https://i.ytimg.com/vi/ABJjJ7hjZGs/hqdefault.jpg",
+        "max": "https://i.ytimg.com/vi/ABJjJ7hjZGs/maxresdefault.jpg",
+        "vertical": null
+      },
+      "playlists": [
+        "PLTGxIVVo8v_c"
+      ],
+      "removed": false
+    },
     {
       "id": "WKy3eLSH_NA",
       "slug": "100-baar-check-0-parcel-webhook-20-sec-mein",
