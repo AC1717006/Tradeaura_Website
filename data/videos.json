@@ -2,7 +2,7 @@
   "channelId": "UCGvvp1dn6jiXIBXpLs6WMGA",
   "channelTitle": "Aura Automation",
   "source": "api",
-  "fetchedAt": "2026-11-21T08:37:45.420Z",
+  "fetchedAt": "2026-11-22T08:33:30.388Z",
   "playlists": [
     {
       "id": "PLJ99Uf4p0PzQ",
@@ -33,7 +33,7 @@
         "vertical": null
       },
       "playlists": [],
-      "removed": false
+      "removed": true
     },
     {
       "id": "tAKkToCieFI",
@@ -50,7 +50,7 @@
         "vertical": "https://i.ytimg.com/vi/tAKkToCieFI/oar2.jpg"
       },
       "playlists": [],
-      "removed": false
+      "removed": true
     },
     {
       "id": "ABJjJ7hjZGs",
