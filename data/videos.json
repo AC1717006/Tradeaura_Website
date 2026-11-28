@@ -2,7 +2,7 @@
   "channelId": "UCGvvp1dn6jiXIBXpLs6WMGA",
   "channelTitle": "Aura Automation",
   "source": "api",
-  "fetchedAt": "2026-11-27T09:58:12.093Z",
+  "fetchedAt": "2026-11-28T09:13:32.699Z",
   "playlists": [
     {
       "id": "PLJ99Uf4p0PzQ",
@@ -18,6 +18,44 @@
     }
   ],
   "videos": [
+    {
+      "id": "MHCKI9tk4ik",
+      "slug": "ek-comma-bhool-gaye-app-band-json-30-sec",
+      "kind": "short",
+      "title": "Ek Comma Bhool Gaye… App BAND! 😱 JSON 30 Sec #shorts",
+      "description": "Ek comma bhool gaye… aur poori app band! 😱\n✅ JSON = apps ki chitthi: key + value, { } ke andar\n✅ 3 common galti: comma bhoolna, single quote, aakhri extra comma\n✅ Ilaaj: python -m json.tool — galti ki line seedha bata dega\n▶️ Poora tutorial: https://youtu.be/aqj_rE-u4Eg\n👉 Cheat sheet: comment \"JSON\"\n🔔 Subscribe · 🌐 https://www.auraautomation.site · 📸 https://www.instagram.com/auraautomation.in\n#shorts #json #coding #python #hindi #auraautomation",
+      "publishedAt": "2026-11-27T13:45:15Z",
+      "durationSec": 31,
+      "thumbs": {
+        "mq": "https://i.ytimg.com/vi/MHCKI9tk4ik/mqdefault.jpg",
+        "hq": "https://i.ytimg.com/vi/MHCKI9tk4ik/hqdefault.jpg",
+        "max": "https://i.ytimg.com/vi/MHCKI9tk4ik/maxresdefault.jpg",
+        "vertical": "https://i.ytimg.com/vi/MHCKI9tk4ik/oar2.jpg"
+      },
+      "playlists": [
+        "PLTGxIVVo8v_c"
+      ],
+      "removed": false
+    },
+    {
+      "id": "aqj_rE-u4Eg",
+      "slug": "json-kya-hai-5-min-mein-samjho-hindi",
+      "kind": "video",
+      "title": "JSON Kya Hai? 5 Min Mein Samjho (Hindi) { }",
+      "description": "Ek comma bhool gaye… aur poori app band! 😱 Is video mein JSON bilkul zero se — key-value, 4 niyam, 3 sabse common galtiyan aur unka fix — laptop par asli errors ke saath.\n\nKya seekhoge:\n✅ JSON kya hai — apps ki chitthi\n✅ Key aur value, object aur list (dabbe ke andar dabba)\n✅ 4 niyam jinme sab galti karte hain\n✅ Asli errors: missing comma, single quote, trailing comma\n✅ python -m json.tool se galti seedha pakdo\n✅ json.load aur json.dumps\n✅ JSON vs Excel, aur YAML kya hai\n\n⏱️ Chapters\n00:00 Ek comma bhool gaye, app band (asli error)\n00:20 JSON kya hai? Key aur value\n01:16 JSON ke 4 niyam (aur sabse common galti)\n02:35 Asli demo: 4 galtiyan, json.tool, VS Code, json.load / dumps\n04:08 JSON vs Excel, YAML, aur badi file kaise padhein\n04:47 Ab aap karo: 4 step\n05:02 Outro: agli video API\n\n💬 Aapki pehli JSON file mein kya hoga? Comment karo!\n👉 JSON ki 1-page cheat sheet chahiye? Comment karo \"JSON\"\n\n📌 Is video mein:\nHinglish: json kya hai, json kaise likhe, json error fix, json tutorial hindi, json for beginners\nHindi: जेसन क्या है\nEnglish: What is JSON — explained for beginners in Hindi with real errors\n\n🔔 Aise aur videos ke liye Subscribe karo: Automation, Vibe Coding aur Error Fix — simple Hinglish mein.\n📅 Free 30-Min Consultation: https://www.auraautomation.site/pages/contact.html\n🌐 Website: https://www.auraautomation.site\n📸 Instagram: https://www.instagram.com/auraautomation.in\n💬 WhatsApp: +91 95874 02524\n\n#json #api #coding #programming #hindi #auraautomation",
+      "publishedAt": "2026-11-27T13:30:22Z",
+      "durationSec": 318,
+      "thumbs": {
+        "mq": "https://i.ytimg.com/vi/aqj_rE-u4Eg/mqdefault.jpg",
+        "hq": "https://i.ytimg.com/vi/aqj_rE-u4Eg/hqdefault.jpg",
+        "max": "https://i.ytimg.com/vi/aqj_rE-u4Eg/maxresdefault.jpg",
+        "vertical": null
+      },
+      "playlists": [
+        "PLTGxIVVo8v_c"
+      ],
+      "removed": false
+    },
     {
       "id": "50_wrjzF8G8",
       "slug": "laptop-atak-gaya-ram-92-vibe-coding-laptop-ka-sach",
